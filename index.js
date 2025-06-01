@@ -31,7 +31,7 @@ init();
 async function init() {
     highwayData = await fetchJSON(highwaysURL)
     if (!highwayData) {
-        console.log('[Dynglobe] There was a problem with getting station and line data')
+        console.log('debug: There was a problem with getting station and line data')
     }
     await renderTowns();
     renderLines();
@@ -44,7 +44,7 @@ async function renderTowns() {
     const startTownRender = new Date()
     const data = await fetchJSON(proxyURL + mapURL + '/minecraft_overworld/markers.json')
     if (!data || data[0].markers.length == 0) {
-        console.log('[Dynglobe] There was a problem with getting towns data')
+        console.log('debug: There was a problem with getting towns data')
         return
     }
     
@@ -90,7 +90,7 @@ async function renderTowns() {
     
     const stopTownRender = new Date()
     const diff = stopTownRender - startTownRender
-    console.log(`[Dynglobe] Rendering towns took ${diff}ms`)
+    console.log(`debug: Rendering towns took ${diff}ms`)
 }
 
 async function renderLines() {
@@ -127,7 +127,7 @@ async function renderLines() {
     }
     
     const stopLineRender = new Date()
-    console.log(`[Dynglobe] Rendering lines took ${stopLineRender - startLineRender}ms`)
+    console.log(`debug: Rendering lines took ${stopLineRender - startLineRender}ms`)
 }
 
 async function renderStations() {
@@ -154,7 +154,7 @@ async function renderStations() {
     }
     
     const stopStationRender = new Date()
-    console.log(`[Dynglobe] Rendering stations took ${stopStationRender - startStationRender}ms`)
+    console.log(`debug: Rendering stations took ${stopStationRender - startStationRender}ms`)
 }
 
 function listLine() {
@@ -301,7 +301,6 @@ function goBackHistory() {
         goToList('line')
     }
     viewHistory.pop();
-    console.log(viewHistory);
 }
 
 document.getElementById('about-tab').addEventListener('click', () => {
