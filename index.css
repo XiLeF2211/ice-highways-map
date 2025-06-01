@@ -1,0 +1,133 @@
+html, body {
+    background-color: black;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+canvas {
+    image-rendering: pixelated;
+    cursor: grab;
+}
+
+#mapa {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    image-rendering: pixelated;
+    position: fixed;
+}
+
+.leaflet-layer {
+    filter: brightness(50%);
+}
+
+#sidebar {
+    width: 20%;
+    height: 100%;
+    color: white;
+    position: absolute;
+    background-color: black;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.3) 15px 0px 15px;
+}
+
+#sidebar #x {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 0;
+    cursor: pointer;
+}
+
+#hamburger {
+    color: white;
+    position: fixed;
+    margin: 0;
+    padding: 20px;
+    font-size: 30px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+#nav {
+    width: 24%;
+    float: left;
+    background-color: #222;
+}
+
+#nav p {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    height: calc((100% - 2px) / 4);
+    writing-mode: sideways-lr;
+    text-orientation: upright;
+    font-size: 24px;
+}
+
+#nav .active {
+    background-color: black;
+}
+
+#bar {
+    width: 2%;
+    height: 100%;
+    background-color: #555;
+    float: left;
+}
+
+#content {
+    width: 74%;
+    float: left;
+}
+
+.back {
+    position: absolute;
+    top: 10px;
+    left: calc(26% + 10px);
+    margin: 0;
+    cursor: pointer;
+}
+
+.section {
+    padding: 3em;
+}
+
+.list-container {
+    width: calc(100% + 6em);
+    transform: translateX(-3em);
+}
+
+.list-container h1 {
+    padding: 0 1em;
+}
+
+dl > :nth-of-type(2n) {
+	background: #222;
+}
+
+.list {
+    margin: 0
+}
+
+.list dt {
+    padding: 1em;
+    font-size: 20px;
+}
+
+a {
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+hr {
+    margin: 0;
+    border: solid 1px #555;
+}

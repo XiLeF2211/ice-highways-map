@@ -7,7 +7,7 @@
             "z": 4020,
             "lines": {
                 "SEAN": {
-                    "purple": "01"
+                    "Purple": "01"
                 }
             }
         },
@@ -18,7 +18,7 @@
             "z": 4080,
             "lines": {
                 "SEAN": {
-                    "purple": "02"
+                    "Purple": "02"
                 }
             }
         },
@@ -29,7 +29,7 @@
             "z": 4268,
             "lines": {
                 "SEAN": {
-                    "purple": "03"
+                    "Purple": "03"
                 }
             }
         },
@@ -40,7 +40,7 @@
             "z": 4542,
             "lines": {
                 "SEAN": {
-                    "purple": "04"
+                    "Purple": "04"
                 }
             }
         },
@@ -51,7 +51,7 @@
             "z": 4732,
             "lines": {
                 "SEAN": {
-                    "purple": "05"
+                    "Purple": "05"
                 }
             }
         },
@@ -62,7 +62,7 @@
             "z": 4732,
             "lines": {
                 "SEAN": {
-                    "purple": "06"
+                    "Purple": "06"
                 }
             }
         },
@@ -73,7 +73,7 @@
             "z": 4732,
             "lines": {
                 "SEAN": {
-                    "purple": "07"
+                    "Purple": "07"
                 }
             }
         },
@@ -84,7 +84,7 @@
             "z": 4787,
             "lines": {
                 "SEAN": {
-                    "purple": "08"
+                    "Purple": "08"
                 }
             }
         },
@@ -95,7 +95,7 @@
             "z": 4886,
             "lines": {
                 "SEAN": {
-                    "purple": "09"
+                    "Purple": "09"
                 }
             }
         },
@@ -106,7 +106,7 @@
             "z": 4682,
             "lines": {
                 "SEAN": {
-                    "purple": "10"
+                    "Purple": "10"
                 }
             }
         },
@@ -117,16 +117,17 @@
             "z": 4682,
             "lines": {
                 "SEAN": {
-                    "purple": "11"
+                    "Purple": "11"
                 }
             }
         }
     ],
     "lines": {
         "SEAN": {
-            "purple": {
+            "Purple": {
                 "code": "PU",
                 "color": "A020F0",
+                "y": "44",
                 "stations": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
                 "vertices": [
                     [

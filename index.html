@@ -1,30 +1,62 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="index.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-    <style>
-        html, body {
-            background-color: black;
-            margin: 0;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-        }
-        
-        canvas {
-            image-rendering: pixelated;
-            cursor: grab;
-        }
-
-        #mapa {
-            width: 100%;
-            height: 100%;
-            background-color: black;
-            image-rendering: pixelated;
-        }
-    </style>
 </head>
 <body>
+    <aside id="sidebar">
+        <p id="x" onclick="closeSide()">[x]</p>
+        <div id="nav">
+            <p id="about-tab" class="active">About</p>
+            <hr>
+            <p id="station-tab">Stations</p>
+            <hr>
+            <p id="line-tab">Lines</p>
+            <hr>
+            <p id="settings-tab">Settings</p>
+        </div>
+        <div id="bar"></div>
+        <div id="content">
+            <div id="main" class="section">
+                <h1>EarthMC Ice Highway Map</h1>
+                <p>
+                    Large amounts of code copied from Dynglobe source.<br>
+                    This program uses <a href="https://leafletjs.com/">Leaflet</a>.
+                </p>
+            </div>
+            <div id="station" class="section" style="display: none;">
+                <div id="station-list-container" class="list-container">
+                    <h1>Stations</h1>
+                    <hr>
+                    <dl id="station-list" class="list"></dl>
+                </div>
+                <div id="station-details">
+                    <p class="back" onclick="goBackHistory()">[<]</p>
+                    <h1 id="station-name"></h1>
+                    <p id="station-location"></p>
+                    <div id="station-codes"></div>
+                </div>
+            </div>
+            <div id="line" class="section" style="display: none;">
+                <div id="line-list-container" class="list-container">
+                    <h1>Lines</h1>
+                    <hr>
+                    <dl id="line-list" class="list"></dl>
+                </div>
+                <div id="line-details">
+                    <p class="back" onclick="goBackHistory()">[<]</p>
+                    <h1 id="line-name"></h1>
+                    <p id="line-y"></p>
+                    <div id="line-stations"></div>
+                </div>
+            </div>
+            <div id="settings" class="section" style="display:none">
+                <p>hi no settings rn ;-;</p>
+            </div>
+        </div>
+    </aside>
+    <p id="hamburger" onclick="openSide()">☰</p>
     <div id="mapa"></div>
     <script src="index.js"></script>
 </body>
