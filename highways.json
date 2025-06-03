@@ -125,7 +125,7 @@
             "name": "Agra JCT",
             "type": "jct",
             "id": 11,
-            "x": 14219,
+            "x": 14218,
             "z": -5184,
             "lines": {
                 "TNIH": {
@@ -294,6 +294,105 @@
                     "Lower Himalayas": ""
                 }
             }
+        },
+        {
+            "name": "Sahrai JCT",
+            "id": 26,
+            "x": 14218,
+            "z": -4780,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ""
+                }
+            }
+        },
+        {
+            "name": "Galatasaray",
+            "id": 27,
+            "x": 13684,
+            "z": -4686,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ""
+                }
+            }
+        },
+        {
+            "name": "Vilapur JCT",
+            "id": 28,
+            "x": 13311,
+            "z": -4686,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ""
+                }
+            }
+        },
+        {
+            "name": "Ahmehabad Mine JCT",
+            "id": 29,
+            "x": 12729,
+            "z": -4686,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ""
+                }
+            }
+        },
+        {
+            "name": "Karachi",
+            "id": 30,
+            "x": 12382,
+            "z": -4686,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ""
+                }
+            }
+        },
+        {
+            "name": "Gujarat",
+            "id": 31,
+            "x": 12729,
+            "z": -4310,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ""
+                }
+            }
+        },
+        {
+            "name": "Meteorville",
+            "id": 32,
+            "x": 13311,
+            "z": -4270,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ""
+                }
+            }
+        },
+        {
+            "name": "Kenovoville",
+            "id": 33,
+            "x": 13445,
+            "z": -4250,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ""
+                }
+            }
+        },
+        {
+            "name": "Armadia",
+            "id": 34,
+            "x": 13445,
+            "z": -4133,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ""
+                }
+            }
         }
     ],
     "lines": {
@@ -302,10 +401,10 @@
                 "prefix": "PU",
                 "code": "",
                 "color": "A020F0",
-                "y": "44",
+                "y": 44,
                 "stations": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-                "vertices": [
-                    [
+                "vertices": {
+                    "": [
                         [28025, 4682],
                         [27329, 4682],
                         [27119, 4886],
@@ -321,7 +420,7 @@
                         [21303, 4020],
                         [20865, 4020]
                     ]
-                ]
+                }
             }
         },
         "TNIH": {
@@ -329,20 +428,53 @@
                 "prefix": "",
                 "code": "2A",
                 "color": "aa0044",
-                "y": "10",
+                "y": 10,
                 "stations": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
-                "vertices": [
-                    [
-                        [14219, -5184],
+                "vertices": {
+                    "Main line": [
+                        [14218, -5184],
                         [16860, -5184],
                         [16860, -5047],
                         [17095, -5047]
                     ],
-                    [
+                    "Haldwani branch": [
                         [14785, -5184],
                         [14785, -5351]
                     ]
-                ]
+                }
+            },
+            "Gujarat": {
+                "prefix": "",
+                "code": "GJ",
+                "color": "ff6600",
+                "y": 10,
+                "stations": [26, 27, 28, 29, 30, 31],
+                "vertices": {
+                    "Main line": [
+                        [14218, -4780],
+                        [14218, -4686],
+                        [12382, -4686]
+                    ],
+                    "Gujarat branch": [
+                        [12729, -4686],
+                        [12729, -4310]
+                    ]
+                }
+            },
+            "Meteorville": {
+                "prefix": "",
+                "code": "MV",
+                "color": "ffcc00",
+                "y": 10,
+                "stations": [28, 32, 33, 34],
+                "vertices": {
+                    "": [
+                        [13311, -4686],
+                        [13311, -4250],
+                        [13445, -4250],
+                        [13445, -4133]
+                    ]
+                }
             }
         }
     }
