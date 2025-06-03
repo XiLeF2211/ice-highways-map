@@ -1,0 +1,7 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="14" height="14">
+	<style>
+		.a { fill: none; stroke: #ffffff; stroke-width: 3 } 
+	</style>
+	<path class="a" d="m1 1h10v10h-10z" />
+	<!-- <circle class="a" cx="7" cy="7" r="5" /> -->
+</svg>

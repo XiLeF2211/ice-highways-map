@@ -1,12 +1,16 @@
 <!DOCTYPE html>
+
 <head>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <link rel="stylesheet" href="index.css" />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </head>
+
 <body>
     <aside id="sidebar">
-        <p id="x" onclick="closeSide()">[x]</p>
+        <p onclick="closeSide()" class="x">[x]</p>
         <div id="nav">
             <p id="about-tab" class="active">About</p>
             <hr>
@@ -26,28 +30,35 @@
                     This program uses <a href="https://leafletjs.com/">Leaflet</a>.
                 </p>
             </div>
-            <div id="station" class="section" style="display: none;">
+            <div id="station" class="section" style="display: none; padding: 3em 0em 0em 0em">
                 <div id="station-list-container" class="list-container">
                     <h1>Stations</h1>
+                    <input type="search" placeholder="Search for a station..." class="searchbar"
+                    onkeyup="filterStations()" id="search-station" >
+                    <a class="filter-link" onclick="openFilter('station');" >Filters</a>
                     <hr>
-                    <dl id="station-list" class="list"></dl>
+                    <dl style="flex: 1; overflow: auto;" id="station-list" class="list"></dl>
                 </div>
-                <div id="station-details">
+                <div id="station-details" class="details">
                     <p class="back" onclick="goBackHistory()">[<]</p>
                     <h1 id="station-name"></h1>
                     <p id="station-location"></p>
                     <div id="station-codes"></div>
                 </div>
             </div>
-            <div id="line" class="section" style="display: none;">
+            <div id="line" class="section" style="display:none;padding: 3em 0em 0em 0em">
                 <div id="line-list-container" class="list-container">
                     <h1>Lines</h1>
+                    <input type="search" placeholder="Search for a line..." class="searchbar"
+                    onkeyup="filterLines()" id="search-line" >
+                    <a class="filter-link" onclick="openFilter('line');" >Filters</a>
                     <hr>
                     <dl id="line-list" class="list"></dl>
                 </div>
-                <div id="line-details">
+                <div id="line-details" class="details">
                     <p class="back" onclick="goBackHistory()">[<]</p>
                     <h1 id="line-name"></h1>
+                    <p id="line-code"></p>
                     <p id="line-y"></p>
                     <div id="line-stations"></div>
                 </div>
@@ -57,7 +68,38 @@
             </div>
         </div>
     </aside>
+    
     <p id="hamburger" onclick="openSide()">☰</p>
     <div id="mapa"></div>
+    
+    <div id="filters" style="z-index: -2;" >
+        <div id="station-filter-container" class="filter-container">
+            <p class="x" onclick="document.getElementById('filters').style.zIndex = -2;filterStations();">[x]</p>
+            <h2>Station filters</h2>
+            <fieldset id="station-filter-type" class="filter">
+                <p>Filter by type:</p>
+
+                <div><input type="checkbox" id="type-station" value="station" checked />
+                <label for="type-station" >Stations</label></div>
+
+                <div><input type="checkbox" id="type-semi" value="semi" checked />
+                <label for="type-semi" >Semi-stations</label></div>
+
+                <div><input type="checkbox" id="type-junction" value="jct" checked />
+                <label for="type-junction" >Junctions</label></div>
+
+                <div><input type="checkbox" id="type-interchange" value="inter" checked />
+                <label for="type-interchange" >Interchange</label></div>
+            </fieldset>
+        </div>
+
+        <div id="line-filter-container" class="filter-container" style="display:none">
+            <p class="x" onclick="document.getElementById('filters').style.zIndex = -2;filterLines()">[x]</p>
+            <h2>Line filter</h2>
+            <fieldset id="line-filter-company" class="filter">
+                <p>Filter by company:</p>
+            </fieldset>
+        </div>
+    </div>
     <script src="index.js"></script>
 </body>

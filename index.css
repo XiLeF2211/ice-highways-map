@@ -33,7 +33,7 @@ canvas {
     box-shadow: rgba(0, 0, 0, 0.3) 15px 0px 15px;
 }
 
-#sidebar #x {
+.x {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -66,7 +66,7 @@ canvas {
     box-sizing: border-box;
     width: 100%;
     padding: 10px;
-    height: calc((100% - 2px) / 4);
+    height: calc((100% - 3px) / 4);
     writing-mode: sideways-lr;
     text-orientation: upright;
     font-size: 24px;
@@ -85,6 +85,7 @@ canvas {
 
 #content {
     width: 74%;
+    height: 100%;
     float: left;
 }
 
@@ -97,16 +98,21 @@ canvas {
 }
 
 .section {
+    box-sizing: border-box;
     padding: 3em;
+    height: 100%;
 }
 
 .list-container {
-    width: calc(100% + 6em);
-    transform: translateX(-3em);
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .list-container h1 {
-    padding: 0 1em;
+    margin: 0
 }
 
 dl > :nth-of-type(2n) {
@@ -114,12 +120,51 @@ dl > :nth-of-type(2n) {
 }
 
 .list {
-    margin: 0
+    margin: 0;
+    position: relative;
+    overflow: auto;
+    width: 100%;
 }
 
 .list dt {
     padding: 1em;
     font-size: 20px;
+}
+
+.details {
+    padding: 0em 3em;
+}
+
+#filters {
+    position: absolute;
+    width: calc(50%);
+    height: 50%;
+    top: 25%;
+    left: 25%;
+}
+
+.filter-container {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+
+.searchbar {
+    position: relative;
+}
+
+.section hr {
+    width: 100%;
+}
+
+.filter-link {
+    text-align: center;
+    padding: 5px;
 }
 
 a {
