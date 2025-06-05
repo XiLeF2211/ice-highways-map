@@ -446,7 +446,7 @@
         },
         {
             "name": "Chittagong Grand JCT",
-            "id": 38,
+            "id": 39,
             "x": 16860,
             "z": -4314,
             "lines": {
@@ -457,7 +457,7 @@
         },
         {
             "name": "Temerloh",
-            "id": 38,
+            "id": 40,
             "x": 16860,
             "z": -4382,
             "lines": {
@@ -469,7 +469,7 @@
         {
             "name": "Bogra JCT",
             "type": "jct",
-            "id": 38,
+            "id": 41,
             "x": 16860,
             "z": -4516,
             "lines": {
@@ -480,7 +480,7 @@
         },
         {
             "name": "Naypyidaw",
-            "id": 38,
+            "id": 42,
             "x": 16860,
             "z": -4708,
             "lines": {
@@ -492,7 +492,7 @@
         {
             "name": "Abercromburg",
             "type": "semi2",
-            "id": 38,
+            "id": 43,
             "x": 16860,
             "z": -5401,
             "lines": {
@@ -503,7 +503,7 @@
         },
         {
             "name": "Nyingchi Mine",
-            "id": 38,
+            "id": 44,
             "x": 16942,
             "z": -5910,
             "lines": {
@@ -514,7 +514,7 @@
         },
         {
             "name": "Nyingchi",
-            "id": 38,
+            "id": 45,
             "x": 16999,
             "z": -5910,
             "lines": {
@@ -525,7 +525,7 @@
         },
         {
             "name": "Bogra",
-            "id": 38,
+            "id": 46,
             "x": 16809,
             "z": -4516,
             "lines": {
