@@ -3,5 +3,4 @@
 		.a { fill: none; stroke: #ffffff; stroke-width: 3 } 
 	</style>
 	<path class="a" d="m1 7a5 6 0 0 1 10 0z" />
-	<!-- <circle class="a" cx="7" cy="7" r="5" /> -->
 </svg>

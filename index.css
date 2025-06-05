@@ -1,4 +1,7 @@
-html, body {
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+
+html,
+body {
     background-color: black;
     margin: 0;
     width: 100%;
@@ -89,14 +92,6 @@ canvas {
     float: left;
 }
 
-.back {
-    position: absolute;
-    top: 10px;
-    left: calc(26% + 10px);
-    margin: 0;
-    cursor: pointer;
-}
-
 .section {
     box-sizing: border-box;
     padding: 3em;
@@ -115,8 +110,8 @@ canvas {
     margin: 0
 }
 
-dl > :nth-of-type(2n) {
-	background: #222;
+dl> :nth-of-type(2n) {
+    background: #222;
 }
 
 .list {
@@ -132,7 +127,31 @@ dl > :nth-of-type(2n) {
 }
 
 .details {
-    padding: 0em 3em;
+    /* display: flex;
+    flex-direction: column; */
+    height: 100%;
+}
+
+.details>* {
+    padding: 0 3rem;
+}
+
+.back {
+    position: absolute;
+    top: 10px;
+    left: calc(26% + 10px);
+    margin: 0;
+    cursor: pointer;
+    padding: 0;
+}
+
+#line-stations {
+    padding: 0;
+    overflow: auto;
+}
+
+#line-stations h3 {
+    text-align: center;
 }
 
 #filters {
@@ -160,6 +179,7 @@ dl > :nth-of-type(2n) {
 
 .section hr {
     width: 100%;
+    box-sizing: border-box;
 }
 
 .filter-link {
@@ -169,6 +189,81 @@ dl > :nth-of-type(2n) {
 
 a {
     color: lightskyblue;
+    cursor: pointer;
+}
+
+#line-stations {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.station-item:before {
+    background-color: var(--line-color, white);
+    width: 2px;
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 20.65px;
+}
+
+
+.station-item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+    padding-bottom: 1em;
+    padding-left: 35px;
+}
+
+#line-stations>ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.station-item::after {
+    content: '';
+    position: absolute;
+    -moz-border-radius: 7.5px;
+    -webkit-border-radius: 7.5px;
+    border-radius: 7.5px;
+    background-color: var(--line-color, white);
+    left: 15.5px;
+    top: 2px;
+    width: 12px;
+    height: 12px;
+}
+
+.station-item:first-child:before {
+    top: 10px;
+}
+
+.station-item:last-child:before {
+    height: 6px;
+}
+
+.connections {
+    display: inline;
+    padding: 5px 0px;
+}
+
+.connections_line {
+    display: inline-block;
+}
+
+.badge {
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: inline-block;
+    height: 1em;
+    font-size: 1em;
+    line-height: 1em;
+    padding: 0.25em;
+    text-align: center;
+    color: #fff;
+    background-color: darkslategray;
+    border: 1px solid rgba(75, 75, 75, 0.5);
+    text-shadow: rgba(75, 75, 75, 0.5) 1px 0px, rgba(75, 75, 75, 0.5) 0px 1px, rgba(75, 75, 75, 0.5) -1px 0px, rgba(75, 75, 75, 0.5) 0px -1px;
     cursor: pointer;
 }
 
