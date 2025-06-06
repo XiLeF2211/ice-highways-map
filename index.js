@@ -29,7 +29,8 @@ map.zoomControl.setPosition('topright')
 L.tileLayer(proxyURL + mapURL + '/minecraft_overworld/{z}/{x}_{y}.png', {
     maxNativeZoom: 3,
     minNativeZoom: 0,
-    maxZoom: 19
+    maxZoom: 15,
+    minZoom: -2
 }).addTo(map);
 
 init();
@@ -222,7 +223,7 @@ function showLine(companyName, lineName, line) {
     goToTab('line')
     goToDetails('line')
 
-    document.getElementById('line-name').textContent = companyName + ': ' + lineName + ' line'
+    document.getElementById('line-name').textContent = (companyName != '' ? companyName + ': ' : '') + lineName + ' line'
     if (line.code.length > 0) document.getElementById('line-code').textContent = `Code: ${line.code}`
     else document.getElementById('line-code').textContent = ''
     document.getElementById('line-y').textContent = `y-level (ice block level) at ${line.y}`
@@ -322,7 +323,7 @@ function listLine() {
 
             let lineItem = document.createElement('dt')
             let lineName = document.createElement('a')
-            lineName.innerHTML = `${line} line (${company})`
+            lineName.innerHTML = `${line} line ${company != '' ? '(' + company + ')' : ''}`
             lineItem.style.cursor = 'pointer'
             lineItem.addEventListener('click', () => {
                 showLine(company, line, highwayData.lines[company][line])

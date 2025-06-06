@@ -147,6 +147,7 @@ dl> :nth-of-type(2n) {
 
 #line-stations {
     padding: 0;
+    padding-right: 5px;
     overflow: auto;
 }
 

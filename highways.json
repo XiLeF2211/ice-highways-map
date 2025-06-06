@@ -533,6 +533,73 @@
                     "Nyingchi": ["", "Bogra branch"]
                 }
             }
+        },
+        {
+            "name": "Pekan",
+            "id": 47,
+            "x": 18853,
+            "z": -846,
+            "lines": {
+                "": {
+                    "Singapore City Metro": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Singapore Grand",
+            "id": 48,
+            "x": 18798,
+            "z": -772,
+            "lines": {
+                "": {
+                    "Singapore City Metro": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Singapore City JCT",
+            "type": "jct",
+            "id": 49, 
+            "x": 18798,
+            "z": -604,
+            "lines": {
+                "": {
+                    "Singapore City Metro": ["", "Main line to Island branch"]
+                }
+            }
+        },
+        {
+            "name": "York",
+            "id": 50,
+            "x": 18798,
+            "z": -509,
+            "lines": {
+                "": {
+                    "Singapore City Metro": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "York Plaza", 
+            "id": 51,
+            "x": 18614,
+            "z": -604,
+            "lines": {
+                "": {
+                    "Singapore City Metro": ["", "Island branch"]
+                }
+            }
+        },
+        {
+            "name": "York Island",
+            "id": 52,
+            "x": 18610,
+            "z": -491,
+            "lines": {
+                "": {
+                    "Singapore City Metro": ["", "Island branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -679,6 +746,32 @@
                             [16809, -4516]
                         ],
                         "stations": [[41, "Main line"], 46]
+                    }
+                }
+            }
+        },
+        "": {
+            "Singapore City Metro": {
+                "prefix": "",
+                "code": "",
+                "color": "01b9f1",
+                "y": 49,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [18853, -846],
+                            [18798, -846],
+                            [18798, -509]
+                        ],
+                        "stations": [47, 48, [49, "Island branch"], 50]
+                    },
+                    "Island branch": {
+                        "vertices": [
+                            [18798, -604],
+                            [18610, -604],
+                            [18610, -491]
+                        ],
+                        "stations": [[49, "Main line"], 51, 52]
                     }
                 }
             }
