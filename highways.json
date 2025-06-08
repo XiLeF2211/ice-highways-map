@@ -600,6 +600,79 @@
                     "Singapore City Metro": ["", "Island branch"]
                 }
             }
+        },
+        {
+            "name": "Berlin Central",
+            "id": 53,
+            "x": 2423,
+            "z": -9608,
+            "cx": [2423, 2424],
+            "cz": [-9609, -9608],
+            "lines": {
+                "": {
+                    "Ringbahn": ["", ""],
+                    "Landonbahn": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Lucy Street",
+            "id": 54,
+            "x": 2598,
+            "z": -9736,
+            "cz": [-9736, -9737],
+            "lines": {
+                "": {
+                    "Ringbahn": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Berlin Stadium",
+            "id": 55,
+            "x": 2456,
+            "z": -9851,
+            "lines": {
+                "": {
+                    "Ringbahn": ["", ""],
+                    "Landonbahn": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Schonefeld",
+            "id": 56,
+            "x": 2119,
+            "z": -9850,
+            "lines": {
+                "": {
+                    "Ringbahn": ["", ""]
+                }
+            },
+            "notes": "Exit blocked"
+        },
+        {
+            "name": "Rosenthaler",
+            "id": 57,
+            "x": 2136,
+            "z": -9738,
+            "lines": {
+                "": {
+                    "Ringbahn": ["", ""]
+                }
+            },
+            "notes": "Exit blocked"
+        },
+        {
+            "name": "Alexanderplatz",
+            "id": 58,
+            "x": 2324,
+            "z": -9728,
+            "lines": {
+                "": {
+                    "Landonbahn": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -772,6 +845,47 @@
                             [18610, -491]
                         ],
                         "stations": [[49, "Main line"], 51, 52]
+                    }
+                }
+            },
+            "Ringbahn": {
+                "prefix": "",
+                "code": "",
+                "color": "8e2121",
+                "y": 1,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [2302, -9744],
+                            [2302, -9672],
+                            [2321, -9672],
+                            [2321, -9613],
+                            [2598, -9613],
+                            [2598, -9844],
+                            [2096, -9844],
+                            [2096, -9744],
+                            [2302, -9744]
+                        ],
+                        "stations": [53, 54, 55, 56, 57]
+                    }
+                }
+            },
+            "Landonbahn": {
+                "prefix": "",
+                "code": "U3",
+                "color": "4f52ff",
+                "y": 1,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [2453, -9633],
+                            [2327, -9633],
+                            [2327, -9676],
+                            [2324, -9676],
+                            [2324, -9858],
+                            [2480, -9858]
+                        ],
+                        "stations": [53, 55, 58]
                     }
                 }
             }
