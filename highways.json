@@ -129,7 +129,8 @@
             "z": -5184,
             "lines": {
                 "TNIH": {
-                    "Lower Himalayas": ["", "Main line"]
+                    "Lower Himalayas": ["", "Main line"],
+                    "Bangla-Caspian": ["", "Main line"]
                 }
             }
         },
@@ -306,7 +307,8 @@
             "z": -4780,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line"]
+                    "Gujarat": ["", "Main line"],
+                    "Bangla-Caspian": ["", "Main line"]
                 }
             }
         },
@@ -407,7 +409,8 @@
             "z": -4414,
             "lines": {
                 "TNIH": {
-                    "Everest": ["", ""]
+                    "Everest": ["", ""],
+                    "Bangla-Caspian": ["", "Main line"]
                 }
             }
         },
@@ -446,12 +449,14 @@
         },
         {
             "name": "Chittagong Grand JCT",
+            "type": "jct",
             "id": 39,
             "x": 16860,
             "z": -4314,
             "lines": {
                 "TNIH": {
-                    "Nyingchi": ["", "Main line"]
+                    "Nyingchi": ["", "Main line"],
+                    "Bangla-Caspian": ["", "Main line"]
                 }
             }
         },
@@ -613,7 +618,20 @@
                     "Ringbahn": ["", ""],
                     "Landonbahn": ["", ""]
                 }
-            }
+            },
+            "areas": [
+                [[2395, -9670], [2452, -9628]],
+                [[2391, -9619], [2456, -9598]],
+                [[2447, -9621], [2453, -9596]],
+                [[2438, -9623], [2442, -9594]],
+                [[2437, -9622], [2443, -9595]],
+                [[2436, -9621], [2444, -9596]],
+                [[2405, -9623], [2409, -9594]],
+                [[2404, -9622], [2410, -9595]],
+                [[2403, -9621], [2411, -9596]],
+                [[2394, -9621], [2400, -9596]],
+                [[2421, -9670], [2426, -9598]]
+            ]
         },
         {
             "name": "Lucy Street",
@@ -637,7 +655,11 @@
                     "Ringbahn": ["", ""],
                     "Landonbahn": ["", ""]
                 }
-            }
+            },
+            "areas": [
+                [[2432, -9860], [2479, -9842]],
+                [[2433, -9861], [2478, -9841]]
+            ]
         },
         {
             "name": "Schonefeld",
@@ -649,7 +671,10 @@
                     "Ringbahn": ["", ""]
                 }
             },
-            "notes": "Exit blocked"
+            "notes": "Exit blocked",
+            "areas": [
+                [[2145, -9843], [2093, -9857]]
+            ]
         },
         {
             "name": "Rosenthaler",
@@ -661,7 +686,10 @@
                     "Ringbahn": ["", ""]
                 }
             },
-            "notes": "Exit blocked"
+            "notes": "Exit blocked",
+            "areas": [
+                [[2108, -9745], [2164, -9731]]
+            ]
         },
         {
             "name": "Alexanderplatz",
@@ -671,6 +699,183 @@
             "lines": {
                 "": {
                     "Landonbahn": ["", ""]
+                }
+            },
+            "areas": [
+                [[2314, -9740], [2334, -9716]],
+                [[2315, -9748], [2333, -9708]],
+                [[2316, -9754], [2332, -9702]],
+                [[2317, -9759], [2331, -9697]]
+            ]
+        },
+        {
+            "name": "Chittagong Grand",
+            "id": 59,
+            "x": 16863,
+            "z": -4314,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "4th Street",
+            "id": 60,
+            "x": 16781,
+            "z": -4314,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Noakahli JCT",
+            "type": "jct",
+            "id": 61,
+            "x": 16625,
+            "z": -4378,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yushiwan (Barisal)",
+            "id": 62,
+            "x": 16532,
+            "z": -4378,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Delhi",
+            "id": 63,
+            "x": 16008,
+            "z": -4414,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Daimon",
+            "id": 64,
+            "x": 15739,
+            "z": -4666,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Daimon-Nishi",
+            "id": 65,
+            "x": 15307,
+            "z": -4780,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Singrauli JCT",
+            "type": "jct",
+            "id": 66,
+            "x": 15255,
+            "z": -4780,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bharatpur JCT",
+            "type": "jct",
+            "id": 67,
+            "x": 14983,
+            "z": -4780,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Chronos Union JCT",
+            "type": "jct",
+            "id": 68,
+            "x": 14663,
+            "z": -4780,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line to Chronos Union branch"]
+                }
+            }
+        },
+        {
+            "name": "Sahrai",
+            "id": 69,
+            "x": 14518,
+            "z": -4780,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Agra",
+            "id": 70,
+            "x": 14218,
+            "z": -5127,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Aligarh Mine",
+            "type": "semi2",
+            "id": 71,
+            "x": 14218,
+            "z": -5313,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Delhi",
+            "id": 72,
+            "x": 14218,
+            "z": -5580,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Himalayas JCT",
+            "type": "jct",
+            "id": 73,
+            "x": 14218,
+            "z": -5939,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
                 }
             }
         }
@@ -819,6 +1024,30 @@
                             [16809, -4516]
                         ],
                         "stations": [[41, "Main line"], 46]
+                    }
+                }
+            },
+            "Bangla-Caspian": {
+                "prefix": "",
+                "code": "BC",
+                "color": "ff0000",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [16863, -4314],
+                            [16714, -4314],
+                            [16714, -4378],
+                            [16177, -4378],
+                            [16177, -4414],
+                            [15953, -4414],
+                            [15953, -4588],
+                            [15739, -4588],
+                            [15739, -4780],
+                            [14218, -4780],
+                            [14218, -5939]
+                        ],
+                        "stations": [59, 39, 60, 61, 62, 35, 63, 64, 65, 66, 67, 68, 26, 69, 70, 11, 71, 72, 73]
                     }
                 }
             }

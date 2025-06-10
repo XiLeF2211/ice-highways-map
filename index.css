@@ -127,8 +127,8 @@ dl> :nth-of-type(2n) {
 }
 
 .details {
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     height: 100%;
 }
 

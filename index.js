@@ -201,12 +201,36 @@ async function renderStations() {
         })
         container.appendChild(stationName)
 
+        if (Object.hasOwn(station, 'areas')) {
+            const polygons = []
+            for (const region of station.areas) {
+                polygons.push(
+                    // Flipped coordinates because that's how GeoJSON works in contrast to Leaflet :p
+                    turf.polygon(
+                        [[
+                            [region[0][0] / 16, -region[0][1] / 16],
+                            [region[0][0] / 16, -region[1][1] / 16],
+                            [region[1][0] / 16, -region[1][1] / 16],
+                            [region[1][0] / 16, -region[0][1] / 16],
+                            [region[0][0] / 16, -region[0][1] / 16],
+                        ]]
+                    )
+                )
+            }
+
+            L.geoJson(polygons.length > 1 ? turf.union(turf.featureCollection(polygons)) : polygons[0], {
+                style: {
+                    color: '#ffffff'
+                }
+            }).bindPopup(container).addTo(map)
+        }
+
         if (Object.hasOwn(station, 'type')) L.marker([-station.z / 16, station.x / 16], {
-                icon: L.icon({
-                    iconUrl: 'assets/symbols/' + station.type + '.svg',
-                    iconSize: 14
-                })
-            }).addTo(map).bindPopup(container)
+            icon: L.icon({
+                iconUrl: 'assets/symbols/' + station.type + '.svg',
+                iconSize: 14
+            })
+        }).addTo(map).bindPopup(container)
         else L.circleMarker([-station.z / 16, station.x / 16], {
             radius: 5,
             color: '#ffffff'
@@ -265,15 +289,23 @@ function showLine(companyName, lineName, line) {
                     connection.classList.add('connections_line')
                     badge.classList.add('badge')
 
-                    badge.innerHTML = highwayData.lines[companyConnection][connectionLine].code == "" ? highwayData.lines[companyConnection][connectionLine].prefix + highwayData.stations[stationId][companyConnection][connectionLine][0] : highwayData.lines[companyConnection][connectionLine].code
                     badge.style.backgroundColor = '#' + highwayData.lines[companyConnection][connectionLine].color
 
                     badge.addEventListener('click', () => {
                         showLine(companyConnection, connectionLine, highwayData.lines[companyConnection][connectionLine])
                         viewHistory.push(['line', companyConnection, connectionLine, highwayData.lines[companyConnection][connectionLine]])
                     })
+                    if (highwayData.lines[companyConnection][connectionLine].code != "") {
+                        badge.innerHTML = highwayData.lines[companyConnection][connectionLine].code
+                        connection.appendChild(badge)
+                    } else if (highwayData.lines[companyConnection][connectionLine].prefix != "") {
+                        badge.innerHTML = highwayData.lines[companyConnection][connectionLine].prefix + highwayData.stations[stationId][companyConnection][connectionLine][0]
+                        connection.appendChild(badge)
+                    } else {
+                        badge.innerHTML = connectionLine
+                        connection.appendChild(badge)
+                    }
 
-                    connection.appendChild(badge)
                     connections.appendChild(connection)
                 }
             }
@@ -428,7 +460,7 @@ function goToList(tab) {
 
 function goToDetails(tab) {
     document.getElementById(tab + '-list-container').style.display = 'none'
-    document.getElementById(tab + '-details').style.display = 'block'
+    document.getElementById(tab + '-details').style.display = 'flex'
 }
 
 function goBackHistory() {
