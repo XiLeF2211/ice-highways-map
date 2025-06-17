@@ -18,9 +18,13 @@
             "z": 4080,
             "lines": {
                 "SEAN": {
-                    "Purple": ["02", ""]
+                    "Purple": ["02", ""],
+                    "Green": ["9", "Main line"]
                 }
-            }
+            },
+            "areas": [
+                [[21302, 4073], [21322, 4088]]
+            ]
         },
         {
             "name": "Zekium",
@@ -545,7 +549,7 @@
             "x": 18853,
             "z": -846,
             "lines": {
-                "": {
+                "Local": {
                     "Singapore City Metro": ["", "Main line"]
                 }
             }
@@ -556,7 +560,7 @@
             "x": 18798,
             "z": -772,
             "lines": {
-                "": {
+                "Local": {
                     "Singapore City Metro": ["", "Main line"]
                 }
             }
@@ -568,7 +572,7 @@
             "x": 18798,
             "z": -604,
             "lines": {
-                "": {
+                "Local": {
                     "Singapore City Metro": ["", "Main line to Island branch"]
                 }
             }
@@ -579,7 +583,7 @@
             "x": 18798,
             "z": -509,
             "lines": {
-                "": {
+                "Local": {
                     "Singapore City Metro": ["", "Main line"]
                 }
             }
@@ -590,7 +594,7 @@
             "x": 18614,
             "z": -604,
             "lines": {
-                "": {
+                "Local": {
                     "Singapore City Metro": ["", "Island branch"]
                 }
             }
@@ -601,7 +605,7 @@
             "x": 18610,
             "z": -491,
             "lines": {
-                "": {
+                "Local": {
                     "Singapore City Metro": ["", "Island branch"]
                 }
             }
@@ -614,7 +618,7 @@
             "cx": [2423, 2424],
             "cz": [-9609, -9608],
             "lines": {
-                "": {
+                "Local": {
                     "Ringbahn": ["", ""],
                     "Landonbahn": ["", ""]
                 }
@@ -640,7 +644,7 @@
             "z": -9736,
             "cz": [-9736, -9737],
             "lines": {
-                "": {
+                "Local": {
                     "Ringbahn": ["", ""]
                 }
             }
@@ -651,7 +655,7 @@
             "x": 2456,
             "z": -9851,
             "lines": {
-                "": {
+                "Local": {
                     "Ringbahn": ["", ""],
                     "Landonbahn": ["", ""]
                 }
@@ -667,7 +671,7 @@
             "x": 2119,
             "z": -9850,
             "lines": {
-                "": {
+                "Local": {
                     "Ringbahn": ["", ""]
                 }
             },
@@ -682,7 +686,7 @@
             "x": 2136,
             "z": -9738,
             "lines": {
-                "": {
+                "Local": {
                     "Ringbahn": ["", ""]
                 }
             },
@@ -697,7 +701,7 @@
             "x": 2324,
             "z": -9728,
             "lines": {
-                "": {
+                "Local": {
                     "Landonbahn": ["", ""]
                 }
             },
@@ -885,7 +889,10 @@
             "x": 23050,
             "z": 2617,
             "lines": {
-                "": {
+                "SEAN": {
+                    "Green": ["1", "Main line"]
+                },
+                "Local": {
                     "New Prague Subway": ["", ""]
                 }
             }
@@ -896,7 +903,7 @@
             "x": 23021,
             "z": 2550,
             "lines": {
-                "": {
+                "Local": {
                     "New Prague Subway": ["", ""]
                 }
             }
@@ -907,7 +914,7 @@
             "x": 23113,
             "z": 2498,
             "lines": {
-                "": {
+                "Local": {
                     "New Prague Subway": ["", ""]
                 }
             }
@@ -916,9 +923,9 @@
             "name": "Darwin Central",
             "id": 77,
             "x": 24104,
-            "z": 2178,
+            "z": 2215,
             "lines": {
-                "": {
+                "Local": {
                     "New Prague Subway": ["", ""]
                 }
             }
@@ -929,18 +936,317 @@
             "x": 24308,
             "z": 2178,
             "lines": {
-                "": {
+                "Local": {
                     "New Prague Subway": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Ćwierkania",
+            "id": 79,
+            "x": 23050,
+            "z": 2984,
+            "lines": {
+                "SEAN": {
+                    "Green": ["1a", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kimberley Commune",
+            "id": 80,
+            "x": 22695,
+            "z": 2995,
+            "lines": {
+                "SEAN": {
+                    "Green": ["2", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Broome",
+            "id": 81,
+            "x": 22499,
+            "z": 3288,
+            "lines": {
+                "SEAN": {
+                    "Green": ["3", ""]
+                }
+            }
+        },
+        {
+            "name": "Ost-Onslow",
+            "id": 82,
+            "x": 22499,
+            "z": 3410,
+            "lines": {
+                "SEAN": {
+                    "Green": ["-undesignated", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Panth Memorial",
+            "id": 83,
+            "x": 22266,
+            "z": 3523,
+            "lines": {
+                "SEAN": {
+                    "Green": ["4a", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Pilbakraft Hall",
+            "id": 84,
+            "x": 22178,
+            "z": 3539,
+            "lines": {
+                "SEAN": {
+                    "Green": ["4", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Panda_Behr's",
+            "type": "semi4",
+            "id": 85,
+            "x": 22103,
+            "z": 3589,
+            "lines": {
+                "SEAN": {
+                    "Green": ["-undesignated", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bambus",
+            "id": 86,
+            "x": 22023,
+            "z": 3589,
+            "lines": {
+                "SEAN": {
+                    "Green": ["5", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "mirza6744, kingermemli, and DJcraft789's",
+            "type": "semi4",
+            "id": 87,
+            "x": 21943,
+            "z": 3589,
+            "lines": {
+                "SEAN": {
+                    "Green": ["-undesignated", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Squishy's",
+            "type": "semi4",
+            "id": 88,
+            "x": 21930,
+            "z": 3589,
+            "lines": {
+                "SEAN": {
+                    "Green": ["-undesignated", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Station road",
+            "id": 89,
+            "x": 21841,
+            "z": 3589,
+            "lines": {
+                "SEAN": {
+                    "Green": ["-undesignated", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Onslow Bay Central",
+            "id": 90,
+            "x": 21817,
+            "z": 3596,
+            "lines": {
+                "SEAN": {
+                    "Green": ["6", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Onslow Museum",
+            "id": 91,
+            "x": 21772,
+            "z": 3622,
+            "lines": {
+                "SEAN": {
+                    "Green": ["-undesignated", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cactus",
+            "id": 92,
+            "x": 21627,
+            "z": 3678,
+            "lines": {
+                "SEAN": {
+                    "Green": ["7", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Karratha",
+            "id": 93,
+            "x": 21438,
+            "z": 3715,
+            "lines": {
+                "SEAN": {
+                    "Green": ["8", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Chałk",
+            "id": 94,
+            "x": 21127,
+            "z": 4711,
+            "lines": {
+                "SEAN": {
+                    "Green": ["10", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Guriąk",
+            "id": 95,
+            "x": 21012,
+            "z": 5050,
+            "lines": {
+                "SEAN": {
+                    "Green": ["11", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mount Magnet JCT",
+            "type": "jct",
+            "id": 96,
+            "x": 21061,
+            "z": 5201,
+            "lines": {
+                "SEAN": {
+                    "Green": ["-undesignated", "Main line to Mount Magnet branch"]
+                }
+            }
+        },
+        {
+            "name": "Mundaring West",
+            "id": 97,
+            "x": 21261,
+            "z": 5781,
+            "lines": {
+                "SEAN": {
+                    "Green": ["12", "Main line"]
+                }
+            },
+            "areas": [
+                [[21252, 5742], [21271, 5791]],
+                [[21252, 5772], [21294, 5791]]
+            ]
+        },
+        {
+            "name": "Mundaring Central",
+            "id": 98,
+            "x": 21491,
+            "z": 5785,
+            "lines": {
+                "SEAN": {
+                    "Green": ["13", "Main line"]
+                }
+            },
+            "areas": [
+                [[21465, 5777], [21518, 5793]]
+            ]
+        },
+        {
+            "name": "East Mundaring",
+            "id": 99,
+            "x": 21682,
+            "z": 5785,
+            "lines": {
+                "SEAN": {
+                    "Green": ["13a", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Onfast West",
+            "id": 100,
+            "x": 22119,
+            "z": 5960,
+            "lines": {
+                "SEAN": {
+                    "Green": ["14", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Onfast East",
+            "id": 101,
+            "x": 22491,
+            "z": 6036,
+            "lines": {
+                "SEAN": {
+                    "Green": ["15", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ponti",
+            "id": 102,
+            "x": 22665,
+            "z": 6056,
+            "lines": {
+                "SEAN": {
+                    "Green": ["16", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Penrith",
+            "id": 103,
+            "x": 22838,
+            "z": 5563,
+            "lines": {
+                "SEAN": {
+                    "Green": ["17", "Main line"]
+                }
+            },
+            "notes": "Closed"
+        },
+        {
+            "name": "Mount Magnet",
+            "id": 104,
+            "x": 21514,
+            "z": 5201,
+            "lines": {
+                "SEAN": {
+                    "Green": ["-undesignated", "Mount Magnet branch"]
+                }
+            },
+            "notes": "Closed"
         }
     ],
     "lines": {
         "SEAN": {
             "Purple": {
                 "prefix": "PU",
-                "code": "",
-                "color": "A020F0",
+                "code": "PU",
+                "color": "a020f0",
                 "y": 44,
                 "branches": {
                     "": {
@@ -961,6 +1267,70 @@
                             [20865, 4020]
                         ],
                         "stations": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+                    }
+                }
+            },
+            "Green": {
+                "prefix": "G",
+                "code": "G",
+                "color": "5ea918",
+                "y": 49,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [23050, 2608],
+                            [23050, 2995],
+                            [22657, 2995],
+                            [22657, 3250],
+                            [22499, 3250],
+                            [22499, 3523],
+                            [22178, 3523],
+                            [22178, 3549],
+                            [22186, 3549],
+                            [22186, 3589],
+                            [21841, 3589],
+                            [21841, 3593],
+                            [21825, 3593],
+                            [21824, 3596],
+                            [21798, 3596],
+                            [21737, 3657],
+                            [21627, 3657],
+                            [21627, 3690],
+                            [21572, 3690],
+                            [21515, 3715],
+                            [21311, 3715],
+                            [21311, 4608],
+                            [21127, 4608],
+                            [21127, 4845],
+                            [21012, 4958],
+                            [21012, 5062],
+                            [21189, 5589],
+                            [21212, 5589],
+                            [21238, 5617],
+                            [21241, 5638],
+                            [21257, 5654],
+                            [21257, 5776],
+                            [21265, 5785],
+                            [22013, 5785],
+                            [22013, 5959],
+                            [22135, 5959],
+                            [22135, 5943],
+                            [22294, 5943],
+                            [22491, 6014],
+                            [22491, 6048],
+                            [22499, 6056],
+                            [22685, 6056],
+                            [22838, 5774],
+                            [22838, 5557]
+                        ],
+                        "stations": [74, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 1, 94, 95, [96, "to Mount Magnet branch"], 97, 98, 99, 100, 101, 102, 103]
+                    },
+                    "Mount Magnet branch": {
+                        "vertices": [
+                            [21061, 5201],
+                            [21514, 5201]
+                        ],
+                        "stations": [[96, "to Main line"], 104]
                     }
                 }
             }
@@ -1198,9 +1568,9 @@
                 "branches": {
                     "": {
                         "vertices": [
-                            [24104, 2178],
                             [24320, 2178],
-                            [24320, 2246],
+                            [24104, 2178],
+                            [24104, 2246],
                             [24038, 2246],
                             [24038, 2289],
                             [24029, 2289],
@@ -1214,7 +1584,8 @@
                             [23021, 2498],
                             [23021, 2612],
                             [23050, 2612]
-                        ]
+                        ],
+                        "stations": [74, 75, 76, 77, 78]
                     }
                 }
             }
