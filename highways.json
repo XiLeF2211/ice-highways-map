@@ -1094,9 +1094,19 @@
             "z": 3678,
             "lines": {
                 "SEAN": {
-                    "Green": ["7", "Main line"]
+                    "Green": ["7", "Main line"],
+                    "Light blue": ["04", "Main line"]
                 }
-            }
+            },
+            "areas": [
+                [[21619, 3672], [21628, 3687]],
+                [[21653, 3675], [21661, 3690]],
+                [[21649, 3698], [21662, 3717]],
+                [[21621, 3672], [21629, 3665]],
+                [[21629, 3662], [21647, 3668]],
+                [[21647, 3666], [21656, 3667]],
+                [[21655, 3666], [21656, 3698]]
+            ]
         },
         {
             "name": "Karratha",
@@ -1239,6 +1249,74 @@
                 }
             },
             "notes": "Closed"
+        },
+        {
+            "name": "Kobitoilet",
+            "id": 105,
+            "x": 22276,
+            "z": 3540,
+            "lines": {
+                "SEAN": {
+                    "Light blue": ["01", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Liepajā",
+            "id": 106,
+            "x": 22120,
+            "z": 3732,
+            "lines": {
+                "SEAN": {
+                    "Light blue": ["02", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Pilbara Parliament",
+            "id": 107,
+            "x": 21817,
+            "z": 3771,
+            "lines": {
+                "SEAN": {
+                    "Light blue": ["03", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Newman",
+            "id": 108,
+            "x": 21982,
+            "z": 4192,
+            "lines": {
+                "SEAN": {
+                    "Light blue": ["-undesignated", "Newman branch"]
+                }
+            }
+        },
+        {
+            "name": "Newman JCT",
+            "type": "jct",
+            "id": 109,
+            "x": 21978,
+            "z": 3795,
+            "lines": {
+                "SEAN": {
+                    "Light blue": ["-undesignated", "Main line to Newman branch"]
+                }
+            }
+        },
+        {
+            "name": "Unnamed station",
+            "id": 110,
+            "x": 21608,
+            "z": 3858,
+            "lines": {
+                "SEAN": {
+                    "Light blue": ["-undesignated", ""]
+                }
+            },
+            "notes": "Closed"
         }
     ],
     "lines": {
@@ -1273,7 +1351,7 @@
             "Green": {
                 "prefix": "G",
                 "code": "G",
-                "color": "5ea918",
+                "color": "71cc1d",
                 "y": 49,
                 "branches": {
                     "Main line": {
@@ -1331,6 +1409,42 @@
                             [21514, 5201]
                         ],
                         "stations": [[96, "to Main line"], 104]
+                    }
+                }
+            },
+            "Light blue": {
+                "prefix": "LB",
+                "code": "LB",
+                "color": "299de6",
+                "y": 60,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [22276, 3540],
+                            [22226, 3540],
+                            [22200, 3568],
+                            [22180, 3610],
+                            [22180, 3706],
+                            [22154, 3732],
+                            [22040, 3732],
+                            [21978, 3794],
+                            [21978, 3795],
+                            [21838, 3795],
+                            [21838, 3771],
+                            [21817, 3771],
+                            [21712, 3716],
+                            [21608, 3716],
+                            [21608, 3858]
+                        ],
+                        "stations": [105, 106, 107, 92, [109, "to Newman branch"], 110]
+                    },
+                    "Newman branch": {
+                        "vertices": [
+                            [21978, 3795],
+                            [21982, 3795],
+                            [21982, 4192]
+                        ],
+                        "stations": [[109, "to Newman branch"], 108]
                     }
                 }
             }
