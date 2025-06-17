@@ -1009,7 +1009,7 @@
         },
         {
             "name": "Panda_Behr's",
-            "type": "semi4",
+            "type": "semi1",
             "id": 85,
             "x": 22103,
             "z": 3589,
@@ -1032,7 +1032,7 @@
         },
         {
             "name": "mirza6744, kingermemli, and DJcraft789's",
-            "type": "semi4",
+            "type": "semi1",
             "id": 87,
             "x": 21943,
             "z": 3589,
@@ -1044,7 +1044,7 @@
         },
         {
             "name": "Squishy's",
-            "type": "semi4",
+            "type": "semi1",
             "id": 88,
             "x": 21930,
             "z": 3589,
@@ -1055,7 +1055,7 @@
             }
         },
         {
-            "name": "Station road",
+            "name": "Onslow Station Road Station",
             "id": 89,
             "x": 21841,
             "z": 3589,
@@ -1135,7 +1135,7 @@
             "name": "Mount Magnet JCT",
             "type": "jct",
             "id": 96,
-            "x": 21061,
+            "x": 21059,
             "z": 5201,
             "lines": {
                 "SEAN": {
@@ -1327,7 +1327,7 @@
                     },
                     "Mount Magnet branch": {
                         "vertices": [
-                            [21061, 5201],
+                            [21059, 5201],
                             [21514, 5201]
                         ],
                         "stations": [[96, "to Main line"], 104]
