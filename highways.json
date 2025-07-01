@@ -104,7 +104,7 @@
             }
         },
         {
-            "name": "Ipswich",
+            "name": "Ipswich (SEAN)",
             "id": 9,
             "x": 27912,
             "z": 4682,
@@ -115,13 +115,16 @@
             }
         },
         {
-            "name": "Rockhampton",
+            "name": "Rockhampton (SEAN)",
             "id": 10,
             "x": 28025,
             "z": 4682,
             "lines": {
                 "SEAN": {
                     "Purple": ["11", ""]
+                },
+                "Pilbara National Highway": {
+                    "East Coast": ["", ""]
                 }
             }
         },
@@ -1154,18 +1157,23 @@
             }
         },
         {
-            "name": "Mundaring West",
+            "name": "Mandurah Central",
             "id": 97,
             "x": 21261,
             "z": 5781,
             "lines": {
                 "SEAN": {
                     "Green": ["12", "Main line"]
+                },
+                "Pilbara National Highway": {
+                    "Mundaring": ["", "Mandurah branch"]
                 }
             },
             "areas": [
                 [[21252, 5742], [21271, 5791]],
-                [[21252, 5772], [21294, 5791]]
+                [[21252, 5772], [21294, 5791]],
+                [[21248, 5740], [21251, 5755]],
+                [[21251, 5752], [21252, 5755]]
             ]
         },
         {
@@ -1176,10 +1184,15 @@
             "lines": {
                 "SEAN": {
                     "Green": ["13", "Main line"]
+                },
+                "Pilbara National Highway": {
+                    "Mundaring": ["", "Main line"]
                 }
             },
             "areas": [
-                [[21465, 5777], [21518, 5793]]
+                [[21465, 5777], [21518, 5793]],
+                [[21493, 5814], [21496, 5823]],
+                [[21490, 5793], [21493, 5818]]
             ]
         },
         {
@@ -1317,6 +1330,543 @@
                 }
             },
             "notes": "Closed"
+        },
+        {
+            "name": "Rockhampton (National Highway)",
+            "id": 111,
+            "x": 28090,
+            "z": 4595,
+            "lines": {
+                "Pilbara National Highway": {
+                    "East Coast": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Ipswich",
+            "id": 112,
+            "x": 27974,
+            "z": 4736,
+            "lines": {
+                "Pilbara National Highway": {
+                    "East Coast": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Gold Coast",
+            "id": 113,
+            "x": 27974,
+            "z": 5388,
+            "lines": {
+                "Pilbara National Highway": {
+                    "East Coast": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Lake Macquarie",
+            "id": 114,
+            "x": 28086,
+            "z": 5610,
+            "lines": {
+                "Pilbara National Highway": {
+                    "East Coast": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Jurien Bay",
+            "id": 115,
+            "x": 20991,
+            "z": 5074,
+            "lines": {
+                "Pilbara National Highway": {
+                    "East-West": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Goondalup",
+            "id": 116,
+            "x": 21162,
+            "z": 5597,
+            "lines": {
+                "Pilbara National Highway": {
+                    "East-West": ["", "Goondalup branch"]
+                }
+            }
+        },
+        {
+            "name": "Menzies",
+            "type": "semi1",
+            "id": 117,
+            "x": 21943,
+            "z": 5300,
+            "lines": {
+                "Pilbara National Highway": {
+                    "East-West": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Coolabah JCT",
+            "type": "jct",
+            "id": 118,
+            "x": 27256,
+            "z": 5300,
+            "lines": {
+                "Pilbara National Highway": {
+                    "East-West": ["", "Main line to Coolabah branch"]
+                }
+            }
+        },
+        {
+            "name": "Coolabah",
+            "id": 119,
+            "x": 27256,
+            "z": 5403,
+            "lines": {
+                "Pilbara National Highway": {
+                    "East-West": ["", "Coolabah branch"]
+                }
+            }
+        },
+        {
+            "name": "Longreach JCT",
+            "type": "jct",
+            "id": 120,
+            "x": 26600,
+            "z": 5300,
+            "lines": {
+                "Pilbara National Highway": {
+                    "East-West": ["", "Main line to Longreach branch"]
+                }
+            }
+        },
+        {
+            "name": "Longreach",
+            "id": 121,
+            "x": 26600,
+            "z": 4813,
+            "lines": {
+                "Pilbara National Highway": {
+                    "East-West": ["", "Longreach branch"]
+                }
+            }
+        },
+        {
+            "name": "Quercus Patraea JCT",
+            "type": "jct",
+            "id": 122,
+            "x": 26247,
+            "z": 5300,
+            "lines": {
+                "Pilbara National Highway": {
+                    "East-West": ["", "Main line to Quercus Patraea branch"]
+                }
+            }
+        },
+        {
+            "name": "Quercus Patraea",
+            "id": 123,
+            "x": 26247,
+            "z": 6399,
+            "lines": {
+                "Pilbara National Highway": {
+                    "East-West": ["", "Quercus Patraea branch"]
+                }
+            }
+        },
+        {
+            "name": "Pickle JCT",
+            "type": "jct",
+            "id": 124,
+            "x": 25556,
+            "z": 5300,
+            "lines": {
+                "Pilbara National Highway": {
+                    "East-West": ["", "Main line to Pickle branch"]
+                }
+            }
+        },
+        {
+            "name": "Pickle",
+            "id": 125,
+            "x": 25556,
+            "z": 4966,
+            "lines": {
+                "Pilbara National Highway": {
+                    "East-West": ["", "Pickle branch"]
+                }
+            }
+        },
+        {
+            "name": "Yorke JCT",
+            "type": "jct",
+            "id": 126,
+            "x": 25075,
+            "z": 5300,
+            "lines": {
+                "Pilbara National Highway": {
+                    "East-West": ["", "Main line to Yorke branch"]
+                }
+            }
+        },
+        {
+            "name": "Yorke",
+            "id": 127,
+            "x": 25198,
+            "z": 6344,
+            "lines": {
+                "Pilbara National Highway": {
+                    "East-West": ["", "Yorke branch"]
+                }
+            }
+        },
+        {
+            "name": "Goondalup JCT",
+            "type": "jct",
+            "id": 128,
+            "x": 21162,
+            "z": 5300,
+            "lines": {
+                "Pilbara National Highway": {
+                    "East-West": ["", "Main line to Goondalup branch"]
+                }
+            }
+        },
+        {
+            "name": "Mandurah JCT",
+            "type": "jct",
+            "id": 129,
+            "x": 21495,
+            "z": 5743,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Mundaring": ["", "Main line to Mandurah branch"]
+                }
+            }
+        },
+        {
+            "name": "Mundaring JCT",
+            "type": "jct",
+            "id": 130,
+            "x": 21495,
+            "z": 5300,
+            "lines": {
+                "Pilbara National Highway": {
+                    "East-West": ["", "Main line"],
+                    "Mundaring": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Gold Coast JCT",
+            "type": "jct",
+            "id": 131,
+            "x": 27974,
+            "z": 5300,
+            "lines": {
+                "Pilbara National Highway": {
+                    "East Coast": ["", ""],
+                    "East-West": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tremblant: Town Hall",
+            "id": 132,
+            "x": -13628,
+            "z": -9069,
+            "lines": {
+                "MTA": {
+                    "White": ["", ""],
+                    "Green": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Amherst/Montreal",
+            "id": 133,
+            "x": -13457,
+            "z": -9069,
+            "lines": {
+                "MTA": {
+                    "White": ["", ""],
+                    "Purple": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Como",
+            "id": 134,
+            "x": -12499,
+            "z": -8532,
+            "lines": {
+                "MTA": {
+                    "White": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Vermont: Capital and Billi", 
+            "id": 135, 
+            "x": -13550,
+            "z": -8712,
+            "lines": {
+                "MTA": {
+                    "Upper Blue": ["", "Main line"],
+                    "Green": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tremblant: Old-Village",
+            "id": 136,
+            "x": -13757,
+            "z": -8905,
+            "lines": {
+                "MTA": {
+                    "Upper Blue": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tremblant: Monark",
+            "id": 137,
+            "x": -13757,
+            "z": -9048,
+            "lines": {
+                "MTA": {
+                    "Upper Blue": ["", "Main line"],
+                    "Green": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-13765, -9055], [-13756, -9042]],
+                [[-13796, -9055], [-13765, -9052]],
+                [[-13796, -9064], [-13793, -9052]],
+                [[-13825, -9064], [-13793, -9061]],
+                [[-13840, -9070], [-13825, -9061]]
+            ]
+        },
+        {
+            "name": "Lancaster-Tremblant Downtown",
+            "id": 138,
+            "x": -13757,
+            "z": -9224,
+            "lines": {
+                "MTA": {
+                    "Upper Blue": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Montpelier: National Capital",
+            "id": 139,
+            "x": -13757,
+            "z": -8200,
+            "lines": {
+                "MTA": {
+                    "Lower Blue": ["", "Main line"],
+                    "Red": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Montpelier: Chinatown",
+            "id": 140,
+            "x": -13757,
+            "z": -8140,
+            "lines": {
+                "MTA": {
+                    "Lower Blue": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ithaca JCT",
+            "type": "jct",
+            "id": 141,
+            "x": -13784,
+            "z": -8073,
+            "lines": {
+                "MTA": {
+                    "Lower Blue": ["", "Main line to Ithaca branch"]
+                }
+            }
+        },
+        {
+            "name": "Erie Canal",
+            "id": 142,
+            "x": -14201,
+            "z": -8073,
+            "lines": {
+                "MTA": {
+                    "Lower Blue": ["", "Ithaca branch"]
+                }
+            }
+        },
+        {
+            "name": "Ithaca-116th Street",
+            "id": 143,
+            "x": -14201,
+            "z": -7889,
+            "lines": {
+                "MTA": {
+                    "Lower Blue": ["", "Ithaca branch"]
+                }
+            }
+        },
+        {
+            "name": "The Metropolitan Museum of Art",
+            "id": 144,
+            "x": -13784,
+            "z": -8009,
+            "lines": {
+                "MTA": {
+                    "Lower Blue": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Times Square Towers",
+            "id": 145,
+            "x": -13784,
+            "z": -7896,
+            "lines": {
+                "MTA": {
+                    "Lower Blue": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "5th Avenue",
+            "id": 146,
+            "x": -13704,
+            "z": -7809,
+            "lines": {
+                "MTA": {
+                    "Lower Blue": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Newbury: Billi and Main",
+            "id": 147,
+            "x": -13560,
+            "z": -8200,
+            "lines": {
+                "MTA": {
+                    "Green": ["", "Main line"],
+                    "Red": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Newbury: Prince and Main",
+            "id": 148,
+            "x": -13455,
+            "z": -8200,
+            "lines": {
+                "MTA": {
+                    "Red": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Newbury: Winthrop and Main",
+            "id": 149,
+            "x": -13273,
+            "z": -8200,
+            "lines": {
+                "MTA": {
+                    "Red": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Vermont Beach",
+            "id": 150,
+            "x": -13161,
+            "z": -8270,
+            "lines": {
+                "MTA": {
+                    "Red": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Newbury: Billi and Southern",
+            "id": 151,
+            "x": -13560,
+            "z": -8083,
+            "lines": {
+                "MTA": {
+                    "Green": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "The Union",
+            "id": 152,
+            "x": -13560,
+            "z": -7945,
+            "lines": {
+                "MTA": {
+                    "Green": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Newbury: Park and Billi",
+            "id": 153,
+            "x": -13560,
+            "z": -8302,
+            "lines": {
+                "MTA": {
+                    "Green": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Newbury: Newbury and Park",
+            "id": 154,
+            "x": -13560,
+            "z": -8415,
+            "lines": {
+                "MTA": {
+                    "Green": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Vermont Capital JCT",
+            "type": "jct",
+            "id": 155,
+            "x": -13757,
+            "z": -8712,
+            "lines": {
+                "MTA": {
+                    "Upper Blue": ["", "Main line to connection to Lower Blue"]
+                }
+            }
+        },
+        {
+            "name": "MTA Blue line elevator",
+            "type": "elev-we",
+            "y1": 18,
+            "y2": 0,
+            "id": 156,
+            "x": -13757,
+            "z": -8688,
+            "lines": {
+                "MTA": {
+                    "Upper Blue": ["", "connection to Lower Blue"],
+                    "Lower Blue": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -1467,8 +2017,7 @@
                         "concurrencies": {
                             "TNIH.Nyinchi": [
                                 [16860, -5184],
-                                [16860, -5047],
-                                [1, 0]
+                                [16860, -5047]
                             ]
                         }
                     },
@@ -1552,8 +2101,7 @@
                         "concurrencies": {
                             "TNIH.Lower Himalayas": [
                                 [16860, -5047],
-                                [16860, -5184],
-                                [1, 0]
+                                [16860, -5184]
                             ]
                         }
                     },
@@ -1586,7 +2134,332 @@
                             [14218, -4780],
                             [14218, -5939]
                         ],
-                        "stations": [59, 39, 60, 61, 62, 35, 63, 64, 65, 66, 67, 68, 26, 69, 70, 11, 71, 72, 73]
+                        "stations": [59, 39, 60, 61, 62, 35, 63, 64, 65, [66, "Laccadive Sea branch"], 67, 68, 26, 69, 70, 11, 71, 72, 73]
+                    },
+                    "Laccadive Sea branch": {
+                        "vertices": [
+                            [15255, -4780],
+                            [15255, -3979]
+                        ],
+                        "stations": [[66, "Main line"], [152, "National Laccadive Sea Highway"]]
+                    }
+                }
+            }
+        },
+        "Pilbara National Highway": {
+            "East Coast": {
+                "prefix": "",
+                "code": "",
+                "color": "a2a2a2",
+                "y": 1,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [28090, 4595],
+                            [28062, 4595],
+                            [28062, 4676],
+                            [27974, 4676],
+                            [27974, 5590],
+                            [28035, 5590],
+                            [28035, 5610],
+                            [28086, 5610]
+                        ],
+                        "stations": [111, 10, 112, 131, 113, 114]
+                    }
+                }
+            },
+            "East-West": {
+                "prefix": "",
+                "code": "",
+                "color": "a2a2a2",
+                "y": 1,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [27974, 5300],
+                            [20991, 5300],
+                            [20991, 5074]
+                        ],
+                        "stations": [131, [118, "Coolabah branch"], [120, "Longreach branch"], [122, "Quercus Petraea branch"], [124, "Pickle branch"], [126, "Yorke branch"], 117, 130, [128, "Goondalup branch"], 115]
+                    },
+                    "Coolabah branch": {
+                        "vertices": [
+                            [27256, 5300],
+                            [27256, 5403]
+                        ],
+                        "stations": [[118, "Main line"], 119]
+                    },
+                    "Longreach branch": {
+                        "vertices": [
+                            [26600, 5300],
+                            [26600, 4813]
+                        ],
+                        "stations": [[120, "Main line"], 121]
+                    },
+                    "Quercus Petraea branch": {
+                        "vertices": [
+                            [26247, 5300],
+                            [26247, 6399]
+                        ],
+                        "stations": [[122, "Main line"], 123]
+                    },
+                    "Pickle branch": {
+                        "vertices": [
+                            [25556, 5300],
+                            [25556, 4966]
+                        ],
+                        "stations": [[124, "Main line"], 125]
+                    },
+                    "Yorke branch": {
+                        "vertices": [
+                            [25075, 5300],
+                            [25075, 6344],
+                            [25198, 6344]
+                        ],
+                        "stations": [[126, "Main line"], 127]
+                    },
+                    "Goondalup branch": {
+                        "vertices": [
+                            [21162, 5300],
+                            [21162, 5597]
+                        ],
+                        "stations": [[128, "Main line"], 116]
+                    }
+                }
+            },
+            "Mundaring": {
+                "prefix": "",
+                "code": "",
+                "color": "a2a2a2",
+                "y": 1,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [21495, 5819],
+                            [21495, 5300]
+                        ],
+                        "stations": [98, [129, "Mandurah branch"], 130]
+                    },
+                    "Mandurah branch": {
+                        "vertices": [
+                            [21495, 5743],
+                            [21252, 5743]
+                        ],
+                        "stations": [[129, "Main line"], 97]
+                    }
+                }
+            }
+        },
+        "MTA": {
+            "Upper Blue": {
+                "prefix": "",
+                "code": "",
+                "color": "299de6",
+                "y": 18,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-13550, -8712],
+                            [-13757, -8712],
+                            [-13757, -9232]
+                        ],
+                        "stations": [135, [155, "connection to Lower Blue"], 136, 137, 138]
+                    },
+                    "connection to Lower Blue": {
+                        "vertices": [
+                            [-13757, -8712],
+                            [-13757, -8688]
+                        ],
+                        "stations": [[155, "Main line"], 156]
+                    }
+                }
+            },
+            "Lower Blue": {
+                "prefix": "",
+                "code": "",
+                "color": "1d81bf",
+                "y": 0,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-13757, -8688],
+                            [-13757, -8140],
+                            [-13784, -8140],
+                            [-13784, -7854],
+                            [-13704, -7854],
+                            [-13704, -7809]
+                        ],
+                        "stations": [156, 139, 140, [141, "Ithaca branch"], 144, 145, 146]
+                    },
+                    "Ithaca branch": {
+                        "vertices": [
+                            [-13784, -8073],
+                            [-14201, -8073],
+                            [-14201, -7889]
+                        ],
+                        "stations": [[141, "Main line"], 142, 143]
+                    }
+                }
+            },
+            "Green": {
+                "prefix": "",
+                "code": "",
+                "color": "71cc1d",
+                "y": 12,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-13840, -9069],
+                            [-13560, -9069],
+                            [-13560, -7838],
+                            [-13872, -7838]
+                        ],
+                        "stations": [137, 132, 135, 154, 153, 147, 151, 152],
+                        "concurrencies": {
+                            "MTA.Red": [
+                                [-13801, -7838],
+                                [-13873, -7838]
+                            ]
+                        }
+                    },
+                    "Unnamed branch": {
+                        "vertices": [
+                            [-13560, -7838],
+                            [-13538, -7838]
+                        ],
+                        "stations": []
+                    }
+                }
+            },
+            "Red": {
+                "prefix": "",
+                "code": "",
+                "color": "ff3b3b",
+                "y": 6,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-13801, -7790],
+                            [-13801, -7838],
+                            [-13873, -7838],
+                            [-13873, -8200],
+                            [-13161, -8200],
+                            [-13161, -8270]
+                        ],
+                        "stations": [150, 149, 148, 147, 139],
+                        "concurrencies": {
+                            "MTA.Green": [
+                                [-13873, -7838],
+                                [-13801, -7838]
+                            ]
+                        }
+                    }
+                } 
+            },
+            "White": {
+                "prefix": "",
+                "code": "",
+                "color": "ffffff",
+                "y": 5,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-13628, -9069],
+                            [-13389, -9069],
+                            [-13389, -8871],
+                            [-12701, -8871],
+                            [-12701, -8532],
+                            [-12499, -8532]
+                        ],
+                        "stations": [132, 133, 134]
+                    }
+                }
+            },
+            "Purple": {
+                "prefix": "",
+                "code": "",
+                "color": "a020f0",
+                "y": -5,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-13460, -9065],
+                            [-13364, -9065]
+                        ],
+                        "stations": [133]
+                    }
+                }
+            }
+        },
+        "National Laccadive Sea Highway": {
+            "North": {
+                "prefix": "",
+                "code": "",
+                "color": "a2a2a2",
+                "y": 15,
+                "branches": {
+                    "0": {
+                        "vertices": [
+                            [15255, -3979],
+                            [15255, -2989],
+                            [14580, -2989]
+                        ],
+                        "stations": [[152, "TNIH Bangla-Caspian"]]
+                    },
+                    "1": {
+                        "vertices": [
+                            [14695, -3078],
+                            [14695, -1916]
+                        ],
+                        "stations": []
+                    },
+                    "2": {
+                        "vertices": [
+                            [14777, -1488],
+                            [14777, -1916],
+                            [14395, -1916]
+                        ],
+                        "stations": []
+                    },
+                    "3": {
+                        "vertices": [
+                            [14695, -2223],
+                            [13397, -2223],
+                            [13397, -978]
+                        ],
+                        "stations": []
+                    },
+                    "4": {
+                        "vertices": [
+                            [13814, -2223],
+                            [13814, -2351],
+                            [13769, -2351],
+                            [13769, -3228],
+                            [13799, -3228]
+                        ],
+                        "stations": []
+                    },
+                    "5": {
+                        "vertices": [
+                            [13531, -2629],
+                            [13769, -2629]
+                        ],
+                        "stations": []
+                    },
+                    "6": {
+                        "vertices": [
+                            [15255, -3811],
+                            [15105, -3811]
+                        ],
+                        "stations": []
+                    },
+                    "7": {
+                        "vertices": [
+                            [14719, -3841],
+                            [15231, -3841],
+                            [15231, -3490]
+                        ],
+                        "stations": []
                     }
                 }
             }
@@ -1700,6 +2573,24 @@
                             [23050, 2612]
                         ],
                         "stations": [74, 75, 76, 77, 78]
+                    }
+                }
+            }
+        },
+        "Intercontinental": {
+            "Laccadive Sea-Africa": {
+                "prefix": "",
+                "code": "",
+                "color": "a2a2a2",
+                "y": 1,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [13333, -1168],
+                            [8835, -1168],
+                            [8835, -1348]
+                        ],
+                        "stations": []
                     }
                 }
             }

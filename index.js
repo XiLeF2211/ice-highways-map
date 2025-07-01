@@ -142,8 +142,6 @@ async function renderLines() {
             for (const branch of Object.keys(lineData.branches)) {
                 if (Object.hasOwn(lineData.branches[branch], 'concurrencies')) {
                     for (const concurrency of Object.keys(lineData.branches[branch].concurrencies)) {
-                        console.log(concurrency)
-                        const shift = lineData.branches[branch].concurrencies[concurrency].pop()
                         const concurrentVertices = []
                         for (const vertex of lineData.branches[branch].concurrencies[concurrency]) {
                             concurrentVertices.push([-vertex[1] / 16, vertex[0] / 16])
@@ -323,8 +321,12 @@ function showStation(station) {
     goToDetails('station')
 
     document.getElementById('station-name').textContent = station.name
-    document.getElementById('station-notes').innerHTML = `${station.notes}`
+    document.getElementById('station-notes').innerHTML = `${station.notes ? station.notes : ''}`
     document.getElementById('station-location').innerHTML = `X: ${station.x} Z: ${station.z} <a onclick="locate(${station.x}, ${station.z})">Locate</a>`
+    document.getElementById('elevator-ys').innerHTML = ''
+    if (station.type == 'elev-we' || station.type == 'elev-ew') {
+        document.getElementById('elevator-ys').innerHTML = `Elevator goes from ${station.y1} to ${station.y2}`
+    }
     document.getElementById('station-codes').innerHTML = ''
     for (company in station.lines) {
         let companyName = document.createElement('h3')
