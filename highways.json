@@ -1867,6 +1867,294 @@
                     "Lower Blue": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "ColdLand",
+            "id": 157,
+            "x": 21623,
+            "z": 12293,
+            "lines": {
+                "Antarctic Union": {
+                    "South Pole Metro": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Concordia",
+            "id": 158,
+            "x": 20500,
+            "z": 12762,
+            "lines": {
+                "Antarctic Union": {
+                    "South Pole Metro": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Verglas",
+            "id": 159,
+            "x": 18730,
+            "z": 12762,
+            "lines": {
+                "Antarctic Union": {
+                    "South Pole Metro": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "South Pole Interchange",
+            "type": "jct",
+            "id": 160,
+            "x": 17495,
+            "z": 12762,
+            "lines": {
+                "Antarctic Union": {
+                    "South Pole Metro": ["", ""],
+                    "Interstate 10": ["", ""],
+                    "Davis-Avalon-Verglas": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Avon Junction",
+            "type": "jct",
+            "id": 161,
+            "x": 20500,
+            "z": 13723,
+            "lines": {
+                "Antarctic Union": {
+                    "South Pole Metro": ["", "South"]
+                }
+            }
+        },
+        {
+            "name": "New Homestead",
+            "id": 162,
+            "x": 20500,
+            "z": 15057,
+            "lines": {
+                "Antarctic Union": {
+                    "South Pole Metro": ["", "South"]
+                }
+            }
+        },
+        {
+            "name": "MapLayers (Ruins)",
+            "id": 163,
+            "x": 20500,
+            "z": 16125,
+            "lines": {
+                "Antarctic Union": {
+                    "South Pole Metro": ["", "South"]
+                }
+            }
+        },
+        {
+            "name": "World Border",
+            "id": 164,
+            "x": 20500,
+            "z": 16507,
+            "lines": {
+                "Antarctic Union": {
+                    "South Pole Metro": ["", "South"]
+                }
+            }
+        },
+        {
+            "name": "Carrot Empire (Ruins)",
+            "id": 165,
+            "x": 14497,
+            "z": 14248,
+            "lines": {
+                "Antarctic Union": {
+                    "Eastern Amery": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "ZhongShan",
+            "id": 166,
+            "x": 14054,
+            "z": 12744,
+            "lines": {
+                "Antarctic Union": {
+                    "Eastern Amery": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "ZhongShan Junction",
+            "type": "jct",
+            "id": 167,
+            "x": 14054,
+            "z": 12652,
+            "lines": {
+                "Antarctic Union": {
+                    "Eastern Amery": ["", ""],
+                    "Davis-Avalon-Verglas": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "I10 Eastern Amery Junction",
+            "type": "jct",
+            "id": 168,
+            "x": 14054,
+            "z": 12762,
+            "lines": {
+                "Antarctic Union": {
+                    "Interstate 10": ["", ""],
+                    "Eastern Amery": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Avon (Ruins)",
+            "id": 169,
+            "x": 21151,
+            "z": 13723,
+            "lines": {
+                "Antarctic Union": {
+                    "South Pole Metro": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Avalon",
+            "id": 170,
+            "x": 17495,
+            "z": 12201,
+            "lines": {
+                "Antarctic Union": {
+                    "Davis-Avalon-Verglas": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Kamylodar (Ruins)",
+            "id": 171,
+            "x": 14952,
+            "z": 12364,
+            "lines": {
+                "Antarctic Union": {
+                    "Davis-Avalon-Verglas": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Omega Mundi",
+            "id": 172,
+            "x": 18858,
+            "z": 13046,
+            "lines": {
+                "Antarctic Union": {
+                    "South Pole Metro": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Clayton",
+            "id": 173,
+            "x": 18927,
+            "z": 12472,
+            "lines": {
+                "Antarctic Union": {
+                    "South Pole Metro": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Anarca Junction",
+            "type": "jct",
+            "id": 174,
+            "x": 17981,
+            "z": 12762,
+            "lines": {
+                "Antarctic Union": {
+                    "South Pole Metro": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Anarca elevator",
+            "type": "elev-we",
+            "y1": 42,
+            "y2": 114,
+            "id": 175,
+            "x": 17981,
+            "z": 12895,
+            "lines": {
+                "Antarctic Union": {
+                    "South Pole Metro": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "New Frostis Junction",
+            "type": "jct",
+            "id": 176,
+            "x": 17981,
+            "z": 14852,
+            "lines": {
+                "Antarctic Union": {
+                    "South Pole Metro": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Anarca",
+            "id": 177,
+            "x": 17981,
+            "z": 14934,
+            "lines": {
+                "Antarctic Union": {
+                    "South Pole Metro": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "New Frostis (Ruins)",
+            "id": 178,
+            "x": 17237,
+            "z": 14766,
+            "lines": {
+                "Antarctic Union": {
+                    "South Pole Metro": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Aurora Point (Ruins)",
+            "id": 179,
+            "x": 19039,
+            "z": 13056,
+            "lines": {
+                "Antarctic Union": {
+                    "South Pole Metro": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Abandoned Town (Ruins)",
+            "id": 180,
+            "x": 18408,
+            "z": 12114,
+            "lines": {
+                "Antarctic Union": {
+                    "South Pole Metro": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Triton (Ruins)",
+            "id": 181,
+            "x": 18260,
+            "z": 12657,
+            "lines": {
+                "Antarctic Union": {
+                    "South Pole Metro": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -2594,6 +2882,142 @@
                     }
                 }
             }
-        }
+        },
+		"Antarctic Union": {
+			"South Pole Metro": {
+                "prefix": "",
+                "code": "",
+                "color": "38ACD1",
+                "y": 42,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [21623, 12293],
+                            [20500, 12293],
+                            [20500, 12762],
+                            [17495, 12762]
+                        ],
+                        "stations": [157, 158, 159, 160]
+                    },
+                    "Southern Branch": {
+                        "vertices": [
+                            [20500, 12762],
+                            [20500, 16507]
+                        ],
+                        "stations": [158, 161, 162, 163, 164]
+                    },
+                    "Avon Branch": {
+                        "vertices": [
+                            [20500, 13723],
+                            [21151, 13723]
+                        ],
+                        "stations": [161, 169]
+                    },
+                    "Omega Mundi Branch": {
+                        "vertices": [
+                            [18744, 12762],
+                            [18744, 13026],
+                            [18858, 13026],
+                            [18858, 13046]
+                        ],
+                        "stations": [172]
+                    },
+                    "Clayton Branch": {
+                        "vertices": [
+                            [18927, 12762],
+                            [18927, 12472]
+                        ],
+                        "stations": [173]
+                    },
+                    "Anarca Branch": {
+                        "vertices": [
+                            [17981, 12762],
+                            [17981, 14934]
+                        ],
+                        "stations": [174, 175, 176, 177]
+                    },
+                    "New Frostis Branch": {
+                        "vertices": [
+                            [17981, 14852],
+                            [17237, 14852],
+                            [17237, 14766]
+                        ],
+                        "stations": [176, 178]
+                    },
+                    "Aurora Point Branch": {
+                        "vertices": [
+                            [19039, 12762],
+                            [19039, 13056]
+                        ],
+                        "stations": [179]
+                    },
+                    "Abandoned Town Branch": {
+                        "vertices": [
+                            [18408, 12762],
+                            [18408, 12114]
+                        ],
+                        "stations": [180]
+                    },
+                    "Triton Branch": {
+                        "vertices": [
+                            [18260, 12762],
+                            [18260, 12657]
+                        ],
+                        "stations": [181]
+                    }
+                }
+			},
+			"Interstate 10": {
+                "prefix": "",
+                "code": "I10",
+                "color": "2D2F90",
+                "y": 42,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [17495, 12762],
+                            [14054, 12762]
+                        ],
+                        "stations": [160, 168]
+                    }
+                }
+			},
+			"Eastern Amery": {
+                "prefix": "",
+                "code": "",
+                "color": "BC4AB3",
+                "y": 42,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [14054, 12652],
+                            [14054, 14248],
+                            [14497, 14248]
+                        ],
+                        "stations": [165, 168, 166, 167]
+                    }
+                }
+			},
+            "Davis-Avalon-Verglas": {
+                "prefix": "",
+                "code": "D-A-V",
+                "color": "149090",
+                "y": 42,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [17495, 12762],
+                            [17495, 12201],
+                            [17128, 12201],
+                            [17128, 12364],
+                            [14822, 12364],
+                            [14822, 12652],
+                            [14054, 12652]
+                        ],
+                        "stations": [160, 170, 171, 167]
+                    }
+                }
+            }
+		}
     }
 }
