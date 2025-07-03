@@ -1,8 +1,10 @@
 # EarthMC Ice Highways Map
 
-This is a tool that aims to give information on stations and lines across the EarthMC server. However, right now, it only has 25 lines and 156 stations (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
+This is a tool that aims to give information on stations and lines across the EarthMC server. However, right now, it only has 26 lines and 196 stations (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
 
 ## Log
+
+3 July 2025: Four South Pole lines (data from **UpgradeWasTaken**) and North Canada-Greenland Subterranean Highway
 
 30 Jun 2025: Laccadive Sea line (no stations), MTA lines (Red, Blue, Green, Purple, White), Pilbaran National Highway lines
 
