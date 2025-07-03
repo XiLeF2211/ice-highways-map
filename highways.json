@@ -2155,6 +2155,195 @@
                     "South Pole Metro": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Kitilineq",
+            "id": 182,
+            "x": -20600,
+            "z": -13144,
+            "lines": {
+                "Intercontinental": {
+                    "North Canada-Greenland Subterranean Highway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sherpard JCT",
+            "type": "jct",
+            "id": 183,
+            "x": -19589,
+            "z": -13144,
+            "lines": {
+                "Intercontinental": {
+                    "North Canada-Greenland Subterranean Highway": ["", "Main line to Sherpard branch"]
+                }
+            }
+        },
+        {
+            "name": "Zitadelle",
+            "id": 184,
+            "x": -18991,
+            "z": -13144,
+            "lines": {
+                "Intercontinental": {
+                    "North Canada-Greenland Subterranean Highway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Checkpoint #1 (Nunavut in North Canada)",
+            "id": 185,
+            "x": -18016,
+            "z": -13144,
+            "lines": {
+                "Intercontinental": {
+                    "North Canada-Greenland Subterranean Highway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Laytown JCT",
+            "type": "jct",
+            "id": 186,
+            "x": -17969,
+            "z": -13144,
+            "lines": {
+                "Intercontinental": {
+                    "North Canada-Greenland Subterranean Highway": ["", "Main line to Laytown branch"]
+                }
+            }
+        },
+        {
+            "name": "Checkpoint #2 (North Canada)",
+            "id": 187,
+            "x": -17151,
+            "z": -13144,
+            "lines": {
+                "Intercontinental": {
+                    "North Canada-Greenland Subterranean Highway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "East Baffin Island Twin 1",
+            "id": 188,
+            "x": -16478,
+            "z": -13144,
+            "lines": {
+                "Intercontinental": {
+                    "North Canada-Greenland Subterranean Highway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "East Baffin Island Twin 2",
+            "id": 189,
+            "x": -16296,
+            "z": -13144,
+            "lines": {
+                "Intercontinental": {
+                    "North Canada-Greenland Subterranean Highway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Canada North-South Ice Road transfer",
+            "id": 190,
+            "x": -15856,
+            "z": -13144,
+            "lines": {
+                "Intercontinental": {
+                    "North Canada-Greenland Subterranean Highway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "North Canadian Ice Farm",
+            "id": 191,
+            "x": -14872,
+            "z": -13144,
+            "lines": {
+                "Intercontinental": {
+                    "North Canada-Greenland Subterranean Highway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Decommissioned (Baffin Island)",
+            "id": 192,
+            "x": -14704,
+            "z": -13144,
+            "lines": {
+                "Intercontinental": {
+                    "North Canada-Greenland Subterranean Highway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Möhlin",
+            "id": 193,
+            "x": -13474,
+            "z": -13144,
+            "lines": {
+                "Intercontinental": {
+                    "North Canada-Greenland Subterranean Highway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Church of Ethio",
+            "id": 194,
+            "x": -12793,
+            "z": -13144,
+            "lines": {
+                "Intercontinental": {
+                    "North Canada-Greenland Subterranean Highway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Newcanton",
+            "id": 195,
+            "x": -10351,
+            "z": -13144,
+            "lines": {
+                "Intercontinental": {
+                    "North Canada-Greenland Subterranean Highway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Greenland (near Newcanton)",
+            "id": 196,
+            "x": -10128,
+            "z": -13144,
+            "lines": {
+                "Intercontinental": {
+                    "North Canada-Greenland Subterranean Highway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sherpard",
+            "id": 197,
+            "x": -19589,
+            "z": -13638,
+            "lines": {
+                "Intercontinental": {
+                    "North Canada-Greenland Subterranean Highway": ["", "Sherpard branch"]
+                }
+            }
+        },
+        {
+            "name": "Laytown",
+            "id": 198,
+            "x": -17969,
+            "z": -12080,
+            "lines": {
+                "Intercontinental": {
+                    "North Canada-Greenland Subterranean Highway": ["", "Laytown branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -2682,7 +2871,7 @@
         "National Laccadive Sea Highway": {
             "North": {
                 "prefix": "",
-                "code": "",
+                "code": "Laccadive Sea",
                 "color": "a2a2a2",
                 "y": 15,
                 "branches": {
@@ -2746,137 +2935,6 @@
                             [14719, -3841],
                             [15231, -3841],
                             [15231, -3490]
-                        ],
-                        "stations": []
-                    }
-                }
-            }
-        },
-        "Local": {
-            "Singapore City Metro": {
-                "prefix": "",
-                "code": "",
-                "color": "01b9f1",
-                "y": 49,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [18853, -846],
-                            [18798, -846],
-                            [18798, -509]
-                        ],
-                        "stations": [47, 48, [49, "Island branch"], 50]
-                    },
-                    "Island branch": {
-                        "vertices": [
-                            [18798, -604],
-                            [18610, -604],
-                            [18610, -491]
-                        ],
-                        "stations": [[49, "Main line"], 51, 52]
-                    }
-                }
-            },
-            "Ringbahn": {
-                "prefix": "",
-                "code": "",
-                "color": "8e2121",
-                "y": 1,
-                "branches": {
-                    "": {
-                        "vertices": [
-                            [2302, -9744],
-                            [2302, -9672],
-                            [2321, -9672],
-                            [2321, -9613],
-                            [2598, -9613],
-                            [2598, -9844],
-                            [2096, -9844],
-                            [2096, -9744],
-                            [2302, -9744]
-                        ],
-                        "stations": [53, 54, 55, 56, 57]
-                    }
-                }
-            },
-            "Landonbahn": {
-                "prefix": "",
-                "code": "U3",
-                "color": "4f52ff",
-                "y": 1,
-                "branches": {
-                    "": {
-                        "vertices": [
-                            [2453, -9633],
-                            [2327, -9633],
-                            [2327, -9676],
-                            [2324, -9676],
-                            [2324, -9858],
-                            [2480, -9858]
-                        ],
-                        "stations": [53, 55, 58]
-                    }
-                }
-            },
-            "Jinan Metro": {
-                "prefix": "",
-                "code": "",
-                "color": "",
-                "y": 45,
-                "branches": {
-                    "": {
-                        "vertices": [
-                            [21435, -7311],
-                            [21435, -6975],
-                            [21438, -6969],
-                            [21438, -6798],
-                            [21445, -6792]
-                        ]
-                    }
-                }
-            },
-            "New Prague Subway": {
-                "prefix": "",
-                "code": "",
-                "color": "6ccca2",
-                "y": 49,
-                "branches": {
-                    "": {
-                        "vertices": [
-                            [24320, 2178],
-                            [24104, 2178],
-                            [24104, 2246],
-                            [24038, 2246],
-                            [24038, 2289],
-                            [24029, 2289],
-                            [24029, 2567],
-                            [23829, 2567],
-                            [23770, 2622],
-                            [23694, 2622],
-                            [23694, 2649],
-                            [23420, 2649],
-                            [23420, 2498],
-                            [23021, 2498],
-                            [23021, 2612],
-                            [23050, 2612]
-                        ],
-                        "stations": [74, 75, 76, 77, 78]
-                    }
-                }
-            }
-        },
-        "Intercontinental": {
-            "Laccadive Sea-Africa": {
-                "prefix": "",
-                "code": "",
-                "color": "a2a2a2",
-                "y": 1,
-                "branches": {
-                    "": {
-                        "vertices": [
-                            [13333, -1168],
-                            [8835, -1168],
-                            [8835, -1348]
                         ],
                         "stations": []
                     }
@@ -3018,6 +3076,166 @@
                     }
                 }
             }
-		}
+		},
+        "Local": {
+            "Singapore City Metro": {
+                "prefix": "",
+                "code": "",
+                "color": "01b9f1",
+                "y": 49,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [18853, -846],
+                            [18798, -846],
+                            [18798, -509]
+                        ],
+                        "stations": [47, 48, [49, "Island branch"], 50]
+                    },
+                    "Island branch": {
+                        "vertices": [
+                            [18798, -604],
+                            [18610, -604],
+                            [18610, -491]
+                        ],
+                        "stations": [[49, "Main line"], 51, 52]
+                    }
+                }
+            },
+            "Ringbahn": {
+                "prefix": "",
+                "code": "",
+                "color": "8e2121",
+                "y": 1,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [2302, -9744],
+                            [2302, -9672],
+                            [2321, -9672],
+                            [2321, -9613],
+                            [2598, -9613],
+                            [2598, -9844],
+                            [2096, -9844],
+                            [2096, -9744],
+                            [2302, -9744]
+                        ],
+                        "stations": [53, 54, 55, 56, 57]
+                    }
+                }
+            },
+            "Landonbahn": {
+                "prefix": "",
+                "code": "U3",
+                "color": "4f52ff",
+                "y": 1,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [2453, -9633],
+                            [2327, -9633],
+                            [2327, -9676],
+                            [2324, -9676],
+                            [2324, -9858],
+                            [2480, -9858]
+                        ],
+                        "stations": [53, 55, 58]
+                    }
+                }
+            },
+            "Jinan Metro": {
+                "prefix": "",
+                "code": "",
+                "color": "",
+                "y": 45,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [21435, -7311],
+                            [21435, -6975],
+                            [21438, -6969],
+                            [21438, -6798],
+                            [21445, -6792]
+                        ]
+                    }
+                }
+            },
+            "New Prague Subway": {
+                "prefix": "",
+                "code": "",
+                "color": "6ccca2",
+                "y": 49,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [24320, 2178],
+                            [24104, 2178],
+                            [24104, 2246],
+                            [24038, 2246],
+                            [24038, 2289],
+                            [24029, 2289],
+                            [24029, 2567],
+                            [23829, 2567],
+                            [23770, 2622],
+                            [23694, 2622],
+                            [23694, 2649],
+                            [23420, 2649],
+                            [23420, 2498],
+                            [23021, 2498],
+                            [23021, 2612],
+                            [23050, 2612]
+                        ],
+                        "stations": [74, 75, 76, 77, 78]
+                    }
+                }
+            }
+        },
+        "Intercontinental": {
+            "Laccadive Sea-Africa": {
+                "prefix": "",
+                "code": "LS-AF",
+                "color": "a2a2a2",
+                "y": 1,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [13333, -1168],
+                            [8835, -1168],
+                            [8835, -1348]
+                        ],
+                        "stations": []
+                    }
+                }
+            },
+            "North Canada-Greenland Subterranean Highway": {
+                "prefix": "",
+                "code": "NC-GL",
+                "color": "a2a2a2",
+                "y": 30,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-20600, -13144],
+                            [-8331, -13144]
+                        ],
+                        "stations": [182, [183, "Sherpard branch"], 184, 185, [186, "Laytown branch"], 187, 188, 189, 190, 191, 192, 193, 194, 195, 196]
+                    },
+                    "Sherpard branch": {
+                        "vertices": [
+                            [-19589, -13144],
+                            [-19589, -13638]
+                        ],
+                        "stations": [[183, "Main line"], 197]
+                    },
+                    "Laytown branch": {
+                        "vertices": [
+                            [-17969, -13144],
+                            [-17969, -12080]
+                        ],
+                        "stations": [[186, "Main line"], 198]
+                    }
+                }
+            }
+        }
     }
 }
