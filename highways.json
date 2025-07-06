@@ -331,7 +331,7 @@
             }
         },
         {
-            "name": "Vilapur JCT",
+            "name": "Vijapur JCT",
             "id": 28,
             "x": 13311,
             "z": -4686,
@@ -2490,7 +2490,19 @@
                     "Tasman Highway": ["", "Antarctica branch"]
                 }
             }
+        },
+        {
+            "name": "Sindh",
+            "id": 214,
+            "x": 12244,
+            "z": -4173,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ["", "Main line"]
+                }
+            }
         }
+
     ],
     "lines": {
         "SEAN": {
@@ -2663,9 +2675,10 @@
                         "vertices": [
                             [14218, -4780],
                             [14218, -4686],
-                            [12382, -4686]
+                            [12244, -4686],
+			    [12244, -4713]
                         ],
-                        "stations": [26, 27, 28, [29, "Gujarat branch"], 30]
+                        "stations": [26, 27, 28, [29, "Gujarat branch"], 30, 214]
                     },
                     "Gujarat branch": {
                         "vertices": [
