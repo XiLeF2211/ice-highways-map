@@ -2352,60 +2352,37 @@
             "z": 6390,
             "lines": {
                 "Kingdom of Havaiki": {
-                    "North Network": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Vistulania Western JCT",
-            "type": "jct",
-            "id": 200,
-            "x": 31847,
-            "z": 6579,
-            "lines": {
-                "Kingdom of Havaiki": {
-                    "North Network": ["", "Main line to Vistulania branch"]
+                    "North Network": ["", ""]
                 }
             }
         },
         {
             "name": "Auckland",
-            "id": 201,
+            "id": 200,
             "x": 32064,
             "z": 6713,
             "lines": {
                 "Kingdom of Havaiki": {
-                    "North Network": ["", "Main line"]
+                    "North Network": ["", ""]
                 }
             }
         },
         {
             "name": "Havaiki Square JCT",
             "type": "jct",
-            "id": 202,
+            "id": 201,
             "x": 32350,
             "z": 6922,
             "lines": {
                 "Kingdom of Havaiki": {
-                    "North Network": ["", "Main line"],
+                    "North Network": ["", ""],
                     "Havaiki Square": ["", "Main line"]
                 }
             }
         },
         {
-            "name": "Vistulania",
-            "id": 203,
-            "x": 32246,
-            "z": 6579,
-            "lines": {
-                "Kingdom of Havaiki": {
-                    "North Network": ["", "Vistulania branch"]
-                }
-            }
-        },
-        {
             "name": "Sibuya",
-            "id": 204,
+            "id": 202,
             "x": 32320,
             "z": 7049,
             "lines": {
@@ -2417,7 +2394,7 @@
         {
             "name": "Atua JCT",
             "type": "jct",
-            "id": 205,
+            "id": 203,
             "x": 32373,
             "z": 7049,
             "lines": {
@@ -2428,7 +2405,7 @@
         },
         {
             "name": "Atua",
-            "id": 206,
+            "id": 204,
             "x": 32606,
             "z": 7049,
             "lines": {
@@ -2438,26 +2415,14 @@
             }
         },
         {
-            "name": "Vistulania Eastern JCT",
-            "type": "jct",
-            "id": 207,
-            "x": 32350,
-            "z": 6713,
-            "lines": {
-                "Kingdom of Havaiki": {
-                    "North Network": ["", "Main line to Vistulania branch"]
-                }
-            }
-        },
-        {
             "name": "Havaiki Network JCT",
             "type": "jct",
-            "id": 208,
+            "id": 205,
             "x": 31847,
             "z": 6698,
             "lines": {
                 "Kingdom of Havaiki": {
-                    "North Network": ["", "Main line"]
+                    "North Network": ["", ""]
                 },
                 "Intercontinental": {
                     "Tasman Highway": ["", "Main line"]
@@ -2466,7 +2431,7 @@
         },
         {
             "name": "Yass JCT",
-            "id": 209,
+            "id": 206,
             "x": 27377,
             "z": 6610, 
             "lines": {
@@ -2480,7 +2445,7 @@
             "type": "elev-we",
             "y1": 1,
             "y2": 15,
-            "id": 210,
+            "id": 207,
             "x": 27429,
             "z": 6695,
             "lines": {
@@ -2492,7 +2457,7 @@
         {
             "name": "Pilsy-Tasman JCT",
             "type": "jct",
-            "id": 211,
+            "id": 208,
             "x": 27463,
             "z": 6697,
             "lines": {
@@ -2506,7 +2471,7 @@
         },
         {
             "name": "Tasman Sea JCT",
-            "id": 212,
+            "id": 209,
             "x": 28274,
             "z": 6697,
             "lines": {
@@ -2517,7 +2482,7 @@
         },
         {
             "name": "ChocolateTrain's Ice Farm",
-            "id": 213,
+            "id": 210,
             "x": 28274,
             "z": 12547,
             "lines": {
@@ -3265,22 +3230,14 @@
                 "color": "a2a2a2",
                 "y": 2,
                 "branches": {
-                    "Main line": {
+                    "": {
                         "vertices": [
                             [31847, 6390],
                             [31847, 6713],
                             [32350, 6713],
                             [32350, 6922]
                         ],
-                        "stations": [199, [200, "Vistulania branch"], 208, 201, [207, "Vistulania branch"], 202]
-                    },
-                    "Vistulania branch": {
-                        "vertices": [
-                            [31847, 6579],
-                            [32350, 6579],
-                            [32350, 6713]
-                        ],
-                        "stations": [[200, "Main line"], 203, [207, "Main line"]]
+                        "stations": [199, 205, 200, 201]
                     }
                 }
             },
@@ -3299,14 +3256,14 @@
                             [32218, 6922],
                             [32350, 6922]
                         ],
-                        "stations": [202, [205, "Atua branch"], 204]
+                        "stations": [201, [203, "Atua branch"], 202]
                     },
                     "Atua branch": {
                         "vertices": [
                             [32606, 7049],
                             [32320, 7049]
                         ],
-                        "stations": [204, [205, "Main line"], 206]
+                        "stations": [202, [203, "Main line"], 204]
                     }
                 }
             }
@@ -3325,7 +3282,7 @@
                             [27463, 6682],
                             [27463, 6697]
                         ],
-                        "stations": [209, 211]
+                        "stations": [206, 208]
                     }
                 }
             }
@@ -3504,14 +3461,14 @@
                             [28274, 6698],
                             [31847, 6698]
                         ],
-                        "stations": [210, 211, [212, "Antarctica branch"], 208]
+                        "stations": [207, 208, [209, "Antarctica branch"], 205]
                     },
                     "Antarctica branch": {
                         "vertices": [
                             [28274, 6697],
                             [28274, 12547]
                         ],
-                        "stations": [[212, "Main line"], 213]
+                        "stations": [[209, "Main line"], 210]
                     }
                 }
             }
