@@ -1,4 +1,4 @@
-{
+ {
     "stations": [
         {
             "name": "Learmonth",
@@ -2493,7 +2493,7 @@
         },
         {
             "name": "Sindh",
-            "id": 214,
+            "id": 211,
             "x": 12244,
             "z": -4173,
             "lines": {
@@ -2502,7 +2502,6 @@
                 }
             }
         }
-
     ],
     "lines": {
         "SEAN": {
@@ -2678,7 +2677,7 @@
                             [12244, -4686],
 			    [12244, -4713]
                         ],
-                        "stations": [26, 27, 28, [29, "Gujarat branch"], 30, 214]
+                        "stations": [26, 27, 28, [29, "Gujarat branch"], 30, 211]
                     },
                     "Gujarat branch": {
                         "vertices": [
