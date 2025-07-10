@@ -1,4 +1,4 @@
- {
+{
     "stations": [
         {
             "name": "Learmonth",
@@ -206,7 +206,8 @@
             "z": -5184,
             "lines": {
                 "TNIH": {
-                    "Lower Himalayas": ["", "Main line"]
+                    "Lower Himalayas": ["", "Main line"],
+                    "Haldwan-Castlers": ["", "Southern route"]
                 }
             }
         },
@@ -801,7 +802,7 @@
             "z": -4780,
             "lines": {
                 "TNIH": {
-                    "Bangla-Caspian": ["", "Main line"]
+                    "Bangla-Caspian": ["", "Main line to Laccadive Sea branch"]
                 }
             }
         },
@@ -813,7 +814,8 @@
             "z": -4780,
             "lines": {
                 "TNIH": {
-                    "Bangla-Caspian": ["", "Main line"]
+                    "Bangla-Caspian": ["", "Main line"],
+                    "Haldwan-Castlers": ["", "Southern route"]
                 }
             }
         },
@@ -882,7 +884,7 @@
             "z": -5939,
             "lines": {
                 "TNIH": {
-                    "Bangla-Caspian": ["", "Main line"]
+                    "Bangla-Caspian": ["", "Main line to Himalayas branch"]
                 }
             }
         },
@@ -2501,6 +2503,321 @@
                     "Gujarat": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "SigmaVille",
+            "id": 212,
+            "x": 13944,
+            "z": -5940,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Agartha JCT",
+            "type": "jct",
+            "id": 213,
+            "x": 13778,
+            "z": -5940,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Amritsar",
+            "id": 214,
+            "x": 13642,
+            "z": -5940,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Lahore",
+            "id": 215,
+            "x": 13400,
+            "z": -5977,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Islamabad",
+            "id": 216,
+            "x": 13400,
+            "z": -6326,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Creeper Point",
+            "type": "semi1",
+            "id": 217,
+            "x": 13400,
+            "z": -6630,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Wakhan-Ladakh JCT",
+            "type": "jct",
+            "id": 218,
+            "x": 13400,
+            "z": -6771,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Wakhan Tunnel",
+            "id": 219,
+            "x": 13382,
+            "z": -6771,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Wakhan JCT",
+            "type": "jct",
+            "id": 220,
+            "x": 13172,
+            "z": -6771,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Crypt Mine",
+            "type": "semi1",
+            "id": 221,
+            "x": 12918,
+            "z": -6771,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Taloqan JCT",
+            "type": "jct",
+            "id": 222,
+            "x": 12588,
+            "z": -6771,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cobble Cord Jazz Bar",
+            "id": 223,
+            "x": 11847,
+            "z": -6771,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Balkh",
+            "id": 224,
+            "x": 11784,
+            "z": -6771,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Atamyrat JCT",
+            "type": "jct",
+            "id": 225,
+            "x": 11620,
+            "z": -7022,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Atamyrat elevator",
+            "type": "elev-ew",
+            "id": 226,
+            "x": 11617,
+            "z": -7022,
+            "y1": 10,
+            "y2": 1,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sakar",
+            "id": 227,
+            "x": 11116,
+            "z": -7022,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Palmyra",
+            "id": 228,
+            "x": 9893,
+            "z": -7022,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kushan JCT",
+            "type": "jct",
+            "id": 229,
+            "x": 9252,
+            "z": -7022,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Orthinia JCT",
+            "type": "jct",
+            "id": 230,
+            "x": 9054,
+            "z": -7022,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Orhinia Town Spawn",
+            "id": 231,
+            "x": 9054,
+            "z": -7034,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Laccadive Sea-Bangla-Caspian elevator",
+            "type": "elev-we",
+            "id": 232,
+            "x": 15255,
+            "z": -3979,
+            "y1": 10,
+            "y2": 15,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Laccadive Sea branch"]
+                },
+                "National Laccadive Sea Highway": {
+                    "North": ["", "0"]
+                }
+            }
+        },
+        {
+            "name": "Chronos Union",
+            "id": 233,
+            "x": 14663,
+            "z": -4822,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Chronos Union branch"]
+                }
+            }
+        },
+        {
+            "name": "Himalayas",
+            "id": 234,
+            "x": 14375,
+            "z": -5940,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Himalayas branch"]
+                }
+            }
+        },
+        {
+            "name": "Haldwani Lake",
+            "id": 235,
+            "x": 14967,
+            "z": -5272,
+            "lines": {
+                "TNIH": {
+                    "Haldwan-Castlers": ["", "Northern route and Southern route"]
+                }
+            }
+        },
+        {
+            "name": "Sukhbaathar Perimeter",
+            "id": 236,
+            "x": 14983,
+            "z": -8126,
+            "lines": {
+                "TNIH": {
+                    "Haldwan-Castlers": ["", "Northern route"]
+                }
+            }
+        },
+        {
+            "name": "Economy Land",
+            "id": 237,
+            "x": 14983,
+            "z": -4199,
+            "lines": {
+                "TNIH": {
+                    "Haldwan-Castlers": ["", "Southern route"]
+                }
+            }
+        },
+        {
+            "name": "The Castlers",
+            "id": 238,
+            "x": 14667,
+            "z": -4072,
+            "lines": {
+                "TNIH": {
+                    "Haldwan-Castlers": ["", "Southern route"]
+                }
+            }
         }
     ],
     "lines": {
@@ -2767,16 +3084,61 @@
                             [15739, -4588],
                             [15739, -4780],
                             [14218, -4780],
-                            [14218, -5939]
+                            [14218, -5940],
+                            [13400, -5940],
+                            [13400, -6771],
+                            [11620, -6771],
+                            [11620, -7022],
+                            [9054, -7022],
+                            [9054, -7034]
                         ],
-                        "stations": [59, 39, 60, 61, 62, 35, 63, 64, 65, [66, "Laccadive Sea branch"], 67, 68, 26, 69, 70, 11, 71, 72, 73]
+                        "stations": [59, 39, 60, 61, 62, 35, 63, 64, 65, [66, "Laccadive Sea branch"], 67, [68, "Chronos Union branch"], 26, 69, 70, 11, 71, 72, [73, "Himalayas branch"], 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231]
                     },
                     "Laccadive Sea branch": {
                         "vertices": [
                             [15255, -4780],
                             [15255, -3979]
                         ],
-                        "stations": [[66, "Main line"], [152, "National Laccadive Sea Highway"]]
+                        "stations": [[66, "Main line"], 232]
+                    },
+                    "Chronos Union branch": {
+                        "vertices": [
+                            [14663, -4780],
+                            [14663, -4822]
+                        ],
+                        "stations": [[68, "Main line"], 233]
+                    },
+                    "Himalayas branch": {
+                        "vertices": [
+                            [14218, -5940],
+                            [14375, -5940]
+                        ],
+                        "stations": [[73, "Main line"], 234]
+                    }
+                }
+            },
+            "Haldwan-Castlers": {
+                "prefix": "",
+                "code": "HC",
+                "color": "214478",
+                "y": 10,
+                "branches": {
+                    "Northern route": {
+                        "vertices": [
+                            [14983, -8137],
+                            [14983, -5277],
+                            [14967, -5277]
+                        ],
+                        "stations": [[235, "Southern route"], 236]
+                    },
+                    "Southern route": {
+                        "vertices": [
+                            [14967, -5268],
+                            [14983, -5268],
+                            [14983, -4072],
+                            [14667, -4072]
+                        ],
+                        "stations": [[235, "Northern route"], 17, 67, 237, 238]
                     }
                 }
             }
@@ -3024,6 +3386,65 @@
                         "stations": [133]
                     }
                 }
+            },
+            "Gray": {
+                "prefix": "",
+                "code": "",
+                "color": "a2a2a2",
+                "y": 68,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-15623, -9473],
+                            [-15215, -9473, "elevator to 64"],
+                            [-14669, -9473],
+                            [-14669, -9601],
+                            [-12986, -9601]
+                        ]
+                    },
+                    "Monark branch": {
+                        "vertices": [
+                            [-13859, -9057],
+                            [-13859, -9601]
+                        ],
+                        "stations": []
+                    },
+                    "Montreal branch": {
+                        "vertices": [
+                            [-13518, -9601],
+                            [-13518, -9208]
+                        ]
+                    },
+                    "Chibougamau": {
+                        "vertices": [
+                            [-13263, -9601],
+                            [-13263, -9537]
+                        ]
+                    },
+                    "Snowcrest": {
+                        "vertices": [
+                            [-13122, -9601],
+                            [-13122, -10724, "jct thing"],
+                            [-13122, -10839],
+                            [-13028, -10839],
+                            [-13028, -10924, "NEW AMSTERDAM Laurentian Rail Company"],
+                            [-13028, -10929, "elevator"],
+                            [-13028, -10953],
+                            [-12824, -10953],
+                            [-12824, -10934, "Laurentia?"]
+                        ]
+                    },
+                    "LRC": {
+                        "vertices": [
+                            [-13122, -10724],
+                            [-13219, -10724],
+                            [-13219, -10812, "jct"],
+                            [-13219, -11074, "ironhaven"],
+                            [-13219, -11336, "jct"],
+                            [-13219, -11706, "jct"]
+                        ]
+                    }
+                }
             }
         },
         "National Laccadive Sea Highway": {
@@ -3039,7 +3460,7 @@
                             [15255, -2989],
                             [14580, -2989]
                         ],
-                        "stations": [[152, "TNIH Bangla-Caspian"]]
+                        "stations": [232]
                     },
                     "1": {
                         "vertices": [
