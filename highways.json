@@ -2516,7 +2516,7 @@
             }
         },
         {
-            "name": "Agartha JCT",
+            "name": "Jalandhar JCT",
             "type": "jct",
             "id": 213,
             "x": 13778,
@@ -2562,7 +2562,7 @@
         },
         {
             "name": "Creeper Point",
-            "type": "semi1",
+            "type": "semi4",
             "id": 217,
             "x": 13400,
             "z": -6630,
@@ -2633,6 +2633,7 @@
         },
         {
             "name": "Cobble Cord Jazz Bar",
+            "type": "semi3",
             "id": 223,
             "x": 11847,
             "z": -6771,
