@@ -2818,6 +2818,17 @@
                     "Haldwan-Castlers": ["", "Southern route"]
                 }
             }
+        },
+        {
+            "name": "Timphou (Shanzhong Baolei)",
+            "id": 239,
+            "x": 16860,
+            "z": -5298,
+            "lines": {
+                "TNIH": {
+                    "Nyingchi": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
