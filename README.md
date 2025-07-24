@@ -4,7 +4,7 @@ This is a tool that aims to give information on stations and lines across the Ea
 
 ## Log
 
-24 July 2025: TNIH Ladakh, Pakistan, Afghan and Tajik lines, and Oates-Oli Subway (edited by **nokteholda**)
+24 July 2025: TNIH Ladakh, Pakistan, Afghan and Tajik lines, and Oates-Oil Subway (edited by **nokteholda**)
 
 9 July 2025: TNIH Haldwan-Castlers and (completion of) TNIH Bangla-Caspian lines (data from **nokteholda**)
 
