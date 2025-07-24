@@ -2580,7 +2580,8 @@
             "z": -6771,
             "lines": {
                 "TNIH": {
-                    "Bangla-Caspian": ["", "Main line"]
+                    "Bangla-Caspian": ["", "Main line"],
+                    "Ladakh": ["", ""]
                 }
             }
         },
@@ -2603,7 +2604,8 @@
             "z": -6771,
             "lines": {
                 "TNIH": {
-                    "Bangla-Caspian": ["", "Main line"]
+                    "Bangla-Caspian": ["", "Main line"],
+                    "Pakistan": ["", ""]
                 }
             }
         },
@@ -2884,6 +2886,63 @@
             "lines": {
                 "Local": {
                     "Oates-Oil Subway": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Ladakh Mine",
+            "type": "semi2",
+            "id": 245,
+            "x": 13400,
+            "z": -6849,
+            "lines": {
+                "TNIH": {
+                    "Ladakh": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Ladakh West JCT",
+            "type": "jct",
+            "id": 246,
+            "x": 13464,
+            "z": -6929,
+            "lines": {
+                "TNIH": {
+                    "Ladakh": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Ladakh",
+            "id": 247,
+            "x": 13494,
+            "z": -6929,
+            "lines": {
+                "TNIH": {
+                    "Ladakh": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Wakhan",
+            "id": 248,
+            "x": 13172,
+            "z": -6805,
+            "lines": {
+                "TNIH": {
+                    "Pakistan": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Syphon",
+            "id": 249,
+            "x": 13172,
+            "z": -6648,
+            "lines": {
+                "TNIH": {
+                    "Pakistan": ["", ""]
                 }
             }
         }
@@ -3209,7 +3268,38 @@
                         "stations": [[235, "Northern route"], 17, 67, 237, 238]
                     }
                 }
-            }
+            },
+            "Ladakh": {
+                "prefix": "",
+                "code": "LD",
+                "color": "00d4aa",
+                "y": 10,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [13400, -4686],
+                            [13400, -6929],
+                            [13494, -6929]
+                        ],
+                        "stations": [218, 245, 246, 247]
+                    }
+                }
+            },
+            "Pakistan": {
+                "prefix": "",
+                "code": "PK",
+                "color": "5aa02c",
+                "y": 10,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [13172, -6805],
+                            [13172, -6648]
+                        ],
+                        "stations": [248, 220, 249]
+                    }
+                }
+            },
         },
         "Pilbara National Highway": {
             "East Coast": {
