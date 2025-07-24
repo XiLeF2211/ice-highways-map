@@ -1,8 +1,10 @@
 # EarthMC Ice Highways Map
 
-This is a tool that aims to give information on stations and lines across the EarthMC server. However, right now, it only has 36 lines and 242 stations (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
+This is a tool that aims to give information on stations and lines across the EarthMC server. However, right now, it only has 40 lines and 266 stations (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
 
 ## Log
+
+24 July 2025: TNIH Ladakh, Pakistan, Afghan and Tajik lines, and Oates-Oli Subway (edited by **nokteholda**)
 
 9 July 2025: TNIH Haldwan-Castlers and (completion of) TNIH Bangla-Caspian lines (data from **nokteholda**)
 
