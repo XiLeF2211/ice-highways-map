@@ -2664,7 +2664,8 @@
             "z": -7022,
             "lines": {
                 "TNIH": {
-                    "Bangla-Caspian": ["", "Main line"]
+                    "Bangla-Caspian": ["", "Main line"],
+                    "Bukhara": ["", "Main line"]
                 }
             }
         },
@@ -2945,6 +2946,85 @@
                     "Pakistan": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Atamyrat",
+            "id": 250,
+            "x": 11620,
+            "z": -7051,
+            "lines": {
+                "TNIH": {
+                    "Bukhara": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mary Mine",
+            "id": 251,
+            "x": 11620,
+            "z": -7097,
+            "lines": {
+                "TNIH": {
+                    "Bukhara": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ashgabat JCT",
+            "type": "jct",
+            "id": 252,
+            "x": 11620,
+            "z": -7308,
+            "lines": {
+                "TNIH": {
+                    "Bukhara": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Quyosh Ko",
+            "id": 253,
+            "x": 11620,
+            "z": -7483,
+            "lines": {
+                "TNIH": {
+                    "Bukhara": ["", "Main line to Turkmenabat branch"]
+                }
+            }
+        },
+        {
+            "name": "Qarshi North",
+            "type": "semi2",
+            "id": 254,
+            "x": 11620,
+            "z": -7649,
+            "lines": {
+                "TNIH": {
+                    "Bukhara": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bukhara",
+            "id": 255,
+            "x": 11620,
+            "z": -7789,
+            "lines": {
+                "TNIH": {
+                    "Bukhara": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Turkmenabat",
+            "id": 256,
+            "x": 11483,
+            "z": -7483,
+            "lines": {
+                "TNIH": {
+                    "Bukhara": ["", "Turkmenabat branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -3121,7 +3201,7 @@
                             [14218, -4780],
                             [14218, -4686],
                             [12244, -4686],
-			    [12244, -4713]
+			                [12244, -4713]
                         ],
                         "stations": [26, 27, 28, [29, "Gujarat branch"], 30, 211]
                     },
@@ -3298,6 +3378,27 @@
                         ],
                         "stations": [248, 220, 249]
                     }
+                }
+            },
+            "Bukhara": {
+                "prefix": "",
+                "code": "BK",
+                "color": "aad400",
+                "y": 10,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [11620, -7072],
+                            [11620, -7872]
+                        ],
+                        "stations": [225, 250, 251, 252, [253, "Turkmenabat branch"], 254, 255]
+                    },
+                    "Turkmenabat branch": {
+                        "vertices": [
+                            [11620, -7483],
+                            [11483, -7483]
+                        ],
+                        "stations": [[253, "Main line"], 256]
                 }
             }
         },
@@ -4082,4 +4183,5 @@
             }
         }
     }
+}
 }
