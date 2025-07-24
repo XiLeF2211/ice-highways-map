@@ -2864,6 +2864,28 @@
                     "Lower Himalayas": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Oates",
+            "id": 243,
+            "x": 29834,
+            "z": 13845,
+            "lines": {
+                "TNIH": {
+                    "Oates-Oil Subway": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Oil",
+            "id": 244,
+            "x": 30035,
+            "z": 13835,
+            "lines": {
+                "TNIH": {
+                    "Oates-Oil Subway": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -3835,7 +3857,7 @@
             "Jinan Metro": {
                 "prefix": "",
                 "code": "",
-                "color": "",
+                "color": "a2a2a2",
                 "y": 45,
                 "branches": {
                     "": {
@@ -3875,6 +3897,23 @@
                             [23050, 2612]
                         ],
                         "stations": [74, 75, 76, 77, 78]
+                    }
+                }
+            },
+            "Oates-Oil Subway": {
+                "prefix": "",
+                "code": "",
+                "color": "a2a2a2",
+                "y": 16,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [29834, 13845],
+                            [29889, 13845],
+                            [29889, 13835],
+                            [30035, 13835]
+                        ],
+                        "stations": [243, 244]
                     }
                 }
             }
