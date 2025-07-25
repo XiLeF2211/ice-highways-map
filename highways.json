@@ -3160,8 +3160,8 @@
             "name": "Kohistan Mine",
             "type": "semi4",
             "id": 268,
-            "x": 12469,
-            "z": -6329,
+            "x": 12558,
+            "z": -6408,
             "lines": {
                 "TNIH": {
                     "Loopstan": ["", "Main Line"]
