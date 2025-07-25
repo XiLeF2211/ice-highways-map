@@ -2629,7 +2629,8 @@
             "z": -6771,
             "lines": {
                 "TNIH": {
-                    "Bangla-Caspian": ["", "Main line"]
+                    "Bangla-Caspian": ["", "Main line"],
+                    "Loopstan": ["", "Main Line"]
                 }
             }
         },
@@ -3081,7 +3082,8 @@
             "z": -6965,
             "lines": {
                 "TNIH": {
-                    "Tajik": ["", ""]
+                    "Tajik": ["", ""],
+                    "Loopstan": ["", "Main Line"]
                 }
             }
         },
@@ -3127,7 +3129,8 @@
             "z": -6329,
             "lines": {
                 "TNIH": {
-                    "Afghan": ["", ""]
+                    "Afghan": ["", ""],
+                    "Loopstan": ["", "Main Line"]
                 }
             }
         },
@@ -3139,6 +3142,63 @@
             "lines": {
                 "TNIH": {
                     "Afghan": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Kabul",
+            "id": 267,
+            "x": 12469,
+            "z": -6329,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Kohistan Mine",
+            "type": "semi4",
+            "id": 268,
+            "x": 12469,
+            "z": -6329,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Evia",
+            "id": 269,
+            "x": 12588,
+            "z": -7055,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Stalinabad",
+            "id": 270,
+            "x": 12524,
+            "z": -7246,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Rahat JCT",
+            "type": "jct",
+            "id": 271,
+            "x": 12524,
+            "z": -7603,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Main Line"]
                 }
             }
         }
@@ -3543,7 +3603,7 @@
                 "color": "d38d5f",
                 "y": 10,
                 "branches": {
-                    "": {
+                    "Main Line": {
                         "vertices": [
                             [11784, -6771],
                             [11784, -6667],
@@ -3553,6 +3613,27 @@
                             [12215, -6264]
                         ],
                         "stations": [224, 262, 263, 264, 265, 266]
+                    }
+                }
+            },
+            "Loopstan": {
+                "prefix": "",
+                "code": "LS",
+                "color": "008cb0",
+                "y": 10,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [12215, -6329],
+                            [12469, -6329],
+                            [12558, -6329],
+                            [12558, -6416],
+                            [12588, -6446],
+                            [12588, -7193],
+                            [12524, -7193],
+                            [12524, -7603]
+                        ],
+                        "stations": [265, 267, 268, 222, 261, 269, 270, 271]
                     }
                 }
             }
