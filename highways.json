@@ -3198,6 +3198,163 @@
             "z": -7603,
             "lines": {
                 "TNIH": {
+                    "Loopstan": ["", "Main Line to Rahat branch"]
+                }
+            }
+        },
+        {
+            "name": "Rahat",
+            "id": 272,
+            "x": 12524,
+            "z": -7692,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Rahat branch"]
+                }
+            }
+        },
+        {
+            "name": "Memphis",
+            "id": 273,
+            "x": 12345,
+            "z": -7603,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "36Mine Hub",
+            "type": "semi4",
+            "id": 274,
+            "x": 12156,
+            "z": -7657,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Shymkent",
+            "id": 275,
+            "x": 12156,
+            "z": -7755,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Ayni",
+            "id": 276,
+            "x": 11893,
+            "z": -7755,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Urithru",
+            "id": 277,
+            "x": 11712,
+            "z": -7789,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Bukhara",
+            "id": 278,
+            "x": 11620,
+            "z": -7789,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Sand JCT",
+            "type": "jct",
+            "id": 279,
+            "x": 11458,
+            "z": -7789,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Main Line to Sand branch"]
+                }
+            }
+        },
+        {
+            "name": "Sand",
+            "id": 280,
+            "x": 11458,
+            "z": -7789,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Sand branch"]
+                }
+            }
+        },
+        {
+            "name": "Lebap",
+            "id": 277,
+            "x": 11206,
+            "z": -7789,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Bog'ot Mine",
+            "type": "semi2",
+            "id": 278,
+            "x": 11107,
+            "z": -7779,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Quahog",
+            "id": 279,
+            "x": 11107,
+            "z": -7549,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Spartans",
+            "id": 280,
+            "x": 10918,
+            "z": -7549,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Turkmen-EarthMC",
+            "id": 281,
+            "x": 10751,
+            "z": -7423,
+            "lines": {
+                "TNIH": {
                     "Loopstan": ["", "Main Line"]
                 }
             }
@@ -3622,7 +3779,7 @@
                 "color": "008cb0",
                 "y": 10,
                 "branches": {
-                    "": {
+                    "Main Line": {
                         "vertices": [
                             [12215, -6329],
                             [12469, -6329],
@@ -3631,9 +3788,24 @@
                             [12588, -6446],
                             [12588, -7193],
                             [12524, -7193],
-                            [12524, -7603]
+                            [12524, -7603],
+                            [12156, -7603],
+                            [12156, -7755],
+                            [11712, -7755],
+                            [11712, -7789],
+                            [11107, -7789],
+                            [11107, -7549],
+                            [10751, -7549],
+                            [10751, -7423]
                         ],
-                        "stations": [265, 267, 268, 222, 261, 269, 270, 271]
+                        "stations": [265, 267, 268, 222, 261, 269, 270, [271, "to Rahat branch"], 273, 274, 275]
+                    },
+                    "Rahat branch": {
+                        "vertices": [
+                            [12524, -7603],
+                            [12524, -7692]
+                        ],
+                        "stations": [[271, "to Main line"], 272]
                     }
                 }
             }
