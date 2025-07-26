@@ -3360,7 +3360,8 @@
             "z": -7712,
             "lines": {
                 "Intercontinental": {
-                    "Kushan Metro": ["", "Main Line to Mazandaran branch"]
+                    "Kushan Metro": ["", "Main Line to Mazandaran branch"],
+                    "Chitograd Ice Highways": ["", "TNIH connector branch"]
                 }
             }
         },
@@ -3434,6 +3435,151 @@
             "lines": {
                 "Intercontinental": {
                     "Kushan Metro": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Karazal JCT",
+            "type": "jct",
+            "id": 292,
+            "x": 12482,
+            "z": -10003,
+            "lines": {
+                "Intercontinental": {
+                    "Chitograd Ice Highways": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Inder JCT",
+            "type": "jct",
+            "id": 293,
+            "x": 9261,
+            "z": -9145,
+            "lines": {
+                "Intercontinental": {
+                    "Chitograd Ice Highways": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Aqtau",
+            "id": 294,
+            "x": 9261,
+            "z": -8288,
+            "lines": {
+                "Intercontinental": {
+                    "Chitograd Ice Highways": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Caspian JCT",
+            "type": "jct",
+            "id": 295,
+            "x": 9252,
+            "z": -8153,
+            "lines": {
+                "Intercontinental": {
+                    "Chitograd Ice Highways": ["", "Main Line to TNIH connector branch"]
+                }
+            }
+        },
+        {
+            "name": "Chitograd JCT",
+            "type": "jct",
+            "id": 296,
+            "x": 8589,
+            "z": -8153,
+            "lines": {
+                "Intercontinental": {
+                    "Chitograd Ice Highways": ["", "Main Line to Chitograd Bypass"]
+                }
+            }
+        },
+        {
+            "name": "Chitograd y=2 Station Connection East Elevator",
+            "type": "elev-we",
+            "id": 297,
+            "x": 8583,
+            "z": -8153,
+            "lines": {
+                "Intercontinental": {
+                    "Chitograd Ice Highways": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Chitograd",
+            "id": 298,
+            "x": 8544,
+            "z": -8157,
+            "lines": {
+                "Intercontinental": {
+                    "Chitograd Ice Highways": ["", "Main Line"]
+                }
+            },
+            "areas": [
+                [[8502, -8188], [8584, -8146]],
+                [[8564, -8148], [8545, -8193]],
+                [[8528, -8186], [8544, -8197]],
+                [[8592, -8144], [8504, -8155]]
+            ]
+        },
+        {
+            "name": "Chitograd y=2 Station Connection West Elevator",
+            "type": "elev-ew",
+            "id": 299,
+            "x": 8512,
+            "z": -8157,
+            "lines": {
+                "Intercontinental": {
+                    "Chitograd Ice Highways": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Chitograd West JCT",
+            "type": "elev-we",
+            "id": 300,
+            "x": 8506,
+            "z": -8153,
+            "lines": {
+                "Intercontinental": {
+                    "Chitograd Ice Highways": ["", "Main Line to Chitograd Bypass"]
+                }
+            }
+        },
+        {
+            "name": "Chechnya",
+            "id": 301,
+            "x": 8269,
+            "z": -8254,
+            "lines": {
+                "Intercontinental": {
+                    "Chitograd Ice Highways": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Chitograd-TNIH Connector Elevator",
+            "id": 302,
+            "x": 9252,
+            "z": -7717,
+            "lines": {
+                "Intercontinental": {
+                    "Chitograd Ice Highways": ["", "TNIH connector branch"]
+                }
+            }
+        },
+        {
+            "name": "Chitograd y=2 ↔ y=53 Connector Elevator",
+            "id": 303,
+            "x": 8551,
+            "z": -8203,
+            "lines": {
+                "Intercontinental": {
+                    "Chitograd Ice Highways": ["", "Chitograd Bypass"]
                 }
             }
         }
@@ -4716,6 +4862,48 @@
                             [8778, -7477]
                         ],
                         "stations": [[289, "Main line"], 291]
+                    }
+                }
+            },
+            "Chitograd Ice Highways": {
+                "prefix": "",
+                "code": "Chitograd",
+                "color": "ff0000",
+                "y": 2,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [12482, -10003],
+                            [12482, -9246],
+                            [9261, -9246],
+                            [9246, -8153],
+                            [8589, -8153],
+                            [8583, -8153],
+                            [8583, -8157],
+                            [8512, -8157],
+                            [8512, -8153],
+                            [8269, -8153],
+                            [8269, -8254]
+                        ],
+                        "stations": [292, 293, 294, [295, "TNIH Connector branch"], [296, "Chitograd Bypass"], 297, 298, 299, [300, "Chitograd Bypass"],301]
+                    },
+                    "TNIH Connector branch": {
+                        "vertices": [
+                            [9252, -7710],
+                            [9252, -8153]
+                        ],
+                        "stations": [285, 302, [296, "Main Line"]]
+                    },
+                    "Chitograd Bypass": {
+                        "vertices": [
+                            [8551, -8203],
+                            [8551, -8183],
+                            [8589, -8183],
+                            [8589, -8147],
+                            [8506, -8147],
+                            [8506, -8153]
+                        ],
+                        "stations": [303, [296, "Main Line"], [300, "Main Line"]]
                     }
                 }
             }
