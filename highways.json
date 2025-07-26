@@ -3584,6 +3584,63 @@
                     "Chitograd Ice Highways": ["", "Chitograd Bypass"]
                 }
             }
+        },
+        {
+            "name": "Pintas JCT",
+            "type": "jct",
+            "id": 304,
+            "x": 18907,
+            "z": 409,
+            "lines": {
+                "Local": {
+                    "Suma-Sula Ice Road": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Pintas",
+            "id": 305,
+            "x": 18907,
+            "z": 462,
+            "lines": {
+                "Local": {
+                    "Suma-Sula Ice Road": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Baru JCT",
+            "id": 306,
+            "x": 18861,
+            "z": 560,
+            "lines": {
+                "Local": {
+                    "Suma-Sula Ice Road": ["", "Main Line to Baru branch"]
+                }
+            }
+        },
+        {
+            "name": "Baru",
+            "id": 307,
+            "x": 18733,
+            "z": 560,
+            "lines": {
+                "Local": {
+                    "Suma-Sula Ice Road": ["", "Baru branch"]
+                }
+            }
+        },
+        {
+            "name": "Pintas JCT",
+            "type": "jct",
+            "id": 308,
+            "x": 18861,
+            "z": 605,
+            "lines": {
+                "Local": {
+                    "Suma-Sula Ice Road": ["", "Main Line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -4746,6 +4803,30 @@
                             [30035, 13835]
                         ],
                         "stations": [243, 244]
+                    }
+                }
+            },
+            "Suma-Sula Ice Road": {
+                "prefix": "Suma-Sula",
+                "code": "",
+                "color": "480080",
+                "y": 31,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [18907, 409],
+                            [18907, 462],
+                            [18861, 462],
+                            [18861, 605]
+                        ],
+                        "stations": [304, 305, [306, "to Baru branch"], 308]
+                    },
+                    "Baru branch": {
+                        "vertices": [
+                            [18861, 560],
+                            [18733, 560]
+                        ],
+                        "stations": [[306, "to Main Line"], 307]
                     }
                 }
             }
