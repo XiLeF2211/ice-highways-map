@@ -1,8 +1,12 @@
 # EarthMC Ice Highways Map
 
-This is a tool that aims to give information on stations and lines across the EarthMC server. However, right now, it only has 40 lines and 266 stations (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
+This is a tool that aims to give information on stations and lines across the EarthMC server. However, right now, it only has 41 lines and 291 stations (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
 
 ## Log
+
+26 July 2025: Kushan Metro (edited by **nokteholda**)
+
+25 July 2025: TNIH Loopstan Line (edited by **nokteholda**)
 
 24 July 2025: TNIH Ladakh, Pakistan, Afghan and Tajik lines, and Oates-Oil Subway (edited by **nokteholda**)
 
