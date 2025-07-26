@@ -2717,8 +2717,8 @@
                 "TNIH": {
                     "Bangla-Caspian": ["", "Main line"]
                 },
-                "Kushan Metro": {
-                    "": ["", "Mazandaran branch"]
+                "Intercontinental": {
+                    "Kushan Metro": ["", "Mazandaran branch"]
                 }
             }
         },
@@ -3359,9 +3359,8 @@
             "x": 9252,
             "z": -7712,
             "lines": {
-                "Kushan Metro": {
-                    "Main Line": ["", ""],
-                    "Mazandaran  branch": ["", ""]
+                "Intercontinental": {
+                    "Kushan Metro": ["", "Main Line to Mazandaran branch"]
                 }
             }
         },
@@ -3371,8 +3370,8 @@
             "x": 10365,
             "z": -7793,
             "lines": {
-                "Kushan Metro": {
-                    "Main Line": ["", ""]
+                "Intercontinental": {
+                    "Kushan Metro": ["", "Main Line"]
                 }
             }
         },
@@ -3383,9 +3382,8 @@
             "x": 9718,
             "z": -7710,
             "lines": {
-                "Kushan Metro": {
-                    "Main Line": ["", ""],
-                    "Porolissum branch": ["", ""]
+                "Intercontinental": {
+                    "Kushan Metro": ["", "Main Line to Porolissum branch"]
                 }
             }
         },
@@ -3395,8 +3393,8 @@
             "x": 9718,
             "z": -7672,
             "lines": {
-                "Kushan Metro": {
-                    "Porolissum branch": ["", ""]
+                "Intercontinental": {
+                    "Kushan Metro": ["", "Porolissum branch"]
                 }
             },
             "areas": [
@@ -3412,9 +3410,8 @@
             "x": 8827,
             "z": -7710,
             "lines": {
-                "Kushan Metro": {
-                    "Main Line": ["", ""],
-                    "Bakü branch": ["", ""]
+                "Intercontinental": {
+                    "Kushan Metro": ["", "Main Line to Bakü branch"]
                 }
             }
         },
@@ -3424,8 +3421,8 @@
             "x": 8827,
             "z": -7787,
             "lines": {
-                "Kushan Metro": {
-                    "Main Line": ["", ""]
+                "Intercontinental": {
+                    "Kushan Metro": ["", "Main Line"]
                 }
             }
         },
@@ -3435,8 +3432,8 @@
             "x": 8778,
             "z": -7477,
             "lines": {
-                "Kushan Metro": {
-                    "Bakü branch": ["", ""]
+                "Intercontinental": {
+                    "Kushan Metro": ["", "Main Line"]
                 }
             }
         }
@@ -4676,16 +4673,14 @@
                         "stations": [[209, "Main line"], 210]
                     }
                 }
-            }
-        },
-        "Kushan Metro": {
-            "Main Line": {
+            },
+            "Kushan Metro": {
                 "prefix": "",
-                "code": "",
+                "code": "Kushan",
                 "color": "ffd100",
                 "y": 1,
                 "branches": {
-                    "": {
+                    "Main line": {
                         "vertices": [
                             [10365, -7793],
                             [10365, -7880],
@@ -4694,17 +4689,9 @@
                             [8827, -7710],
                             [8827, -7787]
                         ],
-                        "stations": [286, 287, 285, 289, 290]
-                    }
-                }
-            },
-            "Porolissum branch": {
-                "prefix": "",
-                "code": "",
-                "color": "ffd100",
-                "y": 1,
-                "branches": {
-                    "": {
+                        "stations": [286, [287, "Porolissum branch"], [285, "Mazandaran branch"], [289, "Bakü branch"], 290]
+                    },
+                    "Porolissum branch": {
                         "vertices": [
                             [9718, -7710],
                             [9718, -7672],
@@ -4713,38 +4700,22 @@
                             [9710, -7660],
                             [9718, -7660]
                         ],
-                        "stations": [287, 288]
-                    }
-                }
-            },
-            "Mazandaran  branch": {
-                "prefix": "",
-                "code": "",
-                "color": "ffd100",
-                "y": 1,
-                "branches": {
-                    "": {
+                        "stations": [[287, "Main line"], 288]
+                    },
+                    "Mazandaran branch": {
                         "vertices": [
                             [9252, -7710],
                             [9252, -6929]
                         ],
-                        "stations": [285, 229]
-                    }
-                }
-            },
-            "Bakü  branch": {
-                "prefix": "",
-                "code": "",
-                "color": "ffd100",
-                "y": 1,
-                "branches": {
-                    "": {
+                        "stations": [[285, "Main line"], 229]
+                    },
+                    "Bakü branch": {
                         "vertices": [
                             [8827, -7710],
                             [8827, -7477],
                             [8778, -7477]
                         ],
-                        "stations": [289, 291]
+                        "stations": [[289, "Main line"], 291]
                     }
                 }
             }
