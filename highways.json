@@ -3563,6 +3563,7 @@
         },
         {
             "name": "Chitograd-TNIH Connector Elevator",
+            "type": "elev-we",
             "id": 302,
             "x": 9252,
             "z": -7717,
@@ -3574,6 +3575,7 @@
         },
         {
             "name": "Chitograd y=2 ↔ y=53 Connector Elevator",
+            "type": "elev-we",
             "id": 303,
             "x": 8551,
             "z": -8203,
