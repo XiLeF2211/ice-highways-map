@@ -218,7 +218,7 @@
             "z": -5184,
             "lines": {
                 "TNIH": {
-                    "Lower Himalayas": ["", "Main line"]
+                    "Lower Himalayas": ["", "Main line to Little Lhasa branch"]
                 }
             }
         },
@@ -3641,6 +3641,17 @@
                     "Suma-Sula Ice Road": ["", "Main Line"]
                 }
             }
+        },
+        {
+            "name": "Little Lhasa",
+            "id": 18,
+            "x": 15312,
+            "z": -5452,
+            "lines": {
+                "TNIH": {
+                    "Lower Himalayas": ["", "Lhasa branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -3803,6 +3814,14 @@
                             [14785, -5351]
                         ],
                         "stations": [[15, "Main line"], 16]
+                    },
+                    "Little Lhasa branch": {
+                        "vertices": [
+                            [15319, -5184],
+                            [15312, -5189],
+                            [15312, -5452]
+                        ],
+                        "stations": [[18, "Main line"], 309]
                     }
                 }
             },
