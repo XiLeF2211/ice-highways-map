@@ -1,10 +1,10 @@
 # EarthMC Ice Highways Map
 
-This is a tool that aims to give information on stations and lines across the EarthMC server. However, right now, it only has 41 lines and 291 stations (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
+This is a tool that aims to give information on stations and lines across the EarthMC server. However, right now, it only has 43 lines and 308 stations (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
 
 ## Log
 
-26 July 2025: Kushan Metro (edited by **nokteholda**)
+26 July 2025: Kushan Metro, Chitograd Ice Highways lines, and Suma-Sula Ice Road (edited by **nokteholda**)
 
 25 July 2025: TNIH Loopstan Line (edited by **nokteholda**)
 

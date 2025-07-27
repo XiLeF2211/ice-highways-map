@@ -3610,6 +3610,7 @@
         },
         {
             "name": "Baru JCT",
+            "type": "jct",
             "id": 306,
             "x": 18861,
             "z": 560,
@@ -3632,7 +3633,6 @@
         },
         {
             "name": "Suma-Sula",
-            "type": "jct",
             "id": 308,
             "x": 18861,
             "z": 605,
@@ -4826,7 +4826,7 @@
                 }
             },
             "Suma-Sula Ice Road": {
-                "prefix": "Suma-Sula",
+                "prefix": "",
                 "code": "",
                 "color": "480080",
                 "y": 31,
