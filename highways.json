@@ -3665,7 +3665,10 @@
                 "Ariguma Railway": {
                     "Nankyoku Shinkansen": ["", ""]
                 }
-            }
+            },
+            "areas": [
+                [[-13922, 1406], [-13936, 1392]]
+            ]
         },
         {
             "name": "Hashihara",
