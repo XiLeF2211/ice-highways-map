@@ -2656,7 +2656,10 @@
                     "Bangla-Caspian": ["", "Main line"],
                     "Afghan": ["", ""]
                 }
-            }
+            },
+            "areas": [
+                [[11760, -6800], [11783, -6768]]
+            ]
         },
         {
             "name": "Atamyrat JCT",
@@ -3644,12 +3647,67 @@
         },
         {
             "name": "Little Lhasa",
-            "id": 18,
+            "id": 309,
             "x": 15312,
             "z": -5452,
             "lines": {
                 "TNIH": {
                     "Lower Himalayas": ["", "Lhasa branch"]
+                }
+            }
+        },
+        {
+            "name": "Ritu",
+            "id": 310,
+            "x": -13929,
+            "z": 1399,
+            "lines": {
+                "Ariguma Railway": {
+                    "Nankyoku Shinkansen": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Hashihara",
+            "id": 311,
+            "x": -13829,
+            "z": 1399,
+            "lines": {
+                "Ariguma Railway": {
+                    "Nankyoku Shinkansen": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Shin-Nijimori",
+            "id": 312,
+            "x": -13691,
+            "z": 1737,
+            "lines": {
+                "Ariguma Railway": {
+                    "Nankyoku Shinkansen": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Shin-Sahata",
+            "id": 313,
+            "x": -13753,
+            "z": 2345,
+            "lines": {
+                "Ariguma Railway": {
+                    "Nankyoku Shinkansen": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Misato",
+            "id": 314,
+            "x": -13753,
+            "z": 2856,
+            "lines": {
+                "Ariguma Railway": {
+                    "Nankyoku Shinkansen": ["", ""]
                 }
             }
         }
@@ -5007,6 +5065,26 @@
                             [8506, -8153]
                         ],
                         "stations": [303, [296, "Main Line"], [300, "Main Line"]]
+                    }
+                }
+            }
+        },
+"Ariguma Railway": {
+            "Nankyoku Shinkansen": {
+                "prefix": "",
+                "code": "",
+                "color": "fa0000",
+                "y": 91,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-13929, 1399],
+                            [-13691, 1399],
+                            [-13691, 2200],
+                            [-13753, 2200],
+                            [-13753, 2856]
+                        ],
+                        "stations": [310, 311, 312, 313, 314]
                     }
                 }
             }
