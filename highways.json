@@ -3360,7 +3360,7 @@
             "type": "jct",
             "id": 285,
             "x": 9252,
-            "z": -7712,
+            "z": -7710,
             "lines": {
                 "Intercontinental": {
                     "Kushan Metro": ["", "Main Line to Mazandaran branch"],
@@ -3711,6 +3711,61 @@
             "lines": {
                 "Ariguma Railway": {
                     "Nankyoku Shinkansen": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Rakka",
+            "id": 315,
+            "x": 26192,
+            "z": -9768,
+            "lines": {
+                "Local": {
+                    "Karafuto Ice Highway": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Ako",
+            "id": 316,
+            "x": 26192,
+            "z": -9585,
+            "lines": {
+                "Local": {
+                    "Karafuto Ice Highway": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Shisuka",
+            "id": 317,
+            "x": 26192,
+            "z": -9341,
+            "lines": {
+                "Local": {
+                    "Karafuto Ice Highway": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Esutoru",
+            "id": 318,
+            "x": 26139,
+            "z": -9200,
+            "lines": {
+                "Local": {
+                    "Karafuto Ice Highway": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Maoka",
+            "id": 319,
+            "x": 26139,
+            "z": -8980,
+            "lines": {
+                "Local": {
+                    "Karafuto Ice Highway": ["", ""]
                 }
             }
         }
@@ -4907,6 +4962,23 @@
                             [18733, 560]
                         ],
                         "stations": [[306, "to Main Line"], 307]
+                    }
+                }
+            },
+            "Karafuto Ice Highway": {
+                "prefix": "",
+                "code": "",
+                "color": "a2a2a2",
+                "y": 62,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [26192, -9768],
+                            [26192, -9291],
+                            [26139, -9291],
+                            [26139, -8980]
+                        ],
+                        "stations": [315, 316, 317, 318, 319]
                     }
                 }
             }
