@@ -3768,6 +3768,39 @@
                     "Karafuto Ice Highway": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Cheese",
+            "id": 320,
+            "x": 11945,
+            "z": -4820,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Barrancabermeja",
+            "id": 321,
+            "x": 11884,
+            "z": -4840,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "PIWO",
+            "id": 322,
+            "x": 11785,
+            "z": -4854,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -3952,9 +3985,12 @@
                             [14218, -4780],
                             [14218, -4686],
                             [12244, -4686],
-			                [12244, -4713]
+			                [12244, -4820],
+                            [11884, -4820],
+                            [11884, -4854],
+                            [11785, -4854]
                         ],
-                        "stations": [26, 27, 28, [29, "Gujarat branch"], 30, 211]
+                        "stations": [26, 27, 28, [29, "Gujarat branch"], 30, 211, 320, 321, 322]
                     },
                     "Gujarat branch": {
                         "vertices": [
