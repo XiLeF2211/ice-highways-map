@@ -3801,6 +3801,17 @@
                     "Gujarat": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Florina City",
+            "id": 323,
+            "x": 11295,
+            "z": -4854,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -3988,9 +3999,9 @@
 			                [12244, -4820],
                             [11884, -4820],
                             [11884, -4854],
-                            [11785, -4854]
+                            [11295, -4854]
                         ],
-                        "stations": [26, 27, 28, [29, "Gujarat branch"], 30, 211, 320, 321, 322]
+                        "stations": [26, 27, 28, [29, "Gujarat branch"], 30, 211, 320, 321, 322, 323]
                     },
                     "Gujarat branch": {
                         "vertices": [
