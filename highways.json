@@ -3817,6 +3817,74 @@
                     "Gujarat": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Pengin",
+            "id": 324,
+            "x": 8547,
+            "z": -8519,
+            "lines": {
+                "Intercontinental": {
+                    "Y=53 Ice lines system": ["", "ABC"]
+                }
+            }
+        },
+        {
+            "name": "Y=120 Ice Line Connector",
+            "id": 325,
+            "x": 8547,
+            "z": -8996,
+            "lines": {
+                "TNIH": {
+                    "Y=53 Ice lines system": ["", "ABC"]
+                }
+            }
+        },
+        {
+            "name": "Khazar JCT",
+            "type": "jct",
+            "id": 326,
+            "x": 8547,
+            "z": -9465,
+            "lines": {
+                "Intercontinental": {
+                    "Y=53 Ice lines system": ["", "ABC"]
+                }
+            }
+        },
+        {
+            "name": "Awatown",
+            "id": 327,
+            "x": 8547,
+            "z": -9885,
+            "lines": {
+                "TNIH": {
+                    "Y=53 Ice lines system": ["", "ABC"]
+                }
+            }
+        },
+        {
+            "name": "Toska",
+            "id": 325,
+            "x": 8754,
+            "z": -10204,
+            "lines": {
+                "TNIH": {
+                    "Y=53 Ice lines system": ["", "ABC"]
+                }
+            }
+        },
+        {
+            "name": "West Khazar JCT",
+            "type": "jct",
+            "id": 326,
+            "x": 8754,
+            "z": -10455,
+            "lines": {
+                "Intercontinental": {
+                    "Y=53 Ice lines system": ["", "ABC"]
+                }
+            }
         }
     ],
     "lines": {
