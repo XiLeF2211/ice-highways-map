@@ -2796,7 +2796,10 @@
                 "TNIH": {
                     "Haldwan-Castlers": ["", "Northern route and Southern route"]
                 }
-            }
+            },
+            "areas": [
+                [[14962, -5266], [14977, -5279]]
+            ]
         },
         {
             "name": "Sukhbaathar Perimeter",
@@ -3508,7 +3511,8 @@
             "z": -8153,
             "lines": {
                 "Intercontinental": {
-                    "Chitograd Ice Highways": ["", "Main Line"]
+                    "Chitograd Ice Highways": ["", "Main Line"],
+                    "Y=53 Ice lines system": ["", "0"]
                 }
             }
         },
@@ -5189,9 +5193,46 @@
                         "stations": [303, [296, "Main Line"], [300, "Main Line"]]
                     }
                 }
+            },
+            "Y=53 Ice lines system": {
+                "prefix": "",
+                "code": "Y=53",
+                "color": "3F704D",
+                "y": 53,
+                "branches": {
+                    "0": {
+                        "vertices": [
+                            [8547, -8160],
+                            [8547, -10066],
+                            [8754, -10066]
+                        ],
+                        "stations": [297]
+                    },
+                    "1": {
+                        "vertices": [
+                            [8728, -8160],
+                            [9458, -10455]
+                        ],
+                        "stations": []
+                    },
+                    "2": {
+                        "vertices": [
+                            [8547, -9465],
+                            [7645, -9465]
+                        ],
+                        "stations": []
+                    },
+                    "3": {
+                        "vertices": [
+                            [6438, -10989],
+                            [7572, -10989]
+                        ],
+                        "stations": []
+                    }
+                }
             }
         },
-"Ariguma Railway": {
+        "Ariguma Railway": {
             "Nankyoku Shinkansen": {
                 "prefix": "",
                 "code": "",
