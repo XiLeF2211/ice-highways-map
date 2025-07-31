@@ -3512,7 +3512,7 @@
             "lines": {
                 "Intercontinental": {
                     "Chitograd Ice Highways": ["", "Main Line"],
-                    "Y=53 Ice lines system": ["", "0"]
+                    "Y=53 Ice lines system": ["", "ABC"]
                 }
             }
         },
@@ -3523,7 +3523,8 @@
             "z": -8157,
             "lines": {
                 "Intercontinental": {
-                    "Chitograd Ice Highways": ["", "Main Line"]
+                    "Chitograd Ice Highways": ["", "Main Line"],
+                    "Y=53 Ice lines system": ["", "ABC"]
                 }
             },
             "areas": [
@@ -5200,29 +5201,35 @@
                 "color": "3F704D",
                 "y": 53,
                 "branches": {
-                    "0": {
+                    "ABC": {
                         "vertices": [
                             [8547, -8160],
                             [8547, -10066],
                             [8754, -10066]
                         ],
-                        "stations": [297]
+                        "stations": [298]
                     },
-                    "1": {
+                    "D": {
                         "vertices": [
-                            [8728, -8160],
+                            [8728, -10455],
                             [9458, -10455]
                         ],
                         "stations": []
                     },
-                    "2": {
+                    "E": {
+                        "vertices": [
+                            [9159, -10370],
+                            [9159, -10455]
+                        ]
+                    },
+                    "F": {
                         "vertices": [
                             [8547, -9465],
                             [7645, -9465]
                         ],
                         "stations": []
                     },
-                    "3": {
+                    "G": {
                         "vertices": [
                             [6438, -10989],
                             [7572, -10989]
