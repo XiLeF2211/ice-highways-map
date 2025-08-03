@@ -4,9 +4,11 @@ This is a tool that aims to give information on stations and lines across the Ea
 
 ## Log
 
+30 July 2025: Y=53 Ice lines system (around Chitograd) (data from **Chitonator** on Discord)
+
 28 July 2025: Ariguma Railway (AR) Nankyouku Shinkansen and Karafuto Ice Highway (edited by **nokteholda**)
 
-26 July 2025: Kushan Metro, Chitograd Ice Highways lines, and Suma-Sula Ice Road (edited by **nokteholda**)
+26 July 2025: Kushan Metro, Chitograd Ice Highways lines (data from **Chitonator** on Discord), and Suma-Sula Ice Road (edited by **nokteholda**)
 
 25 July 2025: TNIH Loopstan Line (edited by **nokteholda**)
 
