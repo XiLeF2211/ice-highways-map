@@ -3617,7 +3617,7 @@
             }
         },
         {
-            "name": "Baru JCT",
+            "name": "Kedepan JCT",
             "type": "jct",
             "id": 306,
             "x": 18861,
@@ -3883,6 +3883,28 @@
             "lines": {
                 "Intercontinental": {
                     "Y=53 Ice lines system": ["", "ABC"]
+                }
+            }
+        },
+        {
+            "name": "Bokhtar",
+            "id": 330,
+            "x": 12199,
+            "z": -6965,
+            "lines": {
+                "TNIH": {
+                    "Tajik": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Kedepan",
+            "id": 331,
+            "x": 18820,
+            "z": 560,
+            "lines": {
+                "Local": {
+                    "Suma-Sula Ice Road": ["", "Baru branch"]
                 }
             }
         }
@@ -4288,7 +4310,7 @@
                             [12085, -6965],
                             [12588, -6965]
                         ],
-                        "stations": [252, 257, 258, 259, 260, 261]
+                        "stations": [252, 257, 258, 330, 259, 260, 261]
                     }
                 }
             },
@@ -5081,7 +5103,7 @@
                             [18861, 560],
                             [18733, 560]
                         ],
-                        "stations": [[306, "to Main Line"], 307]
+                        "stations": [[306, "to Main Line"], 331, 307]
                     }
                 }
             },
