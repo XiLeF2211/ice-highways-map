@@ -3539,7 +3539,7 @@
             "type": "elev-ew",
             "id": 299,
             "x": 8512,
-            "z": -8157,
+            "z": -8153,
             "lines": {
                 "Intercontinental": {
                     "Chitograd Ice Highways": ["", "Main Line"]
@@ -3589,7 +3589,8 @@
             "z": -8203,
             "lines": {
                 "Intercontinental": {
-                    "Chitograd Ice Highways": ["", "Chitograd Bypass"]
+                    "Chitograd Ice Highways": ["", "Chitograd Bypass"],
+                    "Y=53 Ice lines system": ["", "ABC"]
                 }
             }
         },
@@ -3835,7 +3836,7 @@
             "x": 8547,
             "z": -8996,
             "lines": {
-                "TNIH": {
+                "Intercontinental": {
                     "Y=53 Ice lines system": ["", "ABC"]
                 }
             }
@@ -3858,7 +3859,7 @@
             "x": 8547,
             "z": -9885,
             "lines": {
-                "TNIH": {
+                "Intercontinental": {
                     "Y=53 Ice lines system": ["", "ABC"]
                 }
             }
@@ -3869,7 +3870,7 @@
             "x": 8754,
             "z": -10204,
             "lines": {
-                "TNIH": {
+                "Intercontinental": {
                     "Y=53 Ice lines system": ["", "ABC"]
                 }
             }
@@ -3887,8 +3888,20 @@
             }
         },
         {
-            "name": "Bokhtar",
+            "name": "Chitograd y=53 ↔ y=67 Connector Elevator",
+            "type": "elev-ew",
             "id": 330,
+            "x": 8578,
+            "z": -8004,
+            "lines": {
+                "Intercontinental": {
+                    "Y=53 Ice lines system": ["", "ABC"]
+                }
+            }
+        },
+        {
+            "name": "Bokhtar",
+            "id": 331,
             "x": 12199,
             "z": -6965,
             "lines": {
@@ -3899,7 +3912,7 @@
         },
         {
             "name": "Kedepan",
-            "id": 331,
+            "id": 332,
             "x": 18820,
             "z": 560,
             "lines": {
@@ -4310,7 +4323,7 @@
                             [12085, -6965],
                             [12588, -6965]
                         ],
-                        "stations": [252, 257, 258, 330, 259, 260, 261]
+                        "stations": [252, 257, 258, 331, 259, 260, 261]
                     }
                 }
             },
@@ -4954,6 +4967,26 @@
                 }
             }
         },
+        "Ariguma Railway": {
+            "Nankyoku Shinkansen": {
+                "prefix": "",
+                "code": "",
+                "color": "fa0000",
+                "y": 91,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-13929, 1399],
+                            [-13691, 1399],
+                            [-13691, 2200],
+                            [-13753, 2200],
+                            [-13753, 2856]
+                        ],
+                        "stations": [310, 311, 312, 313, 314]
+                    }
+                }
+            }
+        },
         "Local": {
             "Singapore City Metro": {
                 "prefix": "",
@@ -5103,7 +5136,7 @@
                             [18861, 560],
                             [18733, 560]
                         ],
-                        "stations": [[306, "to Main Line"], 331, 307]
+                        "stations": [[306, "to Main Line"], 332, 307]
                     }
                 }
             },
@@ -5274,6 +5307,7 @@
                     },
                     "Chitograd Bypass": {
                         "vertices": [
+                            [8547, -8203],
                             [8551, -8203],
                             [8551, -8183],
                             [8589, -8183],
@@ -5293,12 +5327,13 @@
                 "branches": {
                     "ABC": {
                         "vertices": [
-                            [8547, -8160],
+                            [8578, -8004],
+                            [8547, -8004],
                             [8547, -10066],
                             [8754, -10066],
                             [8754, -10455]
                         ],
-                        "stations": [298, 324, 325, 326, 327, 328, 329]
+                        "stations": [330, 303, 298, 324, 325, 326, 327, 328, 329]
                     },
                     "D": {
                         "vertices": [
@@ -5311,7 +5346,8 @@
                         "vertices": [
                             [9159, -10370],
                             [9159, -10455]
-                        ]
+                        ],
+                        "stations": []
                     },
                     "F": {
                         "vertices": [
@@ -5326,26 +5362,6 @@
                             [7572, -10989]
                         ],
                         "stations": []
-                    }
-                }
-            }
-        },
-        "Ariguma Railway": {
-            "Nankyoku Shinkansen": {
-                "prefix": "",
-                "code": "",
-                "color": "fa0000",
-                "y": 91,
-                "branches": {
-                    "": {
-                        "vertices": [
-                            [-13929, 1399],
-                            [-13691, 1399],
-                            [-13691, 2200],
-                            [-13753, 2200],
-                            [-13753, 2856]
-                        ],
-                        "stations": [310, 311, 312, 313, 314]
                     }
                 }
             }
