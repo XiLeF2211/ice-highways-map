@@ -3920,6 +3920,311 @@
                     "Suma-Sula Ice Road": ["", "Baru branch"]
                 }
             }
+        },
+
+        {
+          "name": "North moscow JCT",
+          "type": "jct",
+          "id": 333,
+          "x": 6580,
+          "z": -10728,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "Borovichi-Moscow line"]
+            }
+          }
+        },
+        {
+          "name": "Borovichi JCT",
+          "type": "jct",
+          "id": 334,
+          "x": 6580,
+          "z": -10989,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "G"]
+            }
+          }
+        },
+        {
+          "name": "Borovichi",
+          "id": 335,
+          "x": 6438,
+          "z": -10989,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "G"]
+            }
+          }
+        },
+        {
+          "name": "Rybinsk-Borovichi JCT",
+          "type": "jct",
+          "id": 336,
+          "x": 6677,
+          "z": -10989,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "G"]
+            }
+          }
+        },
+        {
+          "name": "Rybinsk Field station",
+          "id": 337,
+          "x": 6721,
+          "z": -10989,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "G"]
+            }
+          }
+        },
+        {
+          "name": "Rybinsk y41 way JCT",
+          "type": "jct",
+          "id": 338,
+          "x": 6897,
+          "z": -10989,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "G"]
+            }
+          }
+        },
+        {
+          "name": "Rybinsk",
+          "id": 339,
+          "x": 6936,
+          "z": -10989,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "G"]
+            }
+          }
+        },
+        {
+          "name": "Ogre JCT",
+          "type": "jct",
+          "id": 340,
+          "x": 7500,
+          "z": -10989,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "G"]
+            }
+          }
+        },
+        {
+          "name": "y=21 ↔ y=53 Connector Elevator",
+          "type": "elev-we",
+          "y1": 21,
+          "y2": 53,
+          "id": 341,
+          "x": 7572,
+          "z": -10987,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "G"]
+            }
+          }
+        },
+        {
+          "name": "Moscovskii forest",
+          "id": 342,
+          "x": 6580,
+          "z": -10870,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "Moscow-Borovichi line"]
+            }
+          }
+        },
+        {
+          "name": "Zelenograd",
+          "id": 343,
+          "x": 6366,
+          "z": -10728,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "Moscow Semi-Ring"]
+            }
+          }
+        },
+        {
+          "name": "South Moscow JCT",
+          "type": "jct",
+          "id": 344,
+          "x": 6580,
+          "z": -10392,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "Moscow Semi-Ring"]
+            }
+          }
+        },
+        {
+          "name": "y=41 ↔ y=53 Connector Elevator",
+          "type": "elev-we",
+          "y1": 41,
+          "y2": 53,
+          "id": 345,
+          "x": 6580,
+          "z": -10364,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "Moscow-Billgorod y53 line"]
+            }
+          }
+        },
+        {
+          "name": "y=93 ↔ y=53 Connector Elevator",
+          "type": "elev-we",
+          "y1": 93,
+          "y2": 53,
+          "id": 346,
+          "x": 6582,
+          "z": -10024,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "Moscow-Billgorod y53 line"]
+            }
+          }
+        },
+        {
+          "name": "Borovichi 2",
+          "id": 347,
+          "x": 6568,
+          "z": -11090,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "Petrogradskyaya line"]
+            }
+          }
+        },
+        {
+          "name": "Connection y53 line to y41 ice lines system JCT",
+          "type": "jct",
+          "id": 348,
+          "x": 6292,
+          "z": -11090,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "Petrogradskyaya line"]
+            }
+          }
+        },
+        {
+          "name": "Petrograd",
+          "id": 349,
+          "x": 6018,
+          "z": -11343,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "Petrogradskyaya line"]
+            }
+          }
+        },
+        {
+          "name": "y=21 ↔ y=53 Connector Elevator",
+          "type": "elev-we",
+          "y1": 21,
+          "y2": 53,
+          "id": 350,
+          "x": 8728,
+          "z": -10455,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "D"]
+            }
+          }
+        },
+        {
+          "name": "Kazan",
+          "id": 351,
+          "x": 8882,
+          "z": -10455,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "D"]
+            }
+          }
+        },
+        {
+          "name": "Nizhnekamsk JCT",
+          "type": "jct",
+          "id": 352,
+          "x": 9159,
+          "z": -10455,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "D"]
+            }
+          }
+        },
+        {
+          "name": "y=53 ↔ y=56 Connector Elevator",
+          "type": "elev-we",
+          "y1": 53,
+          "y2": 56,
+          "id": 353,
+          "x": 9458,
+          "z": -10455,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "D"]
+            }
+          }
+        },
+        {
+          "name": "Nizhnekamsk",
+          "id": 354,
+          "x": 9159,
+          "z": -10370,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "E"]
+            }
+          }
+        },
+        {
+          "name": "y=53 ↔ y=41 Connector Elevator",
+          "type": "elev-we",
+          "y1": 53,
+          "y2": 41,
+          "id": 355,
+          "x": 8271,
+          "z": -9465,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "F"]
+            }
+          }
+        },
+        {
+          "name": "Khazar ruins",
+          "id": 356,
+          "x": 7931,
+          "z": -9465,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "F"]
+            }
+          }
+        },
+        {
+          "name": "y=53 ↔ y=93 Connector Elevator",
+          "type": "elev-we",
+          "y1": 53,
+          "y2": 93,
+          "id": 356,
+          "x": 7642,
+          "z": -9465,
+          "lines": {
+            "Intercontinental": {
+              "Y=53 Ice lines system": ["", "F"]
+            }
+          }
         }
     ],
     "lines": {
@@ -5325,46 +5630,74 @@
                 "color": "3F704D",
                 "y": 53,
                 "branches": {
-                    "ABC": {
-                        "vertices": [
-                            [8578, -8004],
-                            [8547, -8004],
-                            [8547, -10066],
-                            [8754, -10066],
-                            [8754, -10455]
-                        ],
-                        "stations": [330, 303, 298, 324, 325, 326, 327, 328, 329]
+                  "ABC": {
+                    "vertices": [
+                      [8578, -8004],
+                      [8547, -8004],
+                      [8547, -10066],
+                      [8754, -10066],
+                      [8754, -10455]
+                    ],
+                    "stations": [330, 303, 298, 324, 325, 326, 327, 328, 329]
                     },
-                    "D": {
-                        "vertices": [
-                            [8728, -10455],
-                            [9458, -10455]
-                        ],
-                        "stations": []
-                    },
-                    "E": {
-                        "vertices": [
-                            [9159, -10370],
-                            [9159, -10455]
-                        ],
-                        "stations": []
-                    },
-                    "F": {
-                        "vertices": [
-                            [8547, -9465],
-                            [7645, -9465]
-                        ],
-                        "stations": []
-                    },
-                    "G": {
-                        "vertices": [
-                            [6438, -10989],
-                            [7572, -10989]
-                        ],
-                        "stations": []
-                    }
+
+                  "D": {
+                    "vertices": [
+                      [8728, -10455],
+                      [9458, -10455]],
+                    "stations": [350, [329, "ABC"], 351, 352, 353]
+                  },
+                  "E": {
+                    "vertices": [
+                      [9159, -10370],
+                      [9159, -10455]],
+                    "stations": [352, 354]
+                  },
+                  "F": {
+                    "vertices": [
+                      [8547, -9465],
+                      [7645, -9465]],
+                    "stations": []
+                  },
+                  "G": {
+                    "vertices": [
+                      [6438, -10989],
+                      [7572, -10989],
+                      [7572, -10987]],
+                    "stations": [[334, "Borovichi-Moscow line"], 335, [336, ""], 337, [338, ""], 339, [340, ""], 341]
+                  },
+                  "Borovichi-Moscow line": {
+                    "vertices": [
+                      [6580, -10989],
+                      [6580, -10728]],
+                    "stations": [[333, "Moscow Semi-Ring"], [334, "G"], 342]
+                  },
+                  "Moscow Semi-Ring": {
+                    "vertices": [
+                      [6353, -10728],
+                      [6716, -10728],
+                      [6716, -10392],
+                      [6436, -10392],
+                      [6436, -10418]],
+                    "stations": [343, [333, "Borovichi-Moscow line"], [344, "Moscow-Billgorod y53 line"]]
+                  },
+                  "Moscow-Billgorod y53 line": {
+                    "vertices": [
+                      [6580, -10392],
+                      [6580, -10024],
+                      [6582, -10024]],
+                    "stations": [[344, "Moscow Semi-Ring"], 345, 346]
+                  },
+                  "Petrogradskyaya line": {
+                    "vertices": [
+                      [6677, -10989],
+                      [6677, -11090],
+                      [6018, -11090],
+                      [6018, -11343]],
+                    "stations": [336, 347, [348, ""], 349]
+                  }
                 }
-            }
+              }
         }
     }
 }
