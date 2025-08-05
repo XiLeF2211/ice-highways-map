@@ -1,8 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 
+:root {
+    --primary-color: black;
+    --text-color: white;
+    --bar-color: #555;
+    --secondary-color: #222;
+}
+
 html,
 body {
-    background-color: black;
+    background-color: var(--primary-color);
     margin: 0;
     width: 100%;
     height: 100%;
@@ -17,7 +24,7 @@ canvas {
 #mapa {
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: var(--primary-color);
     image-rendering: pixelated;
     position: fixed;
 }
@@ -29,9 +36,9 @@ canvas {
 #sidebar {
     width: 20%;
     height: 100%;
-    color: white;
+    color: var(--text-color);
     position: absolute;
-    background-color: black;
+    background-color: var(--primary-color);
     z-index: 2;
     box-shadow: rgba(0, 0, 0, 0.3) 15px 0px 15px;
 }
@@ -57,7 +64,7 @@ canvas {
 #nav {
     width: 24%;
     float: left;
-    background-color: #222;
+    background-color: var(--secondary-color);
 }
 
 #nav p {
@@ -69,20 +76,20 @@ canvas {
     box-sizing: border-box;
     width: 100%;
     padding: 10px;
-    height: calc((100% - 3px) / 4);
+    height: calc((100% - 3px) / 6);
     writing-mode: sideways-lr;
     text-orientation: upright;
     font-size: 24px;
 }
 
 #nav .active {
-    background-color: black;
+    background-color: var(--primary-color);
 }
 
 #bar {
     width: 2%;
     height: 100%;
-    background-color: #555;
+    background-color: var(--bar-color);
     float: left;
 }
 
@@ -111,7 +118,7 @@ canvas {
 }
 
 dl> :nth-of-type(2n) {
-    background: #222;
+    background: var(--secondary-color);
 }
 
 .list {
@@ -123,6 +130,7 @@ dl> :nth-of-type(2n) {
 
 .list dt {
     padding: 1em;
+    padding-left: calc(1em - 10px);
     font-size: 20px;
 }
 
@@ -170,8 +178,8 @@ dl> :nth-of-type(2n) {
     height: 100%;
     border-radius: 10px;
     padding: 20px;
-    background-color: #222;
-    color: white;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
 }
 
 .searchbar {

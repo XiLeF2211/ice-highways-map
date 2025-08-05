@@ -23,6 +23,10 @@
             <p id="line-tab">Lines</p>
             <hr>
             <p id="settings-tab">Settings</p>
+            <hr>
+            <p id="developers-tab">Developers</p>
+            <hr>
+            <p id="credits-tab">Credits</p>
         </div>
         <div id="bar"></div>
         <div id="content">
@@ -35,11 +39,6 @@
                     <br><br>
                     Thanks to nokteholda of TNIH for publicizing and promoting.
                     <br><br>
-                    CREDITS (for data contributions):<br>
-                    TNIH lines: nokteholda<br>
-                    Antarctica lines: UpgradeWasTaken<br>
-                    Havaiki and Australia-Antarctica lines: AtomicTom<br>
-                    Chitograd ice highways lines: Chitonator<br>
                 </p>
             </div>
             <div id="station" class="section" style="display: none; padding: 3em 0em 0em 0em">
@@ -80,6 +79,25 @@
             </div>
             <div id="settings" class="section" style="display:none">
                 <p>hi no settings rn ;-;</p>
+            </div>
+            <div id="developers" class="section" style="display:none">
+                <p>If you would like to contribute data, the repository is <a href="https://github.com/XiLeF2211/ice-highways-map">XiLeF2211/ice-highways-map</a></p><hr>
+                <div id="custom-jsons-container">
+                    <p>Add JSON data files with highway data and preview it. This is <em><strong>purely visual</strong></em>, and the information (coordinates, connections, etc.) for these stations and lines from these files will not be visible in the sidebar.</p>
+                    <input type="file" id="custom-data" name="custom-data" accept=".json" />
+                    <p>Currently viewing files:</p>
+                    <div id="custom-json-list"></div>
+                </div>
+            </div>
+            <div id="credits" class="section" style="display:none">
+                <h1>Credits</h1>
+                <p>                    
+                    Thank you to the following people for their data contributions to the project:<br><hr><br>
+                    TNIH lines: nokteholda<br>
+                    Antarctica lines: UpgradeWasTaken<br>
+                    Havaiki and Australia-Antarctica lines: AtomicTom<br>
+                    Chitograd ice highways lines: Chitonator<br>
+                </p>
             </div>
         </div>
     </aside>
