@@ -4235,6 +4235,42 @@
               "Y=53 Ice lines system": ["", "F"]
             }
           }
+        },
+        {
+            "name": "Main Square of Bretagne",
+            "id": 358,
+            "x": -696,
+            "z": -9022,
+            "lines": {
+                "Metro de Bretagne": {
+                    "Main Square-Brest": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Brest",
+            "id": 359,
+            "x": -1006,
+            "z": -9100,
+            "lines": {
+                "Metro de Bretagne": {
+                    "Main Square-Brest": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Ascenseur ligne Bretagne-ligne internationale",
+            "type": "elev-ew",
+            "id": 360,
+            "x": -677,
+            "z": -9022,
+            "y1": 29,
+            "y2": 39,
+            "lines": {
+                "Metro de Bretagne": {
+                    "Main Square-Brest": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -5298,6 +5334,25 @@
                             [-13753, 2856]
                         ],
                         "stations": [310, 311, 312, 313, 314]
+                    }
+                }
+            }
+        },
+        "Metro de Bretagne": {
+            "Main Square-Brest": {
+                "prefix": "",
+                "code": "Bretagne",
+                "color": "a2a2a2",
+                "y": 29,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-677, -9022],
+                            [-950, -9022],
+                            [-950, -9100],
+                            [-1006, -9100]
+                        ],
+                        "stations": [360, 358, 359]
                     }
                 }
             }
