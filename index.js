@@ -45,8 +45,8 @@ async function init() {
     listStation();
 
     await renderTowns();
-    renderLines();
-    renderStations();
+    renderLines(highwayData, false);
+    renderStations(highwayData, false);
 }
 
 async function renderTowns() {
@@ -102,12 +102,12 @@ async function renderTowns() {
     console.log(`debug: Rendering towns took ${diff}ms`)
 }
 
-async function renderLines() {
+async function renderLines(dataset, mod) {
     const startLineRender = new Date()
 
-    for (const company of Object.keys(highwayData.lines)) {
-        for (const line of Object.keys(highwayData.lines[company])) {
-            const lineData = highwayData.lines[company][line]
+    for (const company of Object.keys(dataset.lines)) {
+        for (const line of Object.keys(dataset.lines[company])) {
+            const lineData = dataset.lines[company][line]
             // Modify vertices
             for (const branch of Object.keys(lineData.branches)) {
                 const vertices = []
@@ -119,7 +119,7 @@ async function renderLines() {
                 let lineName = document.createElement('a')
                 lineName.innerHTML = `${line} line <em>${branch != '' ? `(${branch})` : ''}</em>`
                 lineName.style.cursor = 'pointer'
-                lineName.addEventListener('click', () => {
+                if (!mod) lineName.addEventListener('click', () => {
                     openSide();
                     showLine(company, line, lineData);
                     viewHistory.push(['line', company, line, lineData])
@@ -135,9 +135,9 @@ async function renderLines() {
         }
     }
 
-    for (const company of Object.keys(highwayData.lines)) {
-        for (const line of Object.keys(highwayData.lines[company])) {
-            const lineData = highwayData.lines[company][line]
+    for (const company of Object.keys(dataset.lines)) {
+        for (const line of Object.keys(dataset.lines[company])) {
+            const lineData = dataset.lines[company][line]
 
             for (const branch of Object.keys(lineData.branches)) {
                 if (Object.hasOwn(lineData.branches[branch], 'concurrencies')) {
@@ -151,7 +151,7 @@ async function renderLines() {
                         let ogLine = document.createElement('a')
                         ogLine.innerHTML = `${line} line <em>${branch != '' ? `(${branch})` : ''}</em><br>`
                         ogLine.style.cursor = 'pointer'
-                        ogLine.addEventListener('click', () => {
+                        if (!mod) ogLine.addEventListener('click', () => {
                             openSide();
                             showLine(company, line, lineData);
                             viewHistory.push(['line', company, line, lineData])
@@ -159,10 +159,10 @@ async function renderLines() {
 
                         let concurrentWith = document.createElement('a')
                         concurrentWith.innerHTML = `concurrent with ${concurrency.split('.')[1]}`
-                        concurrentWith.addEventListener('click', () => {
+                        if (!mod) concurrentWith.addEventListener('click', () => {
                             openSide();
-                            showLine(concurrency.split('.')[0], concurrency.split('.')[1], highwayData.lines[concurrency.split('.')[0]][concurrency.split('.')[1]])
-                            viewHistory.push(['line', concurrency.split('.')[0], concurrency.split('.')[1], highwayData.lines[concurrency.split('.')[0]][concurrency.split('.')[1]]])
+                            showLine(concurrency.split('.')[0], concurrency.split('.')[1], dataset.lines[concurrency.split('.')[0]][concurrency.split('.')[1]])
+                            viewHistory.push(['line', concurrency.split('.')[0], concurrency.split('.')[1], dataset.lines[concurrency.split('.')[0]][concurrency.split('.')[1]]])
                         })
                         concurrencyContainer.appendChild(ogLine)
                         concurrencyContainer.appendChild(concurrentWith)
@@ -184,15 +184,15 @@ async function renderLines() {
     console.log(`debug: Rendering lines took ${stopLineRender - startLineRender}ms`)
 }
 
-async function renderStations() {
+async function renderStations(dataset, mod) {
     const startStationRender = new Date()
 
-    for (const station of highwayData.stations) {
+    for (const station of dataset.stations) {
         let container = document.createElement('div');
         let stationName = document.createElement('a')
         stationName.innerHTML = station.name
         stationName.style.cursor = 'pointer'
-        stationName.addEventListener('click', () => {
+        if (!mod) stationName.addEventListener('click', () => {
             openSide();
             showStation(station);
             viewHistory.push(['station', station])
@@ -364,6 +364,9 @@ function listLine() {
                 showLine(company, line, highwayData.lines[company][line])
                 viewHistory.push(['line', company, line, highwayData.lines[company][line]])
             })
+            lineItem.style.borderLeftStyle = 'solid'
+            lineItem.style.borderLeftWidth = '10px'
+            lineItem.style.borderLeftColor = '#' + highwayData.lines[company][line].color
             lineItem.appendChild(lineName)
             document.getElementById('line-list').appendChild(lineItem)
         }
@@ -449,11 +452,15 @@ function goToTab(tab) {
     document.getElementById('line').style.display = tab == 'line' ? 'block' : 'none'
     document.getElementById('station').style.display = tab == 'station' ? 'block' : 'none'
     document.getElementById('settings').style.display = tab == 'settings' ? 'block' : 'none'
+    document.getElementById('developers').style.display = tab == 'developers' ? 'block' : 'none'
+    document.getElementById('credits').style.display = tab == 'credits' ? 'block' : 'none'
 
     tab == 'main' ? document.getElementById('about-tab').classList.add('active') : document.getElementById('about-tab').classList.remove('active')
     tab == 'line' ? document.getElementById('line-tab').classList.add('active') : document.getElementById('line-tab').classList.remove('active')
     tab == 'station' ? document.getElementById('station-tab').classList.add('active') : document.getElementById('station-tab').classList.remove('active')
     tab == 'settings' ? document.getElementById('settings-tab').classList.add('active') : document.getElementById('settings-tab').classList.remove('active')
+    tab == 'developers' ? document.getElementById('developers-tab').classList.add('active') : document.getElementById('developers-tab').classList.remove('active')
+    tab == 'credits' ? document.getElementById('credits-tab').classList.add('active') : document.getElementById('credits-tab').classList.remove('active')
 }
 
 function goToList(tab) {
@@ -533,6 +540,36 @@ document.getElementById('line-tab').addEventListener('click', () => {
 
 document.getElementById('settings-tab').addEventListener('click', () => {
     goToTab('settings')
+})
+
+document.getElementById('developers-tab').addEventListener('click', () => {
+    goToTab('developers')
+})
+
+document.getElementById('credits-tab').addEventListener('click', () => {
+    goToTab('credits')
+})
+
+document.getElementById('custom-data').addEventListener('change', () => {
+    const curFiles = document.getElementById('custom-data').files;
+    if (curFiles.length > 0)  {
+        const list = document.createElement("ul");
+        document.getElementById('custom-json-list').appendChild(list);
+
+        for (const file of curFiles) {
+            const listItem = document.createElement("li");
+            listItem.textContent = file.name;
+
+            const reader = new FileReader();
+            reader.onload = () => {
+                renderLines(JSON.parse(reader.result), true);
+                renderStations(JSON.parse(reader.result), true);
+            }
+            reader.readAsText(file);
+
+            list.appendChild(listItem);
+        }
+    }
 })
 
 window.addEventListener('click', (e) => {
