@@ -4416,6 +4416,109 @@
                     "Y=93 Ice lines": ["", "Billgorod-Moscow y93 line"]
                 }
             }
+        },
+        {
+            "name": "Hessen (JCT)",
+            "id": 373,
+            "x": 1354,
+            "z": -9672,
+            "lines": {
+                "European Intercity Rail": {
+                    "Hessen-Niort": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Mainz",
+            "id": 374,
+            "x": 1301,
+            "z": -9384,
+            "lines": {
+                "European Intercity Rail": {
+                    "Hessen-Niort": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Luxembourg JCT",
+            "type": "jct",
+            "id": 375,
+            "x": 1178,
+            "z": -9363,
+            "lines": {
+                "European Intercity Rail": {
+                    "Hessen-Niort": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Nurburg (JCT)",
+            "id": 376,
+            "x": 1173,
+            "z": -9319,
+            "lines": {
+                "European Intercity Rail": {
+                    "Hessen-Niort": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Lorraine",
+            "id": 377,
+            "x": 957,
+            "z": -9003,
+            "lines": {
+                "European Intercity Rail": {
+                    "Hessen-Niort": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Maastricht",
+            "id": 378,
+            "x": 696,
+            "z": -8935,
+            "lines": {
+                "European Intercity Rail": {
+                    "Hessen-Niort": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Orleans",
+            "id": 379,
+            "x": 414,
+            "z": -8935,
+            "lines": {
+                "European Intercity Rail": {
+                    "Hessen-Niort": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Niort elevator",
+            "type": "elev-we",
+            "id": 380,
+            "x": -136,
+            "z": -8908,
+            "y1": 1,
+            "y2": 39,
+            "lines": {
+                "European Intercity Rail": {
+                    "Hessen-Niort": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Niort",
+            "id": 381,
+            "x": -138,
+            "z": -8903,
+            "lines": {
+                "European Intercity Rail": {
+                    "Hessen-Niort": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -5498,6 +5601,35 @@
                             [-1006, -9100]
                         ],
                         "stations": [360, 358, 359]
+                    }
+                }
+            }
+        },
+        "European Intercity Rail": {
+            "Hessen-Niort": {
+                "prefix": "",
+                "code": "H-N",
+                "color": "a2a2a2",
+                "y": 1,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [1354, -9672],
+                            [1354, -9384],
+                            [1178, -9384],
+                            [1178, -9319],
+                            [1017, -9319],
+                            [1017, -9003],
+                            [957, -9003],
+                            [951, -9003],
+                            [951, -8935],
+                            [696, -8935],
+                            [414, -8935],
+                            [-90, -8935],
+                            [-117, -8908],
+                            [-136, -8908]
+                        ],
+                        "stations": [373, 374, 375, 376, 377, 378, 379, 380, 381]
                     }
                 }
             }
