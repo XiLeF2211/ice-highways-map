@@ -4026,7 +4026,7 @@
           }
         },
         {
-          "name": "y=21 ↔ y=53 Connector Elevator",
+          "name": "Rybinsk y=21 ↔ y=53 Connector Elevator",
           "type": "elev-we",
           "y1": 21,
           "y2": 53,
@@ -4035,7 +4035,8 @@
           "z": -10987,
           "lines": {
             "Intercontinental": {
-              "Y=53 Ice lines system": ["", "G"]
+                "Y=53 Ice lines system": ["", "G"],
+                "Rybinsk-Novgorod-Kazan route": ["", "Novgorod line"]
             }
           }
         },
@@ -4088,7 +4089,7 @@
           }
         },
         {
-          "name": "y=93 ↔ y=53 Connector Elevator",
+          "name": "Moscow y=93 ↔ y=53 Connector Elevator",
           "type": "elev-we",
           "y1": 93,
           "y2": 53,
@@ -4097,7 +4098,8 @@
           "z": -10024,
           "lines": {
             "Intercontinental": {
-              "Y=53 Ice lines system": ["", "Moscow-Billgorod y53 line"]
+              "Y=53 Ice lines system": ["", "Moscow-Billgorod y53 line"],
+              "Y=93 Ice lines": ["", "Moscow-Billgorod y93 line"]
             }
           }
         },
@@ -4136,7 +4138,7 @@
           }
         },
         {
-          "name": "y=21 ↔ y=53 Connector Elevator",
+          "name": "Kazan y=21 ↔ y=53 Connector Elevator",
           "type": "elev-we",
           "y1": 21,
           "y2": 53,
@@ -4145,7 +4147,8 @@
           "z": -10455,
           "lines": {
             "Intercontinental": {
-              "Y=53 Ice lines system": ["", "D"]
+              "Y=53 Ice lines system": ["", "D"],
+              "Y=93 Ice lines": ["", "Moscow-Kazan line"]
             }
           }
         },
@@ -4198,7 +4201,7 @@
           }
         },
         {
-          "name": "y=53 ↔ y=41 Connector Elevator",
+          "name": "Khazar y=53 ↔ y=41 Connector Elevator",
           "type": "elev-we",
           "y1": 53,
           "y2": 41,
@@ -4223,18 +4226,19 @@
           }
         },
         {
-          "name": "y=53 ↔ y=93 Connector Elevator",
-          "type": "elev-we",
-          "y1": 53,
-          "y2": 93,
-          "id": 357,
-          "x": 7642,
-          "z": -9465,
-          "lines": {
-            "Intercontinental": {
-              "Y=53 Ice lines system": ["", "F"]
+            "name": "Khazar y=53 ↔ y=93 Connector Elevator",
+            "type": "elev-we",
+            "y1": 53,
+            "y2": 93,
+            "id": 357,
+            "x": 7642,
+            "z": -9465,
+            "lines": {
+                "Intercontinental": {
+                    "Y=53 Ice lines system": ["", "F"],
+                    "Y=93 Ice lines": ["", "Billgorod-Khazar line"]
+                }
             }
-          }
         },
         {
             "name": "Main Square of Bretagne",
@@ -4271,7 +4275,213 @@
                     "Main Square-Brest": ["", ""]
                 }
             }
+        },
+
+        {
+            "name": "Japanese town JCT",
+            "type": "jct",
+            "id": 361,
+            "x": 7461,
+            "z": -9469,
+            "lines": {
+                "Intercontinental": {
+                    "Y=93 Ice lines": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "y=93 ↔ y=92 Connector Elevator",
+            "type": "elev-we",
+            "y1": 93,
+            "y2": 92,
+            "id": 362,
+            "x": 7461,
+            "z": -9464,
+            "lines": {
+                "Intercontinental": {
+                    "Y=93 Ice lines": ["", "Billgorod-Khazar line"]
+                }
+            }
+        },
+        {
+            "name": "Voronezh",
+            "id": 363,
+            "x": 7079,
+            "z": -9469,
+            "lines": {
+                "Intercontinental": {
+                    "Y=93 Ice lines": ["", "Billgorod-Khazar line"]
+                }
+            }
+        },
+        {
+            "name": "Billgorod JCT",
+            "type": "jct",
+            "id": 364,
+            "x": 6584,
+            "z": -9469,
+            "lines": {
+                "Intercontinental": {
+                    "Y=93 Ice lines": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Billgorod",
+            "id": 365,
+            "x": 6584,
+            "z": -9492,
+            "lines": {
+                "Intercontinental": {
+                    "Y=93 Ice lines": ["", "Billgorod-Moscow y93 line"]
+                }
+            }
+        },
+        {
+            "name": "Whiteland JCT",
+            "type": "jct",
+            "id": 366,
+            "x": 6570,
+            "z": -9705,
+            "lines": {
+                "Intercontinental": {
+                    "Y=93 Ice lines": ["", "Billgorod-Moscow y93 line"]
+                }
+            }
+        },
+        {
+            "name": "X=6465 point",
+            "id": 367,
+            "x": 6465,
+            "z": -9705,
+            "lines": {
+                "Intercontinental": {
+                    "Y=93 Ice lines": ["", "Billgorod-Moscow y93 line"]
+                }
+            }
+        },
+        {
+            "name": "21don's town ruins",
+            "id": 368,
+            "x": 6584,
+            "z": -9875,
+            "lines": {
+                "Intercontinental": {
+                    "Y=93 Ice lines": ["", "Billgorod-Moscow y93 line"]
+                }
+            }
+        },
+        {
+            "name": "Kharkiv y=93 ↔ y=53 Connector Elevator",
+            "type": "elev-we",
+            "y1": 93,
+            "y2": 53,
+            "id": 369,
+            "x": 6582,
+            "z": -9441,
+            "lines": {
+                "Intercontinental": {
+                    "Y=93 Ice lines": ["", "Billgorod-Khazar line"],
+                    "Y=53 Ice lines system": ["", "Kharkiv line"]
+                }
+            }
+        },
+        {
+            "name": "Kharkiv",
+            "id": 370,
+            "x": 6637,
+            "z": -9330,
+            "lines": {
+                "Intercontinental": {
+                    "Y=53 Ice lines system": ["", "Kharkiv line"]
+                }
+            }
+        },
+        {
+            "name": "Luhansk",
+            "id": 371,
+            "x": 6825,
+            "z": -9250,
+            "lines": {
+                "Intercontinental": {
+                    "Y=53 Ice lines system": ["", "Kharkiv line"]
+                }
+            }
+        },
+        {
+            "name": "Donetsk JCT",
+            "type": "jct",
+            "id": 372,
+            "x": 6825,
+            "z": -9226,
+            "lines": {
+                "Intercontinental": {
+                    "Y=53 Ice lines system": ["", "Kharkiv line"]
+                }
+            }
+        },
+        {
+            "name": "Vladimir JCT",
+            "type": "jct",
+            "id": 373,
+            "x": 7858,
+            "z": -10459,
+            "lines": {
+                "Intercontinental": {
+                    "Rybinsk-Novgorod-Kazan route": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "East Moscow",
+            "id": 374,
+            "x": 6739,
+            "z": -10459,
+            "lines": {
+                "Intercontinental": {
+                    "Rybinsk-Novgorod-Kazan route": ["", "Moscow-Kazan line"]
+                }
+            }
+        },
+        {
+            "name": "Novgorod JCT",
+            "type": "jct",
+            "id": 375,
+            "x": 7858,
+            "z": -10575,
+            "lines": {
+                "Intercontinental": {
+                    "Rybinsk-Novgorod-Kazan route": ["", "Novgorod line"]
+                }
+            }
+        },
+        {
+            "name": "Novgorod",
+            "id": 376,
+            "x": 7858,
+            "z": -10592,
+            "lines": {
+                "Intercontinental": {
+                    "Rybinsk-Novgorod-Kazan route": ["", "Moscow-Kazan line"]
+                }
+            }
+        },
+        {
+            "name": "North Novgorod y=21 ↔ y=41 Connector Elevator",
+            "type": "elev-we",
+            "y1": 21,
+            "y2": 41,
+            "id": 377,
+            "x": 7862,
+            "z": -11000,
+            "lines": {
+                "Intercontinental": {
+                    "Rybinsk-Novgorod-Kazan route": ["", "Novgorod line"]
+
+                }
+            }
         }
+
     ],
     "lines": {
         "SEAN": {
@@ -5710,7 +5920,7 @@
                     "vertices": [
                       [8728, -10455],
                       [9458, -10455]],
-                    "stations": [350, [329, "ABC"], 351, 352, 353]
+                    "stations": [[350, "Y=93 Ice lines"], [329, "ABC"], 351, 352, 353]
                   },
                   "E": {
                     "vertices": [
@@ -5722,20 +5932,20 @@
                     "vertices": [
                       [8547, -9465],
                       [7645, -9465]],
-                    "stations": []
+                    "stations": [326, [355, "Y=41 ice lines"], 356, [357, "Y=93 Ice lines"]]
                   },
                   "G": {
                     "vertices": [
                       [6438, -10989],
                       [7572, -10989],
                       [7572, -10987]],
-                    "stations": [[334, "Borovichi-Moscow line"], 335, [336, ""], 337, [338, ""], 339, [340, ""], 341]
+                    "stations": [335, 334, 336, 337, 338, 339, 340, 341]
                   },
                   "Borovichi-Moscow line": {
                     "vertices": [
                       [6580, -10989],
                       [6580, -10728]],
-                    "stations": [[333, "Moscow Semi-Ring"], [334, "G"], 342]
+                    "stations": [333, 342, 334]
                   },
                   "Moscow Semi-Ring": {
                     "vertices": [
@@ -5744,25 +5954,102 @@
                       [6716, -10392],
                       [6436, -10392],
                       [6436, -10418]],
-                    "stations": [343, [333, "Borovichi-Moscow line"], [344, "Moscow-Billgorod y53 line"]]
+                    "stations": [343, 333, 344]
                   },
                   "Moscow-Billgorod y53 line": {
                     "vertices": [
                       [6580, -10392],
                       [6580, -10024],
                       [6582, -10024]],
-                    "stations": [[344, "Moscow Semi-Ring"], 345, 346]
+                    "stations": [344, 345, [346, "Y=93 Ice lines"]]
                   },
                   "Petrogradskyaya line": {
                     "vertices": [
                       [6677, -10989],
                       [6677, -11090],
                       [6018, -11090],
-                      [6018, -11343]],
-                    "stations": [336, 347, [348, ""], 349]
-                  }
+                      [6018, -11343]
+                    ],
+                    "stations": [336, 347, 348, 349]
+                  },
+                    "Kharkiv line": {
+                        "vertices": [
+                            [6582, -9441],
+                            [6580, -9441],
+                            [6580, -9330],
+                            [6825, -9330],
+                            [6825, -9226]
+                        ],
+                        "stations": [[369, "Y=93 Ice lines"], 370, 371, 372]
+                    }
                 }
-              }
+            },
+            "Y=93 Ice lines": {
+                "prefix": "",
+                "code": "Y=93",
+                "color": "800080",
+                "y": 93,
+                "branches": {
+                    "Billgorod-Khazar line": {
+                        "vertices": [
+                            [7642, -9465],
+                            [7642, -9469],
+                            [7461, -9469],
+                            [7461, -9464],
+                            [7461, -9469],
+                            [6584, -9469]
+                        ],
+                        "stations": [[357, "Y=53 Ice lines system"], 361, 362, 364]
+                    },
+                    "Billgorod-Moscow y93 line": {
+                        "vertices": [
+                            [6582, -9441],
+                            [6584, -9441],
+                            [6584, -9577],
+                            [6570, -9577],
+                            [6570, -9705],
+                            [6465, -9705],
+                            [6584, -9705],
+                            [6584, -10024],
+                            [6582, -10024]
+                        ],
+                        "stations": [[369, "Y=53 Ice lines system"], 364, 365, 366, 368, [346, "Y=53 Ice lines system"]]
+                    }
+                }
+            },
+            "Rybinsk-Novgorod-Kazan route": {
+                "prefix": "",
+                "code": "Y=21",
+                "color": "0096FF",
+                "y": 21,
+                "branches": {
+                    "Moscow-Kazan line": {
+                        "vertices": [
+                            [8724, -10455],
+                            [8724, -10459],
+                            [6739, -10459]
+                        ],
+                        "stations": [[350, "Y=53 Ice lines system"], 373, 374]
+                    },
+                    "Novgorod line": {
+                        "vertices": [
+                            [8724, -10455],
+                            [8724, -10459],
+                            [7858, -10459],
+                            [7858, -10575],
+                            [7825, -10575],
+                            [7858, -10575],
+                            [7858, -10985],
+                            [7862, -10985],
+                            [7862, -11000],
+                            [7862, -10985],
+                            [7572, -10985],
+                            [7572, -10987]
+                        ],
+                        "stations": [[350, "Y=53 Ice lines system"], 373, 375, 376, 377, 341]
+                    }
+                }
+            }
         }
     }
 }
