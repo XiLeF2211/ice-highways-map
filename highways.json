@@ -4699,7 +4699,7 @@
         },
         {
             "name": "Astana",
-            "id": 500,
+            "id": 396,
             "x": 12927,
             "z": -10003,
             "lines": {
@@ -4711,7 +4711,7 @@
         {
             "name": "2nd Kazakhstan route JCT",
             "type": "jct",
-            "id": 501,
+            "id": 397,
             "x": 13557,
             "z": -10003,
             "lines": {
@@ -4725,7 +4725,7 @@
             "type": "elev-we",
             "y1": 2,
             "y2": 111,
-            "id": 502,
+            "id": 398,
             "x": 13676,
             "z": -10007,
             "lines": {
@@ -4737,7 +4737,7 @@
         {
             "name": "1st Kazakhstan route JCT",
             "type": "jct",
-            "id": 503,
+            "id": 399,
             "x": 14539,
             "z": -10003,
             "lines": {
@@ -4749,7 +4749,7 @@
         {
             "name": "Novosibirsk JCT",
             "type": "jct",
-            "id": 504,
+            "id": 400,
             "x": 15281,
             "z": -10003,
             "lines": {
@@ -4760,7 +4760,7 @@
         },
         {
             "name": "South Novosibirsk",
-            "id": 505,
+            "id": 401,
             "x": 15291,
             "z": -10003,
             "lines": {
@@ -4770,9 +4770,9 @@
             }
         },
         {
-            "name": "1st Baikal JCT",
+            "name": "1st Baikal route JCT",
             "type": "jct",
-            "id": 506,
+            "id": 402,
             "x": 16000,
             "z": -10003,
             "lines": {
@@ -4782,9 +4782,9 @@
             }
         },
         {
-            "name": "2nd Baikal JCT",
+            "name": "2nd Baikal route JCT",
             "type": "jct",
-            "id": 507,
+            "id": 403,
             "x": 17780,
             "z": -10003,
             "lines": {
@@ -4795,7 +4795,7 @@
         },
         {
             "name": "Irkutsk",
-            "id": 508,
+            "id": 404,
             "x": 19193,
             "z": -10003,
             "lines": {
@@ -4806,7 +4806,7 @@
         },
         {
             "name": "Moron",
-            "id": 509,
+            "id": 405,
             "x": 20485,
             "z": -10003,
             "lines": {
@@ -4818,7 +4818,7 @@
         {
             "name": "New Urengoy JCT",
             "type": "jct",
-            "id": 510,
+            "id": 406,
             "x": 15790,
             "z": -10576,
             "lines": {
@@ -4830,7 +4830,7 @@
         {
             "name": "North Novosibirsk JCT",
             "type": "jct",
-            "id": 511,
+            "id": 407,
             "x": 15281,
             "z": -10526,
             "lines": {
@@ -4841,12 +4841,174 @@
         },
         {
             "name": "Tomsk",
-            "id": 512,
+            "id": 408,
             "x": 14888,
             "z": -10526,
             "lines": {
                 "Intercontinental": {
                     "Russian Rebuplic ice roads": ["", "Novosibirsk Ring"]
+                }
+            }
+        },
+        {
+            "name": "Diagonal JCT",
+            "type": "jct",
+            "id": 409,
+            "x": 15281,
+            "z": -10114,
+            "lines": {
+                "Intercontinental": {
+                    "Russian Rebuplic ice roads": ["", "East Novosibirsk line"]
+                }
+            }
+        },
+        {
+            "name": "VTB HQ JCT",
+            "type": "jct",
+            "id": 410,
+            "x": 15281,
+            "z": -10233,
+            "lines": {
+                "Intercontinental": {
+                    "Russian Rebuplic ice roads": ["", "East Novosibirsk line"]
+                }
+            }
+        },
+        {
+            "name": "VTB HQ",
+            "id": 411,
+            "x": 15262,
+            "z": -10233,
+            "lines": {
+                "Intercontinental": {
+                    "Russian Rebuplic ice roads": ["", "East Novosibirsk line"]
+                }
+            }
+        },
+        {
+            "name": "Old Novos St JCT",
+            "type": "jct",
+            "id": 412,
+            "x": 15281,
+            "z": -10248,
+            "lines": {
+                "Intercontinental": {
+                    "Russian Rebuplic ice roads": ["", "East Novosibirsk line"]
+                }
+            }
+        },
+        {
+            "name": "Vokzal JCT",
+            "type": "jct",
+            "id": 413,
+            "x": 15281,
+            "z": -10335,
+            "lines": {
+                "Intercontinental": {
+                    "Russian Rebuplic ice roads": ["", "East Novosibirsk line"]
+                }
+            }
+        },
+        {
+            "name": "Novosibirsk railway station",
+            "id": 414,
+            "x": 15180,
+            "z": -10335,
+            "lines": {
+                "Intercontinental": {
+                    "Russian Rebuplic ice roads": ["", "Vokzal line"]
+                }
+            }
+        },
+        {
+            "name": "Old Novos street",
+            "id": 415,
+            "x": 15181,
+            "z": -10248,
+            "lines": {
+                "Intercontinental": {
+                    "Russian Rebuplic ice roads": ["", "Old Novos street line"]
+                }
+            }
+        },
+        {
+            "name": "New Urengoy",
+            "id": 416,
+            "x": 15790,
+            "z": -12741,
+            "lines": {
+                "Intercontinental": {
+                    "Russian Rebuplic ice roads": ["", "Novosibirsk Ring"]
+                }
+            }
+        },
+        {
+            "name": "Kazakh's town ruins",
+            "id": 417,
+            "x": 13557,
+            "z": -10301,
+            "lines": {
+                "Intercontinental": {
+                    "Russian Rebuplic ice roads": ["", "Kazakh's town ruins branch"]
+                }
+            }
+        },
+        {
+            "name": "1st Leningrad route JCT",
+            "type": "jct",
+            "id": 418,
+            "x": 14539,
+            "z": -9491,
+            "lines": {
+                "Intercontinental": {
+                    "Russian Rebuplic ice roads": ["", "Leningrad route"]
+                }
+            }
+        },
+        {
+            "name": "Oktyabrina",
+            "id": 419,
+            "x": 14539,
+            "z": -9476,
+            "lines": {
+                "Intercontinental": {
+                    "Russian Rebuplic ice roads": ["", "Leningrad route"]
+                }
+            }
+        },
+        {
+            "name": "2nd Leningrad route JCT",
+            "type": "jct",
+            "id": 420,
+            "x": 14493,
+            "z": -8999,
+            "lines": {
+                "Intercontinental": {
+                    "Russian Rebuplic ice roads": ["", "Leningrad route"]
+                }
+            }
+        },
+        {
+            "name": "3rd Leningrad route JCT",
+            "type": "jct",
+            "id": 421,
+            "x": 14493,
+            "z": -8793,
+            "lines": {
+                "Intercontinental": {
+                    "Russian Rebuplic ice roads": ["", "Leningrad route"]
+                }
+            }
+        },
+        {
+            "name": "4th Leningrad route JCT",
+            "type": "jct",
+            "id": 422,
+            "x": 14493,
+            "z": -8751,
+            "lines": {
+                "Intercontinental": {
+                    "Russian Rebuplic ice roads": ["", "Leningrad route"]
                 }
             }
         }
@@ -4881,8 +5043,8 @@
                 }
             },
             "Green": {
-                "prefix": "Borovichi-Rybinsk-Novgorod line",
-                "code": "Borovichi-Rybinsk-Novgorod line",
+                "prefix": "G",
+                "code": "G",
                 "color": "71cc1d",
                 "y": 49,
                 "branches": {
@@ -6486,7 +6648,7 @@
                 "y": 2,
                 "branches": {
                     "Novosibirsk Ring": {
-                         "vertices": [
+                        "vertices": [
                             [14539, -10003],
                             [14539, -10462],
                             [14539, -10462],
@@ -6498,7 +6660,7 @@
                             [16000, -10003],
                             [14539, -10003]
                         ],
-                        "stations": []
+                        "stations": [399, 400, 401, 402, 406, 407, 408]
                     },
                     "East Novosibirsk line": {
                         "vertices": [
@@ -6508,7 +6670,7 @@
                             [15281, -10233],
                             [15281, -10526]
                         ],
-                        "stations": []
+                        "stations": [400, 409, 410, 411, 412, 413, 406]
                     },
                     "Vokzal line": {
                         "vertices": [
@@ -6520,7 +6682,7 @@
                             [15180, -10330],
                             [15180, -10335]
                         ],
-                        "stations": []
+                        "stations": [413, 414]
                     },
                     "Diagonal line": {
                         "vertices": [
@@ -6528,43 +6690,51 @@
                             [15170, -10224],
                             [15281, -10114]
                         ],
-                        "stations": []
+                        "stations": [409, 413]
                     },
                     "Old Novos street line": {
                         "vertices": [
                             [15281, -10248],
                             [15181, -10248]
                         ],
-                        "stations": []
+                        "stations": [412, 415]
                     },
                     "Kazakhstan route": {
                         "vertices": [
                             [12232, -10003],
                             [14539, -10003]
                         ],
-                        "stations": [[292, "Chitograd Ice Highways"]]
+                        "stations": [[292, "Chitograd Ice Highways"], 396, 397, 398, 399]
                     },
                     "Kazakh's town ruins branch": {
                         "vertices": [
                             [13557, -10003],
                             [13557, -10301]
                         ],
-                        "stations": []
+                        "stations": [397, 417]
                     },
-
                     "New Urengoy route": {
                         "vertices": [
                             [15790, -10576],
                             [15790, -12747]
                         ],
-                        "stations": []
+                        "stations": [406, 416]
                     },
                     "Baikal route": {
                         "vertices": [
                             [16000, -10003],
                             [20447, -10003]
                         ],
-                        "stations": []
+                        "stations": [402, 403, 404, 405]
+                    },
+                    "Leningrad route": {
+                        "vertices": [
+                            [14539, -10003],
+                            [14539, -9474],
+                            [14493, -9474],
+                            [14493, -8751]
+                        ],
+                        "stations": [399, 418, 419, 420, 421, 422]
                     }
                 }
             }
