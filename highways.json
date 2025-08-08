@@ -4670,7 +4670,7 @@
         },
         {
             "name": "Atamyrat ice stairs",
-            "type": "elev-we",
+            "type": "elev-ew",
             "id": 394,
             "x": 16639,
             "z": -3997,
@@ -4684,7 +4684,7 @@
         },
         {
             "name": "Atamyrat elevator",
-            "type": "elev-ew",
+            "type": "elev-we",
             "id": 395,
             "x": 17676,
             "z": -3997,
