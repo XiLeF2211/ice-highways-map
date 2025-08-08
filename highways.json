@@ -4669,7 +4669,7 @@
             }
         },
         {
-            "name": "Atamyrat ice stairs",
+            "name": "Mandalay ice stairs",
             "type": "elev-ew",
             "id": 394,
             "x": 16639,
@@ -4683,7 +4683,7 @@
             }
         },
         {
-            "name": "Atamyrat elevator",
+            "name": "Rakhine ice stairs",
             "type": "elev-we",
             "id": 395,
             "x": 17676,
