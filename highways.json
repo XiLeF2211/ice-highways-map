@@ -177,7 +177,7 @@
             }
         },
         {
-            "name": "Haldwani Mine JCT",
+            "name": "Haldwani Mine (JCT)",
             "id": 15,
             "x": 14785,
             "z": -5184,
@@ -212,7 +212,7 @@
             }
         },
         {
-            "name": "Canopus",
+            "name": "Canopus (JCT)",
             "id": 18,
             "x": 15319,
             "z": -5184,
@@ -332,7 +332,7 @@
             }
         },
         {
-            "name": "Vijapur JCT",
+            "name": "Vijapur (JCT)",
             "id": 28,
             "x": 13311,
             "z": -4686,
@@ -344,7 +344,7 @@
             }
         },
         {
-            "name": "Ahmehabad Mine JCT",
+            "name": "Ahmehabad Mine (JCT)",
             "id": 29,
             "x": 12729,
             "z": -4686,
@@ -746,7 +746,8 @@
             "z": -4378,
             "lines": {
                 "TNIH": {
-                    "Bangla-Caspian": ["", "Main line"]
+                    "Bangla-Caspian": ["", "Main line"],
+                    "Chittagong Bypass": ["", ""]
                 }
             }
         },
@@ -2647,7 +2648,7 @@
             }
         },
         {
-            "name": "Balkh",
+            "name": "Balkh (JCT)",
             "id": 224,
             "x": 11784,
             "z": -6771,
@@ -2994,7 +2995,7 @@
             }
         },
         {
-            "name": "Quyosh Ko",
+            "name": "Quyosh Ko (JCT)",
             "id": 253,
             "x": 11620,
             "z": -7483,
@@ -3017,7 +3018,7 @@
             }
         },
         {
-            "name": "Bukhara",
+            "name": "Bukhara (JCT)",
             "id": 255,
             "x": 11620,
             "z": -7789,
@@ -4522,7 +4523,6 @@
                 }
             }
         },
-
         {
             "name": "Vladimir JCT",
             "type": "jct",
@@ -4594,6 +4594,105 @@
             "lines": {
                 "Intercontinental": {
                     "Rybinsk-Novgorod-Kazan": ["", "Novgorod line"]
+                }
+            }
+        },
+        {
+            "name": "Rakhine JCT",
+            "type": "jct",
+            "id": 388,
+            "x": 16920,
+            "z": -3999,
+            "lines": {
+                "TNIH": {
+                    "Chittagong Bypass": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Rahinkai JCT",
+            "type": "jct",
+            "id": 389,
+            "x": 16625,
+            "z": -3999,
+            "lines": {
+                "TNIH": {
+                    "Chittagong Bypass": ["", ""],
+                    "Avachi Rapid": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Noakahli",
+            "id": 390,
+            "x": 16625,
+            "z": -4329,
+            "lines": {
+                "TNIH": {
+                    "Chittagong Bypass": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Noakahli Mine",
+            "type": "semi2",
+            "id": 391,
+            "x": 16625,
+            "z": -4411,
+            "lines": {
+                "TNIH": {
+                    "Chittagong Bypass": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Xiaowando",
+            "id": 392,
+            "x": 16625,
+            "z": -4504,
+            "lines": {
+                "TNIH": {
+                    "Chittagong Bypass": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Higashi Mandalay JCT",
+            "type": "jct",
+            "id": 393,
+            "x": 17687,
+            "z": -3998,
+            "lines": {
+                "TNIH": {
+                    "Avachi Rapid": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Atamyrat ice stairs",
+            "type": "elev-we",
+            "id": 394,
+            "x": 16639,
+            "z": -3997,
+            "y1": 10,
+            "y2": 15,
+            "lines": {
+                "TNIH": {
+                    "Avachi Rapid": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Atamyrat elevator",
+            "type": "elev-ew",
+            "id": 395,
+            "x": 17676,
+            "z": -3997,
+            "y1": 15,
+            "y2": 10,
+            "lines": {
+                "TNIH": {
+                    "Avachi Rapid": ["", ""]
                 }
             }
         }
@@ -5062,6 +5161,38 @@
                             [11458, -7734]
                         ],
                         "stations": [[278, "to Main line"], 279]
+                    }
+                }
+            },
+            "Chittagong Bypass": {
+                "prefix": "",
+                "code": "CB",
+                "color": "ff5599",
+                "y": 10,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [16950, -3999],
+                            [16625, -3999],
+                            [16625, -4504]
+                        ],
+                        "stations": [388, 389, 390, 61, 391, 392]
+                    }
+                }
+            },
+            "Avachi Rapid": {
+                "prefix": "",
+                "code": "AR",
+                "color": "006680",
+                "y": 15,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [16625, -3997],
+                            [17687, -3997],
+                            [17687, -3999]
+                        ],
+                        "stations": [393, 394, 395, 389]
                     }
                 }
             }
