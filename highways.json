@@ -3862,7 +3862,8 @@
             "z": -9465,
             "lines": {
                 "Y=53 Ice Lines System": {
-                    "Chitograd-Khazar": ["", ""]
+                    "Chitograd-Khazar": ["", ""],
+                    "Lower Billgorod-Khazar": ["", ""]
                 }
             }
         },
@@ -6342,7 +6343,7 @@
                 "color": "800080",
                 "y": 93,
                 "branches": {
-                    "": {
+                    "Main line": {
                         "vertices": [
                             [6582, -9441],
                             [6584, -9441],
@@ -6353,7 +6354,7 @@
                             [6584, -10024],
                             [6582, -10024]
                         ],
-                        "stations": [369, 364, 365, [366, "X=6465 branch"], 368, 346]
+                        "stations": [364, 365, [366, "X=6465 branch"], 368, 346]
                     },
                     "X=6465 branch": {
                         "vertices": [
@@ -6724,7 +6725,7 @@
                             [7572, -10985],
                             [7572, -10987]
                         ],
-                        "stations": [[382, "Moscow-Kazan line"], 384, 385, 386, 341]
+                        "stations": [[382, "Moscow-Kazan line"], 384, 387, 385, 386, 341]
                     }
                 }
             },
