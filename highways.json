@@ -5029,6 +5029,28 @@
                     "Russian Rebuplic ice roads": ["", "Leningrad route"]
                 }
             }
+        },
+        {
+            "name": "Kita",
+            "id": 423,
+            "x": -14024,
+            "z": 1399,
+            "lines": {
+                "Ariguma Railway": {
+                    "Nankyoku Shinkansen": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Daigen",
+            "id": 424,
+            "x": -14780,
+            "z": 1418,
+            "lines": {
+                "Ariguma Railway": {
+                    "Nankyoku Shinkansen": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -6119,7 +6141,9 @@
                 "branches": {
                     "": {
                         "vertices": [
-                            [-13929, 1399],
+                            [-14780, 1418],
+                            [-14172, 1418],
+                            [-14172, 1399],
                             [-13691, 1399],
                             [-13691, 2200],
                             [-13753, 2200],
@@ -6732,7 +6756,7 @@
                 }
             },
             "Russian Rebuplic ice roads": {
-                "prefix": "RR",
+                "prefix": "",
                 "code": "RR",
                 "color": "FF0000",
                 "y": 2,
