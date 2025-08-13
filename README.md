@@ -4,6 +4,8 @@ This is a tool that aims to give information on stations and lines across the Ea
 
 ## Log
 
+31 July — 12 August 2025: Added Y=53 Ice lines system (full), Y=93 Ice lines, Y=21 Ice lines, Russian Republic ice lines system, Y=42 Ice lines system and some minor fixes (Thanks to nokteholda, XiLeF2211)
+
 30 July 2025: Y=53 Ice lines system (around Chitograd) (data from **Chitonator** on Discord)
 
 28 July 2025: Ariguma Railway (AR) Nankyouku Shinkansen and Karafuto Ice Highway (edited by **nokteholda**)

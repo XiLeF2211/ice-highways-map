@@ -3454,7 +3454,7 @@
             "lines": {
                 "Intercontinental": {
                     "Chitograd Ice Highways": ["", "Main Line"],
-                    "Russian Rebuplic ice roads": ["", "Kazakhstan route"]
+                    "Russian Republic ice roads": ["", "Kazakhstan route"]
                 }
             }
         },
@@ -3999,16 +3999,19 @@
           }
         },
         {
-          "name": "Rybinsk Y=41 Way JCT",
-          "type": "jct",
-          "id": 338,
-          "x": 6897,
-          "z": -10989,
-          "lines": {
-            "Y=53 Ice Lines System": {
-                "Borovichi-Rybinsk-Novgorod": ["", "Main line"]
+            "name": "Rybinsk Y=42 Way JCT",
+            "type": "jct",
+            "id": 338,
+            "x": 6897,
+            "z": -10989,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Borovichi-Rybinsk-Novgorod": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "Rybinsk route"]
+                }
             }
-          }
         },
         {
           "name": "Rybinsk",
@@ -4034,7 +4037,7 @@
           }
         },
         {
-          "name": "Rybinsk Y=21 ↔ Y=53 Connector Elevator",
+          "name": "West Rybinsk Y=21 ↔ Y=53 Connector Elevator",
           "type": "elev-we",
           "y1": 21,
           "y2": 53,
@@ -4589,16 +4592,17 @@
             }
         },
         {
-            "name": "North Novgorod y=21 ↔ y=41 Connector Elevator",
+            "name": "North Novgorod y=21 ↔ y=42 Connector Elevator",
             "type": "elev-we",
             "y1": 21,
-            "y2": 41,
+            "y2": 42,
             "id": 386,
             "x": 7862,
             "z": -11000,
             "lines": {
                 "Intercontinental": {
-                    "Rybinsk-Novgorod-Kazan": ["", "Novgorod line"]
+                    "Rybinsk-Novgorod-Kazan": ["", "Novgorod line"],
+                    "Arkhangelsk-Eestifur": ["", "Novgorod route"]
                 }
             }
         },
@@ -4722,7 +4726,7 @@
             "z": -10003,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", ""]
+                    "Russian Republic ice roads": ["", ""]
                 }
             }
         },
@@ -4734,7 +4738,7 @@
             "z": -10003,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "Kazakhstan route"]
+                    "Russian Republic ice roads": ["", "Kazakhstan route"]
                 }
             }
         },
@@ -4748,7 +4752,7 @@
             "z": -10007,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "Kazakhstan route"]
+                    "Russian Republic ice roads": ["", "Kazakhstan route"]
                 }
             }
         },
@@ -4760,7 +4764,7 @@
             "z": -10003,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "Kazakhstan route"]
+                    "Russian Republic ice roads": ["", "Kazakhstan route"]
                 }
             }
         },
@@ -4772,7 +4776,7 @@
             "z": -10003,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "Novosibirsk Ring"]
+                    "Russian Republic ice roads": ["", "Novosibirsk Ring"]
                 }
             }
         },
@@ -4783,7 +4787,7 @@
             "z": -10003,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "Novosibirsk Ring"]
+                    "Russian Republic ice roads": ["", "Novosibirsk Ring"]
                 }
             }
         },
@@ -4795,7 +4799,7 @@
             "z": -10003,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "Baikal route"]
+                    "Russian Republic ice roads": ["", "Baikal route"]
                 }
             }
         },
@@ -4807,7 +4811,7 @@
             "z": -10003,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "Baikal route"]
+                    "Russian Republic ice roads": ["", "Baikal route"]
                 }
             }
         },
@@ -4818,7 +4822,7 @@
             "z": -10003,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "Baikal route"]
+                    "Russian Republic ice roads": ["", "Baikal route"]
                 }
             }
         },
@@ -4829,7 +4833,7 @@
             "z": -10003,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "Baikal route"]
+                    "Russian Republic ice roads": ["", "Baikal route"]
                 }
             }
         },
@@ -4841,7 +4845,7 @@
             "z": -10576,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "Novosibirsk Ring"]
+                    "Russian Republic ice roads": ["", "Novosibirsk Ring"]
                 }
             }
         },
@@ -4853,7 +4857,7 @@
             "z": -10526,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "Novosibirsk Ring"]
+                    "Russian Republic ice roads": ["", "Novosibirsk Ring"]
                 }
             }
         },
@@ -4864,7 +4868,7 @@
             "z": -10526,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "Novosibirsk Ring"]
+                    "Russian Republic ice roads": ["", "Novosibirsk Ring"]
                 }
             }
         },
@@ -4876,7 +4880,7 @@
             "z": -10114,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "East Novosibirsk line"]
+                    "Russian Republic ice roads": ["", "East Novosibirsk line"]
                 }
             }
         },
@@ -4888,7 +4892,7 @@
             "z": -10233,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "East Novosibirsk line"]
+                    "Russian Republic ice roads": ["", "East Novosibirsk line"]
                 }
             }
         },
@@ -4899,7 +4903,7 @@
             "z": -10233,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "East Novosibirsk line"]
+                    "Russian Republic ice roads": ["", "East Novosibirsk line"]
                 }
             }
         },
@@ -4911,7 +4915,7 @@
             "z": -10248,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "East Novosibirsk line"]
+                    "Russian Republic ice roads": ["", "East Novosibirsk line"]
                 }
             }
         },
@@ -4923,7 +4927,7 @@
             "z": -10335,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "East Novosibirsk line"]
+                    "Russian Republic ice roads": ["", "East Novosibirsk line"]
                 }
             }
         },
@@ -4934,7 +4938,7 @@
             "z": -10335,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "Vokzal line"]
+                    "Russian Republic ice roads": ["", "Vokzal line"]
                 }
             }
         },
@@ -4945,7 +4949,7 @@
             "z": -10248,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "Old Novos street line"]
+                    "Russian Republic ice roads": ["", "Old Novos street line"]
                 }
             }
         },
@@ -4956,7 +4960,7 @@
             "z": -12741,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "Novosibirsk Ring"]
+                    "Russian Republic ice roads": ["", "Novosibirsk Ring"]
                 }
             }
         },
@@ -4967,7 +4971,7 @@
             "z": -10301,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "Kazakh's town ruins branch"]
+                    "Russian Republic ice roads": ["", "X=13557 branch"]
                 }
             }
         },
@@ -4979,7 +4983,7 @@
             "z": -9491,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "Leningrad route"]
+                    "Russian Republic ice roads": ["", "Leningrad route"]
                 }
             }
         },
@@ -4990,7 +4994,7 @@
             "z": -9476,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "Leningrad route"]
+                    "Russian Republic ice roads": ["", "Leningrad route"]
                 }
             }
         },
@@ -5002,7 +5006,7 @@
             "z": -8999,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "Leningrad route"]
+                    "Russian Republic ice roads": ["", "Leningrad route"]
                 }
             }
         },
@@ -5014,7 +5018,7 @@
             "z": -8793,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "Leningrad route"]
+                    "Russian Republic ice roads": ["", "Leningrad route"]
                 }
             }
         },
@@ -5026,7 +5030,7 @@
             "z": -8751,
             "lines": {
                 "Intercontinental": {
-                    "Russian Rebuplic ice roads": ["", "Leningrad route"]
+                    "Russian Republic ice roads": ["", "Leningrad route"]
                 }
             }
         },
@@ -5049,6 +5053,463 @@
             "lines": {
                 "Ariguma Railway": {
                     "Nankyoku Shinkansen": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "1st Karelian JCT",
+            "type": "jct",
+            "id": 425,
+            "x": 5729,
+            "z": -12051,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "2nd Karelian JCT",
+            "type": "jct",
+            "id": 426,
+            "x": 6291,
+            "z": -12051,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", ["Main line", "Petrozavodsk line"]]
+                }
+            }
+        },
+        {
+            "name": "Arkhangelsk",
+            "id": 427,
+            "x": 6785,
+            "z": -12051,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[6777, -12039], [6793, -12051]]
+            ]
+        },
+        {
+            "name": "Rybinsk route JCT",
+            "type": "jct",
+            "id": 428,
+            "x": 6881,
+            "z": -12051,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", ["Main line", "Rybinsk route"]]
+                }
+            }
+        },
+        {
+            "name": "Isaac Hills JCT",
+            "type": "jct",
+            "id": 429,
+            "x": 7257,
+            "z": -12051,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", ["Main line", "X=7257 branch"]]
+                }
+            }
+        },
+        {
+            "name": "Isaac Hills",
+            "id": 430,
+            "x": 7303,
+            "z": -12051,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[7297, -12043], [7310, -12051]]
+            ]
+        },
+        {
+            "name": "1st Arkhangelsk Region JCT",
+            "type": "jct",
+            "id": 431,
+            "x": 7858,
+            "z": -12051,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", ["Main line", "Skilakici line"]]
+                }
+            }
+        },
+        {
+            "name": "2nd Arkhangelsk Forest JCT",
+            "type": "jct",
+            "id": 432,
+            "x": 7915,
+            "z": -12051,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", ["Main line", "X=7915 branch"]]
+                }
+            }
+        },
+        {
+            "name": "1st North Komi Forest JCT",
+            "type": "jct",
+            "id": 433,
+            "x": 8385,
+            "z": -12051,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", ["Main line", "X=8385 branch"]]
+                }
+            }
+        },
+        {
+            "name": "2nd North Komi Forest JCT",
+            "type": "jct",
+            "id": 434,
+            "x": 8570,
+            "z": -12051,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", ["Main line", "X=8570 branch"]]
+                }
+            }
+        },
+        {
+            "name": "North Komi Forest station",
+            "id": 435,
+            "x": 8645,
+            "z": -12051,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "3rd North Komi Forest JCT",
+            "type": "jct",
+            "id": 436,
+            "x": 9083,
+            "z": -12051,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", ["Main line", "X=9153 line"]]
+                }
+            }
+        },
+        {
+            "name": "Vorkuta",
+            "id": 437,
+            "x": 9258,
+            "z": -12051,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[9243, -12047], [9273, -12052]]
+            ]
+        },
+        {
+            "name": "Pechora JCT",
+            "type": "jct",
+            "id": 438,
+            "x": 9725,
+            "z": -12051,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", ["Main line", "", "Pechora line"]]
+                }
+            }
+        },
+        {
+            "name": "1st WSD North Railway station",
+            "id": 439,
+            "x": 10323,
+            "z": -12051,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[10344, -12052], [10302, -12047]],
+                [[10324, -12047], [10322, -11980]],
+                [[10322, -11983], [10320, -11959]]
+            ]
+        },
+        {
+            "name": "4th North Komi Forest JCT",
+            "type": "jct",
+            "id": 440,
+            "x": 10489,
+            "z": -12051,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", ["Main line", "", ""]]
+                }
+            }
+        },
+        {
+            "name": "Eestifur",
+            "id": 441,
+            "x": 10799,
+            "z": -12051,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[10813, -12050], [10785, -12101]]
+            ]
+        },
+        {
+            "name": "Salt's Avenue",
+            "id": 442,
+            "x": 6881,
+            "z": -11895,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "Rybinsk route"]
+                }
+            },
+            "areas": [
+                [[6881, -11910], [6859, -11880]]
+            ]
+        },
+        {
+            "name": "Skilakici JCT",
+            "type": "jct",
+            "id": 443,
+            "x": 6881,
+            "z": -11737,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", ["Rybinsk route", "", "Skilakici line"]]
+                }
+            }
+        },
+        {
+            "name": "Vytergra JCT",
+            "type": "jct",
+            "id": 444,
+            "x": 6881,
+            "z": -11477,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", ["Rybinsk route", "", "Vytegra line"]]
+                }
+            }
+        },
+        {
+            "name": "Savinsky town ruins",
+            "id": 445,
+            "x": 6881,
+            "z": -11352,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "Rybinsk route"]
+                }
+            }
+        },
+        {
+            "name": "Rybinsk Y=53 ↔ Y=42 Connector Elevator",
+            "type": "elev-we",
+            "y1": 53,
+            "y2": 42,
+            "id": 446,
+            "x": 6897,
+            "z": -11012,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "Rybinsk route"]
+                }
+            }
+        },
+        {
+            "name": "Skilakici JCT",
+            "type": "jct",
+            "id": 447,
+            "x": 7694,
+            "z": -11737,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "Skilakici line"]
+                }
+            }
+        },
+        {
+            "name": "Kargopol JCT",
+            "type": "jct",
+            "id": 448,
+            "x": 6748,
+            "z": -11477,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "Vytergra line"]
+                }
+            }
+        },
+        {
+            "name": "Vytergra",
+            "id": 449,
+            "x": 6565,
+            "z": -11477,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "Vytergra line"]
+                }
+            }
+        },
+        {
+            "name": "Petrozavodsk JCT",
+            "type": "jct",
+            "id": 450,
+            "x": 6291,
+            "z": -11477,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "Vytergra line"]
+                }
+            }
+        },
+        {
+            "name": "North Petrozavodsk",
+            "id": 451,
+            "x": 6291,
+            "z": -11618,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "Petrozavodsk line"]
+                }
+            }
+        },
+        {
+            "name": "Petrozavodsk",
+            "id": 452,
+            "x": 6291,
+            "z": -11424,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "Petrozavodsk line"]
+                }
+            }
+        },
+        {
+            "name": "North West Borovichi Y=53 ↔ Y=42 Connector Elevator",
+            "type": "elev-we",
+            "y1": 53,
+            "y2": 42,
+            "id": 453,
+            "x": 6291,
+            "z": -11320,
+            "lines": {
+                "Y=53 Ice Lines System": {},
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "Rybinsk route"]
+                }
+            }
+        },
+        {
+            "name": "Kargopol",
+            "id": 454,
+            "x": 6748,
+            "z": -11242,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "Kargopol line"]
+                }
+            }
+        },
+        {
+            "name": "Vytka Y=53 ↔ Y=42 Connector Elevator",
+            "type": "elev-we",
+            "y1": 53,
+            "y2": 42,
+            "id": 455,
+            "x": 8570,
+            "z": -11125,
+            "lines": {
+                "Y=53 Ice Lines System": {},
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "Vyatka route"]
+                }
+            }
+        },
+        {
+            "name": "1st X=7257 platform",
+            "id": 456,
+            "x": 7257,
+            "z": -11923,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "X=7257 branch"]
+                }
+            }
+        },
+        {
+            "name": "1st X=7915 platform",
+            "id": 457,
+            "x": 7915,
+            "z": -12302,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "X=7915 branch"]
+                }
+            }
+        },
+        {
+            "name": "1st 'X=7915' branch Y=42 ↔ Y=41 Connector Elevator",
+            "type": "elev-we",
+            "y1": 42,
+            "y2": 41,
+            "id": 458,
+            "x": 7915,
+            "z": -12346,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "X=7915 branch"]
+                }
+            }
+        },
+        {
+            "name": "1st x=8385 platform",
+            "id": 459,
+            "x": 8385,
+            "z": -12457,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "X=8385 branch"]
+                }
+            }
+        },
+        {
+            "name": "1st x=9153 platform",
+            "id": 460,
+            "x": 9725,
+            "z": -12792,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "Pechora line"]
+                }
+            }
+        },
+        {
+            "name": "Pechora",
+            "id": 461,
+            "x": 9153,
+            "z": -12544,
+            "lines": {
+                "Intercontinental": {
+                    "Arkhangelsk-Eestifur": ["", "X=9153 branch"]
                 }
             }
         }
@@ -5761,7 +6222,7 @@
                             ]
                         }
                     }
-                } 
+                }
             },
             "White": {
                 "prefix": "",
@@ -6267,6 +6728,9 @@
                     "Main line": {
                         "vertices": [
                             [6438, -10989],
+                            [6897, -10989],
+                            [6897, -11012],
+                            [6897, -10989],
                             [7572, -10989],
                             [7572, -10987]
                         ],
@@ -6321,6 +6785,13 @@
                             [6018, -11343]
                         ],
                         "stations": [336, 347, 348, 349]
+                    },
+                    "X=6292 branch": {
+                        "vertices": [
+                            [6292, -11090],
+                            [6292, -11320]
+                        ],
+                        "stations": []
                     }
                 }
             },
@@ -6755,7 +7226,7 @@
                     }
                 }
             },
-            "Russian Rebuplic ice roads": {
+            "Russian Republic ice roads": {
                 "prefix": "",
                 "code": "RR",
                 "color": "FF0000",
@@ -6820,7 +7291,7 @@
                         ],
                         "stations": [292, 396, 397, 398, 399]
                     },
-                    "Kazakh's town ruins branch": {
+                    "X=13557 branch": {
                         "vertices": [
                             [13557, -10003],
                             [13557, -10301]
@@ -6849,6 +7320,151 @@
                             [14493, -8751]
                         ],
                         "stations": [399, 418, 419, 420, 421, 422]
+                    }
+                }
+            },
+            "Narodnyi local line": {
+                "prefix": "",
+                "code": "",
+                "color": "8DBAED",
+                "y": 86,
+                "branches": {
+                    "Main line": {
+                         "vertices": [
+                             [11052, -12053],
+                             [10323, -12053],
+                             [10323, -11961],
+                             [10323, -12053],
+                             [9805, -12053]
+                        ],
+                        "stations": []
+                    },
+                    "Ice farm line": {
+                         "vertices": [
+                             [10665, -12053],
+                             [10665, -12756]
+                        ],
+                        "stations": []
+                    }
+                }
+            },
+            "Arkhangelsk-Eestifur": {
+                "prefix": "",
+                "code": "ARH-EST",
+                "color": "D6AE01",
+                "y": 42,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [5699, -12051],
+                            [12898, -12051]
+                        ],
+                        "stations": [425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441]
+                    },
+                    "Rybinsk route": {
+                        "vertices": [
+                            [6897, -11012],
+                            [6881, -11012],
+                            [6881, -12341]
+                        ],
+                        "stations": [428, 442, 443, 444, 445, 446, 338]
+                    },
+                    "Skilakici line": {
+                        "vertices": [
+                            [6881, -11737],
+                            [7858, -11737],
+                            [7858, -12051]
+                        ],
+                        "stations": [[443, "Rybinsk route"], 447, 431]
+                    },
+                    "Novgorod route": {
+                        "vertices": [
+                            [7862, -11000],
+                            [7858, -11000],
+                            [7858, -11500]
+                        ],
+                        "stations": [386]
+                    },
+                    "Vytergra line": {
+                        "vertices": [
+                            [6881, -11477],
+                            [6291, -11477]
+                        ],
+                        "stations": [444, 448, 449, 450]
+                    },
+                    "Petrozavodsk line": {
+                        "vertices": [
+                            [6291, -11320],
+                            [6291, -12051]
+                        ],
+                        "stations": [426, 451, 450, 452, 453]
+                    },
+                    "Kargopol line": {
+                        "vertices": [
+                            [6748, -11477],
+                            [6748, -11242]
+                        ],
+                        "stations": [448, 454]
+                    },
+                    "Karelia branch": {
+                        "vertices": [
+                            [5729, -12051],
+                            [5729, -11819],
+                            [5743, -11819]
+                        ],
+                        "stations": [425]
+                    },
+                    "Vyatka route": {
+                        "vertices": [
+                            [8570, -12051],
+                            [8570, -11125]
+                        ],
+                        "stations": [434, 455]
+                    },
+                    "X=7257 branch": {
+                        "vertices": [
+                            [7257, -12051],
+                            [7257, -11923]
+                        ],
+                        "stations": [429, 456]
+                    },
+                    "X=7915 branch": {
+                        "vertices": [
+                            [7915, -12051],
+                            [7915, -12346]
+                        ],
+                        "stations": [432, 457, 458]
+                    },
+                    "X=8385 branch": {
+                        "vertices": [
+                            [8385, -12051],
+                            [8385, -12457]
+                        ],
+                        "stations": [433, 459]
+                    },
+                    "X=9153 branch": {
+                        "vertices": [
+                            [9083, -12051],
+                            [9083, -12081],
+                            [9153, -12081],
+                            [9153, -12544]
+                        ],
+                        "stations": [436, 460]
+                    },
+                    "Pechora line": {
+                        "vertices": [
+                            [9725, -12051],
+                            [9725, -12805]
+                        ],
+                        "stations": [438, 461]
+                    },
+                    "Arkhangelsk local line": {
+                        "vertices": [
+                            [6777, -12039],
+                            [6859, -12039],
+                            [6859, -11875]
+                        ],
+                        "stations": [427, 442]
                     }
                 }
             }
