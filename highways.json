@@ -3497,7 +3497,7 @@
             "name": "Chitograd JCT",
             "type": "jct",
             "id": 296,
-            "x": 8589,
+            "x": 8586,
             "z": -8153,
             "lines": {
                 "Intercontinental": {
@@ -3506,16 +3506,16 @@
             }
         },
         {
-            "name": "Chitograd y=2 Station Connection East Elevator",
+            "name": "1st East Izumo y=53 ↔ y=30 Connector Elevator",
             "type": "elev-we",
             "id": 297,
-            "x": 8583,
-            "z": -8153,
-            "y1": 2,
-            "y2": 3,
+            "y1": 53,
+            "y2": 30,
+            "x": 8550,
+            "z": -9182,
             "lines": {
-                "Intercontinental": {
-                    "Chitograd Ice Highways": ["", "Main Line"]
+                "Y=53 Ice Lines System": {
+                    "Chitograd-Khazar": ["", ""]
                 }
             }
         },
@@ -3523,7 +3523,7 @@
             "name": "Chitograd",
             "id": 298,
             "x": 8544,
-            "z": -8157,
+            "z": -8153,
             "lines": {
                 "Intercontinental": {
                     "Chitograd Ice Highways": ["", "Main Line"]
@@ -3540,30 +3540,31 @@
             ]
         },
         {
-            "name": "Chitograd y=2 Station Connection West Elevator",
-            "type": "elev-ew",
+            "name": "2nd East Izumo y=53 ↔ y=41 Connector Elevator",
+            "type": "elev-we",
             "id": 299,
-            "x": 8512,
-            "z": -8153,
-            "y1": 2,
-            "y2": 3,
+            "x": 8550,
+            "z": -9287,
             "lines": {
-                "Intercontinental": {
-                    "Chitograd Ice Highways": ["", "Main Line"]
+                "Y=53 Ice Lines System": {
+                    "Chitograd-Khazar": ["", ""]
                 }
             }
         },
         {
-            "name": "Chitograd West JCT",
-            "type": "jct",
+            "name": "Plaza de Chito",
             "id": 300,
-            "x": 8506,
-            "z": -8153,
+            "x": 8586,
+            "z": -8024,
             "lines": {
                 "Intercontinental": {
-                    "Chitograd Ice Highways": ["", "Main Line to Chitograd Bypass"]
+                    "Chitograd Ice Highways": ["", "Main Line"]
                 }
-            }
+            },
+            "areas": [
+                [[8571, -8038], [8602, -8018]],
+                [[8579, -8002], [8593, -8018]]
+            ]
         },
         {
             "name": "Chechnya",
@@ -3844,7 +3845,7 @@
             }
         },
         {
-            "name": "Y=120 Ice Line Connector",
+            "name": "Y=120 Pedestrian Elevator",
             "id": 325,
             "x": 8547,
             "z": -8996,
@@ -4224,7 +4225,7 @@
           "y2": 41,
           "id": 355,
           "x": 8271,
-          "z": -9465,
+          "z": -9469,
           "lines": {
             "Y=53 Ice Lines System": {
                 "Lower Billgorod-Khazar": ["", ""]
@@ -5512,6 +5513,17 @@
                     "Arkhangelsk-Eestifur": ["", "X=9153 branch"]
                 }
             }
+        },
+        {
+            "name": "Ogre",
+            "id": 462,
+            "x": 7500,
+            "z": -11105,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Borovichi-Rybinsk-Novgorod": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -6674,11 +6686,20 @@
                         "vertices": [
                             [8578, -8004],
                             [8547, -8004],
+                            [8547, -8203],
+                            [8551, -8203],
+                            [8547, -8203],
+                            [8547, -9182],
+                            [8550, -9182],
+                            [8547, -9182],
+                            [8547, -9287],
+                            [8550, -9287],
+                            [8547, -9287],
                             [8547, -10066],
                             [8754, -10066],
                             [8754, -10455]
                         ],
-                        "stations": [330, 303, 298, 324, 325, 326, 327, 328, 329]
+                        "stations": [330, 298, 303, 324, 325, 326, 327, 328, 329]
                     }
                 }
             },
@@ -6713,6 +6734,9 @@
                     "": {
                         "vertices": [
                             [8547, -9465],
+                            [8271, -9465],
+                            [8271, -9469],
+                            [8271, -9465],
                             [7645, -9465]
                         ],
                         "stations": [326, 355, 356, 357]
@@ -6742,6 +6766,13 @@
                             [6580, -10728]
                         ],
                         "stations": [333, 342, [334, "Main line"]]
+                    },
+                    "Ogre branch": {
+                        "vertices": [
+                            [7500, -10989],
+                            [7500, -11105]
+                        ],
+                        "stations": [[340, "Main line"], 462]
                     }
                 }
             },
@@ -7166,13 +7197,11 @@
                             [9252, -8153],
                             [8589, -8153],
                             [8583, -8153],
-                            [8583, -8157],
-                            [8512, -8157],
                             [8512, -8153],
                             [8269, -8153],
                             [8269, -8254]
                         ],
-                        "stations": [292, 293, 294, [295, "TNIH Connector branch"], [296, "Chitograd Bypass"], 297, 298, 299, [300, "Chitograd Bypass"],301]
+                        "stations": [292, 293, 294, [295, "TNIH Connector branch"], [296, "Chitograd local branch"], 298 ,301]
                     },
                     "TNIH Connector branch": {
                         "vertices": [
@@ -7181,17 +7210,14 @@
                         ],
                         "stations": [285, 302, [296, "Main Line"]]
                     },
-                    "Chitograd Bypass": {
+                    "Chitograd local branch": {
                         "vertices": [
-                            [8547, -8203],
                             [8551, -8203],
                             [8551, -8183],
-                            [8589, -8183],
-                            [8589, -8147],
-                            [8506, -8147],
-                            [8506, -8153]
+                            [8586, -8183],
+                            [8586, -8001]
                         ],
-                        "stations": [303, [296, "Main Line"], [300, "Main Line"]]
+                        "stations": [303, [296, "Main Line"], 300]
                     }
                 }
             },
@@ -7203,8 +7229,8 @@
                 "branches": {
                     "Moscow-Kazan line": {
                         "vertices": [
-                            [8724, -10455],
-                            [8724, -10459],
+                            [8728, -10455],
+                            [8728, -10459],
                             [6739, -10459]
                         ],
                         "stations": [350, [382, "Novgorod line"], 383]
