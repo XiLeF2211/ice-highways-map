@@ -2804,6 +2804,7 @@
         },
         {
             "name": "Sukhbaathar Perimeter",
+            "type": "semi4",
             "id": 236,
             "x": 14983,
             "z": -8126,
@@ -3202,25 +3203,26 @@
             }
         },
         {
-            "name": "Rahat JCT",
+            "name": "Syr Darya JCT",
             "type": "jct",
             "id": 271,
             "x": 12524,
             "z": -7603,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main Line to Rahat branch"]
+                    "Loopstan": ["", "Main Line"],
+                    "Xinjiang": ["", "Southern Line"]
                 }
             }
         },
         {
-            "name": "Rahat",
+            "name": "Syr Darya",
             "id": 272,
             "x": 12524,
             "z": -7692,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Rahat branch"]
+                    "Xinjiang": ["", "Southern Line"]
                 }
             }
         },
@@ -5526,6 +5528,52 @@
                     "Borovichi-Rybinsk-Novgorod": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Spoke JCT",
+            "type": "jct",
+            "id": 463,
+            "x": 14983,
+            "z": -8008,
+            "lines": {
+                "TNIH": {
+                    "Haldwan-Castlers": ["", "Northern route"],
+                    "Xinjiang": ["", "Northern route"]
+                }
+            }
+        },
+        {
+            "name": "Sukhbaathar (ICCA)",
+            "id": 464,
+            "x": 14983,
+            "z": -8137,
+            "lines": {
+                "TNIH": {
+                    "Haldwan-Castlers": ["", "Northern route"]
+                }
+            }
+        },
+        {
+            "name": "Karaghai",
+            "id": 465,
+            "x": 15301,
+            "z": -8046,
+            "lines": {
+                "TNIH": {
+                    "Xinjiang": ["", "Northern route"]
+                }
+            }
+        },
+        {
+            "name": "Coburg",
+            "id": 466,
+            "x": 15301,
+            "z": -8210,
+            "lines": {
+                "TNIH": {
+                    "Xinjiang": ["", "Northern route"]
+                }
+            }
         }
     ],
     "lines": {
@@ -5848,7 +5896,7 @@
                             [14983, -5277],
                             [14967, -5277]
                         ],
-                        "stations": [[235, "Southern route"], 236]
+                        "stations": [[235, "Southern route"], 463, 236, 464]
                     },
                     "Southern route": {
                         "vertices": [
@@ -5977,14 +6025,7 @@
                             [10751, -7549],
                             [10751, -7423]
                         ],
-                        "stations": [265, 267, 268, 222, 261, 269, 270, [271, "to Rahat branch"], 273, 274, 275, 276, 277, 255, [278, "to Sand branch"], 280, 281, 282, 283, 284]
-                    },
-                    "Rahat branch": {
-                        "vertices": [
-                            [12524, -7603],
-                            [12524, -7692]
-                        ],
-                        "stations": [[271, "to Main line"], 272]
+                        "stations": [265, 267, 268, 222, 261, 269, 270, 271, 273, 274, 275, 276, 277, 255, [278, "to Sand branch"], 280, 281, 282, 283, 284]
                     },
                     "Sand branch": {
                         "vertices": [
@@ -6024,6 +6065,29 @@
                             [16625, -3999]
                         ],
                         "stations": [393, 394, 395, 389]
+                    }
+                }
+            },
+            "Xinjiang": {
+                "prefix": "",
+                "code": "XJ",
+                "color": "0000ff",
+                "y": 10,
+                "branches": {
+                    "Southern route": {
+                        "vertices": [
+                            [12524, -7603],
+                            [12524, -7692]
+                        ],
+                        "stations": [271, 272]
+                    },
+                    "Northern route": {
+                        "vertices": [
+                            [14983, -8008],
+                            [15301, -8008],
+                            [15301, -8210]
+                        ],
+                        "stations": [463, 465, 466]
                     }
                 }
             }
