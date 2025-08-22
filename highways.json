@@ -5582,7 +5582,7 @@
             "lines": {
                 "TNIH": {
                     "Bangla-Caspian": ["", "Main Line"],
-                    "Loopstan": ["", "Southwestern Section"]
+                    "Loopstan": ["", "Main Line (continuation)"]
                 }
             }
         },
@@ -5596,7 +5596,7 @@
             "y2": 10,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Southwestern Section"]
+                    "Loopstan": ["", "Main Line (continuation)"]
                 }
             }
         },
@@ -5608,7 +5608,7 @@
             "z": -7010,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Southwestern Section"]
+                    "Loopstan": ["", "Main Line (continuation)"]
                 }
             }
         },
@@ -5619,7 +5619,7 @@
             "z": -6556,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Southwestern Section"]
+                    "Loopstan": ["", "Main Line (continuation)"]
                 }
             }
         }
@@ -6075,7 +6075,7 @@
                         ],
                         "stations": [265, 267, 268, 222, 261, 269, 270, 271, 273, 274, 275, 276, 277, 255, [278, "to Sand branch"], 280, 281, 282, 283, 284]
                     },
-                    "Southwestern section": {
+                    "Main Line (continuation)": {
                         "vertices": [
                             [10843, -7022],
                             [10843, -7010],
