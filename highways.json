@@ -3792,7 +3792,7 @@
             }
         },
         {
-            "name": "Cheese",
+            "name": "Bastion",
             "id": 320,
             "x": 11945,
             "z": -4820,
@@ -5572,6 +5572,56 @@
                     "Xinjiang": ["", "Northern route"]
                 }
             }
+        },
+        {
+            "name": "SkyHaven JCT (Downbound)",
+            "type": "jct",
+            "id": 467,
+            "x": 10843,
+            "z": -7022,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main Line"],
+                    "Loopstan": ["", "Southwestern Section"]
+                }
+            }
+        },
+        {
+            "name": "SkyHaven JCT Elevator",
+            "type": "elev-we",
+            "id": 468,
+            "x": 10843,
+            "z": -7010,
+            "y1": 1,
+            "y2": 10,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Southwestern Section"]
+                }
+            }
+        },
+        {
+            "name": "SkyHaven JCT (Upbound)",
+            "type": "jct",
+            "id": 469,
+            "x": 10840,
+            "z": -7010,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Southwestern Section"]
+                }
+            }
+        },
+        {
+            "name": "AuMijnVinger",
+            "id": 470,
+            "x": 10840,
+            "z": -6556,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Southwestern Section"]
+                }
+            }
         }
     ],
     "lines": {
@@ -5857,7 +5907,7 @@
                             [9054, -7022],
                             [9054, -7034]
                         ],
-                        "stations": [59, 39, 60, 61, 62, 35, 63, 64, 65, [66, "Laccadive Sea branch"], 67, [68, "Chronos Union branch"], 26, 69, 70, 11, 71, 72, [73, "Himalayas branch"], 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231]
+                        "stations": [59, 39, 60, 61, 62, 35, 63, 64, 65, [66, "Laccadive Sea branch"], 67, [68, "Chronos Union branch"], 26, 69, 70, 11, 71, 72, [73, "Himalayas branch"], 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 467, 228, 229, 230, 231]
                     },
                     "Laccadive Sea branch": {
                         "vertices": [
@@ -6024,6 +6074,15 @@
                             [10751, -7423]
                         ],
                         "stations": [265, 267, 268, 222, 261, 269, 270, 271, 273, 274, 275, 276, 277, 255, [278, "to Sand branch"], 280, 281, 282, 283, 284]
+                    },
+                    "Southwestern section": {
+                        "vertices": [
+                            [10843, -7022],
+                            [10843, -7010],
+                            [10840, -7010],
+                            [10840, -6556]
+                        ],
+                        "stations": [467, 478, 469, 470]
                     },
                     "Sand branch": {
                         "vertices": [
