@@ -33,10 +33,26 @@ L.tileLayer(proxyURL + mapURL + '/minecraft_overworld/{z}/{x}_{y}.png', {
     minZoom: -2
 }).addTo(map);
 
+
+// Dispay coords
+var coordinateController = document.querySelector('.leaflet-control-layers.coordinates .coordinates-display');
+
+// Show coordinates
+map.on("mousemove", function (e) {
+    // Get
+    var xCord = Math.floor(16 * e.latlng.lng.toFixed(2));
+    var zCord = Math.ceil(-16 * e.latlng.lat.toFixed(2));
+
+    if (coordinateController) {
+        coordinateController.textContent = `X: ${xCord}, Z: ${zCord}`;
+    }
+});
+
 init();
 
 async function init() {
-    highwayData = await fetchJSON(highwaysURL)
+    // highwayData = await fetchJSON(highwaysURL)
+    highwayData = await fetchJSON("highways.json")
     if (!highwayData) {
         console.log('debug: There was a problem with getting station and line data')
     }
@@ -52,6 +68,7 @@ async function init() {
 async function renderTowns() {
     const startTownRender = new Date()
     const data = await fetchJSON(proxyURL + mapURL + '/minecraft_overworld/markers.json')
+    console.log(proxyURL + mapURL + '/minecraft_overworld/markers.json')
     if (!data || data[0].markers.length == 0) {
         console.log('debug: There was a problem with getting towns data')
         return
