@@ -4792,7 +4792,11 @@
                 "Intercontinental": {
                     "Russian Republic ice roads": ["", "Novosibirsk Ring"]
                 }
-            }
+            },
+            "areas": [
+                [[15269, -9991], [15292, -10006]],
+				[[15285, -10005], [15277, -10013]]
+            ]
         },
         {
             "name": "1st Baikal route JCT",
@@ -5009,7 +5013,8 @@
             "z": -8999,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Leningrad route"]
+                    "Russian Republic ice roads": ["", "Leningrad route"],
+                    "Leningrad Suburban": ["", "Karagandy route"]
                 }
             }
         },
@@ -5021,7 +5026,8 @@
             "z": -8793,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Leningrad route"]
+                    "Russian Republic ice roads": ["", "Leningrad route"],
+                    "Leningrad Suburban": ["", "Main line"]
                 }
             }
         },
@@ -5338,8 +5344,7 @@
             }
         },
         {
-            "name": "Skilakici JCT",
-            "type": "jct",
+            "name": "Skilakici",
             "id": 447,
             "x": 7694,
             "z": -11737,
@@ -5415,7 +5420,9 @@
             "x": 6291,
             "z": -11320,
             "lines": {
-                "Y=53 Ice Lines System": {},
+                "Y=53 Ice Lines System": {
+                    "Petrogradskyaya": ["", ""]
+                },
                 "Intercontinental": {
                     "Arkhangelsk-Eestifur": ["", "Rybinsk route"]
                 }
@@ -5495,7 +5502,7 @@
             }
         },
         {
-            "name": "1st x=9153 platform",
+            "name": "Pechora",
             "id": 460,
             "x": 9725,
             "z": -12792,
@@ -5506,7 +5513,7 @@
             }
         },
         {
-            "name": "Pechora",
+            "name": "1st x=9153 platform",
             "id": 461,
             "x": 9153,
             "z": -12544,
@@ -5622,6 +5629,218 @@
                     "Loopstan": ["", "Main Line (continuation)"]
                 }
             }
+        },
+        {
+            "name": "X=5787 Emergency exit",
+            "id": 471,
+            "x": 5787,
+            "z": -10425,
+            "lines": {
+                "Intercontinental": {
+                    "Old Y=63 West-Russian": ["", "New Jasionka branch"]
+                }
+            }
+        },
+        {
+            "name": "New Jasionka",
+            "id": 472,
+            "x": 6048,
+            "z": -10425,
+            "lines": {
+                "Intercontinental": {
+                    "Old Y=63 West-Russian": ["", "New Jasionka branch"],
+                    "Old Y=65 Moscow Suburban": ["", "Smolensk branch"]
+                }
+            },
+            "areas": [
+                [[6013, -10393], [5987, -10401]],
+                [[6013, -10401], [6025, -10397]],
+                [[6025, -10400], [6021, -10427]],
+                [[5996, -10418], [6012, -10411]],
+                [[6012, -10418], [6021, -10414]],
+                [[6025, -10427], [6034, -10423]],
+                [[6034, -10433], [6062, -10417]],
+                [[6034, -10433], [6038, -10475]],
+                [[6045, -10433], [6050, -10562]],
+                [[6054, -10562], [6042, -10566]],
+                [[6030, -10566], [6058, -10572]]
+            ]
+        },
+        {
+            "name": "X=6736 Emergency exit",
+            "id": 473,
+            "x": 6736,
+            "z": -10394,
+            "lines": {
+                "Intercontinental": {
+                    "Old Y=63 West-Russian": ["", "East Moscow branch"]
+                }
+            }
+        },
+        {
+            "name": "X=6936 Emergency exit",
+            "id": 474,
+            "x": 6936,
+            "z": -10025,
+            "lines": {
+                "Intercontinental": {
+                    "Old Y=63 West-Russian": ["", "East Moscow branch"]
+                }
+            }
+        },
+        {
+            "name": "Smolensk",
+            "id": 475,
+            "x": 5505,
+            "z": -10412,
+            "lines": {
+                "Intercontinental": {
+                    "Old Y=65 Moscow Suburban": ["", "Smolensk branch"]
+                }
+            }
+        },
+        {
+            "name": "Z=-9137 Emergency exit",
+            "id": 476,
+            "x": 15230,
+            "z": -9137,
+            "lines": {
+                "Intercontinental": {
+                    "Leningrad Suburban": ["", "East Leningrad branch"]
+                }
+            }
+        },
+        {
+            "name": "East Leningrad JCT",
+            "type": "jct",
+            "id": 477,
+            "x": 15230,
+            "z": -8999,
+            "lines": {
+                "Intercontinental": {
+                    "Leningrad Suburban": ["", "East Leningrad branch"]
+                }
+            }
+        },
+        {
+            "name": "2nd East Leningrad JCT",
+            "type": "jct",
+            "id": 478,
+            "x": 15230,
+            "z": -8793,
+            "lines": {
+                "Intercontinental": {
+                    "Leningrad Suburban": ["", "East Leningrad branch"]
+                }
+            }
+        },
+        {
+            "name": "Redleveth JCT",
+            "type": "jct",
+            "id": 479,
+            "x": 15230,
+            "z": -8622,
+            "lines": {
+                "Intercontinental": {
+                    "Leningrad Suburban": ["", ["East Leningrad branch", "Mongolia route"]]
+                }
+            }
+        },
+        {
+            "name": "4th East Leningrad JCT",
+            "type": "jct",
+            "id": 480,
+            "x": 15230,
+            "z": -8400,
+            "lines": {
+                "Intercontinental": {
+                    "Leningrad Suburban": ["", "East Leningrad branch"]
+                }
+            }
+        },
+        {
+            "name": "1st Mongolia route Emergency exit",
+            "id": 481,
+            "x": 15355,
+            "z": -8622,
+            "lines": {
+                "Intercontinental": {
+                    "Leningrad Suburban": ["", "Mongolia route"]
+                }
+            }
+        },
+        {
+            "name": "2nd Mongolia route Emergency exit",
+            "id": 482,
+            "x": 15557,
+            "z": -8633,
+            "lines": {
+                "Intercontinental": {
+                    "Leningrad Suburban": ["", "Mongolia route"]
+                }
+            }
+        },
+        {
+            "name": "Mao",
+            "id": 483,
+            "x": 15945,
+            "z": -7915,
+            "lines": {
+                "Intercontinental": {
+                    "Leningrad Suburban": ["", "Mongolia route"]
+                }
+            }
+        },
+        {
+            "name": "Pickletown JCT",
+            "type": "jct",
+            "id": 484,
+            "x": 16585,
+            "z": -7915,
+            "lines": {
+                "Intercontinental": {
+                    "Leningrad Suburban": ["", "Mongolia route"]
+                }
+            }
+        },
+        {
+            "name": "1st Mongolia route Emergency exit",
+            "id": 485,
+            "x": 16693,
+            "z": -7915,
+            "lines": {
+                "Intercontinental": {
+                    "Leningrad Suburban": ["", "Mongolia route"]
+                }
+            }
+        },
+        {
+            "name": "Ulanbaatar",
+            "id": 486,
+            "x": 17231,
+            "z": -7942,
+            "lines": {
+                "Intercontinental": {
+                    "Leningrad Suburban": ["", "Mongolia route"]
+                }
+            },
+            "areas": [
+                [[17225, -7937], [17239, -7946]]
+            ]
+        },
+        {
+            "name": "2nd Mongolia route Emergency exit",
+            "id": 487,
+            "x": 18002,
+            "z": -7942,
+            "lines": {
+                "Intercontinental": {
+                    "Leningrad Suburban": ["", "Mongolia route"]
+                }
+            },
+            "areas": [
+                [[17996, -7947], [18002, -7937]]
+            ]
         }
     ],
     "lines": {
@@ -7331,7 +7550,7 @@
                             [9252, -7710],
                             [9252, -8153]
                         ],
-                        "stations": [285, 302, [296, "Main Line"]]
+                        "stations": [285, 302, [295, "Main Line"]]
                     },
                     "Chitograd local branch": {
                         "vertices": [
@@ -7469,6 +7688,57 @@
                             [14493, -8751]
                         ],
                         "stations": [399, 418, 419, 420, 421, 422]
+                    },
+                    "Uvs-Nur lake route": {
+                        "vertices": [
+                            [14539, -9491],
+                            [15599, -9491],
+                            [15599, -9170]
+                        ],
+                        "stations": [418]
+                    }
+                }
+            },
+            "Leningrad Suburban": {
+                "prefix": "",
+                "code": "LENSub",
+                "color": "FF0000",
+                "y": 2,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [15230, -8793],
+                            [14493, -8793]
+                        ],
+                        "stations": [478, 421]
+                    },
+                    "Karagandy route": {
+                        "vertices": [
+                            [15230, -8999],
+                            [14493, -8999]
+                        ],
+                        "stations": [477, 420]
+                    },
+                    "East Leningrad branch": {
+                        "vertices": [
+                            [15230, -9137],
+                            [15230, -8334]
+                        ],
+                        "stations": [476, 477, 478, 479, 480]
+                    },
+                    "Mongolia route": {
+                        "vertices": [
+                            [15230, -8622],
+                            [15355, -8622],
+                            [15355, -8633],
+                            [15557, -8633],
+                            [15557, -7915],
+                            [17231, -7915],
+                            [17231, -7946],
+                            [17231, -7942],
+                            [18002, -7942]
+                        ],
+                        "stations": [[479, "East Leningrad"], 481, 482, 483, 484, 485, 486, 487]
                     }
                 }
             },
@@ -7614,6 +7884,46 @@
                             [6859, -11875]
                         ],
                         "stations": [427, 442]
+                    }
+                }
+            },
+            "Old Y=63 West-Russian": {
+                "prefix": "",
+                "code": "OWRUS",
+                "color": "CF9FFF",
+                "y": 63,
+                "branches": {
+                    "New Jasionka branch": {
+                        "vertices": [
+                            [6254, -10394],
+                            [5787, -10394],
+                            [5787, -10423]
+                        ],
+                        "stations": [471, 472]
+                    },
+                    "East Moscow branch": {
+                        "vertices": [
+                            [6736, -10394],
+                            [7036, -10394],
+                            [7036, -10025],
+                            [6936, -10025]
+                        ],
+                        "stations": [473, 474]
+                    }
+                }
+            },
+            "Old Y=65 Moscow Suburban": {
+                "prefix": "",
+                "code": "MOWSub",
+                "color": "330033",
+                "y": 65,
+                "branches": {
+                    "Smolensk branch": {
+                        "vertices": [
+                            [6254, -10412],
+                            [5505, -10412]
+                        ],
+                        "stations": [475, 472]
                     }
                 }
             }
