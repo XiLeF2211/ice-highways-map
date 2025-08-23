@@ -4792,7 +4792,11 @@
                 "Intercontinental": {
                     "Russian Republic ice roads": ["", "Novosibirsk Ring"]
                 }
-            }
+            },
+            "areas": [
+                [[15269, -9991], [15292, -10006]],
+				[[15285, -10005], [15277, -10013]]
+            ]
         },
         {
             "name": "1st Baikal route JCT",
@@ -5009,7 +5013,8 @@
             "z": -8999,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Leningrad route"]
+                    "Russian Republic ice roads": ["", "Leningrad route"],
+                    "Leningrad Suburban": ["", "Karagandy route"]
                 }
             }
         },
@@ -5021,7 +5026,8 @@
             "z": -8793,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Leningrad route"]
+                    "Russian Republic ice roads": ["", "Leningrad route"],
+                    "Leningrad Suburban": ["", "Main line"]
                 }
             }
         },
@@ -5338,8 +5344,7 @@
             }
         },
         {
-            "name": "Skilakici JCT",
-            "type": "jct",
+            "name": "Skilakici",
             "id": 447,
             "x": 7694,
             "z": -11737,
@@ -5415,7 +5420,9 @@
             "x": 6291,
             "z": -11320,
             "lines": {
-                "Y=53 Ice Lines System": {},
+                "Y=53 Ice Lines System": {
+                    "Petrogradskyaya": ["", ""]
+                },
                 "Intercontinental": {
                     "Arkhangelsk-Eestifur": ["", "Rybinsk route"]
                 }
@@ -5495,7 +5502,7 @@
             }
         },
         {
-            "name": "1st x=9153 platform",
+            "name": "Pechora",
             "id": 460,
             "x": 9725,
             "z": -12792,
@@ -5506,7 +5513,7 @@
             }
         },
         {
-            "name": "Pechora",
+            "name": "1st x=9153 platform",
             "id": 461,
             "x": 9153,
             "z": -12544,
@@ -7543,7 +7550,7 @@
                             [9252, -7710],
                             [9252, -8153]
                         ],
-                        "stations": [285, 302, [296, "Main Line"]]
+                        "stations": [285, 302, [295, "Main Line"]]
                     },
                     "Chitograd local branch": {
                         "vertices": [
