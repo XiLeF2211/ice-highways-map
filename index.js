@@ -17,6 +17,7 @@ let lineFilters = {
     company: []
 }
 
+
 const map = L.map('mapa', {
     crs: L.CRS.Simple,
     center: [0, 0],
