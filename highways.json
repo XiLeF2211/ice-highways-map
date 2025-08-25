@@ -6091,19 +6091,19 @@
                         ],
                         "stations": [26, 27, 28, [29, "Gujarat branch"], 30, 211, 320, 321, 322, 323]
                     },
-                    "Gujarat branch": {
-                        "vertices": [
-                            [12729, -4686],
-                            [12729, -4310]
-                        ],
-                        "stations": [[29, "Main line"], 31]
-                    },
                     "Main line (Makran Line)": {
                         "vertices": [
                             [10259, -6468],
                             [10259, -5498]
                         ],
                         "stations": [489, 490, 491, 492]
+                    },
+                    "Gujarat branch": {
+                        "vertices": [
+                            [12729, -4686],
+                            [12729, -4310]
+                        ],
+                        "stations": [[29, "Main line"], 31]
                     }
                 }
             },
