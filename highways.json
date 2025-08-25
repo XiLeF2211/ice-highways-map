@@ -5841,6 +5841,65 @@
             "areas": [
                 [[17996, -7947], [18002, -7937]]
             ]
+        },
+        {
+            "name": "AuMijnVinger JCT",
+            "type": "jct",
+            "id": 488,
+            "x": 10840,
+            "z": -6468,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Main Line (continuation) to Persia Region Connector Branch"]
+                }
+            }
+        },
+        {
+            "name": "Tabas JCT",
+            "type": "jct",
+            "id": 489,
+            "x": 10259,
+            "z": -6468,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Persia Region Connector Branch"],
+                    "Gujarat": ["", "Main line (Makran Line)"]
+                }
+            }
+        },
+        {
+            "name": "Carmania",
+            "id": 490,
+            "x": 10259,
+            "z": -6337,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ["", "Main line (Makran Line)"]
+                }
+            }
+        },
+        {
+            "name": "Carmania South Mine",
+            "type": "semi4",
+            "id": 491,
+            "x": 10259,
+            "z": -6178,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ["", "Main line (Makran Line)"]
+                }
+            }
+        },
+        {
+            "name": "Huntropolis",
+            "id": 492,
+            "x": 10259,
+            "z": -5498,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ["", "Main line (Makran Line)"]
+                }
+            }
         }
     ],
     "lines": {
@@ -6038,6 +6097,13 @@
                             [12729, -4310]
                         ],
                         "stations": [[29, "Main line"], 31]
+                    },
+                    "Main line (Makran Line)": {
+                        "vertices": [
+                            [10259, -6468],
+                            [10259, -5498]
+                        ],
+                        "stations": [[489, 490, 491, 492]
                     }
                 }
             },
@@ -6299,9 +6365,9 @@
                             [10843, -7022],
                             [10843, -7010],
                             [10840, -7010],
-                            [10840, -6556]
+                            [10840, -6468]
                         ],
-                        "stations": [467, 468, 469, 470]
+                        "stations": [467, 468, 469, 470, [488, "Persia Region Connector Branch"]]
                     },
                     "Sand branch": {
                         "vertices": [
@@ -6309,6 +6375,13 @@
                             [11458, -7734]
                         ],
                         "stations": [[278, "to Main line"], 279]
+                    },
+                    "Persia Region Connector Branch": {
+                        "vertices": [
+                            [10840, -6468],
+                            [10259, -6468]
+                        ],
+                        "stations": [[488, "to Main line"], 489]
                     }
                 }
             },
