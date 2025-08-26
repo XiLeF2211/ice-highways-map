@@ -4011,21 +4011,21 @@
                 "Y=53 Ice Lines System": {
                     "Borovichi-Rybinsk-Novgorod": ["", "Main line"]
                 },
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "Rybinsk route"]
+                "Y=42 Ice lines": {
+                    "Rybinsk—Arkhangelsk": ["", "Main line"]
                 }
             }
         },
         {
-          "name": "Rybinsk",
-          "id": 339,
-          "x": 6936,
-          "z": -10989,
-          "lines": {
-            "Y=53 Ice Lines System": {
-                "Borovichi-Rybinsk-Novgorod": ["", "Main line"]
+            "name": "Rybinsk",
+            "id": 339,
+            "x": 6936,
+            "z": -10989,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Borovichi-Rybinsk-Novgorod": ["", "Main line"]
+                }
             }
-          }
         },
         {
           "name": "Ogre JCT",
@@ -4604,8 +4604,10 @@
             "z": -11000,
             "lines": {
                 "Intercontinental": {
-                    "Rybinsk-Novgorod-Kazan": ["", "Novgorod line"],
-                    "Arkhangelsk-Eestifur": ["", "Novgorod route"]
+                    "Rybinsk-Novgorod-Kazan": ["", "Novgorod line"]
+                },
+                "Y=42 Ice lines": {
+                    "Arkhangelsk—Eestifur": ["", "Novgorod route"]
                 }
             }
         },
@@ -5072,8 +5074,9 @@
             "x": 5729,
             "z": -12051,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "Main line"]
+                "Y=42 Ice lines": {
+                    "Arkhangelsk—Eestifur": ["", "Main line"],
+                    "Karelian local": ["", "Main line"]
                 }
             }
         },
@@ -5084,8 +5087,9 @@
             "x": 6291,
             "z": -12051,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", ["Main line", "Petrozavodsk line"]]
+                "Y=42 Ice lines": {
+                    "Arkhangelsk—Eestifur": ["", "Main line"],
+                    "Petrozavodsk—Borovichi": ["", "Main line"]
                 }
             }
         },
@@ -5095,8 +5099,9 @@
             "x": 6785,
             "z": -12051,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "Main line"]
+                "Y=42 Ice lines": {
+                    "Arkhangelsk—Eestifur": ["", "Main line"],
+                    "Karelian local": ["", "Arkhangelsk local line"]
                 }
             },
             "areas": [
@@ -5110,8 +5115,9 @@
             "x": 6881,
             "z": -12051,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", ["Main line", "Rybinsk route"]]
+                "Y=42 Ice lines": {
+                    "Arkhangelsk—Eestifur": ["", "Main line"],
+                    "Rybinsk—Arkhangelsk": ["", "Main line"]
                 }
             }
         },
@@ -5122,8 +5128,9 @@
             "x": 7257,
             "z": -12051,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", ["Main line", "X=7257 branch"]]
+                "Y=42 Ice lines": {
+                    "Arkhangelsk—Eestifur": ["", "Main line"],
+                    "Arkhangelsk forest": ["", "X=7257 branch"]
                 }
             }
         },
@@ -5133,8 +5140,8 @@
             "x": 7303,
             "z": -12051,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "Main line"]
+                "Y=42 Ice lines": {
+                    "Arkhangelsk—Eestifur": ["", "Main line"]
                 }
             },
             "areas": [
@@ -5148,8 +5155,9 @@
             "x": 7858,
             "z": -12051,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", ["Main line", "Skilakici line"]]
+                "Y=42 Ice lines": {
+                    "Arkhangelsk—Eestifur": ["", "Main line"],
+                    "Rybinsk—Arkhangelsk": ["", "Skilakici line"]
                 }
             }
         },
@@ -5160,8 +5168,9 @@
             "x": 7915,
             "z": -12051,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", ["Main line", "X=7915 branch"]]
+                "Y=42 Ice lines": {
+                    "Arkhangelsk—Eestifur": ["", "Main line"],
+                    "Arkhangelsk forest": ["", "X=7915 branch"]
                 }
             }
         },
@@ -5172,8 +5181,9 @@
             "x": 8385,
             "z": -12051,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", ["Main line", "X=8385 branch"]]
+                "Y=42 Ice lines": {
+                    "Arkhangelsk—Eestifur": ["", "Main line"],
+                    "Arkhangelsk forest": ["", "X=8385 branch"]
                 }
             }
         },
@@ -5184,8 +5194,9 @@
             "x": 8570,
             "z": -12051,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", ["Main line", "X=8570 branch"]]
+                "Y=42 Ice lines": {
+                    "Arkhangelsk—Eestifur": ["", "Main line"],
+                    "Arkhangelsk forest": ["", "Vyatka branch"]
                 }
             }
         },
@@ -5195,8 +5206,8 @@
             "x": 8645,
             "z": -12051,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "Main line"]
+                "Y=42 Ice lines": {
+                    "Arkhangelsk—Eestifur": ["", "Main line"]
                 }
             }
         },
@@ -5207,8 +5218,9 @@
             "x": 9083,
             "z": -12051,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", ["Main line", "X=9153 line"]]
+                "Y=42 Ice lines": {
+                    "Arkhangelsk—Eestifur": ["", "Main line"],
+                    "Arkhangelsk forest": ["", "X=9153 line"]
                 }
             }
         },
@@ -5218,8 +5230,8 @@
             "x": 9258,
             "z": -12051,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "Main line"]
+                "Y=42 Ice lines": {
+                    "Arkhangelsk—Eestifur": ["", "Main line"]
                 }
             },
             "areas": [
@@ -5233,8 +5245,9 @@
             "x": 9725,
             "z": -12051,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", ["Main line", "", "Pechora line"]]
+                "Y=42 Ice lines": {
+                    "Arkhangelsk—Eestifur": ["", "Main line"],
+                    "Komi": ["", "Pechora line"]
                 }
             }
         },
@@ -5244,8 +5257,11 @@
             "x": 10323,
             "z": -12051,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "Main line"]
+                "Y=42 Ice lines": {
+                    "Arkhangelsk—Eestifur": ["", "Main line"]
+                },
+                "Local": {
+                    "Narodnyi local": ["", "Main line"]
                 }
             },
             "areas": [
@@ -5261,8 +5277,9 @@
             "x": 10489,
             "z": -12051,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", ["Main line", "", ""]]
+                "Y=42 Ice lines": {
+                    "Arkhangelsk—Eestifur": ["", "Main line"],
+                    "Komi": ["", "Bamboo"]
                 }
             }
         },
@@ -5272,8 +5289,8 @@
             "x": 10799,
             "z": -12051,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "Main line"]
+                "Y=42 Ice lines": {
+                    "Arkhangelsk—Eestifur": ["", "Main line"]
                 }
             },
             "areas": [
@@ -5286,8 +5303,9 @@
             "x": 6881,
             "z": -11895,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "Rybinsk route"]
+                "Y=42 Ice lines": {
+                    "Rybinsk—Arkhangelsk": ["", "Main line"],
+                    "Karelian local": ["", "Arkhangelsk local line"]
                 }
             },
             "areas": [
@@ -5301,8 +5319,8 @@
             "x": 6881,
             "z": -11737,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", ["Rybinsk route", "", "Skilakici line"]]
+                "Y=42 Ice lines": {
+                    "Rybinsk—Arkhangelsk": ["", ["Main line", "Skilakici line"]]
                 }
             }
         },
@@ -5313,8 +5331,9 @@
             "x": 6881,
             "z": -11477,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", ["Rybinsk route", "", "Vytegra line"]]
+                "Y=42 Ice lines": {
+                    "Rybinsk—Arkhangelsk": ["", "Main line"],
+                    "Petrozavodsk—Borovichi": ["", "Vytergra line"]
                 }
             }
         },
@@ -5324,8 +5343,8 @@
             "x": 6881,
             "z": -11352,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "Rybinsk route"]
+                "Y=42 Ice lines": {
+                    "Rybinsk—Arkhangelsk": ["", "Main line"]
                 }
             }
         },
@@ -5338,8 +5357,8 @@
             "x": 6897,
             "z": -11012,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "Rybinsk route"]
+                "Y=42 Ice lines": {
+                    "Rybinsk—Arkhangelsk": ["", "Main line"]
                 }
             }
         },
@@ -5349,8 +5368,8 @@
             "x": 7694,
             "z": -11737,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "Skilakici line"]
+                "Y=42 Ice lines": {
+                    "Rybinsk—Arkhangelsk": ["", "Skilakici line"]
                 }
             }
         },
@@ -5361,8 +5380,8 @@
             "x": 6748,
             "z": -11477,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "Vytergra line"]
+                "Y=42 Ice lines": {
+                    "Petrozavodsk—Borovichi": ["", "Vytergra line"]
                 }
             }
         },
@@ -5372,8 +5391,8 @@
             "x": 6565,
             "z": -11477,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "Vytergra line"]
+                "Y=42 Ice lines": {
+                    "Petrozavodsk—Borovichi": ["", "Vytergra line"]
                 }
             }
         },
@@ -5384,8 +5403,8 @@
             "x": 6291,
             "z": -11477,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "Vytergra line"]
+                "Y=42 Ice lines": {
+                    "Petrozavodsk—Borovichi": ["", ["Vytergra line", "Main line"]]
                 }
             }
         },
@@ -5395,8 +5414,8 @@
             "x": 6291,
             "z": -11618,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "Petrozavodsk line"]
+                "Y=42 Ice lines": {
+                    "Petrozavodsk—Borovichi": ["", "Main line"]
                 }
             }
         },
@@ -5406,8 +5425,8 @@
             "x": 6291,
             "z": -11424,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "Petrozavodsk line"]
+                "Y=42 Ice lines": {
+                    "Petrozavodsk—Borovichi": ["", "Main line"]
                 }
             }
         },
@@ -5423,8 +5442,8 @@
                 "Y=53 Ice Lines System": {
                     "Petrogradskyaya": ["", ""]
                 },
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "Rybinsk route"]
+                "Y=42 Ice lines": {
+                    "Petrozavodsk—Borovichi": ["", "Main line"]
                 }
             }
         },
@@ -5434,8 +5453,8 @@
             "x": 6748,
             "z": -11242,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "Kargopol line"]
+                "Y=42 Ice lines": {
+                    "Petrozavodsk—Borovichi": ["", "Kargopol line"]
                 }
             }
         },
@@ -5449,8 +5468,8 @@
             "z": -11125,
             "lines": {
                 "Y=53 Ice Lines System": {},
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "Vyatka route"]
+                "Y=42 Ice lines": {
+                    "Arkhangelsk forest": ["", "Vyatka branch"]
                 }
             }
         },
@@ -5460,8 +5479,8 @@
             "x": 7257,
             "z": -11923,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "X=7257 branch"]
+                "Y=42 Ice lines": {
+                    "Arkhangelsk forest": ["", "X=7257 branch"]
                 }
             }
         },
@@ -5471,8 +5490,8 @@
             "x": 7915,
             "z": -12302,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "X=7915 branch"]
+                "Y=42 Ice lines": {
+                   "Arkhangelsk forest": ["", "X=7915 branch"]
                 }
             }
         },
@@ -5485,8 +5504,8 @@
             "x": 7915,
             "z": -12346,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "X=7915 branch"]
+                "Y=42 Ice lines": {
+                    "Arkhangelsk forest": ["", "X=7915 branch"]
                 }
             }
         },
@@ -5496,8 +5515,8 @@
             "x": 8385,
             "z": -12457,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "X=8385 branch"]
+                "Y=42 Ice lines": {
+                    "Arkhangelsk forest": ["", "X=8385 branch"]
                 }
             }
         },
@@ -5507,8 +5526,8 @@
             "x": 9725,
             "z": -12792,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "Pechora line"]
+                "Y=42 Ice lines": {
+                    "Komi": ["", "Pechora line"]
                 }
             }
         },
@@ -5518,8 +5537,8 @@
             "x": 9153,
             "z": -12544,
             "lines": {
-                "Intercontinental": {
-                    "Arkhangelsk-Eestifur": ["", "X=9153 branch"]
+                "Y=42 Ice lines": {
+                    "Arkhangelsk forest": ["", "X=9153 branch"]
                 }
             }
         },
@@ -5898,6 +5917,168 @@
             "lines": {
                 "TNIH": {
                     "Gujarat": ["", "Main line (Makran Line)"]
+                }
+            }
+        },
+        {
+            "name": "South East Bamboo",
+            "id": 493,
+            "x": 10515,
+            "z": -12689,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Bamboo local system": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[10528, -12687], [10514, -12692]]
+            ]
+        },
+        {
+            "name": "Bamboo Y=53 ↔ Y=42 Interchange",
+            "id": 494,
+            "x": 10515,
+            "z": -12752,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Bamboo local system": ["", "Main line"]
+                },
+                "Y=42 Ice lines": {
+                    "Komi": ["", "Bamboo—Nenets"]
+                }
+            },
+            "areas": [
+                [[10514, -12746], [10522, -12760]],
+                [[10522, -12747], [10531, -12746]],
+                [[10531, -12746], [10529, -12739]],
+                [[10527, -12739], [10533, -12735]]
+            ]
+        },
+        {
+            "name": "Church JCT",
+            "type": "jct",
+            "id": 495,
+            "x": 10515,
+            "z": -12774,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Bamboo local system": ["", ["Main line", "Church branch"]]
+                }
+            }
+        },
+        {
+            "name": "North West Bamboo",
+            "id": 496,
+            "x": 10483,
+            "z": -12859,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Bamboo local system": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bamboo's Church",
+            "id": 497,
+            "x": 10470,
+            "z": -12774,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Bamboo local system": ["", "Church line"]
+                }
+            }
+        },
+        {
+            "name": "Bamboo's Church",
+            "id": 498,
+            "x": 10470,
+            "z": -12774,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Bamboo local system": ["", "Church line"]
+                }
+            }
+        },
+        {
+            "name": "North East Moscow",
+            "id": 499,
+            "x": 6716,
+            "z": -10676,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Moscow Semi-Ring": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bamboo Y=41 JCT",
+            "type": "jct",
+            "id": 500,
+            "x": 10489,
+            "z": -12736,
+            "lines": {
+                "Y=42 Ice lines": {
+                    "Komi": ["", "Bamboo line"]
+                }
+            }
+        },
+        {
+            "name": "Bamboo Main platform",
+            "id": 501,
+            "x": 10489,
+            "z": -12692,
+            "lines": {
+                "Y=42 Ice lines": {
+                    "Komi": ["", "Bamboo line"]
+                }
+            },
+            "areas": [
+                [[10470, -12700], [10490, -12685]]
+            ]
+        },
+        {
+            "name": "Sawdust's Ice farm",
+            "id": 502,
+            "x": 10665,
+            "z": -12750,
+            "lines": {
+                "Local": {
+                    "Narodnyi local": ["", "Ice farm line"]
+                }
+            }
+        },
+        {
+            "name": "Bamboo-Sawdust JCT",
+            "type": "jct",
+            "id": 503,
+            "x": 10665,
+            "z": -12634,
+            "lines": {
+                "Local": {
+                    "Narodnyi local": ["", "Ice farm line"]
+                }
+            }
+        },
+        {
+            "name": "Y=86 West Eestfur JCT",
+            "type": "jct",
+            "id": 504,
+            "x": 10665,
+            "z": -12053,
+            "lines": {
+                "Local": {
+                    "Narodnyi local": ["", ["Main line", "Ice farm line"]]
+                }
+            }
+        },
+        {
+            "name": "Y=86 Eestfur",
+            "id": 505,
+            "x": 10801,
+            "z": -12053,
+            "lines": {
+                "Local": {
+                    "Narodnyi local": ["", "Main line"]
                 }
             }
         }
@@ -7205,7 +7386,7 @@
                             [6436, -10392],
                             [6436, -10418]
                         ],
-                        "stations": [343, 333, [344, "Billgorod connector branch"]]
+                        "stations": [343, 333, 499, [344, "Billgorod connector branch"]]
                     },
                     "Billgorod connector branch": {
                         "vertices": [
@@ -7256,6 +7437,29 @@
                             [6825, -9226]
                         ],
                         "stations": [369, 370, 371, 372]
+                    }
+                }
+            },
+            "Bamboo local system": {
+                "prefix": "",
+                "code": "BMB",
+                "color": "3F704D",
+                "y": 53,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [10515, -12687],
+                            [10515, -12859],
+                            [10483, -12859]
+                        ],
+                        "stations": [493, 494, [495, "Church branch"], 496]
+                    },
+                    "Church branch": {
+                        "vertices": [
+                            [10515, -12774],
+                            [10470, -12774]
+                        ],
+                        "stations": [[495, "Main line"], 497]
                     }
                 }
             }
@@ -7476,6 +7680,212 @@
                             [26139, -8980]
                         ],
                         "stations": [315, 316, 317, 318, 319]
+                    }
+                }
+            },
+            "Narodnyi local": {
+                "prefix": "",
+                "code": "",
+                "color": "8DBAED",
+                "y": 86,
+                "branches": {
+                    "Main line": {
+                         "vertices": [
+                             [11052, -12053],
+                             [10323, -12053],
+                             [10323, -11961],
+                             [10323, -12053],
+                             [9805, -12053]
+                        ],
+                        "stations": [505, 504, 439]
+                    },
+                    "Ice farm line": {
+                         "vertices": [
+                             [10665, -12053],
+                             [10665, -12756]
+                        ],
+                        "stations": [502, 503, [504, "Main line"]]
+                    }
+                }
+            }
+        },
+        "Y=42 Ice lines": {
+            "Arkhangelsk—Eestifur": {
+                "prefix": "",
+                "code": "ARH-EST",
+                "color": "D6AE01",
+                "y": 42,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [5699, -12051],
+                            [12898, -12051]
+                        ],
+                        "stations": [425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441]
+                    },
+                    "Novgorod route": {
+                        "vertices": [
+                            [7862, -11000],
+                            [7858, -11000],
+                            [7858, -11500]
+                        ],
+                        "stations": [386]
+                    }
+                }
+            },
+            "Rybinsk—Arkhangelsk": {
+                "prefix": "",
+                "code": "RYB-ARH",
+                "color": "D6AE01",
+                "y": 42,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [6897, -11012],
+                            [6881, -11012],
+                            [6881, -12341]
+                        ],
+                        "stations": [428, 442, 443, 444, 445, 446, 338]
+                    },
+                    "Skilakici line": {
+                        "vertices": [
+                            [6881, -11737],
+                            [7858, -11737],
+                            [7858, -12051]
+                        ],
+                        "stations": [[443, "Rybinsk—Arkhangelsk"], 447, 431]
+                    }
+                }
+            },
+            "Petrozavodsk—Borovichi": {
+                "prefix": "",
+                "code": "PTR-BRV",
+                "color": "D6AE01",
+                "y": 42,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [6291, -11320],
+                            [6291, -12051]
+                        ],
+                        "stations": [[426, "Arkhangelsk"], 451, [450, "Vytergra"], 452, 453]
+                    },
+                    "Vytergra line": {
+                        "vertices": [
+                            [6881, -11477],
+                            [6291, -11477]
+                        ],
+                        "stations": [[444, "Rybinsk"], [448, "Kargopool"], 449, [450, "Petrozavodsk"]]
+                    },
+                    "Kargopol line": {
+                        "vertices": [
+                            [6748, -11477],
+                            [6748, -11242]
+                        ],
+                        "stations": [[448, "Vytergra"], 454]
+                    }
+                }
+            },
+            "Karelian local": {
+                "prefix": "",
+                "code": "KAR-local",
+                "color": "D6AE01",
+                "y": 42,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [5729, -12051],
+                            [5729, -11819],
+                            [5743, -11819]
+                        ],
+                        "stations": [[425, "Arkhangelsk"]]
+                    },
+                    "Arkhangelsk local line": {
+                        "vertices": [
+                            [6777, -12039],
+                            [6859, -12039],
+                            [6859, -11875]
+                        ],
+                        "stations": [427, 442]
+                    }
+                }
+            },
+            "Arkhangelsk forest": {
+                "prefix": "",
+                "code": "ARH-f",
+                "color": "D6AE01",
+                "y": 42,
+                "branches": {
+                    "Vyatka branch": {
+                        "vertices": [
+                            [8570, -12051],
+                            [8570, -11125]
+                        ],
+                        "stations": [434, 455]
+                    },
+                    "X=7257 branch": {
+                        "vertices": [
+                            [7257, -12051],
+                            [7257, -11923]
+                        ],
+                        "stations": [429, 456]
+                    },
+                    "X=7915 branch": {
+                        "vertices": [
+                            [7915, -12051],
+                            [7915, -12346]
+                        ],
+                        "stations": [432, 457, 458]
+                    },
+                    "X=8385 branch": {
+                        "vertices": [
+                            [8385, -12051],
+                            [8385, -12457]
+                        ],
+                        "stations": [433, 459]
+                    },
+                    "X=9153 branch": {
+                        "vertices": [
+                            [9083, -12051],
+                            [9083, -12081],
+                            [9153, -12081],
+                            [9153, -12544]
+                        ],
+                        "stations": [436, 461]
+                    }
+                }
+            },
+            "Komi": {
+                "prefix": "",
+                "code": "KMI",
+                "color": "D6AE01",
+                "y": 42,
+                "branches": {
+                    "Pechora line": {
+                        "vertices": [
+                            [9725, -12051],
+                            [9725, -12805]
+                        ],
+                        "stations": [438, 460]
+                    },
+                    "Bamboo—Minada": {
+                        "vertices": [
+                            [10489, -12867],
+                            [10489, -11411],
+                            [10547, -11411],
+                            [10547, -11245],
+                            [10489, -11245],
+                            [10489, -9798],
+                            [10571, -9798]
+                        ],
+                        "stations": [500, 501, 440]
+                    },
+                    "Bamboo—Nenets": {
+                        "vertices": [
+                            [10489, -12736],
+                            [11204, -12736]
+                        ],
+                        "stations": [[500, "Bamboo"], 494]
                     }
                 }
             }
@@ -7815,151 +8225,7 @@
                     }
                 }
             },
-            "Narodnyi local line": {
-                "prefix": "",
-                "code": "",
-                "color": "8DBAED",
-                "y": 86,
-                "branches": {
-                    "Main line": {
-                         "vertices": [
-                             [11052, -12053],
-                             [10323, -12053],
-                             [10323, -11961],
-                             [10323, -12053],
-                             [9805, -12053]
-                        ],
-                        "stations": []
-                    },
-                    "Ice farm line": {
-                         "vertices": [
-                             [10665, -12053],
-                             [10665, -12756]
-                        ],
-                        "stations": []
-                    }
-                }
-            },
-            "Arkhangelsk-Eestifur": {
-                "prefix": "",
-                "code": "ARH-EST",
-                "color": "D6AE01",
-                "y": 42,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [5699, -12051],
-                            [12898, -12051]
-                        ],
-                        "stations": [425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441]
-                    },
-                    "Rybinsk route": {
-                        "vertices": [
-                            [6897, -11012],
-                            [6881, -11012],
-                            [6881, -12341]
-                        ],
-                        "stations": [428, 442, 443, 444, 445, 446, 338]
-                    },
-                    "Skilakici line": {
-                        "vertices": [
-                            [6881, -11737],
-                            [7858, -11737],
-                            [7858, -12051]
-                        ],
-                        "stations": [[443, "Rybinsk route"], 447, 431]
-                    },
-                    "Novgorod route": {
-                        "vertices": [
-                            [7862, -11000],
-                            [7858, -11000],
-                            [7858, -11500]
-                        ],
-                        "stations": [386]
-                    },
-                    "Vytergra line": {
-                        "vertices": [
-                            [6881, -11477],
-                            [6291, -11477]
-                        ],
-                        "stations": [444, 448, 449, 450]
-                    },
-                    "Petrozavodsk line": {
-                        "vertices": [
-                            [6291, -11320],
-                            [6291, -12051]
-                        ],
-                        "stations": [426, 451, 450, 452, 453]
-                    },
-                    "Kargopol line": {
-                        "vertices": [
-                            [6748, -11477],
-                            [6748, -11242]
-                        ],
-                        "stations": [448, 454]
-                    },
-                    "Karelia branch": {
-                        "vertices": [
-                            [5729, -12051],
-                            [5729, -11819],
-                            [5743, -11819]
-                        ],
-                        "stations": [425]
-                    },
-                    "Vyatka route": {
-                        "vertices": [
-                            [8570, -12051],
-                            [8570, -11125]
-                        ],
-                        "stations": [434, 455]
-                    },
-                    "X=7257 branch": {
-                        "vertices": [
-                            [7257, -12051],
-                            [7257, -11923]
-                        ],
-                        "stations": [429, 456]
-                    },
-                    "X=7915 branch": {
-                        "vertices": [
-                            [7915, -12051],
-                            [7915, -12346]
-                        ],
-                        "stations": [432, 457, 458]
-                    },
-                    "X=8385 branch": {
-                        "vertices": [
-                            [8385, -12051],
-                            [8385, -12457]
-                        ],
-                        "stations": [433, 459]
-                    },
-                    "X=9153 branch": {
-                        "vertices": [
-                            [9083, -12051],
-                            [9083, -12081],
-                            [9153, -12081],
-                            [9153, -12544]
-                        ],
-                        "stations": [436, 460]
-                    },
-                    "Pechora line": {
-                        "vertices": [
-                            [9725, -12051],
-                            [9725, -12805]
-                        ],
-                        "stations": [438, 461]
-                    },
-                    "Arkhangelsk local line": {
-                        "vertices": [
-                            [6777, -12039],
-                            [6859, -12039],
-                            [6859, -11875]
-                        ],
-                        "stations": [427, 442]
-                    }
-                }
-            },
+
             "Old Y=63 West-Russian": {
                 "prefix": "",
                 "code": "OWRUS",

@@ -1,6 +1,6 @@
 # EarthMC Ice Highways Map
 
-This is a tool that aims to give information on stations and lines across the EarthMC server. However, right now, it only has 49 lines and 463 stations (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
+This is a tool that aims to give information on stations and lines across the EarthMC server. However, right now, it only has 49 lines and 505 stations (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
 
 ## Log
 
