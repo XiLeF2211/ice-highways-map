@@ -339,7 +339,7 @@
             "lines": {
                 "TNIH": {
                     "Gujarat": ["", "Main line"],
-                    "Meteorville": ["", ""]
+                    "Meteorville": ["", "Main line"]
                 }
             }
         },
@@ -383,18 +383,18 @@
             "z": -4270,
             "lines": {
                 "TNIH": {
-                    "Meteorville": ["", ""]
+                    "Meteorville": ["", "Main line"]
                 }
             }
         },
         {
-            "name": "Kenovoville",
+            "name": "Kenovoville (JCT)",
             "id": 33,
             "x": 13445,
             "z": -4250,
             "lines": {
                 "TNIH": {
-                    "Meteorville": ["", ""]
+                    "Meteorville": ["", "Main line to Kochi branch"]
                 }
             }
         },
@@ -405,7 +405,7 @@
             "z": -4133,
             "lines": {
                 "TNIH": {
-                    "Meteorville": ["", ""]
+                    "Meteorville": ["", "Main line"]
                 }
             }
         },
@@ -6081,6 +6081,40 @@
                     "Narodnyi local": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Mooville JCT",
+            "type": "jct",
+            "id": 506,
+            "x": 13573,
+            "z": -4250,
+            "lines": {
+                "TNIH": {
+                    "Meteorville": ["", "Kochi branch to Mooville sub-branch"]
+                }
+            }
+        },
+        {
+            "name": "Mooville",
+            "id": 507,
+            "x": 13573,
+            "z": -4297,
+            "lines": {
+                "TNIH": {
+                    "Meteorville": ["", "Mooville sub-branch"]
+                }
+            }
+        },
+        {
+            "name": "Kochi",
+            "id": 508,
+            "x": 13790,
+            "z": -4216,
+            "lines": {
+                "TNIH": {
+                    "Meteorville": ["", "Kochi branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -6294,14 +6328,29 @@
                 "color": "ffcc00",
                 "y": 10,
                 "branches": {
-                    "": {
+                    "Main line": {
                         "vertices": [
                             [13311, -4686],
                             [13311, -4250],
                             [13445, -4250],
                             [13445, -4133]
                         ],
-                        "stations": [28, 32, 33, 34]
+                        "stations": [28, 32, [33, "Kochi branch"], 34]
+                    },
+                    "Kochi branch": {
+                        "vertices": [
+                            [13445, -4250],
+                            [13790, -4250],
+                            [13790, -4216]
+                        ],
+                        "stations": [[33, "Main line"], [506, "Mooville sub-branch"], 508]
+                    },
+                    "Mooville sub-branch": {
+                        "vertices": [
+                            [13573, -4250],
+                            [13573, -4297]
+                        ],
+                        "stations": [[506, "Kochi branch"], 507]
                     }
                 }
             },
