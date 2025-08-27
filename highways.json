@@ -6115,6 +6115,112 @@
                     "Meteorville": ["", "Kochi branch"]
                 }
             }
+        },
+        {
+            "name": "Chennai JCT",
+            "type": "jct",
+            "id": 509,
+            "x": 14695,
+            "z": -2541,
+            "lines": {
+                "National Laccadive Sea Highway": {
+                    "North": ["", "1 to Chennai branch"]
+                }
+            }
+        },
+        {
+            "name": "Chennai",
+            "id": 510,
+            "x": 14676,
+            "z": -2541,
+            "lines": {
+                "National Laccadive Sea Highway": {
+                    "North": ["", "Kochi branch"]
+                }
+            }
+        },
+        {
+            "name": "Ongole JCT",
+            "type": "jct",
+            "id": 511,
+            "x": 14584,
+            "z": -2989,
+            "lines": {
+                "National Laccadive Sea Highway": {
+                    "North": ["", "0 to 1"]
+                }
+            }
+        },
+        {
+            "name": "Ongole",
+            "id": 512,
+            "x": 14584,
+            "z": -2989,
+            "lines": {
+                "National Laccadive Sea Highway": {
+                    "North": ["", "0"]
+                }
+            }
+        },
+        {
+            "name": "Norania",
+            "id": 513,
+            "x": 13459,
+            "z": -2872,
+            "lines": {
+                "National Laccadive Sea Highway": {
+                    "North": ["", "0"]
+                }
+            }
+        },
+        {
+            "name": "Norania-Daregu-Male JCT",
+            "type": "jct",
+            "id": 514,
+            "x": 13459,
+            "z": -2223,
+            "lines": {
+                "National Laccadive Sea Highway": {
+                    "North": ["", "0 to 3"]
+                }
+            }
+        },
+        {
+            "name": "Daregu",
+            "id": 515,
+            "x": 13970,
+            "z": -1936,
+            "lines": {
+                "National Laccadive Sea Highway": {
+                    "North": ["", "0"]
+                }
+            }
+        },
+        {
+            "name": "Male JCT",
+            "type": "jct",
+            "id": 516,
+            "x": 13397,
+            "z": -1168,
+            "lines": {
+                "National Laccadive Sea Highway": {
+                    "North": ["", "3"]
+                },
+                "Intercontinental": {
+                    "Laccadive Sea-Africa": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Male",
+            "id": 517,
+            "x": 13397,
+            "z": -977,
+            "lines": {
+                "National Laccadive Sea Highway": {
+                    "North": ["", "3"]
+                }
+            }
         }
     ],
     "lines": {
@@ -6987,17 +7093,21 @@
                             [15255, -3979],
                             [15255, -2989],
                             [13515, -2989],
-                            [13515, -2869],
-                            [13459, -2869]
+                            [13515, -2870],
+                            [13459, -2870],
+                            [13459, -2872],
+                            [13447, -2872],
+                            [13447, -1936],
+                            [13970, -1936]
                         ],
-                        "stations": [232]
+                        "stations": [232, 511, 512, 513, 514, 515]
                     },
                     "1": {
                         "vertices": [
                             [14695, -3078],
                             [14695, -1916]
                         ],
-                        "stations": []
+                        "stations": [[509, "to Chennai Branch"]]
                     },
                     "2": {
                         "vertices": [
@@ -7013,7 +7123,7 @@
                             [13397, -2223],
                             [13397, -978]
                         ],
-                        "stations": []
+                        "stations": [516, 517]
                     },
                     "4": {
                         "vertices": [
@@ -7046,6 +7156,13 @@
                             [15231, -3490]
                         ],
                         "stations": []
+                    },
+                    "Chennai branch": {
+                        "vertices": [
+                            [14695, -2541],
+                            [14676, -2541]
+                        ],
+                        "stations": [[509, "to 1"], 510]
                     }
                 }
             }
@@ -7948,11 +8065,11 @@
                 "branches": {
                     "": {
                         "vertices": [
-                            [13333, -1168],
+                            [13397, -1168],
                             [8835, -1168],
                             [8835, -1348]
                         ],
-                        "stations": []
+                        "stations": [516]
                     }
                 }
             },
