@@ -6169,9 +6169,14 @@
             "z": -2872,
             "lines": {
                 "National Laccadive Sea Highway": {
-                    "North": ["", "0"]
+                    "North": ["", "0"],
+                    "Norania-Fort Uligan": ["", ""]
                 }
-            }
+            },
+            "areas": [
+                [[13505, -2887], [13454, -2883]],
+                [[13462, -2887], [13458, -2868]]
+            ]
         },
         {
             "name": "Norania-Daregu-Male JCT",
@@ -6219,6 +6224,17 @@
             "lines": {
                 "National Laccadive Sea Highway": {
                     "North": ["", "3"]
+                }
+            }
+        },
+        {
+            "name": "Fort Uligan",
+            "id": 518,
+            "x": 13339,
+            "z": -3336,
+            "lines": {
+                "National Laccadive Sea Highway": {
+                    "Norania-Fort Uligan": ["", ""]
                 }
             }
         }
@@ -7163,6 +7179,22 @@
                             [14676, -2541]
                         ],
                         "stations": [[509, "to 1"], 510]
+                    }
+                }
+            },
+            "Norania-Fort Uligan": {
+                "prefix": "",
+                "code": "N-FU",
+                "color": "eaa5de",
+                "y": 21,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [13454, -2885],
+                            [13339, -2885],
+                            [13339, -3336]
+                        ],
+                        "stations": [513, 518]
                     }
                 }
             }
