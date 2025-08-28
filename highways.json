@@ -3546,10 +3546,13 @@
             "type": "elev-we",
             "id": 299,
             "x": 8550,
-            "z": -9287,
+            "z": -9285,
             "lines": {
                 "Y=53 Ice Lines System": {
                     "Chitograd-Khazar": ["", ""]
+                },
+                "Y=42 Ice lines": {
+                    "Baikal—Lithuania": ["", "Main line"]
                 }
             }
         },
@@ -4104,7 +4107,7 @@
           "y1": 41,
           "y2": 53,
           "id": 345,
-          "x": 6580,
+          "x": 6584,
           "z": -10364,
           "lines": {
             "Y=53 Ice Lines System": {
@@ -4229,18 +4232,21 @@
           }
         },
         {
-          "name": "Khazar Y=53 ↔ Y=41 Connector Elevator",
-          "type": "elev-we",
-          "y1": 53,
-          "y2": 41,
-          "id": 355,
-          "x": 8271,
-          "z": -9469,
-          "lines": {
-            "Y=53 Ice Lines System": {
-                "Lower Billgorod-Khazar": ["", ""]
+            "name": "Khazar Y=53 ↔ Y=41 Connector Elevator",
+            "type": "elev-we",
+            "y1": 53,
+            "y2": 41,
+            "id": 355,
+            "x": 8271,
+            "z": -9469,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Lower Billgorod-Khazar": ["", ""]
+                },
+                "Y=42 Ice lines": {
+                    "Baikal—Lithuania": ["", "Main line"]
+                }
             }
-          }
         },
         {
           "name": "Khazar Ruins",
@@ -6453,6 +6459,112 @@
                 [[23988, -6384], [23994, -6406]],
                 [[23989, -6406], [24000, -6401]]
             ]
+        },
+        {
+            "name": "X=19823 Exit",
+            "id": 534,
+            "x": 19823,
+            "z": -10183,
+            "lines": {
+                "Y=42 Ice lines": {
+                    "Baikal—Lithuania": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kazah Steppes Y=41 ↔ Y=53 Elevator",
+            "type": "elev-we",
+            "id": 535,
+            "x": 12109,
+            "z": -9287,
+            "y1": 41,
+            "y2": 53,
+            "lines": {
+                "Y=42 Ice lines": {
+                    "Baikal—Lithuania": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bamboo's route Y=41 ↔ Y=42 Elevator",
+            "type": "elev-we",
+            "id": 536,
+            "x": 10571,
+            "z": -9285,
+            "y1": 41,
+            "y2": 42,
+            "lines": {
+                "Y=42 Ice lines": {
+                    "Baikal—Lithuania": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Oblivion JCT",
+            "type": "jct",
+            "id": 537,
+            "x": 9311,
+            "z": -9283,
+            "lines": {
+                "Y=42 Ice lines": {
+                    "Baikal—Lithuania": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Oblivion Y=41 ↔ Y=1 Elevator",
+            "type": "elev-we",
+            "id": 538,
+            "x": 9259,
+            "z": -9275,
+            "y1": 41,
+            "y2": 1,
+            "lines": {
+                "Y=42 Ice lines": {
+                    "Baikal—Lithuania": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "Chitograd Ice Highways": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Trakai",
+            "id": 539,
+            "x": 4375,
+            "z": -10054,
+            "lines": {
+                "Y=42 Ice lines": {
+                    "Baikal—Lithuania": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[4369, -10053], [4386, -10058]],
+                [[4374, -10057], [4377, -10063]]
+            ]
+        },
+        {
+            "name": "1st Chitograd route JCT",
+            "type": "jct",
+            "id": 540,
+            "x": 9261,
+            "z": -9246,
+            "lines": {
+                "Intercontinental": {
+                    "Chitograd Ice Highways": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Oblivion",
+            "id": 541,
+            "x": 9311,
+            "z": -9418,
+            "lines": {
+                "Y=42 Ice lines": {
+                    "Baikal—Lithuania": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -7805,6 +7917,9 @@
                     "Billgorod connector branch": {
                         "vertices": [
                             [6580, -10392],
+                            [6580, -10364],
+                            [6584, -10364],
+                            [6580, -10364],
                             [6580, -10024],
                             [6582, -10024]
                         ],
@@ -7881,7 +7996,7 @@
         "Y=93 Ice Lines System": {
             "Upper Billgorod-Khazar": {
                 "prefix": "",
-                "code": "BG-KZ-59",
+                "code": "BG-KZ-93",
                 "color": "800080",
                 "y": 93,
                 "branches": {
@@ -8282,7 +8397,7 @@
                         ],
                         "stations": [438, 460]
                     },
-                    "Bamboo—Minada": {
+                    "Bamboo—Minada—Orenburg": {
                         "vertices": [
                             [10489, -12867],
                             [10489, -11411],
@@ -8290,7 +8405,8 @@
                             [10547, -11245],
                             [10489, -11245],
                             [10489, -9798],
-                            [10571, -9798]
+                            [10571, -9798],
+                            [10571, -9285]
                         ],
                         "stations": [500, 501, 440]
                     },
@@ -8301,6 +8417,50 @@
                         ],
                         "stations": [[500, "Bamboo"], 494]
                     }
+                }
+            },
+            "Baikal—Lithuania": {
+                "prefix": "",
+                "code": "BAI-LIT",
+                "color": "EBDECF",
+                "y": 41,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [20060, -10183],
+                            [16742, -10183],
+                            [16742, -9283],
+                            [12109, -9283],
+                            [12109, -9287],
+                            [12109, -9283],
+                            [10571, -9283],
+                            [10571, -9285],
+                            [10571, -9283],
+                            [9259, -9283],
+                            [9259, -9275],
+                            [9259, -9283],
+                            [8266, -9283],
+                            [8266, -9469],
+                            [8271, -9469],
+                            [8266, -9469],
+                            [8266, -10344],
+                            [6584, -10344],
+                            [6584, -10364],
+                            [6584, -10344],
+                            [5638, -10344],
+                            [5638, -10054],
+                            [4369, -10054]
+                        ],
+                        "stations": [534, 535, 536, 299, 355, [537, "New Oblivion"], 538]
+                    },
+                    "New Oblivion branch": {
+                        "vertices": [
+                            [9311, -9283],
+                            [9311, -9418]
+                        ],
+                        "stations": [[537, "Main line"], 541]
+                    }
+
                 }
             }
         },
@@ -8432,6 +8592,10 @@
                             [12482, -10003],
                             [12482, -9246],
                             [9261, -9246],
+                            [9261, -9275],
+                            [9259, -9275],
+                            [9261, -9275],
+                            [9261, -9246],
                             [9261, -8153],
                             [9252, -8153],
                             [8589, -8153],
@@ -8440,7 +8604,7 @@
                             [8269, -8153],
                             [8269, -8254]
                         ],
-                        "stations": [292, 293, 294, [295, "TNIH Connector branch"], [296, "Chitograd local branch"], 298 ,301]
+                        "stations": [292, 540, 538, 293, 294, [295, "TNIH Connector branch"], [296, "Chitograd local branch"], 298 ,301]
                     },
                     "TNIH Connector branch": {
                         "vertices": [
