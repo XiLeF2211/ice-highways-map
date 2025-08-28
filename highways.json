@@ -6333,10 +6333,9 @@
         },
         {
             "name": "Tsugaru Strait",
-            "type": "jct",
             "id": 525,
             "x": 25719,
-            "z": -8025,
+            "z": -7840,
             "lines": {
                 "Japan Underground Ice Road": {
                     "Namboku Main": ["", ""]
