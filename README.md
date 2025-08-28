@@ -2,6 +2,10 @@
 
 This is a tool that aims to give information on stations and lines across the EarthMC server. However, right now, it only has 49 lines and 505 stations (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
 
+## Bulletin board
+
+I (xilef) will be rarely active because I am extremely occupied with school, so please send your requests to nokteholda. Thank you.
+
 ## Log
 
 27 August 2025: Norania-Fort Uligan Line (edited by **nokteholda**)
