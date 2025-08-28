@@ -3739,13 +3739,21 @@
         {
             "name": "Rakka",
             "id": 315,
-            "x": 26192,
-            "z": -9768,
+            "x": 26183,
+            "z": -9760,
             "lines": {
+                "Japan Underground Ice Road": {
+                    "Namboku Main": ["", ""]
+                },
                 "Local": {
                     "Karafuto Ice Highway": ["", ""]
                 }
-            }
+            },
+            "areas": [
+                [[26200, -9745], [26167, -9776]],
+                [[26199, -9776], [26168, -9786]],
+                [[26176, -9774], [26158, -9745]]
+            ]
         },
         {
             "name": "Ako",
@@ -6237,6 +6245,165 @@
                     "Norania-Fort Uligan": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Wakkanai",
+            "id": 519,
+            "x": 26071,
+            "z": -8177,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Namboku Main": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Rumoi",
+            "id": 520,
+            "x": 26071,
+            "z": -8369,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Namboku Main": ["", ""]
+                }
+            },
+            "areas": [
+                [[26062, -8384], [26084, -8353]],
+                [[26060, -8360], [26063, -8356]]
+            ]
+        },
+        {
+            "name": "Rumoi JCT",
+            "type": "jct",
+            "id": 521,
+            "x": 26071,
+            "z": -8344,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Namboku Main": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Sapporo",
+            "id": 522,
+            "x": 26071,
+            "z": -8177,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Namboku Main": ["", ""]
+                }
+            },
+            "areas": [
+                [[26062, -8192], [26082, -8161]],
+                [[26066, -8154], [26080, -8161]],
+                [[26077, -8154], [26063, -8161]],
+                [[26063, -8155], [26080, -8149]],
+                [[26065, -8149], [26068, -8144]],
+                [[26079, -8149], [26076, -8144]]
+            ]
+        },
+        {
+            "name": "Otaru JCT",
+            "type": "jct",
+            "id": 523,
+            "x": 25719,
+            "z": -8025,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Namboku Main": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Hakodate",
+            "id": 524,
+            "x": 25719,
+            "z": -7977,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Namboku Main": ["", ""]
+                }
+            },
+            "areas": [
+                [[25712, -7983], [25727, -7953]],
+                [[25715, -7973], [25712, -7987]],
+                [[25724, -7973], [25727, -7987]]
+            ]
+        },
+        {
+            "name": "Tsugaru Strait",
+            "type": "jct",
+            "id": 525,
+            "x": 25719,
+            "z": -8025,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Namboku Main": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Akita",
+            "id": 526,
+            "x": 25719,
+            "z": -7489,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Namboku Main": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Yamagata",
+            "id": 527,
+            "x": 25719,
+            "z": -7217,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Namboku Main": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Tokyo",
+            "id": 528,
+            "x": 25688,
+            "z": -6745,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Namboku Main": ["", ""]
+                }
+            },
+            "areas": [
+                [[25664, -6767], [25711, -6732]],
+                [[25674, -6752], [25650, -6757]]
+            ]
+        },
+        {
+            "name": "Kyoto",
+            "id": 529,
+            "x": 25223,
+            "z": -6721,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Namboku Main": ["", ""]
+                }
+            },
+            "areas": [
+                [[25213, -6759], [25266, -6705]]
+            ]
+        },
+        {
+            "name": "Mikawa-Kongou",
+            "id": 530,
+            "x": 25200,
+            "z": -6585,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Namboku Main": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -8423,7 +8590,6 @@
                     }
                 }
             },
-
             "Old Y=63 West-Russian": {
                 "prefix": "",
                 "code": "OWRUS",
@@ -8461,6 +8627,36 @@
                             [5505, -10412]
                         ],
                         "stations": [475, 472]
+                    }
+                }
+            }
+        },
+        "Japan Underground Ice Road": {
+            "Namboku Main": {
+                "prefix": "",
+                "code": "南北",
+                "color": "bc002d",
+                "y": 50,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [26183, -10064],
+                            [26183, -8809],
+                            [26071, -8809],
+                            [26071, -8025],
+                            [25719, -8025],
+                            [25719, -6745],
+                            [25223, -6745],
+                            [25223, -6585],
+                            [25200, -6585]
+                        ],
+                        "stations": [315, 519, 520, 521, 522, 523, 524, 525, 526, 527, 528, 529, 530]
+                    },
+                    "Tokyo Station branch": {
+                        "vertices": [
+                            [25668, -6763],
+                            [25719, -6763]
+                        ]
                     }
                 }
             }
