@@ -4144,7 +4144,7 @@
           }
         },
         {
-          "name": "Connection y53 line to y41 ice lines system JCT",
+          "name": "North West Borovichi JCT",
           "type": "jct",
           "id": 348,
           "x": 6292,
@@ -6078,7 +6078,7 @@
             "type": "jct",
             "id": 504,
             "x": 10665,
-            "z": -12053,
+            "z": -12051,
             "lines": {
                 "Local": {
                     "Narodnyi local": ["", ["Main line", "Ice farm line"]]
@@ -6089,7 +6089,7 @@
             "name": "Y=86 Eestfur",
             "id": 505,
             "x": 10801,
-            "z": -12053,
+            "z": -12051,
             "lines": {
                 "Local": {
                     "Narodnyi local": ["", "Main line"]
@@ -6472,7 +6472,7 @@
             }
         },
         {
-            "name": "Kazah Steppes Y=41 ↔ Y=53 Elevator",
+            "name": "Kazakh Steppes Y=41 ↔ Y=53 Elevator",
             "type": "elev-we",
             "id": 535,
             "x": 12109,
@@ -6482,6 +6482,9 @@
             "lines": {
                 "Y=42 Ice lines": {
                     "Baikal—Lithuania": ["", "Main line"]
+                },
+                "Y=53 Ice Lines System": {
+                    "Kazakh's steeps": ["", "Main line"]
                 }
             }
         },
@@ -6563,6 +6566,99 @@
             "lines": {
                 "Y=42 Ice lines": {
                     "Baikal—Lithuania": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Times Square",
+            "id": 542,
+            "x": -13833.5,
+            "z": -7838,
+            "lines": {
+                "MTA": {
+                    "Green": ["", "Main line"],
+                    "Red": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-13839, -7846], [-13828, -7830]]
+            ]
+        },
+        {
+            "name": "1st Kazakh's steeps JCT",
+            "type": "jct",
+            "id": 543,
+            "x": 12220,
+            "z": -10074,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Kazakh's steeps": ["", ["Main line", "1st branch"]]
+                }
+            }
+        },
+        {
+            "name": "Yugra Y=53 ↔ Y=54 Elevator",
+            "type": "elev-we",
+            "id": 544,
+            "x": 12220,
+            "z": -11610,
+            "y1": 53,
+            "y2": 54,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Kazakh's steeps": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kazaral Y=53 ↔ Y=8 Elevator",
+            "type": "elev-we",
+            "id": 545,
+            "x": 12473,
+            "z": -10004,
+            "y1": 53,
+            "y2": 8,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Kazakh's steeps": ["", "1st branch"]
+                },
+                "Intercontinental": {
+                    "Y=8 Ice line": ["", "Karazal branch"]
+                }
+            }
+        },
+        {
+            "name": "X=12473 JCT",
+            "type": "jct",
+            "id": 546,
+            "x": 12473,
+            "z": -9887,
+            "lines": {
+                "Intercontinental": {
+                    "Y=8 Ice line": ["", ["Main line", "Kazaral branch"]]
+                }
+            }
+        },
+        {
+            "name": "Uligan JCT",
+            "type": "jct",
+            "id": 547,
+            "x": 13397,
+            "z": -1392,
+            "lines": {
+                "National Laccadive Sea Highway": {
+                    "North": ["", ["3", "Uligan branch"]]
+                }
+            }
+        },
+        {
+            "name": "Uligan",
+            "id": 548,
+            "x": 13303,
+            "z": -1392,
+            "lines": {
+                "National Laccadive Sea Highway": {
+                    "North": ["", ["3", "Uligan branch"]]
                 }
             }
         }
@@ -7289,7 +7385,7 @@
                             [-13560, -7838],
                             [-13872, -7838]
                         ],
-                        "stations": [137, 132, 135, 154, 153, 147, 151, 152],
+                        "stations": [137, 132, 135, 154, 153, 147, 151, 152, 542],
                         "concurrencies": {
                             "MTA.Red": [
                                 [-13801, -7838],
@@ -7467,7 +7563,7 @@
                             [13397, -2223],
                             [13397, -978]
                         ],
-                        "stations": [514, 516, 517]
+                        "stations": [514, [547, "Uligan"], 516, 517]
                     },
                     "4": {
                         "vertices": [
@@ -7507,6 +7603,13 @@
                             [14676, -2541]
                         ],
                         "stations": [[509, "to 1"], 510]
+                    },
+                    "Uligan branch": {
+                        "vertices": [
+                            [13397, -1392],
+                            [13303, -1392]
+                        ],
+                        "stations": [[547, "3"], 548]
                     }
                 }
             },
@@ -7942,7 +8045,7 @@
                         ],
                         "stations": [336, 347, 348, 349]
                     },
-                    "X=6292 branch": {
+                    "Petrozavodsk branch": {
                         "vertices": [
                             [6292, -11090],
                             [6292, -11320]
@@ -7989,6 +8092,37 @@
                             [10470, -12774]
                         ],
                         "stations": [[495, "Main line"], 497]
+                    }
+                }
+            },
+            "Kazakh's steeps": {
+                "prefix": "",
+                "code": "KZ-st",
+                "color": "3F704D",
+                "y": 53,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [12109, -9287],
+                            [12109, -9888],
+                            [12220, -9888],
+                            [12220, -11610]
+                        ],
+                        "stations": [535, [543, "1st branch"], 544],
+                        "concurrencies": {
+                            "Intercontinental.Y=8 Ice line": [
+                                [12109, -9888],
+                                [12220, -9888]
+                            ]
+                        }
+                    },
+                    "1st branch": {
+                        "vertices": [
+                            [12220, -10074],
+                            [12473, -10074],
+                            [12473, -10004]
+                        ],
+                        "stations": [[543, "Main line"], 545]
                     }
                 }
             }
@@ -8220,17 +8354,23 @@
                 "branches": {
                     "Main line": {
                          "vertices": [
-                             [11052, -12053],
-                             [10323, -12053],
+                             [11052, -12051.5],
+                             [10323, -12051.5],
                              [10323, -11961],
-                             [10323, -12053],
-                             [9805, -12053]
+                             [10323, -12051.5],
+                             [9805, -12051.5]
                         ],
-                        "stations": [505, 504, 439]
+                        "stations": [505, 504, 439],
+                        "concurrencies": {
+                            "Y=42 Ice lines.Arkhangelsk—Eestifur": [
+                                [11052, -12051.5],
+                                [9805, -12051.5]
+                            ]
+                        }
                     },
                     "Ice farm line": {
                          "vertices": [
-                             [10665, -12053],
+                             [10665, -12051],
                              [10665, -12756]
                         ],
                         "stations": [502, 503, [504, "Main line"]]
@@ -8250,8 +8390,15 @@
                             [5699, -12051],
                             [12898, -12051]
                         ],
-                        "stations": [425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441]
+                        "stations": [425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441],
+                        "concurrencies": {
+                            "Local.Narodnyi local": [
+                                [11052, -12051],
+                                [9805, -12051]
+                            ]
+                        }
                     },
+
                     "Novgorod route": {
                         "vertices": [
                             [7862, -11000],
@@ -8840,6 +8987,33 @@
                             [5505, -10412]
                         ],
                         "stations": [475, 472]
+                    }
+                }
+            },
+            "Y=8 Ice line": {
+                "prefix": "",
+                "code": "Y=8",
+                "color": "90EE90",
+                "y": 8,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [12933, -9777],
+                            [12933, -9887],
+                            [11207, -9887],
+                            [11207, -9845]
+                        ],
+                        "stations": [[546, "Kazaral branch"]]
+                    },
+                    "Karazal branch": {
+                        "vertices": [
+                            [12473, -10004],
+                            [12473, -9995],
+                            [12477, -9995],
+                            [12473, -9995],
+                            [12473, -9887]
+                        ],
+                        "stations": [[546, "Main line"], 545]
                     }
                 }
             }
