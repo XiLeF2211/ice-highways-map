@@ -572,7 +572,7 @@
         {
             "name": "Singapore City JCT",
             "type": "jct",
-            "id": 49, 
+            "id": 49,
             "x": 18798,
             "z": -604,
             "lines": {
@@ -593,7 +593,7 @@
             }
         },
         {
-            "name": "York Plaza", 
+            "name": "York Plaza",
             "id": 51,
             "x": 18614,
             "z": -604,
@@ -1613,8 +1613,8 @@
             }
         },
         {
-            "name": "Vermont: Capital and Billi", 
-            "id": 135, 
+            "name": "Vermont: Capital and Billi",
+            "id": 135,
             "x": -13550,
             "z": -8712,
             "lines": {
@@ -2436,7 +2436,7 @@
             "name": "Yass JCT",
             "id": 206,
             "x": 27377,
-            "z": 6610, 
+            "z": 6610,
             "lines": {
                 "Pilbara Connex": {
                     "Antarctica-Australia": ["", ""]
@@ -3953,64 +3953,64 @@
             }
         },
         {
-          "name": "North Moscow JCT",
-          "type": "jct",
-          "id": 333,
-          "x": 6580,
-          "z": -10728,
-          "lines": {
-            "Y=53 Ice Lines System": {
-                "Borovichi-Rybinsk-Novgorod": ["", "Moscow connector branch"],
-                "Moscow Semi-Ring": ["", "Main line"]
+            "name": "North Moscow JCT",
+            "type": "jct",
+            "id": 333,
+            "x": 6580,
+            "z": -10728,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Borovichi-Rybinsk-Novgorod": ["", "Moscow connector branch"],
+                    "Moscow Semi-Ring": ["", "Main line"]
+                }
             }
-          }
         },
         {
-          "name": "Borovichi JCT",
-          "type": "jct",
-          "id": 334,
-          "x": 6580,
-          "z": -10989,
-          "lines": {
-            "Y=53 Ice Lines System": {
-                "Borovichi-Rybinsk-Novgorod": ["", "Main line to Moscow connector branch"]
+            "name": "Borovichi JCT",
+            "type": "jct",
+            "id": 334,
+            "x": 6580,
+            "z": -10989,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Borovichi-Rybinsk-Novgorod": ["", "Main line to Moscow connector branch"]
+                }
             }
-          }
         },
         {
-          "name": "Borovichi",
-          "id": 335,
-          "x": 6438,
-          "z": -10989,
-          "lines": {
-            "Y=53 Ice Lines System": {
-                "Borovichi-Rybinsk-Novgorod": ["", "Main line"]
+            "name": "Borovichi",
+            "id": 335,
+            "x": 6438,
+            "z": -10989,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Borovichi-Rybinsk-Novgorod": ["", "Main line"]
+                }
             }
-          }
         },
         {
-          "name": "Rybinsk-Borovichi JCT",
-          "type": "jct",
-          "id": 336,
-          "x": 6677,
-          "z": -10989,
-          "lines": {
-            "Y=53 Ice Lines System": {
-                "Borovichi-Rybinsk-Novgorod": ["", "Main line"],
-                "Petrogradskyaya": ["", ""]
+            "name": "Rybinsk-Borovichi JCT",
+            "type": "jct",
+            "id": 336,
+            "x": 6677,
+            "z": -10989,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Borovichi-Rybinsk-Novgorod": ["", "Main line"],
+                    "Petrogradskyaya": ["", ""]
+                }
             }
-          }
         },
         {
-          "name": "Rybinsk Field",
-          "id": 337,
-          "x": 6721,
-          "z": -10989,
-          "lines": {
-            "Y=53 Ice Lines System": {
-                "Borovichi-Rybinsk-Novgorod": ["", "Main line"]
+            "name": "Rybinsk Field",
+            "id": 337,
+            "x": 6721,
+            "z": -10989,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Borovichi-Rybinsk-Novgorod": ["", "Main line"]
+                }
             }
-          }
         },
         {
             "name": "Rybinsk Y=42 Way JCT",
@@ -4039,197 +4039,197 @@
             }
         },
         {
-          "name": "Ogre JCT",
-          "type": "jct",
-          "id": 340,
-          "x": 7500,
-          "z": -10989,
-          "lines": {
-            "Y=53 Ice Lines System": {
-                "Borovichi-Rybinsk-Novgorod": ["", "Main line"]
+            "name": "Ogre JCT",
+            "type": "jct",
+            "id": 340,
+            "x": 7500,
+            "z": -10989,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Borovichi-Rybinsk-Novgorod": ["", "Main line"]
+                }
             }
-          }
         },
         {
-          "name": "West Rybinsk Y=21 ↔ Y=53 Connector Elevator",
-          "type": "elev-we",
-          "y1": 21,
-          "y2": 53,
-          "id": 341,
-          "x": 7572,
-          "z": -10987,
-          "lines": {
-            "Intercontinental": {
-                "Rybinsk-Novgorod-Kazan": ["", "Novgorod line"]
-            },
-            "Y=53 Ice Lines System": {
-                "Borovichi-Rybinsk-Novgorod": ["", "Main line"]
+            "name": "West Rybinsk Y=21 ↔ Y=53 Connector Elevator",
+            "type": "elev-we",
+            "y1": 21,
+            "y2": 53,
+            "id": 341,
+            "x": 7572,
+            "z": -10987,
+            "lines": {
+                "Intercontinental": {
+                    "Rybinsk-Novgorod-Kazan": ["", "Novgorod line"]
+                },
+                "Y=53 Ice Lines System": {
+                    "Borovichi-Rybinsk-Novgorod": ["", "Main line"]
+                }
             }
-          }
         },
         {
-          "name": "Moscovskii Forest",
-          "id": 342,
-          "x": 6580,
-          "z": -10870,
-          "lines": {
-            "Y=53 Ice Lines System": {
-                "Borovichi-Rybinsk-Novgorod": ["", "Moscow connector branch"]
+            "name": "Moscovskii Forest",
+            "id": 342,
+            "x": 6580,
+            "z": -10870,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Borovichi-Rybinsk-Novgorod": ["", "Moscow connector branch"]
+                }
             }
-          }
         },
         {
-          "name": "Zelenograd",
-          "id": 343,
-          "x": 6366,
-          "z": -10728,
-          "lines": {
-            "Y=53 Ice Lines System": {
-                "Moscow Semi-Ring": ["", "Main line"]
+            "name": "Zelenograd",
+            "id": 343,
+            "x": 6366,
+            "z": -10728,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Moscow Semi-Ring": ["", "Main line"]
+                }
             }
-          }
         },
         {
-          "name": "South Moscow JCT",
-          "type": "jct",
-          "id": 344,
-          "x": 6580,
-          "z": -10392,
-          "lines": {
-            "Y=53 Ice Lines System": {
-                "Moscow Semi-Ring": ["", "Main line to Billgorod connector branch"]
+            "name": "South Moscow JCT",
+            "type": "jct",
+            "id": 344,
+            "x": 6580,
+            "z": -10392,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Moscow Semi-Ring": ["", "Main line to Billgorod connector branch"]
+                }
             }
-          }
         },
         {
-          "name": "Y=41 ↔ Y=53 Connector Elevator",
-          "type": "elev-we",
-          "y1": 41,
-          "y2": 53,
-          "id": 345,
-          "x": 6584,
-          "z": -10364,
-          "lines": {
-            "Y=53 Ice Lines System": {
-                "Moscow Semi-Ring": ["", "Billgorod connector branch"]
+            "name": "Y=41 ↔ Y=53 Connector Elevator",
+            "type": "elev-we",
+            "y1": 41,
+            "y2": 53,
+            "id": 345,
+            "x": 6584,
+            "z": -10364,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Moscow Semi-Ring": ["", "Billgorod connector branch"]
+                }
             }
-          }
         },
         {
-          "name": "Moscow Y=93 ↔ Y=53 Connector Elevator",
-          "type": "elev-we",
-          "y1": 93,
-          "y2": 53,
-          "id": 346,
-          "x": 6582,
-          "z": -10024,
-          "lines": {
-            "Y=53 Ice Lines System": {
-                "Moscow Semi-Ring": ["", "Billgorod connector branch"]
-            },
-            "Y=93 Ice Lines System": {
-                "Billgorod-Moscow": ["", "Main line"]
+            "name": "Moscow Y=93 ↔ Y=53 Connector Elevator",
+            "type": "elev-we",
+            "y1": 93,
+            "y2": 53,
+            "id": 346,
+            "x": 6582,
+            "z": -10024,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Moscow Semi-Ring": ["", "Billgorod connector branch"]
+                },
+                "Y=93 Ice Lines System": {
+                    "Billgorod-Moscow": ["", "Main line"]
+                }
             }
-          }
         },
         {
-          "name": "Borovichi 2",
-          "id": 347,
-          "x": 6568,
-          "z": -11090,
-          "lines": {
-            "Y=53 Ice Lines System": {
-                "Petrogradskyaya": ["", ""]
+            "name": "Borovichi 2",
+            "id": 347,
+            "x": 6568,
+            "z": -11090,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Petrogradskyaya": ["", ""]
+                }
             }
-          }
         },
         {
-          "name": "North West Borovichi JCT",
-          "type": "jct",
-          "id": 348,
-          "x": 6292,
-          "z": -11090,
-          "lines": {
-            "Y=53 Ice Lines System": {
-                "Petrogradskyaya": ["", ""]
+            "name": "North West Borovichi JCT",
+            "type": "jct",
+            "id": 348,
+            "x": 6292,
+            "z": -11090,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Petrogradskyaya": ["", ""]
+                }
             }
-          }
         },
         {
-          "name": "Petrograd",
-          "id": 349,
-          "x": 6018,
-          "z": -11343,
-          "lines": {
-            "Y=53 Ice Lines System": {
-                "Petrogradskyaya": ["", ""]
+            "name": "Petrograd",
+            "id": 349,
+            "x": 6018,
+            "z": -11343,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Petrogradskyaya": ["", ""]
+                }
             }
-          }
         },
         {
-          "name": "Kazan y=21 ↔ y=53 Connector Elevator",
-          "type": "elev-we",
-          "y1": 21,
-          "y2": 53,
-          "id": 350,
-          "x": 8728,
-          "z": -10455,
-          "lines": {
-            "Intercontinental": {
-              "Rybinsk-Novgorod-Kazan": ["", "Moscow-Kazan line"]
-            },
-            "Y=53 Ice Lines System": {
-                "Khazar-Frejlord": ["", "Main line"]
+            "name": "Kazan y=21 ↔ y=53 Connector Elevator",
+            "type": "elev-we",
+            "y1": 21,
+            "y2": 53,
+            "id": 350,
+            "x": 8728,
+            "z": -10455,
+            "lines": {
+                "Intercontinental": {
+                    "Rybinsk-Novgorod-Kazan": ["", "Moscow-Kazan line"]
+                },
+                "Y=53 Ice Lines System": {
+                    "Khazar-Frejlord": ["", "Main line"]
+                }
             }
-          }
         },
         {
-          "name": "Kazan",
-          "id": 351,
-          "x": 8882,
-          "z": -10455,
-          "lines": {
-            "Y=53 Ice Lines System": {
-                "Khazar-Frejlord": ["", "Main line"]
+            "name": "Kazan",
+            "id": 351,
+            "x": 8882,
+            "z": -10455,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Khazar-Frejlord": ["", "Main line"]
+                }
             }
-          }
         },
         {
-          "name": "Nizhnekamsk JCT",
-          "type": "jct",
-          "id": 352,
-          "x": 9159,
-          "z": -10455,
-          "lines": {
-            "Y=53 Ice Lines System": {
-                "Khazar-Frejlord": ["", "Main line to Nizhnekamsk branch"]
+            "name": "Nizhnekamsk JCT",
+            "type": "jct",
+            "id": 352,
+            "x": 9159,
+            "z": -10455,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Khazar-Frejlord": ["", "Main line to Nizhnekamsk branch"]
+                }
             }
-          }
         },
         {
-          "name": "Y=53 ↔ Y=56 Connector Elevator",
-          "type": "elev-we",
-          "y1": 53,
-          "y2": 56,
-          "id": 353,
-          "x": 9458,
-          "z": -10455,
-          "lines": {
-            "Y=53 Ice Lines System": {
-                "Khazar-Frejlord": ["", "Main line"]
+            "name": "Y=53 ↔ Y=56 Connector Elevator",
+            "type": "elev-we",
+            "y1": 53,
+            "y2": 56,
+            "id": 353,
+            "x": 9458,
+            "z": -10455,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Khazar-Frejlord": ["", "Main line"]
+                }
             }
-          }
         },
         {
-          "name": "Nizhnekamsk",
-          "id": 354,
-          "x": 9159,
-          "z": -10370,
-          "lines": {
-            "Y=53 Ice Lines System": {
-                "Khazar-Frejlord": ["", "Nizhnekamsk branch"]
+            "name": "Nizhnekamsk",
+            "id": 354,
+            "x": 9159,
+            "z": -10370,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Khazar-Frejlord": ["", "Nizhnekamsk branch"]
+                }
             }
-          }
         },
         {
             "name": "Khazar Y=53 ↔ Y=41 Connector Elevator",
@@ -4249,15 +4249,15 @@
             }
         },
         {
-          "name": "Khazar Ruins",
-          "id": 356,
-          "x": 7931,
-          "z": -9465,
-          "lines": {
-            "Y=53 Ice Lines System": {
-                "Lower Billgorod-Khazar": ["", ""]
+            "name": "Khazar Ruins",
+            "id": 356,
+            "x": 7931,
+            "z": -9465,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Lower Billgorod-Khazar": ["", ""]
+                }
             }
-          }
         },
         {
             "name": "Khazar Y=53 ↔ Y=93 Connector Elevator",
@@ -4312,7 +4312,6 @@
                 }
             }
         },
-
         {
             "name": "Japanese town JCT",
             "type": "jct",
@@ -4811,7 +4810,7 @@
             },
             "areas": [
                 [[15269, -9991], [15292, -10006]],
-				[[15285, -10005], [15277, -10013]]
+                [[15285, -10005], [15277, -10013]]
             ]
         },
         {
@@ -5505,7 +5504,7 @@
             "z": -12302,
             "lines": {
                 "Y=42 Ice lines": {
-                   "Arkhangelsk forest": ["", "X=7915 branch"]
+                    "Arkhangelsk forest": ["", "X=7915 branch"]
                 }
             }
         },
@@ -5680,6 +5679,9 @@
             "x": 6048,
             "z": -10425,
             "lines": {
+                "Y=53 Ice Lines System": {
+                    "New Jasionka": ["", "Main line"]
+                },
                 "Intercontinental": {
                     "Old Y=63 West-Russian": ["", "New Jasionka branch"],
                     "Old Y=65 Moscow Suburban": ["", "Smolensk branch"]
@@ -6661,6 +6663,82 @@
                     "North": ["", ["3", "Uligan branch"]]
                 }
             }
+        },
+        {
+            "name": "West Moscow JCT",
+            "type": "jct",
+            "id": 549,
+            "x": 6253,
+            "z": -10418,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "New Jasionka": ["", "Main line"],
+                    "Moscow Semi-Ring": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Jasionka JCT",
+            "type": "jct",
+            "id": 550,
+            "x": 6065,
+            "z": -10418,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "New Jasionka": ["", ["Main line", "Elevator branch"]]
+                }
+            }
+        },
+        {
+            "name": "1st New Jasionka Y=53 ↔ Y=65 Elevator",
+            "type": "elev-we",
+            "id": 551,
+            "x": 6063,
+            "z": -10408,
+            "y1": 53,
+            "y2": 65,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "New Jasionka": ["", "Elevator branch"]
+                },
+                "Intercontinental": {
+                    "Old Y=65 Moscow Suburban": ["", "Smolensk branch"]
+                }
+            }
+        },
+        {
+            "name": "2nd New Jasionka Y=53 ↔ Y=63 Elevator",
+            "type": "elev-we",
+            "id": 552,
+            "x": 6063,
+            "z": -10397,
+            "y1": 53,
+            "y2": 63,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "New Jasionka": ["", "Elevator branch"]
+                },
+                "Intercontinental": {
+                    "Old Y=63 West-Russian": ["", "New Jasionka branch"]
+                }
+            }
+        },
+        {
+            "name": "3rd New Jasionka Y=53 ↔ Y=41 Elevator",
+            "type": "elev-we",
+            "id": 553,
+            "x": 6067,
+            "z": -10346,
+            "y1": 53,
+            "y2": 41,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "New Jasionka": ["", "Elevator branch"]
+                },
+                "Y=42 Ice lines": {
+                    "Baikal—Lithuania": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -6745,7 +6823,35 @@
                             [22838, 5774],
                             [22838, 5557]
                         ],
-                        "stations": [74, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 1, 94, 95, [96, "to Mount Magnet branch"], 97, 98, 99, 100, 101, 102, 103]
+                        "stations": [
+                            74,
+                            79,
+                            80,
+                            81,
+                            82,
+                            83,
+                            84,
+                            85,
+                            86,
+                            87,
+                            88,
+                            89,
+                            90,
+                            91,
+                            92,
+                            93,
+                            1,
+                            94,
+                            95,
+                            [96, "to Mount Magnet branch"],
+                            97,
+                            98,
+                            99,
+                            100,
+                            101,
+                            102,
+                            103
+                        ]
                     },
                     "Mount Magnet branch": {
                         "vertices": [
@@ -6809,7 +6915,25 @@
                             [17659, -4993],
                             [18062, -4993]
                         ],
-                        "stations": [11, 12, 13, 14, [15, "Haldwani branch"], 17, 18, 19, 20, 21, 22, 23, 24, 25, 240, 241, 242],
+                        "stations": [
+                            11,
+                            12,
+                            13,
+                            14,
+                            [15, "Haldwani branch"],
+                            17,
+                            18,
+                            19,
+                            20,
+                            21,
+                            22,
+                            23,
+                            24,
+                            25,
+                            240,
+                            241,
+                            242
+                        ],
                         "concurrencies": {
                             "TNIH.Nyinchi": [
                                 [16860, -5184],
@@ -6845,7 +6969,7 @@
                             [14218, -4780],
                             [14218, -4686],
                             [12244, -4686],
-			                [12244, -4820],
+                            [12244, -4820],
                             [11884, -4820],
                             [11884, -4854],
                             [11295, -4854]
@@ -6968,7 +7092,48 @@
                             [9054, -7022],
                             [9054, -7034]
                         ],
-                        "stations": [59, 39, 60, 61, 62, 35, 63, 64, 65, [66, "Laccadive Sea branch"], 67, [68, "Chronos Union branch"], 26, 69, 70, 11, 71, 72, [73, "Himalayas branch"], 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 467, 228, 229, 230, 231]
+                        "stations": [
+                            59,
+                            39,
+                            60,
+                            61,
+                            62,
+                            35,
+                            63,
+                            64,
+                            65,
+                            [66, "Laccadive Sea branch"],
+                            67,
+                            [68, "Chronos Union branch"],
+                            26,
+                            69,
+                            70,
+                            11,
+                            71,
+                            72,
+                            [73, "Himalayas branch"],
+                            212,
+                            213,
+                            214,
+                            215,
+                            216,
+                            217,
+                            218,
+                            219,
+                            220,
+                            221,
+                            222,
+                            223,
+                            224,
+                            225,
+                            226,
+                            227,
+                            467,
+                            228,
+                            229,
+                            230,
+                            231
+                        ]
                     },
                     "Laccadive Sea branch": {
                         "vertices": [
@@ -7134,7 +7299,28 @@
                             [10751, -7549],
                             [10751, -7423]
                         ],
-                        "stations": [265, 267, 268, 222, 261, 269, 270, 271, 273, 274, 275, 276, 277, 255, [278, "to Sand branch"], 280, 281, 282, 283, 284]
+                        "stations": [
+                            265,
+                            267,
+                            268,
+                            222,
+                            261,
+                            269,
+                            270,
+                            271,
+                            273,
+                            274,
+                            275,
+                            276,
+                            277,
+                            255,
+                            [278, "to Sand branch"],
+                            280,
+                            281,
+                            282,
+                            283,
+                            284
+                        ]
                     },
                     "Main Line (continuation)": {
                         "vertices": [
@@ -7251,7 +7437,18 @@
                             [20991, 5300],
                             [20991, 5074]
                         ],
-                        "stations": [131, [118, "Coolabah branch"], [120, "Longreach branch"], [122, "Quercus Petraea branch"], [124, "Pickle branch"], [126, "Yorke branch"], 117, 130, [128, "Goondalup branch"], 115]
+                        "stations": [
+                            131,
+                            [118, "Coolabah branch"],
+                            [120, "Longreach branch"],
+                            [122, "Quercus Petraea branch"],
+                            [124, "Pickle branch"],
+                            [126, "Yorke branch"],
+                            117,
+                            130,
+                            [128, "Goondalup branch"],
+                            115
+                        ]
                     },
                     "Coolabah branch": {
                         "vertices": [
@@ -7530,7 +7727,11 @@
                 "branches": {
                     "0": {
                         "vertices": [
-                            [15255, -3979, "TODO: separate these branches into separate lines instead of having them be named 0, 1, 2, ..., 7."],
+                            [
+                                15255,
+                                -3979,
+                                "TODO: separate these branches into separate lines instead of having them be named 0, 1, 2, ..., 7."
+                            ],
                             [15255, -2989],
                             [13515, -2989],
                             [13515, -2870],
@@ -7630,8 +7831,8 @@
                 }
             }
         },
-		"Antarctic Union": {
-			"South Pole Metro": {
+        "Antarctic Union": {
+            "South Pole Metro": {
                 "prefix": "",
                 "code": "",
                 "color": "38ACD1",
@@ -7713,8 +7914,8 @@
                         "stations": [181]
                     }
                 }
-			},
-			"Interstate 10": {
+            },
+            "Interstate 10": {
                 "prefix": "",
                 "code": "I10",
                 "color": "2D2F90",
@@ -7728,8 +7929,8 @@
                         "stations": [160, 168]
                     }
                 }
-			},
-			"Eastern Amery": {
+            },
+            "Eastern Amery": {
                 "prefix": "",
                 "code": "",
                 "color": "BC4AB3",
@@ -7744,7 +7945,7 @@
                         "stations": [165, 168, 166, 167]
                     }
                 }
-			},
+            },
             "Davis-Avalon-Verglas": {
                 "prefix": "",
                 "code": "D-A-V",
@@ -7765,7 +7966,7 @@
                     }
                 }
             }
-		},
+        },
         "Kingdom of Havaiki": {
             "North Network": {
                 "prefix": "",
@@ -8009,13 +8210,14 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [6353, -10728],
+                            [6253, -10418],
+                            [6253, -10728],
                             [6716, -10728],
                             [6716, -10392],
                             [6436, -10392],
                             [6436, -10418]
                         ],
-                        "stations": [343, 333, 499, [344, "Billgorod connector branch"]]
+                        "stations": [549, 343, 333, 499, [344, "Billgorod connector branch"]]
                     },
                     "Billgorod connector branch": {
                         "vertices": [
@@ -8027,6 +8229,35 @@
                             [6582, -10024]
                         ],
                         "stations": [[344, "Main line"], 345, 346]
+                    }
+                }
+            },
+            "New Jasionka": {
+                "prefix": "",
+                "code": "NJA",
+                "color": "3F704D",
+                "y": 53,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [6253, -10418],
+                            [6032, -10418]
+                        ],
+                        "stations": [549, 550, 472]
+                    },
+                    "Elevator branch": {
+                        "vertices": [
+                            [6065, -10418],
+                            [6065, -10408],
+                            [6063, -10408],
+                            [6065, -10408],
+                            [6065, -10397],
+                            [6063, -10397],
+                            [6065, -10397],
+                            [6065, -10346],
+                            [6067, -10346]
+                        ],
+                        "stations": [550, 551, 552, 553]
                     }
                 }
             },
@@ -8353,12 +8584,12 @@
                 "y": 86,
                 "branches": {
                     "Main line": {
-                         "vertices": [
-                             [11052, -12051.5],
-                             [10323, -12051.5],
-                             [10323, -11961],
-                             [10323, -12051.5],
-                             [9805, -12051.5]
+                        "vertices": [
+                            [11052, -12051.5],
+                            [10323, -12051.5],
+                            [10323, -11961],
+                            [10323, -12051.5],
+                            [9805, -12051.5]
                         ],
                         "stations": [505, 504, 439],
                         "concurrencies": {
@@ -8369,9 +8600,9 @@
                         }
                     },
                     "Ice farm line": {
-                         "vertices": [
-                             [10665, -12051],
-                             [10665, -12756]
+                        "vertices": [
+                            [10665, -12051],
+                            [10665, -12756]
                         ],
                         "stations": [502, 503, [504, "Main line"]]
                     }
@@ -8390,7 +8621,25 @@
                             [5699, -12051],
                             [12898, -12051]
                         ],
-                        "stations": [425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441],
+                        "stations": [
+                            425,
+                            426,
+                            427,
+                            428,
+                            429,
+                            430,
+                            431,
+                            432,
+                            433,
+                            434,
+                            435,
+                            436,
+                            437,
+                            438,
+                            439,
+                            440,
+                            441
+                        ],
                         "concurrencies": {
                             "Local.Narodnyi local": [
                                 [11052, -12051],
@@ -8398,7 +8647,6 @@
                             ]
                         }
                     },
-
                     "Novgorod route": {
                         "vertices": [
                             [7862, -11000],
@@ -8594,11 +8842,14 @@
                             [6584, -10344],
                             [6584, -10364],
                             [6584, -10344],
+							[6067, -10344],
+							[6067, -10346],
+							[6067, -10344],
                             [5638, -10344],
                             [5638, -10054],
                             [4369, -10054]
                         ],
-                        "stations": [534, 535, 536, 299, 355, [537, "New Oblivion"], 538]
+                        "stations": [534, 535, 536, 299, 355, [537, "New Oblivion"], 538, 553, 539]
                     },
                     "New Oblivion branch": {
                         "vertices": [
@@ -8607,7 +8858,6 @@
                         ],
                         "stations": [[537, "Main line"], 541]
                     }
-
                 }
             }
         },
@@ -8639,7 +8889,23 @@
                             [-20600, -13144],
                             [-8331, -13144]
                         ],
-                        "stations": [182, [183, "Sherpard branch"], 184, 185, [186, "Laytown branch"], 187, 188, 189, 190, 191, 192, 193, 194, 195, 196]
+                        "stations": [
+                            182,
+                            [183, "Sherpard branch"],
+                            184,
+                            185,
+                            [186, "Laytown branch"],
+                            187,
+                            188,
+                            189,
+                            190,
+                            191,
+                            192,
+                            193,
+                            194,
+                            195,
+                            196
+                        ]
                     },
                     "Sherpard branch": {
                         "vertices": [
@@ -8698,7 +8964,13 @@
                             [8827, -7710],
                             [8827, -7787]
                         ],
-                        "stations": [286, [287, "Porolissum branch"], [285, "Mazandaran branch"], [289, "Bakü branch"], 290]
+                        "stations": [
+                            286,
+                            [287, "Porolissum branch"],
+                            [285, "Mazandaran branch"],
+                            [289, "Bakü branch"],
+                            290
+                        ]
                     },
                     "Porolissum branch": {
                         "vertices": [
@@ -8751,7 +9023,17 @@
                             [8269, -8153],
                             [8269, -8254]
                         ],
-                        "stations": [292, 540, 538, 293, 294, [295, "TNIH Connector branch"], [296, "Chitograd local branch"], 298 ,301]
+                        "stations": [
+                            292,
+                            540,
+                            538,
+                            293,
+                            294,
+                            [295, "TNIH Connector branch"],
+                            [296, "Chitograd local branch"],
+                            298,
+                            301
+                        ]
                     },
                     "TNIH Connector branch": {
                         "vertices": [
@@ -8959,10 +9241,13 @@
                     "New Jasionka branch": {
                         "vertices": [
                             [6254, -10394],
+                            [6063, -10394],
+                            [6063, -10397],
+                            [6063, -10394],
                             [5787, -10394],
                             [5787, -10423]
                         ],
-                        "stations": [471, 472]
+                        "stations": [471, 472, 552]
                     },
                     "East Moscow branch": {
                         "vertices": [
@@ -8984,9 +9269,12 @@
                     "Smolensk branch": {
                         "vertices": [
                             [6254, -10412],
+                            [6063, -10412],
+                            [6063, -10408],
+                            [6063, -10412],
                             [5505, -10412]
                         ],
-                        "stations": [475, 472]
+                        "stations": [475, 472, 551]
                     }
                 }
             },
