@@ -4,9 +4,11 @@ This is a tool that aims to give information on stations and lines across the Ea
 
 ## Bulletin board
 
-I (xilef) will be rarely active because I am extremely occupied with school, so please send your requests to nokteholda. Thank you.
+xilef, the founder of the Ice Highway Map, will be rarely active because he is extremely occupied with his school, so please send your requests to nokteholda or Chitonator via [TNIH discord](https://discord.gg/SK8r4Ce25U) or pull requests. Thank you.
 
-## Log
+## Logs
+
+28 August 2025: Japan Underground Ice Road Namboku Line (edited by **nokteholda**)
 
 27 August 2025: Norania-Fort Uligan Line (edited by **nokteholda**)
 
