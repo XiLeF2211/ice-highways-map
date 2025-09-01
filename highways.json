@@ -5621,7 +5621,7 @@
             "lines": {
                 "TNIH": {
                     "Bangla-Caspian": ["", "Main Line"],
-                    "Loopstan": ["", "Main Line (continuation)"]
+                    "Loopstan": ["", "SkyHaven JCT connector"]
                 }
             }
         },
@@ -5635,7 +5635,7 @@
             "y2": 10,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main Line (continuation)"]
+                    "Loopstan": ["", "SkyHaven JCT connector"]
                 }
             }
         },
@@ -5647,7 +5647,7 @@
             "z": -7010,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main Line (continuation)"]
+                    "Loopstan": ["", "Main Line to SkyHaven JCT connector"]
                 }
             }
         },
@@ -5658,7 +5658,7 @@
             "z": -6556,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main Line (continuation)"]
+                    "Loopstan": ["", "Main Line"]
                 }
             }
         },
@@ -5885,7 +5885,7 @@
             "z": -6468,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main Line (continuation) to Persia Region Connector Branch"]
+                    "Loopstan": ["", "Main Line to Persia Region Connector Branch"]
                 }
             }
         },
@@ -6739,6 +6739,28 @@
                     "Baikal—Lithuania": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Hormuz",
+            "id": 554,
+            "x": 10259,
+            "z": -5498,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ["", "Main line (Makran Line)"]
+                }
+            }
+        },
+        {
+            "name": "SkyHaven",
+            "id": 555,
+            "x": 10840,
+            "z": -7099,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Main Line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -6979,9 +7001,9 @@
                     "Main line (Makran Line)": {
                         "vertices": [
                             [10259, -6468],
-                            [10259, -5498]
+                            [10259, -5230]
                         ],
-                        "stations": [489, 490, 491, 492]
+                        "stations": [489, 490, 491, 492, 554]
                     },
                     "Gujarat branch": {
                         "vertices": [
@@ -7297,7 +7319,9 @@
                             [11107, -7789],
                             [11107, -7549],
                             [10751, -7549],
-                            [10751, -7423]
+                            [10751, -7240],
+                            [10840, -7240],
+                            [10840, -6468]
                         ],
                         "stations": [
                             265,
@@ -7314,36 +7338,39 @@
                             276,
                             277,
                             255,
-                            [278, "to Sand branch"],
+                            [278, "Sand branch"],
                             280,
                             281,
                             282,
                             283,
-                            284
+                            284,
+                            555,
+                            [469, "SkyHaven JCT connector"], 
+                            470, 
+                            [488, "Persia Region Connector Branch"]
                         ]
                     },
-                    "Main Line (continuation)": {
+                    "SkyHaven JCT connector": {
                         "vertices": [
                             [10843, -7022],
                             [10843, -7010],
-                            [10840, -7010],
-                            [10840, -6468]
+                            [10840, -7010]
                         ],
-                        "stations": [467, 468, 469, 470, [488, "Persia Region Connector Branch"]]
+                        "stations": [467, 468, [469, "Main line"]]
                     },
                     "Sand branch": {
                         "vertices": [
                             [11458, -7789],
                             [11458, -7734]
                         ],
-                        "stations": [[278, "to Main line"], 279]
+                        "stations": [[278, "Main line"], 279]
                     },
                     "Persia Region Connector Branch": {
                         "vertices": [
                             [10840, -6468],
                             [10259, -6468]
                         ],
-                        "stations": [[488, "to Main line"], 489]
+                        "stations": [[488, "Main line"], 489]
                     }
                 }
             },
