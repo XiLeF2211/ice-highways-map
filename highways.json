@@ -2588,6 +2588,7 @@
         },
         {
             "name": "Wakhan Tunnel",
+            "type": "semi3",
             "id": 219,
             "x": 13382,
             "z": -6771,
