@@ -4983,7 +4983,7 @@
             "z": -12741,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Novosibirsk Ring"]
+                    "Russian Republic ice roads": ["", "Novosibirsk — New Urengoy — Karaul — Severnaya"]
                 }
             }
         },
@@ -6783,6 +6783,17 @@
             "lines": {
                 "TNIH": {
                     "Xinjiang": ["", "Southern route"]
+                }
+            }
+        },
+        {
+            "name": "Karaul",
+            "id": 558,
+            "x": 16981.5,
+            "z": -12673.5,
+            "lines": {
+                "Intercontinental": {
+                    "Russian Republic ice roads": ["", "Novosibirsk — New Urengoy — Karaul — Severnaya"]
                 }
             }
         }
@@ -9245,12 +9256,18 @@
                         ],
                         "stations": [397, 417]
                     },
-                    "New Urengoy route": {
+                    "Novosibirsk — New Urengoy — Karaul — Severnaya": {
                         "vertices": [
                             [15790, -10576],
-                            [15790, -12747]
+                            [15790, -12747],
+                            [15795, -12746],
+                            [16000.5, -12746],
+                            [16000.5, -12673.5],
+                            [16981.5, -12673.5],
+                            [16981.5, -14699.5],
+                            [18109.5, -14699.5]
                         ],
-                        "stations": [406, 416]
+                        "stations": [406, 416, 558]
                     },
                     "Baikal route": {
                         "vertices": [
