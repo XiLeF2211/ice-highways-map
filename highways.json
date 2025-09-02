@@ -6761,6 +6761,28 @@
                     "Loopstan": ["", "Main Line"]
                 }
             }
+        },
+        {
+            "name": "Pigwolf Mine",
+            "id": 556,
+            "x": 12922,
+            "z": -7850,
+            "lines": {
+                "TNIH": {
+                    "Xinjiang": ["", "Southern Line"]
+                }
+            }
+        },
+        {
+            "name": "Fergana-Andijan",
+            "id": 557,
+            "x": 13233,
+            "z": -7850,
+            "lines": {
+                "TNIH": {
+                    "Xinjiang": ["", "Southern route"]
+                }
+            }
         }
     ],
     "lines": {
@@ -7415,9 +7437,10 @@
                     "Southern route": {
                         "vertices": [
                             [12524, -7603],
-                            [12524, -7692]
+                            [12524, -7850],
+                            [13233, -7850]
                         ],
-                        "stations": [271, 272]
+                        "stations": [271, 272, 556, 557]
                     },
                     "Northern route": {
                         "vertices": [
