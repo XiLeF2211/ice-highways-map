@@ -6880,35 +6880,7 @@
                             [22838, 5774],
                             [22838, 5557]
                         ],
-                        "stations": [
-                            74,
-                            79,
-                            80,
-                            81,
-                            82,
-                            83,
-                            84,
-                            85,
-                            86,
-                            87,
-                            88,
-                            89,
-                            90,
-                            91,
-                            92,
-                            93,
-                            1,
-                            94,
-                            95,
-                            [96, "to Mount Magnet branch"],
-                            97,
-                            98,
-                            99,
-                            100,
-                            101,
-                            102,
-                            103
-                        ]
+                        "stations": [74, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 1, 94, 95, [96, "to Mount Magnet branch"], 97, 98, 99, 100, 101, 102, 103]
                     },
                     "Mount Magnet branch": {
                         "vertices": [
@@ -6972,25 +6944,7 @@
                             [17659, -4993],
                             [18062, -4993]
                         ],
-                        "stations": [
-                            11,
-                            12,
-                            13,
-                            14,
-                            [15, "Haldwani branch"],
-                            17,
-                            18,
-                            19,
-                            20,
-                            21,
-                            22,
-                            23,
-                            24,
-                            25,
-                            240,
-                            241,
-                            242
-                        ],
+                        "stations": [11, 12, 13, 14, [15, "Haldwani branch"], 17, 18, 19, 20, 21, 22, 23, 24, 25, 240, 241, 242],
                         "concurrencies": {
                             "TNIH.Nyinchi": [
                                 [16860, -5184],
@@ -7149,48 +7103,7 @@
                             [9054, -7022],
                             [9054, -7034]
                         ],
-                        "stations": [
-                            59,
-                            39,
-                            60,
-                            61,
-                            62,
-                            35,
-                            63,
-                            64,
-                            65,
-                            [66, "Laccadive Sea branch"],
-                            67,
-                            [68, "Chronos Union branch"],
-                            26,
-                            69,
-                            70,
-                            11,
-                            71,
-                            72,
-                            [73, "Himalayas branch"],
-                            212,
-                            213,
-                            214,
-                            215,
-                            216,
-                            217,
-                            218,
-                            219,
-                            220,
-                            221,
-                            222,
-                            223,
-                            224,
-                            225,
-                            226,
-                            227,
-                            467,
-                            228,
-                            229,
-                            230,
-                            231
-                        ]
+                        "stations": [59, 39, 60, 61, 62, 35, 63, 64, 65, [66, "Laccadive Sea branch"], 67, [68, "Chronos Union branch"], 26, 69, 70, 11, 71, 72, [73, "Himalayas branch"], 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 467, 228, 229, 230, 231]
                     },
                     "Laccadive Sea branch": {
                         "vertices": [
@@ -7358,32 +7271,7 @@
                             [10840, -7240],
                             [10840, -6468]
                         ],
-                        "stations": [
-                            265,
-                            267,
-                            268,
-                            222,
-                            261,
-                            269,
-                            270,
-                            271,
-                            273,
-                            274,
-                            275,
-                            276,
-                            277,
-                            255,
-                            [278, "Sand branch"],
-                            280,
-                            281,
-                            282,
-                            283,
-                            284,
-                            555,
-                            [469, "SkyHaven JCT connector"], 
-                            470, 
-                            [488, "Persia Region Connector Branch"]
-                        ]
+                        "stations": [265, 267, 268, 222, 261, 269, 270, 271, 273, 274, 275, 276, 277, 255, [278, "Sand branch"], 280, 281, 282, 283, 284, 555, [469, "SkyHaven JCT connector"], 470, [488, "Persia Region Connector Branch"]]
                     },
                     "SkyHaven JCT connector": {
                         "vertices": [
@@ -7500,18 +7388,7 @@
                             [20991, 5300],
                             [20991, 5074]
                         ],
-                        "stations": [
-                            131,
-                            [118, "Coolabah branch"],
-                            [120, "Longreach branch"],
-                            [122, "Quercus Petraea branch"],
-                            [124, "Pickle branch"],
-                            [126, "Yorke branch"],
-                            117,
-                            130,
-                            [128, "Goondalup branch"],
-                            115
-                        ]
+                        "stations": [131, [118, "Coolabah branch"], [120, "Longreach branch"], [122, "Quercus Petraea branch"], [124, "Pickle branch"], [126, "Yorke branch"], 117, 130, [128, "Goondalup branch"], 115]
                     },
                     "Coolabah branch": {
                         "vertices": [
@@ -7790,11 +7667,7 @@
                 "branches": {
                     "0": {
                         "vertices": [
-                            [
-                                15255,
-                                -3979,
-                                "TODO: separate these branches into separate lines instead of having them be named 0, 1, 2, ..., 7."
-                            ],
+                            [15255, -3979, "TODO: separate these branches into separate lines instead of having them be named 0, 1, 2, ..., 7."],
                             [15255, -2989],
                             [13515, -2989],
                             [13515, -2870],
@@ -8482,25 +8355,7 @@
                             [5699, -12051],
                             [12898, -12051]
                         ],
-                        "stations": [
-                            425,
-                            426,
-                            427,
-                            428,
-                            429,
-                            430,
-                            431,
-                            432,
-                            433,
-                            434,
-                            435,
-                            436,
-                            437,
-                            438,
-                            439,
-                            440,
-                            441
-                        ],
+                        "stations": [425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441],
                         "concurrencies": {
                             "Local.Narodnyi local": [
                                 [11052, -12051],
@@ -8703,9 +8558,9 @@
                             [6584, -10344],
                             [6584, -10364],
                             [6584, -10344],
-							[6067, -10344],
-							[6067, -10346],
-							[6067, -10344],
+                            [6067, -10344],
+                            [6067, -10346],
+                            [6067, -10344],
                             [5638, -10344],
                             [5638, -10054],
                             [4369, -10054]
@@ -9123,17 +8978,7 @@
                             [8269, -8153],
                             [8269, -8254]
                         ],
-                        "stations": [
-                            292,
-                            540,
-                            538,
-                            293,
-                            294,
-                            [295, "TNIH Connector branch"],
-                            [296, "Chitograd local branch"],
-                            298,
-                            301
-                        ]
+                        "stations": [292, 540, 538, 293, 294, [295, "TNIH Connector branch"], [296, "Chitograd local branch"], 298, 301]
                     },
                     "TNIH Connector branch": {
                         "vertices": [
