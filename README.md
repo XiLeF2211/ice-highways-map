@@ -8,6 +8,8 @@ xilef, the founder of the Ice Highway Map, will be rarely active because he is e
 
 ## Logs
 
+4 September 2025: Metro Karakas Line (edited by **nokteholda**)
+
 28 August 2025: Japan Underground Ice Road Namboku Line (edited by **nokteholda**)
 
 27 August 2025: Norania-Fort Uligan Line (edited by **nokteholda**)
