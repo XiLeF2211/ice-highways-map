@@ -6837,6 +6837,85 @@
                 [[1182, -1803], [1160, -1807]],
                 [[1165, -1819], [1160, -1803]]
             ]
+        },
+        {
+            "name": "Porto Novo",
+            "id": 561,
+            "x": 158,
+            "z": -1308,
+            "lines": {
+                "Eko Ice Highway": {
+                    "Porto Novo — Sienna": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Lagos",
+            "id": 562,
+            "x": 293,
+            "z": -1308,
+            "lines": {
+                "Eko Ice Highway": {
+                    "Porto Novo — Sienna": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Hustopia JCT",
+            "type": "jct",
+            "id": 563,
+            "x": 442,
+            "z": -1308,
+            "lines": {
+                "Eko Ice Highway": {
+                    "Porto Novo — Sienna": ["", ""],
+                    "Hustopia — Greenfield": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Hustopia",
+            "id": 564,
+            "x": 467,
+            "z": -1308,
+            "lines": {
+                "Eko Ice Highway": {
+                    "Porto Novo — Sienna": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Sienna",
+            "id": 565,
+            "x": 688,
+            "z": -1308,
+            "lines": {
+                "Eko Ice Highway": {
+                    "Porto Novo — Sienna": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Shroomlight",
+            "id": 566,
+            "x": 467,
+            "z": -1419,
+            "lines": {
+                "Eko Ice Highway": {
+                    "Hustopia — Greenfield": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Greenfield",
+            "id": 567,
+            "x": 549,
+            "z": -1496,
+            "lines": {
+                "Eko Ice Highway": {
+                    "Hustopia — Greenfield": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -8651,6 +8730,39 @@
                             [25668, -6763],
                             [25719, -6763]
                         ]
+                    }
+                }
+            }
+        },
+        "Eko Ice Highway": {
+            "Porto Novo — Sienna": {
+                "prefix": "",
+                "code": "PN-S",
+                "color": "7fcc19",
+                "y": 52,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [158, -1308],
+                            [703, -1308]
+                        ],
+                        "stations": [561, 562, 563, 564, 565]
+                    }
+                }
+            },
+            "Hustopia — Greenfield": {
+                "prefix": "",
+                "code": "H-G",
+                "color": "7fcc19",
+                "y": 52,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [467, -1308],
+                            [467, -1496],
+                            [564, -1496]
+                        ],
+                        "stations": [563, 566, 567]
                     }
                 }
             }
