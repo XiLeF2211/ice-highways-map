@@ -330,17 +330,20 @@ function showStation(station) {
     }
     document.getElementById('station-codes').innerHTML = ''
     for (company in station.lines) {
+        console.log(company);
         let companyName = document.createElement('h3')
         companyName.textContent = company
         document.getElementById('station-codes').appendChild(companyName)
         for (line in station.lines[company]) {
+            console.log(line);
             let code = document.createElement('p')
-            code.innerHTML = `${highwayData.lines[company][line].prefix}${station.lines[company][line][0]} `
+            let temp = [company, line, highwayData.lines[company][line]]
+            code.innerHTML = `${temp[2].prefix}${station.lines[company][line][0]} `
 
             let lineLink = document.createElement('a')
             lineLink.addEventListener('click', () => {
-                showLine(company, line, highwayData.lines[company][line])
-                viewHistory.push(['line', company, line, highwayData.lines[company][line]])
+                showLine(temp[0], temp[1], temp[2])
+                viewHistory.push(['line', temp[0], temp[1], temp[2]])
             })
             lineLink.innerHTML = (code.innerText == ' ' ? `${line} line` : `(${line} line)`) + (station.lines[company][line][1] != '' ? ` (${station.lines[company][line][1]})` : '')
             code.appendChild(lineLink)
