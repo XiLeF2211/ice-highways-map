@@ -104,7 +104,13 @@
     </aside>
     
     <p id="hamburger" onclick="openSide()">☰</p>
-    <div id="mapa"></div>
+    <div id="mapa">
+        <div class="leaflet-bottom leaflet-right">
+            <div class='leaflet-control-layers coordinates leaflet-control'>
+                <div class="coordinates-display"></div>
+            </div>
+        </div>
+    </div>
 
     <div id="filters" style="z-index: -2;" >
         <div id="station-filter-container" class="filter-container">

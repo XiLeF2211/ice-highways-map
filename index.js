@@ -34,6 +34,18 @@ L.tileLayer(proxyURL + mapURL + '/minecraft_overworld/{z}/{x}_{y}.png', {
     minZoom: -2
 }).addTo(map);
 
+// Variable to store coordinates
+var coordinateController = document.querySelector('.leaflet-control-layers.coordinates .coordinates-display');
+// Show coordinates
+map.on("mousemove", function (e) {
+    // Get x and z coords
+    var xCord = Math.floor(16 * e.latlng.lng.toFixed(2))
+    var zCord = Math.ceil(-16 * e.latlng.lat.toFixed(2))
+    if (coordinateController) {
+        coordinateController.textContent = `X: ${xCord}, Z: ${zCord}`
+    }
+});
+
 init();
 
 async function init() {
