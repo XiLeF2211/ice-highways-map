@@ -7024,6 +7024,43 @@
                     "Xotic-Xports Tram": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Y=86 East Bamboo JCT",
+            "type": "jct",
+            "id": 577,
+            "x": 10615.5,
+            "z": -12634.5,
+            "lines": {
+                "Local": {
+                    "Narodnyi local": ["", "Bamboo branch"]
+                }
+            }
+        },
+        {
+            "name": "Y=86 East Bamboo",
+            "id": 578,
+            "x": 10545.5,
+            "z": -12728.5,
+            "lines": {
+                "Local": {
+                    "Narodnyi local": ["", "Bamboo branch"]
+                }
+            }
+        },
+        {
+            "name": "Bamboo Y=86 ↔ Y=83 Elevator",
+            "type": "elev-we",
+            "y1": 86,
+            "y2": 83,
+            "id": 579,
+            "x": 10413.5,
+            "z": -12722.5,
+            "lines": {
+                "Local": {
+                    "Narodnyi local": ["", "Bamboo branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -9073,6 +9110,21 @@
                             [10665, -12756]
                         ],
                         "stations": [502, 503, [504, "Main line"]]
+                    },
+                    "Bamboo branch": {
+                        "vertices": [
+                            [10665.5, -12634.5],
+                            [10615.5, -12634.5],
+
+                            [10615.5, -12728.5],
+                            [10545.5, -12728.5],
+                            [10615.5, -12728.5],
+
+                            [10615.5, -12634.5],
+                            [10413.5, -12634.5],
+                            [10413.5, -12722.5]
+                        ],
+                        "stations": [503, 577, 578, 579]
                     }
                 }
             },
