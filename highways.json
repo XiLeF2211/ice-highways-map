@@ -6916,6 +6916,114 @@
                     "Hustopia — Greenfield": ["", ""]
                 }
             }
+        },
+        {
+            "name": "1H-1V JCT",
+            "type": "jct",
+            "id": 568,
+            "x": 19000,
+            "z": -13192,
+            "lines": {
+                "Intercontinental": {
+                    "Xotic-Xports Tram": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "1H-3V JCT",
+            "type": "jct",
+            "id": 569,
+            "x": 18872,
+            "z": -13192,
+            "lines": {
+                "Intercontinental": {
+                    "Xotic-Xports Tram": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "2H-1V JCT",
+            "type": "jct",
+            "id": 570,
+            "x": 19000,
+            "z": -13144,
+            "lines": {
+                "Intercontinental": {
+                    "Xotic-Xports Tram": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "2H-2V JCT",
+            "type": "jct",
+            "id": 571,
+            "x": 18952,
+            "z": -13144,
+            "lines": {
+                "Intercontinental": {
+                    "Xotic-Xports Tram": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "2H-3V JCT",
+            "type": "jct",
+            "id": 572,
+            "x": 18872,
+            "z": -13144,
+            "lines": {
+                "Intercontinental": {
+                    "Xotic-Xports Tram": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "3H-1V JCT",
+            "type": "jct",
+            "id": 573,
+            "x": 19000,
+            "z": -13096,
+            "lines": {
+                "Intercontinental": {
+                    "Xotic-Xports Tram": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "3H-2V JCT",
+            "type": "jct",
+            "id": 574,
+            "x": 18952,
+            "z": -13096,
+            "lines": {
+                "Intercontinental": {
+                    "Xotic-Xports Tram": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "3H-3V JCT",
+            "type": "jct",
+            "id": 575,
+            "x": 18872,
+            "z": -13096,
+            "lines": {
+                "Intercontinental": {
+                    "Xotic-Xports Tram": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "4H-3V JCT",
+            "type": "jct",
+            "id": 576,
+            "x": 18872,
+            "z": -13048,
+            "lines": {
+                "Intercontinental": {
+                    "Xotic-Xports Tram": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -9426,6 +9534,64 @@
                             [12473, -9887]
                         ],
                         "stations": [[546, "Main line"], 545]
+                    }
+                }
+            },
+            "Xotic-Xports Tram": {
+                "prefix": "",
+                "code": "XoX Tram",
+                "color": "0000CF",
+                "y": 86,
+                "branches": {
+                    "1st Horizontal line": {
+                        "vertices": [
+                            [19062, -13192],
+                            [18733, -13192]
+                        ],
+                        "stations": [568, 569]
+                    },
+                    "2nd Horizontal line": {
+                        "vertices": [
+                            [19000, -13144],
+                            [18832, -13144]
+                        ],
+                        "stations": [570, 571, 572]
+                    },
+                    "3rd Horizontal line": {
+                        "vertices": [
+                            [19000, -13096],
+                            [18864, -13096]
+                        ],
+                        "stations": [573, 574, 575]
+                    },
+                    "4th Horizontal line": {
+                        "vertices": [
+                            [18866, -13048],
+                            [18952, -13048]
+                        ],
+                        "stations": [576]
+                    },
+
+                    "1st Vertical line": {
+                        "vertices": [
+                            [19000, -13192],
+                            [19000, -13096]
+                        ],
+                        "stations": [568, 570, 573]
+                    },
+                    "2nd Vertical line": {
+                        "vertices": [
+                            [18952, -13144],
+                            [18952, -13048]
+                        ],
+                        "stations": [571, 574]
+                    },
+                    "3rd Vertical line": {
+                        "vertices": [
+                            [18872, -13310],
+                            [18872, -13048]
+                        ],
+                        "stations": [569, 572, 575, 576]
                     }
                 }
             }
