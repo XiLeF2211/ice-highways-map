@@ -78,7 +78,20 @@
                 </div>
             </div>
             <div id="settings" class="section" style="display:none">
-                <p>hi no settings rn ;-;</p>
+                <p>Reload the page for any setting changes to go into effect. I promise I will make this page look better ;-;.</p>
+                <button onclick="toggle('showTowns');">Show / hide towns</button>
+                <button onclick="toggle('showLines');">Show / hide lines</button>
+                <button onclick="toggle('showStations');">Show / hide stations</button>
+                <input
+                    type="range"
+                    id="mapBrightness"
+                    name="mapBrightness"
+                    min="0"
+                    max="100"
+                    value="50" />
+                <label id="mapBrightnessLabel" for="mapBrightness">Background map brightness: 50</label>
+                <button onclick="window.location.reload();">Reload page (to apply settings)</button>
+                <button onclick="localStorage.clear(); window.location.reload();">Reset settings</button>
             </div>
             <div id="developers" class="section" style="display:none">
                 <p>If you would like to contribute data, the repository is <a href="https://github.com/XiLeF2211/ice-highways-map">XiLeF2211/ice-highways-map</a></p><hr>
@@ -106,8 +119,8 @@
     <p id="hamburger" onclick="openSide()">☰</p>
     <div id="mapa">
         <div class="leaflet-bottom leaflet-right">
-            <div class='leaflet-control-layers coordinates leaflet-control'>
-                <div class="coordinates-display"></div>
+            <div class='leaflet-container'>
+                <div class="leaflet-mousecoords">X: ---, Z: ---</div>
             </div>
         </div>
     </div>

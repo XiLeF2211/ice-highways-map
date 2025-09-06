@@ -17,7 +17,6 @@ let lineFilters = {
     company: []
 }
 
-
 const map = L.map('mapa', {
     crs: L.CRS.Simple,
     center: [0, 0],
@@ -35,20 +34,25 @@ L.tileLayer(proxyURL + mapURL + '/minecraft_overworld/{z}/{x}_{y}.png', {
 }).addTo(map);
 
 // Variable to store coordinates
-var coordinateController = document.querySelector('.leaflet-control-layers.coordinates .coordinates-display');
+let coordinateController = document.querySelector('.leaflet-mousecoords');
 // Show coordinates
 map.on("mousemove", function (e) {
     // Get x and z coords
-    var xCord = Math.floor(16 * e.latlng.lng.toFixed(2))
-    var zCord = Math.ceil(-16 * e.latlng.lat.toFixed(2))
+    let xCoord = Math.floor(16 * e.latlng.lng.toFixed(2))
+    let zCoord = Math.ceil(-16 * e.latlng.lat.toFixed(2))
     if (coordinateController) {
-        coordinateController.textContent = `X: ${xCord}, Z: ${zCord}`
+        coordinateController.textContent = `X: ${xCoord}, Z: ${zCoord}`
     }
 });
 
 init();
 
 async function init() {
+    if (localStorage.getItem("showTowns") == null) localStorage.setItem("showTowns", true);
+    if (localStorage.getItem("showLines") == null) localStorage.setItem("showLines", true);
+    if (localStorage.getItem("showStations") == null) localStorage.setItem("showStations", true);
+    document.documentElement.style.setProperty("--map-brightness", localStorage.getItem("mapBrightness") == null ? "50%" : localStorage.getItem("mapBrightness") + "%");
+
     highwayData = await fetchJSON(highwaysURL)
     if (!highwayData) {
         console.log('debug: There was a problem with getting station and line data')
@@ -57,9 +61,20 @@ async function init() {
     listLine()
     listStation();
 
-    await renderTowns();
-    renderLines(highwayData, false);
-    renderStations(highwayData, false);
+    if (localStorage.getItem("showTowns") == "true") await renderTowns();
+    if (localStorage.getItem("showLines") == "true") renderLines(highwayData, false);
+    if (localStorage.getItem("showStations") == "true") renderStations(highwayData, false);
+}
+
+for (let element of document.querySelectorAll("#settings input")) {
+    element.addEventListener("input", (e) => {
+        localStorage.setItem(element.id, e.target.value);
+        document.getElementById("mapBrightnessLabel").textContent = "Background map brightness: " + e.target.value;
+    });
+}
+
+function toggle(setting) {
+    localStorage.setItem(setting, localStorage.getItem(setting) == "true" ? "false": "true");
 }
 
 async function renderTowns() {
