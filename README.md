@@ -1,12 +1,14 @@
 # EarthMC Ice Highways Map
 
-This is a tool that aims to give information on stations and lines across the EarthMC server. However, right now, it only has 84 lines and 567 stations (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
+This is a tool that aims to give information on stations and lines across the EarthMC server. However, right now, it only has 87 lines and 580 stations (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
 
 ## Bulletin board
 
 xilef, the founder of the Ice Highway Map, will be rarely active because he is extremely occupied with his school, so please send your requests to nokteholda or Chitonator via [TNIH discord](https://discord.gg/SK8r4Ce25U) or pull requests. Thank you.
 
 ## Logs
+
+5 September 2025: Xotic-Xports tram lines and Ice lines near Bamboo (edited by **Chitonator**)
 
 4 September 2025: Metro Karakas Line and Eko Ice Highway (Porto Novo-Sienna and Hustopia-Greenfield section) (edited by **nokteholda**)
 

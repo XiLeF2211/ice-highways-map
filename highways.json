@@ -7061,6 +7061,20 @@
                     "Narodnyi local": ["", "Bamboo branch"]
                 }
             }
+        },
+        {
+            "name": "Y=54 ↔ Y=55 Elevator",
+            "type": "elev-we",
+            "y1": 54,
+            "y2": 55,
+            "id": 580,
+            "x": 12218,
+            "z": -11688,
+            "lines": {
+                "Local": {
+                    "Narodnyi local": ["", "Bamboo branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -9085,7 +9099,7 @@
             "Narodnyi local": {
                 "prefix": "",
                 "code": "",
-                "color": "8DBAED",
+                "color": "6CABF2",
                 "y": 86,
                 "branches": {
                     "Main line": {
@@ -9145,6 +9159,24 @@
                             [1174, -1802]
                         ],
                         "stations": [559, 560]
+                    }
+                }
+            },
+            "Yamalo": {
+                "prefix": "",
+                "code": "YAM.loc",
+                "color": "CC1CC1",
+                "y": 54,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [12220, -11610],
+                            [12220, -11688],
+                            [12218, -11688],
+                            [12220, -11688],
+                            [12220, -11888]
+                        ],
+                        "stations": []
                     }
                 }
             }
@@ -9644,6 +9676,24 @@
                             [18872, -13048]
                         ],
                         "stations": [569, 572, 575, 576]
+                    }
+                }
+            },
+            "North Siberian": {
+                "prefix": "",
+                "code": "NS",
+                "color": "3C7BF2",
+                "y": 83,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [10447.5, -12729.5],
+                            [10413.5, -12729.5],
+                            [10413.5, -12722.5],
+                            [10413.5, -12729.5],
+                            [8781.5, -12729.5]
+                        ],
+                        "stations": []
                     }
                 }
             }
