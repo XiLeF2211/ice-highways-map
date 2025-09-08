@@ -8,6 +8,8 @@ xilef, the founder of the Ice Highway Map, will be rarely active because he is e
 
 ## Logs
 
+8 September 2025: Kano and Abuja Ice lines (Afrique Rail). (Thanks to **ObsidianGuy** for report)
+
 5 September 2025: Xotic-Xports tram lines and Ice lines near Bamboo (edited by **Chitonator**)
 
 4 September 2025: Metro Karakas Line and Eko Ice Highway (Porto Novo-Sienna and Hustopia-Greenfield section) (edited by **nokteholda**)
