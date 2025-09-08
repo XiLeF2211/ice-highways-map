@@ -6805,6 +6805,9 @@
             "lines": {
                 "Local": {
                     "Metro Karakas": ["", ""]
+                },
+                "Afrique Rail": {
+                    "Abuja": ["", "Main line"]
                 }
             },
             "areas": [
@@ -7073,6 +7076,138 @@
             "lines": {
                 "Local": {
                     "Narodnyi local": ["", "Bamboo branch"]
+                }
+            }
+        },
+        {
+            "name": "Abuja Triangle West Junction",
+            "type": "jct",
+            "id": 581,
+            "x": 1210.5,
+            "z": -1834.5,
+            "lines": {
+                "Afrique Rail": {
+                    "Abuja": ["", "Main line"],
+                    "Abuja Triangle Connector": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Abuja Triangle East Junction",
+            "type": "jct",
+            "id": 582,
+            "x": 1250.5,
+            "z": -1818.5,
+            "lines": {
+                "Afrique Rail": {
+                    "Abuja": ["", "Main line"],
+                    "Lower Kano": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Calabar",
+            "id": 583,
+            "x": 2065.5,
+            "z": -1818.5,
+            "lines": {
+                "Afrique Rail": {
+                    "Abuja": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nubia City",
+            "id": 584,
+            "x": 3101.5,
+            "z": -1956.5,
+            "lines": {
+                "Afrique Rail": {
+                    "Abuja": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Comrade City",
+            "id": 585,
+            "x": 3595.5,
+            "z": -2013.5,
+            "lines": {
+                "Afrique Rail": {
+                    "Abuja": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Auckland",
+            "type": "semi1",
+            "id": 586,
+            "x": 3824.5,
+            "z": -2013.5,
+            "lines": {
+                "Afrique Rail": {
+                    "Abuja": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Aria",
+            "id": 587,
+            "x": 3896.5,
+            "z": -1970.5,
+            "lines": {
+                "Afrique Rail": {
+                    "Abuja": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kano",
+            "id": 588,
+            "x": 1647.5,
+            "z": -2903.5,
+            "lines": {
+                "Afrique Rail": {
+                    "Upper Kano": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kano Elevator",
+            "type": "elev-ew",
+            "id": 589,
+            "y1": 81,
+            "y2": 58,
+            "x": 1629.5,
+            "z": -2651.5,
+            "lines": {
+                "Afrique Rail": {
+                    "Upper Kano": ["", "Main line"],
+                    "Lower Kano": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Abuja Triangle North Junction",
+            "type": "jct",
+            "id": 590,
+            "x": 1226.5,
+            "z": -1850.5,
+            "lines": {
+                "Afrique Rail": {
+                    "Lower Kano": ["", "Main line"],
+                    "Abuja Triangle Connector": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Omeininayagi-Nigeria City",
+            "id": 591,
+            "x": 1443.5,
+            "z": -1049.5,
+            "lines": {
+                "Afrique Rail": {
+                    "Lower Kano": ["", "Main line"],
                 }
             }
         }
@@ -8312,6 +8447,87 @@
                             [-136, -8908]
                         ],
                         "stations": [373, 374, 375, 376, 377, 378, 379, 380, 381]
+                    }
+                }
+            }
+        },
+        "Afrique Rail": {
+            "Abuja": {
+                "prefix": "",
+                "code": "AB",
+                "color": "e69138",
+                "y": 58,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [1092, -1834.5],
+                            [1228.5, -1834.5],
+                            [1210.5, -1834.5],
+                            [1228.5, -1834.5],
+                            [1244.5, -1818.5],
+                            [3101.5, -1818.5],
+                            [3101.5, -2013.5],
+                            [3855.5, -2013.5],
+                            [3855.5, -1970.5],
+                            [3905, -1970.5]
+                        ],
+                        "stations": [559, 581, 582, 583, 584, 585, 586, 587]
+                    }
+                }
+            },
+            "Upper Kano": {
+                "prefix": "",
+                "code": "KN-81",
+                "color": "6aa84f",
+                "y": 81,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [1647.5, -2947],
+                            [1647.5, -2651.5],
+                            [1629, -2651.5]
+                        ],
+                        "stations": [588, 589]
+                    }
+                }
+            },
+            "Lower Kano": {
+                "prefix": "",
+                "code": "KN-58",
+                "color": "6aa84f",
+                "y": 58,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [1629, -2651.5],
+                            [1235.5, -2651.5],
+                            [1235.5, -2651.5],
+                            [1226.5, -2642.5],
+                            [1226.5, -1850.5],
+                            [1250.5, -1827.5],
+                            [1250.5, -1818.5],
+                            [1250.5, -1399.5],
+                            [1253.5, -1396.5],
+                            [1428.5, -1396.5],
+                            [1443.5, -1381.5],
+                            [1443.5, -1045]
+                        ],
+                        "stations": [589, 590, 582, 591]
+                    }
+                }
+            },
+            "Abuja Triangle Connector": {
+                "prefix": "",
+                "code": "AB.tri",
+                "color": "2a2a2a",
+                "y": 58,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [1210.5, -1834.5],
+                            [1226.5, -1850.5]
+                        ],
+                        "stations": [581, 590]
                     }
                 }
             }
