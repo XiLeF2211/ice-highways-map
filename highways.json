@@ -7216,6 +7216,17 @@
                     "Lower Kano": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Aragaufwa",
+            "id": 592,
+            "x": 11361,
+            "z": -8035,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Sand branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -7703,10 +7714,11 @@
                     },
                     "Sand branch": {
                         "vertices": [
-                            [11458, -7789],
+                            [11361, -8035],
+                            [11458, -8035],
                             [11458, -7734]
                         ],
-                        "stations": [[278, "Main line"], 279]
+                        "stations": [592, [278, "Main line"], 279]
                     },
                     "Persia Region Connector Branch": {
                         "vertices": [
