@@ -821,14 +821,14 @@
             }
         },
         {
-            "name": "Chronos Union JCT",
+            "name": "Santulan  JCT",
             "type": "jct",
             "id": 68,
             "x": 14663,
             "z": -4780,
             "lines": {
                 "TNIH": {
-                    "Bangla-Caspian": ["", "Main line to Chronos Union branch"]
+                    "Bangla-Caspian": ["", "Main line to Santulan  branch"]
                 }
             }
         },
@@ -2768,13 +2768,13 @@
             }
         },
         {
-            "name": "Chronos Union",
+            "name": "Santulan",
             "id": 233,
             "x": 14663,
             "z": -4822,
             "lines": {
                 "TNIH": {
-                    "Bangla-Caspian": ["", "Chronos Union branch"]
+                    "Bangla-Caspian": ["", "Santulan branch"]
                 }
             }
         },
@@ -7534,7 +7534,7 @@
                             [9054, -7022],
                             [9054, -7034]
                         ],
-                        "stations": [59, 39, 60, 61, 62, 35, 63, 64, 65, [66, "Laccadive Sea branch"], 67, [68, "Chronos Union branch"], 26, 69, 70, 11, 71, 72, [73, "Himalayas branch"], 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 467, 228, 229, 230, 231]
+                        "stations": [59, 39, 60, 61, 62, 35, 63, 64, 65, [66, "Laccadive Sea branch"], 67, [68, "Santulan branch"], 26, 69, 70, 11, 71, 72, [73, "Himalayas branch"], 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 467, 228, 229, 230, 231]
                     },
                     "Laccadive Sea branch": {
                         "vertices": [
@@ -7543,7 +7543,7 @@
                         ],
                         "stations": [[66, "Main line"], 232]
                     },
-                    "Chronos Union branch": {
+                    "Santulan branch": {
                         "vertices": [
                             [14663, -4780],
                             [14663, -4822]
