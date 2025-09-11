@@ -516,6 +516,7 @@
         },
         {
             "name": "Nyingchi Mine",
+            "type": "semi1",
             "id": 44,
             "x": 16942,
             "z": -5910,
@@ -7227,6 +7228,29 @@
                     "Loopstan": ["", "Sand branch"]
                 }
             }
+        },
+        {
+            "name": "Minab Mine",
+            "type": "semi1",
+            "id": 593,
+            "x": 10367,
+            "z": -5230,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ["", "Main line (Makran Line)"]
+                }
+            }
+        },
+        {
+            "name": "Crusader Gulf",
+            "id": 594,
+            "x": 10411,
+            "z": -5079,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ["", "Main line (Makran Line)"]
+                }
+            }
         }
     ],
     "lines": {
@@ -7421,9 +7445,11 @@
                     "Main line (Makran Line)": {
                         "vertices": [
                             [10259, -6468],
-                            [10259, -5230]
+                            [10259, -5230],
+                            [10411, -5230],
+                            [10411, -5079]
                         ],
-                        "stations": [489, 490, 491, 492, 554]
+                        "stations": [489, 490, 491, 492, 554, 593, 594]
                     },
                     "Gujarat branch": {
                         "vertices": [
