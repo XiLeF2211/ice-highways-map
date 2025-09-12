@@ -5689,7 +5689,8 @@
                 },
                 "Intercontinental": {
                     "Old Y=63 West-Russian": ["", "New Jasionka branch"],
-                    "Old Y=65 Moscow Suburban": ["", "Smolensk branch"]
+                    "Old Y=65 Moscow Suburban": ["", "Smolensk branch"],
+                    "Kiev—Petersburg Tract": ["", "New Jasionka branch"]
                 }
             },
             "areas": [
@@ -7262,6 +7263,21 @@
                     "Gujarat": ["", "Main line (Makran Line)"]
                 }
             }
+        },
+        {
+            "name": "New Jasionka JCT",
+            "type": "jct",
+            "id": 596,
+            "x": 5795.5,
+            "z": -10570,
+            "lines": {
+                "Intercontinental": {
+                    "Kiev—Petersburg Tract": ["", ""]
+                }
+            },
+            "areas": [
+                [[5793, -10569], [5798, -10571]]
+            ]
         }
     ],
     "lines": {
@@ -9966,6 +9982,37 @@
                             [8781.5, -12729.5]
                         ],
                         "stations": []
+                    }
+                }
+            },
+            "Kiev—Petersburg Tract": {
+                "prefix": "",
+                "code": "KIV-SPB",
+                "color": "FF005F",
+                "y": 2,
+                "branches": {
+                    "East Main line": {
+                        "vertices": [
+                            [5797, -9498],
+                            [5797, -11214],
+                            [5713, -11214]
+                        ],
+                        "stations": []
+                    },
+                    "West Main line": {
+                        "vertices": [
+                            [5794, -9498],
+                            [5794, -11211],
+                            [5713, -11211]
+                        ],
+                        "stations": []
+                    },
+                    "New Jasionka branch": {
+                        "vertices": [
+                            [6333, -10570],
+                            [5794, -10570]
+                        ],
+                        "stations": [472, [596, "Main line"]]
                     }
                 }
             }
