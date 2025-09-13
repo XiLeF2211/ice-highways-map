@@ -2687,7 +2687,8 @@
             "y2": 1,
             "lines": {
                 "TNIH": {
-                    "Bangla-Caspian": ["", "Main line"]
+                    "Bangla-Caspian": ["", "Main line"],
+                    "Lower Bangla-Caspian": ["", "Main line"]
                 }
             }
         },
@@ -2698,7 +2699,7 @@
             "z": -7022,
             "lines": {
                 "TNIH": {
-                    "Bangla-Caspian": ["", "Main line"]
+                    "Lower Bangla-Caspian": ["", "Main line"]
                 }
             }
         },
@@ -2709,7 +2710,7 @@
             "z": -7022,
             "lines": {
                 "TNIH": {
-                    "Bangla-Caspian": ["", "Main line"]
+                    "Lower Bangla-Caspian": ["", "Main line"]
                 }
             }
         },
@@ -2721,7 +2722,7 @@
             "z": -7022,
             "lines": {
                 "TNIH": {
-                    "Bangla-Caspian": ["", "Main line"]
+                    "Lower Bangla-Caspian": ["", "Main line"]
                 },
                 "Intercontinental": {
                     "Kushan Metro": ["", "Mazandaran branch"]
@@ -2736,7 +2737,7 @@
             "z": -7022,
             "lines": {
                 "TNIH": {
-                    "Bangla-Caspian": ["", "Main line"]
+                    "Lower Bangla-Caspian": ["", "Main line"]
                 }
             }
         },
@@ -2747,7 +2748,7 @@
             "z": -7034,
             "lines": {
                 "TNIH": {
-                    "Bangla-Caspian": ["", "Main line"]
+                    "Lower Bangla-Caspian": ["", "Main line"]
                 }
             }
         },
@@ -3922,8 +3923,8 @@
             "name": "Chitograd y=53 ↔ y=67 Connector Elevator",
             "type": "elev-ew",
             "id": 330,
-            "x": 8578,
-            "z": -8004,
+            "x": 8562,
+            "z": -8009,
             "y1": 53,
             "y2": 67,
             "lines": {
@@ -5622,7 +5623,7 @@
             "z": -7022,
             "lines": {
                 "TNIH": {
-                    "Bangla-Caspian": ["", "Main Line"],
+                    "Lower Bangla-Caspian": ["", "Main Line"],
                     "Loopstan": ["", "SkyHaven JCT connector"]
                 }
             }
@@ -7585,10 +7586,11 @@
                             [13400, -6771],
                             [11620, -6771],
                             [11620, -7022],
+                            [11617, -7022],
                             [9054, -7022],
                             [9054, -7034]
                         ],
-                        "stations": [59, 39, 60, 61, 62, 35, 63, 64, 65, [66, "Laccadive Sea branch"], 67, [68, "Santulan branch"], 26, 69, 70, 11, 71, 72, [73, "Himalayas branch"], 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 467, 228, 229, 230, 231]
+                        "stations": [59, 39, 60, 61, 62, 35, 63, 64, 65, [66, "Laccadive Sea branch"], 67, [68, "Santulan branch"], 26, 69, 70, 11, 71, 72, [73, "Himalayas branch"], 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226]
                     },
                     "Laccadive Sea branch": {
                         "vertices": [
@@ -7613,6 +7615,22 @@
                     }
                 }
             },
+            "Lower Bangla-Caspian": {
+                "prefix": "",
+                "code": "BC.low",
+                "color": "ff0000",
+                "y": 1,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [11617, -7022],
+                            [9054, -7022],
+                            [9054, -7034]
+                        ],
+                        "stations": [226, 227, 467, 228, 229, 230, 231]
+                    }
+                }
+                },
             "Haldwan-Castlers": {
                 "prefix": "",
                 "code": "HC",
@@ -8613,8 +8631,8 @@
                 "branches": {
                     "": {
                         "vertices": [
-                            [8578, -8004],
-                            [8547, -8004],
+                            [8562.5, -8009.5],
+                            [8547, -8009.5],
                             [8547, -8203],
                             [8551, -8203],
                             [8547, -8203],
