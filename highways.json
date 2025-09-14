@@ -7344,6 +7344,36 @@
             "areas": [
                 [[6196, -9497], [6201, -9502]]
             ]
+        },
+        {
+            "name": "Khorsan JCT",
+            "type": "jct",
+            "id": 600,
+            "x": 10840,
+            "z": -6735,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ["", "Main line (Makran Line)"]
+                },
+                "Agartha Ice Highways Network": {
+                    "Khorsan—Jowzjan": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Jowzjan JCT",
+            "type": "jct",
+            "id": 601,
+            "x": 11620,
+            "z": -6771,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line"]
+                },
+                "Agartha Ice Highways Network": {
+                    "Khorsan—Jowzjan": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -7655,7 +7685,7 @@
                             [9054, -7022],
                             [9054, -7034]
                         ],
-                        "stations": [59, 39, 60, 61, 62, 35, 63, 64, 65, [66, "Laccadive Sea branch"], 67, [68, "Santulan branch"], 26, 69, 70, 11, 71, 72, [73, "Himalayas branch"], 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226]
+                        "stations": [59, 39, 60, 61, 62, 35, 63, 64, 65, [66, "Laccadive Sea branch"], 67, [68, "Santulan branch"], 26, 69, 70, 11, 71, 72, [73, "Himalayas branch"], 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 601, 225, 226]
                     },
                     "Laccadive Sea branch": {
                         "vertices": [
@@ -7839,7 +7869,7 @@
                             [10840, -7240],
                             [10840, -6468]
                         ],
-                        "stations": [265, 267, 268, 222, 261, 269, 270, 271, 273, 274, 275, 276, 277, 255, [278, "Sand branch"], 280, 281, 282, 283, 284, 555, [469, "SkyHaven JCT connector"], 470, [488, "Persia Region Connector Branch"]]
+                        "stations": [265, 267, 268, 222, 261, 269, 270, 271, 273, 274, 275, 276, 277, 255, [278, "Sand branch"], 280, 281, 282, 283, 284, 555, [469, "SkyHaven JCT connector"], 600, 470, [488, "Persia Region Connector Branch"]]
                     },
                     "SkyHaven JCT connector": {
                         "vertices": [
@@ -9296,6 +9326,25 @@
                             [564, -1496]
                         ],
                         "stations": [563, 566, 567]
+                    }
+                }
+            }
+        },
+        "Agartha Ice Highways Network": {
+            "Khorsan—Jowzjan": {
+                "prefix": "",
+                "code": "KJ",
+                "color": "a2a2a2",
+                "y": 10,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [10840, -6735],
+                            [10961, -6735],
+                            [10961, -6771],
+                            [11620, -6771]
+                        ],
+                        "stations": [600, 601]
                     }
                 }
             }
