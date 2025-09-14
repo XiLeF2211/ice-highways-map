@@ -5721,7 +5721,7 @@
                 [[6025, -10428], [6034, -10423]],
                 [[6034, -10434], [6063, -10417]],
                 [[6034, -10433], [6039, -10476]],
-                [[6045, -10433], [6051, -10562]],
+                [[6046, -10433], [6051, -10562]],
                 [[6055, -10562], [6042, -10566]],
                 [[6030, -10566], [6059, -10573]],
                 [[6022, -10345], [6025, -10386]],
@@ -7284,7 +7284,7 @@
             }
         },
         {
-            "name": "New Jasionka JCT",
+            "name": "New Jasionka Y=2 JCT",
             "type": "jct",
             "id": 596,
             "x": 5795.5,
@@ -7296,6 +7296,53 @@
             },
             "areas": [
                 [[5793, -10569], [5798, -10571]]
+            ]
+        },
+        {
+            "name": "New Jasionka Y=2 ↔ Y=53 Ice lines",
+            "type": "elev-we",
+            "y1": 2,
+            "y2": 53,
+            "id": 597,
+            "x": 6070.5,
+            "z": -10565.5,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "New Jasionka": ["", "Elevator branch"]
+                },
+                "Intercontinental": {
+                    "Kiev—Petersburg Tract": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Kiev Y=2 JCT",
+            "type": "jct",
+            "id": 598,
+            "x": 5795.5,
+            "z": -9499.5,
+            "lines": {
+                "Intercontinental": {
+                    "Kiev—Petersburg Tract": ["", ""]
+                }
+            },
+            "areas": [
+                [[5793, -9497], [5798, -9502]]
+            ]
+        },
+        {
+            "name": "South Kursk Y=2 JCT",
+            "type": "jct",
+            "id": 599,
+            "x": 6198.5,
+            "z": -9499.5,
+            "lines": {
+                "Intercontinental": {
+                    "Kiev—Petersburg Tract": ["", ""]
+                }
+            },
+            "areas": [
+                [[6196, -9497], [6201, -9502]]
             ]
         }
     ],
@@ -8786,7 +8833,10 @@
                     },
                     "Elevator branch": {
                         "vertices": [
-                            [6065, -10418],
+                            [6065, -10574],
+                            [6065, -10565.5],
+                            [6070.5, -10565.5],
+                            [6065, -10565.5],
                             [6065, -10408],
                             [6063, -10408],
                             [6065, -10408],
@@ -8796,7 +8846,7 @@
                             [6065, -10346],
                             [6067, -10346]
                         ],
-                        "stations": [550, 551, 552, 553]
+                        "stations": [597, 550, 551, 552, 553]
                     }
                 }
             },
@@ -10027,28 +10077,59 @@
                 "color": "FF005F",
                 "y": 2,
                 "branches": {
-                    "East Main line": {
+                    "1st Main line": {
                         "vertices": [
                             [5797, -9498],
                             [5797, -11214],
                             [5713, -11214]
                         ],
-                        "stations": []
+                        "stations": [598, [596, "New Jasionka"]]
                     },
-                    "West Main line": {
+                    "2nd Main line": {
                         "vertices": [
                             [5794, -9498],
                             [5794, -11211],
                             [5713, -11211]
                         ],
-                        "stations": []
+                        "stations": [598, [596, "New Jasionka"]]
                     },
                     "New Jasionka branch": {
                         "vertices": [
                             [6333, -10570],
+                            [6070.5, -10570],
+                            [6070.5, -10565.5],
+                            [6070.5, -10570],
                             [5794, -10570]
                         ],
                         "stations": [472, [596, "Main line"]]
+                    },
+                    "1st Kiev—Billgorod":{
+                        "vertices": [
+                            [6266, -9501],
+                            [6197, -9501]
+                        ],
+                        "stations": [[599, "Kursk and Turkey"]]
+                    },
+                    "2nd Kiev—Billgorod": {
+                        "vertices": [
+                            [6266, -9498],
+                            [5794, -9498]
+                        ],
+                        "stations": [[598, "Petersburg"], [599, "Kursk and Turkey"]]
+                    },
+                    "1st Kirsehir—Kursk branch": {
+                        "vertices": [
+                            [6197, -7376],
+                            [6197, -9643]
+                        ],
+                        "stations": []
+                    },
+                    "2nd Kirsehir—Kursk branch": {
+                        "vertices": [
+                            [6200, -7376],
+                            [6200, -9643]
+                        ],
+                        "stations": []
                     }
                 }
             }
