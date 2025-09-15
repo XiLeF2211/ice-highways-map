@@ -4368,7 +4368,13 @@
                 "Y=93 Ice Lines System": {
                     "Upper Billgorod-Khazar": ["", ""]
                 }
-            }
+            },
+            "areas": [
+                [[7046, -9466], [7088, -9471]],
+                [[7058, -9463], [7088, -9471]],
+                [[7082, -9460], [7139, -9463]],
+                [[7136, -9408], [7139, -9541]]
+            ]
         },
         {
             "name": "Billgorod JCT",
@@ -4392,7 +4398,10 @@
                 "Y=93 Ice Lines System": {
                     "Billgorod-Moscow": ["", "Main line"]
                 }
-            }
+            },
+            "areas": [
+                [[6577, -9481], [6592, -9503]]
+            ]
         },
         {
             "name": "Whiteland JCT",
