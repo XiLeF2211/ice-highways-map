@@ -2819,6 +2819,7 @@
         },
         {
             "name": "Economy Land",
+            "type": "semi2",
             "id": 237,
             "x": 14983,
             "z": -4199,
@@ -7383,6 +7384,18 @@
                     "Khorsan—Jowzjan": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Echoing Remnants",
+            "type": "semi2",
+            "id": 602,
+            "x": 14983,
+            "z": -4412,
+            "lines": {
+                "TNIH": {
+                    "Haldwan-Castlers": ["", "Southern route"]
+                }
+            }
         }
     ],
     "lines": {
@@ -7756,7 +7769,7 @@
                             [14983, -4072],
                             [14667, -4072]
                         ],
-                        "stations": [[235, "Northern route"], 17, 67, 237, 238]
+                        "stations": [[235, "Northern route"], 17, 67, 602, 237, 238]
                     }
                 }
             },
