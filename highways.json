@@ -7395,6 +7395,166 @@
                     "Haldwan-Castlers": ["", "Southern route"]
                 }
             }
+        },
+        {
+            "name": "Willow Creek JCT",
+            "type": "jct",
+            "id": 603,
+            "x": -22935,
+            "z": -7700,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Willow Creek — Vancouver": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Astoria",
+            "id": 604,
+            "x": -22935,
+            "z": -7929.5,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Willow Creek — Vancouver": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "1st Astorian JCT",
+            "type": "jct",
+            "id": 605,
+            "x": -22935,
+            "z": -8100,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Willow Creek — Vancouver": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "2nd Astorian JCT",
+            "type": "jct",
+            "id": 606,
+            "x": -22935,
+            "z": -8100,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Willow Creek — Vancouver": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Portland",
+            "id": 607,
+            "x": -22935,
+            "z": -8527,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Willow Creek — Vancouver": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-22937, -8537], [-22931, -8517]],
+                [[-22932, -8530], [-22930, -8524]]
+            ]
+        },
+        {
+            "name": "Portland JCT",
+            "type": "jct",
+            "id": 608,
+            "x": -22935,
+            "z": -8553,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Willow Creek — Vancouver": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "1st Olympia JCT",
+            "type": "jct",
+            "id": 609,
+            "x": -22935,
+            "z": -8792,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Willow Creek — Vancouver": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nation Spawn JCT",
+            "type": "jct",
+            "id": 610,
+            "x": -22935,
+            "z": -8848,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Willow Creek — Vancouver": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "2nd Olympia JCT",
+            "type": "jct",
+            "id": 611,
+            "x": -22935,
+            "z": -8914.5,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Willow Creek — Vancouver": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": " JCT",
+            "type": "jct",
+            "id": 612,
+            "x": -22935,
+            "z": -9027,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Willow Creek — Vancouver": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Vancouver JCT",
+            "type": "jct",
+            "id": 613,
+            "x": -22935,
+            "z": -9152,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Willow Creek — Vancouver": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nation Spawn",
+            "id": 614,
+            "x": -22925,
+            "z": -8848,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Willow Creek — Vancouver": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-22930, -8846], [-22916, -8853]],
+                [[-22921, -8852], [-22918, -8855]]
+            ]
+        },
+        {
+            "name": "Lessen",
+            "id": 615,
+            "x": -22782,
+            "z": -7700,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Willow Creek — Vancouver": ["", "Lessen branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -8734,6 +8894,33 @@
                             [1226.5, -1850.5]
                         ],
                         "stations": [581, 590]
+                    }
+                }
+            }
+        },
+        "Cascadian Ice lines": {
+            "Willow Creek — Vancouver":{
+                "prefix": "",
+                "code": "",
+                "color": "90EE90",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-22935, -7475],
+                            [-22935, -8848],
+                            [-22915, -8848],
+                            [-22935, -8848],
+                            [-22935, -9152]
+                        ],
+                        "stations": [[603, "Lassen"], 604, [605, ""], [606, ""], 607, [608, ""], [609, ""], [610, "Nation Spawn"], 614, [611, ""], [612, ""], [613, ""]]
+                    },
+                    "Lassen branch": {
+                        "vertices": [
+                            [-22935, -7700],
+                            [-22782, -7700]
+                        ],
+                        "stations": [[603, "Main line"], 615]
                     }
                 }
             }
