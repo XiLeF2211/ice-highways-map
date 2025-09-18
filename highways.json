@@ -3983,7 +3983,7 @@
             "lines": {
                 "Y=53 Ice Lines System": {
                     "Borovichi-Rybinsk-Novgorod": ["", "Moscow connector branch"],
-                    "Moscow Semi-Ring": ["", "Main line"]
+                    "Moscow Ring": ["", "Main line"]
                 }
             }
         },
@@ -4107,19 +4107,20 @@
             "z": -10728,
             "lines": {
                 "Y=53 Ice Lines System": {
-                    "Moscow Semi-Ring": ["", "Main line"]
+                    "Moscow Ring": ["", "Main line"]
                 }
             }
         },
         {
-            "name": "South Moscow JCT",
+            "name": "Moskava-Billgorodskaya JCT",
             "type": "jct",
             "id": 344,
             "x": 6580,
             "z": -10392,
             "lines": {
                 "Y=53 Ice Lines System": {
-                    "Moscow Semi-Ring": ["", "Main line to Billgorod connector branch"]
+                    "Moscow Ring": ["", "Main line to Billgorod connector branch"],
+                    "New Jasionka": ["", "Main line"]
                 }
             }
         },
@@ -4133,7 +4134,7 @@
             "z": -10364,
             "lines": {
                 "Y=53 Ice Lines System": {
-                    "Moscow Semi-Ring": ["", "Billgorod connector branch"]
+                    "Moscow Ring": ["", "Billgorod connector branch"]
                 }
             }
         },
@@ -4147,7 +4148,7 @@
             "z": -10024,
             "lines": {
                 "Y=53 Ice Lines System": {
-                    "Moscow Semi-Ring": ["", "Billgorod connector branch"]
+                    "Moscow Ring": ["", "Billgorod connector branch"]
                 },
                 "Y=93 Ice Lines System": {
                     "Billgorod-Moscow": ["", "Main line"]
@@ -6060,7 +6061,7 @@
             "z": -10676,
             "lines": {
                 "Y=53 Ice Lines System": {
-                    "Moscow Semi-Ring": ["", "Main line"]
+                    "Moscow Ring": ["", "Main line"]
                 }
             }
         },
@@ -6711,7 +6712,7 @@
             "lines": {
                 "Y=53 Ice Lines System": {
                     "New Jasionka": ["", "Main line"],
-                    "Moscow Semi-Ring": ["", "Main line"]
+                    "Moscow Ring": ["", "Main line"]
                 }
             }
         },
@@ -9026,7 +9027,7 @@
                     }
                 }
             },
-            "Moscow Semi-Ring": {
+            "Moscow Ring": {
                 "prefix": "",
                 "code": "MOW",
                 "color": "3F704D",
@@ -9064,10 +9065,12 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
+                            [6580, -10392],
+                            [6580, -10418],
                             [6253, -10418],
                             [6032, -10418]
                         ],
-                        "stations": [549, 550, 472]
+                        "stations": [344, 549, 550, 472]
                     },
                     "Elevator branch": {
                         "vertices": [
