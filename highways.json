@@ -4109,10 +4109,13 @@
                 "Y=53 Ice Lines System": {
                     "Moscow Ring": ["", "Main line"]
                 }
-            }
+            },
+            "areas": [
+                [[6353, -10727], [6383, -10749]]
+            ]
         },
         {
-            "name": "Moskava-Billgorodskaya JCT",
+            "name": "[Moscow | Billgorod route] JCT",
             "type": "jct",
             "id": 344,
             "x": 6580,
@@ -4230,12 +4233,12 @@
             }
         },
         {
-            "name": "Y=53 ↔ Y=56 Connector Elevator",
+            "name": "Frejlord Y=53 ↔ Y=56 Connector Elevator",
             "type": "elev-we",
             "y1": 53,
             "y2": 56,
             "id": 353,
-            "x": 9458,
+            "x": 9457.5,
             "z": -10455,
             "lines": {
                 "Y=53 Ice Lines System": {
@@ -5737,7 +5740,8 @@
                 [[6030, -10566], [6059, -10573]],
                 [[6022, -10345], [6025, -10386]],
                 [[6022, -10343], [6061, -10348]],
-                [[6056, -10433], [6059, -10440]]
+                [[6056, -10433], [6059, -10440]],
+                [[6025, -10398], [6029, -10401]]
             ]
         },
         {
@@ -6055,7 +6059,7 @@
             }
         },
         {
-            "name": "North East Moscow",
+            "name": "[Moscow | Rybinsk station]",
             "id": 499,
             "x": 6716,
             "z": -10676,
@@ -6704,7 +6708,7 @@
             }
         },
         {
-            "name": "West Moscow JCT",
+            "name": "[Moscow | New Jasionka route] JCT",
             "type": "jct",
             "id": 549,
             "x": 6253,
@@ -7104,7 +7108,7 @@
             }
         },
         {
-            "name": "Y=54 ↔ Y=55 Elevator",
+            "name": "2nd Jugra Y=54 ↔ Y=55 Elevator",
             "type": "elev-we",
             "y1": 54,
             "y2": 55,
@@ -7114,6 +7118,9 @@
             "lines": {
                 "Local": {
                     "Narodnyi local": ["", "Bamboo branch"]
+                },
+                "Intercontinental": {
+                    "Ratzakah": ["", "Main line"]
                 }
             }
         },
@@ -7556,6 +7563,33 @@
                     "Willow Creek — Vancouver": ["", "Lessen branch"]
                 }
             }
+        },
+        {
+            "name": "[Moscow | D_KVyach's Av.] JCT",
+            "type": "jct",
+            "id": 616,
+            "x": 6436,
+            "z": -10418,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "New Jasionka": ["", "Main line"],
+                    "Moscow Ring": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "[Moscow | CrazyCat's Palace]",
+            "id": 617,
+            "x": 6503,
+            "z": -10418,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "New Jasionka": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[6497, -10417], [6509, -10428]]
+            ]
         }
     ],
     "lines": {
@@ -8963,7 +8997,7 @@
                     "Main line": {
                         "vertices": [
                             [8728, -10455],
-                            [9458, -10455]
+                            [9457.5, -10455]
                         ],
                         "stations": [350, 329, 351, [352, "Nizhnekamsk branch"], 353]
                     },
@@ -9042,7 +9076,7 @@
                             [6436, -10392],
                             [6436, -10418]
                         ],
-                        "stations": [549, 343, 333, 499, [344, "Billgorod connector branch"]]
+                        "stations": [[344, "Billgorod connector branch"], 616, [549, "New Jasionka"], 343, 333, 499, [344, "Billgorod connector branch"]]
                     },
                     "Billgorod connector branch": {
                         "vertices": [
@@ -9070,7 +9104,13 @@
                             [6253, -10418],
                             [6032, -10418]
                         ],
-                        "stations": [344, 549, 550, 472]
+                        "stations": [344, 549, 550, 472],
+                        "concurrencies": {
+                            "Y=53 Ice Lines System.Moscow Ring": [
+                                [6436, -10418],
+                                [6253, -10418]
+                            ]
+                        }
                     },
                     "Elevator branch": {
                         "vertices": [
@@ -9467,6 +9507,60 @@
                             [9311, -9418]
                         ],
                         "stations": [[537, "Main line"], 541]
+                    }
+                }
+            }
+        },
+        "Siberian Ice lines": {
+            "North Orenburg": {
+                "prefix": "",
+                "code": "North.ORE",
+                "color": "bc002d",
+                "y": 56,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [10120, -9753],
+                            [10120, -10599],
+                            [10117, -10599],
+                            [10117, -9753]
+                        ],
+                        "stations": []
+                    }
+                }
+            },
+            "Perm — Yekaterinburg": {
+                "prefix": "",
+                "code": "PER-YKT",
+                "color": "bc002d",
+                "y": 56,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [10029, -10596],
+                            [11005, -10596],
+                            [11005, -10599],
+                            [10029, -10599]
+                        ],
+                        "stations": []
+                    }
+                }
+            },
+            "East Frejlord": {
+                "prefix": "",
+                "code": "PER-YKT",
+                "color": "bc002d",
+                "y": 56,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [9457.5, -10455],
+                            [9457.5, -10443.5],
+                            [10120, -10443.5],
+                            [10120, -10447.5],
+                            [9457.5, -10447.5]
+                        ],
+                        "stations": []
                     }
                 }
             }
@@ -10388,6 +10482,22 @@
                         "vertices": [
                             [6200, -7376],
                             [6200, -9643]
+                        ],
+                        "stations": []
+                    }
+                }
+            },
+            "Ratzakah": {
+                "prefix": "",
+                "code": "",
+                "color": "2a2a2a",
+                "y": 55,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [12218, -11688],
+                            [10911, -11688],
+                            [10911, -10911]
                         ],
                         "stations": []
                     }
