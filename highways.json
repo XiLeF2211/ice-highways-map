@@ -3975,7 +3975,7 @@
             }
         },
         {
-            "name": "North Moscow JCT",
+            "name": "Moscow (Borovichi JCT)",
             "type": "jct",
             "id": 333,
             "x": 6580,
@@ -4115,7 +4115,7 @@
             ]
         },
         {
-            "name": "[Moscow | Billgorod route] JCT",
+            "name": "Moscow (Billgorod JCT)",
             "type": "jct",
             "id": 344,
             "x": 6580,
@@ -6060,7 +6060,7 @@
             }
         },
         {
-            "name": "[Moscow | Rybinsk station]",
+            "name": "Moscow (Rybinsk station)",
             "id": 499,
             "x": 6716,
             "z": -10676,
@@ -6709,7 +6709,7 @@
             }
         },
         {
-            "name": "[Moscow | New Jasionka route] JCT",
+            "name": "Moscow (New Jasionka JCT)",
             "type": "jct",
             "id": 549,
             "x": 6253,
@@ -8375,7 +8375,7 @@
                             [-13840, -9069],
                             [-13560, -9069],
                             [-13560, -7838],
-                            [-13872, -7838]
+                            [-13950, -7838]
                         ],
                         "stations": [137, 132, 135, 154, 153, 147, 151, 152, 542],
                         "concurrencies": {
