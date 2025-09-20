@@ -8175,7 +8175,7 @@
                 "color": "0000ff",
                 "y": 10,
                 "branches": {
-                    "Southern route": {
+                    "Western route": {
                         "vertices": [
                             [12524, -7603],
                             [12524, -7850],
@@ -8183,7 +8183,7 @@
                         ],
                         "stations": [271, 272, 556, 557]
                     },
-                    "Northern route": {
+                    "Eastern route": {
                         "vertices": [
                             [14983, -8008],
                             [15301, -8008],
@@ -8202,7 +8202,7 @@
                     "": {
                         "vertices": [
                             [10259, -5950],
-                            [10259, -5950]
+                            [9796, -5950]
                         ],
                         "stations": [618, 619]
                     }
