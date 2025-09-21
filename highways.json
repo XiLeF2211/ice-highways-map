@@ -7504,7 +7504,7 @@
             }
         },
         {
-            "name": "2nd Olympia JCT",
+            "name": "Bakhmut (1st JCT)",
             "type": "jct",
             "id": 611,
             "x": -22935,
@@ -7516,14 +7516,15 @@
             }
         },
         {
-            "name": " JCT",
+            "name": "Olympian Suburbs JCT",
             "type": "jct",
             "id": 612,
             "x": -22935,
             "z": -9027,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Willow Creek — Vancouver": ["", "Main line"]
+                    "Willow Creek — Vancouver": ["", "Main line"],
+                    "Cascadia — Seatle": ["", "Main line"]
                 }
             }
         },
@@ -7613,6 +7614,84 @@
             "lines": {
                 "TNIH": {
                     "Iran": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Neah Bay JCT",
+            "type": "jct",
+            "id": 620,
+            "x": -23188,
+            "z": -9027,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Cascadia — Seatle": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Neah Bay",
+            "id": 621,
+            "x": -23186,
+            "z": -9027,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Cascadia — Seatle": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-23191, -9025], [-23184, -9031]]
+            ]
+        },
+        {
+            "name": "Bakhmut (2nd JCT)",
+            "type": "jct",
+            "id": 622,
+            "x": -22906,
+            "z": -8914.5,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Cascadia — Seatle": ["", "Main line"],
+                    "Willow Creek — Vancouver": ["", "Olympia Connection branch"]
+                }
+            }
+        },
+        {
+            "name": "Canada JCT",
+            "type": "jct",
+            "id": 623,
+            "x": -22808,
+            "z": -11272,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Aklavik — Cascadia": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-22808, -11262], [-22807, -11277]]
+            ]
+        },
+        {
+            "name": "Rainbow Lake JCT",
+            "type": "jct",
+            "id": 624,
+            "x": -22808,
+            "z": -10662,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Aklavik — Cascadia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sitka JCT",
+            "type": "jct",
+            "id": 625,
+            "x": -22808,
+            "z": -10651.5,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Aklavik — Cascadia": ["", "Main line"]
                 }
             }
         }
@@ -8976,7 +9055,7 @@
         "Cascadian Ice lines": {
             "Willow Creek — Vancouver":{
                 "prefix": "",
-                "code": "",
+                "code": "WIC-VAN",
                 "color": "90EE90",
                 "y": 9,
                 "branches": {
@@ -8996,6 +9075,45 @@
                             [-22782, -7700]
                         ],
                         "stations": [[603, "Main line"], 615]
+                    },
+                    "Olympia Connection branch": {
+                        "vertices": [
+                            [-22935, -8914.5],
+                            [-22906, -8914.5]
+                        ],
+                        "stations": [611, 622]
+                    }
+                }
+            },
+            "Cascadia — Seatle": {
+                "prefix": "",
+                "code": "",
+                "color": "90EE90",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-23197, -9027, "Not last point. Line continue to the west"],
+                            [-22906, -9027],
+                            [-22906, -8858],
+                            [-22808, -8858]
+                        ],
+                        "stations": [620, 621, 612, 622]
+                    }
+                }
+            },
+            "Aklavik — Cascadia": {
+                "prefix": "",
+                "code": "AKL-CSC",
+                "color": "90EE90",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-22808, -11880, "Not last point. Line continue to the west"],
+                            [-22808, -8840, "Not last point. Line continue to the south"]
+                        ],
+                        "stations": [623, 624, 625]
                     }
                 }
             }
