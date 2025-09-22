@@ -57,6 +57,20 @@ async function init() {
     if (!highwayData) {
         console.log('debug: There was a problem with getting station and line data')
     }
+
+    const params = new URLSearchParams(window.location.search);
+    if (params.has('line')) {
+        let company = params.get('company');
+        let line = params.get('line');
+        showLine(company, line, highwayData.lines[company][line]);
+        viewHistory.push(['line', company, line, highwayData.lines[company][line]]);
+        locate(Object.values(highwayData.lines[company][line].branches)[0].vertices[0][0], Object.values(highwayData.lines[company][line].branches)[0].vertices[0][1]);
+    } else if (params.has('station')) {
+        showStation(highwayData.stations[params.get('station')]);
+        viewHistory.push(['station', highwayData.stations[params.get('station')]]);
+        locate(highwayData.stations[params.get('station')].x, highwayData.stations[params.get('station')].z);
+    }
+
     lineFilterOpts();
     listLine()
     listStation();
@@ -274,6 +288,12 @@ function showLine(companyName, lineName, line) {
     goToDetails('line')
 
     document.getElementById('line-name').textContent = (companyName != '' ? companyName + ': ' : '') + lineName + ' line'
+    document.getElementById('line-name').addEventListener('click', () => {
+        if (history.pushState) {
+            let newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?line=' + lineName + '&company=' + companyName;
+            window.history.pushState({path:newurl},'',newurl);
+        }
+    });
     if (line.code.length > 0) document.getElementById('line-code').textContent = `Code: ${line.code}`
     else document.getElementById('line-code').textContent = ''
     document.getElementById('line-y').textContent = `y-level (ice block level) at ${line.y}`
@@ -348,7 +368,13 @@ function showStation(station) {
     goToTab('station')
     goToDetails('station')
 
-    document.getElementById('station-name').textContent = station.name
+    document.getElementById('station-name').textContent = station.name;
+    document.getElementById('station-name').addEventListener('click', () => {
+        if (history.pushState) {
+            let newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?station=' + station.id;
+            window.history.pushState({path:newurl},'',newurl);
+        }
+    });
     document.getElementById('station-notes').innerHTML = `${station.notes ? station.notes : ''}`
     document.getElementById('station-location').innerHTML = `X: ${station.x} Z: ${station.z} <a onclick="locate(${station.x}, ${station.z})">Locate</a>`
     document.getElementById('elevator-ys').innerHTML = ''

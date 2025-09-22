@@ -163,6 +163,23 @@ dl> :nth-of-type(2n) {
     padding: 0;
 }
 
+#line-name {
+    position: relative;
+}
+
+#line-name:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+#line-name:hover::before {
+    position: absolute;
+    left: 27px;
+    content: "#";
+    color: lightgray;
+    cursor: pointer;
+}
+
 #line-stations {
     padding: 0;
     padding-right: 5px;
@@ -190,6 +207,23 @@ dl> :nth-of-type(2n) {
     padding: 20px;
     background-color: var(--secondary-color);
     color: var(--text-color);
+}
+
+#station-name {
+    position: relative;
+}
+
+#station-name:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+#station-name:hover::before {
+    position: absolute;
+    left: 27px;
+    content: "#";
+    color: lightgray;
+    cursor: pointer;
 }
 
 .searchbar {
