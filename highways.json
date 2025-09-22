@@ -4246,6 +4246,9 @@
             "lines": {
                 "Y=53 Ice Lines System": {
                     "Khazar-Frejlord": ["", "Main line"]
+                },
+                "Ural Ice lines": {
+                    "Frejlord": ["", "Main line"]
                 }
             }
         },
@@ -7121,7 +7124,7 @@
             "z": -11688,
             "lines": {
                 "Local": {
-                    "Narodnyi local": ["", "Bamboo branch"]
+                    "Yamalo": ["", "Yamalo"]
                 },
                 "Intercontinental": {
                     "Ratzakah": ["", "Main line"]
@@ -7751,6 +7754,253 @@
             "lines": {
                 "Local": {
                     "Porolissum Metro": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "1Klass JCT",
+            "type": "jct",
+            "id": 631,
+            "x": 10215.5,
+            "z": -10597.5,
+            "lines": {
+                "Ural Ice lines": {
+                    "Perm - Yekaterinburg": ["", "Main line"],
+                    "Ural Ring": ["", ""]
+                }
+            },
+            "areas": [
+                [[10213, -10595], [10218, -10600]]
+            ]
+        },
+        {
+            "name": "Frejlord",
+            "id": 632,
+            "x": 9581.5,
+            "z": -10445.5,
+            "lines": {
+                "Ural Ice lines": {
+                    "Frejlord": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[9563, -10437], [9584, -10449]]
+            ]
+        },
+        {
+            "name": "Orenburg",
+            "id": 633,
+            "x": 10118.5,
+            "z": -9753,
+            "lines": {
+                "Ural Ice lines": {
+                    "North Orenburg": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ufa",
+            "id": 634,
+            "x": 10118.5,
+            "z": -10207.5,
+            "lines": {
+                "Ural Ice lines": {
+                    "North Orenburg": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[10111, -10197], [10125, -10218]]
+            ]
+        },
+        {
+            "name": "East Frejlord JCT",
+            "type": "jct",
+            "id": 635,
+            "x": 10118.5,
+            "z": -10445.5,
+            "lines": {
+                "Ural Ice lines": {
+                    "North Orenburg": ["", "Main line"],
+                    "Frejlord": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[10116, -10442], [10121, -10449]]
+            ]
+        },
+        {
+            "name": "Perm-Ural JCT",
+            "type": "jct",
+            "id": 636,
+            "x": 10118.5,
+            "z": -10597.5,
+            "lines": {
+                "Ural Ice lines": {
+                    "North Orenburg": ["", "Main line"],
+                    "Perm - Yekaterinburg": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[10116, -10595], [10121, -10600]]
+            ]
+        },
+        {
+            "name": "Haruharu",
+            "id": 637,
+            "x": 10648,
+            "z": -10597.5,
+            "lines": {
+                "Ural Ice lines": {
+                    "Perm - Yekaterinburg": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[10643, -10595], [10653, -10609]],
+                [[10646, -10608], [10650, -10626]],
+                [[10649, -10622], [10652, -10625]]
+            ]
+        },
+        {
+            "name": "Yekaterinburg ",
+            "id": 638,
+            "x": 11005,
+            "z": -10597.5,
+            "lines": {
+                "Ural Ice lines": {
+                    "Perm - Yekaterinburg": ["", "Main line"],
+                    "Ural Ring": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[11004, -10595], [11010, -10600]],
+                [[11009, -10596], [11014, -10599]],
+                [[11012, -10591], [11026, -10604]]
+            ]
+        },
+        {
+            "name": "1Klass Point",
+            "id": 639,
+            "x": 10215.5,
+            "z": -10991,
+            "lines": {
+                "Ural Ice lines": {
+                    "Ural Ring": ["", ""]
+                }
+            },
+            "areas": [
+                [[10213, -10979], [10223, -10998]]
+            ]
+        },
+        {
+            "name": "North 1Klass JCT",
+            "type": "jct",
+            "id": 640,
+            "x": 10215.5,
+            "z": -11001.5,
+            "lines": {
+                "Ural Ice lines": {
+                    "Ural Ring": ["", ""]
+                }
+            },
+            "areas": [
+                [[10213, -10999], [10218, -11004]]
+            ]
+        },
+        {
+            "name": "1Klass 2nd Point",
+            "id": 641,
+            "x": 10215.5,
+            "z": -11124,
+            "lines": {
+                "Ural Ice lines": {
+                    "Ural Ring": ["", ""]
+                }
+            },
+            "areas": [
+                [[10213, -11112], [10224, -11137]]
+            ]
+        },
+        {
+            "name": "Minada JCT",
+            "type": "jct",
+            "id": 642,
+            "x": 10520.5,
+            "z": -11247.5,
+            "lines": {
+                "Ural Ice lines": {
+                    "Ural Ring": ["", ""]
+                }
+            },
+            "areas": [
+                [[10519, -11245], [10522, -11250]]
+            ]
+        },
+        {
+            "name": "",
+            "id": 643,
+            "x": 10809.5,
+            "z": -11247.5,
+            "lines": {
+                "Ural Ice lines": {
+                    "Ural Ring": ["", ""]
+                }
+            },
+            "areas": [
+                [[10807, -11245], [10811, -11266]]
+            ]
+        },
+        {
+            "name": "Ratzakan route JCT",
+            "type": "jct",
+            "id": 644,
+            "x": 10911,
+            "z": -11247.5,
+            "lines": {
+                "Ural Ice lines": {
+                    "Ural Ring": ["", ""]
+                },
+                "Intercontinental": {
+                    "Ratzakah": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[10909, -11245], [10913, -11250]]
+            ]
+        },
+        {
+            "name": "Ural Ring Emergency exit",
+            "id": 645,
+            "x": 10961,
+            "z": -11247.5,
+            "lines": {
+                "Ural Ice lines": {
+                    "Ural Ring": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Karpinsk",
+            "id": 646,
+            "x": 11019.5,
+            "z": -11072,
+            "lines": {
+                "Ural Ice lines": {
+                    "Ural Ring": ["", ""]
+                }
+            },
+            "areas": [
+                [[11013, -11062], [11022, -11082]],
+                [[11008, -11069], [11014, -11075]]
+            ]
+        },
+        {
+            "name": "Ratzakah",
+            "id": 647,
+            "x": 12146,
+            "z": -11688,
+            "lines": {
+                "Intercontinental": {
+                    "Ratzakah": ["", "Main line"]
                 }
             }
         }
@@ -8548,7 +8798,7 @@
                             [-13161, -8200],
                             [-13161, -8270]
                         ],
-                        "stations": [150, 149, 148, 147, 139],
+                        "stations": [150, 149, 148, 147, 139, 542],
                         "concurrencies": {
                             "MTA.Green": [
                                 [-13873, -7838],
@@ -9743,13 +9993,13 @@
                             [10117, -10599],
                             [10117, -9753]
                         ],
-                        "stations": []
+                        "stations": [634, 635, 636]
                     }
                 }
             },
-            "Perm — Yekaterinburg": {
+            "Perm - Yekaterinburg": {
                 "prefix": "",
-                "code": "PER-YKT",
+                "code": "PER-YKB",
                 "color": "bc002d",
                 "y": 56,
                 "branches": {
@@ -9760,13 +10010,13 @@
                             [11005, -10599],
                             [10029, -10599]
                         ],
-                        "stations": []
+                        "stations": [636, 631, 637, 638]
                     }
                 }
             },
-            "East Frejlord": {
+            "Frejlord": {
                 "prefix": "",
-                "code": "PER-YKT",
+                "code": "FRE",
                 "color": "bc002d",
                 "y": 56,
                 "branches": {
@@ -9778,11 +10028,11 @@
                             [10120, -10447.5],
                             [9457.5, -10447.5]
                         ],
-                        "stations": []
+                        "stations": [353, 632, 635]
                     }
                 }
             },
-            "": {
+            "Ural Ring": {
                 "prefix": "",
                 "code": "",
                 "color": "bc002d",
@@ -9800,7 +10050,7 @@
                             [11018, -11246],
                             [11018, -10611]
                         ],
-                        "stations": []
+                        "stations": [631, 639, 640, 641, 642, 643, 644, 645, 646, 638]
                     },
                     "": {
                         "vertices": [
@@ -10770,7 +11020,7 @@
                             [10911, -11688],
                             [10911, -11250]
                         ],
-                        "stations": []
+                        "stations": [580, 647, 644]
                     }
                 }
             }
