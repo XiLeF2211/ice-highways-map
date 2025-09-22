@@ -3409,6 +3409,9 @@
             "lines": {
                 "Intercontinental": {
                     "Kushan Metro": ["", "Porolissum branch"]
+                },
+                "Local": {
+                    "Porolissum Metro": ["", "Kushan Metro Access branch"]
                 }
             },
             "areas": [
@@ -7705,6 +7708,51 @@
                     "Gujarat": ["", "Main line (Makran Line)"]
                 }
             }
+        },
+        {
+            "name": "Military HQ (Kushan)",
+            "id": 627,
+            "x": 9646,
+            "z": -7596,
+            "lines": {
+                "Local": {
+                    "Porolissum Metro": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kushan Metro Access JCT",
+            "type": "jct",
+            "id": 628,
+            "x": 9703,
+            "z": -7638,
+            "lines": {
+                "Local": {
+                    "Porolissum Metro": ["", "Main line to Kushan Metro Access branch"]
+                }
+            }
+        },
+        {
+            "name": "Storage Building (Porolissum)",
+            "id": 629,
+            "x": 9769,
+            "z": -7369,
+            "lines": {
+                "Local": {
+                    "Porolissum Metro": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Modern Spawn (Kushan)",
+            "id": 630,
+            "x": 9829,
+            "z": -7325,
+            "lines": {
+                "Local": {
+                    "Porolissum Metro": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -10055,11 +10103,9 @@
                         "vertices": [
                             [10665.5, -12634.5],
                             [10615.5, -12634.5],
-
                             [10615.5, -12728.5],
                             [10545.5, -12728.5],
                             [10615.5, -12728.5],
-
                             [10615.5, -12634.5],
                             [10413.5, -12634.5],
                             [10413.5, -12722.5]
@@ -10103,6 +10149,34 @@
                             [12220, -11888]
                         ],
                         "stations": []
+                    }
+                }
+            },
+            "Porolissum Metro": {
+                "prefix": "",
+                "code": "Porolissum",
+                "color": "bcba49",
+                "y": 52,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [9646, -7596],
+                            [9646, -7638],
+                            [9703, -7638],
+                            [9703, -7500],
+                            [9769, -7500],
+                            [9769, -7369],
+                            [9829, -7369],
+                            [9829, -7325]
+                        ],
+                        "stations": [627, [628, "Kushan Metro Access branch"], 629, 630]
+                    },
+                    "Kushan Metro Access branch": {
+                        "vertices": [
+                            [9703, -7638],
+                            [9703, -7664]
+                        ],
+                        "stations": [[628, "Main line"], 288]
                     }
                 }
             }
@@ -10581,7 +10655,6 @@
                         ],
                         "stations": [576]
                     },
-
                     "1st Vertical line": {
                         "vertices": [
                             [19000, -13192],
