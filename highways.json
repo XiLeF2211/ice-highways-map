@@ -3599,8 +3599,8 @@
         {
             "name": "Chechnya",
             "id": 301,
-            "x": 8269,
-            "z": -8254,
+            "x": 8198, 
+            "z": -8281,
             "lines": {
                 "Intercontinental": {
                     "Chitograd Ice Highways": ["", "Main Line"]
@@ -10999,7 +10999,8 @@
                             [8583, -8153],
                             [8512, -8153],
                             [8269, -8153],
-                            [8269, -8254]
+                            [8269, -8281],
+                            [8198, -8281]
                         ],
                         "stations": [292, 540, 538, 293, 294, [295, "TNIH Connector branch"], [296, "Chitograd local branch"], 298, 301]
                     },
