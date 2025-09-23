@@ -8003,6 +8003,107 @@
                     "Ratzakah": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Zaragoza",
+            "id": 648,
+            "x": -488,
+            "z": -7731,
+            "lines": {
+                "Aragon Ice Highways": {
+                    "Aragon Line": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-484, -7751], [-497, -7745]],
+                [[-497, -7751], [-493, -7726]],
+                [[-486, -7736], [-497, -7726]],
+                [[-489, -7736], [-486, -7726]]
+            ]
+        },
+        {
+            "name": "Barcelona",
+            "id": 649,
+            "x": -174,
+            "z": -7726,
+            "lines": {
+                "Aragon Ice Highways": {
+                    "Aragon Line": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-179, -7723], [-172, -7729]]
+            ]
+        },
+        {
+            "name": "Valencia JCT",
+            "type": "jct",
+            "id": 650,
+            "x": -174,
+            "z": -7466,
+            "lines": {
+                "Aragon Ice Highways": {
+                    "Aragon Line": ["", "Main line to Valencia branch"]
+                }
+            }
+        },
+        {
+            "name": "Valencia",
+            "id": 651,
+            "x": -263,
+            "z": -7726,
+            "lines": {
+                "Aragon Ice Highways": {
+                    "Aragon Line": ["", "Valencia branch"]
+                }
+            },
+            "areas": [
+                [[-276, -7464], [-258, -7470]],
+                [[-277, -7471], [-273, -7468]],
+                [[-259, -7475], [-262, -7470]],
+                [[-271, -7460], [-263, -7466]],
+                [[-265, -7512], [-269, -7469]],
+                [[-265, -7512], [-321, -7508]],
+                [[-265, -7508], [-300, -7504]]
+            ]
+        },
+        {
+            "name": "Ibiza JCT",
+            "type": "jct",
+            "id": 652,
+            "x": -54,
+            "z": -7466,
+            "lines": {
+                "Aragon Ice Highways": {
+                    "Aragon Line": ["", "Main line to Ibiza branch"]
+                }
+            }
+        },
+        {
+            "name": "Ibiza",
+            "id": 653,
+            "x": -54,
+            "z": -7372,
+            "lines": {
+                "Aragon Ice Highways": {
+                    "Aragon Line": ["", "Ibiza branch"]
+                }
+            }
+        },
+        {
+            "name": "Mallorca",
+            "id": 654,
+            "x": 256,
+            "z": -7466,
+            "lines": {
+                "Aragon Ice Highways": {
+                    "Aragon Line": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[254, -7468], [261, -7455]],
+                [[252, -7458], [256, -7451]]
+            ]
         }
     ],
     "lines": {
@@ -10044,7 +10145,6 @@
                             [11021, -11249],
                             [10214, -11249],
                             [10214, -10596],
-
                             [10217, -10596],
                             [10217, -11246],
                             [11018, -11246],
@@ -10146,6 +10246,39 @@
                             [11620, -6771]
                         ],
                         "stations": [600, 601]
+                    }
+                }
+            }
+        },
+        "Aragon Ice Highways": {
+            "Aragon Line":{
+                "prefix": "",
+                "code": "AG",
+                "color": "fcde02",
+                "y": 1,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-488, -7731],
+                            [-174, -7731],
+                            [-174, -7466],
+                            [256, -7466]
+                        ],
+                        "stations": [648, 649, [650, "Valencia branch"], [652, "Ibiza branch"], 654]
+                    },
+                    "Valencia branch": {
+                        "vertices": [
+                            [-174, -7466],
+                            [-263, -7466]
+                        ],
+                        "stations": [[650, "Main line"], 651]
+                    },
+                    "Ibiza branch": {
+                        "vertices": [
+                            [-54, -7466],
+                            [-54, -7372]
+                        ],
+                        "stations": [[652, "Main line"], 653]
                     }
                 }
             }
