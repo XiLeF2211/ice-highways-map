@@ -3577,7 +3577,7 @@
                     "Chitograd-Khazar": ["", ""]
                 },
                 "Y=42 Ice lines": {
-                    "Baikal—Lithuania": ["", "Main line"]
+                    "Baikal - Lithuania": ["", "Main line"]
                 }
             }
         },
@@ -4276,7 +4276,7 @@
                     "Lower Billgorod-Khazar": ["", ""]
                 },
                 "Y=42 Ice lines": {
-                    "Baikal—Lithuania": ["", "Main line"]
+                    "Baikal - Lithuania": ["", "Main line"]
                 }
             }
         },
@@ -5725,12 +5725,12 @@
                     "New Jasionka": ["", "Main line"]
                 },
                 "Y=42 Ice lines": {
-                    "Baikal—Lithuania": ["", "Main line"]
+                    "Baikal - Lithuania": ["", "Main line"]
                 },
                 "Intercontinental": {
                     "Old Y=63 West-Russian": ["", "New Jasionka branch"],
                     "Old Y=65 Moscow Suburban": ["", "Smolensk branch"],
-                    "Kiev—Petersburg Tract": ["", "New Jasionka branch"]
+                    "Kiev - Petersburg Tract": ["", "New Jasionka branch"]
                 }
             },
             "areas": [
@@ -6519,7 +6519,7 @@
             "z": -10183,
             "lines": {
                 "Y=42 Ice lines": {
-                    "Baikal—Lithuania": ["", "Main line"]
+                    "Baikal - Lithuania": ["", "Main line"]
                 }
             }
         },
@@ -6533,7 +6533,7 @@
             "y2": 53,
             "lines": {
                 "Y=42 Ice lines": {
-                    "Baikal—Lithuania": ["", "Main line"]
+                    "Baikal - Lithuania": ["", "Main line"]
                 },
                 "Y=53 Ice Lines System": {
                     "Kazakh's steeps": ["", "Main line"]
@@ -6550,7 +6550,7 @@
             "y2": 42,
             "lines": {
                 "Y=42 Ice lines": {
-                    "Baikal—Lithuania": ["", "Main line"]
+                    "Baikal - Lithuania": ["", "Main line"]
                 }
             }
         },
@@ -6562,7 +6562,7 @@
             "z": -9283,
             "lines": {
                 "Y=42 Ice lines": {
-                    "Baikal—Lithuania": ["", "Main line"]
+                    "Baikal - Lithuania": ["", "Main line"]
                 }
             }
         },
@@ -6576,7 +6576,7 @@
             "y2": 1,
             "lines": {
                 "Y=42 Ice lines": {
-                    "Baikal—Lithuania": ["", "Main line"]
+                    "Baikal - Lithuania": ["", "Main line"]
                 },
                 "Intercontinental": {
                     "Chitograd Ice Highways": ["", "Main line"]
@@ -6590,7 +6590,7 @@
             "z": -10054,
             "lines": {
                 "Y=42 Ice lines": {
-                    "Baikal—Lithuania": ["", "Main line"]
+                    "Baikal - Lithuania": ["", "Main line"]
                 }
             },
             "areas": [
@@ -6617,7 +6617,7 @@
             "z": -9418,
             "lines": {
                 "Y=42 Ice lines": {
-                    "Baikal—Lithuania": ["", "Main line"]
+                    "Baikal - Lithuania": ["", "Main line"]
                 }
             }
         },
@@ -6786,7 +6786,7 @@
                     "New Jasionka": ["", "Elevator branch"]
                 },
                 "Y=42 Ice lines": {
-                    "Baikal—Lithuania": ["", "Main line"]
+                    "Baikal - Lithuania": ["", "Main line"]
                 }
             }
         },
@@ -7316,7 +7316,7 @@
             "z": -10570,
             "lines": {
                 "Intercontinental": {
-                    "Kiev—Petersburg Tract": ["", ""]
+                    "Kiev - Petersburg Tract": ["", ""]
                 }
             },
             "areas": [
@@ -7336,7 +7336,7 @@
                     "New Jasionka": ["", "Elevator branch"]
                 },
                 "Intercontinental": {
-                    "Kiev—Petersburg Tract": ["", ""]
+                    "Kiev - Petersburg Tract": ["", ""]
                 }
             }
         },
@@ -7348,7 +7348,7 @@
             "z": -9499.5,
             "lines": {
                 "Intercontinental": {
-                    "Kiev—Petersburg Tract": ["", ""]
+                    "Kiev - Petersburg Tract": ["", ""]
                 }
             },
             "areas": [
@@ -7363,7 +7363,7 @@
             "z": -9499.5,
             "lines": {
                 "Intercontinental": {
-                    "Kiev—Petersburg Tract": ["", ""]
+                    "Kiev - Petersburg Tract": ["", ""]
                 }
             },
             "areas": [
@@ -8310,6 +8310,35 @@
                     "Nankyoku Shinkansen": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Moscow (Palace Valley)",
+            "id": 672,
+            "x": 6525,
+            "z": -10541,
+            "lines": {
+                "Intercontinental": {
+                    "Old Y=65 Moscow Suburban": ["", ""]
+                }
+            },
+            "areas": [
+                [[6516, -10539], [6534, -10559]]
+            ]
+        },
+        {
+            "name": "JCT",
+            "type": "jct",
+            "id": 673,
+            "x": 6550,
+            "z": -9874,
+            "lines": {
+                "Intercontinental": {
+                    "Kiev - Petersburg Tract": ["", "Smolensk branch"]
+                }
+            },
+            "areas": [
+                [[6516, -10539], [6534, -10559]]
+            ]
         }
     ],
     "lines": {
@@ -10240,7 +10269,7 @@
                     }
                 }
             },
-            "Baikal—Lithuania": {
+            "Baikal - Lithuania": {
                 "prefix": "",
                 "code": "BAI-LIT",
                 "color": "EBDECF",
@@ -11243,13 +11272,14 @@
                 "branches": {
                     "Smolensk branch": {
                         "vertices": [
-                            [6254, -10412],
+                            [6525, -10541],
+                            [6525, -10412],
                             [6063, -10412],
                             [6063, -10408],
                             [6063, -10412],
                             [5505, -10412]
                         ],
-                        "stations": [475, 472, 551]
+                        "stations": [475, 472, 551, 672]
                     }
                 }
             },
@@ -11355,7 +11385,7 @@
                     }
                 }
             },
-            "Kiev—Petersburg Tract": {
+            "Kiev - Petersburg Tract": {
                 "prefix": "",
                 "code": "KIV-SPB",
                 "color": "FF005F",
@@ -11379,7 +11409,7 @@
                     },
                     "New Jasionka branch": {
                         "vertices": [
-                            [6333, -10570],
+                            [6550, -10570],
                             [6070.5, -10570],
                             [6070.5, -10565.5],
                             [6070.5, -10570],
@@ -11412,6 +11442,14 @@
                         "vertices": [
                             [6200, -7376],
                             [6200, -9643]
+                        ],
+                        "stations": []
+                    },
+                    "South Moscow": {
+                        "vertices": [
+                            [6550, -10063],
+                            [6550, -9692],
+                            [6336, -9692]
                         ],
                         "stations": []
                     }
