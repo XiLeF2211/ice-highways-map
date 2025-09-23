@@ -8011,7 +8011,7 @@
             "z": -7731,
             "lines": {
                 "Aragon Ice Highways": {
-                    "Aragon Line": ["", "Main line"]
+                    "Aragon": ["", "Main line"]
                 }
             },
             "areas": [
@@ -8028,7 +8028,7 @@
             "z": -7726,
             "lines": {
                 "Aragon Ice Highways": {
-                    "Aragon Line": ["", "Main line"]
+                    "Aragon": ["", "Main line"]
                 }
             },
             "areas": [
@@ -8043,7 +8043,7 @@
             "z": -7466,
             "lines": {
                 "Aragon Ice Highways": {
-                    "Aragon Line": ["", "Main line to Valencia branch"]
+                    "Aragon": ["", "Main line to Valencia branch"]
                 }
             }
         },
@@ -8051,10 +8051,11 @@
             "name": "Valencia",
             "id": 651,
             "x": -263,
-            "z": -7726,
+            "z": -7466,
             "lines": {
                 "Aragon Ice Highways": {
-                    "Aragon Line": ["", "Valencia branch"]
+                    "Aragon": ["", "Valencia branch"],
+                    "Poitou-Europe": ["", "Main Line"]
                 }
             },
             "areas": [
@@ -8075,7 +8076,7 @@
             "z": -7466,
             "lines": {
                 "Aragon Ice Highways": {
-                    "Aragon Line": ["", "Main line to Ibiza branch"]
+                    "Aragon": ["", "Main line to Ibiza branch"]
                 }
             }
         },
@@ -8086,7 +8087,8 @@
             "z": -7372,
             "lines": {
                 "Aragon Ice Highways": {
-                    "Aragon Line": ["", "Ibiza branch"]
+                    "Aragon": ["", "Ibiza branch"],
+                    "Africa": ["", "Ibiza branch"]
                 }
             }
         },
@@ -8097,12 +8099,194 @@
             "z": -7466,
             "lines": {
                 "Aragon Ice Highways": {
-                    "Aragon Line": ["", "Main line"]
+                    "Aragon": ["", "Main line"],
+                    "Africa": ["", "Mallorca branch"]
                 }
             },
             "areas": [
                 [[254, -7468], [261, -7455]],
                 [[252, -7458], [256, -7451]]
+            ]
+        },
+        {
+            "name": "Zaragoza (Poitou-Europe Line)",
+            "id": 655,
+            "x": -319,
+            "z": -7951,
+            "lines": {
+                "Aragon Ice Highways": {
+                    "Poitou-Europe": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-360, -7953], [-317, -7949]]
+            ]
+        },
+        {
+            "name": "Barcelona JCT",
+            "type": "jct",
+            "id": 656,
+            "x": -271,
+            "z": -7961,
+            "lines": {
+                "Aragon Ice Highways": {
+                    "Poitou-Europe": ["", "Main line to North Barcelona branch"]
+                }
+            }
+        },
+        {
+            "name": "North Barcelona",
+            "id": 657,
+            "x": -172,
+            "z": -7957,
+            "lines": {
+                "Aragon Ice Highways": {
+                    "Poitou-Europe": ["", "North Barcelona branch"]
+                }
+            }
+        },
+        {
+            "name": "Dental Town JCT",
+            "type": "jct",
+            "id": 658,
+            "x": -271,
+            "z": -8071,
+            "lines": {
+                "Aragon Ice Highways": {
+                    "Poitou-Europe": ["", "Main line to Dental Town branch"]
+                }
+            }
+        },
+        {
+            "name": "Dental Town",
+            "id": 659,
+            "x": -271,
+            "z": -8104,
+            "lines": {
+                "Aragon Ice Highways": {
+                    "Poitou-Europe": ["", "Dental Town branch"]
+                }
+            }
+        },
+        {
+            "name": "Foix",
+            "id": 660,
+            "x": -58,
+            "z": -8071,
+            "lines": {
+                "Aragon Ice Highways": {
+                    "Poitou-Europe": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Albi-Foix",
+            "type": "semi2",
+            "id": 661,
+            "x": 105,
+            "z": -8141,
+            "lines": {
+                "Aragon Ice Highways": {
+                    "Poitou-Europe": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nantes (JCT)",
+            "type": "jct",
+            "id": 662,
+            "x": 144,
+            "z": -8238,
+            "lines": {
+                "Aragon Ice Highways": {
+                    "Poitou-Europe": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Satif",
+            "id": 663,
+            "x": 818,
+            "z": -6994,
+            "lines": {
+                "Aragon Ice Highways": {
+                    "Africa": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[819, -6852], [815, -6995]]
+            ]
+        },
+        {
+            "name": "Mallorca-Bahawa JCT",
+            "type": "jct",
+            "id": 664,
+            "x": 254,
+            "z": -6972,
+            "lines": {
+                "Aragon Ice Highways": {
+                    "Africa": ["", "Main line to Mallorce branch"]
+                }
+            }
+        },
+        {
+            "name": "Ibiza-Centropolis JCT",
+            "type": "jct",
+            "id": 665,
+            "x": -54,
+            "z": -6972,
+            "lines": {
+                "Aragon Ice Highways": {
+                    "Africa": ["", "Main line to Ibiza branch"]
+                }
+            }
+        },
+        {
+            "name": "Portaneda JCT",
+            "type": "jct",
+            "id": 666,
+            "x": -577,
+            "z": -6420,
+            "lines": {
+                "Aragon Ice Highways": {
+                    "Africa": ["", "Main line to Ibiza branch"]
+                }
+            }
+        },
+        {
+            "name": "Errachidia",
+            "id": 667,
+            "x": -1034,
+            "z": -6420,
+            "lines": {
+                "Aragon Ice Highways": {
+                    "Africa": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Taza",
+            "id": 668,
+            "x": -1167,
+            "z": -6420,
+            "lines": {
+                "Aragon Ice Highways": {
+                    "Africa": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Rahat",
+            "id": 669,
+            "x": -1379,
+            "z": -6420,
+            "lines": {
+                "Aragon Ice Highways": {
+                    "Africa": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-1442, -6418], [-1374, -6422]]
             ]
         }
     ],
@@ -10251,7 +10435,7 @@
             }
         },
         "Aragon Ice Highways": {
-            "Aragon Line":{
+            "Aragon":{
                 "prefix": "",
                 "code": "AG",
                 "color": "fcde02",
@@ -10279,6 +10463,74 @@
                             [-54, -7372]
                         ],
                         "stations": [[652, "Main line"], 653]
+                    }
+                }
+            },
+            "Poitou-Europe":{
+                "prefix": "",
+                "code": "PE",
+                "color": "1492ff",
+                "y": 40,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-319, -7510],
+                            [-319, -7961],
+                            [-271, -7961],
+                            [-271, -8071],
+                            [105, -8071],
+                            [105, -8238],
+                            [144, -8238]
+                        ],
+                        "stations": [651, 655, [656, "North Barcelona branch"], [658, "Dental Town branch"], 660, 661, 662]
+                    },
+                    "North Barcelona branch": {
+                        "vertices": [
+                            [-271, -7961],
+                            [-172, -7961],
+                            [-172, -7957]
+                        ],
+                        "stations": [[656, "Main line"], 657]
+                    },
+                    "Dental Town branch": {
+                        "vertices": [
+                            [-271, -8071],
+                            [-271, -8104]
+                        ],
+                        "stations": [[658, "Main line"], 659]
+                    }
+                }
+            },
+            "Africa":{
+                "prefix": "",
+                "code": "AF",
+                "color": "d87f33",
+                "y": 1,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [818, -6994],
+                            [510, -6994],
+                            [510, -6972],
+                            [-400, -6972],
+                            [-400, -6420],
+                            [-1379, -6420]
+                        ],
+                        "stations": [663, [664, "Mallorca branch"], [665, "Ibiza branch"], 666, 667, 668, 669]
+                    },
+                    "Mallorca branch": {
+                        "vertices": [
+                            [254, -6972],
+                            [254, -7456]
+                        ],
+                        "stations": [[664, "Main line"], 654]
+                    },
+                    "Ibiza branch": {
+                        "vertices": [
+                            [-54, -6972],
+                            [-54, -7372]
+                        ],
+                        "stations": [[665, "Main line"], 653]
                     }
                 }
             }
