@@ -6055,12 +6055,14 @@
             }
         },
         {
-            "name": "Bamboo's Church",
+            "name": "Bamboo (North Siberian line)",
             "id": 498,
-            "x": 10470,
-            "z": -12774,
+            "x": 10447.5,
+            "z": -12729.5,
             "lines": {
-                
+                "Intercontinental": {
+                    "North Siberian": ["", "Main line"]
+                }
             }
         },
         {
@@ -7110,6 +7112,9 @@
             "lines": {
                 "Local": {
                     "Narodnyi local": ["", "Bamboo branch"]
+                },
+                "Intercontinental": {
+                    "North Siberian": ["", "Main line"]
                 }
             }
         },
@@ -7497,14 +7502,14 @@
             }
         },
         {
-            "name": "Nation Spawn JCT",
+            "name": "Cascadian nation spawn JCT",
             "type": "jct",
             "id": 610,
             "x": -22935,
             "z": -8848,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Willow Creek - Vancouver": ["", "Main line"]
+                    "Willow Creek - Vancouver": ["", "Main line to Cascadian nation spawn branch"]
                 }
             }
         },
@@ -7552,7 +7557,7 @@
             "z": -8848,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Willow Creek - Vancouver": ["", "Main line"]
+                    "Willow Creek - Vancouver": ["", "Cascadian nation spawn branch"]
                 }
             },
             "areas": [
@@ -7657,7 +7662,7 @@
             "lines": {
                 "Cascadian Ice lines": {
                     "Cascadia - Seattle": ["", "Main line"],
-                    "Willow Creek - Vancouver": ["", "Olympia Connection branch"]
+                    "Willow Creek - Vancouver": ["", "Olympia connector branch"]
                 }
             }
         },
@@ -9760,11 +9765,16 @@
                         "vertices": [
                             [-22935, -7475],
                             [-22935, -8848],
-                            [-22915, -8848],
-                            [-22935, -8848],
                             [-22935, -9152]
                         ],
-                        "stations": [[603, "Lassen"], 604, [605, ""], [606, ""], 607, [608, ""], [609, ""], [610, "Nation Spawn"], 614, [611, ""], [612, ""], [613, ""]]
+                        "stations": [[603, "Lassen branch"], 604, [605, ""], [606, ""], 607, [608, ""], [609, ""], [610, "Cascadian nation spawn"], [611, "Olympia connector branch"], 612, 613]
+                    },
+                    "Cascadian nation spawn branch": {
+                        "vertices": [
+                            [-22935, -8848],
+                            [-22915, -8848]
+                        ],
+                        "stations": [[610, "Main line"], 614]
                     },
                     "Lassen branch": {
                         "vertices": [
@@ -9773,12 +9783,12 @@
                         ],
                         "stations": [[603, "Main line"], 615]
                     },
-                    "Olympia Connection branch": {
+                    "Olympia connector branch": {
                         "vertices": [
                             [-22935, -8914.5],
                             [-22906, -8914.5]
                         ],
-                        "stations": [611, 622]
+                        "stations": [[611, "Main line"], 622]
                     }
                 }
             },
@@ -10836,7 +10846,7 @@
                             [10323, -12051.5],
                             [9805, -12051.5]
                         ],
-                        "stations": [505, 504, 439],
+                        "stations": [505, [504, "Ice farm line"], 439],
                         "concurrencies": {
                             "Y=42 Ice lines.Arkhangelsk - Eestifur": [
                                 [11052, -12051.5],
@@ -10851,18 +10861,21 @@
                         ],
                         "stations": [502, 503, [504, "Main line"]]
                     },
-                    "Bamboo branch": {
+                    "1st Bamboo branch": {
                         "vertices": [
                             [10665.5, -12634.5],
-                            [10615.5, -12634.5],
-                            [10615.5, -12728.5],
-                            [10545.5, -12728.5],
-                            [10615.5, -12728.5],
-                            [10615.5, -12634.5],
                             [10413.5, -12634.5],
                             [10413.5, -12722.5]
                         ],
-                        "stations": [503, 577, 578, 579]
+                        "stations": [503, [577, "2nd Bamboo branch"], 579]
+                    },
+                    "2nd Bamboo branch": {
+                        "vertices": [
+                            [10615.5, -12634.5],
+                            [10615.5, -12728.5],
+                            [10545.5, -12728.5]
+                        ],
+                        "stations": [[577, "1st Bamboo branch"],578]
                     }
                 }
             },
@@ -11462,7 +11475,7 @@
                             [10413.5, -12729.5],
                             [8781.5, -12729.5]
                         ],
-                        "stations": []
+                        "stations": [498, 579]
                     }
                 }
             },
