@@ -748,7 +748,7 @@
             "lines": {
                 "TNIH": {
                     "Bangla-Caspian": ["", "Main line"],
-                    "Chittagong Bypass": ["", ""]
+                    "Chittagong Bypass": ["", "Main line"]
                 }
             }
         },
@@ -829,7 +829,7 @@
             "z": -4780,
             "lines": {
                 "TNIH": {
-                    "Bangla-Caspian": ["", "Main line to Santulan  branch"]
+                    "Bangla-Caspian": ["", "Main line to Santulan branch"]
                 }
             }
         },
@@ -977,7 +977,7 @@
             "z": 3288,
             "lines": {
                 "SEAN": {
-                    "Green": ["3", ""]
+                    "Green": ["3", "Main line"]
                 }
             }
         },
@@ -1330,7 +1330,7 @@
             "z": 3858,
             "lines": {
                 "SEAN": {
-                    "Light blue": ["-undesignated", ""]
+                    "Light blue": ["-undesignated", "Main line"]
                 }
             },
             "notes": "Closed"
@@ -1460,25 +1460,25 @@
             }
         },
         {
-            "name": "Quercus Patraea JCT",
+            "name": "Quercus Petraea JCT",
             "type": "jct",
             "id": 122,
             "x": 26247,
             "z": 5300,
             "lines": {
                 "Pilbara National Highway": {
-                    "East-West": ["", "Main line to Quercus Patraea branch"]
+                    "East-West": ["", "Main line to Quercus Petraea branch"]
                 }
             }
         },
         {
-            "name": "Quercus Patraea",
+            "name": "Quercus Petraea",
             "id": 123,
             "x": 26247,
             "z": 6399,
             "lines": {
                 "Pilbara National Highway": {
-                    "East-West": ["", "Quercus Patraea branch"]
+                    "East-West": ["", "Quercus Petraea branch"]
                 }
             }
         },
@@ -1927,7 +1927,7 @@
             "z": 13723,
             "lines": {
                 "Antarctic Union": {
-                    "South Pole Metro": ["", "South"]
+                    "South Pole Metro": ["", "Southern Branch to Avon Branch"]
                 }
             }
         },
@@ -1938,7 +1938,7 @@
             "z": 15057,
             "lines": {
                 "Antarctic Union": {
-                    "South Pole Metro": ["", "South"]
+                    "South Pole Metro": ["", "Southern Branch"]
                 }
             }
         },
@@ -1949,7 +1949,7 @@
             "z": 16125,
             "lines": {
                 "Antarctic Union": {
-                    "South Pole Metro": ["", "South"]
+                    "South Pole Metro": ["", "Southern Branch"]
                 }
             }
         },
@@ -1960,7 +1960,7 @@
             "z": 16507,
             "lines": {
                 "Antarctic Union": {
-                    "South Pole Metro": ["", "South"]
+                    "South Pole Metro": ["", "Southern Branch"]
                 }
             }
         },
@@ -2019,7 +2019,7 @@
             "z": 13723,
             "lines": {
                 "Antarctic Union": {
-                    "South Pole Metro": ["", ""]
+                    "South Pole Metro": ["", "Avon Branch"]
                 }
             }
         },
@@ -2052,7 +2052,7 @@
             "z": 13046,
             "lines": {
                 "Antarctic Union": {
-                    "South Pole Metro": ["", ""]
+                    "South Pole Metro": ["", "Omega Mundi Branch"]
                 }
             }
         },
@@ -2063,7 +2063,7 @@
             "z": 12472,
             "lines": {
                 "Antarctic Union": {
-                    "South Pole Metro": ["", ""]
+                    "South Pole Metro": ["", "Clayton Branch"]
                 }
             }
         },
@@ -2075,7 +2075,7 @@
             "z": 12762,
             "lines": {
                 "Antarctic Union": {
-                    "South Pole Metro": ["", ""]
+                    "South Pole Metro": ["", " to Anarca Branch"]
                 }
             }
         },
@@ -2089,7 +2089,7 @@
             "z": 12895,
             "lines": {
                 "Antarctic Union": {
-                    "South Pole Metro": ["", ""]
+                    "South Pole Metro": ["", "Anarca Branch"]
                 }
             }
         },
@@ -2101,7 +2101,7 @@
             "z": 14852,
             "lines": {
                 "Antarctic Union": {
-                    "South Pole Metro": ["", ""]
+                    "South Pole Metro": ["", "Anarca Branch to New Frostis Branch"]
                 }
             }
         },
@@ -2112,7 +2112,7 @@
             "z": 14934,
             "lines": {
                 "Antarctic Union": {
-                    "South Pole Metro": ["", ""]
+                    "South Pole Metro": ["", "Anarca Branch"]
                 }
             }
         },
@@ -2123,7 +2123,7 @@
             "z": 14766,
             "lines": {
                 "Antarctic Union": {
-                    "South Pole Metro": ["", ""]
+                    "South Pole Metro": ["", "New Frostis Branch"]
                 }
             }
         },
@@ -2134,7 +2134,7 @@
             "z": 13056,
             "lines": {
                 "Antarctic Union": {
-                    "South Pole Metro": ["", ""]
+                    "South Pole Metro": ["", "Aurora Point Branch"]
                 }
             }
         },
@@ -2145,7 +2145,7 @@
             "z": 12114,
             "lines": {
                 "Antarctic Union": {
-                    "South Pole Metro": ["", ""]
+                    "South Pole Metro": ["", "Abandoned Town Branch"]
                 }
             }
         },
@@ -2156,7 +2156,7 @@
             "z": 12657,
             "lines": {
                 "Antarctic Union": {
-                    "South Pole Metro": ["", ""]
+                    "South Pole Metro": ["", "Triton Branch"]
                 }
             }
         },
@@ -2657,7 +2657,7 @@
             "lines": {
                 "TNIH": {
                     "Bangla-Caspian": ["", "Main line"],
-                    "Afghan": ["", ""]
+                    "Afghan": ["", "Main Line"]
                 }
             },
             "areas": [
@@ -3110,7 +3110,7 @@
             "z": -6667,
             "lines": {
                 "TNIH": {
-                    "Afghan": ["", ""]
+                    "Afghan": ["", "Main Line"]
                 }
             }
         },
@@ -3122,7 +3122,7 @@
             "z": -6510,
             "lines": {
                 "TNIH": {
-                    "Afghan": ["", ""]
+                    "Afghan": ["", "Main Line"]
                 }
             }
         },
@@ -3133,7 +3133,7 @@
             "z": -6329,
             "lines": {
                 "TNIH": {
-                    "Afghan": ["", ""]
+                    "Afghan": ["", "Main Line"]
                 }
             }
         },
@@ -3145,7 +3145,7 @@
             "z": -6329,
             "lines": {
                 "TNIH": {
-                    "Afghan": ["", ""],
+                    "Afghan": ["", "Main Line"],
                     "Loopstan": ["", "Main Line"]
                 }
             }
@@ -3157,7 +3157,7 @@
             "z": -6264,
             "lines": {
                 "TNIH": {
-                    "Afghan": ["", ""]
+                    "Afghan": ["", "Main Line"]
                 }
             }
         },
@@ -3373,7 +3373,7 @@
             "z": -7710,
             "lines": {
                 "Intercontinental": {
-                    "Kushan Metro": ["", "Main Line to Mazandaran branch"],
+                    "Kushan Metro": ["", "Main line to Mazandaran branch"],
                     "Chitograd Ice Highways": ["", "TNIH connector branch"]
                 }
             }
@@ -3385,7 +3385,7 @@
             "z": -7793,
             "lines": {
                 "Intercontinental": {
-                    "Kushan Metro": ["", "Main Line"]
+                    "Kushan Metro": ["", "Main line"]
                 }
             }
         },
@@ -3397,7 +3397,7 @@
             "z": -7710,
             "lines": {
                 "Intercontinental": {
-                    "Kushan Metro": ["", "Main Line to Porolissum branch"]
+                    "Kushan Metro": ["", "Main line to Porolissum branch"]
                 }
             }
         },
@@ -3428,7 +3428,7 @@
             "z": -7710,
             "lines": {
                 "Intercontinental": {
-                    "Kushan Metro": ["", "Main Line to Bakü branch"]
+                    "Kushan Metro": ["", "Main line to Bakü branch"]
                 }
             }
         },
@@ -3439,7 +3439,7 @@
             "z": -7787,
             "lines": {
                 "Intercontinental": {
-                    "Kushan Metro": ["", "Main Line"]
+                    "Kushan Metro": ["", "Main line"]
                 }
             }
         },
@@ -3450,7 +3450,7 @@
             "z": -7477,
             "lines": {
                 "Intercontinental": {
-                    "Kushan Metro": ["", "Main Line"]
+                    "Kushan Metro": ["", "Main line"]
                 }
             }
         },
@@ -3588,7 +3588,7 @@
             "z": -8024,
             "lines": {
                 "Intercontinental": {
-                    "Chitograd Ice Highways": ["", "Main Line"]
+                    "Chitograd Ice Highways": ["", "Chitograd local branch"]
                 }
             },
             "areas": [
@@ -3631,7 +3631,7 @@
             "y2": 53,
             "lines": {
                 "Intercontinental": {
-                    "Chitograd Ice Highways": ["", "Chitograd Bypass"]
+                    "Chitograd Ice Highways": ["", "Chitograd local branch"]
                 },
                 "Y=53 Ice Lines System": {
                     "Chitograd-Khazar": ["", ""]
@@ -3702,7 +3702,7 @@
             "z": -5452,
             "lines": {
                 "TNIH": {
-                    "Lower Himalayas": ["", "Lhasa branch"]
+                    "Lower Himalayas": ["", "Little Lhasa branch"]
                 }
             }
         },
@@ -4022,7 +4022,7 @@
             "lines": {
                 "Y=53 Ice Lines System": {
                     "Borovichi-Rybinsk-Novgorod": ["", "Main line"],
-                    "Petrograd": ["", ""]
+                    "Petrograd": ["", "Main line"]
                 }
             }
         },
@@ -4168,7 +4168,7 @@
             "z": -11090,
             "lines": {
                 "Y=53 Ice Lines System": {
-                    "Petrograd": ["", ""]
+                    "Petrograd": ["", "Main line"]
                 }
             }
         },
@@ -4180,7 +4180,7 @@
             "z": -11090,
             "lines": {
                 "Y=53 Ice Lines System": {
-                    "Petrograd": ["", ""]
+                    "Petrograd": ["", "Main line to Petrozavodsk branch"]
                 }
             }
         },
@@ -4687,7 +4687,7 @@
             "z": -3999,
             "lines": {
                 "TNIH": {
-                    "Chittagong Bypass": ["", ""]
+                    "Chittagong Bypass": ["", "Main line"]
                 }
             }
         },
@@ -4699,8 +4699,8 @@
             "z": -3999,
             "lines": {
                 "TNIH": {
-                    "Chittagong Bypass": ["", ""],
-                    "Avachi Rapid": ["", ""]
+                    "Chittagong Bypass": ["", "Main line"],
+                    "Avachi Rapid": ["", "Main line"]
                 }
             }
         },
@@ -4711,7 +4711,7 @@
             "z": -4329,
             "lines": {
                 "TNIH": {
-                    "Chittagong Bypass": ["", ""]
+                    "Chittagong Bypass": ["", "Main line"]
                 }
             }
         },
@@ -4723,7 +4723,7 @@
             "z": -4411,
             "lines": {
                 "TNIH": {
-                    "Chittagong Bypass": ["", ""]
+                    "Chittagong Bypass": ["", "Main line"]
                 }
             }
         },
@@ -4734,7 +4734,7 @@
             "z": -4504,
             "lines": {
                 "TNIH": {
-                    "Chittagong Bypass": ["", ""]
+                    "Chittagong Bypass": ["", "Main line"]
                 }
             }
         },
@@ -4746,7 +4746,7 @@
             "z": -3998,
             "lines": {
                 "TNIH": {
-                    "Avachi Rapid": ["", ""]
+                    "Avachi Rapid": ["", "Main line"]
                 }
             }
         },
@@ -4760,7 +4760,7 @@
             "y2": 15,
             "lines": {
                 "TNIH": {
-                    "Avachi Rapid": ["", ""]
+                    "Avachi Rapid": ["", "Main line"]
                 }
             }
         },
@@ -4774,7 +4774,7 @@
             "y2": 10,
             "lines": {
                 "TNIH": {
-                    "Avachi Rapid": ["", ""]
+                    "Avachi Rapid": ["", "Main line"]
                 }
             }
         },
@@ -4785,7 +4785,7 @@
             "z": -10003,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", ""]
+                    "Russian Republic ice roads": ["", "Kazakhstan route"]
                 }
             }
         },
@@ -5163,7 +5163,7 @@
             ]
         },
         {
-            "name": "Arkhangelsk Central JCT",
+            "name": "Rybinsk route JCT",
             "type": "jct",
             "id": 428,
             "x": 6881,
@@ -5274,7 +5274,7 @@
             "lines": {
                 "Y=42 Ice lines": {
                     "Arkhangelsk - Eestifur": ["", "Main line"],
-                    "Arkhangelsk forest": ["", "X=9153 line"]
+                    "Arkhangelsk forest": ["", "X=9153 branch"]
                 }
             }
         },
@@ -5334,7 +5334,7 @@
             "lines": {
                 "Y=42 Ice lines": {
                     "Arkhangelsk - Eestifur": ["", "Main line"],
-                    "Komi": ["", "Bamboo"]
+                    "Komi": ["", "Bamboo - Minada - Orenburg"]
                 }
             }
         },
@@ -5436,7 +5436,7 @@
             "z": -11477,
             "lines": {
                 "Y=42 Ice lines": {
-                    "Petrozavodsk - Borovichi": ["", "Vytergra line"]
+                    "Petrozavodsk - Borovichi": ["", "Vytergra line to Kargopol line"]
                 }
             }
         },
@@ -5459,7 +5459,7 @@
             "z": -11477,
             "lines": {
                 "Y=42 Ice lines": {
-                    "Petrozavodsk - Borovichi": ["", "Vytergra line to Main line"]
+                    "Petrozavodsk - Borovichi": ["", "Main line to Vytergra line"]
                 }
             }
         },
@@ -5486,7 +5486,7 @@
             }
         },
         {
-            "name": "South Petrozavodsk Y=53 ↔ Y=42 Connector Elevator",
+            "name": "South Petrozavodsk Borovichi Y=53 ↔ Y=42 Connector Elevator",
             "type": "elev-we",
             "y1": 53,
             "y2": 42,
@@ -5495,7 +5495,7 @@
             "z": -11320,
             "lines": {
                 "Y=53 Ice Lines System": {
-                    "Petrograd": ["", "Main line"]
+                    "Petrograd": ["", "Petrozavodsk branch"]
                 },
                 "Y=42 Ice lines": {
                     "Petrozavodsk - Borovichi": ["", "Main line"]
@@ -5582,7 +5582,7 @@
             "z": -12792,
             "lines": {
                 "Y=42 Ice lines": {
-                    "Pechora": ["", "Pechora"]
+                    "Pechora": ["", ""]
                 }
             }
         },
@@ -5604,7 +5604,7 @@
             "z": -11105,
             "lines": {
                 "Y=53 Ice Lines System": {
-                    "Borovichi-Rybinsk-Novgorod": ["", ""]
+                    "Borovichi-Rybinsk-Novgorod": ["", "Ogre branch"]
                 }
             }
         },
@@ -5662,7 +5662,7 @@
             "z": -7022,
             "lines": {
                 "TNIH": {
-                    "Lower Bangla-Caspian": ["", "Main Line"],
+                    "Lower Bangla-Caspian": ["", "Main line"],
                     "Loopstan": ["", "SkyHaven JCT connector"]
                 }
             }
@@ -6010,7 +6010,7 @@
                     "Bamboo local system": ["", "Main line"]
                 },
                 "Y=42 Ice lines": {
-                    "Komi": ["", "Bamboo-Nenets"]
+                    "Komi": ["", "Bamboo - Nenets"]
                 }
             },
             "areas": [
@@ -6050,7 +6050,7 @@
             "z": -12774,
             "lines": {
                 "Y=53 Ice Lines System": {
-                    "Bamboo local system": ["", "Church line"]
+                    "Bamboo local system": ["", "Church branch"]
                 }
             }
         },
@@ -6060,9 +6060,7 @@
             "x": 10470,
             "z": -12774,
             "lines": {
-                "Y=53 Ice Lines System": {
-                    "Bamboo local system": ["", "Church line"]
-                }
+                
             }
         },
         {
@@ -6084,7 +6082,7 @@
             "z": -12736,
             "lines": {
                 "Y=42 Ice lines": {
-                    "Komi": ["", "(Bamboo - Nenets) to (Bamboo - Minada - Orenburg)"]
+                    "Komi": ["", "Bamboo - Nenets to Bamboo - Minada - Orenburg"]
                 }
             }
         },
@@ -6095,7 +6093,7 @@
             "z": -12692,
             "lines": {
                 "Y=42 Ice lines": {
-                    "Komi": ["", "Bamboo line"]
+                    "Komi": ["", "Bamboo - Minada - Orenburg"]
                 }
             },
             "areas": [
@@ -6201,7 +6199,7 @@
             "z": -2541,
             "lines": {
                 "National Laccadive Sea Highway": {
-                    "North": ["", "Kochi branch"]
+                    "North": ["", "Chennai branch"]
                 }
             }
         },
@@ -6551,7 +6549,7 @@
             "lines": {
                 "Y=42 Ice lines": {
                     "Baikal - Lithuania": ["", "Main line"],
-                    "Komi": ["", ""]
+                    "Komi": ["", "Bamboo - Minada - Orenburg"]
                 }
             }
         },
@@ -6580,7 +6578,7 @@
                     "Baikal - Lithuania": ["", "Main line"]
                 },
                 "Intercontinental": {
-                    "Chitograd Ice Highways": ["", "Main line"]
+                    "Chitograd Ice Highways": ["", "Main Line"]
                 }
             }
         },
@@ -6607,7 +6605,7 @@
             "z": -9246,
             "lines": {
                 "Intercontinental": {
-                    "Chitograd Ice Highways": ["", "Main line"]
+                    "Chitograd Ice Highways": ["", "Main Line"]
                 }
             }
         },
@@ -6618,7 +6616,7 @@
             "z": -9418,
             "lines": {
                 "Y=42 Ice lines": {
-                    "Baikal - Lithuania": ["", "Main line"]
+                    "Baikal - Lithuania": ["", "New Oblivion branch"]
                 }
             }
         },
@@ -6630,7 +6628,7 @@
             "lines": {
                 "MTA": {
                     "Green": ["", "Main line"],
-                    "Red": ["", "Main line"]
+                    "Red": ["", ""]
                 }
             },
             "areas": [
@@ -6700,7 +6698,7 @@
             "z": -1392,
             "lines": {
                 "National Laccadive Sea Highway": {
-                    "North": ["", "Line 3 to Uligan branch"]
+                    "North": ["", "3 to Uligan branch"]
                 }
             }
         },
@@ -6711,7 +6709,7 @@
             "z": -1392,
             "lines": {
                 "National Laccadive Sea Highway": {
-                    "North": ["", "Line 3 to Uligan branch"]
+                    "North": ["", "Uligan branch"]
                 }
             }
         },
@@ -6978,7 +6976,7 @@
             "z": -13192,
             "lines": {
                 "Intercontinental": {
-                    "Xotic-Xports Tram": ["", ""]
+                    "Xotic-Xports Tram": ["", "1st Horizontal line to 1st Vertical line"]
                 }
             }
         },
@@ -6990,7 +6988,7 @@
             "z": -13192,
             "lines": {
                 "Intercontinental": {
-                    "Xotic-Xports Tram": ["", ""]
+                    "Xotic-Xports Tram": ["", "1st Horizontal line to 3rd Vertical line"]
                 }
             }
         },
@@ -7002,7 +7000,7 @@
             "z": -13144,
             "lines": {
                 "Intercontinental": {
-                    "Xotic-Xports Tram": ["", ""]
+                    "Xotic-Xports Tram": ["", "2nd Horizontal line to 1st Vertical line"]
                 }
             }
         },
@@ -7014,7 +7012,7 @@
             "z": -13144,
             "lines": {
                 "Intercontinental": {
-                    "Xotic-Xports Tram": ["", ""]
+                    "Xotic-Xports Tram": ["", "2nd Horizontal line to 2nd Vertical line"]
                 }
             }
         },
@@ -7026,7 +7024,7 @@
             "z": -13144,
             "lines": {
                 "Intercontinental": {
-                    "Xotic-Xports Tram": ["", ""]
+                    "Xotic-Xports Tram": ["", "2nd Horizontal line to 3rd Vertical line"]
                 }
             }
         },
@@ -7038,7 +7036,7 @@
             "z": -13096,
             "lines": {
                 "Intercontinental": {
-                    "Xotic-Xports Tram": ["", ""]
+                    "Xotic-Xports Tram": ["", "3rd Horizontal line to 1st Vertical line"]
                 }
             }
         },
@@ -7050,7 +7048,7 @@
             "z": -13096,
             "lines": {
                 "Intercontinental": {
-                    "Xotic-Xports Tram": ["", ""]
+                    "Xotic-Xports Tram": ["", "3rd Horizontal line to 2nd Vertical line"]
                 }
             }
         },
@@ -7062,7 +7060,7 @@
             "z": -13096,
             "lines": {
                 "Intercontinental": {
-                    "Xotic-Xports Tram": ["", ""]
+                    "Xotic-Xports Tram": ["", "3rd Horizontal line to 3rd Vertical line"]
                 }
             }
         },
@@ -7074,7 +7072,7 @@
             "z": -13048,
             "lines": {
                 "Intercontinental": {
-                    "Xotic-Xports Tram": ["", ""]
+                    "Xotic-Xports Tram": ["", "4th Horizontal line to 3rd Vertical line"]
                 }
             }
         },
@@ -7125,7 +7123,7 @@
             "z": -11688,
             "lines": {
                 "Local": {
-                    "Yamalo": ["", "Yamalo"]
+                    "Yamalo": ["", ""]
                 },
                 "Intercontinental": {
                     "Ratzakah": ["", "Main line"]
@@ -7317,7 +7315,7 @@
             "z": -10570,
             "lines": {
                 "Intercontinental": {
-                    "Kiev - Petersburg Tract": ["", ""]
+                    "Kiev - Petersburg Tract": ["", "Main line to New Jasionka branch"]
                 }
             },
             "areas": [
@@ -7337,7 +7335,7 @@
                     "New Jasionka": ["", "Elevator branch"]
                 },
                 "Intercontinental": {
-                    "Kiev - Petersburg Tract": ["", ""]
+                    "Kiev - Petersburg Tract": ["", "New Jasionka branch"]
                 }
             }
         },
@@ -7531,7 +7529,7 @@
             "lines": {
                 "Cascadian Ice lines": {
                     "Willow Creek - Vancouver": ["", "Main line"],
-                    "Cascadia - Seatle": ["", "Main line"]
+                    "Cascadia - Seattle": ["", "Main line"]
                 }
             }
         },
@@ -7563,13 +7561,13 @@
             ]
         },
         {
-            "name": "Lessen",
+            "name": "Lassen",
             "id": 615,
             "x": -22782,
             "z": -7700,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Willow Creek - Vancouver": ["", "Lessen branch"]
+                    "Willow Creek - Vancouver": ["", "Lassen branch"]
                 }
             }
         },
@@ -7632,7 +7630,7 @@
             "z": -9027,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Cascadia - Seatle": ["", "Main line"]
+                    "Cascadia - Seattle": ["", "Main line"]
                 }
             }
         },
@@ -7643,7 +7641,7 @@
             "z": -9027,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Cascadia - Seatle": ["", "Main line"]
+                    "Cascadia - Seattle": ["", "Main line"]
                 }
             },
             "areas": [
@@ -7658,7 +7656,7 @@
             "z": -8914.5,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Cascadia - Seatle": ["", "Main line"],
+                    "Cascadia - Seattle": ["", "Main line"],
                     "Willow Creek - Vancouver": ["", "Olympia Connection branch"]
                 }
             }
@@ -7767,7 +7765,7 @@
             "lines": {
                 "Ural Ice lines": {
                     "Perm - Yekaterinburg": ["", "Main line"],
-                    "Ural Ring": ["", ""]
+                    "Ural Ring": ["", "Main line"]
                 }
             },
             "areas": [
@@ -7885,7 +7883,7 @@
             "z": -10991,
             "lines": {
                 "Ural Ice lines": {
-                    "Ural Ring": ["", ""]
+                    "Ural Ring": ["", "Main line"]
                 }
             },
             "areas": [
@@ -7900,7 +7898,7 @@
             "z": -11001.5,
             "lines": {
                 "Ural Ice lines": {
-                    "Ural Ring": ["", ""]
+                    "Ural Ring": ["", "Main line"]
                 }
             },
             "areas": [
@@ -7914,7 +7912,7 @@
             "z": -11124,
             "lines": {
                 "Ural Ice lines": {
-                    "Ural Ring": ["", ""]
+                    "Ural Ring": ["", "Main line"]
                 }
             },
             "areas": [
@@ -7929,7 +7927,7 @@
             "z": -11247.5,
             "lines": {
                 "Ural Ice lines": {
-                    "Ural Ring": ["", ""]
+                    "Ural Ring": ["", "Main line"]
                 }
             },
             "areas": [
@@ -7943,7 +7941,7 @@
             "z": -11247.5,
             "lines": {
                 "Ural Ice lines": {
-                    "Ural Ring": ["", ""]
+                    "Ural Ring": ["", "Main line"]
                 }
             },
             "areas": [
@@ -7958,7 +7956,7 @@
             "z": -11247.5,
             "lines": {
                 "Ural Ice lines": {
-                    "Ural Ring": ["", ""]
+                    "Ural Ring": ["", "Main line"]
                 },
                 "Intercontinental": {
                     "Ratzakah": ["", "Main line"]
@@ -7975,7 +7973,7 @@
             "z": -11247.5,
             "lines": {
                 "Ural Ice lines": {
-                    "Ural Ring": ["", ""]
+                    "Ural Ring": ["", "Main line"]
                 }
             }
         },
@@ -7986,7 +7984,7 @@
             "z": -11072,
             "lines": {
                 "Ural Ice lines": {
-                    "Ural Ring": ["", ""]
+                    "Ural Ring": ["", "Main line"]
                 }
             },
             "areas": [
@@ -8056,7 +8054,7 @@
             "lines": {
                 "Aragon Ice Highways": {
                     "Aragon": ["", "Valencia branch"],
-                    "Poitou-Europe": ["", "Main Line"]
+                    "Poitou-Europe": ["", "Main line"]
                 }
             },
             "areas": [
@@ -8319,7 +8317,7 @@
             "z": -10541,
             "lines": {
                 "Intercontinental": {
-                    "Old Y=65 Moscow Suburban": ["", ""]
+                    "Old Y=65 Moscow Suburban": ["", "Smolensk branch"]
                 }
             },
             "areas": [
@@ -8342,14 +8340,14 @@
             ]
         },
         {
-            "name": "1st Seatle JCT",
+            "name": "1st Seattle JCT",
             "type": "jct",
             "id": 674,
             "x": -22808,
             "z": -8858,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Cascadia - Seatle": ["", "Main line"],
+                    "Cascadia - Seattle": ["", "Main line"],
                     "Aklavik - Cascadia": ["", "Main line"]
                 }
             }
@@ -8362,7 +8360,7 @@
             "z": -8152,
             "lines": {
                 "Intercontinental": {
-                    "Chitograd Ice Highways": ["", "Main line to Jamalonious branch"]
+                    "Chitograd Ice Highways": ["", "Main Line to Jamalonious branch"]
                 }
             }
         },
@@ -8385,7 +8383,7 @@
             "z": -8018.5,
             "lines": {
                 "Intercontinental": {
-                    "Chitograd Ice Highways": ["", "Jamalonious branch to Grozny branch"]
+                    "Chitograd Ice Highways": ["", "Grozny branch"]
                 }
             },
             "areas": [
@@ -8743,7 +8741,7 @@
                         "stations": [226, 227, 467, 228, 229, 230, 231]
                     }
                 }
-                },
+            },
             "Haldwan-Castlers": {
                 "prefix": "",
                 "code": "HC",
@@ -8806,7 +8804,7 @@
                 "color": "aad400",
                 "y": 10,
                 "branches": {
-                    "": {
+                    "Main line": {
                         "vertices": [
                             [11620, -7022],
                             [11620, -7872]
@@ -8920,7 +8918,7 @@
                 "color": "ff5599",
                 "y": 10,
                 "branches": {
-                    "Main Line": {
+                    "Main line": {
                         "vertices": [
                             [16950, -3999],
                             [16625, -3999],
@@ -8936,7 +8934,7 @@
                 "color": "006680",
                 "y": 15,
                 "branches": {
-                    "Main Line": {
+                    "Main line": {
                         "vertices": [
                             [17687, -3997],
                             [16625, -3997],
@@ -9413,21 +9411,21 @@
                             [20500, 12762],
                             [17495, 12762]
                         ],
-                        "stations": [157, 158, 159, 160]
+                        "stations": [157, 158, 159, [174, "Anarca Branch"], 160]
                     },
                     "Southern Branch": {
                         "vertices": [
                             [20500, 12762],
                             [20500, 16507]
                         ],
-                        "stations": [158, 161, 162, 163, 164]
+                        "stations": [158, [161, "Avon Branch"], 162, 163, 164]
                     },
                     "Avon Branch": {
                         "vertices": [
                             [20500, 13723],
                             [21151, 13723]
                         ],
-                        "stations": [161, 169]
+                        "stations": [[161, "Southern Branch"], 169]
                     },
                     "Omega Mundi Branch": {
                         "vertices": [
@@ -9450,7 +9448,7 @@
                             [17981, 12762],
                             [17981, 14934]
                         ],
-                        "stations": [174, 175, 176, 177]
+                        "stations": [[174, ""], 175, [176, "New Frostis Branch"], 177]
                     },
                     "New Frostis Branch": {
                         "vertices": [
@@ -9458,7 +9456,7 @@
                             [17237, 14852],
                             [17237, 14766]
                         ],
-                        "stations": [176, 178]
+                        "stations": [[176, "Anarca Branch"], 178]
                     },
                     "Aurora Point Branch": {
                         "vertices": [
@@ -9766,7 +9764,7 @@
                             [-22935, -8848],
                             [-22935, -9152]
                         ],
-                        "stations": [[603, "Lassen"], 604, 605, 606, 607, 608, 609, 610, 614, [611, "Olympia connector branch"], 612, 613]
+                        "stations": [[603, "Lassen"], 604, [605, ""], [606, ""], 607, [608, ""], [609, ""], [610, "Nation Spawn"], 614, [611, ""], [612, ""], [613, ""]]
                     },
                     "Lassen branch": {
                         "vertices": [
@@ -9780,11 +9778,11 @@
                             [-22935, -8914.5],
                             [-22906, -8914.5]
                         ],
-                        "stations": [[611, "Main line"], 622]
+                        "stations": [611, 622]
                     }
                 }
             },
-            "Cascadia - Seatle": {
+            "Cascadia - Seattle": {
                 "prefix": "",
                 "code": "",
                 "color": "90EE90",
@@ -9797,7 +9795,7 @@
                             [-22906, -8858],
                             [-22808, -8858]
                         ],
-                        "stations": [620, 621, 612, 622]
+                        "stations": [620, 621, 612, 622, 674]
                     }
                 }
             },
@@ -9812,7 +9810,7 @@
                             [-22808, -11880, "Not last point. Line continue to the west"],
                             [-22808, -8840, "Not last point. Line continue to the south"]
                         ],
-                        "stations": [623, 624, 625]
+                        "stations": [623, 624, 625, 674]
                     }
                 }
             }
@@ -9841,7 +9839,7 @@
                             [8754, -10066],
                             [8754, -10455]
                         ],
-                        "stations": [330, 298, 303, 324, 325, 326, 327, 328, 329]
+                        "stations": [330, 298, 303, 324, 325, 297, 299, 326, 327, 328, 329]
                     }
                 }
             },
@@ -9933,7 +9931,7 @@
                             [6436, -10392],
                             [6436, -10418]
                         ],
-                        "stations": [[344, "Billgorod connector branch"], 616, [549, "New Jasionka"], 343, 333, 499, [344, "Billgorod connector branch"]]
+                        "stations": [[344, "Billgorod connector branch"], 616, 549, 343, 333, 499, [344, "Billgorod connector branch"]]
                     },
                     "Billgorod connector branch": {
                         "vertices": [
@@ -9961,7 +9959,7 @@
                             [6253, -10418],
                             [6032, -10418]
                         ],
-                        "stations": [344, 549, 550, 472],
+                        "stations": [344, 617, 616, 549, 550, 472],
                         "concurrencies": {
                             "Y=53 Ice Lines System.Moscow Ring": [
                                 [6436, -10418],
@@ -10176,7 +10174,7 @@
                             [6881, -11012],
                             [6881, -12341]
                         ],
-                        "stations": [428, 442, [443, "Skilakici line"], 444, 445, 446, 338]
+                        "stations": [428, 442, [443, "Skilakick line"], 444, 445, 446, 338]
                     },
                     "Skilakici line": {
                         "vertices": [
@@ -10206,14 +10204,14 @@
                             [6881, -11477],
                             [6291, -11477]
                         ],
-                        "stations": [444, [448, "Kargopool"], 449, [450, "Main line"]]
+                        "stations": [444, [448, "Kargopool line"], 449, [450, "Main line"]]
                     },
                     "Kargopol line": {
                         "vertices": [
                             [6748, -11477],
                             [6748, -11242]
                         ],
-                        "stations": [[448, "Vytergra"], 454]
+                        "stations": [[448, "Vytergra line"], 454]
                     }
                 }
             },
@@ -10318,7 +10316,7 @@
                             [10571, -9798],
                             [10571, -9285]
                         ],
-                        "stations": [[500, "Bammbo - Nenets"], 501, 440, 536]
+                        "stations": [[500, "Bamboo - Nenets"], 501, 440, 536]
                     },
                     "Bamboo - Nenets": {
                         "vertices": [
@@ -10390,7 +10388,7 @@
                             [10117, -10599],
                             [10117, -9753]
                         ],
-                        "stations": [634, 635, 636]
+                        "stations": [633, 634, 635, 636]
                     }
                 }
             },
@@ -10426,6 +10424,13 @@
                             [9457.5, -10447.5]
                         ],
                         "stations": [353, 632, 635]
+                    },
+                    "": {
+                        "vertices": [
+                            [10911, -11250],
+                            [10911, -11246]
+                        ],
+                        "stations": []
                     }
                 }
             },
@@ -10452,8 +10457,7 @@
                         "vertices": [
                             [10911, -11250],
                             [10911, -11246]
-                        ],
-                        "stations": []
+                        ]
                     }
                 }
             }
@@ -11037,7 +11041,8 @@
                             [287, "Porolissum branch"],
                             [285, "Mazandaran branch"],
                             [289, "Bakü branch"],
-                            290
+                            290,
+                            291
                         ]
                     },
                     "Porolissum branch": {
@@ -11094,7 +11099,7 @@
                         ],
                         "stations": [292, 540, 538, 293, 294, [295, "TNIH Connector branch"], [296, "Chitograd local branch"], 298, [675, "Jamalonious branch"], 301]
                     },
-                    "TNIH Connector branch": {
+                    "TNIH connector branch": {
                         "vertices": [
                             [9252, -7710],
                             [9252, -8153]
@@ -11294,7 +11299,7 @@
                             [15230, -9137],
                             [15230, -8334]
                         ],
-                        "stations": [476, 477, 478, 479, 480]
+                        "stations": [476, 477, 478, [479, "Mongolia route"], 480]
                     },
                     "Mongolia branch": {
                         "vertices": [
@@ -11308,7 +11313,7 @@
                             [17231, -7942],
                             [18002, -7942]
                         ],
-                        "stations": [[479, "East Leningrad"], 481, 482, 483, 484, 485, 486, 487]
+                        "stations": [[479, "East Leningrad branch"], 481, 482, 483, 484, 485, 486, 487]
                     }
                 }
             },
@@ -11397,49 +11402,49 @@
                             [19062, -13192],
                             [18733, -13192]
                         ],
-                        "stations": [568, 569]
+                        "stations": [[568, "1st Vertical line"], [569, "3rd Vertical line"]]
                     },
                     "2nd Horizontal line": {
                         "vertices": [
                             [19000, -13144],
                             [18832, -13144]
                         ],
-                        "stations": [570, 571, 572]
+                        "stations": [[570, "1st Vertical line"], [571, "2nd Vertical line"], [572, "3rd Vertical line"]]
                     },
                     "3rd Horizontal line": {
                         "vertices": [
                             [19000, -13096],
                             [18864, -13096]
                         ],
-                        "stations": [573, 574, 575]
+                        "stations": [[573, "1st Vertical line"], [574, "2nd Vertical line"], [575, "3rd Vertical line"]]
                     },
                     "4th Horizontal line": {
                         "vertices": [
                             [18866, -13048],
                             [18952, -13048]
                         ],
-                        "stations": [576]
+                        "stations": [[576, "3rd Vertical line"]]
                     },
                     "1st Vertical line": {
                         "vertices": [
                             [19000, -13192],
                             [19000, -13096]
                         ],
-                        "stations": [568, 570, 573]
+                        "stations": [[568, "1st Horizontal line"], [570, "2nd Horizontal line"], [573, "3rd Horizontal line"]]
                     },
                     "2nd Vertical line": {
                         "vertices": [
                             [18952, -13144],
                             [18952, -13048]
                         ],
-                        "stations": [571, 574]
+                        "stations": [[571, "2nd Horizontal line"], [574, "3rd Horizontal line"]]
                     },
                     "3rd Vertical line": {
                         "vertices": [
                             [18872, -13310],
                             [18872, -13048]
                         ],
-                        "stations": [569, 572, 575, 576]
+                        "stations": [[569, "1st Horizontal line"], [572, "2nd Horizontal line"], [575, "3rd Horizontal line"], [576, "4th Horizontal line"]]
                     }
                 }
             },
@@ -11476,7 +11481,7 @@
                             [5794, -11211],
                             [5794, -9498]
                         ],
-                        "stations": [598, [596, "New Jasionka"]]
+                        "stations": [598, [596, "New Jasionka branch"]]
                     },
                     "New Jasionka branch": {
                         "vertices": [
@@ -11486,7 +11491,7 @@
                             [6070.5, -10570],
                             [5794, -10570]
                         ],
-                        "stations": [472, [596, "Main line"]]
+                        "stations": [597, 472, [596, "Main line"]]
                     },
                     "Short Kiev - Billgorod":{
                         "vertices": [
@@ -11509,7 +11514,7 @@
                             [6200, -9643],
                             [6200, -7376]
                         ],
-                        "stations": [[599, "Kiev Billgorod"]]
+                        "stations": [[599, "Long Kiev Billgorod branch"]]
                     },
                     "South Moscow": {
                         "vertices": [
