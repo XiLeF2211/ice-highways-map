@@ -8394,6 +8394,53 @@
             "areas": [
                 [[8204, -8017], [8216, -8028]]
             ]
+        },
+        {
+            "name": "X=-3037 Point",
+            "id": 678,
+            "x": -3037,
+            "z": -9729.5,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland - Canada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "X=-3976 Point",
+            "id": 679,
+            "x": -3976,
+            "z": -9729.5,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland - Canada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "X=-5800 Point",
+            "id": 680,
+            "x": -5800,
+            "z": -9729.5,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland - Canada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Aklavik",
+            "id": 681,
+            "x": -23099,
+            "z": -11880,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Aklavik - Cascadia": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-23092, -11889], [-23119, -11871]]
+            ]
         }
     ],
     "lines": {
@@ -9817,10 +9864,11 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [-22808, -11880, "Not last point. Line continue to the west"],
+                            [-23099, -11880],
+                            [-22808, -11880],
                             [-22808, -8840, "Not last point. Line continue to the south"]
                         ],
-                        "stations": [623, 624, 625, 674]
+                        "stations": [681, 623, 624, 625, 674]
                     }
                 }
             }
@@ -10372,7 +10420,7 @@
                             [5638, -10054],
                             [4369, -10054]
                         ],
-                        "stations": [534, 535, 536, 299, 355, [537, "New Oblivion"], 538, 553, 472, 539]
+                        "stations": [534, 535, 536, [537, "New Oblivion branch"], 538, 299, 355, 553, 472, 539]
                     },
                     "New Oblivion branch": {
                         "vertices": [
@@ -11552,6 +11600,21 @@
                             [10911, -11250]
                         ],
                         "stations": [580, 647, 644]
+                    }
+                }
+            },
+            "Ireland - Canada": {
+                "prefix": "",
+                "code": "IRE-CAN",
+                "color": "445D7D",
+                "y": 66,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-2212, -9729.5],
+                            [-10519, -9729.5]
+                        ],
+                        "stations": [678, 679, 680]
                     }
                 }
             }
