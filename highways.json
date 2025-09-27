@@ -8679,7 +8679,7 @@
                     "Lecce": ["", "Main line"]
                 },
                 "Aragon Ice Highways": {
-                    "Aragon": ["", "Genoa connector branch"]
+                    "Aragon": ["", "Ibiza branch"]
                 }
             }
         },
@@ -12052,7 +12052,7 @@
                             [5794, -11211],
                             [5794, -9498]
                         ],
-                        "stations": [598, [596, "New Jasionka branch"]]
+                        "stations": [598, 701, [596, "New Jasionka branch"]]
                     },
                     "New Jasionka branch": {
                         "vertices": [
