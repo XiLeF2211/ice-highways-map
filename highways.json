@@ -3475,7 +3475,8 @@
             "z": -9145,
             "lines": {
                 "Intercontinental": {
-                    "Chitograd Ice Highways": ["", "Main Line"]
+                    "Chitograd Ice Highways": ["", "Main Line"],
+                    "European Russia": ["", "Chechnya line"]
                 }
             }
         },
@@ -3488,7 +3489,14 @@
                 "Intercontinental": {
                     "Chitograd Ice Highways": ["", "Main Line"]
                 }
-            }
+            },
+            "areas": [
+                [[9257, -8257], [9263, -8296]],
+                [[9246, -8287], [9286, -8291]],
+                [[9284, -8270], [9286, -8291]],
+                [[9246, -8292], [9240, -8288]],
+                [[9237, -8289], [9240, -8291]]
+            ]
         },
         {
             "name": "Caspian JCT",
@@ -7820,7 +7828,7 @@
             ]
         },
         {
-            "name": "East Frejlord JCT",
+            "name": "IF JCT",
             "type": "jct",
             "id": 635,
             "x": 10118.5,
@@ -8340,6 +8348,7 @@
             "z": -9874,
             "lines": {
                 "Intercontinental": {
+                    "European Russia": ["", "Main line"],
                     "Kiev - Petersburg Tract": ["", "South Moscow"]
                 }
             },
@@ -8673,8 +8682,131 @@
                     "Aragon": ["", "Genoa connector branch"]
                 }
             }
+        },
+        {
+            "name": "Cork",
+            "id": 697,
+            "x": -2212,
+            "z": -9729.5,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland - Canada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ultiville",
+            "id": 698,
+            "x": -10520,
+            "z": -9729.5,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland - Canada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kupilovka JCT",
+            "type": "jct",
+            "id": 699,
+            "x": 7785,
+            "z": -9874,
+            "lines": {
+                "Intercontinental": {
+                    "European Russia": ["", "Main line to Chechnya line"]
+                }
+            }
+        },
+        {
+            "name": "North East Kursk JCT",
+            "type": "jct",
+            "id": 700,
+            "x": 6300,
+            "z": -9874,
+            "lines": {
+                "Intercontinental": {
+                    "European Russia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tacos JCT",
+            "type": "jct",
+            "id": 701,
+            "x": 5795.5,
+            "z": -9874,
+            "lines": {
+                "Intercontinental": {
+                    "European Russia": ["", "Main line"],
+                    "Kiev - Petersburg Tract": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[5793, -9873], [5798, -9875]]
+            ]
+        },
+        {
+            "name": "Z=-8889 Point JCT",
+            "type": "jct",
+            "id": 702,
+            "x": 7785,
+            "z": -8889,
+            "lines": {
+                "Intercontinental": {
+                    "European Russia": ["", "Chechnya line"]
+                }
+            }
+        },
+        {
+            "name": "Chechnya (Industrial JCT)",
+            "type": "jct",
+            "id": 703,
+            "x": 8226,
+            "z": -8360,
+            "lines": {
+                "Intercontinental": {
+                    "European Russia": ["", "Chechnya line"]
+                }
+            }
+        },
+        {
+            "name": "Chechnya (Industrial tower)",
+            "id": 704,
+            "x": 8226,
+            "z": -8352,
+            "lines": {
+                "Intercontinental": {
+                    "European Russia": ["", "Chechnya line"]
+                }
+            },
+            "areas": [
+                [[8225, -8351], [8239, -8342]]
+            ]
+        },
+        {
+            "name": "X=12191 Point JCT",
+            "type": "jct",
+            "id": 705,
+            "x": 12191,
+            "z": -7969,
+            "lines": {
+                "Intercontinental": {
+                    "European Russia": ["", "Chechnya line"]
+                }
+            }
+        },
+        {
+            "name": "X=13601 Point JCT",
+            "type": "jct",
+            "id": 706,
+            "x": 13601,
+            "z": -7969,
+            "lines": {
+                "Intercontinental": {
+                    "European Russia": ["", "Chechnya line"]
+                }
+            }
         }
-
     ],
     "lines": {
         "SEAN": {
@@ -11487,7 +11619,7 @@
                             [8269, -8010.5],
                             [8112, -8010.5]
                         ],
-                        "stations": [[675, "Main line"], [676, "Grozny branch"] ]
+                        "stations": [[675, "Main Line"], [676, "Grozny branch"] ]
                     },
                     "Grozny branch": {
                         "vertices": [
@@ -11495,6 +11627,40 @@
                             [8203, -8018.5]
                         ],
                         "stations": [[676, "Jamalonious branch"], 677]
+                    }
+                }
+            },
+            "European Russia": {
+                "prefix": "",
+                "code": "EUR.RUS",
+                "color": "ff0f44",
+                "y": 2,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [7839, -9874],
+                            [5600, -9874],
+                            [5600, -9771],
+                            [5055, -9771]
+                        ],
+                        "stations": [[699, "Chechnya line"], 673, 700, 701]
+                    },
+                    "Chechnya line": {
+                        "vertices": [
+                            [7785, -9874],
+                            [7785, -8801],
+                            [7965, -8801],
+                            [7965, -8360],
+                            [8226, -8360],
+                            [8226, -8352],
+                            [8226, -9144],
+                            [10383, -9144],
+                            [10383, -8250],
+                            [11351, -8250],
+                            [11351, -7969],
+                            [13601, -7969]
+                        ],
+                        "stations": [[699, "Main line"], 702, 703, 704, 293, 705, 706]
                     }
                 }
             },
@@ -11919,7 +12085,7 @@
                             [-2212, -9729.5],
                             [-10519, -9729.5]
                         ],
-                        "stations": [678, 679, 680]
+                        "stations": [697, 678, 679, 680, 698]
                     }
                 }
             }
