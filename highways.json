@@ -6650,7 +6650,7 @@
             }
         },
         {
-            "name": "Yugra Y=53 ↔ Y=54 Elevator",
+            "name": "Jugra Y=53 ↔ Y=54 Elevator",
             "type": "elev-we",
             "id": 544,
             "x": 12220,
@@ -6660,6 +6660,9 @@
             "lines": {
                 "Y=53 Ice Lines System": {
                     "Kazakh's steeps": ["", "Main line"]
+                },
+                "Local": {
+                    "Yamalo": ["", "Main line"]
                 }
             }
         },
@@ -7128,7 +7131,7 @@
             "z": -11688,
             "lines": {
                 "Local": {
-                    "Yamalo": ["", ""]
+                    "Yamalo": ["", "Main line"]
                 },
                 "Intercontinental": {
                     "Ratzakah": ["", "Main line"]
@@ -8653,6 +8656,23 @@
             "areas": [
                 [[3139, -7593], [3137, -7587]]
             ]
+        },
+        {
+            "name": "Aragon Y=19 ↔ Y=1 Ice line elevator",
+            "type": "elev-we",
+            "y1": 1,
+            "y2": 19,
+            "id": 696,
+            "x": -54,
+            "z": -7640,
+            "lines": {
+                "Genoa Ice lines": {
+                    "Lecce": ["", "Main line"]
+                },
+                "Aragon Ice Highways": {
+                    "Aragon": ["", "Genoa connector branch"]
+                }
+            }
         }
 
     ],
@@ -10124,13 +10144,21 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [54, -7640],
+                            [-54, -7640],
                             [1696, -7640],
                             [1696, -7627],
                             [3138, -7627],
                             [3138, -7592]
                         ],
-                        "stations": [687, 686, 691, 692, 693, 694, 695]
+                        "stations": [696, 687, 686, 691, 692, 693, 694, 695]
+                    },
+                    "": {
+                        "vertices": [
+                            [-49, -7640],
+                            [-49, -7636],
+                            [-54, -7636]
+                        ],
+                        "stations": []
                     }
                 }
             },
@@ -10388,7 +10416,7 @@
             },
             "Kazakh's steeps": {
                 "prefix": "",
-                "code": "KZ-st",
+                "code": "KAZAKH.steeps",
                 "color": "3F704D",
                 "y": 53,
                 "branches": {
@@ -10911,10 +10939,10 @@
                     },
                     "Ibiza branch": {
                         "vertices": [
-                            [-54, -7466],
+                            [-54, -7640],
                             [-54, -7372]
                         ],
-                        "stations": [[652, "Main line"], 653]
+                        "stations": [696, [652, "Main line"], 653]
                     }
                 }
             },
@@ -11226,11 +11254,11 @@
             },
             "Yamalo": {
                 "prefix": "",
-                "code": "YAM.loc",
+                "code": "YAM.local",
                 "color": "CC1CC1",
                 "y": 54,
                 "branches": {
-                    "": {
+                    "Main line": {
                         "vertices": [
                             [12220, -11610],
                             [12220, -11688],
@@ -11238,7 +11266,7 @@
                             [12220, -11688],
                             [12220, -11888]
                         ],
-                        "stations": []
+                        "stations": [544, 580]
                     }
                 }
             },
