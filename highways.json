@@ -4759,7 +4759,7 @@
             }
         },
         {
-            "name": "Mandalay ice stairs",
+            "name": "Mandalay Ice Stairs",
             "type": "elev-ew",
             "id": 394,
             "x": 16639,
@@ -4773,7 +4773,7 @@
             }
         },
         {
-            "name": "Rakhine ice stairs",
+            "name": "Rakhine Ice Stairs",
             "type": "elev-we",
             "id": 395,
             "x": 17676,
@@ -8804,6 +8804,44 @@
             "lines": {
                 "Intercontinental": {
                     "European Russia": ["", "Chechnya line"]
+                }
+            }
+        },
+        {
+            "name": "Golestan",
+            "id": 707,
+            "x": 9979,
+            "z": -6809,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ["", "Main line (Makran Line)"]
+                }
+            }
+        },
+        {
+            "name": "Palmyra-Kizar JCT Ice Stairs",
+            "type": "elev-we",
+            "id": 708,
+            "x": 9979,
+            "z": -7004,
+            "y1": 10,
+            "y2": 1,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ["", "Main line (Makran Line)"]
+                }
+            }
+        },
+        {
+            "name": "Palmyra-Kizar JCT",
+            "type": "jct",
+            "id": 709,
+            "x": 9979,
+            "z": -7022,
+            "lines": {
+                "TNIH": {
+                    "Lower Bangla-Caspian": ["", "Main line"],
+                    "Gujarat": ["", "Main line (Makran Line)"]
                 }
             }
         }
