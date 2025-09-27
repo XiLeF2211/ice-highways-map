@@ -1853,7 +1853,7 @@
             "z": -8712,
             "lines": {
                 "MTA": {
-                    "Upper Blue": ["", "Main line to connection to Lower Blue"]
+                    "Upper Blue": ["", "Main line to Lower Blue connector"]
                 }
             }
         },
@@ -1867,7 +1867,7 @@
             "z": -8688,
             "lines": {
                 "MTA": {
-                    "Upper Blue": ["", "connection to Lower Blue"],
+                    "Upper Blue": ["", "Lower Blue connector"],
                     "Lower Blue": ["", "Main line"]
                 }
             }
@@ -3463,7 +3463,7 @@
             "lines": {
                 "Intercontinental": {
                     "Chitograd Ice Highways": ["", "Main Line"],
-                    "Russian Republic ice roads": ["", "Kazakhstan route"]
+                    "Russian Republic ice roads": ["", "Kazakhstan - Leningrad route"]
                 }
             }
         },
@@ -3518,7 +3518,7 @@
             "z": -8153,
             "lines": {
                 "Intercontinental": {
-                    "Chitograd Ice Highways": ["", "Main Line to Chitograd Bypass"]
+                    "Chitograd Ice Highways": ["", "Main Line to Chitograd local branch"]
                 }
             }
         },
@@ -4793,7 +4793,7 @@
             "z": -10003,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Kazakhstan route"]
+                    "Russian Republic ice roads": ["", "Kazakhstan - Leningrad route"]
                 }
             }
         },
@@ -4805,7 +4805,7 @@
             "z": -10003,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Kazakhstan route"]
+                    "Russian Republic ice roads": ["", "Kazakhstan - Leningrad route"]
                 }
             }
         },
@@ -4819,7 +4819,7 @@
             "z": -10007,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Kazakhstan route"]
+                    "Russian Republic ice roads": ["", "Kazakhstan - Leningrad route"]
                 }
             }
         },
@@ -4831,7 +4831,7 @@
             "z": -10003,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Kazakhstan route"]
+                    "Russian Republic ice roads": ["", "Novosibirsk Ring to Kazakhstan - Leningrad route"]
                 }
             }
         },
@@ -4843,7 +4843,7 @@
             "z": -10003,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Novosibirsk Ring"]
+                    "Russian Republic ice roads": ["", "Novosibirsk Ring to East Novosibirsk line"]
                 }
             }
         },
@@ -4870,7 +4870,7 @@
             "z": -10003,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Baikal route"]
+                    "Russian Republic ice roads": ["", "Baikal route to Novosibirsk Ring"]
                 }
             }
         },
@@ -4916,7 +4916,7 @@
             "z": -10576,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Novosibirsk Ring"]
+                    "Russian Republic ice roads": ["", "Novosibirsk Ring to Novosibirsk - New Urengoy - Karaul - Severnaya"]
                 }
             }
         },
@@ -4928,7 +4928,7 @@
             "z": -10526,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Novosibirsk Ring"]
+                    "Russian Republic ice roads": ["", "Novosibirsk Ring to East Novosibirsk line"]
                 }
             }
         },
@@ -4951,7 +4951,7 @@
             "z": -10114,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "East Novosibirsk line"]
+                    "Russian Republic ice roads": ["", "East Novosibirsk line to Diagonal line"]
                 }
             }
         },
@@ -4986,7 +4986,7 @@
             "z": -10248,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "East Novosibirsk line"]
+                    "Russian Republic ice roads": ["", "East Novosibirsk line to Old Novos street line"]
                 }
             }
         },
@@ -4998,7 +4998,7 @@
             "z": -10335,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "East Novosibirsk line"]
+                    "Russian Republic ice roads": ["", "East Novosibirsk line to Vokzal line"]
                 }
             }
         },
@@ -5009,7 +5009,7 @@
             "z": -10335,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Vokzal line"]
+                    "Russian Republic ice roads": ["", "Vokzal line to Diagonal line"]
                 }
             }
         },
@@ -5054,7 +5054,7 @@
             "z": -9491,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Leningrad route"]
+                    "Russian Republic ice roads": ["", "Kazakhstan - Leningrad route"]
                 }
             }
         },
@@ -5065,7 +5065,7 @@
             "z": -9476,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Leningrad route"]
+                    "Russian Republic ice roads": ["", "Kazakhstan - Leningrad route"]
                 }
             }
         },
@@ -5077,7 +5077,7 @@
             "z": -8999,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Leningrad route"],
+                    "Russian Republic ice roads": ["", "Kazakhstan - Leningrad route"],
                     "Leningrad Suburban": ["", "Karagandy route"]
                 }
             }
@@ -5090,7 +5090,7 @@
             "z": -8793,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Leningrad route"],
+                    "Russian Republic ice roads": ["", "Kazakhstan - Leningrad route"],
                     "Leningrad Suburban": ["", "Main line"]
                 }
             }
@@ -5103,7 +5103,7 @@
             "z": -8751,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Leningrad route"]
+                    "Russian Republic ice roads": ["", "Kazakhstan - Leningrad route"]
                 }
             }
         },
@@ -6675,7 +6675,7 @@
             }
         },
         {
-            "name": "Kazaral Y=53 ↔ Y=8 Elevator",
+            "name": "Karazal Y=53 ↔ Y=8 Elevator",
             "type": "elev-we",
             "id": 545,
             "x": 12473,
@@ -6699,7 +6699,7 @@
             "z": -9887,
             "lines": {
                 "Intercontinental": {
-                    "Y=8 Ice line": ["", "Main line to Kazaral branch"]
+                    "Y=8 Ice line": ["", "Main line to Karazal branch"]
                 }
             }
         },
@@ -7363,7 +7363,7 @@
             "z": -9499.5,
             "lines": {
                 "Intercontinental": {
-                    "Kiev - Petersburg Tract": ["", "Main line to Kiev-Billgorod"]
+                    "Kiev - Petersburg Tract": ["", "Main line to Kiev - Billgorod branch"]
                 }
             },
             "areas": [
@@ -7378,7 +7378,7 @@
             "z": -9499.5,
             "lines": {
                 "Intercontinental": {
-                    "Kiev - Petersburg Tract": ["", "Long Kiev - Billgorod to Kirsehir - Kursk"]
+                    "Kiev - Petersburg Tract": ["", "Kiev - Billgorod branch to Kirsehir - Kursk branch"]
                 }
             },
             "areas": [
@@ -8240,7 +8240,7 @@
             "z": -6972,
             "lines": {
                 "Aragon Ice Highways": {
-                    "Africa": ["", "Main line to Mallorce branch"]
+                    "Africa": ["", "Main line to Mallorca branch"]
                 }
             }
         },
@@ -8264,7 +8264,7 @@
             "z": -6420,
             "lines": {
                 "Aragon Ice Highways": {
-                    "Africa": ["", "Main line to Ibiza branch"]
+                    "Africa": ["", "Main line"]
                 }
             }
         },
@@ -9557,9 +9557,9 @@
                             [-13757, -8712],
                             [-13757, -9232]
                         ],
-                        "stations": [135, [155, "connection to Lower Blue"], 136, 137, 138]
+                        "stations": [135, [155, "Lower Blue connector"], 136, 137, 138]
                     },
-                    "connection to Lower Blue": {
+                    "Lower Blue connector": {
                         "vertices": [
                             [-13757, -8712],
                             [-13757, -8688]
@@ -11753,7 +11753,15 @@
                             [16000, -10003],
                             [14539, -10003]
                         ],
-                        "stations": [399, 400, 401, 402, 406, 407, 408, 399]
+                        "stations": [
+                            [399, "Kazakhstan - Leningrad route"],
+                            [400, "East Novosibirsk line"],
+                            401,
+                            [402, "Baikal route"],
+                            [406, "Novosibirsk - New Urengoy - Karaul - Severnaya"],
+                            [407, "East Novosibirsk line"],
+                            408
+                        ]
                     },
                     "East Novosibirsk line": {
                         "vertices": [
@@ -11763,7 +11771,14 @@
                             [15281, -10233],
                             [15281, -10526]
                         ],
-                        "stations": [400, 409, 410, 411, 412, 413, 406]
+                        "stations": [
+                            [400, "Novosibirsk Ring"],
+                            [409, "Diagonal line"],
+                            410, 411,
+                            [412, "Old Novos street line"],
+                            [413, "Vokzal line"],
+                            [407, "Novosibirsk Ring"]
+                        ]
                     },
                     "Vokzal line": {
                         "vertices": [
@@ -11775,7 +11790,7 @@
                             [15180, -10330],
                             [15180, -10335]
                         ],
-                        "stations": [413, 414]
+                        "stations": [[413, "East Novosibirsk line"], [414, "Diagonal line"]]
                     },
                     "Diagonal line": {
                         "vertices": [
@@ -11783,28 +11798,31 @@
                             [15170, -10224],
                             [15281, -10114]
                         ],
-                        "stations": [409, 413]
+                        "stations": [[409, "East Novosibirsk line"], [414, "Vokzal line"]]
                     },
                     "Old Novos street line": {
                         "vertices": [
                             [15281, -10248],
                             [15181, -10248]
                         ],
-                        "stations": [412, 415]
+                        "stations": [[412, "East Novosibirsk line"], 415]
                     },
-                    "Kazakhstan route": {
+                    "Kazakhstan - Leningrad route": {
                         "vertices": [
                             [12232, -10003],
-                            [14539, -10003]
+                            [14539, -10003],
+                            [14539, -9474],
+                            [14493, -9474],
+                            [14493, -8751]
                         ],
-                        "stations": [292, 396, 397, 398, 399]
+                        "stations": [292, 396, [397, "X=13557 branch"], 398, [399, "Novosibirsk Ring"], 418, 419, 420, 421, 422]
                     },
                     "X=13557 branch": {
                         "vertices": [
                             [13557, -10003],
                             [13557, -10301]
                         ],
-                        "stations": [397, 417]
+                        "stations": [[397, "Kazakhstan - Leningrad route"], 417]
                     },
                     "Novosibirsk - New Urengoy - Karaul - Severnaya": {
                         "vertices": [
@@ -11817,23 +11835,14 @@
                             [16981.5, -14699.5],
                             [18109.5, -14699.5]
                         ],
-                        "stations": [406, 416, 558]
+                        "stations": [[406, "Novosibirsk Ring"], 416, 558]
                     },
                     "Baikal route": {
                         "vertices": [
                             [16000, -10003],
                             [20447, -10003]
                         ],
-                        "stations": [402, 403, 404, 405]
-                    },
-                    "Leningrad route": {
-                        "vertices": [
-                            [14539, -10003],
-                            [14539, -9474],
-                            [14493, -9474],
-                            [14493, -8751]
-                        ],
-                        "stations": [399, 418, 419, 420, 421, 422]
+                        "stations": [[402, "Novosibirsk Ring"], 403, 404, 405]
                     },
                     "Uvs-Nur lake route": {
                         "vertices": [
@@ -11948,7 +11957,7 @@
                             [11207, -9887],
                             [11207, -9845]
                         ],
-                        "stations": [[546, "Kazaral branch"]]
+                        "stations": [[546, "Karazal branch"]]
                     },
                     "Karazal branch": {
                         "vertices": [
@@ -12064,17 +12073,12 @@
                         ],
                         "stations": [597, 472, [596, "Main line"]]
                     },
-                    "Short Kiev - Billgorod":{
+                    "Kiev - Billgorod branch": {
                         "vertices": [
+                            [5794, -9498],
+                            [6266, -9498],
                             [6266, -9501],
                             [6197, -9501]
-                        ],
-                        "stations": [[599, "Kirsehir - Kursk branch"]]
-                    },
-                    "Long Kiev - Billgorod": {
-                        "vertices": [
-                            [6266, -9498],
-                            [5794, -9498]
                         ],
                         "stations": [[598, "Main line"], [599, "Kirsehir - Kursk branch"]]
                     },
@@ -12085,7 +12089,7 @@
                             [6200, -9643],
                             [6200, -7376]
                         ],
-                        "stations": [[599, "Long Kiev Billgorod branch"]]
+                        "stations": [[599, "Kiev - Billgorod branch"]]
                     },
                     "South Moscow": {
                         "vertices": [
