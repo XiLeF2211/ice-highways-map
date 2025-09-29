@@ -626,6 +626,9 @@
                 "Local": {
                     "Ringbahn": ["", ""],
                     "Landonbahn": ["", ""]
+                },
+                "European Intercity Rail": {
+                    "Kielce-Auerbach": ["", ""]
                 }
             },
             "areas": [
@@ -4511,10 +4514,11 @@
             "name": "Hessen (JCT)",
             "id": 373,
             "x": 1354,
-            "z": -9672,
+            "z": -9671.5,
             "lines": {
                 "European Intercity Rail": {
-                    "Hessen-Niort": ["", ""]
+                    "Hessen-Niort": ["", ""],
+                    "Hannover": ["", ""]
                 }
             }
         },
@@ -8844,7 +8848,195 @@
                     "Gujarat": ["", "Main line (Makran Line)"]
                 }
             }
+        },
+        {
+            "name": "Taffy The Great JCT",
+            "type": "jct",
+            "id": 710,
+            "x": -13560,
+            "z": -7838,
+            "lines": {
+                "MTA": {
+                    "Green": ["", "Main line to Unnamed branch"]
+                }
+            }
+        },
+        {
+            "name": "Aria emergency exit ",
+            "id": 711,
+            "x": 4021,
+            "z": -1970.5,
+            "lines": {
+                "Afrique Rail": {
+                    "Abuja": ["", "Main line (Meroewin)"]
+                }
+            }
+        },
+        {
+            "name": "East Aria Valley",
+            "id": 712,
+            "x": 4080,
+            "z": -1970.5,
+            "lines": {
+                "Afrique Rail": {
+                    "Abuja": ["", "Main line (Meroewin)"]
+                }
+            },
+            "areas": [
+                [[4095, -1972], [4065, -1966]],
+                [[4080, -1949], [4066, -1966]]
+            ]
+        },
+        {
+            "name": "Afrique Highway",
+            "id": 713,
+            "x": 4854,
+            "z": -1970.5,
+            "lines": {
+                "Afrique Rail": {
+                    "Abuja": ["", "Main line (Meroewin)"]
+                }
+            }
+        },
+        {
+            "name": "Meroewin emergency exit",
+            "id": 714,
+            "x": 5344,
+            "z": -2293.5,
+            "lines": {
+                "Afrique Rail": {
+                    "Abuja": ["", "Main line (Meroewin)"]
+                }
+            }
+        },
+        {
+            "name": "Hannover",
+            "id": 715,
+            "x": 1521,
+            "z": -9671.5,
+            "lines": {
+                "European Intercity Rail": {
+                    "Hannover": ["", ""]
+                }
+            },
+            "areas": [
+                [[1505, -9670], [1532, -9681]],
+                [[1531, -9677], [1533, -9678]],
+                [[1531, -9675], [1533, -9676]]
+            ]
+        },
+        {
+            "name": "Nederheuvel",
+            "id": 716,
+            "x": 1720.5,
+            "z": -9671.5,
+            "lines": {
+                "European Intercity Rail": {
+                    "Hannover": ["", ""]
+                }
+            },
+            "areas": [
+                [[1723, -9674], [1718, -9655]],
+                [[1711, -9663], [1730, -9670]]
+            ]
+        },
+        {
+            "name": "Norway route JCT",
+            "type": "jct",
+            "id": 717,
+            "x": 1765.5,
+            "z": -9671.5,
+            "lines": {
+                "European Intercity Rail": {
+                    "Hannover": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Auerbach JCT",
+            "type": "jct",
+            "id": 718,
+            "x": 1942.5,
+            "z": -9570.5,
+            "lines": {
+                "European Intercity Rail": {
+                    "Hannover": ["", ""],
+                    "Kielce-Auerbach": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "1984",
+            "id": 719,
+            "x": 1992.5,
+            "z": -9570.5,
+            "lines": {
+                "European Intercity Rail": {
+                    "Kielce-Auerbach": ["", ""]
+                }
+            },
+            "areas": [
+                [[1986, -9569], [1999, -9578]],
+                [[1986, -9574], [1985, -9575]],
+                [[1986, -9576], [1985, -9577]]
+            ]
+        },
+        {
+            "name": "City 17",
+            "id": 720,
+            "x": 2236.5,
+            "z": -9576.5,
+            "lines": {
+                "European Intercity Rail": {
+                    "Kielce-Auerbach": ["", ""]
+                }
+            },
+            "areas": [
+                [[2229, -9575], [2244, -9586]]
+            ]
+        },
+        {
+            "name": "City 17 JCT",
+            "type": "jct",
+            "id": 721,
+            "x": 2280.5,
+            "z": -9576.5,
+            "lines": {
+                "European Intercity Rail": {
+                    "Kielce-Auerbach": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Kielce JCT",
+            "type": "jct",
+            "id": 722,
+            "x": 3639.5,
+            "z": -9525.5,
+            "lines": {
+                "European Intercity Rail": {
+                    "Kielce-Auerbach": ["", ""],
+                    "Warsaw-Cracow": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Cracow JCT",
+            "id": 723,
+            "x": 3639.5,
+            "z": -9525.5,
+            "lines": {
+                "European Intercity Rail": {
+                    "Warsaw-Cracow": ["", ""]
+                }
+            },
+            "areas": [
+                [[3525, -9382], [3522, -9350]],
+                [[3508, -9353], [3522, -9350]],
+                [[3510, -9355], [3509, -9348]]
+            ]
         }
+
     ],
     "lines": {
         "SEAN": {
@@ -9608,7 +9800,7 @@
                             [-13560, -7838],
                             [-13950, -7838]
                         ],
-                        "stations": [137, 132, 135, 154, 153, 147, 151, 152, 542],
+                        "stations": [137, 132, 135, 154, 153, 147, 151, 152, [710, "Unnamed branch"], 542],
                         "concurrencies": {
                             "MTA.Red": [
                                 [-13801, -7838],
@@ -9621,7 +9813,7 @@
                             [-13560, -7838],
                             [-13538, -7838]
                         ],
-                        "stations": []
+                        "stations": [[710, "Main line"]]
                     }
                 }
             },
@@ -10104,7 +10296,7 @@
                 "branches": {
                     "": {
                         "vertices": [
-                            [1354, -9672],
+                            [1354, -9671.5],
                             [1354, -9384],
                             [1178, -9384],
                             [1178, -9319],
@@ -10120,6 +10312,61 @@
                             [-136, -8908]
                         ],
                         "stations": [373, 374, 375, 376, 377, 378, 379, 380, 381]
+                    }
+                }
+            },
+            "Hannover": {
+                "prefix": "",
+                "code": "",
+                "color": "0089ff",
+                "y": 1,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [1350, -9671.5, "Line continue to the west"],
+                            [1942.5, -9671.5],
+                            [1942.5, -9553.5]
+                        ],
+                        "stations": [373, 715, 716, 717, 718]
+                    }
+                }
+            },
+            "Kielce-Auerbach": {
+                "prefix": "",
+                "code": "K-A",
+                "color": "a2a2a2",
+                "y": 1,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [1942.5, -9570.5],
+                            [2131.5, -9570.5],
+                            [2131.5, -9576.5],
+                            [2300.5, -9576.5],
+                            [2300.5, -9603.5],
+                            [2774.5, -9603.5],
+                            [2774.5, -9591.5],
+                            [3175.5, -9591.5],
+                            [3175.5, -9525.5],
+                            [3639.5, -9525.5]
+                        ],
+                        "stations": [718, 719, 720, 721, 53, 722]
+                    }
+                }
+            },
+            "Warsaw-Cracow": {
+                "prefix": "",
+                "code": "W-C",
+                "color": "a2a2ff",
+                "y": 1,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [3639, -9660],
+                            [3639, -9380.5],
+                            [3522, -9380.5]
+                        ],
+                        "stations": [722, 723]
                     }
                 }
             }
@@ -10145,6 +10392,15 @@
                             [3905, -1970.5]
                         ],
                         "stations": [559, 581, 582, 583, 584, 585, 586, 587]
+                    },
+                    "Main line (Meroewin)": {
+                        "vertices": [
+                            [4016, -1970.5],
+                            [4866.5, -1970.5],
+                            [4866.5, -2293.5],
+                            [5300, -2293.5]
+                        ],
+                        "stations": [711, 712, 713, 714]
                     }
                 }
             },
@@ -10191,7 +10447,7 @@
             },
             "Abuja Triangle Connector": {
                 "prefix": "",
-                "code": "AB.tri",
+                "code": "AB.Triangle",
                 "color": "2a2a2a",
                 "y": 58,
                 "branches": {
