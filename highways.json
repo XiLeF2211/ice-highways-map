@@ -7512,7 +7512,8 @@
             "z": -8792,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Willow Creek - Vancouver": ["", "Main line"]
+                    "Willow Creek - Vancouver": ["", "Main line"],
+                    "Aklavik - Cascadia": ["", "Main line"]
                 }
             }
         },
@@ -7561,7 +7562,8 @@
             "z": -9152,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Willow Creek - Vancouver": ["", "Main line"]
+                    "Willow Creek - Vancouver": ["", "Main line"],
+                    "Vancouver - Victoria": ["", "Main line"]
                 }
             }
         },
@@ -7643,21 +7645,21 @@
             }
         },
         {
-            "name": "Neah Bay JCT",
+            "name": "King Street JCT",
             "type": "jct",
             "id": 620,
-            "x": -23188,
-            "z": -9027,
+            "x": -22808,
+            "z": -8848,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Cascadia - Seattle": ["", "Main line"]
+                    "Aklavik - Cascadia": ["", "Main line to Olympia branch"]
                 }
             }
         },
         {
             "name": "Neah Bay",
             "id": 621,
-            "x": -23186,
+            "x": -23188,
             "z": -9027,
             "lines": {
                 "Cascadian Ice lines": {
@@ -7677,7 +7679,7 @@
             "lines": {
                 "Cascadian Ice lines": {
                     "Cascadia - Seattle": ["", "Main line"],
-                    "Willow Creek - Vancouver": ["", "Olympia connector branch"]
+                    "Willow Creek - Vancouver": ["", "Bakhmut connector branch"]
                 }
             }
         },
@@ -7693,7 +7695,7 @@
                 }
             },
             "areas": [
-                [[-22808, -11262], [-22807, -11277]]
+                [[-22807, -11262], [-22809, -11277]]
             ]
         },
         {
@@ -9035,8 +9037,46 @@
                 [[3508, -9353], [3522, -9350]],
                 [[3510, -9355], [3509, -9348]]
             ]
+        },
+        {
+            "name": "2nd Seattle JCT",
+            "type": "jct",
+            "id": 724,
+            "x": -22808,
+            "z": -8933,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Aklavik - Cascadia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Seattle",
+            "id": 725,
+            "x": -22808,
+            "z": -9025,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Aklavik - Cascadia": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-22811, -9014], [-22805, -9036]]
+            ]
+        },
+        {
+            "name": "2nd Vancouver JCT",
+            "type": "jct",
+            "id": 726,
+            "x": -22808,
+            "z": -9152,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Aklavik - Cascadia": ["", "Main line"],
+                    "Vancouver - Victoria": ["", "Main line"]
+                }
+            }
         }
-
     ],
     "lines": {
         "SEAN": {
@@ -10474,7 +10514,7 @@
                             [-22935, -8848],
                             [-22935, -9152]
                         ],
-                        "stations": [[603, "Lassen branch"], 604, [605, ""], [606, ""], 607, [608, ""], [609, ""], [610, "Cascadian nation spawn"], [611, "Olympia connector branch"], 612, 613]
+                        "stations": [[603, "Lassen branch"], 604, [605, ""], [606, ""], 607, [608, ""], [609, ""], [610, "Cascadian nation spawn"], [611, "Bakhmut connector branch"], 612, 613]
                     },
                     "Cascadian nation spawn branch": {
                         "vertices": [
@@ -10490,7 +10530,7 @@
                         ],
                         "stations": [[603, "Main line"], 615]
                     },
-                    "Olympia connector branch": {
+                    "Bakhmut connector branch": {
                         "vertices": [
                             [-22935, -8914.5],
                             [-22906, -8914.5]
@@ -10512,7 +10552,7 @@
                             [-22906, -8858],
                             [-22808, -8858]
                         ],
-                        "stations": [620, 621, 612, 622, 674]
+                        "stations": [621, 612, 622, 674]
                     }
                 }
             },
@@ -10526,9 +10566,32 @@
                         "vertices": [
                             [-23099, -11880],
                             [-22808, -11880],
-                            [-22808, -8840, "Not last point. Line continue to the south"]
+                            [-22808, -8792],
+                            [-22935, -8792]
                         ],
-                        "stations": [681, 623, 624, 625, 674]
+                        "stations": [681, 623, 624, 625, 726, 725, 724, 674 , [620, "Olympia branch"], 609]
+                    },
+                    "Olympia branch": {
+                        "vertices": [
+                            [-22808, -8848],
+                            [-22907, -8848]
+                        ],
+                        "stations": [[620, "Main line"]]
+                    }
+                }
+            },
+            "Vancouver - Victoria": {
+                "prefix": "",
+                "code": "VAC-VIC",
+                "color": "90EE90",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+							[-22935, -9152],
+							[-22808, -9152]
+                        ],
+                        "stations": [613, 726]
                     }
                 }
             }
