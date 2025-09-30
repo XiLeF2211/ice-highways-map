@@ -9046,7 +9046,8 @@
             "z": -8933,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Aklavik - Cascadia": ["", "Main line"]
+                    "Aklavik - Cascadia": ["", "Main line"],
+                    "East": ["", "Main line"]
                 }
             }
         },
@@ -9074,6 +9075,198 @@
                 "Cascadian Ice lines": {
                     "Aklavik - Cascadia": ["", "Main line"],
                     "Vancouver - Victoria": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": " JCT",
+            "type": "jct",
+            "id": 727,
+            "x": -22315,
+            "z": -8933,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "East": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Spokane Valley JCT",
+            "type": "jct",
+            "id": 728,
+            "x": -22118.5,
+            "z": -8933,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "East": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mexican Hat JCT",
+            "type": "jct",
+            "id": 729,
+            "x": -22001,
+            "z": -8918,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "East": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Spokane-Bend",
+            "id": 730,
+            "x": -21901.5,
+            "z": -8918,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "East": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-21906, -8915], [-21895, -8939]],
+                [[-21902, -8933], [-21899, -8941]]
+            ]
+        },
+        {
+            "name": "Meridian JCT",
+            "type": "jct",
+            "id": 731,
+            "x": -21418,
+            "z": -8918,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "East": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "X=-21418 Point",
+            "id": 732,
+            "x": -21193.5,
+            "z": -8918,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "East": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-21197, -8911], [-21188, -8921]],
+                [[-21192, -8909], [-21191, -8921]],
+                [[-21194, -8909], [-21193, -8921]]
+            ]
+        },
+        {
+            "name": "Under Construction JCT",
+            "type": "jct",
+            "id": 733,
+            "x": -20953,
+            "z": -8918,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "East": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "2nd Mexican Hat JCT",
+            "type": "jct",
+            "id": 734,
+            "x": -20629,
+            "z": -8918,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "East": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Chaeronea",
+            "id": 735,
+            "x": -20481.5,
+            "z": -8918,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "East": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-20484, -8911], [-20477, -8921]],
+                [[-20480, -8911], [-20479, -8910]],
+                [[-20481, -8911], [-20482, -8910]]
+            ]
+        },
+        {
+            "name": "East Chaeronea JCT",
+            "type": "jct",
+            "id": 736,
+            "x": -20366,
+            "z": -8918,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "East": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "2nd East Chaeronea JCT",
+            "type": "jct",
+            "id": 737,
+            "x": -20288,
+            "z": -8918,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "East": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Takyon JCT",
+            "type": "jct",
+            "id": 738,
+            "x": -20167,
+            "z": -8918,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "East": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Emergency exit",
+            "id": 739,
+            "x": -20156,
+            "z": -8688.5,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "East": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Y=9 ↔ Y=65 Elevator",
+            "type": "elev-we",
+            "y1": 9,
+            "y2": 65,
+            "id": 740,
+            "x": -19383.5,
+            "z": -8546,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "East": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New_Havana JCT",
+            "type": "jct",
+            "id": 741,
+            "x": -18875,
+            "z": -8551,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "East": ["", "Main line"]
                 }
             }
         }
@@ -10592,6 +10785,34 @@
 							[-22808, -9152]
                         ],
                         "stations": [613, 726]
+                    }
+                }
+            },
+            "East": {
+                "prefix": "",
+                "code": "",
+                "color": "90EE90",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-22808, -8933],
+                            [-22039, -8933],
+                            [-22039, -8918],
+                            [-20156, -8918],
+                            [-20156, -8551],
+                            [-18500, -8551],
+                            [-18500, -8359]
+                        ],
+                        "stations": [724, 727, 728, 729, 730, 731, 732, 733, 734,
+									735, 736, 737, 738, 739, 740, 741]
+                    },
+                    "": {
+                        "vertices": [
+                            [-19383.5, -8551],
+                            [-19383.5, -8546]
+                        ],
+                        "stations": []
                     }
                 }
             }
