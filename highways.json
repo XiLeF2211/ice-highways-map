@@ -9303,7 +9303,8 @@
             "z": -8841,
             "lines": {
                 "Japan Underground Ice Road": {
-                    "Ryukou": ["", ""]
+                    "Ryukou": ["", ""],
+                    "Bonkyo": ["", ""]
                 }
             }
         },
@@ -9376,6 +9377,68 @@
             "lines": {
                 "Japan Underground Ice Road": {
                     "Ryukou": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Mattyo Gun",
+            "type": "semi4",
+            "id": 751,
+            "x": 24856,
+            "z": -9339,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Bonkyo": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Anka",
+            "type": "semi4",
+            "id": 752,
+            "x": 24856,
+            "z": -10020,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Bonkyo": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Uda",
+            "id": 753,
+            "x": 24784,
+            "z": -10169,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Bonkyo": ["", ""]
+                }
+            },
+            "areas": [
+                [[24798, -10161], [24763, -10176]],
+                [[24755, -10168], [24763, -10176]],
+                [[24755, -10168], [24761, -10181]]
+            ]
+        },
+        {
+            "name": "Minami-Himmazin",
+            "id": 754,
+            "x": 24760,
+            "z": -10395,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Bonkyo": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Bonkyo",
+            "id": 755,
+            "x": 25465,
+            "z": -10744,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Bonkyo": ["", ""]
                 }
             }
         }
@@ -11706,6 +11769,26 @@
                             [23955, -8755]
                         ],
                         "stations": [523, 744, 745, 746, 747, 748, 749, 750]
+                    }
+                }
+            },
+            "Bonkyo": {
+                "prefix": "",
+                "code": "梵京",
+                "color": "bc002d",
+                "y": 50,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [24856, -8841],
+                            [24856, -10169],
+                            [24760, -10169],
+                            [24760, -10712],
+                            [25416, -10712],
+                            [25416, -10744],
+                            [25471, -10744]
+                        ],
+                        "stations": [744, 751, 752, 753, 754, 755]
                     }
                 }
             }
