@@ -6382,7 +6382,8 @@
             "z": -8025,
             "lines": {
                 "Japan Underground Ice Road": {
-                    "Namboku Main": ["", ""]
+                    "Namboku Main": ["", ""],
+                    "Ryukou Main": ["", ""]
                 }
             }
         },
@@ -9293,6 +9294,90 @@
                     "Gujarat": ["", "O-O branch"]
                 }
             }
+        },
+        {
+            "name": "Hakuryukou JCT",
+            "type": "jct",
+            "id": 744,
+            "x": 24855,
+            "z": -8841,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Ryukou": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Higashi-Kokuryukou Emergency Exit",
+            "type": "semi1",
+            "id": 745,
+            "x": 24732,
+            "z": -8841,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Ryukou": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Kokuryukou",
+            "id": 746,
+            "x": 24264,
+            "z": -8841,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Ryukou": ["", ""]
+                }
+            },
+            "areas": [
+                [[24287, -8829], [24256, -8852]],
+                [[24269, -8829], [24256, -8824]]
+            ]
+        },
+        {
+            "name": "Kokuryukou JCT",
+            "type": "jct",
+            "id": 747,
+            "x": 24215,
+            "z": -8841,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Ryukou": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "West-Kokuryukou / Nishi-Kokuryukou",
+            "id": 748,
+            "x": 24044,
+            "z": -8841,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Ryukou": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Bokkai",
+            "id": 749,
+            "x": 23963,
+            "z": -8831,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Ryukou": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Bokkai-Central / Bokkai-Chuo",
+            "id": 750,
+            "x": 23955,
+            "z": -8758,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Ryukou": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -11600,6 +11685,27 @@
                             [25668, -6763],
                             [25719, -6763]
                         ]
+                    }
+                }
+            },
+            "Ryukou": {
+                "prefix": "",
+                "code": "竜江",
+                "color": "bc002d",
+                "y": 50,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [25719, -8025],
+                            [25719, -8841],
+                            [24040, -8841],
+                            [24035, -8839],
+                            [24027, -8839],
+                            [24027, -8831],
+                            [23955, -8831],
+                            [23955, -8755]
+                        ],
+                        "stations": [523, 744, 745, 746, 747, 748, 749, 750]
                     }
                 }
             }
