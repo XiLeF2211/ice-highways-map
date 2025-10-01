@@ -3851,6 +3851,7 @@
         },
         {
             "name": "Barrancabermeja",
+            "type": "semi2",
             "id": 321,
             "x": 11884,
             "z": -4840,
@@ -3861,7 +3862,7 @@
             }
         },
         {
-            "name": "PIWO",
+            "name": "Pakistan",
             "id": 322,
             "x": 11785,
             "z": -4854,
@@ -9269,6 +9270,29 @@
                     "East": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Pakistan JCT",
+            "type": "jct",
+            "id": 742,
+            "x": 11751,
+            "z": -4854,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ["", "Main line to O-O branch"]
+                }
+            }
+        },
+        {
+            "name": "O-O",
+            "id": 743,
+            "x": 11751,
+            "z": -4955,
+            "lines": {
+                "TNIH": {
+                    "Gujarat": ["", "O-O branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -9458,7 +9482,7 @@
                             [11884, -4854],
                             [11295, -4854]
                         ],
-                        "stations": [26, 27, 28, [29, "Gujarat branch"], 30, 211, 320, 321, 322, 323]
+                        "stations": [26, 27, 28, [29, "Gujarat branch"], 30, 211, 320, 321, 322, [742, "O-O branch"], 323]
                     },
                     "Main line (Makran Line)": {
                         "vertices": [
@@ -9478,6 +9502,13 @@
                             [12729, -4310]
                         ],
                         "stations": [[29, "Main line"], 31]
+                    },
+                    "O-O branch": {
+                        "vertices": [
+                            [11751, -4854],
+                            [11751, -4955]
+                        ],
+                        "stations": [[742, "Main line"], 743]
                     }
                 }
             },
