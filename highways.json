@@ -6383,7 +6383,7 @@
             "lines": {
                 "Japan Underground Ice Road": {
                     "Namboku Main": ["", ""],
-                    "Ryukou Main": ["", ""]
+                    "Ryukou": ["", ""]
                 }
             }
         },
@@ -9299,7 +9299,7 @@
             "name": "Hakuryukou JCT",
             "type": "jct",
             "id": 744,
-            "x": 24855,
+            "x": 24856,
             "z": -8841,
             "lines": {
                 "Japan Underground Ice Road": {
