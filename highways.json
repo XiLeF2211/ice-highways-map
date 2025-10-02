@@ -9316,6 +9316,7 @@
             "z": -8841,
             "lines": {
                 "Japan Underground Ice Road": {
+                    "Manshu Main": ["", ""],
                     "Ryukou": ["", ""]
                 }
             }
@@ -9439,6 +9440,71 @@
             "lines": {
                 "Japan Underground Ice Road": {
                     "Bonkyo": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Haruna",
+            "id": 756,
+            "x": 22840,
+            "z": -8233,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Manshu Main": ["", ""]
+                }
+            },
+            "areas": [
+                [[22832, -8241], [22863, -8224]],
+                [[22823, -8229], [22834, -8224]]
+            ]
+        },
+        {
+            "name": "Matsubara",
+            "id": 757,
+            "x": 22790,
+            "z": -8584,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Manshu Main": ["", ""]
+                }
+            },
+            "areas": [
+                [[22768, -8592], [22782, -8577]],
+                [[22764, -8578], [22784, -8593]],
+                [[22768, -8593], [22799, -8576]]
+            ]
+        },
+        {
+            "name": "Shinkyo JCT",
+            "type": "jct",
+            "id": 758,
+            "x": 23287,
+            "z": -8409,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Manshu Main": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Seika",
+            "id": 759,
+            "x": 24215,
+            "z": -9449,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Manshu Main": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Farbanti",
+            "id": 760,
+            "x": 24550,
+            "z": -9465,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Manshu Main": ["", ""]
                 }
             }
         }
@@ -11789,6 +11855,26 @@
                             [25471, -10744]
                         ],
                         "stations": [744, 751, 752, 753, 754, 755]
+                    }
+                }
+            },
+            "Manshu Main": {
+                "prefix": "",
+                "code": "満州",
+                "color": "bc002d",
+                "y": 50,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [22842, -8233],
+                            [22760, -8233],
+                            [22760, -8584],
+                            [23287, -8409],
+                            [24215, -8409],
+                            [24215, -9465],
+                            [24767, -9465]
+                        ],
+                        "stations": [756, 757, 758, 747, 759, 760]
                     }
                 }
             }
