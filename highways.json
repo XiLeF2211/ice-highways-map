@@ -9316,7 +9316,6 @@
             "z": -8841,
             "lines": {
                 "Japan Underground Ice Road": {
-                    "Manshu Main": ["", ""],
                     "Ryukou": ["", ""]
                 }
             }
@@ -9344,6 +9343,7 @@
             "z": -8841,
             "lines": {
                 "Japan Underground Ice Road": {
+                    "Manshu Main": ["", ""],
                     "Ryukou": ["", ""]
                 }
             }
