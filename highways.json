@@ -11937,14 +11937,14 @@
                             [22375, -8264],
                             [22160, -8264]
                         ],
-                        "stations": [761, 762, 763]
+                        "stations": [[761, "to Buyeo branch"], 762, 763]
                     },
                     "Buyeo branch": {
                         "vertices": [
                             [22375, -8264],
                             [22375, -8016]
                         ],
-                        "stations": [761, 764]
+                        "stations": [[761, "to Main Line"], 764]
                     }
                 }
             }
