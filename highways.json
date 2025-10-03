@@ -7686,7 +7686,7 @@
             }
         },
         {
-            "name": "Canada JCT",
+            "name": "Y=9 Canada JCT",
             "type": "jct",
             "id": 623,
             "x": -22808,
@@ -9100,7 +9100,7 @@
             "z": -8933,
             "lines": {
                 "Cascadian Ice lines": {
-                    "East": ["", "Main line"]
+                    "East": ["", "Main line to Spokane Valley branch"]
                 }
             }
         },
@@ -9540,7 +9540,7 @@
                 "Ezo Underground Ice Road": {
                     "Nishi-Manshu Main": ["", "Main Line"]
                 }
-			}
+            }
         },
         {
             "name": "Buyeo",
@@ -9550,6 +9550,99 @@
             "lines": {
                 "Ezo Underground Ice Road": {
                     "Nishi-Manshu Main": ["", "Buyeo branch"]
+                }
+            }
+        },
+        {
+            "name": "Spokane Valley",
+            "id": 765,
+            "x": -22118.5,
+            "z": -8981,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "East": ["", "Spokane Valley branch"]
+                }
+            },
+            "areas": [
+                [[-22123, -8982], [-22102, -8990]],
+                [[-22119, -8981], [-22116, -8990]]
+            ]
+        },
+        {
+            "name": "Y=31 Abandoned town",
+            "id": 766,
+            "x": -22807,
+            "z": -11266,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "World Roads": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Northern Ice Rail JCT",
+            "type": "jct",
+            "id": 767,
+            "x": -22808,
+            "z": -9480,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Aklavik - Cascadia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Alberta line elevator",
+            "type": "elev-we",
+            "y1": 9,
+            "y2": 41,
+            "id": 768,
+            "x": -22795,
+            "z": -9850,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Aklavik - Cascadia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "World Road walkway interchange JCT",
+            "type": "jct",
+            "id": 769,
+            "x": -22808,
+            "z": -10440,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Aklavik - Cascadia": ["", "Main line"],
+                    "World Roads": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-22811, -10437], [-22803, -10449]],
+                [[-22809, -10444], [-22806, -10453]]
+            ]
+        },
+        {
+            "name": "Y=31 Castle John JCT",
+            "type": "jct",
+            "id": 770,
+            "x": -22807,
+            "z": -11481,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "World Roads": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Y=31 Incomplete Shaft JCT",
+            "type": "jct",
+            "id": 771,
+            "x": -22245,
+            "z": -12251,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "World Roads": ["", "Main line"]
                 }
             }
         }
@@ -11052,7 +11145,7 @@
                             [-22808, -8792],
                             [-22935, -8792]
                         ],
-                        "stations": [681, 623, 624, 625, 726, 725, 724, 674 , [620, "Olympia branch"], 609]
+                        "stations": [681, 623, 624, 625, 768, 767, 726, 725, 724, 674 , [620, "Olympia branch"], 609]
                     },
                     "Olympia branch": {
                         "vertices": [
@@ -11060,6 +11153,13 @@
                             [-22907, -8848]
                         ],
                         "stations": [[620, "Main line"]]
+                    },
+                    "": {
+                        "vertices": [
+                            [-22808, -9850],
+                            [-22795, -9850]
+                        ],
+                        "stations": []
                     }
                 }
             },
@@ -11097,12 +11197,43 @@
                         "stations": [724, 727, 728, 729, 730, 731, 732, 733, 734,
 									735, 736, 737, 738, 739, 740, 741]
                     },
+                    "Spokane Valley branch": {
+                        "vertices": [
+                            [-22118.5, -8933],
+                            [-22118.5, -8981]
+                        ],
+                        "stations": [[728, "Main line"], 765]
+                    },
                     "": {
                         "vertices": [
                             [-19383.5, -8551],
                             [-19383.5, -8546]
                         ],
                         "stations": []
+                    }
+                }
+            },
+            "World Roads": {
+                "prefix": "",
+                "code": "",
+                "color": "B8DFDE",
+                "y": 31,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-22807, -10451],
+                            [-22807, -11732],
+                            [-22245, -11732],
+                            [-22245, -12863],
+                            [-23166, -12863]
+                        ],
+                        "stations": [769, 766, 770, 771],
+                        "concurrencies": {
+                            "Cascadian Ice lines.Aklavik - Cascadia": [
+                                [-22807, -10451],
+                                [-22807, -11732]
+                            ]
+                        }
                     }
                 }
             }
@@ -11921,30 +12052,6 @@
                             [24767, -9465]
                         ],
                         "stations": [756, 757, 758, 747, 759, 760]
-                    }
-                }
-            }
-        },
-        "Ezo Underground Ice Road": {
-            "Nishi-Manshu Main": {
-                "prefix": "",
-                "code": "西満州",
-                "color": "2a2a5c",
-                "y": 50,
-                "branches": {
-                    "Main Line": {
-                        "vertices": [
-                            [22375, -8264],
-                            [22160, -8264]
-                        ],
-                        "stations": [[761, "to Buyeo branch"], 762, 763]
-                    },
-                    "Buyeo branch": {
-                        "vertices": [
-                            [22375, -8264],
-                            [22375, -8016]
-                        ],
-                        "stations": [[761, "to Main Line"], 764]
                     }
                 }
             }

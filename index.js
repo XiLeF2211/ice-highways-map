@@ -38,8 +38,11 @@ let coordinateController = document.querySelector('.leaflet-mousecoords');
 // Show coordinates
 map.on("mousemove", function (e) {
     // Get x and z coords
-    let xCoord = Math.floor(16 * e.latlng.lng.toFixed(2))
-    let zCoord = Math.ceil(-16 * e.latlng.lat.toFixed(2))
+    let xCoord = 16 * e.latlng.lng.toFixed(2)
+    xCoord = xCoord > 0 ? Math.floor(xCoord) : Math.ceil(xCoord)
+
+    let zCoord = -16 * e.latlng.lat.toFixed(2)
+    zCoord = zCoord > 0 ? Math.floor(zCoord) : Math.ceil(zCoord)
     if (coordinateController) {
         coordinateController.textContent = `X: ${xCoord}, Z: ${zCoord}`
     }
