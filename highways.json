@@ -9540,7 +9540,11 @@
                 "Ezo Underground Ice Road": {
                     "Nishi-Manshu Main": ["", "Main Line"]
                 }
-            }
+            },
+            "areas": [
+                [[22219, -8275], [22241, -8254]],
+                [[22219, -8280], [22368, -8051]]
+            ]
         },
         {
             "name": "Buyeo",
@@ -9551,7 +9555,12 @@
                 "Ezo Underground Ice Road": {
                     "Nishi-Manshu Main": ["", "Buyeo branch"]
                 }
-            }
+            },
+            "areas": [
+                [[22368, -8044], [22378, -8017]],
+                [[22380, -8036], [22233, -8249]],
+                [[22219, -8272], [22245, -8240]]
+            ]
         }
     ],
     "lines": {
