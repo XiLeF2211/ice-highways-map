@@ -9507,6 +9507,51 @@
                     "Manshu Main": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Ansi-Buyeo JCT",
+            "type": "jct",
+            "id": 761,
+            "x": 23963,
+            "z": -8831,
+            "lines": {
+                "Ezo Underground Ice Road": {
+                    "Nishi-Manshu Main": ["", "Main Line to Buyeo branch"]
+                }
+            }
+        },
+        {
+            "name": "Ansi",
+            "id": 762,
+            "x": 22355,
+            "z": -8264,
+            "lines": {
+                "Ezo Underground Ice Road": {
+                    "Nishi-Manshu Main": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Higashi-Chengde",
+            "id": 763,
+            "x": 22229,
+            "z": -8264,
+            "lines": {
+                "Ezo Underground Ice Road": {
+                    "Nishi-Manshu Main": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Buyeo",
+            "id": 764,
+            "x": 23963,
+            "z": -8033,
+            "lines": {
+                "Ezo Underground Ice Road": {
+                    "Nishi-Manshu Main": ["", "Buyeo branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -11876,6 +11921,30 @@
                             [24767, -9465]
                         ],
                         "stations": [756, 757, 758, 747, 759, 760]
+                    }
+                }
+            }
+        },
+        "Ezo Underground Ice Road": {
+            "Nishi-Manshu Main": {
+                "prefix": "",
+                "code": "西満州",
+                "color": "555799",
+                "y": 50,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [22375, -8264],
+                            [22160, -8264]
+                        ],
+                        "stations": [761, 762, 763]
+                    },
+                    "Buyeo branch": {
+                        "vertices": [
+                            [22375, -8264],
+                            [22375, -8016]
+                        ],
+                        "stations": [761, 764]
                     }
                 }
             }
