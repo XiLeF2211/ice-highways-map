@@ -9512,8 +9512,8 @@
             "name": "Ansi-Buyeo JCT",
             "type": "jct",
             "id": 761,
-            "x": 23963,
-            "z": -8831,
+            "x": 22375,
+            "z": -8264,
             "lines": {
                 "Ezo Underground Ice Road": {
                     "Nishi-Manshu Main": ["", "Main Line to Buyeo branch"]
@@ -9545,7 +9545,7 @@
         {
             "name": "Buyeo",
             "id": 764,
-            "x": 23963,
+            "x": 22375,
             "z": -8033,
             "lines": {
                 "Ezo Underground Ice Road": {
