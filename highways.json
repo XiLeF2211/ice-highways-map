@@ -12056,6 +12056,30 @@
                 }
             }
         },
+        "Ezo Underground Ice Road": {
+            "Nishi-Manshu Main": {
+                "prefix": "",
+                "code": "西満州",
+                "color": "2a2a5c",
+                "y": 50,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [22375, -8264],
+                            [22160, -8264]
+                        ],
+                        "stations": [[761, "to Buyeo branch"], 762, 763]
+                    },
+                    "Buyeo branch": {
+                        "vertices": [
+                            [22375, -8264],
+                            [22375, -8016]
+                        ],
+                        "stations": [[761, "to Main Line"], 764]
+                    }
+                }
+            }
+        },
         "Eko Ice Highway": {
             "Porto Novo - Sienna": {
                 "prefix": "",
