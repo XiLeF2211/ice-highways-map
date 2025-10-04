@@ -2,7 +2,7 @@ const proxyURL = 'https://api.codetabs.com/v1/proxy/?quest='
 const mapURL = 'https://map.earthmc.net/tiles'
 const highwaysURL = 'https://raw.githubusercontent.com/XiLeF2211/ice-highways-map/refs/heads/main/highways.json'
 
-let highwayData
+let highwayData;
 
 let marker = L.marker([0, 0])
 
@@ -16,6 +16,9 @@ let lineFilters = {
     contains: '',
     company: []
 }
+
+let pathfinder;
+let renderedPath;
 
 const map = L.map('mapa', {
     crs: L.CRS.Simple,
@@ -61,6 +64,8 @@ async function init() {
         console.log('debug: There was a problem with getting station and line data')
     }
 
+    pathfinder = new Pathfinder(highwayData);
+
     const params = new URLSearchParams(window.location.search);
     if (params.has('line')) {
         let company = params.get('company');
@@ -73,6 +78,8 @@ async function init() {
         viewHistory.push(['station', highwayData.stations[params.get('station')]]);
         locate(highwayData.stations[params.get('station')].x, highwayData.stations[params.get('station')].z);
     }
+
+    renderedPath = L.layerGroup([]).addTo(map);
 
     lineFilterOpts();
     listLine()
@@ -227,6 +234,24 @@ async function renderLines(dataset, mod) {
 
     const stopLineRender = new Date()
     console.log(`debug: Rendering lines took ${stopLineRender - startLineRender}ms`)
+}
+
+async function renderPath(stations) {
+    const startPathRender = new Date();
+
+    map.removeLayer(renderedPath);
+    renderedPath = L.layerGroup([]);
+    for (let station of stations) {
+        L.circleMarker([-highwayData.stations[station].z / 16, highwayData.stations[station].x / 16], {
+            radius: 10,
+            color: '#000000'
+        })
+            .addTo(renderedPath);
+    }
+    renderedPath.addTo(map);
+
+    const stopPathRender = new Date();
+    console.log(`debug: Rendering path took ${stopPathRender - startPathRender}ms`);
 }
 
 async function renderStations(dataset, mod) {
@@ -505,6 +530,19 @@ function openFilter(filterName) {
         document.getElementById('station-filter-container').style.display = 'none'
         document.getElementById('line-filter-container').style.display = 'block'
     }
+}
+
+function findPath(start, end) {
+    const path = pathfinder.pathfind(start, end);
+    let prevLine = "";
+    for (let station of path[0]) {
+        let li = document.createElement('li');
+        if (station[1] == prevLine) li.innerText = highwayData.stations[station[0]].name;
+        else li.innerText = "switch to " + station[1] + " " +  highwayData.stations[station[0]].name;
+        prevLine = station[1];
+        document.getElementById('path-list').appendChild(li);
+    }
+    renderPath(path[0].map(e => e[0]));
 }
 
 function goToTab(tab) {
