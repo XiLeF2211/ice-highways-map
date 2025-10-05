@@ -3550,7 +3550,10 @@
                 },
                 "Y=53 Ice Lines System": {
                     "Chitograd-Khazar": ["", ""]
-                }
+                },
+				"Local": {
+					"West Chitograd": ["", ""]
+				}
             },
             "areas": [
                 [[8546, -8149], [8564, -8182]],
@@ -9663,6 +9666,20 @@
             "areas": [
                 [[-13934, -7824], [-13905, -7839]]
             ]
+        },
+        {
+            "name": "West Chitograd Valley",
+            "id": 773,
+            "x": 8312.5,
+            "z": -8194.5,
+            "lines": {
+                "Local": {
+					"West Chitograd": ["", ""]
+				}
+            },
+            "areas": [
+                [[-13934, -7824], [-13905, -7839]]
+            ]
         }
 
     ],
@@ -12532,6 +12549,21 @@
                             [9703, -7664]
                         ],
                         "stations": [[628, "Main line"], 288]
+                    }
+                }
+            },
+            "West Chitograd": {
+                "prefix": "",
+                "code": "W-CHI-V",
+                "color": "aabbcc",
+                "y": 59,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [8545, -8194.5],
+                            [8305, -8194.5]
+                        ],
+                        "stations": [298, 773]
                     }
                 }
             }
