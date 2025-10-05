@@ -4569,7 +4569,12 @@
                 "European Intercity Rail": {
                     "Hessen-Niort": ["", ""]
                 }
-            }
+            },
+            "areas": [
+                [[953, -9001], [962, -9010]],
+                [[961, -9008], [963, -9009]],
+                [[961, -9005], [963, -9006]]
+            ]
         },
         {
             "name": "Maastricht",
@@ -4580,7 +4585,13 @@
                 "European Intercity Rail": {
                     "Hessen-Niort": ["", ""]
                 }
-            }
+            },
+            "notes": "Exit blocked",
+            "areas": [
+                [[690, -8933], [703, -8942]],
+                [[702, -8940], [704, -8941]],
+                [[702, -8938], [704, -8939]]
+            ]
         },
         {
             "name": "Orleans",
@@ -4591,7 +4602,8 @@
                 "European Intercity Rail": {
                     "Hessen-Niort": ["", ""]
                 }
-            }
+            },
+            "notes": "Exit blocked"
         },
         {
             "name": "Niort elevator",
@@ -4616,7 +4628,10 @@
                 "European Intercity Rail": {
                     "Hessen-Niort": ["", ""]
                 }
-            }
+            },
+            "areas": [
+                [[-136, -8890], [-134, -8901]]
+            ]
         },
         {
             "name": "Vladimir JCT",
@@ -8362,10 +8377,7 @@
                     "European Russia": ["", "Main line"],
                     "Kiev - Petersburg Tract": ["", "South Moscow"]
                 }
-            },
-            "areas": [
-                [[6516, -10539], [6534, -10559]]
-            ]
+            }
         },
         {
             "name": "1st Seattle JCT",
