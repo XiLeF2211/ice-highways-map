@@ -19,6 +19,7 @@
 
 html,
 body {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
     background-color: var(--primary-color);
     margin: 0;
     width: 100%;
@@ -44,6 +45,7 @@ canvas {
 }
 
 #sidebar {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
     width: 20%;
     height: 100%;
     color: var(--text-color);
@@ -89,6 +91,7 @@ canvas {
     height: calc((100% - 3px) / 6);
     writing-mode: sideways-lr;
     text-orientation: upright;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-size: 24px;
 }
 
@@ -101,6 +104,7 @@ canvas {
     height: 100%;
     background-color: var(--bar-color);
     float: left;
+    font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
 }
 
 #main {
@@ -112,6 +116,7 @@ canvas {
     width: 74%;
     height: 100%;
     float: left;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 .section {
@@ -126,6 +131,7 @@ canvas {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 .list-container h1 {
@@ -146,6 +152,7 @@ dl> :nth-of-type(2n) {
 .list dt {
     padding: 1em;
     padding-left: calc(1em - 10px);
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
@@ -216,11 +223,13 @@ dl> :nth-of-type(2n) {
 
 #station-name {
     position: relative;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 #station-name:hover {
     text-decoration-line: underline;
     cursor: pointer;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 #station-name:hover::before {
@@ -229,6 +238,7 @@ dl> :nth-of-type(2n) {
     content: "#";
     color: lightgray;
     cursor: pointer;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 .searchbar {
@@ -311,7 +321,7 @@ a {
 }
 
 .badge {
-    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
     display: inline-block;
     height: 1em;
     font-size: 1em;
