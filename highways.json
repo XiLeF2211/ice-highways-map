@@ -9928,7 +9928,8 @@
                             [12244, -4820],
                             [11884, -4820],
                             [11884, -4854],
-                            [11295, -4854]
+                            [11295, -4854],
+                            [11295, -5018]
                         ],
                         "stations": [26, 27, 28, [29, "Gujarat branch"], 30, 211, 320, 321, 322, [742, "O-O branch"], 323, 774]
                     },
@@ -12156,7 +12157,7 @@
             "Nishi-Manshu Main": {
                 "prefix": "",
                 "code": "西満州",
-                "color": "2a2a5c",
+                "color": "3b3b82",
                 "y": 50,
                 "branches": {
                     "Main Line": {
@@ -12178,7 +12179,7 @@
             "Masafuku": {
                 "prefix": "",
                 "code": "昌福",
-                "color": "2a2a5c",
+                "color": "3b3b82",
                 "y": 50,
                 "branches": {
                     "Main Line": {
