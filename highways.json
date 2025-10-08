@@ -9712,10 +9712,7 @@
                 "Local": {
 					"West Chitograd": ["", ""]
 				}
-            },
-            "areas": [
-                [[-13934, -7824], [-13905, -7839]]
-            ]
+            }
         },
         {
             "name": "Perico-Saravan",
@@ -9741,6 +9738,39 @@
             "areas": [
                 [[27859, -11085], [27838, -11104]]
             ]
+        },
+        {
+            "name": "Elysium",
+            "id": 776,
+            "x": 6313,
+            "z": -1889,
+            "lines": {
+                "Ethiopian Ice lines": {
+                    "New Ethiopian Highway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Copper 9",
+            "id": 777,
+            "x": 6568,
+            "z": -1912,
+            "lines": {
+                "Ethiopian Ice lines": {
+                    "New Ethiopian Highway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Addis Ababa",
+            "id": 778,
+            "x": 6588,
+            "z": -1752,
+            "lines": {
+                "Ethiopian Ice lines": {
+                    "New Ethiopian Highway": ["", "Main line"]
+                }
+            }
         }
         
     ],
@@ -11171,6 +11201,48 @@
                             [1226.5, -1850.5]
                         ],
                         "stations": [581, 590]
+                    }
+                }
+            }
+        },
+        "Ethiopian Ice lines": {
+            "New Ethiopian Highway": {
+                "prefix": "",
+                "code": "new.ETH",
+                "color": "90EE90",
+                "y": 60,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [6311, -1889],
+                            [6366, -1889],
+                            [6366, -1885],
+                            [6553, -1885],
+                            [6553, -1912],
+                            [6588, -1912],
+                            [6588, -1749]
+                        ],
+                        "stations": [776, 777, 778]
+                    }
+                }
+            },
+            "Ethiopian": {
+                "prefix": "",
+                "code": "old.ETH",
+                "color": "90EE90",
+                "y": 60,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [6311, -1889],
+                            [6366, -1889],
+                            [6366, -1885],
+                            [6553, -1885],
+                            [6553, -1912],
+                            [6588, -1912],
+                            [6588, -1749]
+                        ],
+                        "stations": []
                     }
                 }
             }
