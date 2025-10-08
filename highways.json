@@ -9478,7 +9478,7 @@
                     "Bonkyo": ["", ""]
                 },
                 "Ezo Underground Ice Road": {
-                    "Masafuku": ["", ""]
+                    "Masafuku": ["", "Main Line"]
                 }
             },
             "areas": [
@@ -9735,7 +9735,7 @@
             "z": -11095,
             "lines": {
                 "Ezo Underground Ice Road": {
-                    "Masafuku": ["", ""]
+                    "Masafuku": ["", "Main Line"]
                 }
             },
             "areas": [
