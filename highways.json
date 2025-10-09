@@ -11209,7 +11209,7 @@
             "New Ethiopian Highway": {
                 "prefix": "",
                 "code": "new.ETH",
-                "color": "90EE90",
+                "color": "00a7dc",
                 "y": 60,
                 "branches": {
                     "Main line": {
@@ -11229,7 +11229,7 @@
             "Ethiopian": {
                 "prefix": "",
                 "code": "old.ETH",
-                "color": "90EE90",
+                "color": "00a7dc",
                 "y": 60,
                 "branches": {
                     "Main line": {
