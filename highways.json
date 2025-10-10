@@ -7537,7 +7537,8 @@
             "z": -8553,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Willow Creek - Vancouver": ["", "Main line"]
+                    "Willow Creek - Vancouver": ["", "Main line"],
+                    "Oceanside": ["", "Main line"]
                 }
             }
         },
@@ -11623,7 +11624,7 @@
                             [-22935, -8553],
                             [-23826, -8553]
                         ],
-                        "stations": [794, 790, [791, "Neah Bay connector branch"], 795, 796]
+                        "stations": [794, 790, [791, "Neah Bay connector branch"], 795, 796, 608]
                     },
                     "Neah Bay connector branch": {
                         "vertices": [
