@@ -7696,11 +7696,12 @@
         {
             "name": "Neah Bay",
             "id": 621,
-            "x": -23188,
+            "x": -23189,
             "z": -9027,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Cascadia - Seattle": ["", "Main line"]
+                    "Cascadia - Seattle": ["", "Main line"],
+                    "Oceanside": ["", "Neah Bay connector branch"]
                 }
             },
             "areas": [
@@ -9876,6 +9877,112 @@
                     "Old Ethiopian": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Pacific Ocean 1st JCT",
+            "type": "jct",
+            "id": 788,
+            "x": -23608,
+            "z": -9028,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Cascadia - Seattle": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Pacific Ocean 2nd JCT",
+            "type": "jct",
+            "id": 789,
+            "x": -23649,
+            "z": -9152,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Cascadia - Seattle": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Pacific Ocean JCT",
+            "type": "jct",
+            "id": 790,
+            "x": -23608,
+            "z": -8553,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Oceanside": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Pacific Ocean (The Great Astorian JCT)",
+            "type": "jct",
+            "id": 791,
+            "x": -23189,
+            "z": -8553,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Oceanside": ["", "Main line to Neah Bay connector branch"]
+                }
+            }
+        },
+        {
+            "name": "Pacific Ocean (Cascadian Capital JCT)",
+            "type": "jct",
+            "id": 792,
+            "x": -23189,
+            "z": -8645,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Oceanside": ["", "Neah Bay connector branch"]
+                }
+            }
+        },
+        {
+            "name": "Pacific Ocean ( JCT)",
+            "type": "jct",
+            "id": 793,
+            "x": -23189,
+            "z": -8760,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Oceanside": ["", "Neah Bay connector branch"]
+                }
+            }
+        },
+        {
+            "name": "Mining Outpost",
+            "id": 794,
+            "x": -23826,
+            "z": -8553,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Oceanside": ["", "Neah Bay connector branch"]
+                }
+            }
+        },
+        {
+            "name": "Astoria ()",
+            "id": 795,
+            "x": -23079,
+            "z": -8553,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Oceanside": ["", "Neah Bay connector branch"]
+                }
+            }
+        },
+        {
+            "name": "Astoria Spawn JCT",
+            "type": "jct",
+            "id": 796,
+            "x": -23064,
+            "z": -8553,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Oceanside": ["", "Neah Bay connector branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -11370,7 +11477,7 @@
             "Willow Creek - Vancouver":{
                 "prefix": "",
                 "code": "WIC-VAN",
-                "color": "90EE90",
+                "color": "90ee90",
                 "y": 9,
                 "branches": {
                     "Main line": {
@@ -11407,24 +11514,27 @@
             "Cascadia - Seattle": {
                 "prefix": "",
                 "code": "",
-                "color": "90EE90",
+                "color": "90ee90",
                 "y": 9,
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [-23197, -9027, "Not last point. Line continue to the west"],
+                            [-23649, -9294],
+                            [-23649, -9028],
+                            [-23310.5, -9028],
+                            [-23310.5, -9027],
                             [-22906, -9027],
                             [-22906, -8858],
                             [-22808, -8858]
                         ],
-                        "stations": [621, 612, 622, 674]
+                        "stations": [789, 788, 621, 612, 622, 674]
                     }
                 }
             },
             "Aklavik - Cascadia": {
                 "prefix": "",
                 "code": "AKL-CSC",
-                "color": "90EE90",
+                "color": "90ee90",
                 "y": 9,
                 "branches": {
                     "Main line": {
@@ -11455,7 +11565,7 @@
             "Vancouver - Victoria": {
                 "prefix": "",
                 "code": "VAC-VIC",
-                "color": "90EE90",
+                "color": "90ee90",
                 "y": 9,
                 "branches": {
                     "Main line": {
@@ -11470,7 +11580,7 @@
             "East": {
                 "prefix": "",
                 "code": "",
-                "color": "90EE90",
+                "color": "90ee90",
                 "y": 9,
                 "branches": {
                     "Main line": {
@@ -11499,6 +11609,28 @@
                             [-19383.5, -8546]
                         ],
                         "stations": []
+                    }
+                }
+            },
+            "Oceanside": {
+                "prefix": "",
+                "code": "OCE",
+                "color": "90ee90",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-22935, -8553],
+                            [-23826, -8553]
+                        ],
+                        "stations": [794, 790, [791, "Neah Bay connector branch"], 795, 796]
+                    },
+                    "Neah Bay connector branch": {
+                        "vertices": [
+                            [-23189, -9027],
+                            [-23189, -8553]
+                        ],
+                        "stations": [621, 793, 792, [791, "Main line"]]
                     }
                 }
             },
@@ -13315,7 +13447,7 @@
             "Y=8 Ice line": {
                 "prefix": "",
                 "code": "Y=8",
-                "color": "90EE90",
+                "color": "90ee90",
                 "y": 8,
                 "branches": {
                     "Main line": {
