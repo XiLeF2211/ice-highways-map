@@ -9746,7 +9746,8 @@
             "z": -1889,
             "lines": {
                 "Ethiopian Ice lines": {
-                    "New Ethiopian Highway": ["", "Main line"]
+                    "New Ethiopian Highway": ["", "Main line"],
+                    "Old Ethiopian": ["", "Main line"]
                 }
             }
         },
@@ -9771,8 +9772,111 @@
                     "New Ethiopian Highway": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Towny town (Quahog)",
+            "id": 779,
+            "x": 6346,
+            "z": -1494,
+            "lines": {
+                "Ethiopian Ice lines": {
+                    "Old Ethiopian": ["", "Towny town branch"]
+                }
+            }
+        },
+        {
+            "name": "Addis Ababa (Old platform)",
+            "id": 780,
+            "x": 6659,
+            "z": -1676,
+            "lines": {
+                "Ethiopian Ice lines": {
+                    "Old Ethiopian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Orthinia Eschate",
+            "id": 781,
+            "x": 6783,
+            "z": -1680,
+            "lines": {
+                "Ethiopian Ice lines": {
+                    "Old Ethiopian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Y=62 to Y=90 Elevator",
+            "type": "elev-we",
+            "id": 782,
+            "y1": 62,
+            "y2": 90,
+            "x": 6331,
+            "z": -1480,
+            "lines": {
+                "Ethiopian Ice lines": {
+                    "Old Ethiopian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ethiopian Ice line builders JCT",
+            "type": "jct",
+            "id": 783,
+            "x": 6341,
+            "z": -1480,
+            "lines": {
+                "Ethiopian Ice lines": {
+                    "Old Ethiopian": ["", "Main line to Towny town branch"]
+                }
+            }
+        },
+        {
+            "name": "Elysium (1st Old line JCT)",
+            "type": "jct",
+            "id": 784,
+            "x": 6336,
+            "z": -1807,
+            "lines": {
+                "Ethiopian Ice lines": {
+                    "Old Ethiopian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mersa",
+            "id": 785,
+            "x": 6850,
+            "z": -1505,
+            "lines": {
+                "Ethiopian Ice lines": {
+                    "Old Ethiopian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ochilifort",
+            "id": 786,
+            "x": 6736,
+            "z": -1471,
+            "lines": {
+                "Ethiopian Ice lines": {
+                    "Old Ethiopian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Oromiya",
+            "id": 787,
+            "x": 6964,
+            "z": -1462,
+            "lines": {
+                "Ethiopian Ice lines": {
+                    "Old Ethiopian": ["", "Main line"]
+                }
+            }
         }
-        
     ],
     "lines": {
         "SEAN": {
@@ -11226,21 +11330,36 @@
                     }
                 }
             },
-            "Ethiopian": {
+            "Old Ethiopian": {
                 "prefix": "",
                 "code": "old.ETH",
-                "color": "00a7dc",
-                "y": 60,
+                "color": "e0dca0",
+                "y": 90,
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [6311, -1889],
-                            [6366, -1889],
-                            [6366, -1885],
-                            [6553, -1885],
-                            [6553, -1912],
-                            [6588, -1912],
-                            [6588, -1749]
+                            [6331, -1480],
+                            [6341, -1480],
+                            [6341, -1491],
+                            [6336, -1491],
+                            [6336, -1875],
+                            [6321, -1875]
+                        ],
+                        "stations": [782, 783, 784, 776]
+                    },
+                    "Towny town branch": {
+                        "vertices": [
+                            [6341, -1480],
+                            [6346, -1480],
+                            [6346, -1494]
+                        ],
+                        "stations": [[783, "Main line"], 779]
+                    },
+                    "": {
+                        "vertices": [
+                            [6336, -1480],
+                            [6336, -1484],
+                            [6331, -1484]
                         ],
                         "stations": []
                     }
