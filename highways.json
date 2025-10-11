@@ -9842,18 +9842,18 @@
             "z": -1807,
             "lines": {
                 "Ethiopian Ice lines": {
-                    "Old Ethiopian": ["", "Main line"]
+                    "Old Ethiopian": ["", "Main line to 2nd line"]
                 }
             }
         },
         {
             "name": "Mersa",
             "id": 785,
-            "x": 6850,
-            "z": -1505,
+            "x": 6941,
+            "z": -1581,
             "lines": {
                 "Ethiopian Ice lines": {
-                    "Old Ethiopian": ["", "Main line"]
+                    "Orthinia Eschate": ["", "Mersa branch"]
                 }
             }
         },
@@ -9864,7 +9864,7 @@
             "z": -1471,
             "lines": {
                 "Ethiopian Ice lines": {
-                    "Old Ethiopian": ["", "Main line"]
+                    "Orchallifort - Oromiya": ["", ""]
                 }
             }
         },
@@ -9872,10 +9872,10 @@
             "name": "Oromiya",
             "id": 787,
             "x": 6964,
-            "z": -1462,
+            "z": -1461,
             "lines": {
                 "Ethiopian Ice lines": {
-                    "Old Ethiopian": ["", "Main line"]
+                    "Orchallifort - Oromiya": ["", ""]
                 }
             }
         },
@@ -10010,6 +10010,94 @@
                 [[-23066, -8616], [-23040, -8625]],
                 [[-23040, -8623], [-23039, -8621]]
             ]
+        },
+        {
+            "name": "Addis Ababa (The Great Ethiopian Field)",
+            "id": 799,
+            "x": 6553,
+            "z": -1807,
+            "lines": {
+                "Ethiopian Ice lines": {
+                    "Old Ethiopian": ["", "2nd line"]
+                }
+            }
+        },
+        {
+            "name": "Y=90 to Y=91 Elevator",
+            "type": "elev-we",
+            "y1": 90,
+            "y2": 91,
+            "id": 800,
+            "x": 6657,
+            "z": -1807,
+            "lines": {
+                "Ethiopian Ice lines": {
+                    "Old Ethiopian": ["", "2nd line"],
+                    "Y=91 Old Ethiopian": ["", "Elevator branch"]
+                }
+            }
+        },
+        {
+            "name": "Border JCT",
+            "type": "jct",
+            "id": 801,
+            "x": 6672,
+            "z": -1807,
+            "lines": {
+                "Ethiopian Ice lines": {
+                    "Y=91 Old Ethiopian": ["", "Main line to Elevator branch"]
+                }
+            }
+        },
+        {
+            "name": "Sancta Ethiopia JCT",
+            "type": "jct",
+            "id": 802,
+            "x": 6681,
+            "z": -1678,
+            "lines": {
+                "Ethiopian Ice lines": {
+                    "Y=91 Old Ethiopian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "1st Orthinia JCT",
+            "type": "jct",
+            "id": 803,
+            "x": 6803,
+            "z": -1672,
+            "lines": {
+                "Ethiopian Ice lines": {
+                    "Y=91 Old Ethiopian": ["", "Main line"],
+                    "Orthinia Eschate": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "2nd Orthinia JCT",
+            "type": "jct",
+            "id": 804,
+            "x": 6803,
+            "z": -1581,
+            "lines": {
+                "Ethiopian Ice lines": {
+                    "Orthinia Eschate": ["", "Main line to Mersa branch"]
+                }
+            }
+        },
+        {
+            "name": "3rd Orthinia JCT",
+            "type": "jct",
+            "id": 805,
+            "x": 6803,
+            "z": -1471,
+            "lines": {
+                "Ethiopian Ice lines": {
+                    "Orthinia Eschate": ["", "Main line"],
+                    "Orchallifort - Oromiya": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -11475,14 +11563,14 @@
                             [6336, -1875],
                             [6321, -1875]
                         ],
-                        "stations": [782, 783, 784, 776]
+                        "stations": [782, 783, [784, "2nd line"], 776]
                     },
                     "2nd line": {
                         "vertices": [
                             [6336, -1807],
                             [6657, -1807]
                         ],
-                        "stations": []
+                        "stations": [[784, "Main line"], 799, 800]
                     },
                     "Towny town branch": {
                         "vertices": [
@@ -11516,20 +11604,37 @@
                             [6772, -1672],
                             [6807, -1672]
                         ],
-                        "stations": [780, 781]
+                        "stations": [[801, "Main line"], 780, 802, 781, 803]
                     },
                     "Elevator branch": {
                         "vertices": [
                             [6657, -1807],
                             [6672, -1807]
                         ],
-                        "stations": []
+                        "stations": [800, [801, "Main line"]]
+                    }
+                }
+            },
+            "Orchallifort - Oromiya": {
+                "prefix": "",
+                "code": "ORC-ORO",
+                "color": "aabbff",
+                "y": 91,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [6736, -1471],
+                            [6883, -1471],
+                            [6883, -1461],
+                            [6964, -1461]
+                        ],
+						"stations": [786, 805, 787]
                     }
                 }
             },
             "Orthinia Eschate": {
                 "prefix": "",
-                "code": "Y=91 old.ETH",
+                "code": "ORT",
                 "color": "aabbff",
                 "y": 91,
                 "branches": {
@@ -11538,8 +11643,15 @@
                             [6803, -1700],
                             [6803, -1426]
                         ],
-                        "stations": []
-                    }
+                        "stations": [803, [804, "Mersa branch"], 805]
+                    },
+					"Mersa branch": {
+						"vertices": [
+                            [6803, -1581],
+                            [6941, -1581]
+                        ],
+                        "stations": [[804, "Main line"], 785]
+					}
                 }
             }
         },
