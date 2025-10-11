@@ -9789,22 +9789,22 @@
         {
             "name": "Addis Ababa (Old platform)",
             "id": 780,
-            "x": 6659,
-            "z": -1676,
+            "x": 6672,
+            "z": -1678,
             "lines": {
                 "Ethiopian Ice lines": {
-                    "Old Ethiopian": ["", "Main line"]
+                    "Y=91 Old Ethiopian": ["", "Main line"]
                 }
             }
         },
         {
             "name": "Orthinia Eschate",
             "id": 781,
-            "x": 6783,
-            "z": -1680,
+            "x": 6772,
+            "z": -1678,
             "lines": {
                 "Ethiopian Ice lines": {
-                    "Old Ethiopian": ["", "Main line"]
+                    "Y=91 Old Ethiopian": ["", "Main line"]
                 }
             }
         },
@@ -9958,7 +9958,7 @@
             "z": -8553,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Oceanside": ["", "Neah Bay connector branch"]
+                    "Oceanside": ["", "Main line"]
                 }
             }
         },
@@ -9969,7 +9969,7 @@
             "z": -8553,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Oceanside": ["", "Neah Bay connector branch"]
+                    "Oceanside": ["", "Main line"]
                 }
             }
         },
@@ -9981,7 +9981,7 @@
             "z": -8553,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Oceanside": ["", "Neah Bay connector branch"]
+                    "Oceanside": ["", "Main line to Astoria town spawn branch"]
                 }
             }
         },
@@ -9995,6 +9995,21 @@
                     "Makran Main": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Astoria Spawn",
+            "id": 798,
+            "x": -23044,
+            "z": -8622,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Oceanside": ["", "Astoria town spawn branch"]
+                }
+            },
+            "areas": [
+                [[-23066, -8616], [-23040, -8625]],
+                [[-23040, -8623], [-23039, -8621]]
+            ]
         }
     ],
     "lines": {
@@ -10193,7 +10208,7 @@
                             [9979, -6468],
                             [9979, -7022]
                         ],
-                        "stations": [26, 27, 28, [29, "Gujarat branch"], 30, 211, 320, 321, 322, [742, "O-O branch"], 323, 774, 595, 594, 593, 554, 492, 618, 491, 490, 489, 626, 707, 708, 709]
+                        "stations": [26, 27, 28, [29, "Gujarat branch"], 30, 211, 320, 321, 322, [742, "O-O branch"], 323, 774, 797, 595, 594, 593, 554, 492, 618, 491, 490, 489, 626, 707, 708, 709]
                     },
                     "Gujarat branch": {
                         "vertices": [
@@ -11462,6 +11477,13 @@
                         ],
                         "stations": [782, 783, 784, 776]
                     },
+                    "2nd line": {
+                        "vertices": [
+                            [6336, -1807],
+                            [6657, -1807]
+                        ],
+                        "stations": []
+                    },
                     "Towny town branch": {
                         "vertices": [
                             [6341, -1480],
@@ -11475,6 +11497,46 @@
                             [6336, -1480],
                             [6336, -1484],
                             [6331, -1484]
+                        ],
+                        "stations": []
+                    }
+                }
+            },
+            "Y=91 Old Ethiopian": {
+                "prefix": "",
+                "code": "Y=91 old.ETH",
+                "color": "aabbff",
+                "y": 91,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [6672, -1820, "Line continue to the north"],
+                            [6672, -1678],
+                            [6772, -1678],
+                            [6772, -1672],
+                            [6807, -1672]
+                        ],
+                        "stations": [780, 781]
+                    },
+                    "Elevator branch": {
+                        "vertices": [
+                            [6657, -1807],
+                            [6672, -1807]
+                        ],
+                        "stations": []
+                    }
+                }
+            },
+            "Orthinia Eschate": {
+                "prefix": "",
+                "code": "Y=91 old.ETH",
+                "color": "aabbff",
+                "y": 91,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [6803, -1700],
+                            [6803, -1426]
                         ],
                         "stations": []
                     }
@@ -11631,7 +11693,7 @@
                             [-22935, -8553],
                             [-23826, -8553]
                         ],
-                        "stations": [794, 790, [791, "Neah Bay connector branch"], 795, 796, 608]
+                        "stations": [794, 790, [791, "Neah Bay connector branch"], 795, [796, "Astoria town spawn branch"], 608]
                     },
                     "Neah Bay connector branch": {
                         "vertices": [
@@ -11639,6 +11701,14 @@
                             [-23189, -8553]
                         ],
                         "stations": [621, 793, 792, [791, "Main line"]]
+                    },
+                    "Astoria town spawn branch": {
+                        "vertices": [
+                            [-23064, -8553],
+                            [-23064, -8622],
+                            [-23044, -8622]
+                        ],
+                        "stations": [[796, "Main line"], 798]
                     }
                 }
             },
