@@ -315,7 +315,7 @@
             "z": -4780,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line"],
+                    "Makran Main": ["", "Main line"],
                     "Bangla-Caspian": ["", "Main line"]
                 }
             }
@@ -327,7 +327,7 @@
             "z": -4686,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line"]
+                    "Makran Main": ["", "Main line"]
                 }
             }
         },
@@ -338,7 +338,7 @@
             "z": -4686,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line"],
+                    "Makran Main": ["", "Main line"],
                     "Meteorville": ["", "Main line"]
                 }
             }
@@ -350,7 +350,7 @@
             "z": -4686,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line to Gujarat branch"]
+                    "Makran Main": ["", "Main line to Gujarat branch"]
                 }
             }
         },
@@ -361,7 +361,7 @@
             "z": -4686,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line"]
+                    "Makran Main": ["", "Main line"]
                 }
             }
         },
@@ -372,7 +372,7 @@
             "z": -4310,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Gujarat branch"]
+                    "Makran Main": ["", "Gujarat branch"]
                 }
             }
         },
@@ -2522,7 +2522,7 @@
             "z": -4713,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line"]
+                    "Makran Main": ["", "Main line"]
                 }
             }
         },
@@ -3865,7 +3865,7 @@
             "z": -4820,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line"]
+                    "Makran Main": ["", "Main line"]
                 }
             }
         },
@@ -3877,7 +3877,7 @@
             "z": -4840,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line"]
+                    "Makran Main": ["", "Main line"]
                 }
             }
         },
@@ -3888,7 +3888,7 @@
             "z": -4854,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line"]
+                    "Makran Main": ["", "Main line"]
                 }
             }
         },
@@ -3899,7 +3899,7 @@
             "z": -4854,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line"]
+                    "Makran Main": ["", "Main line"]
                 }
             }
         },
@@ -5996,7 +5996,7 @@
             "lines": {
                 "TNIH": {
                     "Loopstan": ["", "Persia Region Connector Branch"],
-                    "Gujarat": ["", "Main line (Makran Line)"]
+                    "Makran Main": ["", "Main line"]
                 }
             }
         },
@@ -6007,7 +6007,7 @@
             "z": -6337,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line (Makran Line)"]
+                    "Makran Main": ["", "Main line"]
                 }
             }
         },
@@ -6019,7 +6019,7 @@
             "z": -6178,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line (Makran Line)"]
+                    "Makran Main": ["", "Main line"]
                 }
             }
         },
@@ -6030,7 +6030,7 @@
             "z": -5498,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line (Makran Line)"]
+                    "Makran Main": ["", "Main line"]
                 }
             }
         },
@@ -6850,7 +6850,7 @@
             "z": -5230,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line (Makran Line)"]
+                    "Makran Main": ["", "Main line"]
                 }
             }
         },
@@ -7338,7 +7338,7 @@
             "z": -5230,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line (Makran Line)"]
+                    "Makran Main": ["", "Main line"]
                 }
             }
         },
@@ -7349,7 +7349,7 @@
             "z": -5079,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line (Makran Line)"]
+                    "Makran Main": ["", "Main line"]
                 }
             }
         },
@@ -7360,7 +7360,7 @@
             "z": -4990,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line (Makran Line)"]
+                    "Makran Main": ["", "Main line"]
                 }
             }
         },
@@ -7666,7 +7666,7 @@
             "z": -5950,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line (Makran Line)"],
+                    "Makran Main": ["", "Main line"],
                     "Iran": ["", ""]
                 }
             }
@@ -7768,7 +7768,7 @@
             "z": -6468,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line (Makran Line)"]
+                    "Makran Main": ["", "Main line"]
                 }
             }
         },
@@ -8856,7 +8856,7 @@
             "z": -6809,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line (Makran Line)"]
+                    "Makran Main": ["", "Main line"]
                 }
             }
         },
@@ -8870,7 +8870,7 @@
             "y2": 1,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line (Makran Line)"]
+                    "Makran Main": ["", "Main line"]
                 }
             }
         },
@@ -8883,7 +8883,7 @@
             "lines": {
                 "TNIH": {
                     "Lower Bangla-Caspian": ["", "Main line"],
-                    "Gujarat": ["", "Main line (Makran Line)"]
+                    "Makran Main": ["", "Main line"]
                 }
             }
         },
@@ -9318,7 +9318,7 @@
             "z": -4854,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line to O-O branch"]
+                    "Makran Main": ["", "Main line to O-O branch"]
                 }
             }
         },
@@ -9329,7 +9329,7 @@
             "z": -4955,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "O-O branch"]
+                    "Makran Main": ["", "O-O branch"]
                 }
             }
         },
@@ -9723,7 +9723,7 @@
             "z": -5018,
             "lines": {
                 "TNIH": {
-                    "Gujarat": ["", "Main line"]
+                    "Makran Main": ["", "Main line"]
                 }
             }
         },
@@ -9984,6 +9984,17 @@
                     "Oceanside": ["", "Neah Bay connector branch"]
                 }
             }
+        },
+        {
+            "name": "Upper Chabahar",
+            "id": 797,
+            "x": 11065,
+            "z": -5018,
+            "lines": {
+                "TNIH": {
+                    "Makran Main": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -10157,9 +10168,9 @@
                     }
                 }
             },
-            "Gujarat": {
+            "Makran Main": {
                 "prefix": "",
-                "code": "GJ",
+                "code": "MR",
                 "color": "ff6600",
                 "y": 10,
                 "branches": {
@@ -10172,21 +10183,17 @@
                             [11884, -4820],
                             [11884, -4854],
                             [11295, -4854],
-                            [11295, -5018]
-                        ],
-                        "stations": [26, 27, 28, [29, "Gujarat branch"], 30, 211, 320, 321, 322, [742, "O-O branch"], 323, 774]
-                    },
-                    "Main line (Makran Line)": {
-                        "vertices": [
-                            [9979, -7022],
-                            [9979, -6468],
-                            [10259, -6468],
-                            [10259, -5230],
-                            [10411, -5230],
+                            [11295, -5018],
+                            [10968, -5018],
+                            [10968, -4990],
                             [10411, -4990],
-                            [10904, -4990]
+                            [10411, -5230],
+                            [10259, -5230],
+                            [10259, -6468],
+                            [9979, -6468],
+                            [9979, -7022]
                         ],
-                        "stations": [709, 708, 707, 626, 489, 490, 491, 618, 492, 554, 593, 594, 595]
+                        "stations": [26, 27, 28, [29, "Gujarat branch"], 30, 211, 320, 321, 322, [742, "O-O branch"], 323, 774, 595, 594, 593, 554, 492, 618, 491, 490, 489, 626, 707, 708, 709]
                     },
                     "Gujarat branch": {
                         "vertices": [
