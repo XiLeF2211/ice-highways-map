@@ -10098,6 +10098,71 @@
                     "Orchallifort - Oromiya": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Fc",
+            "id": 806,
+            "x": 22332,
+            "z": -8774,
+            "lines": {
+                "Local": {
+                    "Konrinji": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Fc farm emergency exit",
+            "type": "semi2",
+            "id": 807,
+            "x": 22332,
+            "z": -8901,
+            "lines": {
+                "Local": {
+                    "Konrinji": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hulun JCT",
+            "type": "jct",
+            "id": 808,
+            "x": 21704,
+            "z": -9214,
+            "lines": {
+                "Local": {
+                    "Konrinji": ["", "Main line to East Khazar branch"]
+                }
+            }
+        },
+        {
+            "name": "Konrinji",
+            "id": 809,
+            "x": 21704,
+            "z": -9559,
+            "lines": {
+                "Local": {
+                    "Konrinji": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[21691, -9570], [21702, -9551]],
+                [[21700, -9565], [21706, -9551]],
+                [[21683, -9564], [21693, -9552]]
+            ]
+        },
+        {
+            "name": "East Khazar",
+            "id": 810,
+            "x": 21513,
+            "z": -9140,
+            "lines": {
+                "Local": {
+                    "Konrinji": ["", "East Khazar branch"]
+                }
+            },
+            "areas": [
+                [[21507, -9152], [21519, -9125]]
+            ]
         }
     ],
     "lines": {
@@ -13156,6 +13221,33 @@
                             [8305, -8194.5]
                         ],
                         "stations": [298, 773]
+                    }
+                }
+            },
+            "Konrinji": {
+                "prefix": "",
+                "code": "金林寺",
+                "color": "016a6d",
+                "y": 83,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [22332, -8770],
+                            [22332, -9214],
+                            [21704, -9564],
+                            [21704, -9544],
+                            [21697, -9552],
+                            [21697, -9567]
+                        ],
+                        "stations": [806, 807, [808, "East Khazar branch"], 809]
+                    },
+                    "East Khazar branch": {
+                        "vertices": [
+                            [21704, -9214],
+                            [21513, -9214],
+                            [21513, -9140]
+                        ],
+                        "stations": [[808, "Main line"], 809]
                     }
                 }
             }
