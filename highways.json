@@ -10163,6 +10163,47 @@
             "areas": [
                 [[21507, -9152], [21519, -9125]]
             ]
+        },
+        {
+            "name": "Skechalope",
+            "id": 811,
+            "x": 29530,
+            "z": -10624,
+            "lines": {
+                "Local": {
+                    "Skechalope-Dewdonia": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[29505, -10610], [29534, -10623]],
+                [[29528, -10626], [29532, -10611]]
+            ]
+        },
+        {
+            "name": "Skechalope JCT",
+            "type": "jct",
+            "id": 812,
+            "x": 29530,
+            "z": -10641,
+            "lines": {
+                "Local": {
+                    "Skechalope-Dewdonia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Dewdonia",
+            "id": 813,
+            "x": 29380,
+            "z": -10895,
+            "lines": {
+                "Local": {
+                    "Skechalope-Dewdonia": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[29376, -10896], [29391, -10881]]
+            ]
         }
     ],
     "lines": {
@@ -13248,7 +13289,23 @@
                             [21513, -9214],
                             [21513, -9140]
                         ],
-                        "stations": [[808, "Main line"], 809]
+                        "stations": [[808, "Main line"], 810]
+                    }
+                }
+            },
+            "Skechalope-Dewdonia": {
+                "prefix": "",
+                "code": "S-D",
+                "color": "2387c5",
+                "y": 61,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [29530, -10602],
+                            [29530, -10895],
+                            [29380, -10895]
+                        ],
+                        "stations": [811, 812, 813]
                     }
                 }
             }
