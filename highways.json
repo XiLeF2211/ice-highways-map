@@ -3353,7 +3353,7 @@
             }
         },
         {
-            "name": "Quahog",
+            "name": "TiltedTowers",
             "id": 282,
             "x": 11107,
             "z": -7549,
@@ -9777,7 +9777,7 @@
             }
         },
         {
-            "name": "Towny town (Quahog)",
+            "name": "Quahog",
             "id": 779,
             "x": 6346,
             "z": -1494,
@@ -10205,6 +10205,21 @@
             "areas": [
                 [[29376, -10896], [29391, -10881]]
             ]
+        },
+        {
+            "name": "Haruna JCT",
+            "type": "jct",
+            "id": 814,
+            "x": 22760,
+            "z": -8264,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Manshu Main": ["", ""]
+                },
+                "Ezo Underground Ice Road": {
+                    "Nishi-Manshu Main": ["", "Main Line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -12769,7 +12784,7 @@
                             [24215, -9465],
                             [24767, -9465]
                         ],
-                        "stations": [756, 757, 758, 747, 759, 760]
+                        "stations": [756, 814, 757, 758, 747, 759, 760]
                     }
                 }
             }
@@ -12783,10 +12798,10 @@
                 "branches": {
                     "Main Line": {
                         "vertices": [
-                            [22375, -8264],
+                            [22760, -8264],
                             [22160, -8264]
                         ],
-                        "stations": [[761, "to Buyeo branch"], 762, 763]
+                        "stations": [814, [761, "to Buyeo branch"], 762, 763]
                     },
                     "Buyeo branch": {
                         "vertices": [
