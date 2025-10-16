@@ -10220,6 +10220,57 @@
                     "Nishi-Manshu Main": ["", "Main Line"]
                 }
             }
+        },
+        {
+            "name": "Newport",
+            "id": 815,
+            "x": 11815,
+            "z": -7094,
+            "lines": {
+                "Local": {
+                    "Ex-Tajikistan People Republic (Central Asia) Ice Highway": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Newport JCT",
+            "type": "jct",
+            "id": 816,
+            "x": 11784,
+            "z": -7094,
+            "lines": {
+                "Local": {
+                    "Ex-Tajikistan People Republic (Central Asia) Ice Highway": ["", "Main Line"]
+                },
+                "TNIH": {
+                    "Afghan": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Ramal",
+            "id": 817,
+            "x": 11784,
+            "z": -7224,
+            "lines": {
+                "Local": {
+                    "Ex-Tajikistan People Republic (Central Asia) Ice Highway": ["", "Main Line"]
+                }
+            },
+            "areas": [
+                [[11776, -7233], [11792, -7216]]
+            ]
+        },
+        {
+            "name": "Ashgabat",
+            "id": 818,
+            "x": 11678,
+            "z": -7224,
+            "lines": {
+                "Local": {
+                    "Ex-Tajikistan People Republic (Central Asia) Ice Highway": ["", "Main Line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -10683,14 +10734,14 @@
                 "branches": {
                     "Main Line": {
                         "vertices": [
-                            [11784, -6771],
+                            [11784, -7094],
                             [11784, -6667],
                             [12000, -6667],
                             [12000, -6329],
                             [12215, -6329],
                             [12215, -6264]
                         ],
-                        "stations": [224, 262, 263, 264, 265, 266]
+                        "stations": [816, 224, 262, 263, 264, 265, 266]
                     }
                 }
             },
@@ -13322,6 +13373,23 @@
                             [29380, -10895]
                         ],
                         "stations": [811, 812, 813]
+                    }
+                }
+            },
+            "Ex-Tajikistan People Republic (Central Asia) Ice Highway": {
+                "prefix": "",
+                "code": "xTPR",
+                "color": "cd0000",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [11815, -7094],
+                            [11784, -7094],
+                            [11784, -7224],
+                            [11678, -7224]
+                        ],
+                        "stations": [815, 816, 817, 818]
                     }
                 }
             }
