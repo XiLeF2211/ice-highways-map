@@ -10271,6 +10271,158 @@
                     "Ex-Tajikistan People Republic (Central Asia) Ice Highway": ["", "Main Line"]
                 }
             }
+        },
+        {
+            "name": "Wenling JCT",
+            "type": "jct",
+            "id": 819,
+            "x": 18494,
+            "z": -7048,
+            "lines": {
+                "China Iceway": {
+                    "Wenling-Dali": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Lanzhou",
+            "id": 820,
+            "x": 18494,
+            "z": -6585,
+            "lines": {
+                "China Iceway": {
+                    "Wenling-Dali": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Dali North",
+            "id": 821,
+            "x": 18494,
+            "z": -5112,
+            "lines": {
+                "China Iceway": {
+                    "Wenling-Dali": ["", "Main Line"]
+                }
+            },
+            "areas": [
+                [[18492, -5096], [18496, -5111]],
+                [[18491, -5120], [18497, -5111]]
+            ]
+        },
+        {
+            "name": "Beiping JCT",
+            "type": "jct",
+            "id": 822,
+            "x": 21419,
+            "z": -7434,
+            "lines": {
+                "China Iceway": {
+                    "Huangsha Upper": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Earth JCT",
+            "type": "jct",
+            "id": 823,
+            "x": 21419,
+            "z": -7673,
+            "lines": {
+                "China Iceway": {
+                    "Huangsha Upper": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Kalgan JCT",
+            "type": "jct",
+            "id": 824,
+            "x": 21126,
+            "z": -7713,
+            "lines": {
+                "China Iceway": {
+                    "Huangsha Upper": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Baotou JCT",
+            "type": "jct",
+            "id": 825,
+            "x": 20411,
+            "z": -7713,
+            "lines": {
+                "China Iceway": {
+                    "Huangsha Upper": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Huangsha Line Elevator",
+            "type": "elev-we",
+            "id": 826,
+            "x": 20151,
+            "z": -7710,
+            "y1": 83,
+            "y2": 75,
+            "lines": {
+                "China Iceway": {
+                    "Huangsha Upper": ["", "Main Line"],
+                    "Huangsha Lower": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Zhangye",
+            "type": "semi1",
+            "id": 827,
+            "x": 18462.5,
+            "z": -7582,
+            "lines": {
+                "China Iceway": {
+                    "Huangsha Lower": ["", "Main Line"]
+                }
+            },
+            "areas": [
+                [[18431, -7599], [18438, -7585]],
+                [[18432, -7585], [18472, -7589]],
+                [[18454, -7580], [18471, -7589]]
+            ]
+        },
+        {
+            "name": "Jiuquan",
+            "type": "semi1",
+            "id": 828,
+            "x": 17896,
+            "z": -7619,
+            "lines": {
+                "China Iceway": {
+                    "Huangsha Lower": ["", "Main Line"]
+                }
+            },
+            "areas": [
+                [[17876, -7627], [17916, -7631]],
+                [[17888, -7617], [17904, -7631]]
+            ]
+        },
+        {
+            "name": "Dunhuang",
+            "type": "semi1",
+            "id": 829,
+            "x": 17702,
+            "z": -7619,
+            "lines": {
+                "China Iceway": {
+                    "Huangsha Lower": ["", "Main Line"]
+                }
+            },
+            "areas": [
+                [[17712, -7627], [17701, -7647]],
+                [[17696, -7629], [17703, -7636]],
+                [[17685, -7644], [17699, -7635]],
+                [[17686, -7644], [17711, -7636]]
+            ]
         }
     ],
     "lines": {
@@ -12881,6 +13033,60 @@
                 }
             }
         },
+        "China Iceway": {
+            "Wenling-Dali": {
+                "prefix": "",
+                "code": "温岭大理",
+                "color": "fcd600",
+                "y": 111,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [10840, -6735],
+                            [10961, -6735],
+                            [10961, -6771],
+                            [11620, -6771]
+                        ],
+                        "stations": [819, 820, 821]
+                    }
+                }
+            },
+            "Huangsha Upper": {
+                "prefix": "",
+                "code": "黄沙上",
+                "color": "ff8800",
+                "y": 83,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [21419, -7434],
+                            [21419, -7713],
+                            [20151, -7713],
+                            [20151, -7710]
+                        ],
+                        "stations": [822, 823, 824, 825, 826]
+                    }
+                }
+            },
+            "Huangsha Lower": {
+                "prefix": "",
+                "code": "黄沙下",
+                "color": "ff8800",
+                "y": 75,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [20151, -7710],
+                            [20151, -7582],
+                            [18379, -7582],
+                            [18197, -7619],
+                            [17702, -7619]
+                        ],
+                        "stations": [826, 827, 828, 829]
+                    }
+                }
+            }
+        },
         "Eko Ice Highway": {
             "Porto Novo - Sienna": {
                 "prefix": "",
@@ -13382,7 +13588,7 @@
                 "color": "cd0000",
                 "y": 10,
                 "branches": {
-                    "Main line": {
+                    "Main Line": {
                         "vertices": [
                             [11815, -7094],
                             [11784, -7094],
