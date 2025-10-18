@@ -8571,16 +8571,12 @@
             }
         },
         {
-            "name": "Sardinia JCT",
-            "type": "jct",
+            "name": "ID=686 is available",
             "id": 686,
             "x": 1440,
             "z": -7640,
             "lines": {
-                "Genoa Ice lines": {
-                    "Genoa": ["", "Main line"],
-                    "Lecce": ["", "Main line"]
-                }
+
             }
         },
         {
@@ -10477,7 +10473,7 @@
             "z": -7446,
             "lines": {
                 "China Iceway": {
-                    "Baotou": ["", "Main Line to Xincheng branch"]
+                    "Baotou": ["", "Main Line to Xincheng Branch"]
                 }
             },
             "areas": [
@@ -12329,7 +12325,7 @@
                             [1440, -6913],
                             [1489, -6913]
                         ],
-                        "stations": [682, 683, 684, [685, "Genoa local branch"], 686, 687, 688]
+                        "stations": [682, 683, 684, [685, "Genoa local branch"], 687, 688]
                     },
                     "Genoa local branch": {
                         "vertices": [
@@ -12357,7 +12353,7 @@
                             [3138, -7627],
                             [3138, -7592]
                         ],
-                        "stations": [696, 687, 686, 691, 692, 693, 694, 695]
+                        "stations": [696, 687, 691, 692, 693, 694, 695]
                     },
                     "": {
                         "vertices": [
