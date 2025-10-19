@@ -8574,12 +8574,15 @@
             }
         },
         {
-            "name": "ID=686 is available",
+            "name": "Nubian Icerail Network JCT",
+            "type": "jct",
             "id": 686,
-            "x": 1440,
-            "z": -7640,
+            "x": 6914,
+            "z": -1672,
             "lines": {
-
+				"Ethiopian Ice lines": {
+					"Y=91 Old Ethiopian": ["", "Main line"]
+				}
             }
         },
         {
@@ -10054,7 +10057,7 @@
             }
         },
         {
-            "name": "Sancta Ethiopia JCT",
+            "name": "Addis Ababa (Sancta Ethiopia JCT)",
             "type": "jct",
             "id": 802,
             "x": 6681,
@@ -10728,6 +10731,100 @@
                 "Modern Silk Road": {
                     "MSR Main Line (Y=111)": ["", "Main Line"]
                 }
+            }
+        },
+        {
+            "name": "Not so Donutville JCT",
+            "type": "jct",
+            "id": 852,
+            "x": 7424,
+            "z": -1672,
+            "lines": {
+				"Ethiopian Ice lines": {
+					"Y=91 Old Ethiopian": ["", "Main line to Donutville line connector"]
+				}
+            }
+        },
+        {
+            "name": "Not so Donutville",
+            "id": 853,
+            "x": 7450,
+            "z": -1672,
+            "lines": {
+				"Ethiopian Ice lines": {
+					"Y=91 Old Ethiopian": ["", "Main line"]
+				}
+            }
+        },
+        {
+            "name": "Y=91 to Y=84 Elevator",
+            "type": "elev-we",
+            "y1": 91,
+            "y2": 84,
+            "id": 854,
+            "x": 7424,
+            "z": -1661,
+            "lines": {
+				"Ethiopian Ice lines": {
+					"Y=91 Old Ethiopian": ["", "Donutville line connector"],
+					"Donutville": ["", "Main line"]
+				}
+            }
+        },
+        {
+            "name": "Costal town",
+            "id": 855,
+            "x": 7424,
+            "z": -1514,
+            "lines": {
+				"Ethiopian Ice lines": {
+					"Donutville": ["", "Main line"]
+				}
+            }
+        },
+        {
+            "name": "Donutville",
+            "id": 856,
+            "x": 7424,
+            "z": -1500,
+            "lines": {
+				"Ethiopian Ice lines": {
+					"Donutville": ["", "Main line"]
+				}
+            }
+        },
+        {
+            "name": "Sancta Ethiopia JCT",
+            "type": "jct",
+            "id": 857,
+            "x": 6594,
+            "z": -1570,
+            "lines": {
+				"Ethiopian Ice lines": {
+					"Taria": ["", "Main line to Sancta Ethiopia branch"]
+				}
+            }
+        },
+        {
+            "name": "Ethiopian Chito point",
+            "id": 858,
+            "x": 6526,
+            "z": -1556,
+            "lines": {
+				"Ethiopian Ice lines": {
+					"Taria": ["", "Main line"]
+				}
+            }
+        },
+        {
+            "name": "Sancta Ethiopia",
+            "id": 859,
+            "x": 6594,
+            "z": -1335,
+            "lines": {
+				"Ethiopian Ice lines": {
+					"Taria": ["", "Sancta Ethiopia branch"]
+				}
             }
         }
     ],
@@ -12229,13 +12326,13 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [6672, -1820, "Line continue to the north"],
+                            [6672, -1899, "Line continue to the west. Need to fix broken elevator"],
                             [6672, -1678],
                             [6772, -1678],
                             [6772, -1672],
-                            [6807, -1672]
+                            [7450, -1672]
                         ],
-                        "stations": [[801, "Main line"], 780, 802, 781, 803]
+                        "stations": [[801, "Main line"], 780, 802, 781, 803, 686, [852, "Donutville line connector"], 853]
                     },
                     "Elevator branch": {
                         "vertices": [
@@ -12243,6 +12340,56 @@
                             [6672, -1807]
                         ],
                         "stations": [800, [801, "Main line"]]
+                    },
+                    "Donutville line connector": {
+                        "vertices": [
+                            [7424, -1672],
+                            [7424, -1661]
+                        ],
+                        "stations": [[852, "Main line"], 854]
+                    }
+                }
+            },
+            "Donutville": {
+                "prefix": "",
+                "code": "DNV",
+                "color": "aa00ee",
+                "y": 91,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [7424, -1661],
+                            [7424, -1500]
+                        ],
+                        "stations": [854, 855, 856]
+                    }
+                }
+            },
+            "Taria": {
+                "prefix": "",
+                "code": "TR.ETH",
+                "color": "aabbff",
+                "y": 91,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [6681, -1678],
+                            [6681, -1663],
+                            [6673, -1663],
+                            [6673, -1630],
+                            [6657, -1630],
+                            [6657, -1570],
+                            [6526, -1570],
+                            [6526, -1556]
+                        ],
+                        "stations": [802, [857, "Sancta Ethiopia branch"], 858]
+                    },
+                    "Sancta Ethiopia branch": {
+                        "vertices": [
+                            [6594, -1570],
+                            [6594, -1335]
+                        ],
+                        "stations": [[857, "Main line"], 859]
                     }
                 }
             },
