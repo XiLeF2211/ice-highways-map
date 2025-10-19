@@ -3051,6 +3051,9 @@
                 "TNIH": {
                     "Bukhara": ["", "Main line"],
                     "Loopstan": ["", "Main Line"]
+                },
+                "Modern Silk Road": {
+                    "MSR Main Line (Y=122)": ["", "Main line"]
                 }
             },
             "areas": [
@@ -10281,6 +10284,9 @@
             "lines": {
                 "China Iceway": {
                     "Wenling-Dali": ["", "Main Line"]
+                },
+                "Modern Silk Road": {
+                    "MSR Main Line (Y=122)": ["", "Main Line"]
                 }
             }
         },
@@ -10556,6 +10562,171 @@
             "lines": {
                 "China Iceway": {
                     "Baotou": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Kushan (MSR)",
+            "id": 838,
+            "x": 10383,
+            "z": -7800,
+            "lines": {
+                "Modern Silk Road": {
+                    "MSR Main Line (Y=122)": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Dashhowuz JCT",
+            "type": "jct",
+            "id": 839,
+            "x": 10683,
+            "z": -7800,
+            "lines": {
+                "Modern Silk Road": {
+                    "MSR Main Line (Y=122)": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Khiva",
+            "id": 840,
+            "x": 11007,
+            "z": -7800,
+            "lines": {
+                "Modern Silk Road": {
+                    "MSR Main Line (Y=122)": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Khiva Elevator",
+            "type": "elev-we",
+            "id": 841,
+            "x": 11019,
+            "z": -7800,
+            "y1": 122,
+            "y2": 111, 
+            "lines": {
+                "Modern Silk Road": {
+                    "MSR Main Line (Y=122)": ["", "Main Line"],
+                    "MSR Main Line (Y=111)": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "New Fergana",
+            "type": "semi3",
+            "id": 842,
+            "x": 11467,
+            "z": -7800,
+            "lines": {
+                "Modern Silk Road": {
+                    "MSR Main Line (Y=111)": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "MSR Urithru (JCT)",
+            "type": "jct",
+            "id": 843,
+            "x": 11799,
+            "z": -7800,
+            "lines": {
+                "Modern Silk Road": {
+                    "MSR Main Line (Y=111)": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Quyosh Ko Connector",
+            "id": 844,
+            "x": 11799,
+            "z": -7405,
+            "lines": {
+                "Modern Silk Road": {
+                    "MSR Main Line (Y=111)": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Be JCT",
+            "type": "jct",
+            "id": 845,
+            "x": 11799,
+            "z": -7049,
+            "lines": {
+                "Modern Silk Road": {
+                    "MSR Main Line (Y=111)": ["", "Main Line to Be branch"]
+                }
+            }
+        },
+        {
+            "name": "Be",
+            "id": 846,
+            "x": 11710,
+            "z": -7049,
+            "lines": {
+                "Modern Silk Road": {
+                    "MSR Main Line (Y=111)": ["", "Be branch"]
+                }
+            }
+        },
+        {
+            "name": "Yavana Nation Spawn",
+            "id": 847,
+            "x": 12520,
+            "z": -7049,
+            "lines": {
+                "Modern Silk Road": {
+                    "MSR Main Line (Y=111)": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Evia East",
+            "id": 848,
+            "x": 12574,
+            "z": -7049,
+            "lines": {
+                "Modern Silk Road": {
+                    "MSR Main Line (Y=111)": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Radaku JP (JCT)",
+            "id": 849,
+            "x": 13680,
+            "z": -7049,
+            "lines": {
+                "Modern Silk Road": {
+                    "MSR Main Line (Y=111)": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Qinghai Mine",
+            "id": 850,
+            "x": 18631,
+            "z": -7048,
+            "lines": {
+                "Modern Silk Road": {
+                    "MSR Main Line (Y=111)": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Inca Village Elevator",
+            "type": "elev-ew",
+            "id": 851,
+            "x": 19479,
+            "z": -7034,
+            "y1": 111,
+            "y2": 119,
+            "lines": {
+                "Modern Silk Road": {
+                    "MSR Main Line (Y=111)": ["", "Main Line"]
                 }
             }
         }
@@ -13429,6 +13600,50 @@
                             [-54, -7372]
                         ],
                         "stations": [[665, "Main line"], 653]
+                    }
+                }
+            }
+        },
+        "Modern Silk Road": {
+            "MSR Main Line (Y=122)": {
+                "prefix": "",
+                "code": "MSR (Y=122)",
+                "color": "9d6bd4",
+                "y": 122,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [10383, -7800],
+                            [11019, -7800]
+                        ],
+                        "stations": [838, 839, 840, 841]
+                    }
+                }
+            },
+            "MSR Main Line (Y=111)": {
+                "prefix": "",
+                "code": "MSR (Y=111)",
+                "color": "9d6bd4",
+                "y": 111,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [11019, -7800],
+                            [11799, -7800],
+                            [11799, -7049],
+                            [14015, -7049],
+                            [14021, -7048],
+                            [19479, -7048],
+                            [19479, -7034]
+                        ],
+                        "stations": [841, 842, 255, 843, 844, 845, [846, "Be branch"], 848, 849, 850, 851]
+                    },
+                    "Be branch": {
+                        "vertices": [
+                            [11799, -7049],
+                            [11710, -7049]
+                        ],
+                        "stations": [[846, "Main Line"], 847]
                     }
                 }
             }
