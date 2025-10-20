@@ -10826,7 +10826,113 @@
 					"Taria": ["", "Sancta Ethiopia branch"]
 				}
             }
+        },
+        {
+            "name": "Y=91 to Y=79 Elevator",
+            "type": "elev-we",
+            "y1": 91,
+            "y2": 78,
+            "id": 860,
+            "x": 6798,
+            "z": -1025,
+            "lines": {
+				"Ethiopian Ice lines": {
+					"Orthinia Eschate": ["", "Main line"]
+				}
+            }
+        },
+        {
+            "name": "Kismayo",
+            "id": 861,
+            "x": 7736,
+            "z": -362,
+            "lines": {
+				"Somalia Ice lines": {
+					"1st Somalia": ["", "Kismayo - Rattay"]
+				}
+            }
+        },
+        {
+            "name": "Kismayo JCT",
+            "type": "jct",
+            "id": 862,
+            "x": 7736,
+            "z": -392,
+            "lines": {
+				"Somalia Ice lines": {
+					"1st Somalia": ["", "Kismayo - Rattay"]
+				}
+            }
+        },
+        {
+            "name": "JCT",
+            "type": "jct",
+            "id": 863,
+            "x": 7736,
+            "z": -647,
+            "lines": {
+				"Somalia Ice lines": {
+					"1st Somalia": ["", "Kismayo - Rattay"]
+				}
+            }
+        },
+        {
+            "name": "South Rattay Y=75 to Y=71 Elevator",
+            "type": "elev-we",
+            "id": 863,
+            "y1": 75,
+            "y2": 71,
+            "x": 7736,
+            "z": -701,
+            "lines": {
+				"Somalia Ice lines": {
+					"1st Somalia": ["", "Kismayo - Rattay"],
+                    "Rattay local": ["", ""]
+				}
+            }
+        },
+        {
+            "name": "Rattay",
+            "id": 864,
+            "x": 7736,
+            "z": -767.5,
+            "lines": {
+				"Somalia Ice lines": {
+                    "Rattay local": ["", ""]
+				}
+            },
+            "areas": [
+                [[7735, -830], [7743, -705]]
+            ]
+        },
+        {
+            "name": "North Rattay Y=75 to Y=71 Elevator",
+            "type": "elev-we",
+            "id": 865,
+            "y1": 75,
+            "y2": 71,
+            "x": 7736,
+            "z": -835,
+            "lines": {
+				"Somalia Ice lines": {
+					"1st Somalia": ["", "Rattay - Djibouti"],
+                    "Rattay local": ["", ""]
+				}
+            }
+        },
+        {
+            "name": "Interchange to Y=65 Ice line",
+            "type": "jct",
+            "id": 866,
+            "x": 7736,
+            "z": -1342.5,
+            "lines": {
+				"Somalia Ice lines": {
+					"1st Somalia": ["", "Rattay - Djibouti to Y=65 Connector branch"]
+				}
+            }
         }
+
     ],
     "lines": {
         "SEAN": {
@@ -12419,9 +12525,11 @@
                     "Main line": {
                         "vertices": [
                             [6803, -1700],
-                            [6803, -1426]
+                            [6803, -1426],
+                            [6798, -1426],
+                            [6798, -1025]
                         ],
-                        "stations": [803, [804, "Mersa branch"], 805]
+                        "stations": [803, [804, "Mersa branch"], 805, 860]
                     },
 					"Mersa branch": {
 						"vertices": [
@@ -12430,6 +12538,52 @@
                         ],
                         "stations": [[804, "Main line"], 785]
 					}
+                }
+            }
+        },
+        "Somalia Ice lines": {
+            "1st Somalia": {
+                "prefix": "",
+                "code": "1st.SOM",
+                "color": "ffffff",
+                "y": 75,
+                "branches": {
+                    "Kismayo - Rattay": {
+                        "vertices": [
+                            [7736, -362],
+                            [7736, -701]
+                        ],
+                        "stations": [861, 862, 863, 864]
+                    },
+                    "Rattay - Djibouti": {
+                        "vertices": [
+                            [7736, -835],
+                            [7736, -2242]
+                        ],
+                        "stations": [[866, "Y=65 Connector branch"]]
+                    },
+                    "Y=65 Connector branch": {
+                        "vertices": [
+                            [7736, -1342.5],
+                            [7717.5, -1342.5]
+                        ],
+                        "stations": [[866, "Rattay - Djibouti"]]
+                    }
+                }
+            },
+            "Rattay local": {
+                "prefix": "",
+                "code": "RTY",
+                "color": "00aa00",
+                "y": 75,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [7736, -701],
+                            [7736, -835]
+                        ],
+                        "stations": [864, 865, 866]
+                    }
                 }
             }
         },
