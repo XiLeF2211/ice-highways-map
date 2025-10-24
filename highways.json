@@ -10977,6 +10977,18 @@
                     "Makran Main": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Herat",
+            "type": "semi1",
+            "id": 872,
+            "x": 11173,
+            "z": -6468,
+            "lines": {
+                "TNIH": {
+                    "Loopstan": ["", "Main Line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -11476,9 +11488,10 @@
                             [10751, -7549],
                             [10751, -7240],
                             [10840, -7240],
-                            [10840, -6468]
+                            [10840, -6468],
+                            [11173, -6468]
                         ],
-                        "stations": [265, 267, 268, 222, 261, 269, 270, 271, 273, 274, 275, 276, 277, 255, [278, "Sand branch"], 280, 281, 282, 283, 284, 555, [469, "SkyHaven JCT connector"], 600, 470, [488, "Persia Region Connector Branch"]]
+                        "stations": [265, 267, 268, 222, 261, 269, 270, 271, 273, 274, 275, 276, 277, 255, [278, "Sand branch"], 280, 281, 282, 283, 284, 555, [469, "SkyHaven JCT connector"], 600, 470, [488, "Persia Region Connector Branch"], 872]
                     },
                     "SkyHaven JCT connector": {
                         "vertices": [
