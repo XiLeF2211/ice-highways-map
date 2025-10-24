@@ -10989,6 +10989,30 @@
                     "Loopstan": ["", "Main Line"]
                 }
             }
+        },
+        {
+            "name": "East line (Washington JCT)",
+            "type": "jct",
+            "id": 873,
+            "x": -18500,
+            "z": -8551,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "East": ["", "Main line to Washington branch"]
+                }
+            }
+        },
+        {
+            "name": "East line (Potato JCT)",
+            "type": "jct",
+            "id": 874,
+            "x": -17972,
+            "z": -8551,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Potato": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -12787,7 +12811,7 @@
                             [-20156, -8918],
                             [-20156, -8551],
                             [-18500, -8551],
-                            [-18500, -8359]
+                            [-17900, -8551]
                         ],
                         "stations": [724, 727, 728, 729, 730, 731, 732, 733, 734,
 									735, 736, 737, 738, 739, 740, 741]
@@ -12799,10 +12823,31 @@
                         ],
                         "stations": [[728, "Main line"], 765]
                     },
+                    "Washington branch": {
+                        "vertices": [
+                            [-18500, -8551],
+                            [-18500, -8359]
+                        ]
+                    },
                     "": {
                         "vertices": [
                             [-19383.5, -8551],
                             [-19383.5, -8546]
+                        ],
+                        "stations": []
+                    }
+                }
+            },
+            "Potato": {
+                "prefix": "",
+                "code": "",
+                "color": "90ee90",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-17972, -8551],
+                            [-17972, -8555]
                         ],
                         "stations": []
                     }
