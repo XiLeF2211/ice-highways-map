@@ -11013,6 +11013,257 @@
                     "Potato": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Xotic-Xports",
+            "id": 875,
+            "x": 19195,
+            "z": -13184,
+            "lines": {
+                "Polaris Highway": {
+                    "Xeta-Sakha": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[19151, -13185], [19198, -13182]]
+            ]
+        },
+        {
+            "name": "Xeta Department of Transport HQ",
+            "type": "semi3",
+            "id": 876,
+            "x": 19226,
+            "z": -13184,
+            "lines": {
+                "Polaris Highway": {
+                    "Xeta-Sakha": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Xotic-Xports JCT",
+            "type": "jct",
+            "id": 877,
+            "x": 19271,
+            "z": -13184,
+            "lines": {
+                "Polaris Highway": {
+                    "Xeta-Sakha": ["", "Main line"],
+                    "Medovo": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Khatanga JCT",
+            "type": "jct",
+            "id": 878,
+            "x": 20243,
+            "z": -13184,
+            "lines": {
+                "Polaris Highway": {
+                    "Xeta-Sakha": ["", "Main line"],
+                    "Old Angara Highway": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[20241, -13185], [20247, -13157]],
+                [[20244, -13188], [20241, -13182]]
+            ]
+        },
+        {
+            "name": "Themaxland",
+            "type": "semi2",
+            "id": 879,
+            "x": 20243,
+            "z": -14239,
+            "lines": {
+                "Polaris Highway": {
+                    "Xeta-Sakha": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ridgeport West JCT",
+            "type": "jct",
+            "id": 880,
+            "x": 20243,
+            "z": -14239,
+            "lines": {
+                "Polaris Highway": {
+                    "Xeta-Sakha": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ridgeport JCT",
+            "type": "jct",
+            "id": 881,
+            "x": 20321,
+            "z": -14239,
+            "lines": {
+                "Polaris Highway": {
+                    "Xeta-Sakha": ["", "Main line to Ridgeport branch"]
+                }
+            }
+        },
+        {
+            "name": "Ridgeport",
+            "id": 882,
+            "x": 20376,
+            "z": -14312,
+            "lines": {
+                "Polaris Highway": {
+                    "Xeta-Sakha": ["", "Ridgeport branch"]
+                }
+            }
+        },
+        {
+            "name": "Bifrost West Transfer",
+            "id": 883,
+            "x": 20491,
+            "z": -14239,
+            "lines": {
+                "Polaris Highway": {
+                    "Xeta-Sakha": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bifrost Resident's Plot-Mine",
+            "id": 884,
+            "x": 20604,
+            "z": -14239,
+            "lines": {
+                "Polaris Highway": {
+                    "Xeta-Sakha": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bifrost",
+            "id": 885,
+            "x": 20666,
+            "z": -14182,
+            "lines": {
+                "Polaris Highway": {
+                    "Xeta-Sakha": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[20671, -14182], [20666, -14177]],
+                [[20669, -14184], [20663, -14177]]
+            ]
+        },
+        {
+            "name": "Cozytown JCT",
+            "type": "jct",
+            "id": 886,
+            "x": 19398,
+            "z": -13548,
+            "lines": {
+                "Polaris Highway": {
+                    "Medovo": ["", "Main line to Cozytown branch"]
+                }
+            }
+        },
+        {
+            "name": "Cozytown",
+            "id": 887,
+            "x": 19228,
+            "z": -13548,
+            "lines": {
+                "Polaris Highway": {
+                    "Medovo": ["", "Cozytown branch"]
+                }
+            }
+        },
+        {
+            "name": "Medovo",
+            "id": 888,
+            "x": 19398,
+            "z": -13664,
+            "lines": {
+                "Polaris Highway": {
+                    "Medovo": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Khatanga elevator",
+            "type": "elev-ew",
+            "id": 889,
+            "x": 20245,
+            "z": -13184,
+            "y1": 50,
+            "y2": 73,
+            "lines": {
+                "Polaris Highway": {
+                    "Old Angara Highway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Abram North JCT",
+            "type": "jct",
+            "id": 890,
+            "x": 20336,
+            "z": -11269,
+            "lines": {
+                "Polaris Highway": {
+                    "Old Angara Highway": ["", "Main line to Abram Industrial Zone branch"]
+                }
+            }
+        },
+        {
+            "name": "Abram Industrial Zone",
+            "id": 891,
+            "x": 20284,
+            "z": -11229,
+            "lines": {
+                "Polaris Highway": {
+                    "Old Angara Highway": ["", "Abram Industrial Zone branch"]
+                }
+            }
+        },
+        {
+            "name": "Abram Industrial District East",
+            "type": "semi4",
+            "id": 892,
+            "x": 20407,
+            "z": -11193,
+            "lines": {
+                "Polaris Highway": {
+                    "Old Angara Highway": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[20406, -11196], [20417, -11189]],
+                [[20412, -11199], [20418, -11186]]
+            ]
+        },
+        {
+            "name": "Abram Beacon emergency exit",
+            "type": "semi1",
+            "id": 893,
+            "x": 20447,
+            "z": -11176,
+            "lines": {
+                "Polaris Highway": {
+                    "Old Angara Highway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Abram East JCT",
+            "type": "jct",
+            "id": 894,
+            "x": 20481,
+            "z": -11176,
+            "lines": {
+                "Polaris Highway": {
+                    "Old Angara Highway": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -14072,6 +14323,95 @@
                             [11710, -7049]
                         ],
                         "stations": [[845, "Main Line"], 846]
+                    }
+                }
+            }
+        },
+        "Polaris Highway": {
+            "Xeta-Sakha": {
+                "prefix": "",
+                "code": "X-S",
+                "color": "5c81a7",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [19195, -13184],
+                            [20243, -13184],
+                            [20243, -14239],
+                            [20642, -14239],
+                            [20642, -14182],
+                            [20666, -14182]
+                        ],
+                        "stations": [875, 876, 877, 878, 879, 880, 881, 883, 884, 885]
+                    },
+                    "Ridgeport branch": {
+                        "vertices": [
+                            [20321, -14239],
+                            [20321, -14248],
+                            [20376, -14248],
+                            [20376, -14317]
+                        ],
+                        "stations": [881, 882]
+                    }
+                }
+            },
+            "Medovo": {
+                "prefix": "",
+                "code": "MD",
+                "color": "5c81a7",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [19271, -13184],
+                            [19271, -13232],
+                            [19398, -13232],
+                            [19398, -13664],
+                            [19408, -13664],
+                            [19408, -14003],
+                            [19409, -14003]
+                        ],
+                        "stations": [877, 886, 888]
+                    },
+                    "Cozytown branch": {
+                        "vertices": [
+                            [19398, -13548],
+                            [19228, -13548]
+                        ],
+                        "stations": [886, 887]
+                    }
+                }
+            },
+            "Old Angara Highway": {
+                "prefix": "",
+                "code": "OAH",
+                "color": "ffcc00",
+                "y": 73,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [20243, -13184],
+                            [20245, -13184],
+                            [20245, -13159],
+                            [20242, -13159],
+                            [20242, -11361],
+                            [20336, -11361],
+                            [20336, -11269],
+                            [20407, -11269],
+                            [20407, -11176],
+                            [20407, -11176],
+                            [20494, -11176]
+                        ],
+                        "stations": [878, 889, 890, 892, 893, 894]
+                    },
+                    "Abram Industrial Zone branch": {
+                        "vertices": [
+                            [20336, -11269],
+                            [20284, -11269],
+                            [20284, -11228]
+                        ],
+                        "stations": [890, 891]
                     }
                 }
             }
