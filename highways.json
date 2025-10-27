@@ -11078,7 +11078,7 @@
             "type": "semi2",
             "id": 879,
             "x": 20243,
-            "z": -14239,
+            "z": -13811,
             "lines": {
                 "Polaris Highway": {
                     "Xeta-Sakha": ["", "Main line"]
@@ -11090,7 +11090,7 @@
             "type": "jct",
             "id": 880,
             "x": 20243,
-            "z": -13811,
+            "z": -14239,
             "lines": {
                 "Polaris Highway": {
                     "Xeta-Sakha": ["", "Main line"]
