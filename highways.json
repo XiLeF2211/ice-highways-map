@@ -3149,8 +3149,7 @@
             "z": -6510,
             "lines": {
                 "TNIH": {
-                    "Afghan": ["", "Main Line"],
-                    "Loopstan": ["", "Main Line"]
+                    "Afghan": ["", "Main Line"]
                 }
             }
         },
