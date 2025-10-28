@@ -11000,7 +11000,8 @@
             "z": -8551,
             "lines": {
                 "Cascadian Ice lines": {
-                    "East": ["", "Main line to Washington branch"]
+                    "East": ["", "Main line"],
+					"Washington": ["", "Main line"]
                 }
             }
         },
@@ -11312,6 +11313,71 @@
             "lines": {
                 "TNIH": {
                     "Xinjiang": ["", "Eastern route"]
+                }
+            }
+        },
+        {
+            "name": "Mathatten",
+            "id": 899,
+            "x": -18280,
+            "z": -7476,
+            "lines": {
+                "Cascadian Ice lines": {
+					"Washington": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-18290, -7468], [-18277, -7484]],
+                [[-18289, -7471], [-18292, -7472]],
+                [[-18289, -7469], [-18292, -7470]]
+
+            ]
+        },
+        {
+            "name": "ID 900 IS AVAILABLE. USE IT",
+            "id": 900,
+            "x": -18280,
+            "z": -7476,
+            "lines": {
+
+            }
+        },
+        {
+            "name": "Wichita",
+            "id": 901,
+            "x": -18280,
+            "z": -7224,
+            "lines": {
+                "Cascadian Ice lines": {
+					"Washington": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-18283, -7230], [-18270, -7218]],
+                [[-18268, -7226], [-18270, -7227]],
+                [[-18268, -7228], [-18270, -7229]]
+            ]
+        },
+        {
+            "name": "Casey JCT",
+            "type": "jct",
+            "id": 902,
+            "x": -17256,
+            "z": -6843,
+            "lines": {
+                "Cascadian Ice lines": {
+					"Washington": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Casey",
+            "id": 903,
+            "x": -17246,
+            "z": -6843,
+            "lines": {
+                "Cascadian Ice lines": {
+					"Washington": ["", "Main line"]
                 }
             }
         }
@@ -13143,11 +13209,13 @@
                         ],
                         "stations": [[728, "Main line"], 765]
                     },
-                    "Washington branch": {
+                    "Mathatten station branch": {
                         "vertices": [
-                            [-18500, -8551],
-                            [-18500, -8359]
-                        ]
+                            [-18280, -7488],
+                            [-18283, -7483],
+                            [-18283, -7467]
+                        ],
+                        "stations": []
                     },
                     "": {
                         "vertices": [
@@ -13155,6 +13223,24 @@
                             [-19383.5, -8546]
                         ],
                         "stations": []
+                    }
+                }
+            },
+            "Washington": {
+                "prefix": "",
+                "code": "",
+                "color": "90ee90",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-18500, -8551],
+                            [-18500, -8009],
+                            [-18280, -8009],
+                            [-18280, -6843],
+                            [-17246, -6843]
+                        ],
+                        "stations": [873, 899, 901, 902, 903]
                     }
                 }
             },
@@ -13167,7 +13253,7 @@
                     "Main line": {
                         "vertices": [
                             [-17972, -8551],
-                            [-17972, -8555]
+                            [-17972, -8744]
                         ],
                         "stations": [874]
                     }
