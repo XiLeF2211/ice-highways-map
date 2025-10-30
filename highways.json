@@ -11367,7 +11367,8 @@
             "z": -6843,
             "lines": {
                 "Cascadian Ice lines": {
-					"Washington": ["", "Main line"]
+					"Washington": ["", "Main line"],
+					"Jackson": ["", "Main line"]
                 }
             }
         },
@@ -11401,6 +11402,29 @@
             "lines": {
                 "TNIH": {
                     "Xinjiang": ["", "Eastern route"]
+                }
+            }
+        },
+        {
+            "name": "Little Rock (Very North East JCT)",
+            "type": "jct",
+            "id": 906,
+            "x": -17256,
+            "z": -6491,
+            "lines": {
+                "Cascadian Ice lines": {
+					"Jackson": ["", "Main line to Mississippi-Cascadian line"]
+                }
+            }
+        },
+        {
+            "name": "Little Rock Emergency exit",
+            "id": 907,
+            "x": -17256,
+            "z": -6486,
+            "lines": {
+                "Cascadian Ice lines": {
+					"Jackson": ["", "Main line"]
                 }
             }
         }
@@ -13264,6 +13288,28 @@
                             [-17246, -6843]
                         ],
                         "stations": [873, 899, 901, 902, 903]
+                    }
+                }
+            },
+            "Jackson": {
+                "prefix": "",
+                "code": "",
+                "color": "90ee90",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-17256, -6843],
+                            [-17256, -6486]
+                        ],
+                        "stations": [902, [906, "Mississippi-Cascadian line"], 907]
+                    },
+                    "Mississippi-Cascadian line": {
+                        "vertices": [
+                            [-17256, -6491],
+                            [-17029, -6491]
+                        ],
+						"stations": [[906, "Main line"]]
                     }
                 }
             },
