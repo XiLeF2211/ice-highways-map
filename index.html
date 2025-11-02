@@ -15,6 +15,7 @@
     <script src="turf.min.js"></script>
     <script src="pathfinder.js"></script>
 <!--    <script src="json.js"></script>-->
+    <script src="switch.js"></script>
 </head>
 
 <body>
@@ -40,16 +41,17 @@
                 <p>
                     A WIP map of all ice highways on EarthMC.<br>
                     Click on a station or line to get started.<br>
-                    This program uses <a href="https://leafletjs.com/">Leaflet</a>.
+                    This program uses <a href="https://leafletjs.com/">Leaflet</a>
+                    and <a href="https://www.w3.org/WAI/ARIA/apg/patterns/switch/examples/switch/">W3C code</a>.
                     <br><br>
                     Thanks to nokteholda of TNIH for publicizing and promoting.
                     <br><br>
                 </p>
                 <hr>
                 <h2>Find a path (beta)</h2>
-                <p id="data-error"></h>
+                <p id="data-error"></p>
                 <p>
-                Use the pathfinder to find the shortest path between two stations.
+                Use the pathfinder to find the shortest path between two stations.</p>
                 <br>
                 <label for="start">Start station:</label>
                 <input id="start-station" name="start" type="number"></inpu>
@@ -134,6 +136,17 @@
                     Havaiki and Australia-Antarctica lines: AtomicTom<br>
                 </p>
             </div>
+        </div>
+    </aside>
+
+    <aside id="aside-map-switcher">
+        <div role="switch" aria-checked="false" tabindex="0">
+            <span class="label">Current map</span>
+            <span class="switch" id="map-switcher-btn">
+                <span></span>
+            </span>
+            <span class="on" aria-hidden="true">Nether</span>
+            <span class="off" aria-hidden="true">Overworld</span>
         </div>
     </aside>
     

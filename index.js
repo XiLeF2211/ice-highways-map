@@ -1,6 +1,7 @@
 const proxyURL = 'https://api.codetabs.com/v1/proxy/?quest='
 const mapURL = 'https://map.earthmc.net/tiles'
 const highwaysURL = 'https://raw.githubusercontent.com/XiLeF2211/ice-highways-map/refs/heads/main/highways.json'
+const netherHighwaysURL = 'https://raw.githubusercontent.com/XiLeF2211/ice-highways-map/refs/heads/main/netherHighways.json'
 
 let highwayData;
 
@@ -20,6 +21,9 @@ let lineFilters = {
 let pathfinder;
 let renderedPath;
 
+let isNether = localStorage.getItem("is_nether");
+console.log(isNether);
+
 const map = L.map('mapa', {
     crs: L.CRS.Simple,
     center: [0, 0],
@@ -29,13 +33,21 @@ const map = L.map('mapa', {
 }).setView([0, 0], 1);
 map.zoomControl.setPosition('topright')
 
-L.tileLayer(proxyURL + mapURL + '/minecraft_overworld/{z}/{x}_{y}.png', {
-    maxNativeZoom: 3,
-    minNativeZoom: 0,
-    maxZoom: 15,
-    minZoom: -2
-}).addTo(map);
-
+if (isNether === 'true'){
+    L.tileLayer('', {
+        backgroundColor: 'white',
+        maxZoom: 15,
+        minZoom: 3
+    });
+}
+else {
+    L.tileLayer(proxyURL + mapURL + '/minecraft_overworld/{z}/{x}_{y}.png', {
+        maxNativeZoom: 3,
+        minNativeZoom: 0,
+        maxZoom: 15,
+        minZoom: -2
+    }).addTo(map);
+}
 // Variable to store coordinates
 let coordinateController = document.querySelector('.leaflet-mousecoords');
 // Show coordinates
@@ -54,12 +66,19 @@ map.on("mousemove", function (e) {
 init();
 
 async function init() {
-    if (localStorage.getItem("showTowns") == null) localStorage.setItem("showTowns", true);
+    if (localStorage.getItem("showTowns") == null && isNether === 'false') localStorage.setItem("showTowns", true);
     if (localStorage.getItem("showLines") == null) localStorage.setItem("showLines", true);
     if (localStorage.getItem("showStations") == null) localStorage.setItem("showStations", true);
     document.documentElement.style.setProperty("--map-brightness", localStorage.getItem("mapBrightness") == null ? "50%" : localStorage.getItem("mapBrightness") + "%");
 
-    highwayData = await fetchJSON(highwaysURL)
+    if (isNether === 'true'){
+        highwayData = await fetchJSON(netherHighwaysURL);
+        // highwayData = await fetchJSON("netherHighways.json");
+    }
+    else {
+        highwayData = await fetchJSON(highwaysURL);
+        //highwayData = await fetchJSON("highways.json");
+    }
     if (!highwayData) {
         console.log('debug: There was a problem with getting station and line data')
     }
@@ -85,7 +104,7 @@ async function init() {
     listLine()
     listStation();
 
-    if (localStorage.getItem("showTowns") == "true") await renderTowns();
+    if (localStorage.getItem("showTowns") == "true" && isNether === 'false') await renderTowns();
     if (localStorage.getItem("showLines") == "true") renderLines(highwayData, false);
     if (localStorage.getItem("showStations") == "true") renderStations(highwayData, false);
 }

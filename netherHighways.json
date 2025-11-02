@@ -1,0 +1,34 @@
+{
+    "stations": [
+        {
+            "name": "Chitograd",
+            "id": 0,
+            "x": 1053.5,
+            "z": -1017,
+            "lines": {
+                "Y=49": {
+                    "Chitograd": ["", "Main line"]
+                }
+            }
+        }
+    ],
+    "lines": {
+        "Y=49": {
+            "Chitograd": {
+                "prefix": "",
+                "code": "CHI",
+                "color": "3F704D",
+                "y": 49,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [1053.5, -1200],
+                            [1053.5, 0]
+                        ],
+                        "stations": [0]
+                    }
+                }
+            }
+        }
+    }
+}
