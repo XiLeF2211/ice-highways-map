@@ -1,7 +1,7 @@
 # EarthMC Ice Highways Map
 
 This is a tool that aims to give information on stations and lines across the EarthMC server. However, right now, 
-it only has 122 lines and 772 stations (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
+it only has 152 lines and 913 stations (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
 
 ## Bulletin board
 
@@ -62,6 +62,8 @@ Similarly, in the station data, use the keyword "to" to specify a connection of 
 Note that the capitalization does not change, and note that it is simply the string `"First branch to Second branch"`, not an array `["First branch", "Second branch"]`.
 
 ## Logs
+
+4 November 2025: Added Doha-Deylam-Manama line (data from **Alexander** on Discord)
 
 9 September 2025 — 3 October 2025: Added Cascadian ice lines, Genoa Ice lines, Manshu Main Line, Ryukou Line, O-O branch, European Y=2 Ice lines, Afrique Rail extension to Meroewin, Y=2 Ice lines near Chechnya,  Ireland-Canada line, Aragon Line, Ural Ice lines, Porolissum Metro, Iran line, Siberian Ice lines, Agartha Ice Highways Network Khorsan-Jowzjan, New Gujarat Line extension
 

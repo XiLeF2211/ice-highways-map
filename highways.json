@@ -11427,6 +11427,61 @@
 					"Jackson": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Doha Central",
+            "id": 908,
+            "x": 9233,
+            "z": -4746,
+            "lines": {
+                "Saudi Ice lines": {
+					"Doha-Deylam-Manama": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Deylam Central",
+            "id": 909,
+            "x": 9138,
+            "z": -4756,
+            "lines": {
+                "Saudi Ice lines": {
+					"Doha-Deylam-Manama": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Deylam North",
+            "id": 910,
+            "x": 9062,
+            "z": -4912,
+            "lines": {
+                "Saudi Ice lines": {
+					"Doha-Deylam-Manama": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Manama Island",
+            "id": 911,
+            "x": 9151,
+            "z": -4912,
+            "lines": {
+                "Saudi Ice lines": {
+					"Doha-Deylam-Manama": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Manama Central",
+            "id": 912,
+            "x": 9282,
+            "z": -4875,
+            "lines": {
+                "Saudi Ice lines": {
+					"Doha-Deylam-Manama": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -14010,6 +14065,32 @@
                             [9311, -9418]
                         ],
                         "stations": [[537, "Main line"], 541]
+                    }
+                }
+            }
+        },
+        "Saudi Ice lines": {
+            "Doha-Deylam-Manama": {
+                "prefix": "",
+                "code": "DH-DL-MN",
+                "color": "660033",
+                "y": 56,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [9166, -4746],
+                            [9166, -4756],
+                            [9123, -4756],
+                            [9123, -4799],
+                            [9062, -4799],
+                            [9062, -4912],
+                            [9229, -4912],
+                            [9229, -4875],
+                            [9296, -4875],
+                            [9296, -4746],
+                            [9166, -4746]
+                        ],
+                        "stations": [908, 909, 910, 911, 912, 908]
                     }
                 }
             }
