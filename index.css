@@ -340,6 +340,7 @@ hr {
     border: solid 1px #555;
 }
 
+/* In case we ever need a switch again...
 #aside-map-switcher {
     position: absolute;
     top: 0;
@@ -419,4 +420,4 @@ hr {
 
 [role="switch"]:focus span.switch {
   background-color: black;
-}
+} */

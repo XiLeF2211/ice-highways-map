@@ -4,6 +4,8 @@ const highwaysURL = 'https://raw.githubusercontent.com/XiLeF2211/ice-highways-ma
 const netherHighwaysURL = 'https://raw.githubusercontent.com/XiLeF2211/ice-highways-map/refs/heads/main/netherHighways.json'
 
 let highwayData;
+let netherHighwayData;
+let currentData;
 
 let marker = L.marker([0, 0])
 
@@ -21,9 +23,6 @@ let lineFilters = {
 let pathfinder;
 let renderedPath;
 
-let isNether = localStorage.getItem("is_nether");
-console.log(isNether);
-
 const map = L.map('mapa', {
     crs: L.CRS.Simple,
     center: [0, 0],
@@ -31,23 +30,33 @@ const map = L.map('mapa', {
     preferCanvas: true,
     noWrap: true
 }).setView([0, 0], 1);
-map.zoomControl.setPosition('topright')
+map.zoomControl.setPosition('topright');
 
-if (isNether === 'true'){
-    L.tileLayer('', {
-        backgroundColor: 'white',
-        maxZoom: 15,
-        minZoom: 3
-    });
-}
-else {
-    L.tileLayer(proxyURL + mapURL + '/minecraft_overworld/{z}/{x}_{y}.png', {
-        maxNativeZoom: 3,
-        minNativeZoom: 0,
-        maxZoom: 15,
-        minZoom: -2
-    }).addTo(map);
-}
+const overworld = L.tileLayer(proxyURL + mapURL + '/minecraft_overworld/{z}/{x}_{y}.png', {
+    maxNativeZoom: 3,
+    minNativeZoom: 0,
+    maxZoom: 15,
+    minZoom: -2
+}).addTo(map);
+// The Nether tile is really just a black square
+const nether = L.tileLayer('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAD0lEQVR4AQEEAPv/AAAAAAAEAAFlScNgAAAAAElFTkSuQmCC', {
+    maxNativeZoom: 3,
+    minNativeZoom: 0,
+    maxZoom: 15,
+    minZoom: -2
+});
+let townsLayer = L.layerGroup();
+let linesLayer = L.layerGroup();
+let stationsLayer = L.layerGroup();
+const layerControl = L.control.layers({
+    'Overworld': overworld,
+    'Nether': nether
+}, {
+    'Lines': linesLayer,
+    'Stations': stationsLayer,
+    'Towns': townsLayer
+}).addTo(map);
+
 // Variable to store coordinates
 let coordinateController = document.querySelector('.leaflet-mousecoords');
 // Show coordinates
@@ -63,39 +72,51 @@ map.on("mousemove", function (e) {
     }
 });
 
+map.on("baselayerchange", function (e) {
+    if (e.name == 'Nether') {
+        currentData = netherHighwayData;
+        renderLines(currentData, false);
+        renderStations(currentData, false);
+        listLine();
+        listStation();
+        layerControl.removeLayer(townsLayer);
+        map.removeLayer(townsLayer);
+    } else if (e.name == 'Overworld') {
+        currentData = highwayData;
+        renderLines(currentData, false);
+        renderStations(currentData, false);
+        listLine();
+        listStation();
+        layerControl.addOverlay(townsLayer, 'Towns');
+        townsLayer.addTo(map);
+    }
+});
+
 init();
 
 async function init() {
-    if (localStorage.getItem("showTowns") == null && isNether === 'false') localStorage.setItem("showTowns", true);
-    if (localStorage.getItem("showLines") == null) localStorage.setItem("showLines", true);
-    if (localStorage.getItem("showStations") == null) localStorage.setItem("showStations", true);
     document.documentElement.style.setProperty("--map-brightness", localStorage.getItem("mapBrightness") == null ? "50%" : localStorage.getItem("mapBrightness") + "%");
 
-    if (isNether === 'true'){
-        highwayData = await fetchJSON(netherHighwaysURL);
-        // highwayData = await fetchJSON("netherHighways.json");
-    }
-    else {
-        highwayData = await fetchJSON(highwaysURL);
-        //highwayData = await fetchJSON("highways.json");
-    }
-    if (!highwayData) {
+    highwayData = await fetchJSON(highwaysURL);
+    netherHighwayData = await fetchJSON(netherHighwaysURL);
+    if (!highwayData || !netherHighwayData) {
         console.log('debug: There was a problem with getting station and line data')
     }
+    currentData = highwayData;
 
-    pathfinder = new Pathfinder(highwayData);
+    pathfinder = new Pathfinder(currentData);
 
     const params = new URLSearchParams(window.location.search);
     if (params.has('line')) {
         let company = params.get('company');
         let line = params.get('line');
-        showLine(company, line, highwayData.lines[company][line]);
-        viewHistory.push(['line', company, line, highwayData.lines[company][line]]);
-        locate(Object.values(highwayData.lines[company][line].branches)[0].vertices[0][0], Object.values(highwayData.lines[company][line].branches)[0].vertices[0][1]);
+        showLine(company, line, currentData.lines[company][line]);
+        viewHistory.push(['line', company, line, currentData.lines[company][line]]);
+        locate(Object.values(currentData.lines[company][line].branches)[0].vertices[0][0], Object.values(currentData.lines[company][line].branches)[0].vertices[0][1]);
     } else if (params.has('station')) {
-        showStation(highwayData.stations[params.get('station')]);
-        viewHistory.push(['station', highwayData.stations[params.get('station')]]);
-        locate(highwayData.stations[params.get('station')].x, highwayData.stations[params.get('station')].z);
+        showStation(currentData.stations[params.get('station')]);
+        viewHistory.push(['station', currentData.stations[params.get('station')]]);
+        locate(currentData.stations[params.get('station')].x, currentData.stations[params.get('station')].z);
     }
 
     renderedPath = L.layerGroup([]).addTo(map);
@@ -104,9 +125,13 @@ async function init() {
     listLine()
     listStation();
 
-    if (localStorage.getItem("showTowns") == "true" && isNether === 'false') await renderTowns();
-    if (localStorage.getItem("showLines") == "true") renderLines(highwayData, false);
-    if (localStorage.getItem("showStations") == "true") renderStations(highwayData, false);
+    await renderTowns();
+    renderLines(currentData, false);
+    renderStations(currentData, false);
+
+    townsLayer.addTo(map);
+    linesLayer.addTo(map);
+    stationsLayer.addTo(map);
 }
 
 for (let element of document.querySelectorAll("#settings input")) {
@@ -116,12 +141,8 @@ for (let element of document.querySelectorAll("#settings input")) {
     });
 }
 
-function toggle(setting) {
-    localStorage.setItem(setting, localStorage.getItem(setting) == "true" ? "false": "true");
-}
-
 async function renderTowns() {
-    const startTownRender = new Date()
+    const startTownRender = new Date();
     const data = await fetchJSON(proxyURL + mapURL + '/minecraft_overworld/markers.json')
     if (!data || data[0].markers.length == 0) {
         console.log('debug: There was a problem with getting towns data')
@@ -165,17 +186,18 @@ async function renderTowns() {
             fillColor: region.fill,
             color: region.outline,
             weight: 1
-        }).addTo(map).bindPopup(region.town + (region.nation != undefined ? ', ' + region.nation : ''))
+        }).addTo(townsLayer).bindPopup(region.town + (region.nation != undefined ? ', ' + region.nation : ''))
     }
 
     const stopTownRender = new Date()
     const diff = stopTownRender - startTownRender
-    console.log(`debug: Rendering towns took ${diff}ms`)
+    console.log(`debug: Rendering towns took ${diff}ms`);
 }
 
 async function renderLines(dataset, mod) {
     const startLineRender = new Date()
 
+    linesLayer.clearLayers();
     for (const company of Object.keys(dataset.lines)) {
         for (const line of Object.keys(dataset.lines[company])) {
             const lineData = dataset.lines[company][line]
@@ -200,7 +222,7 @@ async function renderLines(dataset, mod) {
                     color: '#' + lineData.color,
                     weight: 5
                 })
-                    .addTo(map)
+                    .addTo(linesLayer)
                     .bindPopup(container)
             }
         }
@@ -243,7 +265,7 @@ async function renderLines(dataset, mod) {
                             weight: 5,
                             offset: 1
                         })
-                            .addTo(map)
+                            .addTo(linesLayer)
                             .bindPopup(concurrencyContainer)
                     }
                 }
@@ -261,7 +283,7 @@ async function renderPath(stations) {
     map.removeLayer(renderedPath);
     renderedPath = L.layerGroup([]);
     for (let station of stations) {
-        L.circleMarker([-highwayData.stations[station].z / 16, highwayData.stations[station].x / 16], {
+        L.circleMarker([-currentData.stations[station].z / 16, currentData.stations[station].x / 16], {
             radius: 10,
             color: '#000000'
         })
@@ -276,6 +298,7 @@ async function renderPath(stations) {
 async function renderStations(dataset, mod) {
     const startStationRender = new Date()
 
+    stationsLayer.clearLayers();
     for (const station of dataset.stations) {
         let container = document.createElement('div');
         let stationName = document.createElement('a')
@@ -309,7 +332,7 @@ async function renderStations(dataset, mod) {
                 style: {
                     color: '#ffffff'
                 }
-            }).bindPopup(container).addTo(map)
+            }).bindPopup(container).addTo(stationsLayer);
         }
 
         if (Object.hasOwn(station, 'type')) L.marker([-station.z / 16, station.x / 16], {
@@ -317,12 +340,12 @@ async function renderStations(dataset, mod) {
                 iconUrl: 'assets/symbols/' + station.type + '.svg',
                 iconSize: 14
             })
-        }).addTo(map).bindPopup(container)
+        }).addTo(stationsLayer).bindPopup(container)
         else L.circleMarker([-station.z / 16, station.x / 16], {
             radius: 5,
             color: '#ffffff'
         })
-            .addTo(map)
+            .addTo(stationsLayer)
             .bindPopup(container)
     }
 
@@ -361,19 +384,19 @@ function showLine(companyName, lineName, line) {
             connections.classList.add('connections')
 
             stationName.addEventListener('click', () => {
-                showStation(highwayData.stations[stationId])
-                viewHistory.push(['station', highwayData.stations[stationId]])
+                showStation(currentData.stations[stationId])
+                viewHistory.push(['station', currentData.stations[stationId]])
             })
             if (Array.isArray(station)) {
-                stationName.innerHTML = `${line.prefix}${highwayData.stations[stationId].lines[companyName][lineName][0]} ${highwayData.stations[stationId].name} <em>(to ${station[1]})</em><br>`
+                stationName.innerHTML = `${line.prefix}${currentData.stations[stationId].lines[companyName][lineName][0]} ${currentData.stations[stationId].name} <em>(to ${station[1]})</em><br>`
             } else {
-                stationName.innerHTML = `${line.prefix}${highwayData.stations[stationId].lines[companyName][lineName][0]} ${highwayData.stations[stationId].name}<br>`
+                stationName.innerHTML = `${line.prefix}${currentData.stations[stationId].lines[companyName][lineName][0]} ${currentData.stations[stationId].name}<br>`
             }
 
             stationItem.style.setProperty('--line-color', '#' + line.color)
 
-            for (const companyConnection of Object.keys(highwayData.stations[stationId].lines)) {
-                for (const connectionLine of Object.keys(highwayData.stations[stationId].lines[companyConnection])) {
+            for (const companyConnection of Object.keys(currentData.stations[stationId].lines)) {
+                for (const connectionLine of Object.keys(currentData.stations[stationId].lines[companyConnection])) {
                     if (connectionLine == lineName && companyConnection == companyName) continue
 
                     let connection = document.createElement('li')
@@ -382,17 +405,17 @@ function showLine(companyName, lineName, line) {
                     connection.classList.add('connections_line')
                     badge.classList.add('badge')
 
-                    badge.style.backgroundColor = '#' + highwayData.lines[companyConnection][connectionLine].color
+                    badge.style.backgroundColor = '#' + currentData.lines[companyConnection][connectionLine].color
 
                     badge.addEventListener('click', () => {
-                        showLine(companyConnection, connectionLine, highwayData.lines[companyConnection][connectionLine])
-                        viewHistory.push(['line', companyConnection, connectionLine, highwayData.lines[companyConnection][connectionLine]])
+                        showLine(companyConnection, connectionLine, currentData.lines[companyConnection][connectionLine])
+                        viewHistory.push(['line', companyConnection, connectionLine, currentData.lines[companyConnection][connectionLine]])
                     })
-                    if (highwayData.lines[companyConnection][connectionLine].code != "") {
-                        badge.innerHTML = highwayData.lines[companyConnection][connectionLine].code
+                    if (currentData.lines[companyConnection][connectionLine].code != "") {
+                        badge.innerHTML = currentData.lines[companyConnection][connectionLine].code
                         connection.appendChild(badge)
-                    } else if (highwayData.lines[companyConnection][connectionLine].prefix != "") {
-                        badge.innerHTML = highwayData.lines[companyConnection][connectionLine].prefix + highwayData.stations[stationId][companyConnection][connectionLine][0]
+                    } else if (currentData.lines[companyConnection][connectionLine].prefix != "") {
+                        badge.innerHTML = currentData.lines[companyConnection][connectionLine].prefix + currentData.stations[stationId][companyConnection][connectionLine][0]
                         connection.appendChild(badge)
                     } else {
                         badge.innerHTML = connectionLine
@@ -437,7 +460,7 @@ function showStation(station) {
         for (line in station.lines[company]) {
             console.log(line);
             let code = document.createElement('p')
-            let temp = [company, line, highwayData.lines[company][line]]
+            let temp = [company, line, currentData.lines[company][line]]
             code.innerHTML = `${temp[2].prefix}${station.lines[company][line][0]} `
 
             let lineLink = document.createElement('a')
@@ -453,11 +476,11 @@ function showStation(station) {
 }
 
 function listLine() {
-    document.getElementById('line-list').replaceChildren()
-    for (const company of Object.keys(highwayData.lines)) {
+    document.getElementById('line-list').replaceChildren();
+    for (const company of Object.keys(currentData.lines)) {
         if (!lineFilters.company.includes(company)) continue
 
-        for (const line of Object.keys(highwayData.lines[company])) {
+        for (const line of Object.keys(currentData.lines[company])) {
             if (line.toUpperCase().indexOf(lineFilters.contains) < 0) continue
 
             let lineItem = document.createElement('dt')
@@ -465,12 +488,12 @@ function listLine() {
             lineName.innerHTML = `${line} line ${company != '' ? '(' + company + ')' : ''}`
             lineItem.style.cursor = 'pointer'
             lineItem.addEventListener('click', () => {
-                showLine(company, line, highwayData.lines[company][line])
-                viewHistory.push(['line', company, line, highwayData.lines[company][line]])
+                showLine(company, line, currentData.lines[company][line])
+                viewHistory.push(['line', company, line, currentData.lines[company][line]])
             })
             lineItem.style.borderLeftStyle = 'solid'
             lineItem.style.borderLeftWidth = '10px'
-            lineItem.style.borderLeftColor = '#' + highwayData.lines[company][line].color
+            lineItem.style.borderLeftColor = '#' + currentData.lines[company][line].color
             lineItem.appendChild(lineName)
             document.getElementById('line-list').appendChild(lineItem)
         }
@@ -479,7 +502,7 @@ function listLine() {
 
 function listStation() {
     document.getElementById('station-list').replaceChildren()
-    for (const station of highwayData.stations) {
+    for (const station of currentData.stations) {
         if (station.name.toUpperCase().indexOf(stationFilters.contains) < 0) continue
         if (!stationFilters.type.includes(station.type == undefined ? 'station' : station.type.replace(/[0-9]/g, ''))) continue
 
@@ -513,7 +536,7 @@ function filterStations() {
 }
 
 function lineFilterOpts() {
-    for (const company of Object.keys(highwayData.lines)) {
+    for (const company of Object.keys(currentData.lines)) {
         let companyInput = document.createElement('input')
         let companyLabel = document.createElement('label')
         companyInput.type = 'checkbox'
@@ -556,8 +579,8 @@ function findPath(start, end) {
     let prevLine = "";
     for (let station of path[0]) {
         let li = document.createElement('li');
-        if (station[1] == prevLine) li.innerText = highwayData.stations[station[0]].name;
-        else li.innerText = "switch to " + station[1] + " " +  highwayData.stations[station[0]].name;
+        if (station[1] == prevLine) li.innerText = currentData.stations[station[0]].name;
+        else li.innerText = "switch to " + station[1] + " " +  currentData.stations[station[0]].name;
         prevLine = station[1];
         document.getElementById('path-list').appendChild(li);
     }
