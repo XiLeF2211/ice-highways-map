@@ -63,7 +63,7 @@ Note that the capitalization does not change, and note that it is simply the str
 
 ## Logs
 
-*For other lines that are not shown on the list or to see detailed additions history, please see [the .json history](https://github.com/XiLeF2211/ice-highways-map/commits/main/highways.json)*
+*For other lines that are not shown on the list or to see detailed additions history, please see [the related database changes history](https://github.com/XiLeF2211/ice-highways-map/commits/main/highways.json)*
 
 4 November 2025: Added Doha-Deylam-Manama line (data from **Alexander** on Discord)
 
