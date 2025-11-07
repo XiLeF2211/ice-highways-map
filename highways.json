@@ -11513,7 +11513,7 @@
             "z": -8584,
             "lines": {
                 "Japan Underground Ice Road": {
-                    "Manchuria Main": ["", "Main Line to Manchuria-Tosa branch"]
+                    "Manchuria Main": ["", "Main Line to Manchuria-Tosa Branch"]
                 }
             },
             "areas": [
@@ -11527,7 +11527,7 @@
             "z": -8785,
             "lines": {
                 "Japan Underground Ice Road": {
-                    "Manchuria Main": ["", "Manchuria-Tosa branch"]
+                    "Manchuria Main": ["", "Manchuria-Tosa Branch"]
                 }
             },
             "areas": [
@@ -11544,7 +11544,7 @@
             "y2": 83,
             "lines": {
                 "Japan Underground Ice Road": {
-                    "Manchuria Main": ["", "Manchuria-Tosa branch"]
+                    "Manchuria Main": ["", "Manchuria-Tosa Branch"]
                 }
             }
         },
@@ -11556,7 +11556,7 @@
             "z": -8854,
             "lines": {
                 "Japan Underground Ice Road": {
-                    "Manchuria Main": ["", "Manchuria-Tosa branch"]
+                    "Manchuria Main": ["", "Manchuria-Tosa Branch"]
                 },
                 "Local": {
                     "Konrinzi": ["", "Main line"]
