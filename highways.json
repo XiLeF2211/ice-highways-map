@@ -9388,10 +9388,13 @@
             "z": -8841,
             "lines": {
                 "Japan Underground Ice Road": {
-                    "Manshu Main": ["", ""],
+                    "Manchuria Main": ["", "Main Line"],
                     "Ryukou": ["", ""]
                 }
-            }
+            },
+            "areas": [
+                [[24211, -8845], [24220, -8836]]
+            ]
         },
         {
             "name": "West-Kokuryukou / Nishi-Kokuryukou",
@@ -9502,7 +9505,7 @@
             "z": -8233,
             "lines": {
                 "Japan Underground Ice Road": {
-                    "Manshu Main": ["", ""]
+                    "Manchuria Main": ["", "Main Line"]
                 }
             },
             "areas": [
@@ -9517,7 +9520,7 @@
             "z": -8584,
             "lines": {
                 "Japan Underground Ice Road": {
-                    "Manshu Main": ["", ""]
+                    "Manchuria Main": ["", "Main Line"]
                 }
             },
             "areas": [
@@ -9534,9 +9537,12 @@
             "z": -8409,
             "lines": {
                 "Japan Underground Ice Road": {
-                    "Manshu Main": ["", ""]
+                    "Manchuria Main": ["", "Main Line"]
                 }
-            }
+            },
+            "areas": [
+                [[23284, -8413], [23292, -8404]]
+            ]
         },
         {
             "name": "Seika",
@@ -9545,7 +9551,7 @@
             "z": -9449,
             "lines": {
                 "Japan Underground Ice Road": {
-                    "Manshu Main": ["", ""]
+                    "Manchuria Main": ["", "Main Line"]
                 }
             }
         },
@@ -9556,7 +9562,7 @@
             "z": -9465,
             "lines": {
                 "Japan Underground Ice Road": {
-                    "Manshu Main": ["", ""]
+                    "Manchuria Main": ["", "Main Line"]
                 }
             }
         },
@@ -9568,9 +9574,12 @@
             "z": -8264,
             "lines": {
                 "Ezo Underground Ice Road": {
-                    "Nishi-Manshu Main": ["", "Main Line to Buyeo branch"]
+                    "West Manchuria Main": ["", "Main Line to Buyeo branch"]
                 }
-            }
+            },
+            "areas": [
+                [[22372, -8269], [22379, -8260]]
+            ]
         },
         {
             "name": "Ansi",
@@ -9579,7 +9588,7 @@
             "z": -8264,
             "lines": {
                 "Ezo Underground Ice Road": {
-                    "Nishi-Manshu Main": ["", "Main Line"]
+                    "West Manchuria Main": ["", "Main Line"]
                 }
             }
         },
@@ -9590,7 +9599,7 @@
             "z": -8264,
             "lines": {
                 "Ezo Underground Ice Road": {
-                    "Nishi-Manshu Main": ["", "Main Line"]
+                    "West Manchuria Main": ["", "Main Line"]
                 }
             }
         },
@@ -9601,7 +9610,7 @@
             "z": -8033,
             "lines": {
                 "Ezo Underground Ice Road": {
-                    "Nishi-Manshu Main": ["", "Buyeo branch"]
+                    "West Manchuria Main": ["", "Buyeo branch"]
                 }
             }
         },
@@ -10114,7 +10123,7 @@
             "z": -8774,
             "lines": {
                 "Local": {
-                    "Konrinji": ["", "Main line"]
+                    "Konrinzi": ["", "Main line"]
                 }
             }
         },
@@ -10126,7 +10135,7 @@
             "z": -8901,
             "lines": {
                 "Local": {
-                    "Konrinji": ["", "Main line"]
+                    "Konrinzi": ["", "Main line"]
                 }
             }
         },
@@ -10138,18 +10147,18 @@
             "z": -9214,
             "lines": {
                 "Local": {
-                    "Konrinji": ["", "Main line to East Khazar branch"]
+                    "Konrinzi": ["", "Main line to East Khazar branch"]
                 }
             }
         },
         {
-            "name": "Konrinji",
+            "name": "Konrinzi",
             "id": 809,
             "x": 21704,
             "z": -9559,
             "lines": {
                 "Local": {
-                    "Konrinji": ["", "Main line"]
+                    "Konrinzi": ["", "Main line"]
                 }
             },
             "areas": [
@@ -10165,7 +10174,7 @@
             "z": -9140,
             "lines": {
                 "Local": {
-                    "Konrinji": ["", "East Khazar branch"]
+                    "Konrinzi": ["", "East Khazar branch"]
                 }
             },
             "areas": [
@@ -10221,12 +10230,15 @@
             "z": -8264,
             "lines": {
                 "Japan Underground Ice Road": {
-                    "Manshu Main": ["", ""]
+                    "Manchuria Main": ["", "Main Line"]
                 },
                 "Ezo Underground Ice Road": {
-                    "Nishi-Manshu Main": ["", "Main Line"]
+                    "West Manchuria Main": ["", "Main Line"]
                 }
-            }
+            },
+            "areas": [
+                [[22755, -8269], [22764, -8260]]
+            ]
         },
         {
             "name": "Newport",
@@ -11493,6 +11505,90 @@
                     "Xinjiang": ["", "Eastern route"]
                 }
             }
+        },
+        {
+            "name": "Matsubara JCT",
+            "id": 914,
+            "x": 22790,
+            "z": -8584,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Manchuria Main": ["", "Main Line to Manchuria-Tosa branch"]
+                }
+            },
+            "areas": [
+                [[22755, -8589], [22764, -8580]]
+            ]
+        },
+        {
+            "name": "Fc (Y=50)",
+            "id": 915,
+            "x": 22326,
+            "z": -8785,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Manchuria Main": ["", "Manchuria-Tosa branch"]
+                }
+            },
+            "areas": [
+                [[22755, -8589], [22764, -8580]]
+            ]
+        },
+        {
+            "name": "Fc elevator",
+            "type": "elev-ew",
+            "id": 915,
+            "x": 22338,
+            "z": -8821,
+            "y1": 50,
+            "y2": 83,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Manchuria Main": ["", "Manchuria-Tosa branch"]
+                }
+            }
+        },
+        {
+            "name": "Fc JCT",
+            "type": "jct",
+            "id": 916,
+            "x": 22332,
+            "z": -8854,
+            "lines": {
+                "Japan Underground Ice Road": {
+                    "Manchuria Main": ["", "Manchuria-Tosa branch"]
+                },
+                "Local": {
+                    "Konrinzi": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hulun-higashi JCT",
+            "type": "jct",
+            "id": 917,
+            "x": 21828,
+            "z": -9214,
+            "lines": {
+                "Local": {
+                    "Konrinzi": ["", "Main line to Kanto branch"]
+                }
+            }
+        },
+        {
+            "name": "Kanto",
+            "id": 918,
+            "x": 21828,
+            "z": -9398,
+            "lines": {
+                "Local": {
+                    "Konrinzi": ["", "Kanto branch"]
+                }
+            },
+            "areas": [
+                [[21826, -9402], [21830, -9393]],
+                [[21832, -9403], [21830, -9397]]
+            ]
         }
     ],
     "lines": {
@@ -14271,30 +14367,55 @@
                     }
                 }
             },
-            "Manshu Main": {
+            "Manchuria Main": {
                 "prefix": "",
                 "code": "満州",
                 "color": "bc002d",
                 "y": 50,
                 "branches": {
-                    "": {
+                    "Main Line": {
                         "vertices": [
-                            [22842, -8233],
-                            [22760, -8233],
-                            [22760, -8584],
-                            [23287, -8584],
-                            [23287, -8409],
-                            [24215, -8409],
-                            [24215, -9465],
-                            [24767, -9465]
+                            [22842, -8231],
+                            [22758, -8231],
+                            [22758, -8586],
+                            [23289, -8586],
+                            [23289, -8410],
+                            [24217, -8410],
+                            [24217, -9466],
+                            [24767, -9466],
+                            [24214, -9466],
+                            [24214, -8407],
+                            [23286, -8407],
+                            [23286, -8583],
+                            [22761, -8583],
+                            [22761, -8234],
+                            [22842, -8234]
                         ],
-                        "stations": [756, 814, 757, 758, 747, 759, 760]
+                        "stations": [756, 814, 914, 757, 758, 747, 759, 760]
+                    },
+                    "Manchuria-Tosa Branch": {
+                        "vertices": [
+                            [22329, -8782],
+                            [22326, -8782],
+                            [22326, -8785],
+                            [22326, -8679],
+                            [22758, -8679],
+                            [22758, -8583],
+                            [22761, -8583],
+                            [22761, -8682],
+                            [22329, -8682],
+                            [22329, -8821],
+                            [22338, -8821],
+                            [22338, -8854],
+                            [22332, -8854]
+                        ],
+                        "stations": [914, 915, 916, 917]
                     }
                 }
             }
         },
         "Ezo Underground Ice Road": {
-            "Nishi-Manshu Main": {
+            "West Manchuria Main": {
                 "prefix": "",
                 "code": "西満州",
                 "color": "3b3b82",
@@ -14302,14 +14423,16 @@
                 "branches": {
                     "Main Line": {
                         "vertices": [
-                            [22760, -8264],
-                            [22160, -8264]
+                            [22160, -8266],
+                            [22761, -8266],
+                            [22761, -8263],
+                            [22160, -8263]
                         ],
                         "stations": [814, [761, "to Buyeo branch"], 762, 763]
                     },
                     "Buyeo branch": {
                         "vertices": [
-                            [22375, -8264],
+                            [22375, -8266],
                             [22375, -8016]
                         ],
                         "stations": [[761, "to Main Line"], 764]
@@ -15030,7 +15153,7 @@
                     }
                 }
             },
-            "Konrinji": {
+            "Konrinzi": {
                 "prefix": "",
                 "code": "金林寺",
                 "color": "016a6d",
@@ -15046,7 +15169,7 @@
                             [21697, -9552],
                             [21697, -9567]
                         ],
-                        "stations": [806, 807, [808, "East Khazar branch"], 809]
+                        "stations": [806, 916, 807, [917, "Kanto branch"], [808, "East Khazar branch"], 809]
                     },
                     "East Khazar branch": {
                         "vertices": [
@@ -15055,6 +15178,13 @@
                             [21513, -9140]
                         ],
                         "stations": [[808, "Main line"], 810]
+                    },
+                    "Kanto branch": {
+                        "vertices": [
+                            [21828, -9214],
+                            [21828, -9398]
+                        ],
+                        "stations": [[917, "Main line"], 918]
                     }
                 }
             },
