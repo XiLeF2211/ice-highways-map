@@ -11537,7 +11537,7 @@
         {
             "name": "Fc elevator",
             "type": "elev-ew",
-            "id": 915,
+            "id": 916,
             "x": 22338,
             "z": -8821,
             "y1": 50,
@@ -11551,7 +11551,7 @@
         {
             "name": "Fc JCT",
             "type": "jct",
-            "id": 916,
+            "id": 917,
             "x": 22332,
             "z": -8854,
             "lines": {
@@ -11566,7 +11566,7 @@
         {
             "name": "Hulun-higashi JCT",
             "type": "jct",
-            "id": 917,
+            "id": 918,
             "x": 21828,
             "z": -9214,
             "lines": {
@@ -11577,7 +11577,7 @@
         },
         {
             "name": "Kanto",
-            "id": 918,
+            "id": 919,
             "x": 21828,
             "z": -9398,
             "lines": {
@@ -15169,7 +15169,7 @@
                             [21697, -9552],
                             [21697, -9567]
                         ],
-                        "stations": [806, 916, 807, [917, "Kanto branch"], [808, "East Khazar branch"], 809]
+                        "stations": [806, 917, 807, [918, "Kanto branch"], [808, "East Khazar branch"], 809]
                     },
                     "East Khazar branch": {
                         "vertices": [
@@ -15184,7 +15184,7 @@
                             [21828, -9214],
                             [21828, -9398]
                         ],
-                        "stations": [[917, "Main line"], 918]
+                        "stations": [[918, "Main line"], 919]
                     }
                 }
             },
