@@ -11509,7 +11509,7 @@
         {
             "name": "Matsubara JCT",
             "id": 914,
-            "x": 22790,
+            "x": 22760,
             "z": -8584,
             "lines": {
                 "Japan Underground Ice Road": {
@@ -11529,10 +11529,7 @@
                 "Japan Underground Ice Road": {
                     "Manchuria Main": ["", "Manchuria-Tosa branch"]
                 }
-            },
-            "areas": [
-                [[22755, -8589], [22764, -8580]]
-            ]
+            }
         },
         {
             "name": "Fc elevator",
