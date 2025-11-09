@@ -11590,6 +11590,7 @@
         },
         {
             "name": "Hormuz West Mine",
+            "type": "semi1",
             "id": 920,
             "x": 10064,
             "z": -5230,
