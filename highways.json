@@ -11610,6 +11610,77 @@
                     "Qatar": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "1H-4V JCT",
+            "type": "jct",
+            "id": 922,
+            "x": 18740,
+            "z": -13192,
+            "lines": {
+                "Intercontinental": {
+                    "Xotic-Xports Tram": ["", "1st Horizontal line to 4th Vertical line"]
+                }
+            }
+        },
+        {
+            "name": "1H-5V JCT",
+            "type": "jct",
+            "id": 923,
+            "x": 18712,
+            "z": -13192,
+            "lines": {
+                "Intercontinental": {
+                    "Xotic-Xports Tram": ["", "1st Horizontal line to Yildun Road (5th Vertical line)"]
+                }
+            }
+        },
+        {
+            "name": "0H-5V JCT",
+            "type": "jct",
+            "id": 924,
+            "x": 18712,
+            "z": -13224,
+            "lines": {
+                "Intercontinental": {
+                    "Xotic-Xports Tram": ["", "Yildun Road (5th Vertical line) to 0th Horizontal Line"]
+                }
+            }
+        },
+        {
+            "name": "2H-4V JCT",
+            "type": "jct",
+            "id": 925,
+            "x": 18740,
+            "z": -13144,
+            "lines": {
+                "Intercontinental": {
+                    "Xotic-Xports Tram": ["", "2nd Horizontal line to 4th Vertical line"]
+                }
+            }
+        },
+        {
+            "name": "spacewonder6's Enchantment Shop",
+            "type": "semi3",
+            "id": 926,
+            "x": 18888,
+            "z": -13144,
+            "lines": {
+                "Intercontinental": {
+                    "Xotic-Xports Tram": ["", "2nd Horizontal line"]
+                }
+            }
+        },
+        {
+            "name": "Xotic-Xports' Community Farm",
+            "id": 927,
+            "x": 18740,
+            "z": -13168,
+            "lines": {
+                "Intercontinental": {
+                    "Xotic-Xports Tram": ["", "4th Vertical line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -15766,30 +15837,37 @@
                 "color": "0000CF",
                 "y": 86,
                 "branches": {
+                    "0th Horizontal line": {
+                        "vertices": [
+                            [18712, -13224],
+                            [18689, -13224]
+                        ],
+                        "stations": [[924, "Yildun Road (5th Vertical line)"]]
+                    },
                     "1st Horizontal line": {
                         "vertices": [
                             [19062, -13192],
-                            [18733, -13192]
+                            [18712, -13192]
                         ],
-                        "stations": [[568, "1st Vertical line"], [569, "3rd Vertical line"]]
+                        "stations": [[568, "1st Vertical line"], [569, "3rd Vertical line"], [922, "4th Vertical line"], [923, "Yildun Road (5th Vertical line)"]]
                     },
                     "2nd Horizontal line": {
                         "vertices": [
                             [19000, -13144],
-                            [18832, -13144]
+                            [18738, -13144]
                         ],
-                        "stations": [[570, "1st Vertical line"], [571, "2nd Vertical line"], [572, "3rd Vertical line"]]
+                        "stations": [[570, "1st Vertical line"], [571, "2nd Vertical line"], 926, [572, "3rd Vertical line"], [925, "4th Vertical line"]]
                     },
                     "3rd Horizontal line": {
                         "vertices": [
                             [19000, -13096],
-                            [18864, -13096]
+                            [18820, -13096]
                         ],
                         "stations": [[573, "1st Vertical line"], [574, "2nd Vertical line"], [575, "3rd Vertical line"]]
                     },
                     "4th Horizontal line": {
                         "vertices": [
-                            [18866, -13048],
+                            [18800, -13048],
                             [18952, -13048]
                         ],
                         "stations": [[576, "3rd Vertical line"]]
@@ -15811,9 +15889,23 @@
                     "3rd Vertical line": {
                         "vertices": [
                             [18872, -13310],
-                            [18872, -13048]
+                            [18872, -13023]
                         ],
                         "stations": [[569, "1st Horizontal line"], [572, "2nd Horizontal line"], [575, "3rd Horizontal line"], [576, "4th Horizontal line"]]
+                    },
+                    "4th Vertical line": {
+                        "vertices": [
+                            [18740, -13192],
+                            [18740, -13144]
+                        ],
+                        "stations": [[922, "1st Horizontal line"], 927, [925, "2nd Horizontal line"]]
+                    },
+                    "Yildun Road (5th Vertical line)": {
+                        "vertices": [
+                            [18712, -13192],
+                            [18712, -13263]
+                        ],
+                        "stations": [[923, "1st Horizontal line"], [924, "0th Horizontal line"]]
                     }
                 }
             },
