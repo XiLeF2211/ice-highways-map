@@ -6852,13 +6852,14 @@
             }
         },
         {
-            "name": "Hormuz",
+            "name": "Hormuz (JCT)",
             "id": 554,
             "x": 10259,
             "z": -5230,
             "lines": {
                 "TNIH": {
-                    "Makran Main": ["", "Main line"]
+                    "Makran Main": ["", "Main line"],
+                    "Qatar": ["", "Main line"]
                 }
             }
         },
@@ -11586,6 +11587,28 @@
                 [[21826, -9402], [21830, -9393]],
                 [[21832, -9403], [21830, -9397]]
             ]
+        },
+        {
+            "name": "Hormuz West Mine",
+            "id": 920,
+            "x": 10064,
+            "z": -5230,
+            "lines": {
+                "TNIH": {
+                    "Qatar": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Akron",
+            "id": 921,
+            "x": 9821,
+            "z": -5093,
+            "lines": {
+                "TNIH": {
+                    "Qatar": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -12202,6 +12225,22 @@
                             [9796, -5950]
                         ],
                         "stations": [618, 619]
+                    }
+                }
+            },
+            "Qatar": {
+                "prefix": "",
+                "code": "QA",
+                "color": "3d091f",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [10259, -5230],
+                            [9821, -5230],
+                            [9821, -5093]
+                        ],
+                        "stations": [554, 920, 921]
                     }
                 }
             }
