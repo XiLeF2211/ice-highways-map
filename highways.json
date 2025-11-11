@@ -15864,13 +15864,13 @@
                     "3rd Horizontal line": {
                         "vertices": [
                             [19000, -13096],
-                            [18820, -13096]
+                            [18753, -13096]
                         ],
                         "stations": [[573, "1st Vertical line"], [574, "2nd Vertical line"], [575, "3rd Vertical line"]]
                     },
                     "4th Horizontal line": {
                         "vertices": [
-                            [18800, -13048],
+                            [18753, -13048],
                             [18952, -13048]
                         ],
                         "stations": [[576, "3rd Vertical line"]]
