@@ -11497,7 +11497,7 @@
             }
         },
         {
-            "name": "Issyk Kul",
+            "name": "Issyk-Kul",
             "id": 913,
             "x": 14301,
             "z": -8008,
@@ -11679,6 +11679,29 @@
             "lines": {
                 "Intercontinental": {
                     "Xotic-Xports Tram": ["", "4th Vertical line"]
+                }
+            }
+        },
+        {
+            "name": "Jeti-Ögüz Mine",
+            "type": "semi1",
+            "id": 928,
+            "x": 14286,
+            "z": -7928,
+            "lines": {
+                "TNIH": {
+                    "Xinjiang": ["", "Eastern route"]
+                }
+            }
+        },
+        {
+            "name": "Naryn",
+            "id": 929,
+            "x": 14088,
+            "z": -7928,
+            "lines": {
+                "TNIH": {
+                    "Xinjiang": ["", "Eastern route"]
                 }
             }
         }
@@ -12275,13 +12298,15 @@
                     },
                     "Eastern route": {
                         "vertices": [
+                            [14008, -7928],
+                            [14301, -7928],
                             [14301, -8008],
                             [15301, -8008],
                             [15301, -8306],
                             [15511, -8306],
                             [15511, -8830]
                         ],
-                        "stations": [913, 905, 463, 465, 466, 897, 898, 900, 904]
+                        "stations": [929, 928, 913, 905, 463, 465, 466, 897, 898, 900, 904]
                     }
                 }
             },
