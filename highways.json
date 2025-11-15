@@ -11771,6 +11771,7 @@
             "z": -8100,
             "lines": {
                 "Kazakhstan Ice lines": {
+                    "Line 1": ["", "Main line"],
                     "Line 3": ["", "Main line"]
                 }
             }
@@ -11795,6 +11796,30 @@
             "lines": {
                 "Kazakhstan Ice lines": {
                     "Line 3": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ulytau North JCT",
+            "type": "jct",
+            "id": 937,
+            "x": 12937,
+            "z": -8734,
+            "lines": {
+                "Kazakhstan Ice lines": {
+                    "Line 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ulytau South JCT",
+            "type": "jct",
+            "id": 938,
+            "x": 12937,
+            "z": -8682,
+            "lines": {
+                "Kazakhstan Ice lines": {
+                    "Line 1": ["", "Main line"]
                 }
             }
         }
@@ -15085,6 +15110,21 @@
             }
         },
         "Kazakhstan Ice lines": {
+            "Line 1": {
+                "prefix": "",
+                "code": "3",
+                "color": "00abc2",
+                "y": 2,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [12937, -8734],
+                            [12937, -8100]
+                        ],
+                        "stations": [931, 933, 934, 935, 936]
+                    }
+                }
+            },
             "Line 3": {
                 "prefix": "",
                 "code": "3",
