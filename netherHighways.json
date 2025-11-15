@@ -7,14 +7,184 @@
             "z": -1017,
             "lines": {
                 "Y=49": {
-                    "Chitograd": ["", "Main line"]
+                    "Chitograd-Antarctica": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Last Tour point",
+            "id": 1,
+            "x": 1055,
+            "z": -1870,
+            "lines": {
+                "Y=49": {
+                    "Chitograd-Antarctica": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Staraya Road JCT",
+            "type": "jct",
+            "id": 2,
+            "x": 1054.5,
+            "z": -1527,
+            "lines": {
+                "Y=49": {
+                    "Chitograd-Antarctica": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Potato-Rybinsk JCT",
+            "type": "jct",
+            "id": 3,
+            "x": 1054.5,
+            "z": -1379.5,
+            "lines": {
+                "Y=49": {
+                    "Chitograd-Antarctica": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Platform 'Kazan'",
+            "id": 4,
+            "x": 1054.5,
+            "z": -1298.5,
+            "lines": {
+                "Y=49": {
+                    "Chitograd-Antarctica": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kharkiv JCT",
+            "type": "jct",
+            "id": 5,
+            "x": 1054.5,
+            "z": -1104.5,
+            "lines": {
+                "Y=49": {
+                    "Chitograd-Antarctica": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Z=-1081 line",
+            "id": 6,
+            "x": 1054,
+            "z": -1082.5,
+            "lines": {
+                "Y=49": {
+                    "Chitograd-Antarctica": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Z=-980 line",
+            "id": 7,
+            "x": 1053.5,
+            "z": -981.5,
+            "lines": {
+                "Y=49": {
+                    "Chitograd-Antarctica": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "'Mali Ice line interchange' platform",
+            "id": 8,
+            "x": 1053.5,
+            "z": -265,
+            "lines": {
+                "Y=49": {
+                    "Chitograd-Antarctica": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Z=-225 Ice line",
+            "id": 9,
+            "x": 1053.5,
+            "z": -227,
+            "lines": {
+                "Y=49": {
+                    "Chitograd-Antarctica": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Antanarivo",
+            "id": 10,
+            "x": 1053.5,
+            "z": 409.5,
+            "lines": {
+                "Y=49": {
+                    "Chitograd-Antarctica": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Antanarivo JCT",
+            "type": "jct",
+            "id": 11,
+            "x": 1053.5,
+            "z": 474.5,
+            "lines": {
+                "Y=49": {
+                    "Chitograd-Antarctica": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ebengrad field (Ice farm)",
+            "id": 12,
+            "x": 1053.5,
+            "z": 1603,
+            "lines": {
+                "Y=49": {
+                    "Chitograd-Antarctica": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ebengrad JCT",
+            "type": "jct",
+            "id": 13,
+            "x": 1053.5,
+            "z": 1620.5,
+            "lines": {
+                "Y=49": {
+                    "Chitograd-Antarctica": ["", "Main line to Ebengrad branch"]
+                }
+            }
+        },
+        {
+            "name": "Town ruins",
+            "id": 14,
+            "x": 1028,
+            "z": 1678.5,
+            "lines": {
+                "Y=49": {
+                    "Chitograd-Antarctica": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Shellblu's Nova Point",
+            "id": 15,
+            "x": 1143.5,
+            "z": 1620.5,
+            "lines": {
+                "Y=49": {
+                    "Chitograd-Antarctica": ["", "Ebengrad branch"]
                 }
             }
         }
     ],
     "lines": {
         "Y=49": {
-            "Chitograd": {
+            "Chitograd-Antarctica": {
                 "prefix": "",
                 "code": "CHI",
                 "color": "3F704D",
@@ -22,10 +192,24 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [1053.5, -1200],
-                            [1053.5, 0]
+                            [1055, -1871],
+                            [1055, -1529],
+                            [1054.5, -1529],
+                            [1054.5, -1100.5],
+                            [1054, -1100.5],
+                            [1054, -1023.5],
+                            [1053.5, -1023.5],
+                            [1053.5, 1678.5],
+                            [1027, 1678.5]
                         ],
-                        "stations": [0]
+                        "stations": [1, 2, 3, 4, 5, 6, 0, 7, 8, 9, 10, 11, 12, [13, "Ebengrad branch"], 14]
+                    },
+                    "Ebengrad branch": {
+                        "vertices": [
+                            [1053.5, 1620.5],
+                            [1147, 1620.5]
+                        ],
+                        "stations": [[13, "Main line"], 15]
                     }
                 }
             }
