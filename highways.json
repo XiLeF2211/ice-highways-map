@@ -3282,7 +3282,7 @@
             }
         },
         {
-            "name": "Shymkent",
+            "name": "Shymkent (TNIH)",
             "id": 275,
             "x": 12156,
             "z": -7755,
@@ -8834,7 +8834,7 @@
             ]
         },
         {
-            "name": "X=12191 Point JCT",
+            "name": "2nd Shymkent JCT",
             "type": "jct",
             "id": 705,
             "x": 12191,
@@ -8842,6 +8842,9 @@
             "lines": {
                 "Intercontinental": {
                     "European Russia": ["", "Chechnya line"]
+                },
+                "Kazakhstan Ice lines": {
+                    "Line 5": ["", "Main line"]
                 }
             }
         },
@@ -11702,6 +11705,96 @@
             "lines": {
                 "TNIH": {
                     "Xinjiang": ["", "Eastern route"]
+                }
+            }
+        },
+        {
+            "name": "X=12191, Z=-9246 JCT",
+            "type": "jct",
+            "id": 930,
+            "x": 12191,
+            "z": -9246,
+            "lines": {
+                "Intercontinental": {
+                    "Chitograd Ice Highways": ["", "Main Line"],
+                    "Russian Republic ice roads": ["", "Kazakhstan - Leningrad route"]
+                }
+            }
+        },
+        {
+            "name": "1st Shymkent JCT",
+            "type": "jct",
+            "id": 931,
+            "x": 12191,
+            "z": -8096,
+            "lines": {
+                "Intercontinental": {
+                    "Russian Republic ice roads": ["", "Kazakhstan - Leningrad route"]
+                },
+                "Kazakhstan Ice lines": {
+                    "Line 3": ["", "Main line"],
+                    "Line 5": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Shymkent",
+            "id": 932,
+            "x": 12191,
+            "z": -7907,
+            "lines": {
+                "Kazakhstan Ice lines": {
+                    "Line 5": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Taraz",
+            "id": 933,
+            "x": 12914,
+            "z": -8100,
+            "lines": {
+                "Kazakhstan Ice lines": {
+                    "Line 3": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[12910, -8110], [12920, -8098]],
+                [[12906, -8115], [12913, -8108]]
+            ]
+        },
+        {
+            "name": "Taraz JCT",
+            "type": "jct",
+            "id": 934,
+            "x": 12937,
+            "z": -8100,
+            "lines": {
+                "Kazakhstan Ice lines": {
+                    "Line 3": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bishkek",
+            "id": 935,
+            "x": 13581,
+            "z": -8100,
+            "lines": {
+                "Kazakhstan Ice lines": {
+                    "Line 3": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bishkek JCT",
+            "type": "jct",
+            "id": 936,
+            "x": 13597,
+            "z": -8100,
+            "lines": {
+                "Kazakhstan Ice lines": {
+                    "Line 3": ["", "Main line"]
                 }
             }
         }
@@ -14991,6 +15084,40 @@
                 }
             }
         },
+        "Kazakhstan Ice lines": {
+            "Line 3": {
+                "prefix": "",
+                "code": "3",
+                "color": "ffec2d",
+                "y": 2,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [12191, -8096],
+                            [12914, -8096],
+                            [12914, -8100],
+                            [13597, -8100]
+                        ],
+                        "stations": [931, 933, 934, 935, 936]
+                    }
+                }
+            },
+            "Line 5": {
+                "prefix": "",
+                "code": "5",
+                "color": "00abc2",
+                "y": 2,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [12191, -8096],
+                            [12191, -7905]
+                        ],
+                        "stations": [931, 705, 932]
+                    }
+                }
+            }
+        },
         "Local": {
             "Singapore City Metro": {
                 "prefix": "",
@@ -15522,7 +15649,7 @@
                             [8269, -8281],
                             [8198, -8281]
                         ],
-                        "stations": [292, 540, 538, 293, 294, [295, "TNIH Connector branch"], [296, "Chitograd local branch"], 298, [675, "Jamalonious branch"], 301]
+                        "stations": [292, 930, 540, 538, 293, 294, [295, "TNIH Connector branch"], [296, "Chitograd local branch"], 298, [675, "Jamalonious branch"], 301]
                     },
                     "TNIH connector branch": {
                         "vertices": [
@@ -15697,13 +15824,14 @@
                     },
                     "Kazakhstan - Leningrad route": {
                         "vertices": [
-                            [12232, -10003],
+                            [12191, -8096],
+                            [12191, -10003],
                             [14539, -10003],
                             [14539, -9474],
                             [14493, -9474],
                             [14493, -8751]
                         ],
-                        "stations": [292, 396, [397, "X=13557 branch"], 398, [399, "Novosibirsk Ring"], 418, 419, 420, 421, 422]
+                        "stations": [931, 930, 292, 396, [397, "X=13557 branch"], 398, [399, "Novosibirsk Ring"], 418, 419, 420, 421, 422]
                     },
                     "X=13557 branch": {
                         "vertices": [
