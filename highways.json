@@ -11884,7 +11884,8 @@
             "lines": {
                 "Kazakhstan Ice lines": {
                     "Line 2": ["", "Main line"],
-                    "Line 6": ["", "Main line"]
+                    "Line 6": ["", "Main line"],
+                    "Balkhash": ["", "Central Bypass line"]
                 }
             }
         },
@@ -11918,8 +11919,98 @@
             "z": -8264,
             "lines": {
                 "Kazakhstan Ice lines": {
-                    "Line 6": ["", "Main line"],
+                    "Line 6": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Balkhash Central",
+            "id": 947,
+            "x": 13480,
+            "z": -8734,
+            "lines": {
+                "Kazakhstan Ice lines": {
                     "Balkhash": ["", "Central Bypass line"]
+                }
+            },
+            "areas": [
+                [[13475, -8741], [13484, -8732]],
+                [[13478, -8742], [13481, -8738]]
+            ]
+        },
+        {
+            "name": "Balkhash Central JCT",
+            "type": "jct",
+            "id": 948,
+            "x": 13508,
+            "z": -8734,
+            "lines": {
+                "Kazakhstan Ice lines": {
+                    "Balkhash": ["", "Central Bypass line to Overground Spur line"]
+                }
+            },
+            "areas": [
+                [[13505, -8736], [13511, -8732]]
+            ]
+        },
+        {
+            "name": "Balkhash West Elevator",
+            "type": "elev-ew",
+            "id": 949,
+            "x": 13519,
+            "z": -8851,
+            "y1": 2,
+            "y2": 72,
+            "lines": {
+                "Kazakhstan Ice lines": {
+                    "Balkhash": ["", "Overground Spur line"]
+                }
+            },
+            "areas": [
+                [[13516, -8856], [13520, -8849]]
+            ]
+        },
+        {
+            "name": "Balkhash",
+            "id": 950,
+            "x": 13552,
+            "z": -8852,
+            "lines": {
+                "Kazakhstan Ice lines": {
+                    "Balkhash": ["", "Overground Spur line"]
+                }
+            },
+            "areas": [
+                [[13528, -8849], [13566, -8828]],
+                [[13520, -8864], [13583, -8843]]
+            ]
+        },
+        {
+            "name": "Balkhash East Elevator",
+            "type": "elev-we",
+            "id": 951,
+            "x": 13584,
+            "z": -8854,
+            "y1": 72,
+            "y2": 2,
+            "lines": {
+                "Kazakhstan Ice lines": {
+                    "Balkhash": ["", "Overground Spur line"]
+                }
+            },
+            "areas": [
+                [[13583, -8856], [13587, -8849]]
+            ]
+        },
+        {
+            "name": "Balkhash East JCT",
+            "type": "jct",
+            "id": 952,
+            "x": 13597,
+            "z": -8734,
+            "lines": {
+                "Kazakhstan Ice lines": {
+                    "Balkhash": ["", "Central Bypass line to Overground Spur line"]
                 }
             }
         }
@@ -15317,7 +15408,7 @@
                             [13509, -8851],
                             [13509, -8734]
                         ],
-                        "stations": []
+                        "stations": [948, 949, 950, 951]
                     },
                     "Central Bypass line": {
                         "vertices": [
@@ -15325,7 +15416,7 @@
                             [13509, -8734],
                             [13597, -8682]
                         ],
-                        "stations": [937, 943]
+                        "stations": [937, 947, 948, 943]
                     }
                 }
             }
