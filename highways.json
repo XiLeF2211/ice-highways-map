@@ -11709,7 +11709,7 @@
             }
         },
         {
-            "name": "X=12191, Z=-9246 JCT",
+            "name": "Nura West JCT",
             "type": "jct",
             "id": 930,
             "x": 12191,
@@ -11783,7 +11783,8 @@
             "z": -8100,
             "lines": {
                 "Kazakhstan Ice lines": {
-                    "Line 3": ["", "Main line"]
+                    "Line 3": ["", "Main line"],
+                    "Line 6": ["", "Main line"]
                 }
             }
         },
@@ -11807,7 +11808,8 @@
             "z": -8734,
             "lines": {
                 "Kazakhstan Ice lines": {
-                    "Line 1": ["", "Main line"]
+                    "Line 1": ["", "Main line"],
+                    "Balkhash": ["", "Central Bypass line"]
                 }
             }
         },
@@ -11819,7 +11821,105 @@
             "z": -8682,
             "lines": {
                 "Kazakhstan Ice lines": {
+                    "Line 1": ["", "Main line"],
+                    "Line 2": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Astana South",
+            "id": 939,
+            "x": 12937,
+            "z": -9600,
+            "lines": {
+                "Kazakhstan Ice lines": {
                     "Line 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nura East JCT",
+            "type": "jct",
+            "id": 940,
+            "x": 12482,
+            "z": -9246,
+            "lines": {
+                "Kazakhstan Ice lines":{
+                    "Line 1": ["", "Chitograd Ice Highways connector branch"]
+                },
+                "Intercontinental": {
+                    "Chitograd Ice Highways": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Karagandy JCT",
+            "type": "jct",
+            "id": 941,
+            "x": 12937,
+            "z": -9246,
+            "lines": {
+                "Kazakhstan Ice lines":{
+                    "Line 1": ["", "Main line to Chitograd Ice Highways connector branch"]
+                }
+            }
+        },
+        {
+            "name": "Jezkagan",
+            "id": 942,
+            "x": 12536,
+            "z": -8682,
+            "lines": {
+                "Kazakhstan Ice lines": {
+                    "Line 2": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Balkhash JCT",
+            "type": "jct",
+            "id": 943,
+            "x": 13597,
+            "z": -8682,
+            "lines": {
+                "Kazakhstan Ice lines": {
+                    "Line 2": ["", "Main line"],
+                    "Line 6": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "NullPointer JCT",
+            "type": "jct",
+            "id": 944,
+            "x": 13597,
+            "z": -8515,
+            "lines": {
+                "Kazakhstan Ice lines": {
+                    "Line 6": ["", "Main line to NullPointer branch"]
+                }
+            }
+        },
+        {
+            "name": "NullPointer",
+            "id": 945,
+            "x": 13545,
+            "z": -8515,
+            "lines": {
+                "Kazakhstan Ice lines": {
+                    "Line 6": ["", "NullPointer branch"]
+                }
+            }
+        },
+        {
+            "name": "Almaty-Bishkek JCT",
+            "id": 946,
+            "x": 13581,
+            "z": -8264,
+            "lines": {
+                "Kazakhstan Ice lines": {
+                    "Line 6": ["", "Main line"],
+                    "Balkhash": ["", "Central Bypass line"]
                 }
             }
         }
@@ -15112,22 +15212,44 @@
         "Kazakhstan Ice lines": {
             "Line 1": {
                 "prefix": "",
-                "code": "3",
+                "code": "L1",
                 "color": "00abc2",
                 "y": 2,
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [12937, -8734],
+                            [12937, -9600],
                             [12937, -8100]
                         ],
-                        "stations": [937, 938, 934]
+                        "stations": [939, 941, 937, 938, 934]
+                    },
+                    "Chitograd Ice Highways connector branch": {
+                        "vertices": [
+                            [12482, -9246],
+                            [12937, -9246]
+                        ],
+                        "stations": [940, 941]
+                    }
+                }
+            },
+            "Line 2": {
+                "prefix": "",
+                "code": "L2",
+                "color": "ffec2d",
+                "y": 2,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [12536, -8682],
+                            [13597, -8682]
+                        ],
+                        "stations": [942, 938, 943]
                     }
                 }
             },
             "Line 3": {
                 "prefix": "",
-                "code": "3",
+                "code": "L3",
                 "color": "ffec2d",
                 "y": 2,
                 "branches": {
@@ -15144,7 +15266,7 @@
             },
             "Line 5": {
                 "prefix": "",
-                "code": "5",
+                "code": "L5",
                 "color": "00abc2",
                 "y": 2,
                 "branches": {
@@ -15154,6 +15276,56 @@
                             [12191, -7905]
                         ],
                         "stations": [931, 705, 932]
+                    }
+                }
+            },
+            "Line 6": {
+                "prefix": "",
+                "code": "L6",
+                "color": "00abc2",
+                "y": 2,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [13597, -8682],
+                            [13597, -8100]
+                        ],
+                        "stations": [943, 944, 946, 936]
+                    },
+                    "NullPointer branch": {
+                        "vertices": [
+                            [13597, -8515],
+                            [13545, -8515]
+                        ],
+                        "stations": [944, 945]
+                    }
+                }
+            },
+            "Balkhash": {
+                "prefix": "",
+                "code": "BS",
+                "color": "22a864",
+                "y": 2,
+                "branches": {
+                    "Main line": {
+                        "Overground Spur line": [
+                            [13507, -8734],
+                            [13507, -8854],
+                            [13591, -8854],
+                            [13591, -8734],
+                            [13591, -8851],
+                            [13509, -8851],
+                            [13509, -8734]
+                        ],
+                        "stations": []
+                    },
+                    "Central Bypass line": {
+                        "vertices": [
+                            [12937, -8734],
+                            [13509, -8734],
+                            [13597, -8682]
+                        ],
+                        "stations": [937, 943]
                     }
                 }
             }
@@ -15689,7 +15861,7 @@
                             [8269, -8281],
                             [8198, -8281]
                         ],
-                        "stations": [292, 930, 540, 538, 293, 294, [295, "TNIH Connector branch"], [296, "Chitograd local branch"], 298, [675, "Jamalonious branch"], 301]
+                        "stations": [292, 940, 930, 540, 538, 293, 294, [295, "TNIH Connector branch"], [296, "Chitograd local branch"], 298, [675, "Jamalonious branch"], 301]
                     },
                     "TNIH connector branch": {
                         "vertices": [
