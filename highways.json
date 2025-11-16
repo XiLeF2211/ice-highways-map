@@ -11914,8 +11914,9 @@
         },
         {
             "name": "Almaty-Bishkek JCT",
+            "type": "jct",
             "id": 946,
-            "x": 13581,
+            "x": 13597,
             "z": -8264,
             "lines": {
                 "Kazakhstan Ice lines": {
@@ -15408,15 +15409,16 @@
                             [13509, -8851],
                             [13509, -8734]
                         ],
-                        "stations": [948, 949, 950, 951]
+                        "stations": [[948, "to Central Bypass line"], 949, 950, 951, [952, "to Central Bypass line"]]
                     },
                     "Central Bypass line": {
                         "vertices": [
                             [12937, -8734],
                             [13509, -8734],
+                            [13597, -8734],
                             [13597, -8682]
                         ],
-                        "stations": [937, 947, 948, 943]
+                        "stations": [937, 947, [948, "to Central Bypass line"], [952, "to Central Bypass line"], 943]
                     }
                 }
             }
