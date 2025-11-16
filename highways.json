@@ -11783,8 +11783,7 @@
             "z": -8100,
             "lines": {
                 "Kazakhstan Ice lines": {
-                    "Line 3": ["", "Main line"],
-                    "Line 6": ["", "Main line"]
+                    "Line 3": ["", "Main line"]
                 }
             }
         },
@@ -11796,7 +11795,8 @@
             "z": -8100,
             "lines": {
                 "Kazakhstan Ice lines": {
-                    "Line 3": ["", "Main line"]
+                    "Line 3": ["", "Main line"],
+                    "Line 6": ["", "Main line"]
                 }
             }
         },
@@ -15389,7 +15389,7 @@
                             [13597, -8515],
                             [13545, -8515]
                         ],
-                        "stations": [935, 944, 945]
+                        "stations": [944, 945]
                     }
                 }
             },
