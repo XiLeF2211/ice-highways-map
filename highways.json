@@ -5147,7 +5147,7 @@
             }
         },
         {
-            "name": "5th Leningrad route JCT",
+            "name": "4th Leningrad route JCT",
             "type": "jct",
             "id": 422,
             "x": 14493,
@@ -5891,7 +5891,7 @@
             }
         },
         {
-            "name": "4th East Leningrad JCT",
+            "name": "5th East Leningrad JCT",
             "type": "jct",
             "id": 480,
             "x": 15230,
