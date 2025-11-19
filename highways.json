@@ -3611,6 +3611,8 @@
             "id": 299,
             "x": 8550,
             "z": -9285,
+            "y1": 53,
+            "y2": 41,
             "lines": {
                 "Y=53 Ice Lines System": {
                     "Chitograd-Khazar": ["", ""]
@@ -3809,7 +3811,7 @@
             "x": 26183,
             "z": -9760,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Namboku Main": ["", ""]
                 },
                 "Local": {
@@ -5144,7 +5146,7 @@
             }
         },
         {
-            "name": "4th Leningrad route JCT",
+            "name": "5th Leningrad route JCT",
             "type": "jct",
             "id": 422,
             "x": 14493,
@@ -6366,7 +6368,7 @@
             "x": 26071,
             "z": -8465,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Namboku Main": ["", ""]
                 }
             }
@@ -6377,7 +6379,7 @@
             "x": 26071,
             "z": -8369,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Namboku Main": ["", ""]
                 }
             },
@@ -6393,7 +6395,7 @@
             "x": 26071,
             "z": -8344,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Namboku Main": ["", ""]
                 }
             }
@@ -6404,7 +6406,7 @@
             "x": 26071,
             "z": -8177,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Namboku Main": ["", ""]
                 }
             },
@@ -6424,7 +6426,7 @@
             "x": 25719,
             "z": -8025,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Namboku Main": ["", ""],
                     "Ryukou": ["", ""]
                 }
@@ -6436,7 +6438,7 @@
             "x": 25719,
             "z": -7977,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Namboku Main": ["", ""]
                 }
             },
@@ -6452,7 +6454,7 @@
             "x": 25719,
             "z": -7840,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Namboku Main": ["", ""]
                 }
             }
@@ -6463,7 +6465,7 @@
             "x": 25719,
             "z": -7489,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Namboku Main": ["", ""]
                 }
             }
@@ -6474,7 +6476,7 @@
             "x": 25719,
             "z": -7217,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Namboku Main": ["", ""]
                 }
             }
@@ -6485,7 +6487,7 @@
             "x": 25688,
             "z": -6745,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Namboku Main": ["", ""]
                 }
             },
@@ -6500,7 +6502,7 @@
             "x": 25223,
             "z": -6721,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Namboku Main": ["", ""]
                 }
             },
@@ -6514,7 +6516,7 @@
             "x": 25200,
             "z": -6585,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Namboku Main": ["", ""]
                 }
             },
@@ -6529,7 +6531,7 @@
             "x": 24992,
             "z": -6585,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Namboku Main": ["", ""]
                 }
             },
@@ -6544,7 +6546,7 @@
             "x": 24607,
             "z": -6585,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Namboku Main": ["", ""]
                 }
             },
@@ -6559,7 +6561,7 @@
             "x": 24007,
             "z": -6353,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Namboku Main": ["", ""]
                 }
             },
@@ -9351,7 +9353,7 @@
             "x": 24856,
             "z": -8841,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Ryukou": ["", ""],
                     "Bonkyo": ["", ""]
                 }
@@ -9364,7 +9366,7 @@
             "x": 24732,
             "z": -8841,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Ryukou": ["", ""]
                 }
             }
@@ -9375,7 +9377,7 @@
             "x": 24264,
             "z": -8841,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Ryukou": ["", ""]
                 }
             },
@@ -9391,7 +9393,7 @@
             "x": 24215,
             "z": -8841,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Manchuria Main": ["", "Main Line"],
                     "Ryukou": ["", ""]
                 }
@@ -9406,7 +9408,7 @@
             "x": 24044,
             "z": -8841,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Ryukou": ["", ""]
                 }
             }
@@ -9417,7 +9419,7 @@
             "x": 23963,
             "z": -8831,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Ryukou": ["", ""]
                 }
             }
@@ -9428,7 +9430,7 @@
             "x": 23955,
             "z": -8758,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Ryukou": ["", ""]
                 }
             }
@@ -9440,7 +9442,7 @@
             "x": 24856,
             "z": -9339,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Bonkyo": ["", ""]
                 }
             }
@@ -9452,7 +9454,7 @@
             "x": 24856,
             "z": -10020,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Bonkyo": ["", ""]
                 }
             }
@@ -9463,7 +9465,7 @@
             "x": 24784,
             "z": -10169,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Bonkyo": ["", ""]
                 }
             },
@@ -9479,7 +9481,7 @@
             "x": 24760,
             "z": -10395,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Bonkyo": ["", ""]
                 }
             }
@@ -9490,10 +9492,10 @@
             "x": 25466,
             "z": -10744,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Bonkyo": ["", ""]
                 },
-                "Ezo Underground Ice Road": {
+                "Ezo Ice lines": {
                     "Masafuku": ["", "Main Line"]
                 }
             },
@@ -9508,7 +9510,7 @@
             "x": 22840,
             "z": -8233,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Manchuria Main": ["", "Main Line"]
                 }
             },
@@ -9523,7 +9525,7 @@
             "x": 22790,
             "z": -8584,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Manchuria Main": ["", "Main Line"]
                 }
             },
@@ -9540,7 +9542,7 @@
             "x": 23287,
             "z": -8409,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Manchuria Main": ["", "Main Line"]
                 }
             },
@@ -9554,7 +9556,7 @@
             "x": 24215,
             "z": -9449,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Manchuria Main": ["", "Main Line"]
                 }
             }
@@ -9565,7 +9567,7 @@
             "x": 24550,
             "z": -9465,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Manchuria Main": ["", "Main Line"]
                 }
             }
@@ -9577,7 +9579,7 @@
             "x": 22375,
             "z": -8264,
             "lines": {
-                "Ezo Underground Ice Road": {
+                "Ezo Ice lines": {
                     "West Manchuria Main": ["", "Main Line to Buyeo branch"]
                 }
             },
@@ -9591,7 +9593,7 @@
             "x": 22355,
             "z": -8264,
             "lines": {
-                "Ezo Underground Ice Road": {
+                "Ezo Ice lines": {
                     "West Manchuria Main": ["", "Main Line"]
                 }
             }
@@ -9602,7 +9604,7 @@
             "x": 22229,
             "z": -8264,
             "lines": {
-                "Ezo Underground Ice Road": {
+                "Ezo Ice lines": {
                     "West Manchuria Main": ["", "Main Line"]
                 }
             }
@@ -9613,7 +9615,7 @@
             "x": 22375,
             "z": -8033,
             "lines": {
-                "Ezo Underground Ice Road": {
+                "Ezo Ice lines": {
                     "West Manchuria Main": ["", "Buyeo branch"]
                 }
             }
@@ -9754,7 +9756,7 @@
             "x": 27849,
             "z": -11095,
             "lines": {
-                "Ezo Underground Ice Road": {
+                "Ezo Ice lines": {
                     "Masafuku": ["", "Main Line"]
                 }
             },
@@ -10129,8 +10131,9 @@
                 "Local": {
                     "Konrinzi": ["", "Main line"]
                 },
-                "Japan Underground Ice Road": {
-                    "Manchuria Main": ["", "Manchuria-Tosa Branch"]
+                "Japan Ice lines": {
+                    "Manchuria Main": ["", "Manchuria-Tosa Branch"],
+                    "Tosa Dragon": ["", "Main line"]
                 }
             },
             "areas": [
@@ -10242,10 +10245,10 @@
             "x": 22760,
             "z": -8264,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Manchuria Main": ["", "Main Line"]
                 },
-                "Ezo Underground Ice Road": {
+                "Ezo Ice lines": {
                     "West Manchuria Main": ["", "Main Line"]
                 }
             },
@@ -11525,7 +11528,7 @@
             "x": 22760,
             "z": -8584,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Manchuria Main": ["", "Main Line to Manchuria-Tosa Branch"]
                 }
             },
@@ -11534,7 +11537,21 @@
             ]
         },
         {
-            "name": "Fc elevator",
+            "name": "Fc West elevator",
+            "type": "elev-ew",
+            "id": 959,
+            "x": 22285,
+            "z": -8785,
+            "y1": 81,
+            "y2": 10,
+            "lines": {
+                "Japan Ice lines": {
+                    "Tosa Dragon": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Fc Elevator",
             "type": "elev-ew",
             "id": 916,
             "x": 22338,
@@ -11542,7 +11559,7 @@
             "y1": 50,
             "y2": 83,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Manchuria Main": ["", "Manchuria-Tosa Branch"]
                 }
             }
@@ -11554,7 +11571,7 @@
             "x": 22332,
             "z": -8854,
             "lines": {
-                "Japan Underground Ice Road": {
+                "Japan Ice lines": {
                     "Manchuria Main": ["", "Manchuria-Tosa Branch"]
                 },
                 "Local": {
@@ -12033,6 +12050,95 @@
             "lines": {
                 "Intercontinental": {
                     "European Russia": ["", "Alaykel branch"]
+                }
+            }
+        },
+        {
+            "name": "Dragon Utopia",
+            "id": 955,
+            "x": 20932,
+            "z": -8708,
+            "lines": {
+                "Japan Ice lines": {
+                    "Tosa Dragon": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cuzzistan JCT",
+            "type": "jct",
+            "id": 956,
+            "x": 15511,
+            "z": -8710,
+            "lines": {
+                "Japan Ice lines": {
+                    "Tosa Dragon": ["", "Cuzzistan JCT connector"]
+                },
+                "TNIH": {
+                    "Xinjiang": ["", "Eastern route"]
+                }
+            }
+        },
+        {
+            "name": "Cuzzistan Elevator",
+            "type": "elev-ew",
+            "id": 957,
+            "x": 15516,
+            "z": -8710,
+            "y1": 81,
+            "y2": 10,
+            "lines": {
+                "Japan Ice lines": {
+                    "Tosa Dragon": ["", "Main line to Cuzzistan JCT connector"]
+                }
+            },
+            "areas": [
+                [[15506, -8712], [15517, -8707]]
+            ]
+        },
+        {
+            "name": "Oasis",
+            "type": "semi1",
+            "id": 958,
+            "x": 15637,
+            "z": -8708,
+            "lines": {
+                "Japan Ice lines": {
+                    "Tosa Dragon": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "East Leningrad Elevator",
+            "type": "elev-we",
+            "id": 959,
+            "x": 15224,
+            "z": -8708,
+            "y1": 81,
+            "y2": 10,
+            "lines": {
+                "Japan Ice lines": {
+                    "Tosa Dragon": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[15221, -8713], [15229, -8707]]
+            ]
+        },
+        {
+            "name": "3rd East Leningrad JCT",
+            "type": "jct",
+            "id": 960,
+            "x": 15229,
+            "z": -8708,
+            "y1": 81,
+            "y2": 10,
+            "lines": {
+                "Japan Ice lines": {
+                    "Tosa Dragon": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "Leningrad Suburban line": ["", "East Leningrad branch"]
                 }
             }
         }
@@ -12637,7 +12743,7 @@
                             [15511, -8306],
                             [15511, -8830]
                         ],
-                        "stations": [929, 928, 913, 905, 463, 465, 466, 897, 898, 900, 904]
+                        "stations": [929, 928, 913, 905, 463, 465, 466, 897, 898, 900, 956, 904]
                     }
                 }
             },
@@ -14754,7 +14860,7 @@
                 }
             }
         },
-        "Japan Underground Ice Road": {
+        "Japan Ice lines": {
             "Namboku Main": {
                 "prefix": "",
                 "code": "南北",
@@ -14879,9 +14985,38 @@
                         "stations": [914, 915, 806, 917]
                     }
                 }
+            },
+            "Tosa Dragon": {
+                "prefix": "",
+                "code": "満州",
+                "color": "80ef80",
+                "y": 81,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [22332, -8854],
+                            [22285, -8854],
+                            [22285, -8708],
+                            [15224, -8708],
+                            [15229, -8708],
+                            [15229, -8711],
+                            [15227, -8711]
+                        ],
+                        "stations": [917, 915, 806, 955, [957, "Cuzzistan JCT connector"], 958, 959, 960]
+                    },
+                    "Cuzzistan JCT connector": {
+                        "vertices": [
+                            [15508, -8708],
+                            [15508, -8710],
+                            [15516, -8710],
+                            [15516, -8708]
+                        ],
+                        "stations": [956, [957, "Main line"]]
+                    }
+                }
             }
         },
-        "Ezo Underground Ice Road": {
+        "Ezo Ice lines": {
             "West Manchuria Main": {
                 "prefix": "",
                 "code": "西満州",
@@ -16232,7 +16367,7 @@
                             [15230, -9137],
                             [15230, -8334]
                         ],
-                        "stations": [476, 477, 478, [479, "Mongolia branch"], 480]
+                        "stations": [476, 477, 478, 960, [479, "Mongolia branch"], 480]
                     },
                     "Mongolia branch": {
                         "vertices": [
