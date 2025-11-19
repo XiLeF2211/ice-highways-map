@@ -11539,7 +11539,7 @@
         {
             "name": "Fc West elevator",
             "type": "elev-ew",
-            "id": 959,
+            "id": 915,
             "x": 22285,
             "z": -8785,
             "y1": 81,
@@ -14988,7 +14988,7 @@
             },
             "Tosa Dragon": {
                 "prefix": "",
-                "code": "満州",
+                "code": "土佐竜",
                 "color": "80ef80",
                 "y": 81,
                 "branches": {
