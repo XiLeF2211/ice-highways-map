@@ -8849,14 +8849,14 @@
             }
         },
         {
-            "name": "X=13601 Point JCT",
+            "name": "Verdantia South JCT",
             "type": "jct",
             "id": 706,
             "x": 13601,
             "z": -7969,
             "lines": {
                 "Intercontinental": {
-                    "European Russia": ["", "Chechnya line"]
+                    "European Russia": ["", "Chechnya line to Alaykel branch"]
                 }
             }
         },
@@ -12007,11 +12007,34 @@
             "name": "Balkhash East JCT",
             "type": "jct",
             "id": 952,
-            "x": 13591,
+            "x": 13597,
             "z": -8734,
             "lines": {
                 "Kazakhstan Ice lines": {
                     "Balkhash": ["", "Central Bypass line to Overground Spur line"]
+                }
+            }
+        },
+        {
+            "name": "Verdantia North JCT",
+            "type": "jct",
+            "id": 953,
+            "x": 13601,
+            "z": -7976,
+            "lines": {
+                "Intercontinental": {
+                    "European Russia": ["", "Chechnya line"]
+                }
+            }
+        },
+        {
+            "name": "Alaykel",
+            "id": 954,
+            "x": 13601,
+            "z": -7614,
+            "lines": {
+                "Intercontinental": {
+                    "European Russia": ["", "Alaykel branch"]
                 }
             }
         }
@@ -15403,9 +15426,9 @@
                         "vertices": [
                             [13507, -8734],
                             [13507, -8854],
-                            [13591, -8854],
-                            [13591, -8734],
-                            [13591, -8851],
+                            [13597, -8854],
+                            [13597, -8734],
+                            [13597, -8851],
                             [13509, -8851],
                             [13509, -8734]
                         ],
@@ -16017,9 +16040,20 @@
                             [10383, -8250],
                             [11351, -8250],
                             [11351, -7969],
-                            [13601, -7969]
+                            [13601, -7969],
+                            [13601, -8095],
+                            [13602, -8095],
+                            [13602, -8100],
+                            [13597, -8100]
                         ],
-                        "stations": [[699, "Main line"], 702, 703, 704, 293, 705, 706]
+                        "stations": [[699, "Main line"], 702, 703, 704, 293, 705, [706, "Alaykel branch"], 953, 936]
+                    },
+                    "Alaykel branch": {
+                        "vertices": [
+                            [13601, -7969],
+                            [13601, -7614]
+                        ],
+                        "stations": [[706, "Chechnya line"], 954]
                     }
                 }
             },
