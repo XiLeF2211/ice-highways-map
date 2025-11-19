@@ -11937,7 +11937,8 @@
             "z": -8264,
             "lines": {
                 "Kazakhstan Ice lines": {
-                    "Line 6": ["", "Main line"]
+                    "Line 6": ["", "Main line"],
+                    "Line 7": ["", "Main line"]
                 }
             }
         },
@@ -15583,6 +15584,21 @@
                             [13545, -8515]
                         ],
                         "stations": [944, 945]
+                    }
+                }
+            },
+            "Line 7": {
+                "prefix": "",
+                "code": "L7",
+                "color": "ffec2d",
+                "y": 2,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [13597, -8264],
+                            [13935, -8264]
+                        ],
+                        "stations": [946]
                     }
                 }
             },
