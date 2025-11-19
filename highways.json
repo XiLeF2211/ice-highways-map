@@ -10128,8 +10128,17 @@
             "lines": {
                 "Local": {
                     "Konrinzi": ["", "Main line"]
+                },
+                "Japan Underground Ice Road": {
+                    "Manchuria Main": ["", "Manchuria-Tosa Branch"]
                 }
-            }
+            },
+            "areas": [
+                [[22323, -8766], [22334, -8835]],
+                [[22334, -8766], [22289, -8780]],
+                [[22283, -8779], [22290, -8770]],
+                [[22323, -8766], [22303, -8817]]
+            ]
         },
         {
             "name": "Fc farm emergency exit",
@@ -11523,17 +11532,6 @@
             "areas": [
                 [[22755, -8589], [22764, -8580]]
             ]
-        },
-        {
-            "name": "Fc (Y=50)",
-            "id": 915,
-            "x": 22326,
-            "z": -8785,
-            "lines": {
-                "Japan Underground Ice Road": {
-                    "Manchuria Main": ["", "Manchuria-Tosa Branch"]
-                }
-            }
         },
         {
             "name": "Fc elevator",
