@@ -12140,7 +12140,7 @@
                     "Tosa Dragon": ["", "Main line"]
                 },
                 "Intercontinental": {
-                    "Leningrad Suburban line": ["", "East Leningrad branch"]
+                    "Leningrad Suburban": ["", "East Leningrad branch"]
                 }
             }
         },
@@ -16395,7 +16395,7 @@
                     },
                     "Karagandy route": {
                         "vertices": [
-                            [17780, -8999],
+                            [15230, -8999],
                             [14493, -8999]
                         ],
                         "stations": [[477, "East Leningrad branch"], 420]
