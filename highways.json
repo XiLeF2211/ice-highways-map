@@ -12219,6 +12219,50 @@
                     "Leningrad Suburban": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "2nd Syr Darya JCT",
+            "type": "jct",
+            "id": 967,
+            "x": 12524,
+            "z": -7850,
+            "lines": {
+                "TNIH": {
+                    "Xinjiang Main": ["", "Main line to Syr Darya-Bishkek branch"]
+                }
+            }
+        },
+        {
+            "name": "Syr Darya Stairs",
+            "type": "elev-we",
+            "id": 968,
+            "x": 12524,
+            "z": -7951,
+            "y1": 10,
+            "y2": 2,
+            "lines": {
+                "TNIH": {
+                    "Xinjiang Main": ["", "Syr Darya-Bishkek branch"]
+                }
+            },
+            "areas": [
+                [[12522, -7951], [12526, -7971]]
+            ]
+        },
+        {
+            "name": "3rd Syr Darya JCT",
+            "type": "jct",
+            "id": 969,
+            "x": 12524,
+            "z": -7969,
+            "lines": {
+                "TNIH": {
+                    "Xinjiang Main": ["", "Syr Darya-Bishkek branch"]
+                },
+                "Intercontinental": {
+                    "European Russia": ["", "Chechnya line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -12816,7 +12860,14 @@
                             [15511, -8306],
                             [15511, -8830]
                         ],
-                        "stations": [271, 272, 556, 557, 929, 928, 913, 905, 463, 465, 466, 897, 898, 900, 956, 904]
+                        "stations": [271, 272, [967, "Syr Darya-Bishkek branch"], 556, 557, 929, 928, 913, 905, 463, 465, 466, 897, 898, 900, 956, 904]
+                    },
+                    "Syr Darya-Bishkek branch": {
+                        "vertices": [
+                            [12524, -7850],
+                            [12524, -7969]
+                        ],
+                        "stations": [[967, "Main line"], 968, 969]
                     }
                 }
             },
@@ -16264,7 +16315,7 @@
                             [14551, -7969],
                             [14551, -8794]
                         ],
-                        "stations": [[699, "Main line"], 702, 703, 704, 293, 705, [706, "Bishkek-Alaykel line"], 964, 965, 966]
+                        "stations": [[699, "Main line"], 702, 703, 704, 293, 705, 969, [706, "Bishkek-Alaykel line"], 964, 965, 966]
                     },
                     "Bishkek-Alaykel line": {
                         "vertices": [
