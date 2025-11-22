@@ -2653,7 +2653,7 @@
             "lines": {
                 "TNIH": {
                     "Bangla-Caspian": ["", "Main line"],
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -3050,7 +3050,7 @@
             "lines": {
                 "TNIH": {
                     "Bukhara": ["", "Main line"],
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 },
                 "Modern Silk Road": {
                     "MSR Main line (Y=111)": ["", "Main line"]
@@ -3126,7 +3126,7 @@
             "lines": {
                 "TNIH": {
                     "Tajik": ["", ""],
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -3161,7 +3161,7 @@
             "lines": {
                 "TNIH": {
                     "Afghan": ["", "Main line"],
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -3174,7 +3174,7 @@
             "lines": {
                 "TNIH": {
                     "Afghan": ["", "Main line"],
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -3196,7 +3196,7 @@
             "z": -6329,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -3208,7 +3208,7 @@
             "z": -6408,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -3219,7 +3219,7 @@
             "z": -7055,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -3230,7 +3230,7 @@
             "z": -7246,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -3242,8 +3242,8 @@
             "z": -7603,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line"],
-                    "Xinjiang": ["", "Western route"]
+                    "Loopstan Main": ["", "Main line"],
+                    "Xinjiang Main": ["", "Main line"]
                 }
             }
         },
@@ -3254,7 +3254,7 @@
             "z": -7692,
             "lines": {
                 "TNIH": {
-                    "Xinjiang": ["", "Western route"]
+                    "Xinjiang Main": ["", "Main line"]
                 }
             }
         },
@@ -3265,7 +3265,7 @@
             "z": -7603,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -3277,7 +3277,7 @@
             "z": -7657,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -3288,7 +3288,7 @@
             "z": -7755,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -3299,7 +3299,7 @@
             "z": -7755,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -3310,7 +3310,7 @@
             "z": -7789,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -3322,7 +3322,7 @@
             "z": -7789,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line to Sand branch"]
+                    "Loopstan Main": ["", "Main line to Sand branch"]
                 }
             }
         },
@@ -3333,7 +3333,7 @@
             "z": -7734,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Sand branch"]
+                    "Loopstan Main": ["", "Sand branch"]
                 }
             }
         },
@@ -3344,7 +3344,7 @@
             "z": -7789,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -3356,7 +3356,7 @@
             "z": -7779,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -3367,7 +3367,7 @@
             "z": -7549,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -3378,7 +3378,7 @@
             "z": -7549,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -3389,7 +3389,7 @@
             "z": -7423,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -5676,7 +5676,7 @@
             "lines": {
                 "TNIH": {
                     "Haldwan-Castlers": ["", "Northern route"],
-                    "Xinjiang": ["", "Eastern route"]
+                    "Xinjiang Main": ["", "Main line"]
                 }
             }
         },
@@ -5698,7 +5698,7 @@
             "z": -8046,
             "lines": {
                 "TNIH": {
-                    "Xinjiang": ["", "Eastern route"]
+                    "Xinjiang Main": ["", "Main line"]
                 }
             }
         },
@@ -5709,7 +5709,7 @@
             "z": -8210,
             "lines": {
                 "TNIH": {
-                    "Xinjiang": ["", "Eastern route"]
+                    "Xinjiang Main": ["", "Main line"]
                 }
             }
         },
@@ -5722,7 +5722,7 @@
             "lines": {
                 "TNIH": {
                     "Lower Bangla-Caspian": ["", "Main line"],
-                    "Loopstan": ["", "SkyHaven JCT connector"]
+                    "Loopstan Main": ["", "SkyHaven JCT connector"]
                 }
             }
         },
@@ -5736,7 +5736,7 @@
             "y2": 10,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "SkyHaven JCT connector"]
+                    "Loopstan Main": ["", "SkyHaven JCT connector"]
                 }
             }
         },
@@ -5748,7 +5748,7 @@
             "z": -7010,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line to SkyHaven JCT connector"]
+                    "Loopstan Main": ["", "Main line to SkyHaven JCT connector"]
                 }
             }
         },
@@ -5759,7 +5759,7 @@
             "z": -6556,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -5994,7 +5994,7 @@
             "z": -6468,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line to Persia Region Connector Branch"]
+                    "Loopstan Main": ["", "Main line to Persia Region Connector Branch"]
                 }
             }
         },
@@ -6006,7 +6006,7 @@
             "z": -6468,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Persia Region Connector Branch"],
+                    "Loopstan Main": ["", "Persia Region Connector Branch"],
                     "Makran Main": ["", "Main line"]
                 }
             }
@@ -6873,7 +6873,7 @@
             "z": -7099,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -6885,7 +6885,7 @@
             "z": -7850,
             "lines": {
                 "TNIH": {
-                    "Xinjiang": ["", "Western route"]
+                    "Xinjiang Main": ["", "Main line"]
                 }
             }
         },
@@ -6896,7 +6896,7 @@
             "z": -7850,
             "lines": {
                 "TNIH": {
-                    "Xinjiang": ["", "Western route"]
+                    "Xinjiang Main": ["", "Main line"]
                 }
             }
         },
@@ -7338,7 +7338,7 @@
             "z": -8035,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Sand branch"]
+                    "Loopstan Main": ["", "Sand branch"]
                 }
             }
         },
@@ -7446,7 +7446,7 @@
             "z": -6735,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 },
                 "Agartha Ice Highways Network": {
                     "Khorsan-Jowzjan": ["", ""]
@@ -11016,7 +11016,7 @@
             "z": -6468,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -11304,7 +11304,7 @@
             "z": -6468,
             "lines": {
                 "TNIH": {
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -11317,7 +11317,7 @@
             "lines": {
                 "TNIH": {
                     "Afghan": ["", "Main line"],
-                    "Loopstan": ["", "Main line"]
+                    "Loopstan Main": ["", "Main line"]
                 }
             }
         },
@@ -11328,7 +11328,7 @@
             "z": -8306,
             "lines": {
                 "TNIH": {
-                    "Xinjiang": ["", "Eastern route"]
+                    "Xinjiang Main": ["", "Main line"]
                 }
             }
         },
@@ -11340,7 +11340,7 @@
             "z": -8325,
             "lines": {
                 "TNIH": {
-                    "Xinjiang": ["", "Eastern route"]
+                    "Xinjiang Main": ["", "Main line"]
                 }
             }
         },
@@ -11368,7 +11368,7 @@
             "z": -8514,
             "lines": {
                 "TNIH": {
-                    "Xinjiang": ["", "Eastern route"]
+                    "Xinjiang Main": ["", "Main line"]
                 }
             }
         },
@@ -11419,7 +11419,7 @@
             "z": -8830,
             "lines": {
                 "TNIH": {
-                    "Xinjiang": ["", "Eastern route"]
+                    "Xinjiang Main": ["", "Main line"]
                 }
             }
         },
@@ -11430,7 +11430,7 @@
             "z": -8008,
             "lines": {
                 "TNIH": {
-                    "Xinjiang": ["", "Eastern route"]
+                    "Xinjiang Main": ["", "Main line"]
                 }
             }
         },
@@ -11519,7 +11519,7 @@
             "z": -8008,
             "lines": {
                 "TNIH": {
-                    "Xinjiang": ["", "Eastern route"]
+                    "Xinjiang Main": ["", "Main line"]
                 }
             }
         },
@@ -11710,7 +11710,7 @@
             "z": -7928,
             "lines": {
                 "TNIH": {
-                    "Xinjiang": ["", "Eastern route"]
+                    "Xinjiang Main": ["", "Main line"]
                 }
             }
         },
@@ -11721,7 +11721,7 @@
             "z": -7928,
             "lines": {
                 "TNIH": {
-                    "Xinjiang": ["", "Eastern route"]
+                    "Xinjiang Main": ["", "Main line"]
                 }
             }
         },
@@ -12078,7 +12078,7 @@
                     "Tosa Dragon": ["", "Cuzzistan JCT connector"]
                 },
                 "TNIH": {
-                    "Xinjiang": ["", "Eastern route"]
+                    "Xinjiang Main": ["", "Main line"]
                 }
             }
         },
@@ -12651,7 +12651,7 @@
                         ],
                         "stations": [816, 224, 262, 263, 896, 264, 265, 266],
                         "concurrencies": {
-                            "TNIH.Loopstan": [
+                            "TNIH.Loopstan Main": [
                                 [12000, -6468],
                                 [12000, -6329],
                                 [12215, -6329]
@@ -12660,7 +12660,7 @@
                     }
                 }
             },
-            "Loopstan": {
+            "Loopstan Main": {
                 "prefix": "",
                 "code": "LS",
                 "color": "008cb0",
@@ -12757,23 +12757,18 @@
                     }
                 }
             },
-            "Xinjiang": {
+            "Xinjiang Main": {
                 "prefix": "",
                 "code": "XJ",
                 "color": "0000ff",
                 "y": 10,
                 "branches": {
-                    "Western route": {
+                    "Main line": {
                         "vertices": [
                             [12524, -7603],
                             [12524, -7850],
-                            [13233, -7850]
-                        ],
-                        "stations": [271, 272, 556, 557]
-                    },
-                    "Eastern route": {
-                        "vertices": [
-                            [14008, -7928],
+                            [13564, -7850],
+                            [13564, -7928],
                             [14301, -7928],
                             [14301, -8008],
                             [15301, -8008],
@@ -12781,7 +12776,7 @@
                             [15511, -8306],
                             [15511, -8830]
                         ],
-                        "stations": [929, 928, 913, 905, 463, 465, 466, 897, 898, 900, 956, 904]
+                        "stations": [271, 272, 556, 557, 929, 928, 913, 905, 463, 465, 466, 897, 898, 900, 956, 904]
                     }
                 }
             },
