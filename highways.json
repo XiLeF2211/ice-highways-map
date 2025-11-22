@@ -2826,7 +2826,7 @@
             ]
         },
         {
-            "name": "Sukhbaathar Perimeter",
+            "name": "Sukhbaatar Perimeter",
             "type": "semi4",
             "id": 236,
             "x": 14983,
@@ -5681,7 +5681,7 @@
             }
         },
         {
-            "name": "Sukhbaathar (ICCA)",
+            "name": "Sukhbaatar (ICCA)",
             "id": 464,
             "x": 14983,
             "z": -8137,
@@ -8837,7 +8837,7 @@
             ]
         },
         {
-            "name": "2nd Shymkent JCT",
+            "name": "Shymkent JCT",
             "type": "jct",
             "id": 705,
             "x": 12191,
@@ -8859,7 +8859,7 @@
             "z": -7969,
             "lines": {
                 "Intercontinental": {
-                    "European Russia": ["", "Chechnya line to Alaykel branch"]
+                    "European Russia": ["", "Chechnya line to Bishkek-Alaykel line"]
                 }
             }
         },
@@ -11739,7 +11739,7 @@
             }
         },
         {
-            "name": "1st Shymkent JCT",
+            "name": "Line 3-Line 5 JCT",
             "type": "jct",
             "id": 931,
             "x": 12191,
@@ -11781,7 +11781,7 @@
             ]
         },
         {
-            "name": "Taraz JCT",
+            "name": "Line 1-Line 3 JCT",
             "type": "jct",
             "id": 934,
             "x": 12937,
@@ -11805,7 +11805,7 @@
             }
         },
         {
-            "name": "Bishkek JCT",
+            "name": "Line 3-Line 6 JCT",
             "type": "jct",
             "id": 936,
             "x": 13597,
@@ -11814,11 +11814,14 @@
                 "Kazakhstan Ice lines": {
                     "Line 3": ["", "Main line"],
                     "Line 6": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "European Russia": ["", "Bishkek-Alaykel line"]
                 }
             }
         },
         {
-            "name": "Ulytau North JCT",
+            "name": "Line 1-Balkhash JCT",
             "type": "jct",
             "id": 937,
             "x": 12937,
@@ -11831,7 +11834,7 @@
             }
         },
         {
-            "name": "Ulytau South JCT",
+            "name": "Line 1-Line 2 JCT",
             "type": "jct",
             "id": 938,
             "x": 12937,
@@ -11861,11 +11864,8 @@
             "x": 12482,
             "z": -9246,
             "lines": {
-                "Kazakhstan Ice lines":{
-                    "Line 1": ["", "Chitograd Ice Highways connector branch"]
-                },
                 "Intercontinental": {
-                    "Chitograd Ice Highways": ["", "Main line"]
+                    "Chitograd Ice Highways": ["", "Main line to Kazakhstan Ice lines connector branch"]
                 }
             }
         },
@@ -11877,7 +11877,10 @@
             "z": -9246,
             "lines": {
                 "Kazakhstan Ice lines":{
-                    "Line 1": ["", "Main line to Chitograd Ice Highways connector branch"]
+                    "Line 1": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "Chitograd Ice Highways": ["", "Kazakhstan Ice lines connector branch"]
                 }
             }
         },
@@ -11893,7 +11896,7 @@
             }
         },
         {
-            "name": "Balkhash JCT",
+            "name": "Line 2-Line 6-Balkhash JCT",
             "type": "jct",
             "id": 943,
             "x": 13597,
@@ -11930,7 +11933,7 @@
             }
         },
         {
-            "name": "Almaty-Bishkek JCT",
+            "name": "Line 6-Line 7 JCT",
             "type": "jct",
             "id": 946,
             "x": 13597,
@@ -12041,7 +12044,7 @@
             "z": -7976,
             "lines": {
                 "Intercontinental": {
-                    "European Russia": ["", "Chechnya line"]
+                    "European Russia": ["", "Bishkek-Alaykel line"]
                 }
             }
         },
@@ -12052,7 +12055,7 @@
             "z": -7614,
             "lines": {
                 "Intercontinental": {
-                    "European Russia": ["", "Alaykel branch"]
+                    "European Russia": ["", "Bishkek-Alaykel line"]
                 }
             }
         },
@@ -12176,6 +12179,43 @@
             "z": -9877,
             "lines": {
                 "Intercontinental": {
+                    "Leningrad Suburban": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sukhbaatar West JCT",
+            "type": "jct",
+            "id": 964,
+            "x": 14551,
+            "z": -8396,
+            "lines": {
+                "Intercontinental": {
+                    "European Russia": ["", "Chechnya line"]
+                }
+            }
+        },
+        {
+            "name": "2nd Leningrad West JCT",
+            "type": "jct",
+            "id": 965,
+            "x": 14551,
+            "z": -8752,
+            "lines": {
+                "Intercontinental": {
+                    "European Russia": ["", "Chechnya line"]
+                }
+            }
+        },
+        {
+            "name": "1st Leningrad West JCT",
+            "type": "jct",
+            "id": 966,
+            "x": 14551,
+            "z": -8793,
+            "lines": {
+                "Intercontinental": {
+                    "European Russia": ["", "Chechnya line"],
                     "Leningrad Suburban": ["", "Main line"]
                 }
             }
@@ -15503,13 +15543,6 @@
                             [12937, -8100]
                         ],
                         "stations": [939, 941, 937, 938, 934]
-                    },
-                    "Chitograd Ice Highways connector branch": {
-                        "vertices": [
-                            [12482, -9246],
-                            [12937, -9246]
-                        ],
-                        "stations": [940, 941]
                     }
                 }
             },
@@ -16158,7 +16191,7 @@
                             [8269, -8281],
                             [8198, -8281]
                         ],
-                        "stations": [292, 940, 930, 540, 538, 293, 294, [295, "TNIH Connector branch"], [296, "Chitograd local branch"], 298, [675, "Jamalonious branch"], 301]
+                        "stations": [292, [940, "Chitograd Ice Highways connector branch"], 930, 540, 538, 293, 294, [295, "TNIH Connector branch"], [296, "Chitograd local branch"], 298, [675, "Jamalonious branch"], 301]
                     },
                     "TNIH connector branch": {
                         "vertices": [
@@ -16190,6 +16223,13 @@
                             [8203, -8018.5]
                         ],
                         "stations": [[676, "Jamalonious branch"], 677]
+                    },
+                    "Chitograd Ice Highways connector branch": {
+                        "vertices": [
+                            [12482, -9246],
+                            [12937, -9246]
+                        ],
+                        "stations": [[940, "Main line"], 941]
                     }
                 }
             },
@@ -16221,20 +16261,20 @@
                             [10383, -8250],
                             [11351, -8250],
                             [11351, -7969],
-                            [13601, -7969],
-                            [13601, -8095],
-                            [13602, -8095],
-                            [13602, -8100],
-                            [13597, -8100]
+                            [14551, -7969],
+                            [14551, -8794]
                         ],
-                        "stations": [[699, "Main line"], 702, 703, 704, 293, 705, [706, "Alaykel branch"], 953, 936]
+                        "stations": [[699, "Main line"], 702, 703, 704, 293, 705, [706, "Bishkek-Alaykel line"], 964, 965, 966]
                     },
-                    "Alaykel branch": {
+                    "Bishkek-Alaykel line": {
                         "vertices": [
-                            [13601, -7969],
+                            [13597, -8100],
+                            [13602, -8100],
+                            [13602, -8095],
+                            [13601, -8095],
                             [13601, -7614]
                         ],
-                        "stations": [[706, "Chechnya line"], 954]
+                        "stations": [936, 953, [706, "Chechnya line"], 954]
                     }
                 }
             },
@@ -16402,7 +16442,7 @@
                             [17780, -8793],
                             [14493, -8793]
                         ],
-                        "stations": [403, 963, 962, 961, [478, "East Leningrad branch"], 421]
+                        "stations": [403, 963, 962, 961, [478, "East Leningrad branch"], 966, 421]
                     },
                     "Karagandy route": {
                         "vertices": [
