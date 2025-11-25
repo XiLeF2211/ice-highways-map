@@ -66,6 +66,8 @@ Note that the capitalization does not change, and note that it is simply the str
 > [!NOTE]  
 > For other lines that are not shown on the list or to see detailed additions history, please see [the related database changes history](https://github.com/XiLeF2211/ice-highways-map/commits/main/highways.json)
 
+24 November 2025: Panama Express (edited by **nokteholda**)
+
 4 November 2025: Added Doha-Deylam-Manama line (data from **Alexander** on Discord)
 
 9 September 2025 — 3 October 2025: Added Cascadian ice lines, Genoa Ice lines, Manshu Main Line, Ryukou Line, O-O branch, European Y=2 Ice lines, Afrique Rail extension to Meroewin, Y=2 Ice lines near Chechnya,  Ireland-Canada line, Aragon Line, Ural Ice lines, Porolissum Metro, Iran line, Siberian Ice lines, Agartha Ice Highways Network Khorsan-Jowzjan, New Gujarat Line extension
