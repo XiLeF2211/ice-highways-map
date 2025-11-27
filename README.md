@@ -66,6 +66,8 @@ Note that the capitalization does not change, and note that it is simply the str
 > [!NOTE]  
 > For other lines that are not shown on the list or to see detailed additions history, please see [the related database changes history](https://github.com/XiLeF2211/ice-highways-map/commits/main/highways.json)
 
+27 November 2025: Sandrift Subway (edited by **nokteholda**)
+
 24 November 2025: Panama Express (edited by **nokteholda**)
 
 4 November 2025: Added Doha-Deylam-Manama line (data from **Alexander** on Discord)

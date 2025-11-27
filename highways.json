@@ -7679,7 +7679,7 @@
             "lines": {
                 "TNIH": {
                     "Makran Main": ["", "Main line"],
-                    "Iran": ["", ""]
+                    "Iran": ["", "Main line"]
                 }
             }
         },
@@ -7690,7 +7690,7 @@
             "z": -5950,
             "lines": {
                 "TNIH": {
-                    "Iran": ["", ""]
+                    "Iran": ["", "Main line"]
                 }
             }
         },
@@ -12353,6 +12353,75 @@
                     "Qatar": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Akron JCT",
+            "type": "jct",
+            "id": 976,
+            "x": 9836,
+            "z": -5230,
+            "lines": {
+                "TNIH": {
+                    "Qatar": ["", "Main line to Fort Terra branch"]
+                }
+            }
+        },
+        {
+            "name": "Fort Terra JCT",
+            "type": "jct",
+            "id": 977,
+            "x": 9836,
+            "z": -5950,
+            "lines": {
+                "TNIH": {
+                    "Iran": ["", "Main line"],
+                    "Qatar": ["", "Fort Terra branch"]
+                }
+            }
+        },
+        {
+            "name": "Sandrift Central",
+            "id": 978,
+            "x": -17030,
+            "z": -7513,
+            "lines": {
+                "Local": {
+                    "Sandrift Subway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sandrift MegaShop (JCT)",
+            "id": 979,
+            "x": -17011,
+            "z": -7546,
+            "lines": {
+                "Local": {
+                    "Sandrift Subway": ["", "Main line to Cu Golem Path branch"]
+                }
+            }
+        },
+        {
+            "name": "Cu Golem Path",
+            "id": 980,
+            "x": -17048,
+            "z": -7568,
+            "lines": {
+                "Local": {
+                    "Sandrift Subway": ["", "Cu Golem Path branch"]
+                }
+            }
+        },
+        {
+            "name": "Flamin'",
+            "id": 981,
+            "x": -16921,
+            "z": -7551,
+            "lines": {
+                "Local": {
+                    "Sandrift Subway": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -12967,12 +13036,12 @@
                 "color": "ccffaa",
                 "y": 10,
                 "branches": {
-                    "": {
+                    "Main line": {
                         "vertices": [
                             [10259, -5950],
                             [9796, -5950]
                         ],
-                        "stations": [618, 619]
+                        "stations": [618, 977, 619]
                     }
                 }
             },
@@ -12991,7 +13060,14 @@
                             [9661, -4787],
                             [9254, -4787]
                         ],
-                        "stations": [554, 920, 921, 975]
+                        "stations": [554, 920, [976, "Fort Terra branch"], 921, 975]
+                    },
+                    "Fort Terra branch": {
+                        "vertices": [
+                            [9836, -5230],
+                            [9836, -5950]
+                        ],
+                        "stations": [554, 920, [976, "Main line"], 977]
                     }
                 }
             }
@@ -16167,6 +16243,31 @@
                             [11678, -7224]
                         ],
                         "stations": [815, 816, 817, 818]
+                    }
+                }
+            },
+            "Sandrift Subway": {
+                "prefix": "",
+                "code": "SD-S",
+                "color": "fce029",
+                "y": 70,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-17030, -7513],
+                            [-17011, -7513],
+                            [-17011, -7551],
+                            [-16921, -7551]
+                        ],
+                        "stations": [978, [979, "Cu Golem Path branch"], 980]
+                    },
+                    "Cu Golem Path branch": {
+                        "vertices": [
+                            [-17011, -7546],
+                            [-17048, -7546],
+                            [-17048, -7568]
+                        ],
+                        "stations": [[979, "Main line"], 981]
                     }
                 }
             }
