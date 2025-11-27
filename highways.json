@@ -12392,6 +12392,7 @@
         },
         {
             "name": "Sandrift MegaShop (JCT)",
+            "type": "jct",
             "id": 979,
             "x": -17011,
             "z": -7546,
