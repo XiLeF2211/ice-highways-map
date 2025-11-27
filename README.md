@@ -3,9 +3,10 @@
 This is a tool that aims to give information on stations and lines across the EarthMC server. However, right now, 
 it only has 152 lines and 913 stations (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
 
-## Bulletin board
+# Adding lines to the map (direct push commit method) tutorial
 
-xilef, the founder of the Ice Highway Map, will be rarely active because he is extremely occupied with his school, so please send your requests to nokteholda or Chitonator via [TNIH discord](https://discord.gg/SK8r4Ce25U) or pull requests. Thank you.
+> [!NOTE]
+> xilef, the founder of the Ice Highway Map, will be rarely active because he is extremely occupied with his school, so please send your requests to nokteholda or Chitonator via [TNIH discord](https://discord.gg/SK8r4Ce25U) or pull requests. Thank you.
 
 ***PLEASE READ IF YOU ARE ADDING STATIONS AND LINES***
 
@@ -66,7 +67,7 @@ Note that the capitalization does not change, and note that it is simply the str
 > [!NOTE]  
 > For other lines that are not shown on the list or to see detailed additions history, please see [the related database changes history](https://github.com/XiLeF2211/ice-highways-map/commits/main/highways.json)
 
-27 November 2025: Sandrift Subway (edited by **nokteholda**)
+27 November 2025: Sandrift Subway and Ronne Standardized Ice Track Network (RSIN) lines (edited by **nokteholda**)
 
 24 November 2025: Panama Express (edited by **nokteholda**)
 
