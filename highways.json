@@ -12655,7 +12655,7 @@
             ]
         },
         {
-            "name": "Z=-14850 Point JCT (Branch closed because no towns connected within branch)",
+            "name": "Z=-14850 Point JCT",
             "type": "jct",
             "id": 998,
             "x": -11606,
@@ -12667,7 +12667,7 @@
             }
         },
         {
-            "name": "Z=-15556 Point JCT (Branch closed because no towns connected within branch)",
+            "name": "Z=-15556 Point JCT",
             "type": "jct",
             "id": 999,
             "x": -11606,
@@ -16214,9 +16214,9 @@
                     }
                 }
             },
-            "Utopia Y-Axis": {
+            "Utopia Z-Axis": {
                 "prefix": "",
-                "code": "RSIN-Y",
+                "code": "RSIN-Z",
                 "color": "fe019a",
                 "y": 2,
                 "branches": {
