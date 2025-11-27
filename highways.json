@@ -12423,6 +12423,277 @@
                     "Sandrift Subway": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Kuō Kawai Mer",
+            "id": 982,
+            "x": -14722,
+            "z": 13339,
+            "lines": {
+                "RSIN": {
+                    "Utopia X-Axis": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-14736, 13334], [-14720, 13343]],
+                [[-14722, 13340], [-14720, 13337]]
+            ]
+        },
+        {
+            "name": "Gensokyo JCT",
+            "type": "jct",
+            "id": 983,
+            "x": -14344,
+            "z": 13704,
+            "lines": {
+                "RSIN": {
+                    "Utopia X-Axis": ["", "Main line to Gensokyo branch"]
+                }
+            }
+        },
+        {
+            "name": "Gensokyo",
+            "id": 984,
+            "x": -14344,
+            "z": 13404,
+            "lines": {
+                "RSIN": {
+                    "Utopia X-Axis": ["", "Gensokyo branch"]
+                }
+            },
+            "areas": [
+                [[-14346, 13403], [-14342, 13410]],
+                [[-14342, 13404], [-14321, 13408]],
+                [[-14335, 13418], [-14311, 13380]]
+            ]
+        },
+        {
+            "name": "Sunari JCT",
+            "type": "jct",
+            "id": 985,
+            "x": -13459,
+            "z": 13704,
+            "lines": {
+                "RSIN": {
+                    "Utopia X-Axis": ["", "Main line to Sunari branch"]
+                }
+            }
+        },
+        {
+            "name": "Sunari",
+            "id": 986,
+            "x": -13459,
+            "z": 13359,
+            "lines": {
+                "RSIN": {
+                    "Utopia X-Axis": ["", "Sunari branch"]
+                }
+            },
+            "areas": [
+                [[-13457, 13355], [-13468, 13365]],
+                [[-13471, 13356], [-13465, 13342]],
+                [[-13468, 13369], [-13465, 13353]],
+                [[-13468, 13369], [-13452, 13366]],
+                [[-13455, 13377], [-13452, 13366]],
+                [[-13456, 13376], [-13441, 13391]],
+                [[-13447, 13381], [-13459, 13389]]
+            ]
+        },
+        {
+            "name": "Shangri-La JCT",
+            "type": "jct",
+            "id": 987,
+            "x": -13131,
+            "z": 13704,
+            "lines": {
+                "RSIN": {
+                    "Utopia X-Axis": ["", "Main line to Shangri-La branch"]
+                }
+            }
+        },
+        {
+            "name": "Shangri-La",
+            "id": 988,
+            "x": -13131,
+            "z": 14470,
+            "lines": {
+                "RSIN": {
+                    "Utopia X-Axis": ["", "Shangri-La branch"]
+                }
+            },
+            "areas": [
+                [[-13133, 14467], [-13116, 14473]]
+            ]
+        },
+        {
+            "name": "Koumakyou JCT",
+            "type": "jct",
+            "id": 989,
+            "x": -13034,
+            "z": 13704,
+            "lines": {
+                "RSIN": {
+                    "Utopia X-Axis": ["", "Main line to Koumakyou branch"]
+                }
+            }
+        },
+        {
+            "name": "Koumakyou",
+            "id": 990,
+            "x": -13034,
+            "z": 14002,
+            "lines": {
+                "RSIN": {
+                    "Utopia X-Axis": ["", "Koumakyou branch"]
+                }
+            },
+            "areas": [
+                [[-13009, 13983], [-13060, 14016]],
+                [[-13013, 13984], [-13042, 14003]]
+            ]
+        },
+        {
+            "name": "Hielo JCT",
+            "type": "jct",
+            "id": 991,
+            "x": -12218,
+            "z": 13704,
+            "lines": {
+                "RSIN": {
+                    "Utopia X-Axis": ["", "Main line to Hielo branch"]
+                }
+            }
+        },
+        {
+            "name": "Hielo",
+            "id": 992,
+            "x": -12321,
+            "z": 13089,
+            "lines": {
+                "RSIN": {
+                    "Utopia X-Axis": ["", "Hielo branch"]
+                }
+            },
+            "areas": [
+                [[-12324, 13086], [-12313, 13096]],
+                [[-12329, 13106], [-12317, 13090]]
+            ]
+        },
+        {
+            "name": "Communist Zorobe JCT",
+            "type": "jct",
+            "id": 993,
+            "x": -12179,
+            "z": 13704,
+            "lines": {
+                "RSIN": {
+                    "Utopia X-Axis": ["", "Main line to Communist Zorobe branch"]
+                }
+            }
+        },
+        {
+            "name": "Communist Zorobe",
+            "id": 994,
+            "x": -12179,
+            "z": 14075,
+            "lines": {
+                "RSIN": {
+                    "Utopia X-Axis": ["", "Communist Zorobe branch"]
+                }
+            },
+            "areas": [
+                [[-12183, 14070], [-12177, 14076]],
+                [[-12181, 14080], [-12177, 14077]]
+            ]
+        },
+        {
+            "name": "Utopia (JCT)",
+            "type": "jct",
+            "id": 995,
+            "x": -11606,
+            "z": 13704,
+            "lines": {
+                "RSIN": {
+                    "Utopia X-Axis": ["", "Main line"],
+                    "Utopia Y-Axis": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-11623, 13687], [-11589, 13721]],
+                [[-11604, 13688], [-11597, 13659]],
+                [[-11616, 13632], [-11585, 13679]]
+            ]
+        },
+        {
+            "name": "Drakoria",
+            "id": 996,
+            "x": -11207,
+            "z": 13797,
+            "lines": {
+                "RSIN": {
+                    "Utopia X-Axis": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-11201, 13781], [-11215, 13807]],
+                [[-11216, 13780], [-11200, 13819]]
+            ]
+        },
+        {
+            "name": "Stoneport",
+            "id": 997,
+            "x": -10350,
+            "z": 13950,
+            "lines": {
+                "RSIN": {
+                    "Utopia X-Axis": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-10354, 13948], [-10346, 13952]],
+                [[-10352, 13945], [-10348, 13951]]
+            ]
+        },
+        {
+            "name": "Z=-14850 Point JCT (Branch closed because no towns connected within branch)",
+            "type": "jct",
+            "id": 998,
+            "x": -11606,
+            "z": 14850,
+            "lines": {
+                "RSIN": {
+                    "Utopia Z-Axis": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Z=-15556 Point JCT (Branch closed because no towns connected within branch)",
+            "type": "jct",
+            "id": 999,
+            "x": -11606,
+            "z": 15556,
+            "lines": {
+                "RSIN": {
+                    "Utopia Z-Axis": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Stoneport",
+            "id": 1000,
+            "x": -10460,
+            "z": 16487,
+            "lines": {
+                "RSIN": {
+                    "Utopia Z-Axis": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-10464, 16485], [-10453, 16495]],
+                [[-10457, 16484], [-10444, 16495]],
+                [[-10429, 16492], [-10445, 16495]],
+                [[-10429, 16492], [-10432, 16508]]
+            ]
         }
     ],
     "lines": {
@@ -15881,6 +16152,85 @@
                 }
             }
         },
+        "RSIN": {
+            "Utopia X-Axis": {
+                "prefix": "",
+                "code": "RSIN-X",
+                "color": "ff0100",
+                "y": 2,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-14722, 13339],
+                            [-14722, 13704],
+                            [-11207, 13704],
+                            [-11207, 13950],
+                            [-10350, 13950]
+                        ],
+                        "stations": [982, [983, "Gensokyo branch"], [985, "Sunari branch"], [987, "Shangri-La branch"], [989, "Koumakyou branch"], [991, "Hielo branch"], [993, "Communist Zorobe branch"], 995, 996, 997]
+                    },
+                    "Gensokyo branch": {
+                        "vertices": [
+                            [-14344, 13704],
+                            [-14344, 13404]
+                        ],
+                        "stations": [[983, "Main line"], 984]
+                    },
+                    "Sunari branch": {
+                        "vertices": [
+                            [-13459, 13704],
+                            [-13459, 13356]
+                        ],
+                        "stations": [[985, "Main line"], 986]
+                    },
+                    "Shangri-La branch": {
+                        "vertices": [
+                            [-13131, 13704],
+                            [-13131, 14472]
+                        ],
+                        "stations": [[987, "Main line"], 988]
+                    },
+                    "Koumakyou branch": {
+                        "vertices": [
+                            [-13034, 13704],
+                            [-13034, 14002]
+                        ],
+                        "stations": [[989, "Main line"], 990]
+                    },
+                    "Hielo branch": {
+                        "vertices": [
+                            [-12218, 13704],
+                            [-12218, 13089],
+                            [-12321, 13089]
+                        ],
+                        "stations": [[991, "Main line"], 992]
+                    },
+                    "Communist Zorobe branch": {
+                        "vertices": [
+                            [-12179, 13704],
+                            [-12179, 14075]
+                        ],
+                        "stations": [[991, "Main line"], 992]
+                    }
+                }
+            },
+            "Utopia Y-Axis": {
+                "prefix": "",
+                "code": "RSIN-Y",
+                "color": "fe019a",
+                "y": 2,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-11606, 13679],
+                            [-11606, 16487],
+                            [-10460, 16487]
+                        ],
+                        "stations": [995, 998, 999, 1000]
+                    }
+                }
+            }
+        },
         "Local": {
             "Singapore City Metro": {
                 "prefix": "",
@@ -16260,7 +16610,7 @@
                             [-17011, -7551],
                             [-16921, -7551]
                         ],
-                        "stations": [978, [979, "Cu Golem Path branch"], 980]
+                        "stations": [978, [979, "Cu Golem Path branch"], 981]
                     },
                     "Cu Golem Path branch": {
                         "vertices": [
@@ -16268,7 +16618,7 @@
                             [-17048, -7546],
                             [-17048, -7568]
                         ],
-                        "stations": [[979, "Main line"], 981]
+                        "stations": [[979, "Main line"], 980]
                     }
                 }
             }
