@@ -12962,7 +12962,8 @@
             "lines": {
                 "Intercontinental": {
                     "Sukhbaatar-Hagenheim": ["", "Main line"],
-                    "Sukhbaatar Westwards": ["", "Main line"]
+                    "Sukhbaatar Westwards": ["", "Main line"],
+                    "Sukhbaatar-Leningrad": ["", "Main line"]
                 }
             },
             "areas": [
@@ -17854,7 +17855,7 @@
                         ],
                         "stations": [1021, 1022, 1023, 1024, 1025, [1026, "Hagenheim branch"], 1028]
                     },
-                    "North Panama branch": {
+                    "Hagenheim branch": {
                         "vertices": [
                             [15115, -8105],
                             [15115, -8155]
@@ -17879,7 +17880,7 @@
                         ],
                         "stations": [1022, 964, [1029, "Hisui branch"], 1031]
                     },
-                    "North Panama branch": {
+                    "Hisui branch": {
                         "vertices": [
                             [14489, -8294],
                             [14489, -8229]
