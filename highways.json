@@ -12191,7 +12191,8 @@
             "z": -8396,
             "lines": {
                 "Intercontinental": {
-                    "European Russia": ["", "Chechnya line"]
+                    "European Russia": ["", "Chechnya line"],
+                    "Sukhbaatar Westwards": ["", "Main line"]
                 }
             }
         },
@@ -12929,6 +12930,192 @@
             "lines": {
                 "Papua New Guinea Ice lines": {
                     "Oro High Speed Rail": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sukhbaatar West",
+            "id": 1021,
+            "x": 14653,
+            "z": -8281,
+            "lines": {
+                "Intercontinental": {
+                    "Sukhbaatar-Hagenheim": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[14651, -8286], [14664, -8276]],
+                [[14661, -8277], [14664, -8271]],
+                [[14662, -8273], [14665, -8270]],
+                [[14663, -8272], [14666, -8269]],
+                [[14664, -8271], [14667, -8268]],
+                [[14665, -8272], [14668, -8267]],
+                [[14666, -8273], [14669, -8266]],
+                [[14667, -8274], [14681, -8265]]
+            ]
+        },
+        {
+            "name": "Sukhbaatar Central",
+            "id": 1022,
+            "x": 14790,
+            "z": -8385,
+            "lines": {
+                "Intercontinental": {
+                    "Sukhbaatar-Hagenheim": ["", "Main line"],
+                    "Sukhbaatar Westwards": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[14805, -8382], [14779, -8391]],
+                [[14801, -8390], [14786, -8398]],
+                [[14786, -8393], [14795, -8405]],
+                [[14772, -8387], [14780, -8390]],
+                [[14772, -8387], [14775, -8395]],
+                [[14732, -8392], [14775, -8395]],
+                [[14732, -8392], [14737, -8396]],
+                [[14781, -8372], [14800, -8382]],
+                [[14790, -8378], [14823, -8381]],
+                [[14820, -8361], [14823, -8381]],
+                [[14823, -8361], [14811, -8364]]
+            ]
+        },
+        {
+            "name": "Marx Avenue Industrial District",
+            "id": 1023,
+            "x": 14860,
+            "z": -8206,
+            "lines": {
+                "Intercontinental": {
+                    "Sukhbaatar-Hagenheim": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[14858, -8208], [14906, -8204]]
+            ]
+        },
+        {
+            "name": "Aksu",
+            "id": 1024,
+            "x": 14894,
+            "z": -8105,
+            "lines": {
+                "Intercontinental": {
+                    "Sukhbaatar-Hagenheim": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[14885, -8120], [14895, -8101]],
+                [[14881, -8108], [14889, -8097]],
+                [[14883, -8117], [14896, -8103]]
+            ]
+        },
+        {
+            "name": "Aksu Step Change",
+            "type": "elev-ew",
+            "id": 1025,
+            "x": 14900,
+            "z": -8105,
+            "y1": 1,
+            "y2": 2,
+            "lines": {
+                "Intercontinental": {
+                    "Sukhbaatar-Hagenheim": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hagenheim JCT",
+            "type": "jct",
+            "id": 1026,
+            "x": 15115,
+            "z": -8105,
+            "lines": {
+                "Intercontinental": {
+                    "Sukhbaatar-Hagenheim": ["", "Main line to Hagenheim branch"]
+                }
+            }
+        },
+        {
+            "name": "Hagenheim",
+            "id": 1027,
+            "x": 15115,
+            "z": -8155,
+            "lines": {
+                "Intercontinental": {
+                    "Sukhbaatar-Hagenheim": ["", "Hagenheim branch"]
+                }
+            },
+            "areas": [
+                [[15118, -8161], [15114, -8155]],
+                [[15110, -8154], [15122, -8157]]
+            ]
+        },
+        {
+            "name": "Hagenheim Mine",
+            "id": 1028,
+            "x": 15247,
+            "z": -8105,
+            "lines": {
+                "Intercontinental": {
+                    "Sukhbaatar-Hagenheim": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hisui JCT",
+            "type": "jct",
+            "id": 1029,
+            "x": 14489,
+            "z": -8294,
+            "lines": {
+                "Intercontinental": {
+                    "Sukhbaatar Westwards": ["", "Main line to Hisui branch"]
+                }
+            }
+        },
+        {
+            "name": "Hisui Centre",
+            "id": 1030,
+            "x": 14489,
+            "z": -8229,
+            "lines": {
+                "Intercontinental": {
+                    "Sukhbaatar Westwards": ["", "Hisui branch"]
+                }
+            }
+        },
+        {
+            "name": "Talgar",
+            "id": 1031,
+            "x": 14187,
+            "z": -8295,
+            "lines": {
+                "Intercontinental": {
+                    "Sukhbaatar Westwards": ["", "Main line to Hisui branch"]
+                }
+            }
+        },
+        {
+            "name": "Leningrad South",
+            "type": "semi2",
+            "id": 1032,
+            "x": 14837,
+            "z": -8611,
+            "lines": {
+                "Intercontinental": {
+                    "Sukhbaatar-Leningrad": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Leningrad",
+            "id": 1033,
+            "x": 14840,
+            "z": -8793,
+            "lines": {
+                "Intercontinental": {
+                    "Leningrad Suburban": ["", "Main line"],
+                    "Sukhbaatar-Leningrad": ["", "Main line"]
                 }
             }
         }
@@ -17338,7 +17525,7 @@
                             [17780, -8793],
                             [14493, -8793]
                         ],
-                        "stations": [403, 963, 962, 961, [478, "East Leningrad branch"], 966, 421]
+                        "stations": [403, 963, 962, 961, [478, "East Leningrad branch"], 1033, 966, 421]
                     },
                     "Karagandy route": {
                         "vertices": [
@@ -17648,6 +17835,72 @@
                             [-15552, -1972]
                         ],
                         "stations": [972]
+                    }
+                }
+            },
+            "Sukhbaatar-Hagenheim": {
+                "prefix": "",
+                "code": "S-H",
+                "color": "cd0000",
+                "y": 1,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [14653, -8281],
+                            [14653, -8385],
+                            [14860, -8385],
+                            [14860, -8105],
+                            [15329, -8105]
+                        ],
+                        "stations": [1021, 1022, 1023, 1024, 1025, [1026, "Hagenheim branch"], 1028]
+                    },
+                    "North Panama branch": {
+                        "vertices": [
+                            [15115, -8105],
+                            [15115, -8155]
+                        ],
+                        "stations": [[1026, "Main line"], 1027]
+                    }
+                }
+            },
+            "Sukhbaatar Westwards": {
+                "prefix": "",
+                "code": "S-W",
+                "color": "cd0000",
+                "y": 1,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [14790, -8385],
+                            [14790, -8396],
+                            [14489, -8396],
+                            [14489, -8294],
+                            [14187, -8295]
+                        ],
+                        "stations": [1022, 964, [1029, "Hisui branch"], 1031]
+                    },
+                    "North Panama branch": {
+                        "vertices": [
+                            [14489, -8294],
+                            [14489, -8229]
+                        ],
+                        "stations": [[1029, "Main line"], 1030]
+                    }
+                }
+            },
+            "Sukhbaatar-Leningrad": {
+                "prefix": "",
+                "code": "S-L",
+                "color": "cd0000",
+                "y": 2,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [14790, -8404],
+                            [14837, -8404],
+                            [14837, -8788]
+                        ],
+                        "stations": [1022, 1032, 1033]
                     }
                 }
             }
