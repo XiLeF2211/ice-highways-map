@@ -12740,6 +12740,197 @@
                     "Iran": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "New Ireland",
+            "id": 1005,
+            "x": 27987,
+            "z": 687,
+            "lines": {
+                "Papua New Guinea Ice lines": {
+                    "Tenjin Lower": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Ireland JCT",
+            "type": "jct",
+            "id": 1006,
+            "x": 27987,
+            "z": 900,
+            "lines": {
+                "Papua New Guinea Ice lines": {
+                    "Tenjin Lower": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tenjin-New Ireland Elevator",
+            "type": "elev-we",
+            "id": 1007,
+            "x": 27961,
+            "z": 900,
+            "y1": 64,
+            "y2": 100,
+            "lines": {
+                "Papua New Guinea Ice lines": {
+                    "Tenjin Lower": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tenjin East",
+            "id": 1008,
+            "x": 27680,
+            "z": 900,
+            "lines": {
+                "Papua New Guinea Ice lines": {
+                    "Tenjin Lower": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tenjin Central",
+            "id": 1009,
+            "x": 27554,
+            "z": 900,
+            "lines": {
+                "Papua New Guinea Ice lines": {
+                    "Tenjin Lower": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tenjin West",
+            "id": 1010,
+            "x": 27368,
+            "z": 900,
+            "lines": {
+                "Papua New Guinea Ice lines": {
+                    "Tenjin Lower": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tenjin West Elevator",
+            "type": "elev-we",
+            "id": 1011,
+            "x": 27314,
+            "z": 900,
+            "y1": 100,
+            "y2": 136,
+            "lines": {
+                "Papua New Guinea Ice lines": {
+                    "Tenjin Lower": ["", "Main line"],
+                    "Tenjin Upper": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Exit D JCT",
+            "type": "jct",
+            "id": 1012,
+            "x": 27168,
+            "z": 900,
+            "lines": {
+                "Papua New Guinea Ice lines": {
+                    "Tenjin Upper": ["", "Main line"],
+                    "Oro High Speed Rail": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Umboi Island",
+            "id": 1013,
+            "x": 27136,
+            "z": 900,
+            "lines": {
+                "Papua New Guinea Ice lines": {
+                    "Tenjin Upper": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Lae JCT",
+            "type": "jct",
+            "id": 1014,
+            "x": 26929,
+            "z": 900,
+            "lines": {
+                "Papua New Guinea Ice lines": {
+                    "Tenjin Upper": ["", "Main line to Lae branch"]
+                }
+            }
+        },
+        {
+            "name": "Lae",
+            "id": 1015,
+            "x": 26929,
+            "z": 992,
+            "lines": {
+                "Papua New Guinea Ice lines": {
+                    "Tenjin Upper": ["", "Lae branch"]
+                }
+            }
+        },
+        {
+            "name": "JS Musashi",
+            "id": 1016,
+            "x": 26750,
+            "z": 770,
+            "lines": {
+                "Papua New Guinea Ice lines": {
+                    "Tenjin Upper": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Umboi Island Elevator",
+            "type": "elev-we",
+            "id": 1017,
+            "x": 27168,
+            "z": 919,
+            "y1": 136,
+            "y2": 144,
+            "lines": {
+                "Papua New Guinea Ice lines": {
+                    "Oro High Speed Rail": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Gasem JCT",
+            "type": "jct",
+            "id": 1018,
+            "x": 27138,
+            "z": 978,
+            "lines": {
+                "Papua New Guinea Ice lines": {
+                    "Oro High Speed Rail": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ryoku",
+            "id": 1019,
+            "x": 27138,
+            "z": 1065,
+            "lines": {
+                "Papua New Guinea Ice lines": {
+                    "Oro High Speed Rail": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Oro",
+            "id": 1020,
+            "x": 27166,
+            "z": 1382,
+            "lines": {
+                "Papua New Guinea Ice lines": {
+                    "Oro High Speed Rail": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -16276,6 +16467,66 @@
                             [-10460, 16487]
                         ],
                         "stations": [995, 998, 999, 1000]
+                    }
+                }
+            }
+        },
+        "Papua New Guinea Ice lines": {
+            "Tenjin Lower": {
+                "prefix": "",
+                "code": "天神下",
+                "color": "ffa500",
+                "y": 100,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [27987, 687],
+                            [27987, 900],
+                            [27314, 900]
+                        ],
+                        "stations": []
+                    }
+                }
+            },
+            "Tenjin Upper": {
+                "prefix": "",
+                "code": "天神上",
+                "color": "ffa500",
+                "y": 136,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [27314, 900],
+                            [26929, 900],
+                            [26929, 770],
+                            [26750, 770]
+                        ],
+                        "stations": [1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, [1014, "Lae branch"], 1016]
+                    },
+                    "Lae branch": {
+                        "vertices": [
+                            [26929, 900],
+                            [26929, 992]
+                        ],
+                        "stations": [[1014, "Main line"], 1015]
+                    }
+                }
+            },
+            "Oro High Speed Rail": {
+                "prefix": "",
+                "code": "O-HSR",
+                "color": "ffa500",
+                "y": 144,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [27168, 900],
+                            [27168, 978],
+                            [27138, 978],
+                            [27138, 1382],
+                            [27166, 1382]
+                        ],
+                        "stations": [1012, 1017, 1018, 1019, 1020]
                     }
                 }
             }

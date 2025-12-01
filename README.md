@@ -67,6 +67,8 @@ Note that the capitalization does not change, and note that it is simply the str
 > [!NOTE]  
 > For other lines that are not shown on the list or to see detailed additions history, please see [the related database changes history](https://github.com/XiLeF2211/ice-highways-map/commits/main/highways.json)
 
+1 December 2025: Tenjin Line and Oro High Speed Rail (edited by **nokteholda**)
+
 27 November 2025: Sandrift Subway and Ronne Standardized Ice Track Network (RSIN) lines (edited by **nokteholda**)
 
 24 November 2025: Panama Express (edited by **nokteholda**)
