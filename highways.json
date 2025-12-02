@@ -7742,7 +7742,8 @@
             "z": -11272,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Aklavik - Cascadia": ["", "Main line"]
+                    "Aklavik - Cascadia": ["", "Main line"],
+                    "Castle John - East Alaska": ["", "Main line"]
                 }
             },
             "areas": [
@@ -9726,8 +9727,7 @@
             },
             "areas": [
                 [[-13934, -7824], [-13905, -7839]]
-            ],
-            "notes": "Entrance closed by Vermonts New York (IDK why)"
+            ]
         },
         {
             "name": "West Chitograd Valley",
@@ -14955,10 +14955,70 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-							[-22935, -9152],
-							[-22808, -9152]
+							[-23616, -9480],
+                            [-23244, -9480],
+                            [-23244, -9152],
+                            [-22808, -9152]
                         ],
                         "stations": [613, 726]
+                    },
+                    "2nd Main line": {
+                        "vertices": [
+							[-23868, -9810],
+                            [-23868, -9552]
+                        ],
+                        "stations": []
+                    }
+                }
+            },
+            "Husky Valley - Kingsport": {
+                "prefix": "",
+                "code": "HVA-KNG",
+                "color": "90ee90",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-23860, -9793],
+                            [-24430.5, -9793],
+                            [-24430.5, -9881.5],
+                            [-24441.5, -9881.5],
+                            [-24441.5, -10466.5]
+                        ],
+                        "stations": []
+                    }
+                }
+            },
+            "Kingsport - Cascadian Alaska": {
+                "prefix": "",
+                "code": "KNG-CAL",
+                "color": "90ee90",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-24400.5, -10466.5],
+                            [-24505.5, -10466.5],
+                            [-24505.5, -11059.5]
+                        ],
+                        "stations": []
+                    }
+                }
+            },
+            "Castle John - East Alaska": {
+                "prefix": "",
+                "code": "CJN-EAL",
+                "color": "90ee90",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-24939.5, -11059.5],
+                            [-24242.5, -11059.5],
+                            [-24242.5, -11275.5],
+                            [-22809, -11275.5]
+                        ],
+                        "stations": [623]
                     }
                 }
             },
