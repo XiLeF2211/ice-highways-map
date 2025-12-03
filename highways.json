@@ -9333,7 +9333,7 @@
             "z": -4854,
             "lines": {
                 "TNIH": {
-                    "Makran Main": ["", "Main line to O-O branch"]
+                    "Makran Main": ["", "Main line to Kemmnath branch"]
                 }
             }
         },
@@ -9344,7 +9344,7 @@
             "z": -4955,
             "lines": {
                 "TNIH": {
-                    "Makran Main": ["", "O-O branch"]
+                    "Makran Main": ["", "Kemmnath branch"]
                 }
             }
         },
@@ -13126,6 +13126,17 @@
                 [[14854, -8795], [14827, -8759]],
                 [[14847, -8765], [14834, -8750]]
             ]
+        },
+        {
+            "name": "Kemmnath",
+            "id": 1034,
+            "x": 12023,
+            "z": -5516,
+            "lines": {
+                "TNIH": {
+                    "Makran Main": ["", "Kemmnath branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -13324,7 +13335,7 @@
                             [9979, -6468],
                             [9979, -7022]
                         ],
-                        "stations": [26, 27, 28, [29, "Gujarat branch"], 30, 211, 320, 321, 322, [742, "O-O branch"], 871, 323, 774, 797, 595, 594, 593, 554, 492, 618, 491, 490, 489, 626, 1004, 707, 708, 709]
+                        "stations": [26, 27, 28, [29, "Gujarat branch"], 30, 211, 320, 321, 322, [742, "Kemmnath branch"], 871, 323, 774, 797, 595, 594, 593, 554, 492, 618, 491, 490, 489, 626, 1004, 707, 708, 709]
                     },
                     "Gujarat branch": {
                         "vertices": [
@@ -13333,12 +13344,13 @@
                         ],
                         "stations": [[29, "Main line"], 31]
                     },
-                    "O-O branch": {
+                    "Kemmnath branch": {
                         "vertices": [
                             [11751, -4854],
-                            [11751, -4955]
+                            [11751, -5516],
+                            [12023, -5516]
                         ],
-                        "stations": [[742, "Main line"], 743]
+                        "stations": [[742, "Main line"], 743, 1034]
                     }
                 }
             },
