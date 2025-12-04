@@ -13372,6 +13372,138 @@
                 [[20273, -6426], [20284, -6418]],
                 [[20274, -6427], [20280, -6417]]
             ]
+        },
+        {
+            "name": "Victoria (Main street)",
+            "id": 1051,
+            "x": -23042.5,
+            "z": -9152,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Vancouver - Victoria": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Corgos Pass",
+            "id": 1052,
+            "x": -23412.5,
+            "z": -9480,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Vancouver - Victoria": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "NIR JCT",
+            "type": "jct",
+            "id": 1053,
+            "x": -23868,
+            "z": -9566,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Vancouver - Victoria": ["", "2nd Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cascadian Chi Point",
+            "id": 1054,
+            "x": -23868,
+            "z": -9669.5,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Vancouver - Victoria": ["", "2nd Main line"]
+                }
+            }
+        },
+        {
+            "name": "Husky Valley",
+            "type": "jct",
+            "id": 1055,
+            "x": -23868,
+            "z": -9793,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Vancouver - Victoria": ["", "2nd Main line"],
+                    "Husky Valley - Kingsport": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kingsport JCT",
+            "type": "jct",
+            "id": 1056,
+            "x": -24441.5,
+            "z": -10466.5,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Husky Valley - Kingsport": ["", "Main line"],
+                    "Kingsport - Cascadian Alaska": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kingsland",
+            "id": 1057,
+            "x": -24452.5,
+            "z": -10466.5,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Kingsport - Cascadian Alaska": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-24478, -10457], [-24446, -10470]]
+            ]
+        },
+        {
+            "name": "Cascadian Gensokyo Point",
+            "id": 1058,
+            "x": -24505.5,
+            "z": -11059.5,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Kingsport - Cascadian Alaska": ["", "Main line"],
+                    "Castle John - East Alaska": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Castle John JCT",
+            "type": "jct",
+            "id": 1059,
+            "x": -24211.5,
+            "z": -11275.5,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Castle John - East Alaska": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Castle John",
+            "id": 1060,
+            "x": -23984.5,
+            "z": -11275.5,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Castle John - East Alaska": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Castle John East JCT",
+            "type": "jct",
+            "id": 1061,
+            "x": -23797.5,
+            "z": -11275.5,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Castle John - East Alaska": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -15207,14 +15339,14 @@
                             [-23244, -9152],
                             [-22808, -9152]
                         ],
-                        "stations": [613, 726]
+                        "stations": [1051, 613, 726]
                     },
                     "2nd Main line": {
                         "vertices": [
 							[-23868, -9810],
                             [-23868, -9552]
                         ],
-                        "stations": []
+                        "stations": [1055, 1054, 1053, 1052]
                     }
                 }
             },
@@ -15232,7 +15364,7 @@
                             [-24441.5, -9881.5],
                             [-24441.5, -10466.5]
                         ],
-                        "stations": []
+                        "stations": [1055, 1056]
                     }
                 }
             },
@@ -15248,7 +15380,7 @@
                             [-24505.5, -10466.5],
                             [-24505.5, -11059.5]
                         ],
-                        "stations": []
+                        "stations": [1056, 1057, 1058]
                     }
                 }
             },
@@ -15265,7 +15397,7 @@
                             [-24242.5, -11275.5],
                             [-22809, -11275.5]
                         ],
-                        "stations": [623]
+                        "stations": [623, 1061, 1060, 1059, 1058]
                     }
                 }
             },
