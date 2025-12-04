@@ -4960,14 +4960,14 @@
             }
         },
         {
-            "name": "New Urengoy JCT",
+            "name": "Dudinka JCT",
             "type": "jct",
             "id": 406,
             "x": 15790,
             "z": -10576,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Novosibirsk Ring to Novosibirsk - New Urengoy - Karaul - Severnaya"]
+                    "Russian Republic ice roads": ["", "Novosibirsk Ring to Novosibirsk - Dudinka - Karaul - Severnaya"]
                 }
             }
         },
@@ -5076,13 +5076,13 @@
             }
         },
         {
-            "name": "New Urengoy",
+            "name": "Dudinka",
             "id": 416,
             "x": 15790,
             "z": -12741,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Novosibirsk - New Urengoy - Karaul - Severnaya"]
+                    "Russian Republic ice roads": ["", "Novosibirsk - Dudinka - Karaul - Severnaya"]
                 }
             }
         },
@@ -6907,9 +6907,15 @@
             "z": -12673.5,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Novosibirsk - New Urengoy - Karaul - Severnaya"]
+                    "Russian Republic ice roads": ["", "Novosibirsk - Dudinka - Karaul - Severnaya"]
                 }
-            }
+            },
+            "areas": [
+                [[16974, -12676], [16986, -12668]],
+                [[16985, -12670], [16989, -12677]],
+                [[16979, -12672], [16986, -12678]],
+                [[16979, -12678], [16983, -12666]]
+            ]
         },
         {
             "name": "Abuja Noms Centraux",
@@ -13144,6 +13150,17 @@
                 [[12025, -5494], [12029, -5507]],
                 [[12028, -5506], [12018, -5517]]
             ]
+        },
+        {
+            "name": "Ratta",
+            "id": 1035,
+            "x": 15477,
+            "z": -10577,
+            "lines": {
+                "Intercontinental": {
+                    "Russian Republic ice roads": ["", "Novosibirsk Ring"]
+                }
+            }
         }
     ],
     "lines": {
@@ -17503,7 +17520,8 @@
                             [400, "East Novosibirsk line"],
                             401,
                             [402, "Baikal route"],
-                            [406, "Novosibirsk - New Urengoy - Karaul - Severnaya"],
+                            [406, "Novosibirsk - Dudinka - Karaul - Severnaya"],
+                            1035,
                             [407, "East Novosibirsk line"],
                             408
                         ]
@@ -17570,7 +17588,7 @@
                         ],
                         "stations": [[397, "Kazakhstan - Leningrad route"], 417]
                     },
-                    "Novosibirsk - New Urengoy - Karaul - Severnaya": {
+                    "Novosibirsk - Dudinka - Karaul - Severnaya": {
                         "vertices": [
                             [15790, -10576],
                             [15790, -12747],
