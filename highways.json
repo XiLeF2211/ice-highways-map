@@ -10595,12 +10595,14 @@
         },
         {
             "name": "Luoyang North JCT",
+            "type": "jct",
             "id": 837,
             "x": 20330,
             "z": -6420,
             "lines": {
                 "China Iceway": {
-                    "Baotou": ["", "Main line"]
+                    "Baotou": ["", "Main line"],
+                    "Chen Chang-Luoyang": ["", "Main line"]
                 }
             }
         },
@@ -10766,6 +10768,9 @@
             "lines": {
                 "Modern Silk Road": {
                     "MSR Main line (Y=111)": ["", "Main line"]
+                },
+                "China Iceway": {
+                    "Inca Village-New Chengdu": ["", "Main line"]
                 }
             }
         },
@@ -13161,6 +13166,212 @@
                     "Russian Republic ice roads": ["", "Novosibirsk Ring"]
                 }
             }
+        },
+        {
+            "name": "Sichuan town ruins",
+            "type": "semi4",
+            "id": 1036,
+            "x": 19479,
+            "z": -6606,
+            "lines": {
+                "China Iceway": {
+                    "Inca Village-New Chengdu": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Chen Chang North JCT",
+            "type": "jct",
+            "id": 1037,
+            "x": 19479,
+            "z": -6490,
+            "lines": {
+                "China Iceway": {
+                    "Inca Village-New Chengdu": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Chen Chang JCT",
+            "type": "jct",
+            "id": 1038,
+            "x": 19479,
+            "z": -6420,
+            "lines": {
+                "China Iceway": {
+                    "Inca Village-New Chengdu": ["", "Main line"],
+                    "Chen Chang-Luoyang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Chen Chang",
+            "id": 1039,
+            "x": 19479,
+            "z": -6407,
+            "lines": {
+                "China Iceway": {
+                    "Inca Village-New Chengdu": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[19472, -6411], [19481, -6403]]
+            ]
+        },
+        {
+            "name": "Nanchong JCT",
+            "type": "jct",
+            "id": 1040,
+            "x": 19479,
+            "z": -6082,
+            "lines": {
+                "China Iceway": {
+                    "Inca Village-New Chengdu": ["", "Main line to Nanchong branch"]
+                }
+            }
+        },
+        {
+            "name": "Nanchong Elevator",
+            "type": "elev-we",
+            "id": 1041,
+            "x": 19479,
+            "z": -6044,
+            "y1": 119,
+            "y2": 78,
+            "lines": {
+                "China Iceway": {
+                    "Inca Village-New Chengdu": ["", "Nanchong branch"]
+                }
+            }
+        },
+        {
+            "name": "Nanchong",
+            "id": 1042,
+            "x": 19479,
+            "z": -6024,
+            "lines": {
+                "China Iceway": {
+                    "Inca Village-New Chengdu": ["", "Nanchong branch"]
+                }
+            },
+            "areas": [
+                [[19478, -6027], [19480, -6018]]
+            ]
+        },
+        {
+            "name": "New Chengdu",
+            "id": 1043,
+            "x": 19544,
+            "z": -5833,
+            "lines": {
+                "China Iceway": {
+                    "Inca Village-New Chengdu": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[19537, -5857], [19551, -5809]]
+            ]
+        },
+        {
+            "name": "New Chengdu South JCT",
+            "type": "jct",
+            "id": 1044,
+            "x": 19491,
+            "z": -5369,
+            "lines": {
+                "China Iceway": {
+                    "Inca Village-New Chengdu": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Xianyang",
+            "id": 1045,
+            "x": 19848,
+            "z": -6420,
+            "lines": {
+                "China Iceway": {
+                    "Chen Chang-Luoyang": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[19841, -6422], [19854, -6409]],
+                [[19842, -6410], [19853, -6407]],
+                [[19839, -6422], [19857, -6418]]
+            ]
+        },
+        {
+            "name": "Chang'an",
+            "id": 1046,
+            "x": 19926,
+            "z": -6420,
+            "lines": {
+                "China Iceway": {
+                    "Chen Chang-Luoyang": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[19920, -6425], [19932, -6413]]
+            ]
+        },
+        {
+            "name": "Hongyadong JCT",
+            "type": "jct",
+            "id": 1047,
+            "x": 20153,
+            "z": -6420,
+            "lines": {
+                "China Iceway": {
+                    "Chen Chang-Luoyang": ["", "Main line to Hongyadong branch"]
+                }
+            }
+        },
+        {
+            "name": "Hongyadong",
+            "id": 1048,
+            "x": 20153,
+            "z": -6266,
+            "lines": {
+                "China Iceway": {
+                    "Chen Chang-Luoyang": ["", "Hongyadong branch"]
+                }
+            },
+            "areas": [
+                [[20151, -6272], [20169, -6261]],
+                [[20151, -6272], [20168, -6259]]
+            ]
+        },
+        {
+            "name": "Luoyang",
+            "id": 1049,
+            "x": 20216,
+            "z": -6420,
+            "lines": {
+                "China Iceway": {
+                    "Chen Chang-Luoyang": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[20208, -6422], [20223, -6402]]
+            ]
+        },
+        {
+            "name": "Luoyang Elevator",
+            "type": "elev-we",
+            "id": 1050,
+            "x": 20278,
+            "z": -6420,
+            "y1": 119,
+            "y2": 83,
+            "lines": {
+                "China Iceway": {
+                    "Chen Chang-Luoyang": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[20273, -6426], [20284, -6418]],
+                [[20274, -6427], [20280, -6417]]
+            ]
         }
     ],
     "lines": {
@@ -16159,7 +16370,7 @@
             "Wenling-Dali": {
                 "prefix": "",
                 "code": "温岭大理",
-                "color": "fcd600",
+                "color": "4a79bb",
                 "y": 111,
                 "branches": {
                     "Main line": {
@@ -16263,6 +16474,54 @@
                             [20414, -7397]
                         ],
                         "stations": [[834, "Main line"], 835]
+                    }
+                }
+            },
+            "Inca Village-New Chengdu": {
+                "prefix": "",
+                "code": "印加新成都",
+                "color": "4a79bb",
+                "y": 119,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [19479, -7034],
+                            [19479, -6082],
+                            [19544, -6082],
+                            [19544, -5378],
+                            [19491, -5378],
+                            [19491, -5369]
+                        ],
+                        "stations": [851, 1036, 1037, 1038, 1039, [1040, "Nanchong branch"], 1043, 1044]
+                    },
+                    "Nanchong branch": {
+                        "vertices": [
+                            [19479, -6082],
+                            [19479, -6018]
+                        ],
+                        "stations": [[1040, "Main line"], 1041, 1042]
+                    }
+                }
+            },
+            "Chen Chang-Luoyang": {
+                "prefix": "",
+                "code": "陈仓洛阳",
+                "color": "4a79bb",
+                "y": 119,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [19479, -6420],
+                            [20330, -6420]
+                        ],
+                        "stations": [1038, 1045, 1046, [1047, "Hongyadong branch"], 1049, 1050, 837]
+                    },
+                    "Hongyadong branch": {
+                        "vertices": [
+                            [20153, -6420],
+                            [20153, -6266]
+                        ],
+                        "stations": [[1047, "Main line"], 1048]
                     }
                 }
             }
