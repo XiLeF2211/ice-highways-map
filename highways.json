@@ -13548,6 +13548,220 @@
                     "Aylywyn Edmonton": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Dawnstar JCT",
+            "type": "jct",
+            "id": 1065,
+            "x": -26833,
+            "z": -13061,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Moose Bay": ["", "Main line"],
+                    "Dawnstar City": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Dawnstar Elevator",
+            "type": "elev-we",
+            "id": 1066,
+            "x": -26833,
+            "z": -13064,
+            "y1": 57,
+            "y2": 55,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Moose Bay": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Dawnstar North JCT",
+            "type": "jct",
+            "id": 1067,
+            "x": -26833,
+            "z": -13116,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Moose Bay": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Beaufort",
+            "id": 1068,
+            "x": -26302,
+            "z": -13128,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Moose Bay": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-26306, -13121], [-26298, -13143]]
+            ]
+        },
+        {
+            "name": "Turingworld JCT",
+            "type": "jct",
+            "id": 1069,
+            "x": -23295,
+            "z": -11953,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Moose Bay": ["", "Main line to Turingworld branch"]
+                }
+            }
+        },
+        {
+            "name": "Turingworld",
+            "id": 1070,
+            "x": -23459,
+            "z": -11953,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Moose Bay": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-23462, -11971], [-23454, -11951]],
+                [[-23465, -11968], [-23451, -11957]],
+                [[-23453, -11955], [-23463, -11945]],
+                [[-23465, -11952], [-23444, -11938]]
+            ]
+        },
+        {
+            "name": "Aklavik West (JCT)",
+            "type": "jct",
+            "id": 1071,
+            "x": -23295,
+            "z": -11798,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Moose Bay": ["", "Main line to Emerald branch"]
+                }
+            },
+            "areas": [
+                [[-23252, -11798], [-23296, -11796]],
+                [[-23294, -11792], [-23301, -11799]]
+            ]
+        },
+        {
+            "name": "Emerald",
+            "id": 1072,
+            "x": -24561,
+            "z": -11354,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Moose Bay": ["", "Emerald branch"]
+                }
+            }
+        },
+        {
+            "name": "Polaris",
+            "id": 1073,
+            "x": -23138,
+            "z": -11482,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Moose Bay": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nahanni JCT",
+            "type": "jct",
+            "id": 1074,
+            "x": -23138,
+            "z": -11424,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Moose Bay": ["", "Main line to Nahanni branch"]
+                }
+            }
+        },
+        {
+            "name": "Nahanni",
+            "id": 1075,
+            "x": -23361,
+            "z": -11424,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Moose Bay": ["", "Nahanni branch"]
+                }
+            }
+        },
+        {
+            "name": "Yukon Area Town Ruins JCT",
+            "type": "jct",
+            "id": 1076,
+            "x": -23138,
+            "z": -11322,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Moose Bay": ["", "Main line to Yukon Area Town Ruins branch"]
+                }
+            }
+        },
+        {
+            "name": "Yukon Area Town Ruins emergency exit",
+            "id": 1077,
+            "x": -23138,
+            "z": -11121,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Moose Bay": ["", "Yukon Area Town Ruins branch"]
+                }
+            }
+        },
+        {
+            "name": "Moose Bay",
+            "id": 1078,
+            "x": -22249,
+            "z": -11057,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Moose Bay": ["", "Main line to Emerald branch"]
+                }
+            },
+            "areas": [
+                [[-22284, -11047], [-22278, -11051]],
+                [[-22283, -11059], [-22279, -11047]],
+                [[-22283, -11059], [-22247, -11056]]
+            ]
+        },
+        {
+            "name": "Dawnstar Bar",
+            "type": "semi3",
+            "id": 1079,
+            "x": -26887,
+            "z": -13061,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar City": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-22284, -11047], [-22278, -11051]],
+                [[-22283, -11059], [-22279, -11047]],
+                [[-22283, -11059], [-22247, -11056]]
+            ]
+        },
+        {
+            "name": "Dawnstar",
+            "id": 1080,
+            "x": -26808,
+            "z": -12991,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar City": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-26788, -12989], [-26802, -12997]],
+                [[-26798, -12978], [-26811, -13004]]
+            ]
         }
     ],
     "lines": {
@@ -17268,6 +17482,78 @@
                             [27166, 1382]
                         ],
                         "stations": [1012, 1017, 1018, 1019, 1020]
+                    }
+                }
+            }
+        },
+        "Alaskan Ice lines": {
+            "Dawnstar-Moose Bay": {
+                "prefix": "",
+                "code": "D-MB",
+                "color": "ff0000",
+                "y": 55,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-26833, -13061],
+                            [-26833, -13128],
+                            [-23295, -13128],
+                            [-23295, -11601],
+                            [-23138, -11601],
+                            [-23138, -11322],
+                            [-22249, -11322],
+                            [-22249, -11057]
+                        ],
+                        "stations": [1065, 1066, 1067, 1068, [1069, "Turingworld branch"], [1071, "Emerald branch"], 1073, [1074, "Nahanni branch"], [1076, "Yukon Area Town Ruins branch"], 1078]
+                    },
+                    "Turingworld branch": {
+                        "vertices": [
+                            [-23295, -11953],
+                            [-23459, -11953],
+                            [-23459, -11968],
+                            [-23456, -11968],
+                            [-23456, -11953],
+                            [-23475, -11953]
+                        ],
+                        "stations": [[1069, "Main line"], 1070]
+                    },
+                    "Emerald branch": {
+                        "vertices": [
+                            [-23295, -11798],
+                            [-24561, -11798],
+                            [-24561, -11354]
+                        ],
+                        "stations": [[1071, "Main line"], 1072]
+                    },
+                    "Nahanni branch": {
+                        "vertices": [
+                            [-23138, -11424],
+                            [-23361, -11424]
+                        ],
+                        "stations": [[1074, "Main line"], 1075]
+                    },
+                    "Yukon Area Town Ruins branch": {
+                        "vertices": [
+                            [-23138, -11322],
+                            [-23138, -11121]
+                        ],
+                        "stations": [[1076, "Main line"], 1077]
+                    }
+                }
+            },
+            "Dawnstar City": {
+                "prefix": "",
+                "code": "DC",
+                "color": "ff0000",
+                "y": 57,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-26891, -13061],
+                            [-26808, -13061],
+                            [-26808, -12945]
+                        ],
+                        "stations": [1079, 1065, 1080]
                     }
                 }
             }
