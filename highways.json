@@ -9203,19 +9203,21 @@
             }
         },
         {
-            "name": "X=-21418 Point",
+            "name": "Aylywyn Edmonton Transfer",
             "id": 732,
             "x": -21193.5,
             "z": -8918,
             "lines": {
                 "Cascadian Ice lines": {
-                    "East": ["", "Main line"]
+                    "East": ["", "Main line"],
+                    "Aylywyn Edmonton": ["", "Main line"]
                 }
             },
             "areas": [
                 [[-21197, -8911], [-21188, -8921]],
-                [[-21192, -8909], [-21191, -8921]],
-                [[-21194, -8909], [-21193, -8921]]
+                [[-21196, -8912], [-21192, -8909]],
+                [[-21188, -8910], [-21199, -8917]],
+                [[-21196, -8914], [-21192, -8928]]
             ]
         },
         {
@@ -13504,6 +13506,48 @@
                     "Castle John - East Alaska": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Edmonton (Lemonten)",
+            "id": 1062,
+            "x": -21194.5,
+            "z": -10062,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Aylywyn Edmonton": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-21182, -10066], [-21178, -10062]],
+                [[-21187, -10072], [-21198, -10060]],
+                [[-21190, -10058], [-21195, -10069]],
+                [[-21179, -10083], [-21206, -10068]],
+                [[-21196, -10069], [-21180, -10053]]
+            ]
+        },
+        {
+            "name": "Edmonton JCT",
+            "type": "jct",
+            "id": 1063,
+            "x": -21194.5,
+            "z": -9848,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Aylywyn Edmonton": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Old Calgary town JCT",
+            "type": "jct",
+            "id": 1064,
+            "x": -21194.5,
+            "z": -9593,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Aylywyn Edmonton": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -15531,7 +15575,7 @@
             },
             "World Roads": {
                 "prefix": "",
-                "code": "",
+                "code": "WRd",
                 "color": "B8DFDE",
                 "y": 31,
                 "branches": {
@@ -15550,6 +15594,21 @@
                                 [-22807, -11732]
                             ]
                         }
+                    }
+                }
+            },
+            "Aylywyn Edmonton": {
+                "prefix": "",
+                "code": "AE",
+                "color": "00a8f3",
+                "y": 41,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-21194.5, -10062],
+                            [-21194.5, -8918]
+                        ],
+                        "stations": [1062, 1063, 1064, 732]
                     }
                 }
             }
