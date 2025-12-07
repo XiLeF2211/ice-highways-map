@@ -13868,7 +13868,8 @@
             "z": -13170,
             "lines": {
                 "Alaskan Ice lines": {
-                    "Dawnstar-Heartland": ["", "Main line"]
+                    "Dawnstar-Heartland": ["", "Main line"],
+                    "Ruby Beltway": ["", "Main line"]
                 }
             }
         },
@@ -13971,7 +13972,8 @@
             "z": -12080,
             "lines": {
                 "Alaskan Ice lines": {
-                    "Dawnstar-Heartland": ["", "Main line"]
+                    "Dawnstar-Heartland": ["", "Main line"],
+                    "Ruby Beltway": ["", "Main line"]
                 }
             }
         },
@@ -14029,6 +14031,175 @@
                     "Dawnstar-Heartland": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Synthspire JCT",
+            "type": "jct",
+            "id": 1102,
+            "x": -28672,
+            "z": -12560,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Ruby Beltway": ["", "Main line to Synthspire branch"]
+                }
+            }
+        },
+        {
+            "name": "Synthspire",
+            "id": 1103,
+            "x": -28607,
+            "z": -12560,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Ruby Beltway": ["", "Synthspire branch"]
+                }
+            }
+        },
+        {
+            "name": "Synthspire branch ruined town emergency exit",
+            "id": 1104,
+            "x": -28545,
+            "z": -12688,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Ruby Beltway": ["", "Synthspire branch"]
+                }
+            }
+        },
+        {
+            "name": "Ruby North JCT",
+            "type": "jct",
+            "id": 1105,
+            "x": -28672,
+            "z": -12483,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Ruby Beltway": ["", "Main line to Sugar Cane Farm branch"]
+                }
+            }
+        },
+        {
+            "name": "Abandoned RMF Mega Sugar Cane Farm",
+            "id": 1106,
+            "x": -28834,
+            "z": -12483,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Ruby Beltway": ["", "Sugar Cane Farm branch"]
+                }
+            }
+        },
+        {
+            "name": "Ruby-Hub",
+            "id": 1107,
+            "x": -28696,
+            "z": -12083,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Ruby Beltway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Spokstad",
+            "id": 1108,
+            "x": -29332,
+            "z": -12079,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Ruby Beltway": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-29339, -12085], [-29321, -12076]]
+            ]
+        },
+        {
+            "name": "Arroyo JCT",
+            "type": "jct",
+            "id": 1109,
+            "x": -29568,
+            "z": -12412,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Arroyo-Belmiere": ["", "Main line to Arroyo branch"]
+                }
+            }
+        },
+        {
+            "name": "Arroyo",
+            "id": 1110,
+            "x": -29568,
+            "z": -12446,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Arroyo-Belmiere": ["", "Arroyo branch"]
+                }
+            }
+        },
+        {
+            "name": "Nort JCT",
+            "type": "jct",
+            "id": 1111,
+            "x": -30545,
+            "z": -12343,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Arroyo-Belmiere": ["", "Main line to Nort branch"]
+                }
+            }
+        },
+        {
+            "name": "Nort",
+            "id": 1112,
+            "x": -30733,
+            "z": -12389,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Arroyo-Belmiere": ["", "Nort branch"]
+                }
+            }
+        },
+        {
+            "name": "Nome JCT",
+            "type": "jct",
+            "id": 1113,
+            "x": -30545,
+            "z": -12149,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Arroyo-Belmiere": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Vertex",
+            "id": 1114,
+            "x": -30545,
+            "z": -11238,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Arroyo-Belmiere": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-30522, -11248], [-30540, -11228]],
+                [[-30560, -11235], [-30544, -11241]]
+            ]
+        },
+        {
+            "name": "Belmiere",
+            "id": 1115,
+            "x": -30545,
+            "z": -10311,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Arroyo-Belmiere": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-30543, -10312], [-30551, -10304]]
+            ]
         }
     ],
     "lines": {
@@ -17873,9 +18044,9 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [-26833, -13116],
-                            [-27729, -13105],
-                            [-27729, -13170],
+                            [-27507, -13105],
+                            [-28114, -13105],
+                            [-28114, -13170],
                             [-29523, -13170],
                             [-29523, -11042],
                             [-29409, -11042]
@@ -17888,6 +18059,82 @@
                             [-29285, -13249]
                         ],
                         "stations": [[1092, "Main line"], 1093]
+                    }
+                }
+            },
+            "Ruby Beltway": {
+                "prefix": "",
+                "code": "RB",
+                "color": "ff0000",
+                "y": 56,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-28672, -13170],
+                            [-28672, -12111],
+                            [-28669, -12111],
+                            [-28696, -12111],
+                            [-28696, -12056],
+                            [-28648, -12056],
+                            [-28648, -12104],
+                            [-28696, -12104],
+                            [-28696, -12083],
+                            [-28703, -12083],
+                            [-28703, -12080],
+                            [-29523, -12080]
+                        ],
+                        "stations": [1089, [1102, "Synthspire branch"], [1105, "Sugar Cane Farm branch"], 1107, 1108, 1097]
+                    },
+                    "Synthspire branch": {
+                        "vertices": [
+                            [-28672, -12560],
+                            [-28607, -12560],
+                            [-28607, -12688],
+                            [-28545, -12688]
+                        ],
+                        "stations": [[1102, "Main line"], 1103, 1104]
+                    },
+                    "Sugar Cane Farm branch": {
+                        "vertices": [
+                            [-28672, -12483],
+                            [-28834, -12483]
+                        ],
+                        "stations": [[1105, "Main line"], 1106]
+                    }
+                }
+            },
+            "Arroyo-Belmiere": {
+                "prefix": "",
+                "code": "RB",
+                "color": "ff0000",
+                "y": 56,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-29523, -12412],
+                            [-29855, -12412],
+                            [-29855, -12371],
+                            [-30093, -12371],
+                            [-30093, -12343],
+                            [-30545, -12343],
+                            [-30545, -10311]
+                        ],
+                        "stations": [196, [1109, "Arroyo branch"], [1111, "Nort branch"], 1113, 1114, 1115]
+                    },
+                    "Arroyo branch": {
+                        "vertices": [
+                            [-29568, -12412],
+                            [-29568, -12945]
+                        ],
+                        "stations": [[1109, "Main line"], 1110]
+                    },
+                    "Nort branch": {
+                        "vertices": [
+                            [-30545, -12343],
+                            [-30733, -12343],
+                            [-30733, -12389]
+                        ],
+                        "stations": [[1111, "Main line"], 1112]
                     }
                 }
             }
