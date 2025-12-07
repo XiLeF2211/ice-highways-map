@@ -12762,7 +12762,7 @@
             "z": 687,
             "lines": {
                 "Papua New Guinea Ice lines": {
-                    "Tenjin Lower": ["", "Main line"]
+                    "Muyua": ["", "Main line"]
                 }
             }
         },
@@ -12774,6 +12774,7 @@
             "z": 900,
             "lines": {
                 "Papua New Guinea Ice lines": {
+                    "Muyua": ["", "Main line"],
                     "Tenjin Lower": ["", "Main line"]
                 }
             }
@@ -13762,6 +13763,64 @@
                 [[-26788, -12989], [-26802, -12997]],
                 [[-26798, -12978], [-26811, -13004]]
             ]
+        },
+        {
+            "name": "Mergopolis JCT",
+            "type": "jct",
+            "id": 1081,
+            "x": 27987,
+            "z": 1146,
+            "lines": {
+                "Papua New Guinea Ice lines": {
+                    "Muyua": ["", "Main line to Mergopolis branch"]
+                }
+            }
+        },
+        {
+            "name": "Mergopolis",
+            "id": 1082,
+            "x": 28468,
+            "z": 1024,
+            "lines": {
+                "Papua New Guinea Ice lines": {
+                    "Muyua": ["", "Mergopolis branch"]
+                }
+            }
+        },
+        {
+            "name": "Muyua-Tobriand JCT",
+            "type": "jct",
+            "id": 1083,
+            "x": 27987,
+            "z": 1413,
+            "lines": {
+                "Papua New Guinea Ice lines": {
+                    "Muyua": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Muyua-Goodenough JCT",
+            "type": "jct",
+            "id": 1084,
+            "x": 27987,
+            "z": 1460,
+            "lines": {
+                "Papua New Guinea Ice lines": {
+                    "Muyua": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Muyua",
+            "id": 1084,
+            "x": 27987,
+            "z": 1506,
+            "lines": {
+                "Papua New Guinea Ice lines": {
+                    "Muyua": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -17439,7 +17498,7 @@
                             [27987, 900],
                             [27314, 900]
                         ],
-                        "stations": [1005, 1006, 1007, 1008, 1009, 1010, 1011]
+                        "stations": [1006, 1007, 1008, 1009, 1010, 1011]
                     }
                 }
             },
@@ -17482,6 +17541,29 @@
                             [27166, 1382]
                         ],
                         "stations": [1012, 1017, 1018, 1019, 1020]
+                    }
+                }
+            },
+            "Muyua": {
+                "prefix": "",
+                "code": "MyL",
+                "color": "00ff00",
+                "y": 63,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [27987, 687],
+                            [27987, 1506]
+                        ],
+                        "stations": [1005, 1006, [1081, "Mergopolis branch"], 1083, 1084, 1085]
+                    },
+                    "Mergopolis branch": {
+                        "vertices": [
+                            [27987, 1146],
+                            [27468, 1146],
+                            [27468, 1024]
+                        ],
+                        "stations": [[1081, "Main line"], 1082]
                     }
                 }
             }
