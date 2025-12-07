@@ -13827,12 +13827,206 @@
             "name": "Kobudai",
             "id": 1086,
             "x": -27507,
-            "z": -13101,
+            "z": -13105,
             "y1": 55,
             "y2": 56,
             "lines": {
                 "Alaskan Ice lines": {
-                    "Annie/Jade Memorial Highway": ["", "Main line"]
+                    "Annie/Jade Memorial Highway": ["", "Main line"],
+                    "Dawnstar-Heartland": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ivvavik",
+            "id": 1087,
+            "x": -27729,
+            "z": -13105,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Heartland": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "North Slope",
+            "type": "semi3",
+            "id": 1088,
+            "x": -28548,
+            "z": -13170,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Heartland": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Alpine JCT",
+            "type": "jct",
+            "id": 1089,
+            "x": -28672,
+            "z": -13170,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Heartland": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Alpine",
+            "id": 1090,
+            "x": -28692,
+            "z": -13170,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Heartland": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-28704, -13172], [-28671, -13157]],
+                [[-28690, -13156], [-28686, -13163]],
+                [[-28689, -13149], [-28704, -13172]],
+                [[-28713, -13162], [-29676, -13184]]
+            ]
+        },
+        {
+            "name": "Solaris",
+            "id": 1091,
+            "x": -29113,
+            "z": -13170,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Heartland": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Phish-Jade JCT",
+            "type": "jct",
+            "id": 1092,
+            "x": -29285,
+            "z": -13170,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Heartland": ["", "Main line to Jade branch"]
+                }
+            }
+        },
+        {
+            "name": "Jade",
+            "id": 1093,
+            "x": -29285,
+            "z": -13249,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Heartland": ["", "Jade branch"]
+                }
+            }
+        },
+        {
+            "name": "Phish",
+            "id": 1094,
+            "x": -29307,
+            "z": -13170,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Heartland": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-29303, -13179], [-29314, -13169]],
+                [[-29303, -13169], [-29310, -13193]],
+                [[-29267, -13186], [-29310, -13193]],
+                [[-29260, -13196], [-29274, -13176]]
+            ]
+        },
+        {
+            "name": "Katmai",
+            "id": 1095,
+            "x": -29523,
+            "z": -13249,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Heartland": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Arroyo East JCT",
+            "type": "jct",
+            "id": 1096,
+            "x": -29523,
+            "z": -12412,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Heartland": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Durmstrang JCT",
+            "type": "jct",
+            "id": 1097,
+            "x": -29523,
+            "z": -12080,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Heartland": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Durmstrang",
+            "id": 1098,
+            "x": -29523,
+            "z": -11924,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Heartland": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-29530, -11933], [-29515, -11909]],
+                [[-29441, -11933], [-29517, -11918]],
+                [[-29529, -11914], [-29535, -11918]]
+            ]
+        },
+        {
+            "name": "TheArk emergency exit",
+            "type": "semi2",
+            "id": 1099,
+            "x": -29523,
+            "z": -11601,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Heartland": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Crossover",
+            "id": 1100,
+            "x": -29523,
+            "z": -11238,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Heartland": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-29552, -11240], [-29527, -11236]],
+                [[-29528, -11242], [-29521, -11234]],
+                [[-29514, -11241], [-29525, -11235]]
+            ]
+        },
+        {
+            "name": "Heartland",
+            "id": 1101,
+            "x": -29409,
+            "z": -11042,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Heartland": ["", "Main line"]
                 }
             }
         }
@@ -17665,9 +17859,35 @@
                             [-27487, -13116],
                             [-27487, -13101],
                             [-27507, -13101],
-                            [-27507, -13101]
+                            [-27507, -13105]
                         ],
                         "stations": [1067, 1086]
+                    }
+                }
+            },
+            "Dawnstar-Heartland": {
+                "prefix": "",
+                "code": "D-H",
+                "color": "ff0000",
+                "y": 56,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-26833, -13116],
+                            [-27729, -13105],
+                            [-27729, -13170],
+                            [-29523, -13170],
+                            [-29523, -11042],
+                            [-29409, -11042]
+                        ],
+                        "stations": [1086, 1087, 1088, 1089, 1090, 1091, [1092, "Jade branch"], 1094, 1095, 1096, 1097, 1098, 1099, 1100, 1101]
+                    },
+                    "Jade branch": {
+                        "vertices": [
+                            [-29285, -13170],
+                            [-29285, -13249]
+                        ],
+                        "stations": [[1092, "Main line"], 1093]
                     }
                 }
             }
