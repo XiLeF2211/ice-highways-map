@@ -13585,7 +13585,8 @@
             "z": -13116,
             "lines": {
                 "Alaskan Ice lines": {
-                    "Dawnstar-Moose Bay": ["", "Main line"]
+                    "Dawnstar-Moose Bay": ["", "Main line"],
+                    "Annie/Jade Memorial Highway": ["", "Main line"]
                 }
             }
         },
@@ -13819,6 +13820,19 @@
             "lines": {
                 "Papua New Guinea Ice lines": {
                     "Muyua": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kobudai",
+            "id": 1086,
+            "x": -27507,
+            "z": -13101,
+            "y1": 55,
+            "y2": 56,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Annie/Jade Memorial Highway": ["", "Main line"]
                 }
             }
         }
@@ -17636,6 +17650,24 @@
                             [-26808, -12945]
                         ],
                         "stations": [1079, 1065, 1080]
+                    }
+                }
+            },
+            "Annie/Jade Memorial Highway": {
+                "prefix": "",
+                "code": "A/J-MH",
+                "color": "ff0000",
+                "y": 57,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-26833, -13116],
+                            [-27487, -13116],
+                            [-27487, -13101],
+                            [-27507, -13101],
+                            [-27507, -13101]
+                        ],
+                        "stations": [1067, 1086]
                     }
                 }
             }
