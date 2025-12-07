@@ -75,20 +75,20 @@ map.on("mousemove", function (e) {
 map.on("baselayerchange", function (e) {
     if (e.name == 'Nether') {
         currentData = netherHighwayData;
-        renderLines(currentData, false);
-        renderStations(currentData, false);
-        listLine();
-        listStation();
         layerControl.removeLayer(townsLayer);
         map.removeLayer(townsLayer);
-    } else if (e.name == 'Overworld') {
-        currentData = highwayData;
         renderLines(currentData, false);
         renderStations(currentData, false);
         listLine();
         listStation();
+    } else if (e.name == 'Overworld') {
+        currentData = highwayData;
         layerControl.addOverlay(townsLayer, 'Towns');
         townsLayer.addTo(map);
+        renderLines(currentData, false);
+        renderStations(currentData, false);
+        listLine();
+        listStation();
     }
 });
 
