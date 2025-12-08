@@ -14613,7 +14613,8 @@
             "z": -11238,
             "lines": {
                 "Alaskan Ice lines": {
-                    "Blackwater-Nunivak Lower": ["", "Main line"]
+                    "Blackwater-Nunivak Lower": ["", "Main line"],
+                    "Hooper Bay-Upper Town": ["", "Main line"]
                 }
             }
         },
@@ -14736,6 +14737,61 @@
                     "Innucisai-Coldest": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "1st Hooper Bay Elevator",
+            "type": "elev-we",
+            "id": 1157,
+            "x": -30635,
+            "z": -11241,
+            "y1": 30,
+            "y2": 32,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Hooper Bay-Upper Town": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "2nd Hooper Bay Elevator",
+            "type": "elev-ew",
+            "id": 1158,
+            "x": -30680,
+            "z": -11354,
+            "y1": 32,
+            "y2": 23,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Hooper Bay-Upper Town": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hooper Bay",
+            "id": 1159,
+            "x": -30680,
+            "z": -11357,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Hooper Bay-Upper Town": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Lawrence Island",
+            "id": 1160,
+            "x": -31367,
+            "z": -11822,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Hooper Bay-Upper Town": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-31369, -11820], [-31362, -11827]],
+                [[-31365, -11837], [-31362, -11826]],
+                [[-31362, -11833], [-31368, -11826]]
+            ]
         }
     ],
     "lines": {
@@ -18808,7 +18864,7 @@
                             [-29162, -11238],
                             [-29162, -11492]
                         ],
-                        "stations": [[1131, "Main line"], 1132]
+                        "stations": [[1141, "Main line"], 1142]
                     },
                     "TheArk branch": {
                         "vertices": [
@@ -18847,6 +18903,33 @@
                             [-29916, -10611]
                         ],
                         "stations": [[1151, "Main line"], 1152, 1153]
+                    }
+                }
+            },
+            "Hooper Bay-Upper Town": {
+                "prefix": "",
+                "code": "HB-LI",
+                "color": "d4e35f",
+                "y": 23,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-30635, -11238],
+                            [-30635, -11348],
+                            [-30680, -11348],
+                            [-30680, -11774],
+                            [-31367, -11774],
+                            [-31367, -11822],
+                            [-31363, -11822],
+                            [-31363, -11835],
+                            [-31365, -11835],
+                            [-31365, -12260],
+                            [-31422, -12260],
+                            [-31422, -12204],
+                            [-31728, -12204],
+                            [-31728, -12304]
+                        ],
+                        "stations": [1142]
                     }
                 }
             }

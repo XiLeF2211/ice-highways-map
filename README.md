@@ -1,7 +1,7 @@
 # EarthMC Ice Highways Map
 
 This is a tool that aims to give information on stations and lines across the EarthMC server. However, right now, 
-it only has 1120 stations across 185 lines (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
+it only has 1161 stations across 189 lines (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
 
 # Adding lines to the map (direct push commit method) tutorial
 
@@ -67,9 +67,9 @@ Note that the capitalization does not change, and note that it is simply the str
 > [!NOTE]  
 > For other lines that are not shown on the list or to see detailed additions history, please see [the related database changes history](https://github.com/XiLeF2211/ice-highways-map/commits/main/highways.json)
 
-8 December 2025: Beaufort-World Roads line (edited by **nokteholda**)
+8 December 2025: Beaufort-World Roads, Blackwater-Nunivak, Innucisai-Coldest, and Hooper Bay-Upper Town lines (edited by **nokteholda**)
 
-7 December 2025: Annie/Jade Memorial Highway, Dawnstar-Heartland, Ruby Beltway, Arroyo-Belmiere lines (edited by **nokteholda**)
+7 December 2025: Annie/Jade Memorial Highway, Dawnstar-Heartland, Ruby Beltway, and Arroyo-Belmiere lines (edited by **nokteholda**)
 
 6 December 2025: Dawnstar-Moose Bay, Dawnstar City and Muyua lines (edited by **nokteholda**)
 
