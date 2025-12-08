@@ -9700,19 +9700,20 @@
             ]
         },
         {
-            "name": "Y=31 Castle John JCT",
+            "name": "Polaris World Roads JCT",
             "type": "jct",
             "id": 770,
             "x": -22807,
             "z": -11481,
             "lines": {
                 "Cascadian Ice lines": {
-                    "World Roads": ["", "Main line"]
+                    "World Roads": ["", "Main line"],
+                    "Beaufort-World Roads": ["", "Main line (East)"]
                 }
             }
         },
         {
-            "name": "Y=31 Incomplete Shaft JCT",
+            "name": "Y=32 Incomplete Shaft JCT",
             "type": "jct",
             "id": 771,
             "x": -22245,
@@ -13597,7 +13598,8 @@
             "z": -13128,
             "lines": {
                 "Alaskan Ice lines": {
-                    "Dawnstar-Moose Bay": ["", "Main line"]
+                    "Dawnstar-Moose Bay": ["", "Main line"],
+                    "Beaufort-World Roads": ["", "Main line (West)"]
                 }
             },
             "areas": [
@@ -13667,7 +13669,8 @@
             "z": -11482,
             "lines": {
                 "Alaskan Ice lines": {
-                    "Dawnstar-Moose Bay": ["", "Main line"]
+                    "Dawnstar-Moose Bay": ["", "Main line"],
+                    "Beaufort-World Roads": ["", "Main line (East)"]
                 }
             }
         },
@@ -14201,6 +14204,59 @@
             "areas": [
                 [[-30543, -10312], [-30551, -10304]]
             ]
+        },
+        {
+            "name": "Beaufort Elevator",
+            "type": "elev-ew",
+            "id": 1116,
+            "x": -26302,
+            "z": -13141,
+            "y1": 55,
+            "y2": 32,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Beaufort-World Roads": ["", "Main line (West)"]
+                }
+            }
+        },
+        {
+            "name": "Centra (JCT)",
+            "id": 1117,
+            "x": -26302,
+            "z": -11859,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Beaufort-World Roads": ["", "Main line (West)"]
+                }
+            },
+            "areas": [
+                [[-26281, -11842], [-26279, -11880]],
+                [[-26300, -11878], [-26279, -11880]],
+                [[-26300, -11880], [-26298, -11861]],
+                [[-26304, -11858], [-26296, -11865]]
+            ]
+        },
+        {
+            "name": "Castle John West JCT",
+            "id": 1118,
+            "x": -24162,
+            "z": -11481,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Beaufort-World Roads": ["", "Main line (West) to Castle John bypass"]
+                }
+            }
+        },
+        {
+            "name": "Castle John East JCT",
+            "id": 1119,
+            "x": -23887,
+            "z": -11481,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Beaufort-World Roads": ["", "Main line (East) to Castle John bypass"]
+                }
+            }
         }
     ],
     "lines": {
@@ -16230,7 +16286,7 @@
                 "prefix": "",
                 "code": "WRd",
                 "color": "B8DFDE",
-                "y": 31,
+                "y": 32,
                 "branches": {
                     "Main line": {
                         "vertices": [
@@ -18136,6 +18192,44 @@
                             [-30733, -12389]
                         ],
                         "stations": [[1111, "Main line"], 1112]
+                    }
+                }
+            },
+            "Beaufort-World Roads": {
+                "prefix": "",
+                "code": "B-WRd",
+                "color": "ff00ff",
+                "y": 32,
+                "branches": {
+                    "Main line (West)": {
+                        "vertices": [
+                            [-26302, -13141],
+                            [-26302, -11569],
+                            [-24783, -11569],
+                            [-24783, -11553],
+                            [-24735, -11553],
+                            [-24735, -11481],
+                            [-23904, -11481]
+                        ],
+                        "stations": [1068, 1116, 1117, [1118, "Castle John bypass"]]
+                    },
+                    "Main line (East)": {
+                        "vertices": [
+                            [-23902, -11481],
+                            [-22807, -11481]
+                        ],
+                        "stations": [[1119, "Castle John bypass"], 1073, 770]
+                    },
+                    "Castle John bypass": {
+                        "vertices": [
+                            [-24162, -11481],
+                            [-24162, -11505],
+                            [-24143, -11505],
+                            [-24143, -11489],
+                            [-23887, -11489],
+                            [-23887, -11481]
+                        ],
+                        "stations": [[1118, "Main line (West)"], [1119, "Main line (East)"]]
                     }
                 }
             }

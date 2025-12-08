@@ -67,6 +67,8 @@ Note that the capitalization does not change, and note that it is simply the str
 > [!NOTE]  
 > For other lines that are not shown on the list or to see detailed additions history, please see [the related database changes history](https://github.com/XiLeF2211/ice-highways-map/commits/main/highways.json)
 
+8 December 2025: Beaufort-World Roads line (edited by **nokteholda**)
+
 7 December 2025: Annie/Jade Memorial Highway, Dawnstar-Heartland, Ruby Beltway, Arroyo-Belmiere lines (edited by **nokteholda**)
 
 6 December 2025: Dawnstar-Moose Bay, Dawnstar City and Muyua lines (edited by **nokteholda**)
