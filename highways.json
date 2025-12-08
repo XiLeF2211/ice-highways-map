@@ -14018,7 +14018,8 @@
             "z": -11238,
             "lines": {
                 "Alaskan Ice lines": {
-                    "Dawnstar-Heartland": ["", "Main line"]
+                    "Dawnstar-Heartland": ["", "Main line"],
+                    "Blackwater-Nunivak Lower": ["", "Main line"]
                 }
             },
             "areas": [
@@ -14185,11 +14186,12 @@
             "z": -11238,
             "lines": {
                 "Alaskan Ice lines": {
-                    "Arroyo-Belmiere": ["", "Main line"]
+                    "Arroyo-Belmiere": ["", "Main line"],
+                    "Blackwater-Nunivak Lower": ["", "Main line"]
                 }
             },
             "areas": [
-                [[-30522, -11248], [-30540, -11228]],
+                [[-30522, -11248], [-30548, -11228]],
                 [[-30560, -11235], [-30544, -11241]]
             ]
         },
@@ -14349,7 +14351,389 @@
             "y2": 30,
             "lines": {
                 "Alaskan Ice lines": {
-                    "Blackwater-Nunivak Upper": ["", "Main line"]
+                    "Blackwater-Nunivak Upper": ["", "Main line"],
+                    "Blackwater-Nunivak Lower": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Northern Pines JCT",
+            "type": "jct",
+            "id": 1127,
+            "x": -27997,
+            "z": -11238,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Lower": ["", "Main line to Northern Pines branch"]
+                }
+            }
+        },
+        {
+            "name": "Northern Pines",
+            "id": 1128,
+            "x": -27997,
+            "z": -11153,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Lower": ["", "Northern Pines branch"]
+                }
+            },
+            "areas": [
+                [[-28009, -11143], [-27993, -11155]]
+            ]
+        },
+        {
+            "name": "Kokhanok JCT",
+            "type": "jct",
+            "id": 1129,
+            "x": -28654,
+            "z": -11238,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Lower": ["", "Main line to Kokhanok branch"]
+                }
+            }
+        },
+        {
+            "name": "Kokhanok",
+            "id": 1130,
+            "x": -28486,
+            "z": -11471,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Lower": ["", "Kokhanok branch"]
+                }
+            },
+            "areas": [
+                [[-28490, -11457], [-28473, -11472]],
+                [[-28473, -11468], [-28466, -11461]]
+            ]
+        },
+        {
+            "name": "Ruby Foxpoint",
+            "id": 1131,
+            "x": -28672,
+            "z": -12056,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Lower": ["", "Ruby-Qikertaq branch"]
+                }
+            }
+        },
+        {
+            "name": "Qikertaq JCT",
+            "type": "jct",
+            "id": 1132,
+            "x": -28672,
+            "z": -11238,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Lower": ["", "Main line to Ruby-Qikertaq branch"]
+                }
+            }
+        },
+        {
+            "name": "Qikertaq",
+            "id": 1133,
+            "x": -28672,
+            "z": -10817,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Lower": ["", "Ruby-Qikertaq branch"]
+                }
+            }
+        },
+        {
+            "name": "Kodiak JCT",
+            "type": "jct",
+            "id": 1134,
+            "x": -28920,
+            "z": -11238,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Lower": ["", "Main line to Kodiak branch"]
+                }
+            }
+        },
+        {
+            "name": "Kodiak",
+            "id": 1135,
+            "x": -28920,
+            "z": -11685,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Lower": ["", "Kodiak branch"]
+                }
+            },
+            "areas": [
+                [[-28915, -11682], [-28926, -11692]]
+            ]
+        },
+        {
+            "name": "Innucisai JCT",
+            "type": "jct",
+            "id": 1136,
+            "x": -29039,
+            "z": -11238,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Lower": ["", "Main line to Innucisai branch"]
+                }
+            }
+        },
+        {
+            "name": "Innucisai",
+            "id": 1137,
+            "x": -29022,
+            "z": -10957,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Lower": ["", "Innucisai branch"]
+                }
+            },
+            "areas": [
+                [[-29025, -10957], [-29009, -10933]],
+                [[-29019, -10970], [-29009, -10946]],
+                [[-29024, -10944], [-29009, -10960]],
+                [[-29019, -10948], [-29015, -10926]]
+            ]
+        },
+        {
+            "name": "Chignik JCT",
+            "type": "jct",
+            "id": 1138,
+            "x": -29022,
+            "z": -10508,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Lower": ["", "Innucisai branch to Chignik sub-branch"]
+                }
+            }
+        },
+        {
+            "name": "Chignik",
+            "id": 1139,
+            "x": -29620,
+            "z": -10508,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Lower": ["", "Chignik sub-branch"]
+                }
+            }
+        },
+        {
+            "name": "1st Coldest Way Elevator",
+            "type": "elev-ew",
+            "id": 1140,
+            "x": -29022,
+            "z": -10240,
+            "y1": 30,
+            "y2": 21,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Lower": ["", "Innucisai branch"],
+                    "Innucisai-Coldest": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Green JCT",
+            "type": "jct",
+            "id": 1141,
+            "x": -29162,
+            "z": -11238,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Lower": ["", "Main line to Green branch"]
+                }
+            }
+        },
+        {
+            "name": "Green",
+            "id": 1142,
+            "x": -29162,
+            "z": -11492,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Lower": ["", "Green branch"]
+                }
+            }
+        },
+        {
+            "name": "TheArk JCT",
+            "type": "jct",
+            "id": 1143,
+            "x": -29504,
+            "z": -11238,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Lower": ["", "Main line to TheArk branch"]
+                }
+            }
+        },
+        {
+            "name": "TheArk",
+            "id": 1144,
+            "x": -29504,
+            "z": -11533,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Lower": ["", "TheArk branch"]
+                }
+            }
+        },
+        {
+            "name": "Walrus Isle JCT",
+            "type": "jct",
+            "id": 1145,
+            "x": -29932,
+            "z": -11238,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Lower": ["", "Main line to Walrus Isle branch"]
+                }
+            }
+        },
+        {
+            "name": "Walrus Isle",
+            "id": 1146,
+            "x": -29932,
+            "z": -11009,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Lower": ["", "Walrus Isle branch"]
+                }
+            }
+        },
+        {
+            "name": "Hooper Bay JCT",
+            "type": "jct",
+            "id": 1147,
+            "x": -30635,
+            "z": -11238,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Lower": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nunivak",
+            "id": 1148,
+            "x": -30876,
+            "z": -11238,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Lower": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "2nd Coldest Way Elevator",
+            "type": "elev-ew",
+            "id": 1149,
+            "x": -29022,
+            "z": -10213,
+            "y1": 21,
+            "y2": 16,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Innucisai-Coldest": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "3rd Coldest Way Elevator",
+            "type": "elev-ew",
+            "id": 1150,
+            "x": -29885,
+            "z": -10021,
+            "y1": 16,
+            "y2": 5,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Innucisai-Coldest": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Continental JCT",
+            "type": "jct",
+            "id": 1151,
+            "x": -29916,
+            "z": -10021,
+            "y1": 16,
+            "y2": 5,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Innucisai-Coldest": ["", "Main line to Continental branch"]
+                }
+            }
+        },
+        {
+            "name": "1st Continental Elevator",
+            "type": "elev-we",
+            "id": 1152,
+            "x": -29916,
+            "z": -10607,
+            "y1": 5,
+            "y2": 62,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Innucisai-Coldest": ["", "Continental branch"]
+                }
+            }
+        },
+        {
+            "name": "2nd Continental Elevator",
+            "type": "elev-we",
+            "id": 1153,
+            "x": -29916,
+            "z": -10611,
+            "y1": 62,
+            "y2": 67,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Innucisai-Coldest": ["", "Continental branch"]
+                }
+            }
+        },
+        {
+            "name": "4th Coldest Way Elevator",
+            "type": "elev-we",
+            "id": 1154,
+            "x": -30345,
+            "z": -10021,
+            "y1": 5,
+            "y2": 16,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Innucisai-Coldest": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "5th Coldest Way Elevator",
+            "type": "elev-we",
+            "id": 1155,
+            "x": -31222,
+            "z": -10021,
+            "y1": 16,
+            "y2": 21,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Innucisai-Coldest": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Coldest",
+            "id": 1156,
+            "x": -31284,
+            "z": -10021,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Innucisai-Coldest": ["", "Main line"]
                 }
             }
         }
@@ -18357,6 +18741,112 @@
                             [-27676, -12313]
                         ],
                         "stations": [[1124, "Main line"], 1125]
+                    }
+                }
+            },
+            "Blackwater-Nunivak Lower": {
+                "prefix": "",
+                "code": "BN-l",
+                "color": "ff00ff",
+                "y": 32,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-27711, -11238],
+                            [-30876, -11238]
+                        ],
+                        "stations": [1126, [1127, "Northern Pines branch"], [1129, "Kokhanok branch"], [1132, "Ruby-Qikertaq branch"], [1134, "Kodiak branch"], [1136, "Innucisai branch"], [1141, "Green branch"], [1143, "TheArk branch"], 1100, [1145, "Walrus Isle branch"], 1114, 1147, 1148]
+                    },
+                    "Northern Pines branch": {
+                        "vertices": [
+                            [-27997, -11238],
+                            [-27997, -11153]
+                        ],
+                        "stations": [[1127, "Main line"], 1128]
+                    },
+                    "Kokhanok branch": {
+                        "vertices": [
+                            [-28654, -11238],
+                            [-28654, -11434],
+                            [-28486, -11434],
+                            [-28486, -11471]
+                        ],
+                        "stations": [[1129, "Main line"], 1130]
+                    },
+                    "Ruby-Qikertaq branch": {
+                        "vertices": [
+                            [-28672, -12056],
+                            [-28672, -10817]
+                        ],
+                        "stations": [1131, [1132, "Main line"], 1133]
+                    },
+                    "Kodiak branch": {
+                        "vertices": [
+                            [-28920, -11238],
+                            [-28920, -11685]
+                        ],
+                        "stations": [[1134, "Main line"], 1135]
+                    },
+                    "Innucisai branch": {
+                        "vertices": [
+                            [-29039, -11238],
+                            [-29039, -10957],
+                            [-29022, -10957],
+                            [-29022, -10240]
+                        ],
+                        "stations": [[1136, "Main line"], 1137, [1138, "Chignik sub-branch"], 1140]
+                    },
+                    "Chignik sub-branch": {
+                        "vertices": [
+                            [-29022, -10508],
+                            [-29620, -10508]
+                        ],
+                        "stations": [[1138, "Innucisai branch"], 1139]
+                    },
+                    "Green branch": {
+                        "vertices": [
+                            [-29162, -11238],
+                            [-29162, -11492]
+                        ],
+                        "stations": [[1131, "Main line"], 1132]
+                    },
+                    "TheArk branch": {
+                        "vertices": [
+                            [-29504, -11238],
+                            [-29504, -11533],
+                            [-29564, -11533]
+                        ],
+                        "stations": [[1143, "Main line"], 1144]
+                    },
+                    "Walrus Isle branch": {
+                        "vertices": [
+                            [-29932, -11238],
+                            [-29932, -11009]
+                        ],
+                        "stations": [[1145, "Main line"], 1146]
+                    }
+                }
+            },
+            "Innucisai-Coldest": {
+                "prefix": "",
+                "code": "I-C",
+                "color": "d4e35f",
+                "y": 5,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-29022, -10240],
+                            [-29022, -10021],
+                            [-31284, -10021]
+                        ],
+                        "stations": [1140, 1149, 1150, [1151, "Continental branch"], 1154, 1155, 1156]
+                    },
+                    "Continental branch": {
+                        "vertices": [
+                            [-29916, -10021],
+                            [-29916, -10611]
+                        ],
+                        "stations": [[1151, "Main line"], 1152, 1153]
                     }
                 }
             }
