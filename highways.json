@@ -14228,7 +14228,8 @@
             "z": -11859,
             "lines": {
                 "Alaskan Ice lines": {
-                    "Beaufort-World Roads": ["", "Main line (West)"]
+                    "Beaufort-World Roads": ["", "Main line (West)"],
+                    "Blackwater-Nunivak Upper": ["", "Main line"]
                 }
             },
             "areas": [
@@ -14259,6 +14260,96 @@
             "lines": {
                 "Alaskan Ice lines": {
                     "Beaufort-World Roads": ["", "Main line (East) to Castle John bypass"]
+                }
+            }
+        },
+        {
+            "name": "Blackwater",
+            "id": 1120,
+            "x": -26033,
+            "z": -11859,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Upper": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Centra West Elevator",
+            "type": "elev-we",
+            "id": 1121,
+            "x": -26652,
+            "z": -11861,
+            "y1": 32,
+            "y2": 41,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Upper": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Talkeetna JCT",
+            "type": "jct",
+            "id": 1122,
+            "x": -27177,
+            "z": -11859,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Upper": ["", "Main line to Talkeetna branch"]
+                }
+            }
+        },
+        {
+            "name": "Talkeetna",
+            "id": 1123,
+            "x": -27177,
+            "z": -11899,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Upper": ["", "=Talkeetna branch"]
+                }
+            }
+        },
+        {
+            "name": "Denali JCT",
+            "type": "jct",
+            "id": 1124,
+            "x": -27655,
+            "z": -11859,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Upper": ["", "Main line to Denali branch"]
+                }
+            }
+        },
+        {
+            "name": "Denali",
+            "id": 1125,
+            "x": -27676,
+            "z": -12313,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Upper": ["", "Denali branch"]
+                }
+            },
+            "areas": [
+                [[-27664, -12304], [-27681, -12327]],
+                [[-27649, -12311], [-27681, -12327]],
+                [[-27657, -12306], [-27647, -12314]]
+            ]
+        },
+        {
+            "name": "Whittier Elevator",
+            "type": "elev-ew",
+            "id": 1126,
+            "x": -27711,
+            "z": -11238,
+            "y1": 32,
+            "y2": 30,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Upper": ["", "Main line"]
                 }
             }
         }
@@ -18234,6 +18325,38 @@
                             [-23887, -11481]
                         ],
                         "stations": [[1118, "Main line (West)"], [1119, "Main line (East)"]]
+                    }
+                }
+            },
+            "Blackwater-Nunivak Upper": {
+                "prefix": "",
+                "code": "BN-u",
+                "color": "ff00ff",
+                "y": 32,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-26033, -11859],
+                            [-27655, -11859],
+                            [-27655, -11238],
+                            [-27711, -11238]
+                        ],
+                        "stations": [1120, 1117, 1121, [1122, "Talkeetna branch"], [1124, "Denali branch"], 1126]
+                    },
+                    "Talkeetna branch": {
+                        "vertices": [
+                            [-27177, -11859],
+                            [-27177, -11899]
+                        ],
+                        "stations": [[1122, "Main line"], 1123]
+                    },
+                    "Denali branch": {
+                        "vertices": [
+                            [-27655, -11859],
+                            [-27655, -12313],
+                            [-27676, -12313]
+                        ],
+                        "stations": [[1124, "Main line"], 1125]
                     }
                 }
             }
