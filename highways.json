@@ -9707,7 +9707,9 @@
             "z": -11481,
             "lines": {
                 "Cascadian Ice lines": {
-                    "World Roads": ["", "Main line"],
+                    "World Roads": ["", "Main line"]
+                },
+                "Alaskan Ice lines":{
                     "Beaufort-World Roads": ["", "Main line (East)"]
                 }
             }
@@ -14238,6 +14240,7 @@
         },
         {
             "name": "Castle John West JCT",
+            "type": "jct",
             "id": 1118,
             "x": -24162,
             "z": -11481,
@@ -14249,6 +14252,7 @@
         },
         {
             "name": "Castle John East JCT",
+            "type": "jct",
             "id": 1119,
             "x": -23887,
             "z": -11481,
