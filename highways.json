@@ -19821,7 +19821,7 @@
                         ],
                         "stations": [[479, "East Leningrad branch"], 481, 482, 1162, 483, [484, "Mitsui sub-branch"], 485, 486, 487]
                     },
-                    "Mitsui branch": {
+                    "Mitsui sub-branch": {
                         "vertices": [
                             [16585, -7915],
                             [16585, -8049]
