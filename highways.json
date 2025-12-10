@@ -5899,7 +5899,7 @@
             "lines": {
                 "Intercontinental": {
                     "Leningrad Suburban": ["", "East Leningrad branch"],
-                    "Mao City-Riau": ["", "Main line"]
+                    "Sukhbaatar-Riau": ["", "Main line"]
                 }
             }
         },
@@ -5937,14 +5937,14 @@
             }
         },
         {
-            "name": "Pickletown JCT",
+            "name": "Mitsui JCT",
             "type": "jct",
             "id": 484,
             "x": 16585,
             "z": -7915,
             "lines": {
                 "Intercontinental": {
-                    "Leningrad Suburban": ["", "Mongolia branch"]
+                    "Leningrad Suburban": ["", "Mongolia branch to Mitsui sub-branch"]
                 }
             }
         },
@@ -5974,7 +5974,7 @@
             ]
         },
         {
-            "name": "2nd Mongolia branch Emergency exit",
+            "name": "Ulannar",
             "id": 487,
             "x": 18002,
             "z": -7942,
@@ -12186,7 +12186,7 @@
             "lines": {
                 "Intercontinental": {
                     "Leningrad Suburban": ["", "Main line"],
-                    "Mao City-Riau": ["", "Main line"]
+                    "Sukhbaatar-Riau": ["", "Main line"]
                 }
             }
         },
@@ -12982,7 +12982,8 @@
                 "Intercontinental": {
                     "Sukhbaatar-Hagenheim": ["", "Main line"],
                     "Sukhbaatar Westwards": ["", "Main line"],
-                    "Sukhbaatar-Leningrad": ["", "Main line"]
+                    "Sukhbaatar-Leningrad": ["", "Main line"],
+                    "Sukhbaatar-Riau": ["", "Main line"]
                 }
             },
             "areas": [
@@ -14802,7 +14803,7 @@
             "z": -8401,
             "lines": {
                 "Intercontinental": {
-                    "Mao City-Riau": ["", "Main line"]
+                    "Sukhbaatar-Riau": ["", "Main line"]
                 }
             }
         },
@@ -14815,7 +14816,7 @@
             "lines": {
                 "Intercontinental": {
                     "Leningrad Suburban": ["", "Mongolia branch"],
-                    "Mao City-Riau": ["", "Main line"]
+                    "Sukhbaatar-Riau": ["", "Main line"]
                 }
             }
         },
@@ -14826,7 +14827,18 @@
             "z": -9056,
             "lines": {
                 "Intercontinental": {
-                    "Mao City-Riau": ["", "Main line"]
+                    "Sukhbaatar-Riau": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mitsui",
+            "id": 1164,
+            "x": 16585,
+            "z": -8049,
+            "lines": {
+                "Intercontinental": {
+                    "Leningrad Suburban": ["", "Mitsui sub-branch"]
                 }
             }
         }
@@ -19807,7 +19819,14 @@
                             [17231, -7942],
                             [18002, -7942]
                         ],
-                        "stations": [[479, "East Leningrad branch"], 481, 482, 1162, 483, 484, 485, 486, 487]
+                        "stations": [[479, "East Leningrad branch"], 481, 482, 1162, 483, [484, "Mitsui sub-branch"], 485, 486, 487]
+                    },
+                    "Mitsui branch": {
+                        "vertices": [
+                            [16585, -7915],
+                            [16585, -8049]
+                        ],
+                        "stations": [[484, "Mongolia branch"], 1164]
                     }
                 }
             },
@@ -20158,19 +20177,19 @@
                     }
                 }
             },
-            "Mao City-Riau": {
+            "Sukhbaatar-Riau": {
                 "prefix": "",
-                "code": "MC-R",
+                "code": "S-R",
                 "color": "cd0000",
                 "y": 2,
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [15100, -8401],
+                            [14790, -8401],
                             [16841, -8401],
                             [16841, -9056]
                         ],
-                        "stations": [1161, 480, 1162, 962, 1163]
+                        "stations": [1022, 1161, 480, 1162, 962, 1163]
                     }
                 }
             }
