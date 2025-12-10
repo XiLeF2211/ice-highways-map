@@ -67,6 +67,8 @@ Note that the capitalization does not change, and note that it is simply the str
 > [!NOTE]  
 > For other lines that are not shown on the list or to see detailed additions history, please see [the related database changes history](https://github.com/XiLeF2211/ice-highways-map/commits/main/highways.json)
 
+10 December 2025: Mao City-Riau line (edited by **nokteholda**)
+
 8 December 2025: Beaufort-World Roads, Blackwater-Nunivak, Innucisai-Coldest, and Hooper Bay-Upper Town lines (edited by **nokteholda**)
 
 7 December 2025: Annie/Jade Memorial Highway, Dawnstar-Heartland, Ruby Beltway, and Arroyo-Belmiere lines (edited by **nokteholda**)

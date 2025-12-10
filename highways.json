@@ -5891,14 +5891,15 @@
             }
         },
         {
-            "name": "5th East Leningrad JCT",
+            "name": "Mao-Eldorra JCT",
             "type": "jct",
             "id": 480,
             "x": 15230,
-            "z": -8400,
+            "z": -8401,
             "lines": {
                 "Intercontinental": {
-                    "Leningrad Suburban": ["", "East Leningrad branch"]
+                    "Leningrad Suburban": ["", "East Leningrad branch"],
+                    "Mao City-Riau": ["", "Main line"]
                 }
             }
         },
@@ -12177,14 +12178,15 @@
             }
         },
         {
-            "name": "X=16841 JCT",
+            "name": "Riau South JCT",
             "type": "jct",
             "id": 962,
             "x": 16841,
             "z": -8793,
             "lines": {
                 "Intercontinental": {
-                    "Leningrad Suburban": ["", "Main line"]
+                    "Leningrad Suburban": ["", "Main line"],
+                    "Mao City-Riau": ["", "Main line"]
                 }
             }
         },
@@ -14792,6 +14794,41 @@
                 [[-31365, -11837], [-31362, -11826]],
                 [[-31362, -11833], [-31368, -11826]]
             ]
+        },
+        {
+            "name": "Mao City",
+            "id": 1161,
+            "x": 15100,
+            "z": -8401,
+            "lines": {
+                "Intercontinental": {
+                    "Mao City-Riau": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kuytun JCT",
+            "type": "jct",
+            "id": 1162,
+            "x": 15557,
+            "z": -8401,
+            "lines": {
+                "Intercontinental": {
+                    "Leningrad Suburban": ["", "Mongolia branch"],
+                    "Mao City-Riau": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Riau",
+            "id": 1163,
+            "x": 16841,
+            "z": -9056,
+            "lines": {
+                "Intercontinental": {
+                    "Mao City-Riau": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -19770,7 +19807,7 @@
                             [17231, -7942],
                             [18002, -7942]
                         ],
-                        "stations": [[479, "East Leningrad branch"], 481, 482, 483, 484, 485, 486, 487]
+                        "stations": [[479, "East Leningrad branch"], 481, 482, 1162, 483, 484, 485, 486, 487]
                     }
                 }
             },
@@ -20118,6 +20155,22 @@
                             [14837, -8788]
                         ],
                         "stations": [1022, 1032, 1033]
+                    }
+                }
+            },
+            "Mao City-Riau": {
+                "prefix": "",
+                "code": "MC-R",
+                "color": "cd0000",
+                "y": 2,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [15100, -8401],
+                            [16841, -8401],
+                            [16841, -9056]
+                        ],
+                        "stations": [480, 962]
                     }
                 }
             }
