@@ -14245,7 +14245,7 @@
             ]
         },
         {
-            "name": "Castle John West JCT",
+            "name": "Castle John North West JCT",
             "type": "jct",
             "id": 1118,
             "x": -24162,
@@ -14257,7 +14257,7 @@
             }
         },
         {
-            "name": "Castle John East JCT",
+            "name": "Castle John North East JCT",
             "type": "jct",
             "id": 1119,
             "x": -23887,
@@ -14839,6 +14839,28 @@
             "lines": {
                 "Intercontinental": {
                     "Leningrad Suburban": ["", "Mitsui sub-branch"]
+                }
+            }
+        },
+        {
+            "name": "Selayar",
+            "id": 1165,
+            "x": 22096,
+            "z": 966,
+            "lines": {
+                "Intercontinental": {
+                    "Eastern Nusantara": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Antalisa",
+            "id": 1166,
+            "x": 24347,
+            "z": 580,
+            "lines": {
+                "Intercontinental": {
+                    "Eastern Nusantara": ["", "Main line"]
                 }
             }
         }
@@ -20190,6 +20212,22 @@
                             [16841, -9056]
                         ],
                         "stations": [1022, 1161, 480, 1162, 962, 1163]
+                    }
+                }
+            },
+            "Eastern Nusantara": {
+                "prefix": "",
+                "code": "E-NUS",
+                "color": "fd5e53",
+                "y": -16,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [22096, 966],
+                            [24347, 966],
+                            [24347, 580]
+                        ],
+                        "stations": [1165, 1166]
                     }
                 }
             }
