@@ -7746,23 +7746,24 @@
             "name": "Y=9 Canada JCT",
             "type": "jct",
             "id": 623,
-            "x": -22808,
+            "x": -22809,
             "z": -11272,
             "lines": {
                 "Cascadian Ice lines": {
                     "Aklavik - Cascadia": ["", "Main line"],
-                    "Castle John - East Alaska": ["", "Main line"]
+                    "Castle John - East Alaska": ["", "Main line"],
+                    "HayRiver": ["", "Main line"]
                 }
             },
             "areas": [
-                [[-22807, -11262], [-22809, -11277]]
+                [[-22806, -11262], [-22810, -11277]]
             ]
         },
         {
             "name": "Rainbow Lake JCT",
             "type": "jct",
             "id": 624,
-            "x": -22808,
+            "x": -22809,
             "z": -10662,
             "lines": {
                 "Cascadian Ice lines": {
@@ -7774,7 +7775,7 @@
             "name": "Sitka JCT",
             "type": "jct",
             "id": 625,
-            "x": -22808,
+            "x": -22809,
             "z": -10651.5,
             "lines": {
                 "Cascadian Ice lines": {
@@ -14927,6 +14928,135 @@
             "areas": [
                 [[25696, 560], [25711, 575]]
             ]
+        },
+        {
+            "name": "HayRiver Rail Terminus",
+            "id": 1171,
+            "x": -21627,
+            "z": -11269,
+            "lines": {
+                "Cascadian Ice lines": {
+					"HayRiver": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "HayRiver JCT",
+            "type": "jct",
+            "id": 1172,
+            "x": -21568,
+            "z": -11269,
+            "lines": {
+                "Cascadian Ice lines": {
+					"HayRiver": ["", "Main line to HayRiver branch"]
+                }
+            }
+        },
+        {
+            "name": "HayRiver",
+            "id": 1173,
+            "x": -21568,
+            "z": -11302,
+            "lines": {
+                "Cascadian Ice lines": {
+					"HayRiver": ["", "HayRiver branch"]
+                }
+            }
+        },
+        {
+            "name": "HayRiver Nation Spawn Shop",
+            "id": 1174,
+            "x": -21568,
+            "z": -11343,
+            "lines": {
+                "Cascadian Ice lines": {
+					"HayRiver": ["", "HayRiver branch"]
+                }
+            }
+        },
+        {
+            "name": "HayRiver Elevator",
+            "type": "elev-ew",
+            "y1": 9,
+            "y2": 11,
+            "id": 1175,
+            "x": -20233,
+            "z": -11269,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "HayRiver": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "HayRiver East JCT",
+            "type": "jct",
+            "id": 1176,
+            "x": -20230,
+            "z": -11269,
+            "lines": {
+                "Cascadian Ice lines": {
+					"HayRiver": ["", "Main line"],
+                    "North Battleford-Kitty High": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "North Battleford",
+            "id": 1177,
+            "x": -20230,
+            "z": -9950,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "North Battleford-Kitty High": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "1st North Battleford JCT",
+            "type": "jct",
+            "id": 1178,
+            "x": -20230,
+            "z": -10025,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "North Battleford-Kitty High": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "2nd North Battleford JCT",
+            "type": "jct",
+            "id": 1179,
+            "x": -20230,
+            "z": -10031,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "North Battleford-Kitty High": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Oakland",
+            "id": 1180,
+            "x": -20230,
+            "z": -10462,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "North Battleford-Kitty High": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kitty High",
+            "id": 1181,
+            "x": -20230,
+            "z": -11939,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "North Battleford-Kitty High": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -16732,7 +16862,9 @@
                     "Main line": {
                         "vertices": [
                             [-23099, -11880],
-                            [-22808, -11880],
+                            [-22809, -11880],
+                            [-22809, -10440],
+                            [-22808, -10440],
                             [-22808, -8792],
                             [-22935, -8792]
                         ],
@@ -16993,6 +17125,43 @@
                             [-21194.5, -8918]
                         ],
                         "stations": [1062, 1063, 1064, 732]
+                    }
+                }
+            },
+            "HayRiver": {
+                "prefix": "",
+                "code": "HR",
+                "color": "90ee90",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-22809, -11269],
+                            [-20230, -11269]
+                        ],
+                        "stations": [623, 1171, [1172, "HayRiver branch"], 1175, 1176]
+                    },
+                    "HayRiver branch": {
+                        "vertices": [
+                            [-21568, -11269],
+                            [-21568, -11343]
+                        ],
+                        "stations": [[1172, "HayRiver branch"], 1173, 1174]
+                    }
+                }
+            },
+            "North Battleford-Kitty High": {
+                "prefix": "",
+                "code": "NB-KH",
+                "color": "90ee90",
+                "y": 11,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-20230, -9950],
+                            [-20230, -11939]
+                        ],
+                        "stations": [1177, 1178, 1179, 1180, 1176, 1181]
                     }
                 }
             }
