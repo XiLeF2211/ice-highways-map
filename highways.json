@@ -15057,6 +15057,29 @@
                     "North Battleford-Kitty High": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Hulun-nishi JCT",
+            "type": "jct",
+            "id": 1182,
+            "x": 21652,
+            "z": -9214,
+            "lines": {
+                "Local": {
+                    "Konrinzi": ["", "East Khazar branch to Harumagedon branch"]
+                }
+            }
+        },
+        {
+            "name": "Harumagedon",
+            "id": 1183,
+            "x": 21652,
+            "z": -8550,
+            "lines": {
+                "Local": {
+                    "Konrinzi": ["", "Harumagedon branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -19565,7 +19588,7 @@
                             [21513, -9214],
                             [21513, -9140]
                         ],
-                        "stations": [[808, "Main line"], 810]
+                        "stations": [[808, "Main line"], [1182, "Harumagedon branch"], 810]
                     },
                     "Kanto branch": {
                         "vertices": [
@@ -19573,6 +19596,13 @@
                             [21828, -9398]
                         ],
                         "stations": [[918, "Main line"], 919]
+                    },
+                    "Harumagedon branch": {
+                        "vertices": [
+                            [21652, -9214],
+                            [21652, -8550]
+                        ],
+                        "stations": [[1182, "East Khazar branch"], 1183]
                     }
                 }
             },
