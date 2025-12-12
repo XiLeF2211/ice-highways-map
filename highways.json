@@ -14864,6 +14864,69 @@
                     "Eastern Nusantara": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Hatanaka",
+            "id": 1167,
+            "x": 25401,
+            "z": 1262,
+            "lines": {
+                "Intercontinental": {
+                    "KT Momase Highspeed Iceway": ["01", "Main line"]
+                }
+            },
+            "areas": [
+                [[25395, 1248], [25407, 1263]]
+            ]
+        },
+        {
+            "name": "Nishi-Katze",
+            "id": 1168,
+            "x": 25446,
+            "z": 1097,
+            "lines": {
+                "Intercontinental": {
+                    "KT Momase Highspeed Iceway": ["02", "Main line"]
+                }
+            },
+            "areas": [
+                [[25441, 1102], [25454, 1087]],
+                [[25441, 1093], [25454, 1102]],
+                [[25441, 1093], [25456, 1098]],
+                [[25440, 1088], [25455, 1103]],
+                [[25450, 1088], [25441, 1127]],
+                [[25458, 1088], [25445, 1104]]
+            ]
+        },
+        {
+            "name": "Shin-Katze Arzt",
+            "id": 1169,
+            "x": 25449,
+            "z": 949,
+            "lines": {
+                "Intercontinental": {
+                    "KT Momase Highspeed Iceway": ["03", "Main line"]
+                }
+            },
+            "areas": [
+                [[25450, 944], [25455, 954]],
+                [[25450, 944], [25444, 959]],
+                [[25450, 944], [25440, 948]]
+            ]
+        },
+        {
+            "name": "Minamiazami",
+            "id": 1170,
+            "x": 25704,
+            "z": 568,
+            "lines": {
+                "Intercontinental": {
+                    "KT Momase Highspeed Iceway": ["04", "Main line"]
+                }
+            },
+            "areas": [
+                [[25696, 560], [25711, 575]]
+            ]
         }
     ],
     "lines": {
@@ -20234,6 +20297,25 @@
                             [24347, 580]
                         ],
                         "stations": [1165, 1166]
+                    }
+                }
+            },
+            "KT Momase Highspeed Iceway": {
+                "prefix": "",
+                "code": "KT-M",
+                "color": "0055ff",
+                "y": 146,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [25401, 1262],
+                            [25401, 1142],
+                            [25449, 1094],
+                            [25449, 568],
+                            [25895, 568],
+                            [25895, 479]
+                        ],
+                        "stations": [1167, 1168, 1169, 1170]
                     }
                 }
             }
