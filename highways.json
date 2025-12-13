@@ -15082,7 +15082,8 @@
             }
         },
         {
-            "name": "Yukon-Adevir JCT",
+            "name": "Yukon-Adevir walkway interchange JCT",
+            "type": "jct",
             "id": 1184,
             "x": -23138,
             "z": -11280,
