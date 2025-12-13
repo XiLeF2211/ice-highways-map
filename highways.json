@@ -15080,6 +15080,25 @@
                     "Konrinzi": ["", "Harumagedon branch"]
                 }
             }
+        },
+        {
+            "name": "Yukon-Adevir JCT",
+            "id": 1184,
+            "x": -23148,
+            "z": -11280,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Moose Bay": ["", "Yukon Area Town Ruins branch"]
+                },
+                "Cascadian Ice lines": {
+                    "Castle John - East Alaska": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-23136, -11277], [-23143, -11283]],
+                [[-23146, -11279], [-23130, -11282]],
+                [[-23136, -11274], [-23130, -11282]]
+            ]
         }
     ],
     "lines": {
@@ -16980,7 +16999,7 @@
                             [-24242.5, -11275.5],
                             [-22809, -11275.5]
                         ],
-                        "stations": [623, 1061, 1060, 1059, 1058]
+                        "stations": [623, 1184, 1061, 1060, 1059, 1058]
                     }
                 }
             },
@@ -18922,7 +18941,7 @@
                             [-23138, -11322],
                             [-23138, -11121]
                         ],
-                        "stations": [[1076, "Main line"], 1077]
+                        "stations": [[1076, "Main line"], 1184, 1077]
                     }
                 }
             },
