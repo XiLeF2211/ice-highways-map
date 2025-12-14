@@ -15209,7 +15209,7 @@
             "z": -6994,
             "lines": {
                 "Agartha Ice Highways Network": {
-                    "Agartha Central": ["", "East connector branch"]
+                    "Agartha Central": ["", "Main line"]
                 }
             }
         },
@@ -15228,8 +15228,8 @@
             "name": "East Agartha ramp",
             "type": "inter1",
             "id": 1194,
-            "x": 13559,
-            "z": -6892,
+            "x": 13762,
+            "z": -6898,
             "lines": {
                 "Agartha Ice Highways Network": {
                     "Ladakh-Agartha North": ["", "Main line to North connector branch"]
@@ -15245,6 +15245,75 @@
             "lines": {
                 "Agartha Ice Highways Network": {
                     "Ladakh-Agartha North": ["", "Main line"],
+                    "India-South Xinjiang": ["", "Main line (North)"]
+                }
+            }
+        },
+        {
+            "name": "Shrek South Mine",
+            "id": 1196,
+            "x": 13778,
+            "z": -6303,
+            "lines": {
+                "Agartha Ice Highways Network": {
+                    "India-South Xinjiang": ["", "Main line (South)"]
+                }
+            }
+        },
+        {
+            "name": "Pyramids Railway Station",
+            "id": 1197,
+            "x": 13778,
+            "z": -6485,
+            "lines": {
+                "Agartha Ice Highways Network": {
+                    "India-South Xinjiang": ["", "Main line (North)"]
+                }
+            }
+        },
+        {
+            "name": "Pyramids Mine",
+            "id": 1198,
+            "x": 13778,
+            "z": -6529,
+            "lines": {
+                "Agartha Ice Highways Network": {
+                    "India-South Xinjiang": ["", "Main line (North)"]
+                }
+            }
+        },
+        {
+            "name": "Ape City",
+            "type": "semi1",
+            "id": 1199,
+            "x": 13853,
+            "z": -6911,
+            "lines": {
+                "Agartha Ice Highways Network": {
+                    "India-South Xinjiang": ["", "Main line (North)"]
+                }
+            }
+        },
+        {
+            "name": "Gerze Storage Hub",
+            "type": "semi3",
+            "id": 1200,
+            "x": 14410,
+            "z": -6911,
+            "lines": {
+                "Agartha Ice Highways Network": {
+                    "India-South Xinjiang": ["", "Main line (North)"]
+                }
+            }
+        },
+        {
+            "name": "Qira Pyramid",
+            "type": "semi3",
+            "id": 1201,
+            "x": 14410,
+            "z": -6911,
+            "lines": {
+                "Agartha Ice Highways Network": {
                     "India-South Xinjiang": ["", "Main line (North)"]
                 }
             }
@@ -15644,7 +15713,7 @@
                             [13400, -6929],
                             [13496, -6929]
                         ],
-                        "stations": [218, 245, 246, 247]
+                        "stations": [218, 245, 247]
                     }
                 }
             },
@@ -18589,7 +18658,7 @@
                             [13778, -5940],
                             [13778, -6320]
                         ],
-                        "stations": [213]
+                        "stations": [213, 1196]
                     },
                     "Main line (North)": {
                         "vertices": [
@@ -18597,7 +18666,7 @@
                             [13778, -6911],
                             [14837, -6911]
                         ],
-                        "stations": [1187, 1189, 1195]
+                        "stations": [1197, 1198, 1199, 1187, 1189, 1195, 1200, 1201, 1202]
                     }
                 }
             }
