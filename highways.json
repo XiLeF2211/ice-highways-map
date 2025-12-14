@@ -153,7 +153,7 @@
             }
         },
         {
-            "name": "Haldwani West Western Ramp",
+            "name": "Haldwani West Western ramp",
             "type": "inter2",
             "id": 13,
             "x": 14595,
@@ -165,7 +165,7 @@
             }
         },
         {
-            "name": "Haldwani West Eastern Ramp",
+            "name": "Haldwani West Eastern ramp",
             "type": "inter1",
             "id": 14,
             "x": 14636,
@@ -2546,6 +2546,9 @@
             "lines": {
                 "TNIH": {
                     "Bangla-Caspian": ["", "Main line"]
+                },
+                "Agartha Ice Highways Network": {
+                    "India-South Xinjiang": ["", "Main line (South)"]
                 }
             }
         },
@@ -2604,6 +2607,9 @@
                 "TNIH": {
                     "Bangla-Caspian": ["", "Main line"],
                     "Ladakh": ["", ""]
+                },
+                "Agartha Ice Highways Network": {
+                    "Agartha Central": ["", "Main line"]
                 }
             }
         },
@@ -2940,25 +2946,27 @@
             }
         },
         {
-            "name": "Ladakh West JCT",
-            "type": "jct",
+            "name": "Agartha (JCT)",
             "id": 246,
-            "x": 13464,
-            "z": -6929,
+            "x": 13629,
+            "z": -6772,
             "lines": {
-                "TNIH": {
-                    "Ladakh": ["", ""]
+                "Agartha Ice Highways Network": {
+                    "Agartha Central": ["", "Main line to South Agartha branch"]
                 }
             }
         },
         {
             "name": "Ladakh",
             "id": 247,
-            "x": 13494,
+            "x": 13496,
             "z": -6929,
             "lines": {
                 "TNIH": {
                     "Ladakh": ["", ""]
+                },
+                "Agartha Ice Highways Network": {
+                    "Ladakh-Agartha North": ["", "Main line"]
                 }
             }
         },
@@ -15129,6 +15137,117 @@
                 [[-24870, -10879], [-24891, -10891]],
                 [[-24894, -10893], [-24883, -10882]]
             ]
+        },
+        {
+            "name": "Southeast Agartha JCT",
+            "type": "jct",
+            "id": 1187,
+            "x": 13778,
+            "z": -6733,
+            "lines": {
+                "Agartha Ice Highways Network": {
+                    "Agartha Central": ["", "South Agartha branch"],
+                    "India-South Xinjiang": ["", "Main line (North)"]
+                }
+            }
+        },
+        {
+            "name": "1st East Agartha JCT",
+            "type": "jct",
+            "id": 1188,
+            "x": 13687,
+            "z": -6772,
+            "lines": {
+                "Agartha Ice Highways Network": {
+                    "Agartha Central": ["", "South Agartha branch to East connector branch"]
+                }
+            }
+        },
+        {
+            "name": "2nd East Agartha JCT",
+            "type": "jct",
+            "id": 1189,
+            "x": 13778,
+            "z": -6772,
+            "lines": {
+                "Agartha Ice Highways Network": {
+                    "Agartha Central": ["", "East connector branch"],
+                    "India-South Xinjiang": ["", "Main line (North)"]
+                }
+            }
+        },
+        {
+            "name": "3rd East Agartha JCT",
+            "type": "jct",
+            "id": 1190,
+            "x": 13687,
+            "z": -6892,
+            "lines": {
+                "Agartha Ice Highways Network": {
+                    "Agartha Central": ["", "East connector branch"],
+                    "Ladakh-Agartha North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "4th East Agartha JCT",
+            "type": "jct",
+            "id": 1191,
+            "x": 13687,
+            "z": -6913,
+            "lines": {
+                "Agartha Ice Highways Network": {
+                    "Agartha Central": ["", "East connector branch"],
+                    "Ladakh-Agartha North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Radaku Minami",
+            "id": 1192,
+            "x": 13687,
+            "z": -6994,
+            "lines": {
+                "Agartha Ice Highways Network": {
+                    "Agartha Central": ["", "East connector branch"]
+                }
+            }
+        },
+        {
+            "name": "Agartha North",
+            "id": 1193,
+            "x": 13559,
+            "z": -6892,
+            "lines": {
+                "Agartha Ice Highways Network": {
+                    "Ladakh-Agartha North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "East Agartha ramp",
+            "type": "inter1",
+            "id": 1194,
+            "x": 13559,
+            "z": -6892,
+            "lines": {
+                "Agartha Ice Highways Network": {
+                    "Ladakh-Agartha North": ["", "Main line to North connector branch"]
+                }
+            }
+        },
+        {
+            "name": "5th East Agartha JCT",
+            "type": "jct",
+            "id": 1195,
+            "x": 13778,
+            "z": -6898,
+            "lines": {
+                "Agartha Ice Highways Network": {
+                    "Ladakh-Agartha North": ["", "Main line"],
+                    "India-South Xinjiang": ["", "Main line (North)"]
+                }
+            }
         }
     ],
     "lines": {
@@ -15523,7 +15642,7 @@
                         "vertices": [
                             [13400, -6771],
                             [13400, -6929],
-                            [13494, -6929]
+                            [13496, -6929]
                         ],
                         "stations": [218, 245, 246, 247]
                     }
@@ -18397,6 +18516,88 @@
                             [11620, -6771]
                         ],
                         "stations": [600, 601]
+                    }
+                }
+            },
+            "Agartha Central": {
+                "prefix": "",
+                "code": "Ac",
+                "color": "a2a2a2",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [13400, -6771],
+                            [13400, -6772],
+                            [13687, -6772],
+                            [13687, -6994]
+                        ],
+                        "stations": [218, [246, "South Agartha branch"], [1188, "East connector branch"], 1190, 1191, 1192]
+                    },
+                    "South Agartha branch": {
+                        "vertices": [
+                            [13629, -6772],
+                            [13629, -6733],
+                            [13778, -6733]
+                        ],
+                        "stations": [[246, "Main line"], 1187]
+                    },
+                    "East connector branch": {
+                        "vertices": [
+                            [13687, -6772],
+                            [13778, -6772]
+                        ],
+                        "stations": [[1188, "Main line"], 1189]
+                    }
+                }
+            },
+            "Ladakh-Agartha North": {
+                "prefix": "",
+                "code": "L-An",
+                "color": "a2a2a2",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [13496, -6929],
+                            [13496, -6892],
+                            [13743, -6892],
+                            [13762, -6898],
+                            [13778, -6898]
+                        ],
+                        "stations": [247, 1193, 1190, [1194, "North connector branch"], 1195]
+                    },
+                    "North connector branch": {
+                        "vertices": [
+                            [13687, -6913],
+                            [13717, -6913],
+                            [13732, -6898],
+                            [13762, -6898]
+                        ],
+                        "stations": [1191, [1194, "Main line"]]
+                    }
+                }
+            },
+            "India-South Xinjiang": {
+                "prefix": "",
+                "code": "I-SX",
+                "color": "a2a2a2",
+                "y": 10,
+                "branches": {
+                    "Main line (South)": {
+                        "vertices": [
+                            [13778, -5940],
+                            [13778, -6320]
+                        ],
+                        "stations": [213]
+                    },
+                    "Main line (North)": {
+                        "vertices": [
+                            [13778, -6432],
+                            [13778, -6911],
+                            [14837, -6911]
+                        ],
+                        "stations": [1187, 1189, 1195]
                     }
                 }
             }
