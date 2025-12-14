@@ -15328,6 +15328,29 @@
                     "India-South Xinjiang": ["", "Main line (North)"]
                 }
             }
+        },
+        {
+            "name": "Quietlake JCT",
+            "type": "jct",
+            "id": 1203,
+            "x": -29523,
+            "z": -12547,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Heartland": ["", "Main line to Quietlake branch"]
+                }
+            }
+        },
+        {
+            "name": "Quietlake",
+            "id": 1204,
+            "x": -29327,
+            "z": -12547,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Dawnstar-Heartland": ["", "Quietlake branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -19312,7 +19335,7 @@
                             [-29523, -11042],
                             [-29409, -11042]
                         ],
-                        "stations": [1086, 1087, 1088, 1089, 1090, 1091, [1092, "Jade branch"], 1094, 1095, 1096, 1097, 1098, 1099, 1100, 1101]
+                        "stations": [1086, 1087, 1088, 1089, 1090, 1091, [1092, "Jade branch"], 1094, 1095, [1203, "Quietlake branch"], 1096, 1097, 1098, 1099, 1100, 1101]
                     },
                     "Jade branch": {
                         "vertices": [
@@ -19320,6 +19343,13 @@
                             [-29285, -13249]
                         ],
                         "stations": [[1092, "Main line"], 1093]
+                    },
+                    "Quietlake branch": {
+                        "vertices": [
+                            [-29523, -12547],
+                            [-29327, -12547]
+                        ],
+                        "stations": [[1203, "Main line"], 1204]
                     }
                 }
             },
