@@ -15197,7 +15197,7 @@
             "z": -6913,
             "lines": {
                 "Agartha Ice Highways Network": {
-                    "Agartha Central": ["", "East connector branch"],
+                    "Agartha Central": ["", "Main line"],
                     "Ladakh-Agartha North": ["", "North connector branch"]
                 }
             }
@@ -15370,7 +15370,6 @@
         },
         {
             "name": "Lhasa",
-            "type": "jct",
             "id": 1206,
             "x": 16628,
             "z": -5460,
