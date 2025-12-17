@@ -15159,7 +15159,7 @@
             "z": -6772,
             "lines": {
                 "Agartha Ice Highways Network": {
-                    "Agartha Central": ["", "South Agartha branch to East connector branch"]
+                    "Agartha Central": ["", "Main Line to East connector branch"]
                 }
             }
         },
@@ -15184,7 +15184,7 @@
             "z": -6892,
             "lines": {
                 "Agartha Ice Highways Network": {
-                    "Agartha Central": ["", "East connector branch"],
+                    "Agartha Central": ["", "Main Line"],
                     "Ladakh-Agartha North": ["", "Main line"]
                 }
             }
