@@ -15355,6 +15355,30 @@
                 [[-29337, -12550], [-29326, -12553]],
                 [[-29326, -12550], [-29329, -12546]]
             ]
+        },
+        {
+            "name": "Normstadt JCT",
+            "type": "jct",
+            "id": 1205,
+            "x": 16860,
+            "z": -5460,
+            "lines": {
+                "TNIH": {
+                    "Nyingchi": ["", "Main line to Lhasa branch"]
+                }
+            }
+        },
+        {
+            "name": "Lhasa",
+            "type": "jct",
+            "id": 1206,
+            "x": 16628,
+            "z": -5460,
+            "lines": {
+                "TNIH": {
+                    "Nyingchi": ["", "Lhasa branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -15631,7 +15655,7 @@
                             [16860, -5910],
                             [16999, -5910]
                         ],
-                        "stations": [39, 40, [41, "Bogra branch"], 42, 24, 23, 239, 43, 44, 45],
+                        "stations": [39, 40, [41, "Bogra branch"], 42, 24, 23, 239, 43, [1205, "Lhasa branch"], 44, 45],
                         "concurrencies": {
                             "TNIH.Lower Himalayas": [
                                 [16860, -5047],
@@ -15645,6 +15669,13 @@
                             [16809, -4516]
                         ],
                         "stations": [[41, "Main line"], 46]
+                    },
+                    "Lhasa branch": {
+                        "vertices": [
+                            [16860, -5460],
+                            [16628, -5460]
+                        ],
+                        "stations": [[1205, "Main line"], 1206]
                     }
                 }
             },
