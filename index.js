@@ -415,7 +415,7 @@ function showLine(companyName, lineName, line) {
                         badge.innerHTML = currentData.lines[companyConnection][connectionLine].code
                         connection.appendChild(badge)
                     } else if (currentData.lines[companyConnection][connectionLine].prefix != "") {
-                        badge.innerHTML = currentData.lines[companyConnection][connectionLine].prefix + currentData.stations[stationId][companyConnection][connectionLine][0]
+                        badge.innerHTML = currentData.lines[companyConnection][connectionLine].prefix + currentData.stations[stationId].lines[companyConnection][connectionLine][0]
                         connection.appendChild(badge)
                     } else {
                         badge.innerHTML = connectionLine
