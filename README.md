@@ -1,7 +1,7 @@
 # EarthMC Ice Highways Map
 
 This is a tool that aims to give information on stations and lines across the EarthMC server. However, right now, 
-it only has 1209 stations across 197 lines (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
+it only has 1218 stations across 198 lines (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
 
 # Adding lines to the map (direct push commit method) tutorial
 
@@ -66,6 +66,8 @@ Note that the capitalization does not change, and note that it is simply the str
 
 > [!NOTE]  
 > For other lines that are not shown on the list or to see detailed additions history, please see [the related database changes history](https://github.com/XiLeF2211/ice-highways-map/commits/main/highways.json)
+
+20 December 2025: Guinea Metro (edited by **nokteholda**)
 
 14 December 2025: Agarthan Ice Highway lines (Agartha Central, Ladakh-Agartha North, India-South Xinjiang) (edited by **nokteholda**)
 

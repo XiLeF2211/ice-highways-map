@@ -15401,6 +15401,122 @@
                     "Lower Himalayas": ["", "New Mesia branch"]
                 }
             }
+        },
+        {
+            "name": "Ryloth",
+            "id": 1209,
+            "x": 14719,
+            "z": -3841,
+            "lines": {
+                "National Laccadive Sea Highway": {
+                    "North": ["", "Ryloth-Yanam"]
+                }
+            }
+        },
+        {
+            "name": "Conakry North",
+            "id": 1210,
+            "x": -2505,
+            "z": -1960,
+            "lines": {
+                "Intercontinental": {
+                    "Guinea Metro": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-2512, -1957], [-2482, -1969]]
+            ]
+        },
+        {
+            "name": "Conakry Fabric JCT",
+            "type": "jct",
+            "id": 1211,
+            "x": -2378,
+            "z": -1816,
+            "lines": {
+                "Intercontinental": {
+                    "Guinea Metro": ["", "Main line to Central Park branch"]
+                }
+            }
+        },
+        {
+            "name": "Conakry Central Park",
+            "id": 1212,
+            "x": -2608,
+            "z": -1816,
+            "lines": {
+                "Intercontinental": {
+                    "Guinea Metro": ["", "Central Park branch"]
+                }
+            },
+            "areas": [
+                [[-2624, -1819], [-2600, -1809]]
+            ]
+        },
+        {
+            "name": "Conakry Football Stadium",
+            "id": 1213,
+            "x": -2378,
+            "z": -1756,
+            "lines": {
+                "Intercontinental": {
+                    "Guinea Metro": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-2386, -1769], [-2371, -1745]]
+            ]
+        },
+        {
+            "name": "Conakry South JCT",
+            "type": "jct",
+            "id": 1214,
+            "x": -2378,
+            "z": -1671,
+            "lines": {
+                "Intercontinental": {
+                    "Guinea Metro": ["", "Main line to Freetown branch"]
+                }
+            }
+        },
+        {
+            "name": "Freetown Coastal",
+            "id": 1215,
+            "x": -2594,
+            "z": -1671,
+            "lines": {
+                "Intercontinental": {
+                    "Guinea Metro": ["", "Freetown branch"]
+                }
+            },
+            "areas": [
+                [[-2598, -1663], [-2574, -1678]]
+            ]
+        },
+        {
+            "name": "Faron",
+            "id": 1216,
+            "x": -2137,
+            "z": -1671,
+            "lines": {
+                "Intercontinental": {
+                    "Guinea Metro": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-2147, -1678], [-2127, -1662]]
+            ]
+        },
+        {
+            "name": "Nzerekore",
+            "id": 1217,
+            "x": -1850,
+            "z": -1671,
+            "lines": {
+                "Intercontinental": {
+                    "Guinea Metro": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -16446,13 +16562,13 @@
                         ],
                         "stations": []
                     },
-                    "7": {
+                    "Ryloth-Yanam": {
                         "vertices": [
                             [14719, -3841],
                             [15231, -3841],
                             [15231, -3490]
                         ],
-                        "stations": []
+                        "stations": [1209]
                     },
                     "Chennai branch": {
                         "vertices": [
@@ -20946,6 +21062,37 @@
                             [25895, 479]
                         ],
                         "stations": [1167, 1168, 1169, 1170]
+                    }
+                }
+            },
+            "Guinea Metro": {
+                "prefix": "",
+                "code": "GM",
+                "color": "e94443",
+                "y": 30,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-2511, -1960],
+                            [-2378, -1960],
+                            [-2378, -1671],
+                            [-1849, -1671]
+                        ],
+                        "stations": [1210, [1211, "Central Park branch"], 1213, [1214, "Freetown branch"], 1216, 1217]
+                    },
+                    "Central Park branch": {
+                        "vertices": [
+                            [-2378, -1816],
+                            [-2623, -1816]
+                        ],
+                        "stations": [[1211, "Main line"], 1212]
+                    },
+                    "Freetown branch": {
+                        "vertices": [
+                            [-2378, -1671],
+                            [-2594, -1671]
+                        ],
+                        "stations": [[1214, "Main line"], 1215]
                     }
                 }
             }
