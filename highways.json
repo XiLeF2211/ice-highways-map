@@ -15378,6 +15378,29 @@
                     "Nyingchi": ["", "Lhasa branch"]
                 }
             }
+        },
+        {
+            "name": "New Mesia JCT",
+            "type": "jct",
+            "id": 1207,
+            "x": 17513,
+            "z": -5047,
+            "lines": {
+                "TNIH": {
+                    "Lower Himalayas": ["", "Main line to New Mesia branch"]
+                }
+            }
+        },
+        {
+            "name": "New Mesia",
+            "id": 1208,
+            "x": 17513,
+            "z": -4984,
+            "lines": {
+                "TNIH": {
+                    "Lower Himalayas": ["", "New Mesia branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -15526,7 +15549,7 @@
                             [17659, -4993],
                             [18062, -4993]
                         ],
-                        "stations": [11, 12, 13, 14, [15, "Haldwani branch"], 17, 18, 19, 20, 21, 970, 22, 23, 24, 25, 240, 241, 242],
+                        "stations": [11, 12, 13, 14, [15, "Haldwani branch"], 17, [18, "Little Lhasa branch"], 19, 20, 21, 970, 22, 23, 24, 25, 240, [1207, "New Mesia branch"], 241, 242],
                         "concurrencies": {
                             "TNIH.Nyinchi": [
                                 [16860, -5184],
@@ -15548,6 +15571,13 @@
                             [15312, -5452]
                         ],
                         "stations": [[18, "Main line"], 309]
+                    },
+                    "New Mesia branch": {
+                        "vertices": [
+                            [17513, -5047],
+                            [17513, -4984]
+                        ],
+                        "stations": [[1207, "Main line"], 1208]
                     }
                 }
             },
