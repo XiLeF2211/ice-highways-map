@@ -7989,7 +7989,8 @@
             "z": -11001.5,
             "lines": {
                 "Ural Ice lines": {
-                    "Ural Ring": ["", "Main line"]
+                    "Ural Ring": ["", "Main line"],
+                    "WSD": ["", "Main line"]
                 }
             },
             "areas": [
@@ -8018,7 +8019,8 @@
             "z": -11247.5,
             "lines": {
                 "Ural Ice lines": {
-                    "Ural Ring": ["", "Main line"]
+                    "Ural Ring": ["", "Main line"],
+                    "Minada - Ryokuzan": ["", "Main line"]
                 }
             },
             "areas": [
@@ -15517,6 +15519,60 @@
                     "Guinea Metro": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Y=42 to Y=56 Transfer",
+            "id": 1218,
+            "x": 10517.5,
+            "z": -11245.5,
+            "lines": {
+                "Y=42 Ice lines": {
+                    "Komi": ["", "Bamboo - Minada - Orenburg"]
+                },
+                "Ural Ice lines": {
+                    "Ural Ring" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[10517, -11245], [10518, -11246]]
+            ]
+        },
+        {
+            "name": "Y=56 to Y=66 Elevator",
+            "type": "elev-we",
+            "y1": 56,
+            "y2": 66,
+            "id": 1219,
+            "x": 10523.5,
+            "z": -12334.5,
+            "lines": {
+                "Ural Ice lines": {
+                    "Minada - Ryokuzan": ["", "Main line"],
+                    "Bamboo Y=66": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bamboo Y=66",
+            "id": 1220,
+            "x": 10523.5,
+            "z": -12809.5,
+            "lines": {
+                "Ural Ice lines": {
+                    "Bamboo Y=66": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "WSD",
+            "id": 1221,
+            "x": 9980.5,
+            "z": -11163.5,
+            "lines": {
+                "Ural Ice lines": {
+                    "WSD" : ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -18046,7 +18102,7 @@
                     "Main line": {
                         "vertices": [
                             [5699, -12051],
-                            [12898, -12051]
+                            [14451, -12051]
                         ],
                         "stations": [425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441],
                         "concurrencies": {
@@ -18220,7 +18276,7 @@
                             [10571, -9798],
                             [10571, -9285]
                         ],
-                        "stations": [[500, "Bamboo - Nenets"], 501, 440, 536]
+                        "stations": [[500, "Bamboo - Nenets"], 501, 440, 1218, 536]
                     },
                     "Bamboo - Nenets": {
                         "vertices": [
@@ -18387,7 +18443,58 @@
                         "vertices": [
                             [10911, -11250],
                             [10911, -11246]
-                        ]
+                        ],
+                        "stations": []
+                    }
+                }
+            },
+            "Minada - Ryokuzan": {
+                "prefix": "",
+                "code": "MND-RYO",
+                "color": "bc002d",
+                "y": 56,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [10520.5, -11247.5],
+                            [10520.5, -12331.5],
+                            [10523.5, -12331.5],
+                            [10523.5, -12334.5]
+                        ],
+                        "stations": [642, 1219]
+                    }
+                }
+            },
+            "Bamboo Y=66": {
+                "prefix": "",
+                "code": "BMB",
+                "color": "2d00bc",
+                "y": 56,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [10523.5, -12334.5],
+                            [10523.5, -12809.5]
+                        ],
+                        "stations": [1219, 1220]
+                    }
+                }
+            },
+            "WSD": {
+                "prefix": "",
+                "code": "",
+                "color": "bc002d",
+                "y": 56,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [10285.5, -11001.5],
+                            [10215.5, -11001.5],
+                            [10215.5, -11002.5],
+                            [9980.5, -11002.5],
+                            [9980.5, -11163.5]
+                        ],
+                        "stations": [640, 1221]
                     }
                 }
             }
