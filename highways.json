@@ -15814,7 +15814,8 @@
             "z": -8753,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Loon Lake Loop" : ["", "Main line"]
+                    "Loon Lake Loop" : ["", "Main line"],
+                    "Lower Cascadia-Laurentides" : ["", "Main line"]
                 }
             }
         },
