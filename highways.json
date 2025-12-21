@@ -15573,6 +15573,41 @@
                     "WSD" : ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Twinktopia JCT",
+            "type": "jct",
+            "id": 1223,
+            "x": 7623,
+            "z": -5839,
+            "lines": {
+                "Saudi Ice lines": {
+                    "Tel Aviv-BillyCorgan" : ["", "Main line"],
+                    "Dzisna-Wadi" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "BillyCorgan",
+            "id": 1224,
+            "x": 7187,
+            "z": -5839,
+            "lines": {
+                "Saudi Ice lines": {
+                    "Tel Aviv-BillyCorgan" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Dzisna",
+            "id": 1225,
+            "x": 7623,
+            "z": -6134,
+            "lines": {
+                "Saudi Ice lines": {
+                    "Dzisna-Wadi" : ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -18358,6 +18393,38 @@
                         "stations": [908, 909, 910, 911, 912, 908]
                     }
                 }
+            },
+            "Tel Aviv-BillyCorgan": {
+                "prefix": "",
+                "code": "TA-BC",
+                "color": "00ff00",
+                "y": 1,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [9214, -5517],
+                            [7941, -5517],
+                            [7941, -5839],
+                            [7187, -5839]
+                        ],
+                        "stations": [1222, 1223, 1224]
+                    }
+                }
+            },
+            "Dzisna-Wadi": {
+                "prefix": "",
+                "code": "D-W",
+                "color": "a2a2a2",
+                "y": 2,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [7623, -6134],
+                            [7623, -4408]
+                        ],
+                        "stations": [1225, 1223]
+                    }
+                }
             }
         },
         "Ural Ice lines": {
@@ -18437,7 +18504,7 @@
                             [11018, -11246],
                             [11018, -10611]
                         ],
-                        "stations": [631, 639, 640, 641, 642, 643, 644, 645, 646, 638]
+                        "stations": [631, 639, 640, 641, 1218, 642, 643, 644, 645, 646, 638]
                     },
                     "": {
                         "vertices": [
