@@ -15670,6 +15670,199 @@
                     "Polar High Speed Rail" : ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Low-Up Cascadia-Laurentides Elevator",
+            "type": "elev-we",
+            "id": 1230,
+            "x": -17289.5,
+            "z": -8899.5,
+            "y1": 9,
+            "y2": 62,
+            "lines": {
+                "Cascadia-Laurentides": {
+                    "Lower Cascadia-Laurentides" : ["", "Main line"],
+                    "1st Upper Cascadia-Laurentides" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Y=62 to Y=63 Elevator",
+            "type": "elev-we",
+            "id": 1231,
+            "x": -16780.5,
+            "z": -8930.5,
+            "y1": 62,
+            "y2": 63,
+            "lines": {
+                "Cascadia-Laurentides": {
+                    "1st Upper Cascadia-Laurentides" : ["", "Main line"],
+                    "2nd Upper Cascadia-Laurentides" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Y=63 to Y=64 Elevator",
+            "type": "elev-we",
+            "id": 1232,
+            "x": -16725.5,
+            "z": -8930.5,
+            "y1": 63,
+            "y2": 64,
+            "lines": {
+                "Cascadia-Laurentides": {
+                    "3rd Upper Cascadia-Laurentides" : ["", "Main line"],
+                    "2nd Upper Cascadia-Laurentides" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Y=64 to Y=65 Elevator",
+            "type": "elev-we",
+            "id": 1233,
+            "x": -16686.5,
+            "z": -8973.5,
+            "y1": 64,
+            "y2": 65,
+            "lines": {
+                "Cascadia-Laurentides": {
+                    "3rd Upper Cascadia-Laurentides" : ["", "Main line"],
+                    "4th Upper Cascadia-Laurentides" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Y=65 to Y=66 Elevator",
+            "type": "elev-we",
+            "id": 1234,
+            "x": -16633.5,
+            "z": -8973.5,
+            "y1": 65,
+            "y2": 66,
+            "lines": {
+                "Cascadia-Laurentides": {
+                    "5th Upper Cascadia-Laurentides" : ["", "Main line"],
+                    "4th Upper Cascadia-Laurentides" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Y=66 to Y=67 Elevator",
+            "type": "elev-we",
+            "id": 1235,
+            "x": -16591.5,
+            "z": -8973.5,
+            "y1": 66,
+            "y2": 67,
+            "lines": {
+                "Cascadia-Laurentides": {
+                    "5th Upper Cascadia-Laurentides" : ["", "Main line"],
+                    "6th Upper Cascadia-Laurentides" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Y=67 to Y=68 Elevator",
+            "type": "elev-we",
+            "id": 1236,
+            "x": -16547.5,
+            "z": -8973.5,
+            "y1": 67,
+            "y2": 68,
+            "lines": {
+                "Cascadia-Laurentides": {
+                    "6th Upper Cascadia-Laurentides" : ["", "Main line"],
+                    "7th Upper Cascadia-Laurentides" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Y=68 to Y=69 Elevator",
+            "type": "elev-we",
+            "id": 1237,
+            "x": -16498.5,
+            "z": -8973.5,
+            "y1": 68,
+            "y2": 69,
+            "lines": {
+                "Cascadia-Laurentides": {
+                    "7th Upper Cascadia-Laurentides" : ["", "Main line"],
+                    "8th Upper Cascadia-Laurentides" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Gray line (Cascadian-Laurentides JCT)",
+            "type": "jct",
+            "id": 1238,
+            "x": -14682.5,
+            "z": -9472.5,
+            "lines": {
+                "Cascadia-Laurentides": {
+                    "8th Upper Cascadia-Laurentides" : ["", "Main line"]
+                },
+                "MTA": {
+                    "Gray": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Look Lale (Laurentides JCT)",
+            "type": "jct",
+            "id": 1239,
+            "x": -17298.5,
+            "z": -8753,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Loon Lake Loop" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "St Cloud",
+            "id": 1240,
+            "x": -17738.5,
+            "z": -8551,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "East" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Loon Lake Loop (East line JCT)",
+            "type": "jct",
+            "id": 1241,
+            "x": -17668,
+            "z": -8551,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "East" : ["", "Main line"],
+                    "Loon Lake Loop" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "West Loon Lake",
+            "id": 1242,
+            "x": -17654,
+            "z": -8650,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Loon Lake Loop" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "NW Loon Lake",
+            "id": 1243,
+            "x": -17616,
+            "z": -8753,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Loon Lake Loop" : ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -16600,7 +16793,8 @@
                             [-14669, -9473],
                             [-14669, -9601],
                             [-12986, -9601]
-                        ]
+                        ],
+						"stations": [1238]
                     },
                     "Monark branch": {
                         "vertices": [
@@ -17608,11 +17802,10 @@
                             [-22039, -8918],
                             [-20156, -8918],
                             [-20156, -8551],
-                            [-18500, -8551],
-                            [-17900, -8551]
+                            [-17668, -8551]
                         ],
                         "stations": [724, 727, 728, 729, 730, 731, 732, 733, 734,
-									735, 736, 737, 738, 739, 740, 741, 873, 874]
+									735, 736, 737, 738, 739, 740, 741, 873, 874, 1240, 1241]
                     },
                     "Spokane Valley branch": {
                         "vertices": [
@@ -17723,6 +17916,19 @@
                     }
                 }
             },
+            "Upper Cascadia - Laurentides": {
+                "prefix": "",
+                "code": "CSC-LRN.lower",
+                "color": "90ee90",
+                "y": 69,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-13384.5, -9665.5]
+                        ]
+                    }
+                }
+            },
             "World Roads": {
                 "prefix": "",
                 "code": "WRd",
@@ -17796,6 +18002,177 @@
                             [-20230, -11939]
                         ],
                         "stations": [1177, 1178, 1179, 1180, 1176, 1181]
+                    }
+                }
+            },
+            "Loon Lake Loop": {
+                "prefix": "",
+                "code": "CSC-LRN.lower",
+                "color": "90ee90",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-17668, -8536, "Continue to East"],
+                            [-17668, -8575],
+                            [-17654, -8575],
+                            [-17654, -8753],
+                            [-17296, -8753]
+                        ],
+                        "stations": [1241, 1242, 1243, 1239]
+                    }
+                }
+            }
+        },
+        "Cascadia-Laurentides": {
+            "Lower Cascadia-Laurentides": {
+                "prefix": "",
+                "code": "CSC-LRN.lower",
+                "color": "90ee90",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-17298.5, -8753],
+                            [-17298.5, -8883.5],
+                            [-17281.5, -8883.5],
+                            [-17281.5, -8900.5],
+                            [-17289.5, -8900.5],
+                            [-17289.5, -8899.5]
+                        ],
+                        "stations": [1239, 1230]
+                    }
+                }
+            },
+            "1st Upper Cascadia-Laurentides": {
+                "prefix": "",
+                "code": "CSC-LRN.upper.1",
+                "color": "00ff00",
+                "y": 62,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-17289.5, -8899.5],
+                            [-17289.5, -8897.5],
+                            [-17225.5, -8897.5],
+                            [-17225.5, -8930.5],
+                            [-16780.5, -8930.5]
+                        ],
+                        "stations": [1230, 1231]
+                    }
+                }
+            },
+            "2nd Upper Cascadia-Laurentides": {
+                "prefix": "",
+                "code": "CSC-LRN.upper.2",
+                "color": "14f314",
+                "y": 63,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-16780.5, -8930.5],
+                            [-16725.5, -8930.5]
+                        ],
+                        "stations": [1231, 1232]
+                    }
+                }
+            },
+            "3rd Upper Cascadia-Laurentides": {
+                "prefix": "",
+                "code": "CSC-LRN.upper.3",
+                "color": "29e729",
+                "y": 64,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-16725.5, -8930.5],
+                            [-16723.5, -8930.5],
+                            [-16723.5, -8973.5],
+                            [-16686.5, -8973.5]
+                        ],
+                        "stations": [1232, 1233]
+                    }
+                }
+            },
+            "4th Upper Cascadia-Laurentides": {
+                "prefix": "",
+                "code": "CSC-LRN.upper.4",
+                "color": "3ddb3d",
+                "y": 65,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-16686.5, -8973.5],
+                            [-16633.5, -8973.5]
+                        ],
+                        "stations": [1233, 1234]
+                    }
+                }
+            },
+            "5th Upper Cascadia-Laurentides": {
+                "prefix": "",
+                "code": "CSC-LRN.upper.5",
+                "color": "51cf51",
+                "y": 66,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-16633.5, -8973.5],
+                            [-16591.5, -8973.5]
+                        ],
+                        "stations": [1234, 1235]
+                    }
+                }
+            },
+            "6th Upper Cascadia-Laurentides": {
+                "prefix": "",
+                "code": "CSC-LRN.upper.6",
+                "color": "66c366",
+                "y": 67,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-16591.5, -8973.5],
+                            [-16547.5, -8973.5]
+                        ],
+                        "stations": [1235, 1236]
+                    }
+                }
+            },
+            "7th Upper Cascadia-Laurentides": {
+                "prefix": "",
+                "code": "CSC-LRN.upper.7",
+                "color": "7ab77a",
+                "y": 68,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-16547.5, -8973.5],
+                            [-16498.5, -8973.5]
+                        ],
+                        "stations": [1236, 1237]
+                    }
+                }
+            },
+            "8th Upper Cascadia-Laurentides": {
+                "prefix": "",
+                "code": "CSC-LRN.upper.8",
+                "color": "8eab8e",
+                "y": 69,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-16498.5, -8973.5],
+                            [-16239.5, -8973.5],
+                            [-16239.5, -9149.5],
+                            [-16222.5, -9149.5],
+                            [-16222.5, -9152.5],
+                            [-14829.5, -9152.5],
+                            [-14829.5, -9363.5],
+                            [-14682.5, -9363.5],
+                            [-14682.5, -9472.5]
+                        ],
+                        "stations": [1237, 1238]
                     }
                 }
             }
