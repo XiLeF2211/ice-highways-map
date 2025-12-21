@@ -14295,13 +14295,14 @@
             "name": "Centra West Elevator",
             "type": "elev-we",
             "id": 1121,
-            "x": -26652,
-            "z": -11863,
+            "x": -26650,
+            "z": -11851,
             "y1": 32,
             "y2": 41,
             "lines": {
                 "Alaskan Ice lines": {
-                    "Blackwater-Nunivak Upper": ["", "Main line"]
+                    "Blackwater-Nunivak Upper": ["", "Main line"],
+                    "Polar High Speed Rail": ["", "Main line"]
                 }
             }
         },
@@ -15575,6 +15576,17 @@
             }
         },
         {
+            "name": "Tel Aviv",
+            "id": 1222,
+            "x": 9214,
+            "z": -5517,
+            "lines": {
+                "Saudi Ice lines": {
+                    "Tel Aviv-BillyCorgan" : ["", "Main line"]
+                }
+            }
+        },
+        {
             "name": "Twinktopia JCT",
             "type": "jct",
             "id": 1223,
@@ -15606,6 +15618,56 @@
             "lines": {
                 "Saudi Ice lines": {
                     "Dzisna-Wadi" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Skibidi",
+            "id": 1226,
+            "x": -26652,
+            "z": -11201,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Polar High Speed Rail" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "North Pole",
+            "id": 1227,
+            "x": -26652,
+            "z": -12400,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Polar High Speed Rail" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Old Dawnstar",
+            "id": 1228,
+            "x": -26652,
+            "z": -12955,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Polar High Speed Rail" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-26640, -12946], [-26654, -12964]]
+            ]
+        },
+        {
+            "name": "Dawnstar North Elevator",
+            "type": "elev-we",
+            "id": 1229,
+            "x": -26652,
+            "z": -13198,
+            "y1": 41,
+            "y2": 9,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Polar High Speed Rail" : ["", "Main line"]
                 }
             }
         }
@@ -19830,6 +19892,9 @@
                     "Main line": {
                         "vertices": [
                             [-26033, -11859],
+                            [-26650, -11859],
+                            [-26650, -11851],
+                            [-26650, -11859],
                             [-27655, -11859],
                             [-27655, -11238],
                             [-27711, -11238]
@@ -19983,6 +20048,24 @@
                             [-31728, -12304]
                         ],
                         "stations": [1147, 1157, 1158, 1159, 1160]
+                    }
+                }
+            },
+            "Polar High Speed Rail": {
+                "prefix": "",
+                "code": "PHSR",
+                "color": "d7a043",
+                "y": 41,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-26652, -11201],
+                            [-26652, -11851],
+                            [-26650, -11851],
+                            [-26652, -11851],
+                            [-26652, -13198]
+                        ],
+                        "stations": [1226, 1121, 1227, 1228, 1229]
                     }
                 }
             }
