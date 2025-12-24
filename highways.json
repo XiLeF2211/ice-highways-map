@@ -2454,13 +2454,16 @@
             }
         },
         {
-            "name": "Yass JCT",
+            "name": "Yass (JCT)",
             "id": 206,
             "x": 27377,
             "z": 6610,
             "lines": {
                 "Pilbara Connex": {
                     "Antarctica-Australia": ["", ""]
+                },
+                "Pilbara National Highway": {
+                    "Alternate Southeast": ["", "Main line"]
                 }
             }
         },
@@ -16134,7 +16137,7 @@
             }
         },
         {
-            "name": "Wollongong",
+            "name": "Wollongong North",
             "id": 1266,
             "x": 27768,
             "z": 6026,
@@ -16269,7 +16272,7 @@
             ]
         },
         {
-            "name": "Canberra",
+            "name": "Canberra JCT",
             "id": 1275,
             "x": 27393.5,
             "z": 6331,
@@ -16777,6 +16780,206 @@
             "lines": {
                 "Pilbara National Highway": {
                     "Onslow": ["", "Learmonth branch"]
+                }
+            }
+        },
+        {
+            "name": "Southeast Australian JCT",
+            "id": 1317,
+            "x": 27000,
+            "z": 5300,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Southeast": ["", "Main line"],
+                    "East-West": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Sealand JCT",
+            "type": "jct",
+            "id": 1318,
+            "x": 27000,
+            "z": 6181,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Southeast": ["", "Main line to New Sealand branch"]
+                }
+            }
+        },
+        {
+            "name": "Flinders",
+            "id": 1319,
+            "x": 27000,
+            "z": 6346,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Southeast": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Skyforge JCT",
+            "type": "jct",
+            "id": 1320,
+            "x": 27000,
+            "z": 6610,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Southeast": ["", "Main line"],
+                    "Alternate Southeast": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Melbourne JCT",
+            "type": "jct",
+            "id": 1321,
+            "x": 27000,
+            "z": 6661,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Southeast": ["", "Main line to Melbourne branch"]
+                }
+            }
+        },
+        {
+            "name": "Melbourne",
+            "id": 1322,
+            "x": 26668,
+            "z": 6850,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Southeast": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Carlton",
+            "id": 1323,
+            "x": 26625,
+            "z": 6661,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Southeast": ["", "Melbourne branch"]
+                }
+            }
+        },
+        {
+            "name": "Balaria JCT",
+            "type": "jct",
+            "id": 1324,
+            "x": 27082,
+            "z": 6181,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Southeast": ["", "New Sealand branch"],
+                    "Alternate Southeast": ["", "Balaria branch"]
+                }
+            }
+        },
+        {
+            "name": "Albury JCT",
+            "type": "jct",
+            "id": 1325,
+            "x": 27290,
+            "z": 6181,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Southeast": ["", "New Sealand branch to Albury branch"]
+                }
+            }
+        },
+        {
+            "name": "Albury West",
+            "id": 1326,
+            "x": 27290,
+            "z": 6127,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Southeast": ["", "Albury branch"]
+                }
+            }
+        },
+        {
+            "name": "Alternate Southeast JCT",
+            "id": 1327,
+            "x": 27377,
+            "z": 6181,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Southeast": ["", "New Sealand branch"],
+                    "Alternate Southeast": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Wollongong South",
+            "id": 1328,
+            "x": 27715,
+            "z": 6181,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Southeast": ["", "New Sealand branch"]
+                }
+            }
+        },
+        {
+            "name": "New Sealand",
+            "id": 1329,
+            "x": 28037,
+            "z": 6199,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Southeast": ["", "New Sealand branch"]
+                }
+            }
+        },
+        {
+            "name": "Canberra AY building",
+            "id": 1330,
+            "x": 27377,
+            "z": 6276,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Alternate Southeast": ["", "Main line to Balaria branch"]
+                }
+            },
+            "areas": [
+                [[27416, 6324], [27419, 6275]],
+                [[27419, 6275], [27377, 6278]]
+            ]
+        },
+        {
+            "name": "ACT (JCT) (National Highway)",
+            "id": 1331,
+            "x": 27377,
+            "z": 6444,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Alternate Southeast": ["", "Main line to ACT line"]
+                }
+            }
+        },
+        {
+            "name": "Kosciuzko",
+            "id": 1332,
+            "x": 27199,
+            "z": 6610,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Alternate Southeast": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Balaria",
+            "id": 1333,
+            "x": 27130,
+            "z": 6025,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Alternate Southeast": ["", "Balaria branch"]
                 }
             }
         }
@@ -17486,7 +17689,7 @@
                             [20991, 5300],
                             [20991, 5074]
                         ],
-                        "stations": [131, [118, "Coolabah branch"], [120, "Longreach branch"], [122, "Quercus Petraea branch"], [124, "Pickle branch"], [126, "Yorke branch"], 1285, 117, 130, [128, "Goondalup branch"], 115]
+                        "stations": [131, [118, "Coolabah branch"], 1317, [120, "Longreach branch"], [122, "Quercus Petraea branch"], [124, "Pickle branch"], [126, "Yorke branch"], 1285, 117, 130, [128, "Goondalup branch"], 115]
                     },
                     "Coolabah branch": {
                         "vertices": [
@@ -17571,7 +17774,7 @@
                             [23059.5, 2631.5],
                             [24023.5, 2631.5]
                         ],
-                        "stations": [1285, [1286, "Adelaide transfer branch"], 1288, [1289, "Mesatown branch"], [1291, "Broome branch"], [1293, "Kimberley Commune branch"], [1295, "New Prague branch"], [1297, "Antioch bypass"], [1298, "Antioch bypass"], 1299]
+                        "stations": [1285, [1286, "Adelaide transfer branch"], [1300, "Liechtenstein branch"], 1288, [1289, "Mesatown branch"], [1291, "Broome branch"], [1293, "Kimberley Commune branch"], [1295, "New Prague branch"], [1297, "Antioch bypass"], [1298, "Antioch bypass"], 1299]
                     },
                     "Adelaide transfer branch": {
                         "vertices": [
@@ -17692,6 +17895,88 @@
                             [24061, 4278]
                         ],
                         "stations": [[1309, "Main line"], 1308]
+                    }
+                }
+            },
+            "Southeast": {
+                "prefix": "",
+                "code": "SE",
+                "color": "a2a2a2",
+                "y": 1,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [27000, 5300],
+                            [27000, 5506],
+                            [26934, 5506],
+                            [26934, 5851],
+                            [27000, 5851],
+                            [27000, 6850],
+                            [26668, 6850]
+                        ],
+                        "stations": [1317, [1318, "New Sealand branch"], 1319, 1320, [1321, "Melbourne branch"], 1322]
+                    },
+                    "Melbourne branch": {
+                        "vertices": [
+                            [27000, 6661],
+                            [26625, 6661]
+                        ],
+                        "stations": [[1321, "Main line"], 1323]
+                    },
+                    "New Sealand branch": {
+                        "vertices": [
+                            [27000, 6181],
+                            [27916, 6181],
+                            [27916, 6201],
+                            [27975, 6201],
+                            [27975, 6211],
+                            [28027, 6211],
+                            [28030, 6208],
+                            [28030, 6199],
+                            [28037, 6199]
+                        ],
+                        "stations": [[1318, "Main line"], 1324, [1325, "Albury branch"], 1327, 1328, 1329]
+                    },
+                    "Albury branch": {
+                        "vertices": [
+                            [27290, 6181],
+                            [27290, 6127]
+                        ],
+                        "stations": [[1325, "New Sealand branch"], 1326]
+                    }
+                }
+            },
+            "Alternate Southeast": {
+                "prefix": "",
+                "code": "A-SE",
+                "color": "c2c2c2",
+                "y": 1,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [27377, 6181],
+                            [27377, 6610],
+                            [27000, 6610]
+                        ],
+                        "stations": [1327, [1330, "Balaria branch"], [1331, "ACT line"], 206, 1332, 1320]
+                    },
+                    "Balaria branch": {
+                        "vertices": [
+                            [27130, 6025],
+                            [27082, 6025],
+                            [27082, 6276],
+                            [27377, 6276]
+                        ],
+                        "stations": [1333, 1324, [1330, "Main line"]]
+                    },
+                    "ACT line": {
+                        "vertices": [
+                            [27380, 6540],
+                            [27536, 6540],
+                            [27536, 6445],
+                            [27377, 6445]
+                        ],
+                        "stations": [[1331, "Main line"]]
                     }
                 }
             }
