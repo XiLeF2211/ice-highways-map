@@ -9085,7 +9085,8 @@
             "z": -9576.5,
             "lines": {
                 "European Intercity Rail": {
-                    "Kielce-Auerbach": ["", ""]
+                    "Kielce-Auerbach": ["", ""],
+                    "City 17-Krn": ["", "Main line"]
                 }
             }
         },
@@ -15883,6 +15884,525 @@
                     "Naples - Bologna" : ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Eindhoven",
+            "id": 1245,
+            "x": 1836,
+            "z": -9386.5,
+            "lines": {
+                "European Intercity Rail": {
+                    "City 17-Krn": ["", "Eindhoven branch"]
+                }
+            }
+        },
+        {
+            "name": "Rayne elevator",
+            "type": "elev-we",
+            "id": 1246,
+            "x": 2454.5,
+            "z": -9087,
+            "y1": 1,
+            "y2": -1,
+            "lines": {
+                "European Intercity Rail": {
+                    "City 17-Krn": ["", "Austrian connector branch"],
+                    "Lower Austrian": ["", "East-West line"]
+                }
+            }
+        },
+        {
+            "name": "Czechoslovakia JCT",
+            "type": "jct",
+            "id": 1247,
+            "x": 2812,
+            "z": -9087,
+            "lines": {
+                "European Intercity Rail": {
+                    "Lower Austrian": ["", "East-West line to North-South line"]
+                }
+            }
+        },
+        {
+            "name": "Western Wien (Vienna)",
+            "id": 1248,
+            "x": 2789,
+            "z": -8999,
+            "lines": {
+                "European Intercity Rail": {
+                    "Lower Austrian": ["", "Wien branch"]
+                }
+            }
+        },
+        {
+            "name": "Eastern Wien (Vienna)",
+            "id": 1249,
+            "x": 2865,
+            "z": -8862,
+            "lines": {
+                "European Intercity Rail": {
+                    "Lower Austrian": ["", "North-South line"]
+                }
+            }
+        },
+        {
+            "name": "Wien fork JCT",
+            "type": "jct",
+            "id": 1250,
+            "x": 2812,
+            "z": -9021,
+            "lines": {
+                "European Intercity Rail": {
+                    "Lower Austrian": ["", "North-South line to Wien branch"]
+                }
+            }
+        },
+        {
+            "name": "Zagreb",
+            "id": 1251,
+            "x": 2738.5,
+            "z": -8687.5,
+            "lines": {
+                "European Intercity Rail": {
+                    "Lower Austrian": ["", "North-South line"]
+                }
+            }
+        },
+        {
+            "name": "Krn",
+            "id": 1252,
+            "x": 2280.5,
+            "z": -8820.5,
+            "lines": {
+                "European Intercity Rail": {
+                    "City 17-Krn": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Eindhoven branch JCT",
+            "type": "jct",
+            "id": 1253,
+            "x": 2280.5,
+            "z": -9386.5,
+            "lines": {
+                "European Intercity Rail": {
+                    "City 17-Krn": ["", "Main line to Eindhoven branch"]
+                }
+            }
+        },
+        {
+            "name": "Linz JCT",
+            "type": "jct",
+            "id": 1254,
+            "x": 2280.5,
+            "z": -9096.5,
+            "lines": {
+                "European Intercity Rail": {
+                    "City 17-Krn": ["", "Main line to Austrian connector branch"]
+                }
+            }
+        },
+        {
+            "name": "New Brisbane",
+            "id": 1255,
+            "x": 28008,
+            "z": 5070,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=67" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Gold Coast (Metrolink)",
+            "id": 1256,
+            "x": 28008,
+            "z": 5370,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=67" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Gold Coast South",
+            "id": 1257,
+            "x": 28008,
+            "z": 5520,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=67" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Lake Macquarie JCT",
+            "type": "jct",
+            "id": 1258,
+            "x": 28008,
+            "z": 5576,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=67" : ["", "Main line to Newcastle branch"]
+                }
+            }
+        },
+        {
+            "name": "Lake Macquarie West",
+            "id": 1259,
+            "x": 28004,
+            "z": 5576,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=67" : ["", "Newcastle branch"]
+                }
+            }
+        },
+        {
+            "name": "Newcastle",
+            "id": 1260,
+            "x": 27784,
+            "z": 5597,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=67" : ["", "Newcastle branch"]
+                }
+            }
+        },
+        {
+            "name": "Lake Macquarie (Metrolink)",
+            "id": 1261,
+            "x": 28008,
+            "z": 5586,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=67" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Lake Macquarie South",
+            "id": 1262,
+            "x": 28008,
+            "z": 5720,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=67" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Parliament (Oceania)",
+            "id": 1263,
+            "x": 27880,
+            "z": 5752,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=67" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[27894, 5759], [27865, 5750]],
+                [[27902, 5758], [27857, 5754]]
+            ]
+        },
+        {
+            "name": "Sydney",
+            "id": 1264,
+            "x": 27768,
+            "z": 5908.5,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=67" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[27765, 5900], [27770, 5916]]
+            ]
+        },
+        {
+            "name": "Wollongong Ramp",
+            "type": "inter1",
+            "id": 1265,
+            "x": 27768,
+            "z": 5970.5,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=67" : ["", "Main line to Wollongong branch"]
+                }
+            }
+        },
+        {
+            "name": "Wollongong",
+            "id": 1266,
+            "x": 27768,
+            "z": 6026,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=67" : ["", "Wollongong branch"]
+                }
+            },
+            "areas": [
+                [[27764, 6013], [27771, 6030]]
+            ]
+        },
+        {
+            "name": "Sydney Elevator",
+            "type": "elev-we",
+            "id": 1267,
+            "x": 27734.5,
+            "z": 5981.5,
+            "y1": 67,
+            "y2": 68,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=67" : ["", "Main line"],
+                    "Blue Y=68" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Parkville",
+            "id": 1268,
+            "x": 27683,
+            "z": 5981.5,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=68" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[27689, 5934], [27694, 5978]],
+                [[27676, 5974], [27694, 5988]]
+            ]
+        },
+        {
+            "name": "Blaxland Heights",
+            "id": 1269,
+            "x": 27566,
+            "z": 5981.5,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=68" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[27560, 5979], [27572, 5986]],
+                [[27564, 5983], [27568, 6023]],
+                [[27558, 6017], [27568, 6023]],
+                [[27555, 6016], [27563, 6024]]
+            ]
+        },
+        {
+            "name": "Paramatta",
+            "id": 1270,
+            "x": 27451,
+            "z": 5981.5,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=68" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[27450, 5899], [27442, 5908]],
+                [[27453, 5900], [27449, 5979]],
+                [[27444, 5976], [27458, 5983]]
+            ]
+        },
+        {
+            "name": "Blaxland eastern ramp",
+            "type": "inter1",
+            "id": 1271,
+            "x": 27428.5,
+            "z": 5981.5,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=68" : ["", "Main line"],
+                    "Green" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Blaxland split ramp",
+            "type": "jct",
+            "id": 1272,
+            "x": 27393.5,
+            "z": 6016.5,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=68" : ["", "Main line"],
+                    "Green" : ["", "Blaxland triangle connector"]
+                }
+            }
+        },
+        {
+            "name": "Albury Central",
+            "id": 1273,
+            "x": 27393.5,
+            "z": 6122,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=68" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[27388, 6115], [27395, 6127]],
+                [[27383, 6117], [27391, 6126]]
+            ]
+        },
+        {
+            "name": "Albury South",
+            "id": 1274,
+            "x": 27393.5,
+            "z": 6268,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=68" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[27388, 6261], [27395, 6275]],
+                [[27389, 6270], [27373, 6266]],
+                [[27371, 6271], [27377, 6265]],
+                [[27367, 6264], [27375, 6272]]
+            ]
+        },
+        {
+            "name": "Canberra",
+            "id": 1275,
+            "x": 27393.5,
+            "z": 6331,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=68" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[27388, 6325], [27395, 6336]],
+                [[27383, 6326], [27391, 6335]]
+            ]
+        },
+        {
+            "name": "ACT",
+            "id": 1276,
+            "x": 27393.5,
+            "z": 6331,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=68" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[27388, 6467], [27395, 6478]],
+                [[27402, 6475], [27396, 6470]],
+                [[27401, 6477], [27397, 6468]],
+                [[27400, 6479], [27398, 6466]]
+            ]
+        },
+        {
+            "name": "ACT East",
+            "id": 1277,
+            "x": 27336,
+            "z": 6548.5,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Blue Y=68" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[27328, 6531], [27343, 6553]]
+            ]
+        },
+        {
+            "name": "Blaxland western ramp",
+            "type": "inter2",
+            "id": 1278,
+            "x": 27358.5,
+            "z": 5981.5,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Green" : ["", "Main line to Blaxland triangle connector"]
+                }
+            }
+        },
+        {
+            "name": "Griffith",
+            "id": 1279,
+            "x": 27180,
+            "z": 5981.5,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Green" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[27186, 5994], [27178, 5986]],
+                [[27175, 5979], [27187, 5986]]
+            ]
+        },
+        {
+            "name": "Whitlam JCT",
+            "type":"jct",
+            "id": 1280,
+            "x": 27072,
+            "z": 5981.5,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Green" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Whitlam",
+            "id": 1281,
+            "x": 27022.5,
+            "z": 5981.5,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Green" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[27009, 5974], [27027, 5988]]
+            ]
+        },
+        {
+            "name": "Dubbo",
+            "id": 1282,
+            "x": 26807,
+            "z": 5984.5,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Green" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sydney East",
+            "id": 1283,
+            "x": 27741,
+            "z": 5943,
+            "lines": {
+                "Local": {
+                    "Sydney Branchline" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sydney Town Spawn",
+            "id": 1284,
+            "x": 27479,
+            "z": 5943,
+            "lines": {
+                "Local": {
+                    "Sydney Branchline" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[27479, 5945], [27476, 5925]],
+                [[27484, 5928], [27476, 5925]]
+            ]
         }
     ],
     "lines": {
@@ -17215,7 +17735,7 @@
         "European Intercity Rail": {
             "Hessen-Niort": {
                 "prefix": "",
-                "code": "H-N",
+                "code": "HNV",
                 "color": "a2a2a2",
                 "y": 1,
                 "branches": {
@@ -17242,7 +17762,7 @@
             },
             "Hannover": {
                 "prefix": "",
-                "code": "",
+                "code": "HAN",
                 "color": "0089ff",
                 "y": 1,
                 "branches": {
@@ -17292,6 +17812,92 @@
                             [3522, -9380.5]
                         ],
                         "stations": [722, 723]
+                    }
+                }
+            },
+            "City 17-Krn": {
+                "prefix": "",
+                "code": "C-K",
+                "color": "a2a2a2",
+                "y": 1,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [2280.5, -9576.5],
+                            [2280.5, -8672.5]
+                        ],
+                        "stations": [721, [1253, "Eindhoven branch"], [1254, "Austrian connector branch"], 1252]
+                    },
+                    "Eindhoven branch": {
+                        "vertices": [
+                            [2280.5, -9386.5],
+                            [2122.5, -9386.5],
+                            [2122.5, -9296.5],
+                            [2122.5, -9386.5],
+                            [2058.5, -9386.5],
+                            [2058.5, -9231.5],
+                            [2058.5, -9386.5],
+                            [1942.5, -9386.5],
+                            [1942.5, -9376.5],
+                            [1942.5, -9485.5],
+                            [1942.5, -9386.5],
+                            [1832.5, -9386.5],
+                            [1832.5, -9160.5],
+                            [1552.5, -9160.5]
+                        ],
+                        "stations": [[1253, "Main line"], 1245]
+                    },
+                    "Austrian connector branch": {
+                        "vertices": [
+                            [2280.5, -9096.5],
+                            [2454.5, -9096.5],
+                            [2454.5, -9087, "DOWN"]
+                        ],
+                        "stations": [[1254, "Main line"], 1246]
+                    }
+                }
+            },
+            "Lower Austrian": {
+                "prefix": "",
+                "code": "AUT",
+                "color": "828282",
+                "y": -1,
+                "branches": {
+                    "North-South line": {
+                        "vertices": [
+                            [2812, -9309],
+                            [2812, -9018],
+                            [2865, -8965],
+                            [2865, -8687.5],
+                            [2609.5, -8687.5],
+                            [2609.5, -8652.5],
+                            [2609.5, -8687.5],
+                            [2580, -8687.5],
+                            [2580, -8684],
+                            [2572, -8684],
+                            [2572, -8691],
+                            [2580, -8691],
+                            [2580, -8684]
+                        ],
+                        "stations": [[1247, "East-West line"], [1250, "Wien branch"], 1249, 1251]
+                    },
+                    "East-West line": {
+                        "vertices": [
+                            [2454.5, -9087],
+                            [2880, -9087],
+                            [2961, -9005],
+                            [3020, -9005],
+                            [3103, -8922.5]
+                        ],
+                        "stations": [1246, [1247, "North-South line"]]
+                    },
+                    "Wien branch": {
+                        "vertices": [
+                            [2812, -9021],
+                            [2688, -8897],
+                            [2688, -8804]
+                        ],
+                        "stations": [[1250, "North-South line"], 1248]
                     }
                 }
             }
@@ -20481,6 +21087,91 @@
                         "stations": [1226, 1121, 1227, 1228, 1229]
                     }
                 }
+            },
+            "Oceanian Metrolink": {
+                "Blue Y=67": {
+                    "prefix": "",
+                    "code": "Blue-67",
+                    "color": "0000ff",
+                    "y": 67,
+                    "branches": {
+                        "Main line": {
+                            "vertices": [
+                                [28008, 5070],
+                                [28008, 5720],
+                                [27976, 5720],
+                                [27976, 5752],
+                                [27880, 5752],
+                                [27768, 5752],
+                                [27768, 5970.5],
+                                [27757, 5981.5],
+                                [27734.5, 5981.5]
+                            ],
+                            "stations": [1255, 1256, 1257, [1258, "Newcastle branch"], 1261, 1262, 1263, 1264, [1265, "Wollongong branch"], 1267]
+                        },
+                        "Newcastle branch": {
+                            "vertices": [
+                                [28008, 5576],
+                                [27784, 5576],
+                                [27784, 5597]
+                            ],
+                            "stations": [[1258, "Main line"], 1259, 1260]
+                        },
+                        "Wollongong branch": {
+                            "vertices": [
+                                [27768, 5970.5],
+                                [27768, 6026]
+                            ],
+                            "stations": [[1265, "Main line"], 1266]
+                        }
+                    }
+                },
+                "Blue Y=68": {
+                    "prefix": "",
+                    "code": "Blue-68",
+                    "color": "0000ff",
+                    "y": 68,
+                    "branches": {
+                        "Main line": {
+                            "vertices": [
+                                [27734.5, 5981.5],
+                                [27428.5, 5981.5],
+                                [27393.5, 6016.5],
+                                [27393.5, 6548.5],
+                                [27330, 6548.5]
+                            ],
+                            "stations": [1267, 1268, 1269, 1270, 1271, 1272, 1273, 1274, 1275, 1276, 1277]
+                        }
+                    }
+                },
+                "Green": {
+                    "prefix": "",
+                    "code": "Green",
+                    "color": "00ff00",
+                    "y": 68,
+                    "branches": {
+                        "Main line": {
+                            "vertices": [
+                                [27428.5, 5981.5],
+                                [26834.5, 5981.5],
+                                [26831.5, 5984.5],
+                                [26785.5, 5984.5],
+                                [26782.5, 5981.5],
+                                [26194.5, 5981.5],
+                                [26194.5, 5635.5],
+                                [25846, 5635.5]
+                            ],
+                            "stations": [1271, [1278, "Blaxland triangle connector"], 1279, 1280, 1281, 1282]
+                        },
+                        "Blaxland triangle connector": {
+                            "vertices": [
+                                [27358.5, 5981.5],
+                                [27393.5, 6016.5]
+                            ],
+                            "stations": [[1278, "Main line"], 1272]
+                        }
+                    }
+                }
             }
         },
         "Local": {
@@ -20878,6 +21569,21 @@
                             [-17048, -7568]
                         ],
                         "stations": [[979, "Main line"], 980]
+                    }
+                }
+            },
+            "Sydney Branchline": {
+                "prefix": "",
+                "code": "Sdn-B",
+                "color": "ffbf00",
+                "y": 74,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [27741, 5943],
+                            [27479, 5943]
+                        ],
+                        "stations": [1283, 1284]
                     }
                 }
             }
