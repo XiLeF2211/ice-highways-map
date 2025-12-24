@@ -16452,7 +16452,8 @@
             "z": 3952,
             "lines": {
                 "Pilbara National Highway": {
-                    "Adelaide" : ["", "Main line"]
+                    "Adelaide" : ["", "Main line"],
+                    "Onslow": ["", "Main line"]
                 }
             }
         },
@@ -16580,7 +16581,202 @@
             "z": 2631.5,
             "lines": {
                 "Pilbara National Highway": {
-                    "Adelaide" : ["", "Main line"]
+                    "Adelaide" : ["", "Main line"],
+                    "Northern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Liechtenstein JCT",
+            "id": 1300,
+            "type": "jct",
+            "x": 22542,
+            "z": 4105,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Adelaide": ["", "Main line to Liechtenstein branch"]
+                }
+            }
+        },
+        {
+            "name": "Liechtenstein",
+            "id": 1301,
+            "x": 22686,
+            "z": 4105,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Adelaide": ["", "Liechtenstein branch"]
+                }
+            }
+        },
+        {
+            "name": "Sakuragaoka",
+            "id": 1302,
+            "x": 24023,
+            "z": 2243,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Northern": ["", "Sakuragaoka branch"]
+                }
+            }
+        },
+        {
+            "name": "Sakuragaoka JCT",
+            "type": "jct",
+            "id": 1303,
+            "x": 24023,
+            "z": 2410,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Northern": ["", "Main line to Sakuragaoka branch"]
+                }
+            }
+        },
+        {
+            "name": "NT",
+            "id": 1304,
+            "x": 25065,
+            "z": 2445,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Northern": ["", "NT branch"]
+                }
+            }
+        },
+        {
+            "name": "NT JCT",
+            "type": "jct",
+            "id": 1305,
+            "x": 24870,
+            "z": 2410,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Northern": ["", "Main line to NT branch"]
+                }
+            }
+        },
+        {
+            "name": "NT (abandoned)",
+            "id": 1306,
+            "x": 24870,
+            "z": 2145,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Northern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Jardine River",
+            "id": 1307,
+            "x": 26162,
+            "z": 1912,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Northern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Papunya",
+            "id": 1308,
+            "x": 24061,
+            "z": 4279,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Northern": ["", "Papunya branch"]
+                }
+            }
+        },
+        {
+            "name": "Papunya JCT",
+            "type": "jct",
+            "id": 1309,
+            "x": 24023,
+            "z": 4047,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Northern": ["", "Main line to Papunya branch"]
+                }
+            }
+        },
+        {
+            "name": "Beltane",
+            "id": 1310,
+            "x": 24281,
+            "z": 4052,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Northern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Maitland",
+            "id": 1311,
+            "x": 24656,
+            "z": 4052,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Northern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Breadland JCT",
+            "type": "jct",
+            "id": 1312,
+            "x": 24023,
+            "z": 3951,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Northern": ["", "Main line"],
+                    "Onslow": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Derby Town",
+            "id": 1313,
+            "x": 22621,
+            "z": 3951,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Onslow": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Southern Onslow Bay",
+            "id": 1314,
+            "x": 21823,
+            "z": 3880,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Onslow": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Learmonth JCT",
+            "type": "jct",
+            "id": 1315,
+            "x": 21823,
+            "z": 3951,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Onslow": ["", "Main line to Learmonth branch"]
+                }
+            }
+        },
+        {
+            "name": "Learmonth Underwater",
+            "id": 1316,
+            "x": 20944,
+            "z": 3951,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Onslow": ["", "Learmonth branch"]
                 }
             }
         }
@@ -17420,6 +17616,82 @@
                             [23761.5, 2631.5]
                         ],
                         "stations": [[1297, "Main line"], [1298, "Main line"]]
+                    },
+                    "Liechtenstein branch": {
+                        "vertices": [
+                            [22542, 4105],
+                            [22686, 4105]
+                        ],
+                        "stations": [[1300, "Main line"], 1301]
+                    }
+                }
+            },
+            "Onslow": {
+                "prefix": "",
+                "code": "ONS",
+                "color": "828282",
+                "y": 1,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [24023, 3951],
+                            [21823, 3951],
+                            [21823, 3530],
+                            [22095, 3530]
+                        ],
+                        "stations": [1314, [1315, "Learmonth branch"], 1288, 1313, 1312]
+                    },
+                    "Learmonth branch": {
+                        "vertices": [
+                            [21823, 3951],
+                            [20944, 3951]
+                        ],
+                        "stations": [[1315, "Main line"], 1316]
+                    }
+                }
+            },
+            "Northern": {
+                "prefix": "",
+                "code": "N",
+                "color": "c2c2c2",
+                "y": 1,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [24656, 4052],
+                            [24182, 4052],
+                            [24182, 4047],
+                            [24023, 4047],
+                            [24023, 2410],
+                            [24870, 2410],
+                            [24870, 2145],
+                            [24870, 1912],
+                            [26162, 1912]
+                        ],
+                        "stations": [1307, 1306, [1305, "NT branch"], [1303, "Sakuragaoka branch"], 1299, 1312, [1309, "Papunya branch"], 1310, 1311]
+                    },
+                    "Sakuragaoka branch": {
+                        "vertices": [
+                            [24023, 2410],
+                            [24023, 2243]
+                        ],
+                        "stations": [[1303, "Main line"], 1302]
+                    },
+                    "NT branch": {
+                        "vertices": [
+                            [24870, 2410],
+                            [25065, 2410],
+                            [25065, 2445]
+                        ],
+                        "stations": [[1305, "Main line"], 1304]
+                    },
+                    "Papunya branch": {
+                        "vertices": [
+                            [24023, 4047],
+                            [24023, 4278],
+                            [24061, 4278]
+                        ],
+                        "stations": [[1309, "Main line"], 1308]
                     }
                 }
             }
