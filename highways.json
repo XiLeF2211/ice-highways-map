@@ -16388,6 +16388,21 @@
                     "Sydney Branchline" : ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Sydney Town Spawn",
+            "id": 1284,
+            "x": 27479,
+            "z": 5943,
+            "lines": {
+                "Local": {
+                    "Sydney Branchline" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[27479, 5945], [27476, 5925]],
+                [[27484, 5928], [27476, 5925]]
+            ]
         }
     ],
     "lines": {
