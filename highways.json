@@ -16287,7 +16287,7 @@
             "name": "ACT",
             "id": 1276,
             "x": 27393.5,
-            "z": 6331,
+            "z": 6473,
             "lines": {
                 "Oceanian Metrolink": {
                     "Blue Y=68" : ["", "Main line"]
@@ -16403,6 +16403,186 @@
                 [[27479, 5945], [27476, 5925]],
                 [[27484, 5928], [27476, 5925]]
             ]
+        },
+        {
+            "name": "Nullarbor North JCT",
+            "type":"jct",
+            "id": 1285,
+            "x": 22535.5,
+            "z": 5300,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Adelaide" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Adelaide (JCT)",
+            "id": 1286,
+            "x": 22535.5,
+            "z": 4484,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Adelaide" : ["", "Main line to Adelaide transfer branch"]
+                }
+            },
+            "areas": [
+                [[22540, 4497], [22524, 4480]]
+            ]
+        },
+        {
+            "name": "Adelaide Australian Highway connector elevator",
+            "type": "elev-we",
+            "id": 1287,
+            "x": 22448,
+            "z": 4484,
+            "y1": 2,
+            "y2": 31,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Adelaide" : ["", "Adelaide transfer branch"]
+                }
+            }
+        },
+        {
+            "name": "Pilbara Roundabout JCT",
+            "type": "jct",
+            "id": 1288,
+            "x": 22542.5,
+            "z": 3952,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Adelaide" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mesatown JCT",
+            "type": "jct",
+            "id": 1289,
+            "x": 22542.5,
+            "z": 3514,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Adelaide" : ["", "Main line to Mesatown branch"]
+                }
+            }
+        },
+        {
+            "name": "Mesatown",
+            "id": 1290,
+            "x": 22894,
+            "z": 3514,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Adelaide" : ["", "Mesatown branch"]
+                }
+            }
+        },
+        {
+            "name": "Broome JCT",
+            "type": "jct",
+            "id": 1291,
+            "x": 22542.5,
+            "z": 3279.5,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Adelaide" : ["", "Main line to Broome branch"]
+                }
+            }
+        },
+        {
+            "name": "Broome (National Highway)",
+            "id": 1292,
+            "x": 22464,
+            "z": 3279.5,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Adelaide" : ["", "Broome branch"]
+                }
+            }
+        },
+        {
+            "name": "Kimberley Commune JCT",
+            "type": "jct",
+            "id": 1293,
+            "x": 22542.5,
+            "z": 2978,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Adelaide" : ["", "Main line to Kimberley Commune branch"]
+                }
+            }
+        },
+        {
+            "name": "Kimberley Commune (National Highway)",
+            "id": 1294,
+            "x": 22700,
+            "z": 2978,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Adelaide" : ["", "Kimberley Commune branch"]
+                }
+            }
+        },
+        {
+            "name": "New Prague JCT",
+            "type": "jct",
+            "id": 1295,
+            "x": 23059.5,
+            "z": 2631.5,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Adelaide" : ["", "Main line to New Prague branch"]
+                }
+            }
+        },
+        {
+            "name": "New Prague",
+            "id": 1296,
+            "x": 23059.5,
+            "z": 2580,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Adelaide" : ["", "New Prague branch"]
+                }
+            }
+        },
+        {
+            "name": "Antioch West JCT",
+            "type": "jct",
+            "id": 1297,
+            "x": 23694.5,
+            "z": 2631.5,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Adelaide" : ["", "Main line to Antioch bypass"]
+                }
+            }
+        },
+        {
+            "name": "Antioch East JCT",
+            "type": "jct",
+            "id": 1298,
+            "x": 23761.5,
+            "z": 2631.5,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Adelaide" : ["", "Main line to Antioch bypass"]
+                }
+            }
+        },
+        {
+            "name": "Gakkuen JCT",
+            "type": "jct",
+            "id": 1299,
+            "x": 24023.5,
+            "z": 2631.5,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Adelaide" : ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -17079,9 +17259,9 @@
         "Pilbara National Highway": {
             "East Coast": {
                 "prefix": "",
-                "code": "",
+                "code": "EC",
                 "color": "a2a2a2",
-                "y": 1,
+                "y": 2,
                 "branches": {
                     "": {
                         "vertices": [
@@ -17100,9 +17280,9 @@
             },
             "East-West": {
                 "prefix": "",
-                "code": "",
+                "code": "E-W",
                 "color": "a2a2a2",
-                "y": 1,
+                "y": 2,
                 "branches": {
                     "Main line": {
                         "vertices": [
@@ -17110,7 +17290,7 @@
                             [20991, 5300],
                             [20991, 5074]
                         ],
-                        "stations": [131, [118, "Coolabah branch"], [120, "Longreach branch"], [122, "Quercus Petraea branch"], [124, "Pickle branch"], [126, "Yorke branch"], 117, 130, [128, "Goondalup branch"], 115]
+                        "stations": [131, [118, "Coolabah branch"], [120, "Longreach branch"], [122, "Quercus Petraea branch"], [124, "Pickle branch"], [126, "Yorke branch"], 1285, 117, 130, [128, "Goondalup branch"], 115]
                     },
                     "Coolabah branch": {
                         "vertices": [
@@ -17159,9 +17339,9 @@
             },
             "Mundaring": {
                 "prefix": "",
-                "code": "",
+                "code": "MD",
                 "color": "a2a2a2",
-                "y": 1,
+                "y": 2,
                 "branches": {
                     "Main line": {
                         "vertices": [
@@ -17176,6 +17356,70 @@
                             [21252, 5743]
                         ],
                         "stations": [[129, "Main line"], 97]
+                    }
+                }
+            },
+            "Adelaide": {
+                "prefix": "",
+                "code": "AD",
+                "color": "a2a2a2",
+                "y": 2,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [22535.5, 5300],
+                            [22535.5, 4395],
+                            [22542.5, 4395],
+                            [22542.5, 2641.5],
+                            [23059.5, 2641.5],
+                            [23059.5, 2631.5],
+                            [24023.5, 2631.5]
+                        ],
+                        "stations": [1285, [1286, "Adelaide transfer branch"], 1288, [1289, "Mesatown branch"], [1291, "Broome branch"], [1293, "Kimberley Commune branch"], [1295, "New Prague branch"], [1297, "Antioch bypass"], [1298, "Antioch bypass"], 1299]
+                    },
+                    "Adelaide transfer branch": {
+                        "vertices": [
+                            [22535.5, 4484],
+                            [22448, 4484]
+                        ],
+                        "stations": [[1286, "Main line"], 1287]
+                    },
+                    "Mesatown branch": {
+                        "vertices": [
+                            [22542.5, 3514],
+                            [22894, 3514]
+                        ],
+                        "stations": [[1289, "Main line"], 1290]
+                    },
+                    "Broome branch": {
+                        "vertices": [
+                            [22542.5, 3279.5],
+                            [22464, 3279.5]
+                        ],
+                        "stations": [[1291, "Main line"], 1292]
+                    },
+                    "Kimberley Commune branch": {
+                        "vertices": [
+                            [22542.5, 2978],
+                            [22700, 2978]
+                        ],
+                        "stations": [[1293, "Main line"], 1294]
+                    },
+                    "New Prague branch": {
+                        "vertices": [
+                            [23059.5, 2631.5],
+                            [23059.5, 2580]
+                        ],
+                        "stations": [[1295, "Main line"], 1296]
+                    },
+                    "Antioch bypass": {
+                        "vertices": [
+                            [23694.5, 2631.5],
+                            [23694.5, 2621.5],
+                            [23761.5, 2621.5],
+                            [23761.5, 2631.5]
+                        ],
+                        "stations": [[1297, "Main line"], [1298, "Main line"]]
                     }
                 }
             }
