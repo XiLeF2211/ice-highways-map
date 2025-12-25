@@ -16982,6 +16982,32 @@
                     "Alternate Southeast": ["", "Balaria branch"]
                 }
             }
+        },
+        {
+            "name": "Pilbara Nation Spawn",
+            "id": 1334,
+            "x": 22186,
+            "z": 3531,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Onslow": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[22178, 3533], [22192, 3520]]
+            ]
+        },
+        {
+            "name": "Onslow Bay Orbenator JCT",
+            "type": "jct",
+            "id": 1335,
+            "x": 22023,
+            "z": 3531,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Onslow": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -17833,16 +17859,16 @@
                 "prefix": "",
                 "code": "ONS",
                 "color": "828282",
-                "y": 1,
+                "y": 2,
                 "branches": {
                     "Main line": {
                         "vertices": [
                             [24023, 3951],
                             [21823, 3951],
-                            [21823, 3530],
-                            [22095, 3530]
+                            [21823, 3531],
+                            [22191, 3531]
                         ],
-                        "stations": [1314, [1315, "Learmonth branch"], 1288, 1313, 1312]
+                        "stations": [1334, 1335, 1314, [1315, "Learmonth branch"], 1288, 1313, 1312]
                     },
                     "Learmonth branch": {
                         "vertices": [
@@ -17857,7 +17883,7 @@
                 "prefix": "",
                 "code": "N",
                 "color": "c2c2c2",
-                "y": 1,
+                "y": 2,
                 "branches": {
                     "Main line": {
                         "vertices": [
@@ -17902,7 +17928,7 @@
                 "prefix": "",
                 "code": "SE",
                 "color": "a2a2a2",
-                "y": 1,
+                "y": 2,
                 "branches": {
                     "Main line": {
                         "vertices": [
@@ -17950,7 +17976,7 @@
                 "prefix": "",
                 "code": "A-SE",
                 "color": "c2c2c2",
-                "y": 1,
+                "y": 2,
                 "branches": {
                     "Main line": {
                         "vertices": [
