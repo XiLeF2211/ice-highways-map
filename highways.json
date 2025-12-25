@@ -1505,8 +1505,14 @@
             "lines": {
                 "Pilbara National Highway": {
                     "East-West": ["", "Pickle branch"]
+                },
+                "Australian Ice Highways": {
+                    "Transcontinental": ["", "Pickle branch"]
                 }
-            }
+            },
+            "areas": [
+                [[25536, 4977], [25559, 4964]]
+            ]
         },
         {
             "name": "Yorke JCT",
@@ -16434,7 +16440,7 @@
             ]
         },
         {
-            "name": "Adelaide Australian Highway connector elevator",
+            "name": "Adelaide Australian Ice Highway connector elevator",
             "type": "elev-we",
             "id": 1287,
             "x": 22448,
@@ -17100,7 +17106,7 @@
             "x": 24575,
             "z": 4583,
             "y1": 32,
-            "y1": 28,
+            "y2": 28,
             "lines": {
                 "Intercontinental": {
                     "Adelaide-Simpson Y=32" : ["", "Australian Ice Highways connector"]
@@ -17114,6 +17120,9 @@
             "x": 24571,
             "z": 4588,
             "lines": {
+                "Australian Ice Highways": {
+                    "Transcontinental" : ["", "Simpson branch" ]
+                },
                 "Intercontinental": {
                     "Adelaide-Simpson Y=32" : ["", "Australia Ice Highways connector"]
                 }
@@ -22033,6 +22042,59 @@
                             [-26652, -13198]
                         ],
                         "stations": [1226, 1121, 1227, 1228, 1229]
+                    }
+                }
+            }
+        },
+        "Australian Ice Highways": {
+            "Transcontinental": {
+                "prefix": "",
+                "code": "TCN",
+                "color": "cd0000",
+                "y": 28,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [20835, 5038],
+                            [28059, 5038],
+                            [28059, 4994],
+                            [28098, 4994]
+                        ],
+                        "stations": []
+                    },
+                    "Freddo branch": {
+                        "vertices": [
+                            [21225, 5038],
+                            [21225, 5790],
+                            [21167, 5790],
+                            [21167, 5905],
+                            [21225, 5905],
+                            [21225, 5848],
+                            [21225, 5905],
+                            [21225, 6266]
+                        ],
+                        "stations": []
+                    },
+                    "Esperance branch": {
+                        "vertices": [
+                            [23087, 5038],
+                            [23087, 5839]
+                        ],
+                        "stations": []
+                    },
+                    "Simpson branch": {
+                        "vertices": [
+                            [24571, 5038],
+                            [24571, 4588]
+                        ],
+                        "stations": [1343]
+                    },
+                    "Pickle branch": {
+                        "vertices": [
+                            [25550, 5038],
+                            [25550, 4966]
+                        ],
+                        "stations": [125]
                     }
                 }
             }
