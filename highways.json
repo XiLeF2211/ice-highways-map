@@ -17099,6 +17099,8 @@
             "id": 1342,
             "x": 24575,
             "z": 4583,
+            "y1": 32,
+            "y1": 28,
             "lines": {
                 "Intercontinental": {
                     "Adelaide-Simpson Y=32" : ["", "Australian Ice Highways connector"]
@@ -17154,7 +17156,7 @@
                             [21303, 4020],
                             [20865, 4020]
                         ],
-                        "stations": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+                        "stations": [0, 1, 2, 1338, 3, 4, 5, 6, 7, 8, 9, 10]
                     }
                 }
             },
