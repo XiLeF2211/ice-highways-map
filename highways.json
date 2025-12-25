@@ -17124,7 +17124,7 @@
                     "Transcontinental" : ["", "Simpson branch" ]
                 },
                 "Intercontinental": {
-                    "Adelaide-Simpson Y=32" : ["", "Australia Ice Highways connector"]
+                    "Adelaide-Simpson Y=32" : ["", "Australian Ice Highways connector"]
                 }
             }
         },
@@ -23524,7 +23524,7 @@
                         ],
                         "stations": [1339, 1340, [1341, "Australian Ice Highways connector"], 1344]
                     },
-                    "Australia Ice Highways connector": {
+                    "Australian Ice Highways connector": {
                         "vertices": [
                             [24575, 4581],
                             [24575, 4588],
