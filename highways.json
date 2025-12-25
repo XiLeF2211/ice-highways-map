@@ -16423,7 +16423,7 @@
             "name": "Adelaide (JCT)",
             "id": 1286,
             "x": 22535.5,
-            "z": 4484,
+            "z": 4483,
             "lines": {
                 "Pilbara National Highway": {
                     "Adelaide" : ["", "Main line to Adelaide transfer branch"]
@@ -16438,12 +16438,15 @@
             "type": "elev-we",
             "id": 1287,
             "x": 22448,
-            "z": 4484,
+            "z": 4483,
             "y1": 2,
             "y2": 31,
             "lines": {
                 "Pilbara National Highway": {
                     "Adelaide" : ["", "Adelaide transfer branch"]
+                },
+                "Intercontinental": {
+                    "Adelaide-Simpson Y=31" : ["", "Main line"]
                 }
             }
         },
@@ -16998,7 +17001,7 @@
             ]
         },
         {
-            "name": "Onslow Bay Orbenator JCT",
+            "name": "Onslow Bay-Orbenator JCT",
             "type": "jct",
             "id": 1335,
             "x": 22023,
@@ -17006,6 +17009,122 @@
             "lines": {
                 "Pilbara National Highway": {
                     "Onslow": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Adelaide Roundabout JCT",
+            "id": 1336,
+            "x": 22435,
+            "z": 4483,
+            "lines": {
+                "Intercontinental": {
+                    "Adelaide-Simpson Y=31" : ["", "Main line to SEAN connector branch"]
+                }
+            },
+            "areas": [
+                [[22540, 4497], [22524, 4480]]
+            ]
+        },
+        {
+            "name": "Adelaide SEAN connector elevator",
+            "type": "elev-we",
+            "id": 1337,
+            "x": 22393,
+            "z": 4511,
+            "y1": 31,
+            "y2": 44,
+            "lines": {
+                "Intercontinental": {
+                    "Adelaide-Simpson Y=31" : ["", "SEAN connector branch"]
+                }
+            }
+        },
+        {
+            "name": "Adelaide West JCT",
+            "type": "jct",
+            "id": 1338,
+            "x": 22393,
+            "z": 4513,
+            "lines": {
+                "Intercontinental": {
+                    "Adelaide-Simpson Y=31" : ["", "SEAN connector branch"]
+                },
+                "SEAN": {
+                    "Purple": ["04a", ""]
+                }
+            }
+        },
+        {
+            "name": "Laverton North elevator",
+            "type": "elev-ew",
+            "id": 1339,
+            "x": 22999,
+            "z": 4483.5,
+            "y1": 31,
+            "y2": 32,
+            "lines": {
+                "Intercontinental": {
+                    "Adelaide-Simpson Y=31" : ["", "Main line"],
+                    "Adelaide-Simpson Y=32" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Freddo",
+            "id": 1340,
+            "x": 23960,
+            "z": 4483.5,
+            "lines": {
+                "Intercontinental": {
+                    "Adelaide-Simpson Y=32" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Festum JCT",
+            "type": "jct",
+            "id": 1341,
+            "x": 24575,
+            "z": 4581,
+            "lines": {
+                "Intercontinental": {
+                    "Adelaide-Simpson Y=32" : ["", "Main line to Australian Ice Highways connector"]
+                }
+            }
+        },
+        {
+            "name": "Festum Elevator",
+            "type": "elev-ew",
+            "id": 1342,
+            "x": 24575,
+            "z": 4583,
+            "lines": {
+                "Intercontinental": {
+                    "Adelaide-Simpson Y=32" : ["", "Australian Ice Highways connector"]
+                }
+            }
+        },
+        {
+            "name": "Festum South JCT",
+            "type": "jct",
+            "id": 1343,
+            "x": 24571,
+            "z": 4588,
+            "lines": {
+                "Intercontinental": {
+                    "Adelaide-Simpson Y=32" : ["", "Australia Ice Highways connector"]
+                }
+            }
+        },
+        {
+            "name": "Simpson",
+            "id": 1344,
+            "x": 25036,
+            "z": 4581,
+            "lines": {
+                "Intercontinental": {
+                    "Adelaide-Simpson Y=32" : ["", "Main line"]
                 }
             }
         }
@@ -17804,8 +17923,8 @@
                     },
                     "Adelaide transfer branch": {
                         "vertices": [
-                            [22535.5, 4484],
-                            [22448, 4484]
+                            [22535.5, 4483],
+                            [22448, 4483]
                         ],
                         "stations": [[1286, "Main line"], 1287]
                     },
@@ -23296,6 +23415,58 @@
                             [-2594, -1671]
                         ],
                         "stations": [[1214, "Main line"], 1215]
+                    }
+                }
+            },
+            "Adelaide-Simpson Y=31": {
+                "prefix": "",
+                "code": "AS-31",
+                "color": "52cba2",
+                "y": 31,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [22448, 4483],
+                            [22435, 4483],
+                            [22435, 4492],
+                            [22468.5, 4492],
+                            [22468.5, 4483.5],
+                            [22999, 4483.5]
+                        ],
+                        "stations": [1287, [1336, "SEAN connector branch"], 1339]
+                    },
+                    "SEAN connector branch": {
+                        "vertices": [
+                            [22435, 4483],
+                            [22393, 4483],
+                            [22393, 4513]
+                        ],
+                        "stations": [[1336, "Main line"], 1337, 1338]
+                    }
+                }
+            },
+            "Adelaide-Simpson Y=32": {
+                "prefix": "",
+                "code": "AS-32",
+                "color": "52cba2",
+                "y": 32,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [22999, 4483.5],
+                            [24109, 4483.5],
+                            [24109, 4581],
+                            [25036, 4581]
+                        ],
+                        "stations": [1339, 1340, [1341, "Australian Ice Highways connector"], 1344]
+                    },
+                    "Australia Ice Highways connector": {
+                        "vertices": [
+                            [24575, 4581],
+                            [24575, 4588],
+                            [24571, 4588]
+                        ],
+                        "stations": [[1341, "Main line"], 1342, 1343]
                     }
                 }
             }
