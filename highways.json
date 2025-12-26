@@ -8731,7 +8731,8 @@
             "z": -7627,
             "lines": {
                 "Genoa Ice lines": {
-                    "Lecce": ["", "Main line"]
+                    "Lecce": ["", "Main line"],
+                    "Calabria - Bari - Vukojebina": ["", "Main line"]
                 }
             },
             "areas": [
@@ -17460,6 +17461,78 @@
                     "East Coastal" : ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Calabria",
+            "id": 1370,
+            "x": 2820,
+            "z": -7322.5,
+            "lines": {
+                "Genoa Ice lines": {
+                    "Calabria - Bari - Vukojebina" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[2821, -7320], [2811, -7324]],
+                [[2809, -7323], [2811, -7324]],
+                [[2809, -7321], [2811, -7322]]
+            ]
+        },
+        {
+            "name": "Bari",
+            "id": 1371,
+            "x": 2820,
+            "z": -7734,
+            "lines": {
+                "Genoa Ice lines": {
+                    "Calabria - Bari - Vukojebina" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[2823, -7732], [2819, -7736]],
+                [[2823, -7732], [2824, -7733]],
+                [[2823, -7735], [2824, -7736]]
+            ]
+        },
+        {
+            "name": "Venice",
+            "id": 1372,
+            "x": 2833,
+            "z": -8223,
+            "lines": {
+                "Genoa Ice lines": {
+                    "Calabria - Bari - Vukojebina" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[2832, -8224], [2857, -8222]],
+                [[2854, -8202], [2857, -8222]],
+                [[2854, -8202], [2853, -8200]],
+                [[2856, -8202], [2857, -8200]]
+            ]
+        },
+        {
+            "name": "Vukojebina JCT",
+            "type": "jct",
+            "id": 1373,
+            "x": 2833,
+            "z": -8258,
+            "lines": {
+                "Genoa Ice lines": {
+                    "Calabria - Bari - Vukojebina" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Vukojebina",
+            "id": 1374,
+            "x": 2833,
+            "z": -8307.5,
+            "lines": {
+                "Genoa Ice lines": {
+                    "Calabria - Bari - Vukojebina" : ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -20151,6 +20224,23 @@
                             [2096, -8278]
                         ],
                         "stations": [691, 693, 1244]
+                    }
+                }
+            },
+            "Calabria - Bari - Vukojebina": {
+                "prefix": "",
+                "code": "CLB-BAR-VUK",
+                "color": "E1FF00",
+                "y": 19,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [2820, -7318],
+                            [2820, -8095],
+                            [2833, -8095],
+                            [2833, -8309]
+                        ],
+                        "stations": [1370, 694, 1371, 1372, 1373, 1374]
                     }
                 }
             },
