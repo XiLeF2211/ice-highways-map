@@ -1507,7 +1507,7 @@
                     "East-West": ["", "Pickle branch"]
                 },
                 "Australian Ice Highways": {
-                    "Transcontinental": ["", "Pickle branch (Australian Ice lines)"]
+                    "Transcontinental": ["", "Pickle branch"]
                 }
             },
             "areas": [
@@ -16421,6 +16421,7 @@
             "z": 5300,
             "lines": {
                 "Pilbara National Highway": {
+                    "East-West" : ["", "Main line"],
                     "Adelaide" : ["", "Main line"]
                 }
             }
@@ -17216,7 +17217,7 @@
             "z": 5038,
             "lines": {
                 "Australian Ice Highways": {
-                    "Transcontinental" : ["", "Main line to Pickle branch (Australian Ice lines)"]
+                    "Transcontinental" : ["", "Main line to Pickle branch"]
                 }
             }
         },
@@ -22194,7 +22195,7 @@
                             [28059, 4994],
                             [28098, 4994]
                         ],
-                        "stations": [1345, 1346, [1347, "Freddo branch"], [1349, "Esperance branch"], [1350, "Simpson branch"], [1351, "Pickle branch (Australian Ice lines)"], 1352, 1353, 1354, 1355]
+                        "stations": [1345, 1346, [1347, "Freddo branch"], [1349, "Esperance branch"], [1350, "Simpson branch"], [1351, "Pickle branch"], 1352, 1353, 1354, 1355]
                     },
                     "Freddo branch": {
                         "vertices": [
@@ -22223,7 +22224,7 @@
                         ],
                         "stations": [[1350, "Main line"], 1343]
                     },
-                    "Pickle branch (Australian Ice lines)": {
+                    "Pickle branch": {
                         "vertices": [
                             [25550, 5038],
                             [25550, 4966]
