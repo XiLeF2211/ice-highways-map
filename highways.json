@@ -1507,7 +1507,7 @@
                     "East-West": ["", "Pickle branch"]
                 },
                 "Australian Ice Highways": {
-                    "Transcontinental": ["", "Pickle branch"]
+                    "Transcontinental": ["", "Pickle branch (Australian Ice lines)"]
                 }
             },
             "areas": [
@@ -17138,6 +17138,140 @@
                     "Adelaide-Simpson Y=32" : ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Forge Emergency Exit",
+            "id": 1345,
+            "x": 20835,
+            "z": 5038,
+            "lines": {
+                "Australian Ice Highways": {
+                    "Transcontinental" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hawke South",
+            "id": 1346,
+            "x": 20936,
+            "z": 5038,
+            "lines": {
+                "Australian Ice Highways": {
+                    "Transcontinental" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hawke-Jurien JCT",
+            "type": "jct",
+            "id": 1347,
+            "x": 21225,
+            "z": 5038,
+            "lines": {
+                "Australian Ice Highways": {
+                    "Transcontinental" : ["", "Main line to Freddo branch"]
+                }
+            }
+        },
+        {
+            "name": "Freddo",
+            "id": 1348,
+            "x": 21225,
+            "z": 6262,
+            "lines": {
+                "Australian Ice Highways": {
+                    "Transcontinental" : ["", "Freddo branch"]
+                }
+            }
+        },
+        {
+            "name": "DunsBorough-Esperance JCT",
+            "type": "jct",
+            "id": 1349,
+            "x": 23087,
+            "z": 5038,
+            "lines": {
+                "Australian Ice Highways": {
+                    "Transcontinental" : ["", "Main line to Esperance branch"]
+                }
+            }
+        },
+        {
+            "name": "CooberPedy JCT",
+            "type": "jct",
+            "id": 1350,
+            "x": 24571,
+            "z": 5038,
+            "lines": {
+                "Australian Ice Highways": {
+                    "Transcontinental" : ["", "Main line to Simpson branch"]
+                }
+            }
+        },
+        {
+            "name": "Pickle North JCT",
+            "type": "jct",
+            "id": 1351,
+            "x": 25550,
+            "z": 5038,
+            "lines": {
+                "Australian Ice Highways": {
+                    "Transcontinental" : ["", "Main line to Pickle branch (Australian Ice lines)"]
+                }
+            }
+        },
+        {
+            "name": "Goodooga West JCT",
+            "type": "jct",
+            "id": 1352,
+            "x": 27048,
+            "z": 5038,
+            "lines": {
+                "Australian Ice Highways": {
+                    "Transcontinental" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Goodooga JCT",
+            "type": "jct",
+            "id": 1353,
+            "x": 27098,
+            "z": 5038,
+            "lines": {
+                "Australian Ice Highways": {
+                    "Transcontinental" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Goodooga",
+            "id": 1354,
+            "x": 27102,
+            "z": 5038,
+            "lines": {
+                "Australian Ice Highways": {
+                    "Transcontinental" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[25536, 4977], [25559, 4964]]
+            ]
+        },
+        {
+            "name": "Brisbane",
+            "id": 1355,
+            "x": 28098,
+            "z": 4994,
+            "lines": {
+                "Australian Ice Highways": {
+                    "Transcontinental" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[28092, 4996], [28104, 4978]],
+                [[28099, 4979], [28109, 4988]]
+            ]
         }
     ],
     "lines": {
@@ -22060,7 +22194,7 @@
                             [28059, 4994],
                             [28098, 4994]
                         ],
-                        "stations": []
+                        "stations": [1345, 1346, [1347, "Freddo branch"], [1349, "Esperance branch"], [1350, "Simpson branch"], [1351, "Pickle branch (Australian Ice lines)"], 1352, 1353, 1354, 1355]
                     },
                     "Freddo branch": {
                         "vertices": [
@@ -22073,28 +22207,28 @@
                             [21225, 5905],
                             [21225, 6266]
                         ],
-                        "stations": []
+                        "stations": [[1347, "Main line"], 1348]
                     },
                     "Esperance branch": {
                         "vertices": [
                             [23087, 5038],
                             [23087, 5839]
                         ],
-                        "stations": []
+                        "stations": [[1349, "Main line"]]
                     },
                     "Simpson branch": {
                         "vertices": [
                             [24571, 5038],
                             [24571, 4588]
                         ],
-                        "stations": [1343]
+                        "stations": [[1350, "Main line"], 1343]
                     },
-                    "Pickle branch": {
+                    "Pickle branch (Australian Ice lines)": {
                         "vertices": [
                             [25550, 5038],
                             [25550, 4966]
                         ],
-                        "stations": [125]
+                        "stations": [[1351, "Main line"], 125]
                     }
                 }
             }
