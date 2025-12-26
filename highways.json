@@ -1007,15 +1007,22 @@
             }
         },
         {
-            "name": "Pilbakraft Hall",
+            "name": "Pilbakraft Hall / Nation Spawn",
             "id": 84,
-            "x": 22178,
-            "z": 3539,
+            "x": 22186,
+            "z": 3531,
             "lines": {
                 "SEAN": {
                     "Green": ["4", "Main line"]
+                },
+                "Pilbara National Highway": {
+                    "Onslow": ["", "Main line"]
                 }
-            }
+            },
+            "areas": [
+                [[22178, 3533], [22192, 3520]],
+                [[22190, 3544], [22177, 3532]]
+            ]
         },
         {
             "name": "Panda_Behr's",
@@ -17010,18 +17017,12 @@
             }
         },
         {
-            "name": "Pilbara Nation Spawn",
+            "name": "unused",
             "id": 1334,
-            "x": 22186,
-            "z": 3531,
+            "x": 0,
+            "z": 0,
             "lines": {
-                "Pilbara National Highway": {
-                    "Onslow": ["", "Main line"]
-                }
-            },
-            "areas": [
-                [[22178, 3533], [22192, 3520]]
-            ]
+            }
         },
         {
             "name": "Onslow Bay-Orbenator JCT",
@@ -17032,6 +17033,9 @@
             "lines": {
                 "Pilbara National Highway": {
                     "Onslow": ["", "Main line"]
+                },
+                "Pilbara Connex": {
+                    "Sulawesi-Australia": ["", ""]
                 }
             }
         },
@@ -17531,6 +17535,78 @@
             "lines": {
                 "Genoa Ice lines": {
                     "Calabria - Bari - Vukojebina" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bubba JCT",
+            "type": "jct",
+            "id": 1375,
+            "x": 22023,
+            "z": 1825,
+            "lines": {
+                "Pilbara Connex": {
+                    "Sulawesi-Australia": ["", ""]
+                },
+                "Sulawesian Highway": {
+                    "Bubba - Tatam": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bubba",
+            "id": 1376,
+            "x": 22023,
+            "z": 1767,
+            "lines": {
+                "Sulawesian Highway": {
+                    "Bubba - Tatam": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Reok JCT",
+            "type": "jct",
+            "id": 1377,
+            "x": 22169,
+            "z": 1428,
+            "lines": {
+                "Sulawesian Highway": {
+                    "Bubba - Tatam": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Florence JCT",
+            "type": "jct",
+            "id": 1378,
+            "x": 22693,
+            "z": 216,
+            "lines": {
+                "Sulawesian Highway": {
+                    "Bubba - Tatam": ["", "Main line to Florence branch"]
+                }
+            }
+        },
+        {
+            "name": "Florence",
+            "id": 1379,
+            "x": 22640,
+            "z": 192,
+            "lines": {
+                "Sulawesian Highway": {
+                    "Bubba - Tatam": ["", "Florence branch"]
+                }
+            }
+        },
+        {
+            "name": "Tatam",
+            "id": 1380,
+            "x": 23486,
+            "z": -351,
+            "lines": {
+                "Sulawesian Highway": {
+                    "Bubba - Tatam": ["", "Main line"]
                 }
             }
         }
@@ -18393,7 +18469,7 @@
                             [21823, 3531],
                             [22191, 3531]
                         ],
-                        "stations": [1334, 1335, 1314, [1315, "Learmonth branch"], 1288, 1313, 1312]
+                        "stations": [84, 1335, 1314, [1315, "Learmonth branch"], 1288, 1313, 1312]
                     },
                     "Learmonth branch": {
                         "vertices": [
@@ -19038,6 +19114,55 @@
                             [27463, 6697]
                         ],
                         "stations": [206, 208]
+                    }
+                }
+            },
+            "Sulawesi-Australia": {
+                "prefix": "",
+                "code": "SU-AU",
+                "color": "a2a2a2",
+                "y": 1,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [22023, 3531],
+                            [22023, 1825]
+                        ],
+                        "stations": [1335, 1375]
+                    }
+                }
+            }
+        },
+        "Sulawesian Highway": {
+            "Bubba - Tatam": {
+                "prefix": "",
+                "code": "BU-TA",
+                "color": "a2a2a2",
+                "y": 1,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [22023, 1767],
+                            [22023, 1825],
+                            [22169, 1825],
+                            [22169, 1053],
+                            [22693, 1053],
+                            [22693, -139],
+                            [23379, -139],
+                            [23379, -271],
+                            [23449, -271],
+                            [23449, -351],
+                            [23486, -351]
+                        ],
+                        "stations": [1376, 1375, 1377, [1378, "Florence branch"], 1380]
+                    },
+                    "Florence branch": {
+                        "vertices": [
+                            [22640, 192],
+                            [22640, 216],
+                            [22693, 216]
+                        ],
+                        "stations": [[1378, "Main line"], 1379]
                     }
                 }
             }
