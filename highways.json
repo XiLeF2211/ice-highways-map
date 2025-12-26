@@ -16820,13 +16820,22 @@
         {
             "name": "Flinders",
             "id": 1319,
-            "x": 27000,
-            "z": 6346,
+            "x": 27049,
+            "z": 6352,
             "lines": {
+                "Australian Ice Highways": {
+                    "East Coastal" : ["", "Main line"]
+                },
                 "Pilbara National Highway": {
                     "Southeast": ["", "Main line"]
                 }
-            }
+            },
+            "areas": [
+                [[26998, 6344], [27016, 6351]],
+                [[26998, 6351], [27047, 6347]],
+                [[27055, 6358], [27042, 6344]],
+                [[27057, 6323], [27033, 6352]]
+            ]
         },
         {
             "name": "Skyforge JCT",
@@ -16842,7 +16851,7 @@
             }
         },
         {
-            "name": "Melbourne JCT",
+            "name": "Melbourne-Skyforge JCT",
             "type": "jct",
             "id": 1321,
             "x": 27000,
@@ -16865,7 +16874,7 @@
             }
         },
         {
-            "name": "Carlton",
+            "name": "North Melbourne",
             "id": 1323,
             "x": 26625,
             "z": 6661,
@@ -16948,16 +16957,22 @@
         {
             "name": "Canberra AY building",
             "id": 1330,
-            "x": 27377,
-            "z": 6276,
+            "x": 27422,
+            "z": 6324,
             "lines": {
+                "Australian Ice Highways": {
+                    "East Coastal" : ["", "Bega branch"]
+                },
                 "Pilbara National Highway": {
                     "Alternate Southeast": ["", "Main line to Balaria branch"]
                 }
             },
             "areas": [
                 [[27416, 6324], [27419, 6275]],
-                [[27419, 6275], [27377, 6278]]
+                [[27419, 6275], [27377, 6278]],
+                [[27412, 6314], [27432, 6327]],
+                [[27410, 6316], [27435, 6309]],
+                [[27413, 6298], [27435, 6326]]
             ]
         },
         {
@@ -17229,7 +17244,8 @@
             "z": 5038,
             "lines": {
                 "Australian Ice Highways": {
-                    "Transcontinental" : ["", "Main line"]
+                    "Transcontinental" : ["", "Main line"],
+                    "East Coastal" : ["", "Main line"]
                 }
             }
         },
@@ -17273,6 +17289,177 @@
                 [[28092, 4996], [28104, 4978]],
                 [[28099, 4979], [28109, 4988]]
             ]
+        },
+        {
+            "name": "Coolabah Emergency Exit",
+            "type": "semi4",
+            "id": 1356,
+            "x": 27049,
+            "z": 5640,
+            "lines": {
+                "Australian Ice Highways": {
+                    "East Coastal" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Flinders North JCT",
+            "type": "jct",
+            "id": 1357,
+            "x": 27049,
+            "z": 5640,
+            "lines": {
+                "Australian Ice Highways": {
+                    "East Coastal" : ["", "Main line to Wollongong branch"]
+                }
+            }
+        },
+        {
+            "name": "Wagga Wagga JCT",
+            "type": "jct",
+            "id": 1358,
+            "x": 27049,
+            "z": 6248,
+            "lines": {
+                "Australian Ice Highways": {
+                    "East Coastal" : ["", "Main line to Wagga Wagga branch"]
+                }
+            }
+        },
+        {
+            "name": "Wagga Wagga",
+            "id": 1359,
+            "x": 26827,
+            "z": 6248,
+            "lines": {
+                "Australian Ice Highways": {
+                    "East Coastal" : ["", "Wagga Wagga branch"]
+                }
+            },
+            "areas": [
+                [[26803, 6253], [26807, 6242]],
+                [[26807, 6225], [26829, 6270]]
+            ]
+        },
+        {
+            "name": "Flinders JCT",
+            "type": "jct",
+            "id": 1360,
+            "x": 27049,
+            "z": 6324,
+            "lines": {
+                "Australian Ice Highways": {
+                    "East Coastal" : ["", "Main line to Bega branch"]
+                }
+            }
+        },
+        {
+            "name": "Bega",
+            "id": 1361,
+            "x": 27621,
+            "z": 6324,
+            "lines": {
+                "Australian Ice Highways": {
+                    "East Coastal" : ["", "Bega branch"]
+                }
+            },
+            "areas": [
+                [[27625, 6320], [27616, 6335]]
+            ]
+        },
+        {
+            "name": "Norway North JCT",
+            "type": "jct",
+            "id": 1362,
+            "x": 27049,
+            "z": 6434,
+            "lines": {
+                "Australian Ice Highways": {
+                    "East Coastal" : ["", "Main line to Bobbo branch"]
+                }
+            }
+        },
+        {
+            "name": "Bobbo",
+            "id": 1363,
+            "x": 26629,
+            "z": 6434,
+            "lines": {
+                "Australian Ice Highways": {
+                    "East Coastal" : ["", "Bobbo branch"]
+                }
+            }
+        },
+        {
+            "name": "Norway",
+            "id": 1364,
+            "x": 27049,
+            "z": 6561,
+            "lines": {
+                "Australian Ice Highways": {
+                    "East Coastal" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Norway JCT",
+            "type": "jct",
+            "id": 1365,
+            "x": 27049,
+            "z": 6566,
+            "lines": {
+                "Australian Ice Highways": {
+                    "East Coastal" : ["", "Main line to Norway branch"]
+                }
+            }
+        },
+        {
+            "name": "Norway Town Spawn",
+            "id": 1366,
+            "x": 26973,
+            "z": 6559,
+            "lines": {
+                "Australian Ice Highways": {
+                    "East Coastal" : ["", "Norway branch"]
+                }
+            }
+        },
+        {
+            "name": "Melbourne JCT",
+            "type": "jct",
+            "id": 1367,
+            "x": 27049,
+            "z": 6881,
+            "lines": {
+                "Australian Ice Highways": {
+                    "East Coastal" : ["", "Main line to Melbourne branch"]
+                }
+            }
+        },
+        {
+            "name": "Melbourne (Australian Ice Highways)",
+            "id": 1368,
+            "x": 26633,
+            "z": 6750,
+            "lines": {
+                "Australian Ice Highways": {
+                    "East Coastal" : ["", "Melbourne branch"]
+                }
+            },
+            "areas": [
+                [[26608, 6745], [26634, 6769]]
+            ]
+        },
+        {
+            "name": "Tasmania",
+            "id": 1369,
+            "x": 27049,
+            "z": 7607,
+            "lines": {
+                "Australian Ice Highways": {
+                    "East Coastal" : ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -22230,6 +22417,68 @@
                             [25550, 4966]
                         ],
                         "stations": [[1351, "Main line"], 125]
+                    }
+                }
+            },
+            "East Coastal": {
+                "prefix": "",
+                "code": "ECS",
+                "color": "ffff00",
+                "y": 28,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [27049, 4904],
+                            [27049, 7607]
+                        ],
+                        "stations": [1352, 1356, [1357, "Wollongong branch"], [1358, "Wagga Wagga branch"], [1360, "Bega branch"], 1319, [1362, "Bobbo branch"], 1364, [1365, "Norway branch"], [1367, "Melbourne branch"], 1369]
+                    },
+                    "Wollongong branch": {
+                        "vertices": [
+                            [27049, 6140],
+                            [27646, 6140]
+                        ],
+                        "stations": [[1357, "Main line"]]
+                    },
+                    "Wagga Wagga branch": {
+                        "vertices": [
+                            [27049, 6248],
+                            [26827, 6248]
+                        ],
+                        "stations": [[1358, "Main line"], 1359]
+                    },
+                    "Bega branch": {
+                        "vertices": [
+                            [27049, 6324],
+                            [27625, 6324]
+                        ],
+                        "stations": [[1360, "Main line"], 1330, 1361]
+                    },
+                    "Bobbo branch": {
+                        "vertices": [
+                            [27049, 6434],
+                            [26629, 6434]
+                        ],
+                        "stations": [[1362, "Main line"], 1363]
+                    },
+                    "Norway branch": {
+                        "vertices": [
+                            [27049, 6566],
+                            [26973, 6566],
+                            [26973, 6559]
+                        ],
+                        "stations": [[1365, "Main line"], 1366]
+                    },
+                    "Melbourne branch": {
+                        "vertices": [
+                            [27049, 6881],
+                            [26641, 6881],
+                            [26641, 6795],
+                            [26633, 6795],
+                            [26633, 6750],
+                            [26611, 6750]
+                        ],
+                        "stations": [[1367, "Main line"], 1368]
                     }
                 }
             }
