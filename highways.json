@@ -17609,6 +17609,43 @@
                     "Bubba - Tatam": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Xanadu",
+            "id": 1381,
+            "x": 18710,
+            "z": -8184,
+            "lines": {
+                "Japan Ice lines": {
+                    "Tosa Dragon": ["", "Mongolian extension"]
+                }
+            }
+        },
+        {
+            "name": "Ryoku JCT",
+            "type": "jct",
+            "id": 1382,
+            "x": 18994,
+            "z": -8708,
+            "lines": {
+                "Japan Ice lines": {
+                    "Tosa Dragon": ["", "Main line to Mongolian extension"]
+                }
+            }
+        },
+        {
+            "name": "Ryoku elevator",
+            "type": "elev-ew",
+            "id": 1383,
+            "x": 18994,
+            "z": -8702,
+            "y1": 103,
+            "y2": 81,
+            "lines": {
+                "Japan Ice lines": {
+                    "Tosa Dragon": ["", "Mongolian extension"]
+                }
+            }
         }
     ],
     "lines": {
@@ -21283,7 +21320,7 @@
                             [15229, -8711],
                             [15227, -8711]
                         ],
-                        "stations": [917, 915, 806, 955, [957, "Cuzzistan JCT connector"], 958, 959, 960]
+                        "stations": [917, 915, 806, 955, [1382, "Mongolian extension"], 958, [957, "Cuzzistan JCT connector"], 959, 960]
                     },
                     "Cuzzistan JCT connector": {
                         "vertices": [
@@ -21293,6 +21330,14 @@
                             [15516, -8708]
                         ],
                         "stations": [956, [957, "Main line"]]
+                    },
+                    "Mongolian extension": {
+                        "vertices": [
+                            [18710, -8184],
+                            [18994, -8184],
+                            [18994, -8708]
+                        ],
+                        "stations": [1381, 1383, [1382, "Main line"]]
                     }
                 }
             }

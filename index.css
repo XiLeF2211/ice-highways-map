@@ -46,7 +46,7 @@ canvas {
 
 #sidebar {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
-    width: 20%;
+    width: 400px;
     height: 100%;
     color: var(--text-color);
     position: absolute;
@@ -92,7 +92,7 @@ canvas {
     writing-mode: sideways-lr;
     text-orientation: upright;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 #nav .active {
@@ -123,6 +123,8 @@ canvas {
     box-sizing: border-box;
     padding: 3em;
     height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .list-container {
