@@ -17836,6 +17836,33 @@
                     "Southeast": ["", "Coolabah branch"]
                 }
             }
+        },
+        {
+            "name": "Rockhampton JCT",
+            "type": "jct",
+            "id": 1400,
+            "x": 28082,
+            "z": 4595,
+            "lines": {
+                "Pilbara National Highway": {
+                    "East Coast": ["", ""],
+                    "Offshore East": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tasman Sea East JCT",
+            "type": "jct",
+            "id": 1401,
+            "x": 28424,
+            "z": 6697,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Offshore East": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "Tasman Highway": ["", "Main line"]
+            }
         }
     ],
     "lines": {
@@ -18527,7 +18554,7 @@
                             [28035, 5610],
                             [28086, 5610]
                         ],
-                        "stations": [111, 10, 112, 131, 113, 114]
+                        "stations": [111, 1400, 10, 112, 131, 113, 114]
                     }
                 }
             },
@@ -18801,7 +18828,7 @@
                     "Coolabah branch": {
                         "vertices": [
                             [27000, 5506],
-                            [27290, 5604]
+                            [27000, 5604]
                         ],
                         "stations": [[1398, "Main line"], 1399]
                     }
@@ -18838,6 +18865,25 @@
                             [27377, 6445]
                         ],
                         "stations": [[1331, "Main line"]]
+                    }
+                }
+            },
+            "Offshore East": {
+                "prefix": "",
+                "code": "OE",
+                "color": "a2a2a2",
+                "y": 2,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [28082, 4595],
+                            [28082, 4586],
+                            [28245, 4586],
+                            [28245, 6546],
+                            [28424, 6546],
+                            [28424, 6697]
+                        ],
+                        "stations": [1400, 1401]
                     }
                 }
             }
@@ -23602,7 +23648,7 @@
                             [28274, 6698],
                             [31847, 6698]
                         ],
-                        "stations": [207, 208, [209, "Antarctica branch"], 205]
+                        "stations": [207, 208, [209, "Antarctica branch"], 1401, 205]
                     },
                     "Antarctica branch": {
                         "vertices": [
