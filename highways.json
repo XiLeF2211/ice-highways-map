@@ -1424,25 +1424,25 @@
             }
         },
         {
-            "name": "Coolabah JCT",
+            "name": "Bullamakanka JCT",
             "type": "jct",
             "id": 118,
             "x": 27256,
             "z": 5300,
             "lines": {
                 "Pilbara National Highway": {
-                    "East-West": ["", "Main line to Coolabah branch"]
+                    "East-West": ["", "Main line to Bullamakanka branch"]
                 }
             }
         },
         {
-            "name": "Coolabah",
+            "name": "Bullamakanka",
             "id": 119,
             "x": 27256,
             "z": 5403,
             "lines": {
                 "Pilbara National Highway": {
-                    "East-West": ["", "Coolabah branch"]
+                    "East-West": ["", "Bullamakanka branch"]
                 }
             }
         },
@@ -16803,6 +16803,7 @@
         },
         {
             "name": "Southeast Australian JCT",
+            "type": "jct",
             "id": 1317,
             "x": 27000,
             "z": 5300,
@@ -17812,6 +17813,29 @@
                     "Temple Street": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Coolabah JCT",
+            "type": "jct",
+            "id": 1398,
+            "x": 27000,
+            "z": 5506,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Southeast": ["", "Main line to Coolabah branch"]
+                }
+            }
+        },
+        {
+            "name": "Coolabah",
+            "id": 1399,
+            "x": 27000,
+            "z": 5604,
+            "lines": {
+                "Pilbara National Highway": {
+                    "Southeast": ["", "Coolabah branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -18519,9 +18543,9 @@
                             [20991, 5300],
                             [20991, 5074]
                         ],
-                        "stations": [131, [118, "Coolabah branch"], 1317, [120, "Longreach branch"], [122, "Quercus Petraea branch"], [124, "Pickle branch"], [126, "Yorke branch"], 1285, 117, 130, [128, "Goondalup branch"], 115]
+                        "stations": [131, [118, "Bullamakanka branch"], 1317, [120, "Longreach branch"], [122, "Quercus Petraea branch"], [124, "Pickle branch"], [126, "Yorke branch"], 1285, 117, 130, [128, "Goondalup branch"], 115]
                     },
-                    "Coolabah branch": {
+                    "Bullamakanka branch": {
                         "vertices": [
                             [27256, 5300],
                             [27256, 5403]
@@ -18744,7 +18768,7 @@
                             [27000, 6850],
                             [26668, 6850]
                         ],
-                        "stations": [1317, [1318, "New Sealand branch"], 1319, 1320, [1321, "Melbourne branch"], 1322]
+                        "stations": [1317, [1398, "Coolabah branch"], [1318, "New Sealand branch"], 1319, 1320, [1321, "Melbourne branch"], 1322]
                     },
                     "Melbourne branch": {
                         "vertices": [
@@ -18773,6 +18797,13 @@
                             [27290, 6127]
                         ],
                         "stations": [[1325, "New Sealand branch"], 1326]
+                    },
+                    "Coolabah branch": {
+                        "vertices": [
+                            [27000, 5506],
+                            [27290, 5604]
+                        ],
+                        "stations": [[1398, "Main line"], 1399]
                     }
                 }
             },
