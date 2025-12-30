@@ -17017,11 +17017,14 @@
             }
         },
         {
-            "name": "unused",
+            "name": "Stonebridge",
             "id": 1334,
-            "x": 0,
-            "z": 0,
+            "x": 21532,
+            "z": 4182.5,
             "lines": {
+                "Circletown Metro": {
+                    "Stonebridge-Sudbury": ["", "Main line"]
+                }
             }
         },
         {
@@ -17078,7 +17081,7 @@
                     "Adelaide-Simpson Y=31" : ["", "SEAN connector branch"]
                 },
                 "SEAN": {
-                    "Purple": ["04a", ""]
+                    "Purple": ["-undesignated", ""]
                 }
             }
         },
@@ -17644,6 +17647,169 @@
             "lines": {
                 "Japan Ice lines": {
                     "Tosa Dragon": ["", "Mongolian extension"]
+                }
+            }
+        },
+        {
+            "name": "Hammersmith JCT",
+            "type": "jct",
+            "id": 1384,
+            "x": 21524.5,
+            "z": 4196.5,
+            "lines": {
+                "Circletown Metro": {
+                    "Stonebridge-Sudbury": ["", "Main line to Hammersmith branch"]
+                }
+            }
+        },
+        {
+            "name": "Hammersmith",
+            "id": 1385,
+            "x": 21505,
+            "z": 4187.5,
+            "lines": {
+                "Circletown Metro": {
+                    "Stonebridge-Sudbury": ["", "Hammersmith branch"]
+                }
+            }
+        },
+        {
+            "name": "Paddington JCT",
+            "type": "jct",
+            "id": 1386,
+            "x": 21524.5,
+            "z": 4202.5,
+            "lines": {
+                "Circletown Metro": {
+                    "Stonebridge-Sudbury": ["", "Main line to Paddington branch"]
+                }
+            }
+        },
+        {
+            "name": "Paddington",
+            "id": 1387,
+            "x": 21575,
+            "z": 4202.5,
+            "lines": {
+                "Circletown Metro": {
+                    "Stonebridge-Sudbury": ["", "Paddington branch"]
+                }
+            }
+        },
+        {
+            "name": "Hulbary JCT",
+            "type": "jct",
+            "id": 1388,
+            "x": 21516.5,
+            "z": 4228.5,
+            "lines": {
+                "Circletown Metro": {
+                    "Stonebridge-Sudbury": ["", "Main line"],
+                    "Hulbary-Sudbury": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "blazeon1234 Bank JCT",
+            "type": "jct",
+            "id": 1389,
+            "x": 21509.5,
+            "z": 4260.5,
+            "lines": {
+                "Circletown Metro": {
+                    "Stonebridge-Sudbury": ["", "Main line"],
+                    "Temple Street": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Weston Dojo",
+            "id": 1390,
+            "x": 21509.5,
+            "z": 4283,
+            "lines": {
+                "Circletown Metro": {
+                    "Stonebridge-Sudbury": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Temple Street JCT",
+            "type": "jct",
+            "id": 1391,
+            "x": 21576.5,
+            "z": 4304.5,
+            "lines": {
+                "Circletown Metro": {
+                    "Stonebridge-Sudbury": ["", "Main line"],
+                    "Temple Street": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sudbury Town",
+            "id": 1392,
+            "x": 21609,
+            "z": 4304.5,
+            "lines": {
+                "Circletown Metro": {
+                    "Stonebridge-Sudbury": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hulbary Street",
+            "id": 1393,
+            "x": 21502.5,
+            "z": 4236,
+            "lines": {
+                "Circletown Metro": {
+                    "Hulbary-Sudbury": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Acton Library JCT",
+            "type": "jct",
+            "id": 1394,
+            "x": 21602.5,
+            "z": 4228.5,
+            "lines": {
+                "Circletown Metro": {
+                    "Hulbary-Sudbury": ["", "Main line to Acton Library branch"]
+                }
+            }
+        },
+        {
+            "name": "Acton Library",
+            "id": 1395,
+            "x": 21602.5,
+            "z": 4234,
+            "lines": {
+                "Circletown Metro": {
+                    "Hulbary-Sudbury": ["", "Acton Library branch"]
+                }
+            }
+        },
+        {
+            "name": "Sudbury Hill",
+            "id": 1396,
+            "x": 21642,
+            "z": 4228.5,
+            "lines": {
+                "Circletown Metro": {
+                    "Hulbary-Sudbury": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Temple Street",
+            "id": 1397,
+            "x": 21576.5,
+            "z": 4297,
+            "lines": {
+                "Circletown Metro": {
+                    "Temple Street": ["", "Main line"]
                 }
             }
         }
@@ -22667,7 +22833,7 @@
                     "Simpson branch": {
                         "vertices": [
                             [24571, 5038],
-                            [24571, 4588]
+                            [24571, 4453]
                         ],
                         "stations": [[1350, "Main line"], 1343]
                     },
@@ -22824,6 +22990,92 @@
                             [27393.5, 6016.5]
                         ],
                         "stations": [[1278, "Main line"], 1272]
+                    }
+                }
+            }
+        },
+        "Circletown Metro": {
+            "Stonebridge-Sudbury": {
+                "prefix": "",
+                "code": "Sbd-Sbr",
+                "color": "ffbf00",
+                "y": 56,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [21535, 4182.5],
+                            [21524.5, 4182.5],
+                            [21524.5, 4209.5],
+                            [21516.5, 4209.5],
+                            [21516.5, 4248.5],
+                            [21509.5, 4248.5],
+                            [21509.5, 4304.5],
+                            [21611, 4304.5]
+                        ],
+                        "stations": [1334, [1384, "Hammersmith branch"], [1386, "Paddington branch"], 1388, 1389, 1390, 1391, 1392]
+                    },
+                    "Hammersmith branch": {
+                        "vertices": [
+                            [21524.5, 4196.5],
+                            [21516.5, 4196.5],
+                            [21516.5, 4188.5],
+                            [21515.5, 4187.5],
+                            [21513.5, 4187.5],
+                            [21513.5, 4166],
+                            [21513.5, 4187.5],
+                            [21502, 4187.5]
+                        ],
+                        "stations": [[1384, "Main line"], 1385]
+                    },
+                    "Paddington branch": {
+                        "vertices": [
+                            [21524.5, 4202.5],
+                            [21580, 4202.5]
+                        ],
+                        "stations": [[1386, "Main line"], 1387]
+                    }
+                }
+            },
+            "Hulbary-Sudbury": {
+                "prefix": "",
+                "code": "Hbr-Sbr",
+                "color": "ffbf00",
+                "y": 56,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [21502.5, 4240],
+                            [21502.5, 4228.5],
+                            [21646, 4228.5]
+                        ],
+                        "stations": [1393, 1388, [1394, "Acton Library branch"], 1396]
+                    },
+                    "Acton Library branch": {
+                        "vertices": [
+                            [21602.5, 4228.5],
+                            [21602.5, 4234]
+                        ],
+                        "stations": [[1394, "Main line"], 1395]
+                    }
+                }
+            },
+            "Temple Street": {
+                "prefix": "",
+                "code": "TplSt",
+                "color": "ffbf00",
+                "y": 56,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [21576.5, 4304.5],
+                            [21576.5, 4289.5],
+                            [21547.5, 4289.5],
+                            [21547.5, 4268.5],
+                            [21528.5, 4268.5],
+                            [21528.5, 4260.5],
+                            [21509.5, 4260.5]
+                        ],
+                        "stations": [1391, 1397, 1389]
                     }
                 }
             }
