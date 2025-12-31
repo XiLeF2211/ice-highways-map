@@ -17943,7 +17943,8 @@
             "z": -12835,
             "lines": {
                 "Intercontinental": {
-                    "Greenland-Antarctica": ["", "Main line"]
+                    "Greenland-Antarctica": ["", "Main line"],
+                    "Narsaq High Speed Iceway": ["", "BladeeCity branch"]
                 }
             },
             "areas": [
@@ -18056,6 +18057,217 @@
             "lines": {
                 "Intercontinental": {
                     "Greenland-Antarctica": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cortina JCT",
+            "type": "jct",
+            "id": 1418,
+            "x": -8264,
+            "z": -13752,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cortina",
+            "id": 1419,
+            "x": -8264,
+            "z": -13544,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-8274, -13569], [-8240, -13520]]
+            ]
+        },
+        {
+            "name": "BladeeCity JCT",
+            "type": "jct",
+            "id": 1420,
+            "x": -8264,
+            "z": -12837,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Main line to BladeeCity branch"]
+                }
+            }
+        },
+        {
+            "name": "Qaqortoq JCT",
+            "type": "jct",
+            "id": 1421,
+            "x": -8264,
+            "z": -11344,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Main line to Qaqortoq branch"]
+                }
+            }
+        },
+        {
+            "name": "Qaqortoq",
+            "id": 1422,
+            "x": -8608,
+            "z": -11344,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Qaqortoq branch"]
+                }
+            }
+        },
+        {
+            "name": "MarkVille JCT",
+            "type": "jct",
+            "id": 1423,
+            "x": -8264,
+            "z": -11313,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Main line to MarkVille branch"]
+                }
+            }
+        },
+        {
+            "name": "MarkVille",
+            "id": 1424,
+            "x": -8241,
+            "z": -11313,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "MarkVille branch"]
+                }
+            }
+        },
+        {
+            "name": "Ataa JCT",
+            "type": "jct",
+            "id": 1425,
+            "x": -5707,
+            "z": -10760,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Main line to MarkVille branch"]
+                }
+            }
+        },
+        {
+            "name": "Iceland JCT",
+            "type": "jct",
+            "id": 1426,
+            "x": -3416,
+            "z": -10760,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Main line to Iceland branch"]
+                }
+            }
+        },
+        {
+            "name": "Iceland (Vik)",
+            "id": 1427,
+            "x": -3416,
+            "z": -11923,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Iceland branch"]
+                }
+            }
+        },
+        {
+            "name": "Midleton JCT",
+            "type": "jct",
+            "id": 1428,
+            "x": -2088,
+            "z": -10760,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Main line to Midleton branch"]
+                }
+            }
+        },
+        {
+            "name": "Midleton",
+            "id": 1429,
+            "x": -2088,
+            "z": -10777,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Midleton branch"]
+                }
+            }
+        },
+        {
+            "name": "Chalchou JCT",
+            "type": "jct",
+            "id": 1430,
+            "x": -920,
+            "z": -10936,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Main line to Iverness branch"]
+                }
+            }
+        },
+        {
+            "name": "Iverness",
+            "id": 1431,
+            "x": -1128,
+            "z": -10834,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Iverness branch"]
+                }
+            }
+        },
+        {
+            "name": "Highlands JCT",
+            "type": "jct",
+            "id": 1432,
+            "x": -882,
+            "z": -10936,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Main line to Highlands branch"]
+                }
+            }
+        },
+        {
+            "name": "Highlands",
+            "id": 1433,
+            "x": -882,
+            "z": -10915,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Highlands branch"]
+                }
+            }
+        },
+        {
+            "name": "Askja JCT",
+            "type": "jct",
+            "id": 1434,
+            "x": -456,
+            "z": -10936,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nettspend Isles",
+            "id": 1435,
+            "x": -456,
+            "z": -11226,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Main line"]
                 }
             }
         }
@@ -24765,6 +24977,85 @@
                             [-10745, -9676]
                         ],
                         "stations": [[1413, "Main line"], 1414]
+                    }
+                }
+            },
+            "Narsaq High Speed Iceway": {
+                "prefix": "",
+                "code": "NHSI",
+                "color": "acb064",
+                "y": 61,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-8264, -13752],
+                            [-8264, -10760],
+                            [-1656, -10760],
+                            [-1656, -11000],
+                            [-920, -11000],
+                            [-920, -10936],
+                            [-882, -10936],
+                            [-456, -10936],
+                            [-456, -11226]
+                        ],
+                        "stations": [1418, 1419, [1420, "BladeeCity branch"], [1421, "Qaqortoq branch"], [1423, "MarkVille branch"], [1425, "Ataa branch"], [1426, "Iceland branch"], [1428, "Midleton branch"], [1430, "Iverness branch"], [1432, "Highlands branch"], 1434, 1435]
+                    },
+                    "BladeeCity branch": {
+                        "vertices": [
+                            [-8264, -12837],
+                            [-8604, -12837]
+                        ],
+                        "stations": [[1420, "Main line"], 1408]
+                    },
+                    "Qaqortoq branch": {
+                        "vertices": [
+                            [-8264, -11344],
+                            [-8608, -11344]
+                        ],
+                        "stations": [[1421, "Main line"], 1422]
+                    },
+                    "MarkVille branch": {
+                        "vertices": [
+                            [-8264, -11313],
+                            [-8241, -11313]
+                        ],
+                        "stations": [[1423, "Main line"], 1424]
+                    },
+                    "Ataa branch": {
+                        "vertices": [
+                            [-5707, -10760],
+                            [-5707, -12922]
+                        ],
+                        "stations": [[1425, "Main line"]]
+                    },
+                    "Iceland branch": {
+                        "vertices": [
+                            [-3416, -10760],
+                            [-3416, -11923]
+                        ],
+                        "stations": [[1426, "Main line"], 1427]
+                    },
+                    "Midleton branch": {
+                        "vertices": [
+                            [-2088, -10760],
+                            [-2088, -10777]
+                        ],
+                        "stations": [[1428, "Main line"], 1429]
+                    },
+                    "Iverness branch": {
+                        "vertices": [
+                            [-920, -10936],
+                            [-1128, -10936],
+                            [-1128, -10834]
+                        ],
+                        "stations": [[1430, "Main line"], 1431]
+                    },
+                    "Highlands branch": {
+                        "vertices": [
+                            [-882, -10936],
+                            [-882, -10915]
+                        ],
+                        "stations": [[1432, "Main line"], 1433]
                     }
                 }
             }
