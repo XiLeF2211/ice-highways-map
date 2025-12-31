@@ -17280,10 +17280,7 @@
                 "Australian Ice Highways": {
                     "Transcontinental" : ["", "Main line"]
                 }
-            },
-            "areas": [
-                [[25536, 4977], [25559, 4964]]
-            ]
+            }
         },
         {
             "name": "Brisbane",
