@@ -2511,6 +2511,7 @@
         },
         {
             "name": "Tasman Sea JCT",
+            "type": "jct",
             "id": 209,
             "x": 28274,
             "z": 6697,
@@ -17864,6 +17865,199 @@
                     "Tasman Highway": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Grytviken",
+            "id": 1402,
+            "x": -7050.5,
+            "z": 9957,
+            "lines": {
+                "Intercontinental": {
+                    "SGSSI Subway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Grytviken JCT",
+            "type": "jct",
+            "id": 1403,
+            "x": -7050.5,
+            "z": 10291.5,
+            "lines": {
+                "Intercontinental": {
+                    "SGSSI Subway": ["", "Main line to Montagu branch"]
+                }
+            }
+        },
+        {
+            "name": "Montagu",
+            "id": 1404,
+            "x": -5099,
+            "z": 10637,
+            "lines": {
+                "Intercontinental": {
+                    "SGSSI Subway": ["", "Montagu branch"]
+                }
+            }
+        },
+        {
+            "name": "Antarctic-South Georgia JCT",
+            "type": "jct",
+            "id": 1405,
+            "x": -8366,
+            "z": 10291.5,
+            "lines": {
+                "Intercontinental": {
+                    "SGSSI Subway": ["", "Main line to Montagu branch"],
+                    "Greenland-Antarctica": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Southampton JCT",
+            "type": "jct",
+            "id": 1406,
+            "x": -10191,
+            "z": 10291.5,
+            "lines": {
+                "Intercontinental": {
+                    "SGSSI Subway": ["", "Main line to New Southampton branch"]
+                }
+            }
+        },
+        {
+            "name": "New Southampton",
+            "id": 1407,
+            "x": -10191,
+            "z": 11155,
+            "lines": {
+                "Intercontinental": {
+                    "SGSSI Subway": ["", "New Southampton branch"]
+                }
+            }
+        },
+        {
+            "name": "BladeeCity",
+            "id": 1408,
+            "x": -8600,
+            "z": -12835,
+            "lines": {
+                "Intercontinental": {
+                    "Greenland-Antarctica": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-8609, -12866], [-8601, -12833]],
+                [[-8602, -12832], [-8576, -12866]],
+                [[-8585, -12870], [-8602, -12866]]
+            ]
+        },
+        {
+            "name": "Bladee South JCT",
+            "type": "jct",
+            "id": 1409,
+            "x": -8366,
+            "z": -12286,
+            "lines": {
+                "Intercontinental": {
+                    "Greenland-Antarctica": ["", "Main line to Bladee Map Platform branch"]
+                }
+            }
+        },
+        {
+            "name": "Bladee Map Platform",
+            "id": 1410,
+            "x": -8366,
+            "z": -12345,
+            "lines": {
+                "Intercontinental": {
+                    "Greenland-Antarctica": ["", "Bladee Map Platform branch"]
+                }
+            }
+        },
+        {
+            "name": "Tip of Greenland",
+            "id": 1411,
+            "x": -8366,
+            "z": -11210,
+            "lines": {
+                "Intercontinental": {
+                    "Greenland-Antarctica": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Atlantia Multilevel JCT",
+            "type": "jct",
+            "id": 1412,
+            "x": -8366,
+            "z": -9850,
+            "lines": {
+                "Intercontinental": {
+                    "Greenland-Antarctica": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-8365, -9844], [-8369, -9856]],
+                [[-8370, -9846], [-8379, -9852]],
+                [[-8365, -9849], [-8379, -9852]]
+            ]
+        },
+        {
+            "name": "Atlantia JCT",
+            "type": "jct",
+            "id": 1413,
+            "x": -8366,
+            "z": -9723,
+            "lines": {
+                "Intercontinental": {
+                    "Greenland-Antarctica": ["", "Main line to Ultiville branch"]
+                }
+            }
+        },
+        {
+            "name": "Ultiville Tunnel",
+            "id": 1414,
+            "x": -10746,
+            "z": -9676,
+            "lines": {
+                "Intercontinental": {
+                    "Greenland-Antarctica": ["", "Ultiville branch"]
+                }
+            }
+        },
+        {
+            "name": "France",
+            "id": 1415,
+            "x": -8366,
+            "z": 908,
+            "lines": {
+                "Intercontinental": {
+                    "Greenland-Antarctica": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Antarctica-Skulkvalley",
+            "id": 1416,
+            "x": -8366,
+            "z": 14411,
+            "lines": {
+                "Intercontinental": {
+                    "Greenland-Antarctica": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Antarctica-Torukeli",
+            "id": 1417,
+            "x": -8366,
+            "z": 14721,
+            "lines": {
+                "Intercontinental": {
+                    "Greenland-Antarctica": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -24505,6 +24699,72 @@
                             [24571, 4588]
                         ],
                         "stations": [[1341, "Main line"], 1342, 1343]
+                    }
+                }
+            },
+            "SGSSI Subway": {
+                "prefix": "",
+                "code": "SGSSI",
+                "color": "2323ff",
+                "y": 17,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-7050.5, 9957],
+                            [-7050.5, 10291.5],
+                            [-10526, 10291.5]
+                        ],
+                        "stations": [1402, [1403, "Montagu branch"], 1405, [1406, "New Southampton branch"]]
+                    },
+                    "Montagu branch": {
+                        "vertices": [
+                            [-7050.5, 10291.5],
+                            [-7050.5, 10318],
+                            [-5099, 10318],
+                            [-5099, 10637]
+                        ],
+                        "stations": [[1403, "Main line"], 1404]
+                    },
+                    "New Southampton branch": {
+                        "vertices": [
+                            [-10191, 10291.5],
+                            [-10191, 11155]
+                        ],
+                        "stations": [[1406, "Main line"], 1407]
+                    }
+                }
+            },
+            "Greenland-Antarctica": {
+                "prefix": "",
+                "code": "Gln-Atc",
+                "color": "d3d3ff",
+                "y": 14,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-8600, -12835],
+                            [-8600, -12802],
+                            [-8706, -12802],
+                            [-8706, -12286],
+                            [-8366, -12286],
+                            [-8366, 14723]
+                        ],
+                        "stations": [1408, [1409, "Bladee Map Platform branch"], 1411, 1412, [1413, "Ultiville branch"], 1415, 1405, 1416, 1417]
+                    },
+                    "Bladee Map Platform branch": {
+                        "vertices": [
+                            [-8366, -12286],
+                            [-8366, -12345]
+                        ],
+                        "stations": [[1409, "Main line"], 1410]
+                    },
+                    "Ultiville branch": {
+                        "vertices": [
+                            [-10746, -9676],
+                            [-10745, -9723],
+                            [-10746, -9676]
+                        ],
+                        "stations": [[1413, "Main line"], 1414]
                     }
                 }
             }
