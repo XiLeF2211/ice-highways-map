@@ -17908,7 +17908,7 @@
             "z": 10291.5,
             "lines": {
                 "Intercontinental": {
-                    "SGSSI Subway": ["", "Main line to Montagu branch"],
+                    "SGSSI Subway": ["", "Main line"],
                     "Greenland-Antarctica": ["", "Main line"]
                 }
             }
