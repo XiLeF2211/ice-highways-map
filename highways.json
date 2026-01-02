@@ -18270,6 +18270,64 @@
                     "Narsaq High Speed Iceway": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Rama Setu",
+            "id": 1436,
+            "x": 14393,
+            "z": -1916,
+            "lines": {
+                "National Laccadive Sea Highway": {
+                    "North": ["", "1"]
+                }
+            }
+        },
+        {
+            "name": "Achtnoxyul JCT",
+            "type": "jct",
+            "id": 1437,
+            "x": 14695,
+            "z": -2223,
+            "lines": {
+                "National Laccadive Sea Highway": {
+                    "North": ["", "1 to 3"]
+                }
+            }
+        },
+        {
+            "name": "Chennai South JCT",
+            "type": "jct",
+            "id": 1438,
+            "x": 14695,
+            "z": -2494,
+            "lines": {
+                "National Laccadive Sea Highway": {
+                    "North": ["", "1 to Chennai South branch"]
+                }
+            }
+        },
+        {
+            "name": "Chennai South",
+            "id": 1439,
+            "x": 14616,
+            "z": -2494,
+            "lines": {
+                "National Laccadive Sea Highway": {
+                    "North": ["", "Chennai South branch"]
+                }
+            }
+        },
+        {
+            "name": "Krishna",
+            "type": "jct",
+            "id": 1440,
+            "x": 14695,
+            "z": -3078,
+            "lines": {
+                "National Laccadive Sea Highway": {
+                    "North": ["", "1"]
+                }
+            }
         }
     ],
     "lines": {
@@ -19520,17 +19578,10 @@
                     "1": {
                         "vertices": [
                             [14695, -3078],
-                            [14695, -1916]
+                            [14695, -1916],
+                            [14393, -1916]
                         ],
-                        "stations": [[511, "0"], [509, "Chennai Branch"]]
-                    },
-                    "2": {
-                        "vertices": [
-                            [14777, -1488],
-                            [14777, -1916],
-                            [14395, -1916]
-                        ],
-                        "stations": []
+                        "stations": [1440, [511, "0"], [509, "Chennai Branch"], [1438, "Chennai South Branch"], [1437, "3"], 1436]
                     },
                     "3": {
                         "vertices": [
@@ -19538,7 +19589,7 @@
                             [13397, -2223],
                             [13397, -978]
                         ],
-                        "stations": [514, [547, "Uligan"], 516, 517]
+                        "stations": [[1437, "1"], 514, [547, "Uligan"], 516, 517]
                     },
                     "4": {
                         "vertices": [
@@ -19577,7 +19628,14 @@
                             [14695, -2541],
                             [14676, -2541]
                         ],
-                        "stations": [[509, "to 1"], 510]
+                        "stations": [[509, "1"], 510]
+                    },
+                    "Chennai South branch": {
+                        "vertices": [
+                            [14695, -2494],
+                            [14619, -2494]
+                        ],
+                        "stations": [[1438, "1"], 1439]
                     },
                     "Uligan branch": {
                         "vertices": [
