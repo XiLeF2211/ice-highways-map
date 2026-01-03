@@ -394,7 +394,7 @@
             "z": -4250,
             "lines": {
                 "TNIH": {
-                    "Meteorville": ["", "Main line to Kochi branch"]
+                    "Avanti": ["", "Main line to Armadia branch"]
                 }
             }
         },
@@ -405,7 +405,7 @@
             "z": -4133,
             "lines": {
                 "TNIH": {
-                    "Meteorville": ["", "Main line"]
+                    "Avanti": ["", "Armadia branch"]
                 }
             }
         },
@@ -6242,7 +6242,7 @@
             "z": -4250,
             "lines": {
                 "TNIH": {
-                    "Meteorville": ["", "Kochi branch to Mooville sub-branch"]
+                    "Avanti": ["", "Main line to Mooville branch"]
                 }
             }
         },
@@ -6253,7 +6253,7 @@
             "z": -4297,
             "lines": {
                 "TNIH": {
-                    "Meteorville": ["", "Mooville sub-branch"]
+                    "Avanti": ["", "Mooville branch"]
                 }
             }
         },
@@ -6264,7 +6264,7 @@
             "z": -4216,
             "lines": {
                 "TNIH": {
-                    "Meteorville": ["", "Kochi branch"]
+                    "Avanti": ["", "Main line"]
                 }
             }
         },
@@ -18365,6 +18365,42 @@
                     "Norania-Lakshadweep": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Meteorville JCT",
+            "type": "jct",
+            "id": 1444,
+            "x": 13311,
+            "z": -4250,
+            "lines": {
+                "TNIH": {
+                    "Meteorville": ["", "Main line"],
+                    "Avanti": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Edoras",
+            "id": 1445,
+            "x": 13549,
+            "z": -3650,
+            "lines": {
+                "TNIH": {
+                    "Meteorville": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Rakt Samrajya",
+            "type": "semi2",
+            "id": 1446,
+            "x": 13549,
+            "z": -3338,
+            "lines": {
+                "TNIH": {
+                    "Meteorville": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -18598,21 +18634,36 @@
                     "Main line": {
                         "vertices": [
                             [13311, -4686],
-                            [13311, -4250],
-                            [13445, -4250],
-                            [13445, -4133]
+                            [13311, -3650],
+                            [13549, -3650],
+                            [13549, -3333]
                         ],
-                        "stations": [28, 32, [33, "Kochi branch"], 34]
-                    },
-                    "Kochi branch": {
+                        "stations": [28, 32, 1444, 1445, 1446]
+                    }
+                }
+            },
+            "Avanti": {
+                "prefix": "",
+                "code": "AV",
+                "color": "99b3cb",
+                "y": 10,
+                "branches": {
+                    "Main line": {
                         "vertices": [
-                            [13445, -4250],
+                            [13311, -4250],
                             [13790, -4250],
                             [13790, -4216]
                         ],
-                        "stations": [[33, "Main line"], [506, "Mooville sub-branch"], 508]
+                        "stations": [1444, [33, "Armadia branch"], [506, "Mooville branch"], 508]
                     },
-                    "Mooville sub-branch": {
+                    "Armadia branch": {
+                        "vertices": [
+                            [13445, -4250],
+                            [13445, -4133]
+                        ],
+                        "stations": [[33, "Main line"], 34]
+                    },
+                    "Mooville branch": {
                         "vertices": [
                             [13573, -4250],
                             [13573, -4297]
