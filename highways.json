@@ -18439,7 +18439,6 @@
         },
         {
             "name": "Tiefse",
-            "type": "jct",
             "id": 1450,
             "x": 13630,
             "z": -2629,
@@ -19694,7 +19693,7 @@
                 "prefix": "",
                 "code": "Laccadive Sea",
                 "color": "a2a2a2",
-                "y": 15,
+                "y": 16,
                 "branches": {
                     "0": {
                         "vertices": [
