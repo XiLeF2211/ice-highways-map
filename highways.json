@@ -18401,6 +18401,53 @@
                     "Meteorville": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Achtnoxyul",
+            "id": 1447,
+            "x": 14549,
+            "z": -2223,
+            "lines": {
+                "National Laccadive Sea Highway": {
+                    "North": ["", "3"]
+                }
+            }
+        },
+        {
+            "name": "Goa East JCT",
+            "type": "jct",
+            "id": 1448,
+            "x": 13814,
+            "z": -2223,
+            "lines": {
+                "National Laccadive Sea Highway": {
+                    "North": ["", "3 to 4"]
+                }
+            }
+        },
+        {
+            "name": "Tiefse JCT",
+            "type": "jct",
+            "id": 1449,
+            "x": 13769,
+            "z": -2629,
+            "lines": {
+                "National Laccadive Sea Highway": {
+                    "North": ["", "4 to Tiefse branch"]
+                }
+            }
+        },
+        {
+            "name": "Tiefse",
+            "type": "jct",
+            "id": 1450,
+            "x": 13630,
+            "z": -2629,
+            "lines": {
+                "National Laccadive Sea Highway": {
+                    "North": ["", "Tiefse branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -19677,7 +19724,7 @@
                             [13397, -2223],
                             [13397, -978]
                         ],
-                        "stations": [[1437, "1"], 514, [547, "Uligan"], 516, 517]
+                        "stations": [[1437, "1"], 1447, [1448, "3"], 514, [547, "Uligan"], 516, 517]
                     },
                     "4": {
                         "vertices": [
@@ -19687,14 +19734,14 @@
                             [13814, -2351],
                             [13814, -2223]
                         ],
-                        "stations": [1441, [1442, "0"]]
+                        "stations": [1441, [1442, "0"], [1449, "4"], [1448, "3"]]
                     },
-                    "5": {
+                    "Tiefse branch": {
                         "vertices": [
                             [13531, -2629],
                             [13769, -2629]
                         ],
-                        "stations": []
+                        "stations": [[1448, "4"], 1449]
                     },
                     "6": {
                         "vertices": [
