@@ -6383,7 +6383,7 @@
             }
         },
         {
-            "name": "Fort Uligan",
+            "name": "Fort Uligan (Norania North)",
             "id": 518,
             "x": 13339,
             "z": -3336,
@@ -18507,6 +18507,49 @@
                     "Valdes Local": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Kita-Norania",
+            "id": 1456,
+            "x": 13549,
+            "z": -3160,
+            "lines": {
+                "TNIH": {
+                    "Meteorville": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Norania Bubble Stairs",
+            "type": "elev-ew",
+            "id": 1457,
+            "x": 13549,
+            "z": -2992,
+            "y1": 10,
+            "y2": 16,
+            "lines": {
+                "TNIH": {
+                    "Meteorville": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[13548, -2991], [13551, -3008]]
+            ]
+        },
+        {
+            "name": "Norania East JCT",
+            "type": "jct",
+            "id": 1458,
+            "x": 13549,
+            "z": -2989,
+            "lines": {
+                "TNIH": {
+                    "Meteorville": ["", "Main line"]
+                },
+                "National Laccadive Sea Highway": {
+                    "North": ["", "0"]
+                }
+            }
         }
     ],
     "lines": {
@@ -18742,9 +18785,9 @@
                             [13311, -4686],
                             [13311, -3650],
                             [13549, -3650],
-                            [13549, -3333]
+                            [13549, -2989]
                         ],
-                        "stations": [28, 32, 1444, 1445, 1446]
+                        "stations": [28, 32, 1444, 1445, 1446, 1456, 1457, 1458]
                     }
                 }
             },
@@ -19767,7 +19810,7 @@
                             [13447, -1936],
                             [13970, -1936]
                         ],
-                        "stations": [232, [511, "1"], 512, [1442, "4"], 513, 514, 515]
+                        "stations": [232, [511, "1"], 512, [1442, "4"], 1458, 513, 514, 515]
                     },
                     "1": {
                         "vertices": [
