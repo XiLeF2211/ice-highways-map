@@ -18447,6 +18447,66 @@
                     "North": ["", "Tiefse branch"]
                 }
             }
+        },
+        {
+            "name": "Valdes JCT",
+            "type": "jct",
+            "id": 1451,
+            "x": -12239,
+            "z": 7720,
+            "lines": {
+                "Tierra del Fuego": {
+                    "National": ["", ""],
+                    "Valdes Local": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "South America - Antarctica elevator",
+            "type": "elev-ew",
+            "id": 1452,
+            "x": -13071,
+            "z": 10277,
+            "y1": 49,
+            "y2": 16,
+            "lines": {
+                "Tierra del Fuego": {
+                    "National": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Valdes Industrial Zone",
+            "id": 1453,
+            "x": -12185,
+            "z": 7720,
+            "lines": {
+                "Tierra del Fuego": {
+                    "Valdes Local": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Agnus Tower",
+            "id": 1454,
+            "x": -12176,
+            "z": 7805,
+            "lines": {
+                "Tierra del Fuego": {
+                    "Valdes Local": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Valdes EPRA Square",
+            "id": 1455,
+            "x": -12031,
+            "z": 7720,
+            "lines": {
+                "Tierra del Fuego": {
+                    "Valdes Local": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -19733,14 +19793,14 @@
                             [13814, -2351],
                             [13814, -2223]
                         ],
-                        "stations": [1441, [1442, "0"], [1449, "4"], [1448, "3"]]
+                        "stations": [1441, [1442, "0"], [1449, "Tiefse branch"], [1448, "3"]]
                     },
                     "Tiefse branch": {
                         "vertices": [
                             [13531, -2629],
                             [13769, -2629]
                         ],
-                        "stations": [[1448, "4"], 1449]
+                        "stations": [[1449, "4"], 1450]
                     },
                     "6": {
                         "vertices": [
@@ -23769,6 +23829,44 @@
                             [21509.5, 4260.5]
                         ],
                         "stations": [1391, 1397, 1389]
+                    }
+                }
+            }
+        },
+        "Tierra del Fuego": {
+            "National": {
+                "prefix": "",
+                "code": "TDF",
+                "color": "a2a2a2",
+                "y": 49,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-12239, 7720],
+                            [-13071, 7720],
+                            [-13071, 10277]
+                        ],
+                        "stations": [1451, 1452]
+                    }
+                }
+            },
+            "Valdes Local": {
+                "prefix": "",
+                "code": "Valdes",
+                "color": "a2a2a2",
+                "y": 49,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-12031, 7720],
+                            [-12074, 7720],
+                            [-12074, 7805],
+                            [-12176, 7805],
+                            [-12074, 7805],
+                            [-12074, 7720],
+                            [-12239, 7720]
+                        ],
+                        "stations": [1451, 1453, 1454, 1455]
                     }
                 }
             }
