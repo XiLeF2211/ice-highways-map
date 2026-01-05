@@ -1,4 +1,5 @@
 *.json
 !highways.json
+!highways-annotated.json
 !netherHighways.json
 biglist.*
