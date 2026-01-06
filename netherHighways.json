@@ -9,7 +9,8 @@
                 "Y=49": {
                     "Chitograd-Antarctica": ["", "Main line"]
                 }
-            }
+            },
+            "notes": "portal to Chitograd x1084 y49 z-1016"
         },
         {
             "name": "Last Tour point",
@@ -42,7 +43,8 @@
             "z": -1379.5,
             "lines": {
                 "Y=49": {
-                    "Chitograd-Antarctica": ["", "Main line"]
+                    "Chitograd-Antarctica": ["", "Main line"],
+                    "Rybinsk": ["", "Main line"]
                 }
             }
         },
@@ -65,7 +67,8 @@
             "z": -1104.5,
             "lines": {
                 "Y=49": {
-                    "Chitograd-Antarctica": ["", "Main line"]
+                    "Chitograd-Antarctica": ["", "Main line"],
+                    "Kharkiv": ["", "Main line"]
                 }
             }
         },
@@ -180,6 +183,255 @@
                     "Chitograd-Antarctica": ["", "Ebengrad branch"]
                 }
             }
+        },
+        {
+            "name": "Kharkiv",
+            "id": 16,
+            "x": 821.5,
+            "z": -1166.5,
+            "lines": {
+                "Y=49": {
+                    "Kharkiv": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Moscow",
+            "id": 17,
+            "x": 821.5,
+            "z": -1344,
+            "lines": {
+                "Y=49": {
+                    "Kharkiv": ["", "Main line"]
+                }
+            },
+            "notes": "Portal to Moscow at x819 y49 z-1344"
+        },
+        {
+            "name": "Moscow-Rybinsk JCT",
+            "type": "jct",
+            "id": 18,
+            "x": 821.5,
+            "z": -1379.5,
+            "lines": {
+                "Y=49": {
+                    "Kharkiv": ["", "Main line"],
+                    "Rybinsk": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Point-m1526 JCT",
+            "type": "jct",
+            "id": 19,
+            "x": 821.5,
+            "z": -1526.5,
+            "lines": {
+                "Y=49": {
+                    "Kharkiv": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Point-633 JCT",
+            "type": "jct",
+            "id": 20,
+            "x": 633.5,
+            "z": -1526.5,
+            "lines": {
+                "Y=49": {
+                    "Minsk ex": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Point-m1379 JCT",
+            "type": "jct",
+            "id": 21,
+            "x": 633.5,
+            "z": -1379.5,
+            "lines": {
+                "Y=49": {
+                    "Minsk ex": ["", "Main line"],
+                    "Rybinsk": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Stairway to the Y=79 Ice line",
+            "id": 22,
+            "x": 633.5,
+            "z": -1082.5,
+            "lines": {
+                "Y=49": {
+                    "Minsk ex": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Jasionka JCT",
+            "type": "jct",
+            "id": 23,
+            "x": 753.5,
+            "z": -1379.5,
+            "lines": {
+                "Y=49": {
+                    "Rybinsk": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Rybinsk",
+            "id": 24,
+            "x": 861.5,
+            "z": -1379.5,
+            "lines": {
+                "Y=49": {
+                    "Rybinsk": ["", "Main line"]
+                }
+            },
+            "notes": "Portal to Rybinsk at x861 y49 z-1375"
+        },
+        {
+            "name": "Point-1136",
+            "id": 25,
+            "x": 1136.5,
+            "z": -1379.5,
+            "lines": {
+                "Y=49": {
+                    "Rybinsk": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Point-1287",
+            "id": 26,
+            "x": 1287.5,
+            "z": -1379.5,
+            "lines": {
+                "Y=49": {
+                    "Rybinsk": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Narodnyi JCT",
+            "type": "jct",
+            "id": 27,
+            "x": 1356.5,
+            "z": -1379.5,
+            "lines": {
+                "Y=49": {
+                    "Rybinsk": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bobka JCT",
+            "type": "jct",
+            "id": 28,
+            "x": 1617.5,
+            "z": -1379.5,
+            "lines": {
+                "Y=49": {
+                    "Rybinsk": ["", "Main line"],
+                    "Astana": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Svyataya Gora",
+            "id": 29,
+            "x": 1708.5,
+            "z": -1458.5,
+            "lines": {
+                "Y=49": {
+                    "Astana": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "North Astana field",
+            "id": 30,
+            "x": 1617.5,
+            "z": -1313.5,
+            "lines": {
+                "Y=49": {
+                    "Astana": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Art's JCT",
+            "type": "jct",
+            "id": 31,
+            "x": 1617.5,
+            "z": -1277.5,
+            "lines": {
+                "Y=49": {
+                    "Astana": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Astana",
+            "id": 32,
+            "x": 1617.5,
+            "z": -1247.5,
+            "lines": {
+                "Y=49": {
+                    "Astana": ["", "Main line"]
+                }
+            },
+            "notes": "Portal to Astana at x1614 y49 z-1247"
+        },
+        {
+            "name": "Bactria JCT",
+            "type": "jct",
+            "id": 33,
+            "x": 1617.5,
+            "z": -901.5,
+            "lines": {
+                "Y=49": {
+                    "Astana": ["", "Main line"],
+                    "Bactria-Japanese": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Novosibirsk",
+            "id": 34,
+            "x": 1887.5,
+            "z": -1277.5,
+            "lines": {
+                "Y=49": {
+                    "Astana": ["", "Novosibirsk branch"]
+                }
+            }
+        },
+        {
+            "name": "Balkh Walkway",
+            "id": 35,
+            "x": 1467.5,
+            "z": -901.5,
+            "lines": {
+                "Y=49": {
+                    "Bactria-Japanese": ["", "Main line"]
+                }
+            },
+            "notes": "Portal to Balkh at x1467 y34 z-837"
+        },
+        {
+            "name": "Point-2935 JCT",
+            "type": "jct",
+            "id": 36,
+            "x": 2935.5,
+            "z": -901.5,
+            "lines": {
+                "Y=49": {
+                    "Bactria-Japanese": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -210,6 +462,91 @@
                             [1147, 1620.5]
                         ],
                         "stations": [[13, "Main line"], 15]
+                    }
+                }
+            },
+            "Kharkiv": {
+                "prefix": "",
+                "code": "",
+                "color": "3F704D",
+                "y": 49,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [1054, -1104.5],
+                            [821.5, -1104.5],
+                            [821.5, -1526.5]
+                        ],
+                        "stations": [5, 16, 17, 18, 19]
+                    }
+                }
+            },
+            "Rybinsk": {
+                "prefix": "",
+                "code": "",
+                "color": "3F704D",
+                "y": 49,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [633.5, -1379.5],
+                            [1617.5, -1379.5]
+                        ],
+                        "stations": [21, 23, 18, 24, 3, 25, 26, 27, 28]
+                    }
+                }
+            },
+            "Astana": {
+                "prefix": "",
+                "code": "",
+                "color": "3F704D",
+                "y": 49,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [1710.5, -1458.5],
+                            [1617.5, -1458.5],
+                            [1617.5, -901.5]
+                        ],
+                        "stations": [29, [28, "Novosibirsk branch"], 30, 31, 32, 33]
+                    },
+                    "Novosibirsk branch": {
+                        "vertices": [
+                            [1617.5, -1277.5],
+                            [1901.5, -1277.5]
+                        ],
+                        "stations": [[28, "Main line"], 34]
+                    }
+                }
+            },
+            "Bactria-Japanese": {
+                "prefix": "",
+                "code": "RUS-JAP",
+                "color": "3F704D",
+                "y": 49,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [1453, -901.5],
+                            [3081, -901.5],
+                            [3081, 54.5]
+                        ],
+                        "stations": [35, 33, 36]
+                    }
+                }
+            },
+            "Minsk ex": {
+                "prefix": "",
+                "code": "",
+                "color": "3F704D",
+                "y": 49,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [633.5, -1531],
+                            [633.5, -1081]
+                        ],
+                        "stations": [20, 21, 22]
                     }
                 }
             }
