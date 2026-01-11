@@ -4,13 +4,16 @@
             "name": "Chitograd",
             "id": 0,
             "x": 1053.5,
-            "z": -1017,
+            "z": -1003.5,
             "lines": {
                 "Y=49": {
                     "Chitograd-Antarctica": ["", "Main line"]
+                },
+                "Y=87": {
+                    "America-Russia": ["", "Main line"]
                 }
             },
-            "notes": "portal to Chitograd x1084 y49 z-1016"
+            "notes": "portal to Chitograd at x1084 y49 z-1016"
         },
         {
             "name": "Last Tour point",
@@ -432,6 +435,31 @@
                     "Bactria-Japanese": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Point-512 JCT",
+            "type": "jct",
+            "id": 37,
+            "x": 512.5,
+            "z": -1003.5,
+            "lines": {
+                "Y=87": {
+                    "America-Russia": ["", "Main line"]
+                }
+            },
+            "notes": ""
+        },
+        {
+            "name": "New York City",
+            "id": 38,
+            "x": -1754.5,
+            "z": -1003.5,
+            "lines": {
+                "Y=87": {
+                    "America-Russia": ["", "Main line"]
+                }
+            },
+            "notes": "portal to New York City at x y z"
         }
     ],
     "lines": {
@@ -547,6 +575,26 @@
                             [633.5, -1081]
                         ],
                         "stations": [20, 21, 22]
+                    }
+                }
+            }
+        },
+        "Y=87": {
+            "America-Russia": {
+                "prefix": "",
+                "code": "",
+                "color": "FF0000",
+                "y": 87,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [2342.5, -1139.5],
+                            [2342.5, -1003.5],
+                            [-2229.5, -1003.5],
+                            [-2229.5, -1003.5],
+                            [-2229.5, -1062]
+                        ],
+                        "stations": [0, 37, 38]
                     }
                 }
             }
