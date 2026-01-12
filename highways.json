@@ -2701,6 +2701,9 @@
                 "TNIH": {
                     "Bangla-Caspian": ["", "Main line"],
                     "Afghan": ["", "Main line"]
+                },
+                "talion03's Ice Highways": {
+                    "X=11799": ["", "Main line"]
                 }
             },
             "areas": [
@@ -4891,13 +4894,19 @@
             "y1": 2,
             "y2": 111,
             "id": 398,
-            "x": 13676,
-            "z": -10007,
+            "x": 13680,
+            "z": -10003,
             "lines": {
                 "Intercontinental": {
                     "Russian Republic ice roads": ["", "Kazakhstan - Leningrad route"]
+                },
+                "talion03's Ice Highways": {
+                    "X=13680": ["", "Main line"]
                 }
-            }
+            },
+            "areas": [
+                [[13674, -10001], [13686, -10008]]
+            ]
         },
         {
             "name": "1st Kazakhstan route JCT",
@@ -10722,6 +10731,9 @@
             "lines": {
                 "Modern Silk Road": {
                     "MSR Main line (Y=111)": ["", "Main line"]
+                },
+                "talion03's Ice Highways": {
+                    "X=11799": ["", "Main line"]
                 }
             }
         },
@@ -10733,6 +10745,9 @@
             "lines": {
                 "Modern Silk Road": {
                     "MSR Main line (Y=111)": ["", "Main line"]
+                },
+                "talion03's Ice Highways": {
+                    "X=11799": ["", "Main line"]
                 }
             }
         },
@@ -10745,6 +10760,9 @@
             "lines": {
                 "Modern Silk Road": {
                     "MSR Main line (Y=111)": ["", "Main line to Be branch"]
+                },
+                "talion03's Ice Highways": {
+                    "X=11799": ["", "Main line"]
                 }
             }
         },
@@ -10789,6 +10807,9 @@
             "lines": {
                 "Modern Silk Road": {
                     "MSR Main line (Y=111)": ["", "Main line"]
+                },
+                "talion03's Ice Highways": {
+                    "X=13680": ["", "Main line"]
                 }
             }
         },
@@ -13195,6 +13216,9 @@
             "lines": {
                 "TNIH": {
                     "Makran Main": ["", "Kemmnath branch"]
+                },
+                "talion03's Ice Highways": {
+                    "X=11799": ["", "Kemmnath branch"]
                 }
             },
             "areas": [
@@ -18550,6 +18574,307 @@
                     "North": ["", "0"]
                 }
             }
+        },
+        {
+            "name": "Deckenbaus Northwest",
+            "id": 1459,
+            "x": 11799,
+            "z": -12118,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=11799": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Deckenbaus Southwest JCT",
+            "type": "jct",
+            "id": 1460,
+            "x": 11799,
+            "z": -11719,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=11799": ["", "Main line to Deckenbaus connector branch"]
+                }
+            }
+        },
+        {
+            "name": "Deckenbaus Elevator",
+            "type": "elev-we",
+            "id": 1461,
+            "x": 11757,
+            "z": -11913,
+            "y1": 111,
+            "y2": 86,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=11799": ["", "Deckenbaus connector branch"]
+                }
+            }
+        },
+        {
+            "name": "Deckenbaus West JCT",
+            "type": "jct",
+            "id": 1462,
+            "x": 11757,
+            "z": -12052,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=11799": ["", "Deckenbaus connector branch"]
+                }
+            }
+        },
+        {
+            "name": "Highway Pitstop",
+            "id": 1463,
+            "x": 11799,
+            "z": -10564,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=11799": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Station1 (ItzABird)",
+            "id": 1464,
+            "x": 11799,
+            "z": -10435,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=11799": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[11796, -10441], [11809, -10429]]
+            ]
+        },
+        {
+            "name": "Qostanay",
+            "type": "semi2",
+            "id": 1465,
+            "x": 11799,
+            "z": -9928,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=11799": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nura-Kazakh y=8 ↔ y=11 Elevator",
+            "type": "elev-we",
+            "id": 1466,
+            "x": 11799,
+            "z": -9246,
+            "y1": 8,
+            "y2": 11,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=11799": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[11792, -9248], [11807, -9238]]
+            ]
+        },
+        {
+            "name": "Jingland",
+            "type": "semi4",
+            "id": 1467,
+            "x": 11799,
+            "z": -8273,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=11799": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Samangan (JCT)",
+            "id": 1468,
+            "x": 11799,
+            "z": -6441,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=11799": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sakura",
+            "type": "semi2",
+            "id": 1469,
+            "x": 11799,
+            "z": -5966,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=11799": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kemmnath JCT",
+            "type": "jct",
+            "id": 1470,
+            "x": 11799,
+            "z": -5515,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=11799": ["", "Main line to Kemmnath branch"]
+                }
+            }
+        },
+        {
+            "name": "Omar JCT",
+            "type": "jct",
+            "id": 1471,
+            "x": 11799,
+            "z": -5058,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=11799": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Barrancabermeja-Pakistan",
+            "id": 1472,
+            "x": 11799,
+            "z": -4818,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=11799": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Z=-4566 Ocean Emergency Exit",
+            "type": "semi2",
+            "id": 1473,
+            "x": 11799,
+            "z": -4566,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=11799": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "JackxJack's Pereyarovo Supply Stop",
+            "type": "semi4",
+            "id": 1474,
+            "x": 13680,
+            "z": -11278,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=13680": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "NullPointer East Stairway JCT",
+            "id": 1475,
+            "x": 13680,
+            "z": -8585,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=13680": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Pamir Sign Placement Point",
+            "type": "semi4",
+            "id": 1476,
+            "x": 13680,
+            "z": -7404,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=13680": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Pamir JCT",
+            "type": "jct",
+            "id": 1477,
+            "x": 13680,
+            "z": -7348,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=13680": ["", "Main line to Pamir branch"]
+                }
+            }
+        },
+        {
+            "name": "Pamir",
+            "id": 1478,
+            "x": 13581,
+            "z": -7355,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=13680": ["", "Pamir branch"]
+                }
+            }
+        },
+        {
+            "name": "Shrek Northern Upward Entrance",
+            "type": "semi2",
+            "id": 1479,
+            "x": 13680,
+            "z": -6395,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=13680": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Shrek Northern Upward Entrance",
+            "type": "semi2",
+            "id": 1480,
+            "x": 13680,
+            "z": -6357,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=13680": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Shrek JCT",
+            "type": "jct",
+            "id": 1481,
+            "x": 13680,
+            "z": -6350,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=13680": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Amritsar North",
+            "id": 1482,
+            "x": 13680,
+            "z": -6095,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=13680": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Akola (Watch out for fall traps)",
+            "id": 1483,
+            "x": 13680,
+            "z": -4387,
+            "lines": {
+                "talion03's Ice Highways": {
+                    "X=13680": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -22774,7 +23099,13 @@
                             [19479, -7048],
                             [19479, -7034]
                         ],
-                        "stations": [841, 842, 255, 843, 844, [845, "Be branch"], 847, 848, 974, 849, 850, 819, 851]
+                        "stations": [841, 842, 255, 843, 844, [845, "Be branch"], 847, 848, 974, 849, 850, 819, 851],
+                        "concurrencies": {
+                            "talion03's Ice Highways.X=11799": [
+                                [11799, -7800],
+                                [11799, -7049]
+                            ]
+                        }
                     },
                     "Be branch": {
                         "vertices": [
@@ -23914,6 +24245,72 @@
                 }
             }
         },
+        "talion03's Ice Highways": {
+            "X=11799": {
+                "prefix": "",
+                "code": "X=11799",
+                "color": "eaaf78",
+                "y": 111,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [11799, -12118],
+                            [11799, -3153]
+                        ],
+                        "stations": [1459, [1460, "Deckenbaus connector branch"], 1463, 1464, 1465, 1466, 1467, 843, 844, 845, 224, 1468, 1469, [1470, "Kemmnath branch"], 1471, 1472, 1473],
+                        "concurrencies": {
+                            "Modern Silk Road.MSR Main line (Y=111)": [
+                                [11799, -7800],
+                                [11799, -7049]
+                            ]
+                        }
+                    },
+                    "Deckenbaus connector branch": {
+                        "vertices": [
+                            [11799, -11719],
+                            [11757, -11719],
+                            [11757, -12052]
+                        ],
+                        "stations": [[1460, "Main line"], 1461, 1462]
+                    },
+                    "Kemmnath branch": {
+                        "vertices": [
+                            [11799, -5515],
+                            [12026, -5515]
+                        ],
+                        "stations": [[1470, "Main line"], 1034]
+                    }
+                }
+            },
+            "X=13680": {
+                "prefix": "",
+                "code": "X=13680",
+                "color": "d05d64",
+                "y": 111,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [13680, -12719],
+                            [13680, -11811],
+                            [13802, -11811],
+                            [13802, -11521],
+                            [13680, -11521],
+                            [13680, -4387]
+                        ],
+                        "stations": [1474, 398, 1475, 1476, [1477, "Pamir branch"], 849, 1479, 1480, 1481, 1482, 1483]
+                    },
+                    "Pamir branch": {
+                        "vertices": [
+                            [13680, -7348],
+                            [13620, -7348],
+                            [13620, -7355],
+                            [13581, -7355]
+                        ],
+                        "stations": [[1477, "Main line"], 1478]
+                    }
+                }
+            }
+        },
         "Local": {
             "Singapore City Metro": {
                 "prefix": "",
@@ -24492,7 +24889,7 @@
                             [8269, -8281],
                             [8198, -8281]
                         ],
-                        "stations": [292, [940, "Chitograd Ice Highways connector branch"], 930, 540, 538, 293, 294, [295, "TNIH Connector branch"], [296, "Chitograd local branch"], 298, [675, "Jamalonious branch"], 301]
+                        "stations": [292, [940, "Chitograd Ice Highways connector branch"], 930, 1466, 540, 538, 293, 294, [295, "TNIH Connector branch"], [296, "Chitograd local branch"], 298, [675, "Jamalonious branch"], 301]
                     },
                     "TNIH connector branch": {
                         "vertices": [
