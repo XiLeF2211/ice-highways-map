@@ -18698,6 +18698,9 @@
             "lines": {
                 "talion03's Ice Highways": {
                     "X=11799": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "Samangan-Shrek": ["", "Main line"]
                 }
             }
         },
@@ -18851,6 +18854,9 @@
             "lines": {
                 "talion03's Ice Highways": {
                     "X=13680": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "Samangan-Shrek": ["", "Main line"]
                 }
             }
         },
@@ -18873,6 +18879,18 @@
             "lines": {
                 "talion03's Ice Highways": {
                     "X=13680": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sandville North Underground Farmland Patches",
+            "type": "semi3",
+            "id": 1484,
+            "x": 12158,
+            "z": -6441,
+            "lines": {
+                "Intercontinental": {
+                    "Samangan-Shrek": ["", "Main line"]
                 }
             }
         }
@@ -25803,6 +25821,23 @@
                             [-882, -10915]
                         ],
                         "stations": [[1432, "Main line"], 1433]
+                    }
+                }
+            },
+            "Samangan-Shrek": {
+                "prefix": "",
+                "code": "SMN-SRK",
+                "color": "a2a2a2",
+                "y": 111,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [11799, -6441],
+                            [13436, -6441],
+                            [13436, -6350],
+                            [13680, -6350]
+                        ],
+                        "stations": [1468, 1484, 1482]
                     }
                 }
             }
