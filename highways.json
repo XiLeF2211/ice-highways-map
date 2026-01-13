@@ -12313,28 +12313,10 @@
             }
         },
         {
-            "name": "Syr Darya Stairs",
-            "type": "elev-we",
+            "name": "Syr Darya North (JCT)",
             "id": 968,
             "x": 12524,
             "z": -7951,
-            "y1": 10,
-            "y2": 2,
-            "lines": {
-                "TNIH": {
-                    "Xinjiang Main": ["", "Syr Darya-Bishkek branch"]
-                }
-            },
-            "areas": [
-                [[12522, -7951], [12526, -7971]]
-            ]
-        },
-        {
-            "name": "3rd Syr Darya JCT",
-            "type": "jct",
-            "id": 969,
-            "x": 12524,
-            "z": -7969,
             "lines": {
                 "TNIH": {
                     "Xinjiang Main": ["", "Syr Darya-Bishkek branch"]
@@ -12342,7 +12324,27 @@
                 "Intercontinental": {
                     "European Russia": ["", "Chechnya line"]
                 }
-            }
+            },
+            "areas": [
+                [[12519, -7946], [12527, -7971]]
+            ]
+        },
+        {
+            "name": "Baydibek JCT",
+            "id": 969,
+            "x": 12500,
+            "z": -8102,
+            "lines": {
+                "TNIH": {
+                    "Xinjiang Main": ["", "Syr Darya-Bishkek branch"]
+                },
+                "Local": {
+                    "Baydibek-Jezkazgan": ["", ""]
+                }
+            },
+            "areas": [
+                [[12498, -8100], [12527, -8104]]
+            ]
         },
         {
             "name": "Thimphu",
@@ -18893,6 +18895,17 @@
                     "Samangan-Shrek": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Jezkazgan (Y=2)",
+            "id": 1485,
+            "x": 12500,
+            "z": -8637,
+            "lines": {
+                "Local": {
+                    "Baydibek-Jezkazgan": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -19530,7 +19543,7 @@
                     "Syr Darya-Bishkek branch": {
                         "vertices": [
                             [12524, -7850],
-                            [12524, -7969]
+                            [12524, -8102]
                         ],
                         "stations": [[967, "Main line"], 968, 969]
                     }
@@ -20244,7 +20257,7 @@
             },
             "Norania-Lakshadweep": {
                 "prefix": "",
-                "code": "N-FU",
+                "code": "N-L",
                 "color": "c6fcff",
                 "y": 16,
                 "branches": {
@@ -24741,6 +24754,21 @@
                         "stations": [1283, 1284]
                     }
                 }
+            },
+            "Baydibek-Jezkazgan": {
+                "prefix": "",
+                "code": "Bdb-Jkz",
+                "color": "a2a2a2",
+                "y": 2,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [12500, -8098],
+                            [12500, -8639]
+                        ],
+                        "stations": [969, 1485]
+                    }
+                }
             }
         },
         "Intercontinental": {
@@ -24980,7 +25008,7 @@
                             [14551, -7969],
                             [14551, -8794]
                         ],
-                        "stations": [[699, "Main line"], 702, 703, 704, 293, 705, 969, [706, "Bishkek-Alaykel line"], 964, 965, 966]
+                        "stations": [[699, "Main line"], 702, 703, 704, 293, 705, 968, [706, "Bishkek-Alaykel line"], 964, 965, 966]
                     },
                     "Bishkek-Alaykel line": {
                         "vertices": [
