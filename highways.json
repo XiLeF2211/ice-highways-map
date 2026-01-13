@@ -18965,6 +18965,136 @@
                     "Russian Republic ice roads": ["", "Kazakhstan - Leningrad route"]
                 }
             }
+        },
+        {
+            "name": "Kagen-ku",
+            "id": 1490,
+            "x": 27775.5,
+            "z": -11058,
+            "lines": {
+                "Masafuku Metro": {
+                    "Jōge": ["", "Main line"]
+                }
+            },
+            "notes": "Japanese name: 下弦区"
+        },
+        {
+            "name": "Kagen-ku JCT",
+            "type": "jct",
+            "id": 1491,
+            "x": 27775.5,
+            "z": -11092.5,
+            "lines": {
+                "Masafuku Metro": {
+                    "Jōge": ["", "Main line to International Ice Highway 106"]
+                }
+            },
+            "notes": "Japanese name: 下弦区JCT"
+        },
+        {
+            "name": "Masafuku Minami JCT",
+            "type": "jct",
+            "id": 1492,
+            "x": 27687.5,
+            "z": -10612.5,
+            "lines": {
+                "Masafuku Metro": {
+                    "Jōge": ["", "International Ice Highway 106"]
+                }
+            },
+            "notes": "Japanese name: 正福南JCT"
+        },
+        {
+            "name": "Tokubetsu-ku",
+            "id": 1493,
+            "x": 27820.5,
+            "z": -11140.5,
+            "lines": {
+                "Masafuku Metro": {
+                    "Jōge": ["", "Main line"]
+                }
+            },
+            "notes": "Japanese name: 特別区"
+        },
+        {
+            "name": "Chūō-ku",
+            "id": 1494,
+            "x": 27959.5,
+            "z": -11150.5,
+            "notes": "Japanese name: 中央区",
+            "lines": {
+                "Masafuku Metro": {
+                    "Jōge": ["", "Main line"],
+                    "Tōnan": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[27996, -11153], [27957, -11149]],
+                [[27961, -11152], [27957, -11125]],
+                [[27964, -11129], [27957, -11125]]
+            ]
+        },
+        {
+            "name": "Jōgen-ku",
+            "id": 1495,
+            "x": 27906.5,
+            "z": -11246,
+            "lines": {
+                "Masafuku Metro": {
+                    "Jōge": ["", "Main line"]
+                }
+            },
+            "notes": "Japanese name: 上弦区"
+        },
+        {
+            "name": "Tōhō-ku",
+            "id": 1496,
+            "x": 28192.5,
+            "z": -11126.5,
+            "lines": {
+                "Masafuku Metro": {
+                    "Tōnan": ["", "Main line"]
+                }
+            },
+            "notes": "Japanese name: 東方区"
+        },
+        {
+            "name": "Tōhō JCT",
+            "type": "jct",
+            "id": 1497,
+            "x": 28200.5,
+            "z": -11132.5,
+            "lines": {
+                "Masafuku Metro": {
+                    "Tōnan": ["", "Main line to Kamina-ku branch"]
+                }
+            },
+            "notes": "Japanese name: 東方JCT"
+        },
+        {
+            "name": "Kamina-ku",
+            "type": "jct",
+            "id": 1498,
+            "x": 28200.5,
+            "z": -11304,
+            "lines": {
+                "Masafuku Metro": {
+                    "Tōnan": ["", "Kamina-ku branch"]
+                }
+            },
+            "notes": "Japanese name: 上南区"
+        },
+        {
+            "name": "Masafuku Airport",
+            "id": 1499,
+            "x": 28365,
+            "z": -11129.5,
+            "lines": {
+                "Masafuku Metro": {
+                    "Tōnan": ["", "Main line"]
+                }
+            },
+            "notes": "Japanese name: 正福空港"
         }
     ],
     "lines": {
@@ -24408,10 +24538,69 @@
                 }
             }
         },
+        "Masafuku Metro": {
+            "Jōge": {
+                "prefix": "",
+                "code": "上下",
+                "color": "FED83D",
+                "y": 66,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [27775.5, -11058],
+                            [27775.5, -11140.5],
+                            [27837.5, -11140.5],
+                            [27837.5, -11150.5],
+                            [27959.5, -11150.5],
+                            [27959.5, -11193.5],
+                            [27975.5, -11193.5],
+                            [27975.5, -11224.5],
+                            [27906.5, -11224.5],
+                            [27906.5, -11246]
+                        ],
+                        "stations": [1490, [1491, "International Ice Highway 106 connector branch"], 1493, 1494, 1495]
+                    },
+                    "International Ice Highway 106 connector branch": {
+                        "vertices": [
+                            [27775.5, -11092.5],
+                            [27687.5, -11092.5],
+                            [27687.5, -10612.5]
+                        ],
+                        "stations": [[1491, "Main line"], 1492]
+                    }
+                }
+            },
+            "Tōnan": {
+                "prefix": "",
+                "code": "東南",
+                "color": "8932B8",
+                "y": 57,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [27962.5, -11126.5],
+                            [28192.5, -11126.5],
+                            [28192.5, -11132.5],
+                            [28207.5, -11132.5],
+                            [28207.5, -11129.5],
+                            [28365, -11129.5]
+                        ],
+                        "stations": [1494, 1496, [1497, "Kamina-ku branch"], 1499]
+                    },
+                    "Kamina-ku branch": {
+                        "vertices": [
+                            [28200.5, -11132.5],
+                            [28200.5, -11304]
+                        ],
+                        "stations": [[1497, "Main line"], 1498]
+                    }
+                }
+            }
+        },
         "Local": {
             "Singapore City Metro": {
                 "prefix": "",
-                "code": "",
+                "code": "SCM",
                 "color": "01b9f1",
                 "y": 49,
                 "branches": {
