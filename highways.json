@@ -18954,8 +18954,8 @@
             "name": "Line 2-Line 5-Russian Republic ice roads line JCT",
             "type": "jct",
             "id": 1489,
-            "x": 1549,
-            "z": -1085,
+            "x": 12191,
+            "z": -8682,
             "lines": {
                 "Kazakhstan Ice lines": {
                     "Line 2": ["", "Extension"],
@@ -23330,7 +23330,7 @@
                             [12399, -8682],
                             [12191, -8682]
                         ],
-                        "stations": []
+                        "stations": [1488, 1489]
                     }
                 }
             },
