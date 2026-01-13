@@ -8893,7 +8893,7 @@
             ]
         },
         {
-            "name": "Shymkent JCT",
+            "name": "Line 5-European Russia Chechnya line JCT",
             "type": "jct",
             "id": 705,
             "x": 12191,
@@ -11817,7 +11817,7 @@
             }
         },
         {
-            "name": "Line 3-Line 5 JCT",
+            "name": "Line 3-Line 5-Russian Republic ice roads line JCT",
             "type": "jct",
             "id": 931,
             "x": 12191,
@@ -11883,7 +11883,7 @@
             }
         },
         {
-            "name": "Line 3-Line 6 JCT",
+            "name": "Line 3-Line 6-European Russia Bishkek-Alaykel line JCT",
             "type": "jct",
             "id": 936,
             "x": 13597,
@@ -11949,7 +11949,7 @@
             }
         },
         {
-            "name": "Karagandy JCT",
+            "name": "Line 1-Chitograd Ice Highways line JCT",
             "type": "jct",
             "id": 941,
             "x": 12937,
@@ -18936,6 +18936,35 @@
                 }
             },
             "notes": "portal to coordinate: 1560, 6, -1093"
+        },
+        {
+            "name": "Jezkazgan Northern Nether Portal",
+            "type": "jct",
+            "id": 1488,
+            "x": 12398,
+            "z": -8682,
+            "lines": {
+                "Kazakhstan Ice lines": {
+                    "Line 2": ["", "Extension"]
+                }
+            },
+            "notes": "portal to coordinate: 1560, 6, -1093"
+        },
+        {
+            "name": "Line 2-Line 5-Russian Republic ice roads line JCT",
+            "type": "jct",
+            "id": 1489,
+            "x": 1549,
+            "z": -1085,
+            "lines": {
+                "Kazakhstan Ice lines": {
+                    "Line 2": ["", "Extension"],
+                    "Line 5": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "Russian Republic ice roads": ["", "Kazakhstan - Leningrad route"]
+                }
+            }
         }
     ],
     "lines": {
@@ -23330,10 +23359,10 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [12191, -8096],
+                            [12191, -8682],
                             [12191, -7905]
                         ],
-                        "stations": [931, 705, 932]
+                        "stations": [931, 705, 932, 1489]
                     }
                 }
             },
@@ -25166,14 +25195,14 @@
                     },
                     "Kazakhstan - Leningrad route": {
                         "vertices": [
-                            [12191, -8096],
+                            [12191, -8682],
                             [12191, -10003],
                             [14539, -10003],
                             [14539, -9474],
                             [14493, -9474],
                             [14493, -8751]
                         ],
-                        "stations": [931, 930, 292, 396, [397, "X=13557 branch"], 398, [399, "Novosibirsk Ring"], 418, 419, 420, 421, 422]
+                        "stations": [1489, 930, 292, 396, [397, "X=13557 branch"], 398, [399, "Novosibirsk Ring"], 418, 419, 420, 421, 422]
                     },
                     "X=13557 branch": {
                         "vertices": [
