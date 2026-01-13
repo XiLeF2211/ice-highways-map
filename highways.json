@@ -18986,7 +18986,7 @@
             "z": -11092.5,
             "lines": {
                 "Masafuku Metro": {
-                    "Jōge": ["", "Main line to International Ice Highway 106"]
+                    "Jōge": ["", "Main line to International Ice Highway 106 connector branch"]
                 }
             },
             "notes": "Japanese name: 下弦区JCT"
@@ -18999,7 +18999,7 @@
             "z": -10612.5,
             "lines": {
                 "Masafuku Metro": {
-                    "Jōge": ["", "International Ice Highway 106"]
+                    "Jōge": ["", "International Ice Highway 106 connector branch"]
                 }
             },
             "notes": "Japanese name: 正福南JCT"
