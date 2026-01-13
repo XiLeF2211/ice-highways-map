@@ -460,6 +460,58 @@
                 }
             },
             "notes": "portal to New York City at x y z"
+        },
+        {
+            "name": "Jezkazgan Southern Nether Portal",
+            "type": "jct",
+            "id": 39,
+            "x": 1560,
+            "z": -1074,
+            "lines": {
+                "Y=6": {
+                    "Baydibek-Nura": ["", "Main line"]
+                }
+            },
+            "notes": "portal to coordinate: 12482, 2, -8591"
+        },
+        {
+            "name": "Jezkazgan Nether JCT",
+            "type": "jct",
+            "id": 40,
+            "x": 1560,
+            "z": -1085,
+            "lines": {
+                "Y=6": {
+                    "Baydibek-Nura": ["", "Main line"],
+                    "Line 2 (Kazakhstan)": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Jezkazgan Northern Nether Portal",
+            "type": "jct",
+            "id": 41,
+            "x": 1560,
+            "z": -1093,
+            "lines": {
+                "Y=6": {
+                    "Baydibek-Nura": ["", "Main line"]
+                }
+            },
+            "notes": "portal to coordinate: 12482, 2, -8738"
+        },
+        {
+            "name": "Jezkazgan Western Nether Portal",
+            "type": "jct",
+            "id": 42,
+            "x": 1549,
+            "z": -1085,
+            "lines": {
+                "Y=6": {
+                    "Line 2 (Kazakhstan)": ["", "Main line"]
+                }
+            },
+            "notes": "portal to coordinate: 12398, 2, -8682"
         }
     ],
     "lines": {
@@ -595,6 +647,38 @@
                             [-2229.5, -1062]
                         ],
                         "stations": [0, 37, 38]
+                    }
+                }
+            }
+        },
+        "Y=6": {
+            "Baydibek-Nura": {
+                "prefix": "",
+                "code": "BDB-NRA",
+                "color": "9d4366",
+                "y": 6,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [1560, -1073],
+                            [1560, -1094]
+                        ],
+                        "stations": [39, 40, 41]
+                    }
+                }
+            },
+            "Line 2 (Kazakhstan)": {
+                "prefix": "",
+                "code": "L2",
+                "color": "ffec2d",
+                "y": 6,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [1570, -1085],
+                            [1548, -1085]
+                        ],
+                        "stations": [40, 42]
                     }
                 }
             }

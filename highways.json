@@ -11943,7 +11943,8 @@
             "z": -9246,
             "lines": {
                 "Intercontinental": {
-                    "Chitograd Ice Highways": ["", "Main line to Kazakhstan Ice lines connector branch"]
+                    "Chitograd Ice Highways": ["", "Main line to Kazakhstan Ice lines connector branch"],
+                    "Baydibek-Nura": ["", "Northern route"]
                 }
             }
         },
@@ -12340,6 +12341,9 @@
                 },
                 "Local": {
                     "Baydibek-Jezkazgan": ["", ""]
+                },
+                "Intercontinental": {
+                    "Baydibek-Nura": ["", "Southern route"]
                 }
             },
             "areas": [
@@ -18906,6 +18910,32 @@
                     "Baydibek-Jezkazgan": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Jezkazgan Southern Nether Portal",
+            "type": "jct",
+            "id": 1486,
+            "x": 12482,
+            "z": -8591,
+            "lines": {
+                "Intercontinental": {
+                    "Baydibek-Nura": ["", "Southern route"]
+                }
+            },
+            "notes": "portal to coordinate: 1560, 6, -1074"
+        },
+        {
+            "name": "Jezkazgan Northern Nether Portal",
+            "type": "jct",
+            "id": 1487,
+            "x": 12482,
+            "z": -8738,
+            "lines": {
+                "Intercontinental": {
+                    "Baydibek-Nura": ["", "Northern route"]
+                }
+            },
+            "notes": "portal to coordinate: 1560, 6, -1093"
         }
     ],
     "lines": {
@@ -23265,6 +23295,13 @@
                             [13597, -8682]
                         ],
                         "stations": [942, 938, 943]
+                    },
+                    "Extension": {
+                        "vertices": [
+                            [12399, -8682],
+                            [12191, -8682]
+                        ],
+                        "stations": []
                     }
                 }
             },
@@ -24757,7 +24794,7 @@
             },
             "Baydibek-Jezkazgan": {
                 "prefix": "",
-                "code": "Bdb-Jkz",
+                "code": "BDB-JKZ",
                 "color": "a2a2a2",
                 "y": 2,
                 "branches": {
@@ -25866,6 +25903,29 @@
                             [13680, -6350]
                         ],
                         "stations": [1468, 1484, 1481]
+                    }
+                }
+            },
+            "Baydibek-Nura": {
+                "prefix": "",
+                "code": "BDB-NRA",
+                "color": "9d4366",
+                "y": 2,
+                "branches": {
+                    "Southern route": {
+                        "vertices": [
+                            [12500, -8102],
+                            [12482, -8102],
+                            [12482, -8592]
+                        ],
+                        "stations": [969, 1486]
+                    },
+                    "Northern route": {
+                        "vertices": [
+                            [12482, -8737],
+                            [12482, -9246]
+                        ],
+                        "stations": [1487, 940]
                     }
                 }
             }
