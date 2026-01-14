@@ -14946,6 +14946,7 @@
             "id": 1167,
             "x": 25401,
             "z": 1262,
+            "notes": "Japanese name: 端中新茜",
             "lines": {
                 "Intercontinental": {
                     "KT Momase Highspeed Iceway": ["01", "Main line"]
@@ -14960,6 +14961,7 @@
             "id": 1168,
             "x": 25446,
             "z": 1097,
+            "notes": "Japanese name: 西加津駅",
             "lines": {
                 "Intercontinental": {
                     "KT Momase Highspeed Iceway": ["02", "Main line"]
@@ -14979,6 +14981,7 @@
             "id": 1169,
             "x": 25449,
             "z": 949,
+            "notes": "Japanese name: 新加津有津都",
             "lines": {
                 "Intercontinental": {
                     "KT Momase Highspeed Iceway": ["03", "Main line"]
@@ -14995,6 +14998,7 @@
             "id": 1170,
             "x": 25704,
             "z": 568,
+            "notes": "Japanese name: 南薊",
             "lines": {
                 "Intercontinental": {
                     "KT Momase Highspeed Iceway": ["04", "Main line"]
