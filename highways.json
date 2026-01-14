@@ -3781,6 +3781,7 @@
             "id": 310,
             "x": -13929,
             "z": 1399,
+            "notes": "Japanese name: 理津",
             "lines": {
                 "Ariguma Railway": {
                     "Nankyoku Shinkansen": ["", ""]
@@ -3799,7 +3800,8 @@
                 "Ariguma Railway": {
                     "Nankyoku Shinkansen": ["", ""]
                 }
-            }
+            },
+            "notes": "Japanese name: 橋原"
         },
         {
             "name": "Shin-Nijimori",
@@ -3810,7 +3812,8 @@
                 "Ariguma Railway": {
                     "Nankyoku Shinkansen": ["", ""]
                 }
-            }
+            },
+            "notes": "Japanese name: 新虹森"
         },
         {
             "name": "Shin-Sahata",
@@ -3821,7 +3824,8 @@
                 "Ariguma Railway": {
                     "Nankyoku Shinkansen": ["", ""]
                 }
-            }
+            },
+            "notes": "Japanese name: 新佐幡"
         },
         {
             "name": "Misato",
@@ -3832,7 +3836,8 @@
                 "Ariguma Railway": {
                     "Nankyoku Shinkansen": ["", ""]
                 }
-            }
+            },
+            "notes": "Japanese name: 美里"
         },
         {
             "name": "Rakka",
@@ -5202,7 +5207,8 @@
                 "Ariguma Railway": {
                     "Nankyoku Shinkansen": ["", ""]
                 }
-            }
+            },
+            "notes": "Japanese name: 木多"
         },
         {
             "name": "Daigen",
@@ -5213,7 +5219,8 @@
                 "Ariguma Railway": {
                     "Nankyoku Shinkansen": ["", ""]
                 }
-            }
+            },
+            "notes": "Japanese name: 大元"
         },
         {
             "name": "1st Karelian JCT",
@@ -8419,7 +8426,8 @@
                 "Ariguma Railway": {
                     "Nankyoku Shinkansen": ["", ""]
                 }
-            }
+            },
+            "notes": "Japanese name: 美州高原"
         },
         {
             "name": "Yushiwan",
@@ -8430,7 +8438,8 @@
                 "Ariguma Railway": {
                     "Nankyoku Shinkansen": ["", ""]
                 }
-            }
+            },
+            "notes": "Japanese name: 玉石湾"
         },
         {
             "name": "Moscow (Palace Valley)",
@@ -11823,9 +11832,6 @@
             "x": 12191,
             "z": -8096,
             "lines": {
-                "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Kazakhstan - Leningrad route"]
-                },
                 "Kazakhstan Ice lines": {
                     "Line 3": ["", "Main line"],
                     "Line 5": ["", "Main line"]
