@@ -19233,7 +19233,7 @@
         },
         {
             "name": "Kamchatka JCT",
-            "type": "JCT",
+            "type": "jct",
             "id": 1509,
             "x": 29721.5,
             "z": -10612.5,
