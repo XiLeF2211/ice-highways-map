@@ -19250,7 +19250,7 @@
             "z": -10871.5,
             "lines": {
                 "International Ice Highway 106": {
-                    "Y=56": ["", "Main line to Kamchatka branch"]
+                    "Y=56": ["", "Kamchatka branch"]
                 }
             }
         },
@@ -19261,7 +19261,7 @@
             "z": -11050,
             "lines": {
                 "International Ice Highway 106": {
-                    "Y=56": ["", "Main line to Kamchatka branch"]
+                    "Y=56": ["", "Kamchatka branch"]
                 }
             }
         },
@@ -19285,7 +19285,7 @@
             "type": "semi1",
             "id": 1513,
             "x": 30714,
-            "z": -11050,
+            "z": -10612.5,
             "lines": {
                 "International Ice Highway 106": {
                     "Y=66 East": ["", "Main line"]
@@ -19297,7 +19297,7 @@
             "type": "semi1",
             "id": 1514,
             "x": 31930,
-            "z": -11050,
+            "z": -10612.5,
             "lines": {
                 "International Ice Highway 106": {
                     "Y=66 East": ["", "Main line"]
@@ -19309,7 +19309,7 @@
             "type": "jct",
             "id": 1515,
             "x": 32469.5,
-            "z": -11050,
+            "z": -10612.5,
             "lines": {
                 "International Ice Highway 106": {
                     "Y=66 East": ["", "Main line to Marisad City branch"]
@@ -19356,7 +19356,7 @@
             "type": "semi1",
             "id": 1519,
             "x": -30250,
-            "z": -11050,
+            "z": -10612.5,
             "lines": {
                 "International Ice Highway 106": {
                     "Y=66 Alaska": ["", "Main line"]
