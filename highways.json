@@ -9545,7 +9545,7 @@
             ]
         },
         {
-            "name": "Minami-Himmazin",
+            "name": "Minami-Himazin",
             "id": 754,
             "x": 24760,
             "z": -10395,
@@ -9553,13 +9553,15 @@
                 "Japan Ice lines": {
                     "Bonkyo": ["", ""]
                 }
-            }
+            },
+            "notes": "Japanese name: 南ひまじん"
         },
         {
             "name": "Bonkyo",
             "id": 755,
             "x": 25466,
             "z": -10744,
+            "notes": "Japanese name: 梵京",
             "lines": {
                 "Japan Ice lines": {
                     "Bonkyo": ["", ""]
@@ -9826,6 +9828,7 @@
             "id": 775,
             "x": 27849,
             "z": -11095,
+            "notes": "Japanese name: 正福",
             "lines": {
                 "Ezo Ice lines": {
                     "Masafuku": ["", "Main line"]
@@ -10276,6 +10279,9 @@
             "lines": {
                 "Local": {
                     "Skechalope-Dewdonia": ["", "Main line"]
+                },
+                "International Ice Highway 106": {
+                    "Y=56": ["", "Main line"]
                 }
             },
             "areas": [
@@ -19010,6 +19016,9 @@
             "lines": {
                 "Masafuku Metro": {
                     "Jōge": ["", "International Ice Highway 106 connector branch"]
+                },
+                "International Ice Highway 106": {
+                    "Y=66 West": ["", "Main line"]
                 }
             },
             "notes": "Japanese name: 正福南JCT"
@@ -19104,6 +19113,120 @@
                 }
             },
             "notes": "Japanese name: 正福空港"
+        },
+        {
+            "name": "Himazin",
+            "id": 1500,
+            "x": 24799,
+            "z": -10612.5,
+            "lines": {
+                "International Ice Highway 106": {
+                    "Y=66 West": ["", "Main line"]
+                }
+            },
+            "notes": "Japanese name: ひまじん"
+        },
+        {
+            "name": "Amur (JCT)",
+            "id": 1501,
+            "x": 25005.5,
+            "z": -10612.5,
+            "lines": {
+                "International Ice Highway 106": {
+                    "Y=66 West": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yazyuu Senpai JCT",
+            "type": "jct",
+            "id": 1502,
+            "x": 25785.5,
+            "z": -10612.5,
+            "lines": {
+                "International Ice Highway 106": {
+                    "Y=66 West": ["", "Main line to Yazyuu branch"]
+                }
+            }
+        },
+        {
+            "name": "Bonkyo East JCT",
+            "type": "jct",
+            "id": 1503,
+            "x": 25785.5,
+            "z": -10753.5,
+            "lines": {
+                "International Ice Highway 106": {
+                    "Y=66 West": ["", "Yazyuu branch to Bonkyo sub-branch"]
+                }
+            }
+        },
+        {
+            "name": "Bonkyo East",
+            "id": 1504,
+            "x": 25659,
+            "z": -10753.5,
+            "lines": {
+                "International Ice Highway 106": {
+                    "Y=66 West": ["", "Bonkyo sub-branch"]
+                }
+            }
+        },
+        {
+            "name": "Yazyuu",
+            "id": 1505,
+            "x": 25785.5,
+            "z": -10848,
+            "lines": {
+                "International Ice Highway 106": {
+                    "Y=66 West": ["", "Yazyuu branch"]
+                }
+            },
+            "areas": [
+                [[25775, -10864], [25791, -10849]],
+                [[25775, -10864], [25787, -10846]],
+                [[25783, -10841], [25787, -10849]]
+            ]
+        },
+        {
+            "name": "Ushki JCT",
+            "id": 1506,
+            "x": 26185,
+            "z": -10612.5,
+            "lines": {
+                "International Ice Highway 106": {
+                    "Y=66 West": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[26182, -10622], [26192, -10607]]
+            ]
+        },
+        {
+            "name": "Magadan JCT",
+            "id": 1507,
+            "x": 28243,
+            "z": -10612.5,
+            "lines": {
+                "International Ice Highway 106": {
+                    "Y=66 West": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Magadan Elevator",
+            "type": "elev-we",
+            "id": 1508,
+            "x": 28417,
+            "z": -10612.5,
+            "y1": 66,
+            "y2": 56,
+            "lines": {
+                "International Ice Highway 106": {
+                    "Y=66 West": ["", "Main line"],
+                    "Y=56": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -24602,6 +24725,101 @@
                             [28200.5, -11304]
                         ],
                         "stations": [[1497, "Main line"], 1498]
+                    }
+                }
+            }
+        },
+        "International Ice Highway 106": {
+            "Y=66 West": {
+                "prefix": "",
+                "code": "IIH106 (Y=66W)",
+                "color": "00c8fc",
+                "y": 66,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [24799, -10612.5],
+                            [24805.5, -10612.5],
+                            [24805.5, -10595.5],
+                            [24849.5, -10595.5],
+                            [24849.5, -10612.5],
+                            [28417, -10612.5]
+                        ],
+                        "stations": [1500, 1501, [1502, "Yazyuu branch"], 1506, 1492, 1507, 1508]
+                    },
+                    "Yazyuu branch": {
+                        "vertices": [
+                            [25785.5, -10612.5],
+                            [25785.5, -10848]
+                        ],
+                        "stations": [[1502, "Main line"], [1503, "Bonkyo sub-branch"], 1505]
+                    },
+                    "Bonkyo sub-branch": {
+                        "vertices": [
+                            [25785.5, -10753.5],
+                            [25659, -10753.5]
+                        ],
+                        "stations": [[1503, "Yazyuu branch"], 1504]
+                    }
+                }
+            },
+            "Y=56": {
+                "prefix": "",
+                "code": "IIH106 (Y=56)",
+                "color": "00c8fc",
+                "y": 56,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [28417, -10612.5],
+                            [30176, -10612.5]
+                        ],
+                        "stations": [1508, 812]
+                    },
+                    "Kamchatka branch": {
+                        "vertices": [
+                            [29721.5, -10612.5],
+                            [29721.5, -11050]
+                        ],
+                        "stations": []
+                    }
+                }
+            },
+            "Y=66 East": {
+                "prefix": "",
+                "code": "IIH106 (Y=66E)",
+                "color": "00c8fc",
+                "y": 56,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [30176, -10612.5],
+                            [33076, -10612.5]
+                        ],
+                        "stations": []
+                    },
+                    "Marisad City branch": {
+                        "vertices": [
+                            [32469.5, -10612.5],
+                            [32469.5, -11676]
+                        ],
+                        "stations": []
+                    }
+                }
+            },
+            "Y=66 Alaska": {
+                "prefix": "",
+                "code": "IIH106 (Y=66A)",
+                "color": "00c8fc",
+                "y": 56,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-33279, -10612.5],
+                            [-29916, -10612.5],
+                            [-29916, -10611]
+                        ],
+                        "stations": []
                     }
                 }
             }
