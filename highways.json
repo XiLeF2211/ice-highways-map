@@ -14782,6 +14782,9 @@
             "lines": {
                 "Alaskan Ice lines": {
                     "Innucisai-Coldest": ["", "Continental branch"]
+                },
+                "International Ice Highway 106": {
+                    "Y=66 Alaska": ["", "Main line"]
                 }
             }
         },
@@ -19225,6 +19228,138 @@
                 "International Ice Highway 106": {
                     "Y=66 West": ["", "Main line"],
                     "Y=56": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kamchatka JCT",
+            "type": "JCT",
+            "id": 1509,
+            "x": 29721.5,
+            "z": -10612.5,
+            "lines": {
+                "International Ice Highway 106": {
+                    "Y=56": ["", "Main line to Kamchatka branch"]
+                }
+            }
+        },
+        {
+            "name": "Karaginsky",
+            "id": 1510,
+            "x": 29721.5,
+            "z": -10871.5,
+            "lines": {
+                "International Ice Highway 106": {
+                    "Y=56": ["", "Main line to Kamchatka branch"]
+                }
+            }
+        },
+        {
+            "name": "Kamchatka",
+            "id": 1511,
+            "x": 29721.5,
+            "z": -11050,
+            "lines": {
+                "International Ice Highway 106": {
+                    "Y=56": ["", "Main line to Kamchatka branch"]
+                }
+            }
+        },
+        {
+            "name": "Oars Rest Elevator",
+            "type": "elev-ew",
+            "id": 1512,
+            "x": 30176,
+            "z": -10612.5,
+            "y1": 56,
+            "y2": 66,
+            "lines": {
+                "International Ice Highway 106": {
+                    "Y=56": ["", "Main line"],
+                    "Y=66 East": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "IIH106 1st Nether Portal",
+            "type": "semi1",
+            "id": 1513,
+            "x": 30714,
+            "z": -11050,
+            "lines": {
+                "International Ice Highway 106": {
+                    "Y=66 East": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "IIH106 2nd Nether Portal",
+            "type": "semi1",
+            "id": 1514,
+            "x": 31930,
+            "z": -11050,
+            "lines": {
+                "International Ice Highway 106": {
+                    "Y=66 East": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Marisad City JCT",
+            "type": "jct",
+            "id": 1515,
+            "x": 32469.5,
+            "z": -11050,
+            "lines": {
+                "International Ice Highway 106": {
+                    "Y=66 East": ["", "Main line to Marisad City branch"]
+                }
+            }
+        },
+        {
+            "name": "Marisad City",
+            "id": 1516,
+            "x": 32469.5,
+            "z": -11676,
+            "lines": {
+                "International Ice Highway 106": {
+                    "Y=66 East": ["", "Marisad City branch"]
+                }
+            }
+        },
+        {
+            "name": "The Long Plains (IIH106 Eastern World Border)",
+            "id": 1517,
+            "x": 33076,
+            "z": -10612.5,
+            "lines": {
+                "International Ice Highway 106": {
+                    "Y=66 East": ["", "Main line"],
+                    "Y=66 Alaska": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "IIH106 Western World Border",
+            "id": 1518,
+            "x": -33279,
+            "z": -10612.5,
+            "lines": {
+                "International Ice Highway 106": {
+                    "Y=66 East": ["", "Main line"],
+                    "Y=66 Alaska": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "IIH106 3rd Nether Portal",
+            "type": "semi1",
+            "id": 1519,
+            "x": -30250,
+            "z": -11050,
+            "lines": {
+                "International Ice Highway 106": {
+                    "Y=66 Alaska": ["", "Main line"]
                 }
             }
         }
@@ -24774,14 +24909,14 @@
                             [28417, -10612.5],
                             [30176, -10612.5]
                         ],
-                        "stations": [1508, 812]
+                        "stations": [1508, 811, [1509, "Kamchatka branch"], 1512]
                     },
                     "Kamchatka branch": {
                         "vertices": [
                             [29721.5, -10612.5],
                             [29721.5, -11050]
                         ],
-                        "stations": []
+                        "stations": [[1509, "Main line"], 1510, 1511]
                     }
                 }
             },
@@ -24796,14 +24931,14 @@
                             [30176, -10612.5],
                             [33076, -10612.5]
                         ],
-                        "stations": []
+                        "stations": [1512, 1513, 1514, [1515, "Marisad City branch"], 1517, 1518]
                     },
                     "Marisad City branch": {
                         "vertices": [
                             [32469.5, -10612.5],
                             [32469.5, -11676]
                         ],
-                        "stations": []
+                        "stations": [[1515, "Main line"], 1516]
                     }
                 }
             },
@@ -24819,7 +24954,7 @@
                             [-29916, -10612.5],
                             [-29916, -10611]
                         ],
-                        "stations": []
+                        "stations": [1517, 1518, 1519, 1153]
                     }
                 }
             }

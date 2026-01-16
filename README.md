@@ -1,7 +1,7 @@
 # EarthMC Ice Highways Map
 
 This is a tool that aims to give information on stations and lines across the EarthMC server. However, as of December 24th, 2025, 
-it only has 1300 stations across 211 lines (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
+it only has 1520 stations across 256 lines (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
 
 # Adding lines to the map (direct push commit method) tutorial
 
@@ -66,6 +66,8 @@ Note that the capitalization does not change, and note that it is simply the str
 
 > [!NOTE]  
 > For other lines that are not shown on the list or to see detailed additions history, please see [the related database changes history](https://github.com/XiLeF2211/ice-highways-map/commits/main/highways.json)
+
+16 January 2026: International Ice Highway 106 (edited by **nokteholda**)
 
 24 December 2025: Oceania Metrolink Blue and Green lines, Sydney Branchline, Pilbara National Highways Adelaide line (edited by **nokteholda**)
 
