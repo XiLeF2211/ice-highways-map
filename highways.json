@@ -19363,6 +19363,17 @@
                     "Y=66 Alaska": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Stoneport JCT",
+            "id": 1520,
+            "x": -10224,
+            "z": 13950,
+            "lines": {
+                "RSIN": {
+                    "Utopia X-Axis": ["", "Main line to Stoneport branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -23844,9 +23855,10 @@
                             [-14722, 13704],
                             [-11207, 13704],
                             [-11207, 13950],
-                            [-10350, 13950]
+                            [-9894, 13950],
+                            [-9894, 14037]
                         ],
-                        "stations": [982, [983, "Gensokyo branch"], [985, "Sunari branch"], [987, "Shangri-La branch"], [989, "Koumakyou branch"], [991, "Hielo branch"], [993, "Communist Zorobe branch"], 995, 996, 997]
+                        "stations": [982, [983, "Gensokyo branch"], [985, "Sunari branch"], [987, "Shangri-La branch"], [989, "Koumakyou branch"], [991, "Hielo branch"], [993, "Communist Zorobe branch"], 995, 996, 997, [1520, "Stoneport branch"]]
                     },
                     "Gensokyo branch": {
                         "vertices": [
@@ -23890,6 +23902,13 @@
                             [-12179, 14075]
                         ],
                         "stations": [[993, "Main line"], 994]
+                    },
+                    "Stoneport branch": {
+                        "vertices": [
+                            [-10224, 13950],
+                            [-10224, 14071]
+                        ],
+                        "stations": [[1520, "Main line"]]
                     }
                 }
             },
