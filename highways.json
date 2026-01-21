@@ -5734,7 +5734,7 @@
             }
         },
         {
-            "name": "Karaghai",
+            "name": "Edo (Karaghai)",
             "id": 465,
             "x": 15301,
             "z": -8046,
@@ -19375,6 +19375,21 @@
                     "Utopia X-Axis": ["", "Main line to Stoneport branch"]
                 }
             }
+        },
+        {
+            "name": "Qira JCT",
+            "type": "jct",
+            "id": 1521,
+            "x": 14983,
+            "z": -6911,
+            "lines": {
+                "Agartha Ice Highways Network": {
+                    "India-South Xinjiang": ["", "Main line (North)"]
+                },
+                "TNIH": {
+                    "Haldwan-Castlers": ["", "Northern route"]
+                }
+            }
         }
     ],
     "lines": {
@@ -19775,7 +19790,7 @@
                             [14983, -5277],
                             [14967, -5277]
                         ],
-                        "stations": [[235, "Southern route"], 463, 236, 464]
+                        "stations": [[235, "Southern route"], 463, 1521, 236, 464]
                     },
                     "Southern route": {
                         "vertices": [
@@ -23459,9 +23474,9 @@
                         "vertices": [
                             [13778, -6432],
                             [13778, -6911],
-                            [14837, -6911]
+                            [14983, -6911]
                         ],
-                        "stations": [1197, 1198, 1199, 1187, 1189, 1195, 1200, 1201, 1202]
+                        "stations": [1197, 1198, 1199, 1187, 1189, 1195, 1200, 1201, 1202, 1521]
                     }
                 }
             }
