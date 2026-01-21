@@ -19390,6 +19390,18 @@
                     "Haldwan-Castlers": ["", "Northern route"]
                 }
             }
+        },
+        {
+            "name": "Thundr JCT",
+            "type": "jct",
+            "id": 1522,
+            "x": -33254.5,
+            "z": -14113.5,
+            "lines": {
+                "Intercontinental": {
+                    "Bering Strait": ["", "East line to South line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -26544,6 +26556,29 @@
                         "stations": [1487, 940]
                     }
                 }
+            },
+            "Bering Strait": {
+                "prefix": "",
+                "code": "",
+                "color": "9d4366",
+                "y": 70,
+                "branches": {
+                    "South line": {
+                        "vertices": [
+                            [-33254.5, -12842],
+                            [-33254.5, -14117]
+                        ],
+                        "stations": [[1522, "East line"]]
+                    },
+                    "East line": {
+                        "vertices": [
+                            [-33254.5, -14113.5],
+                            [-33010.5, -14113.5]
+                        ],
+                        "stations": [[1522, "South line"]]
+                    }
+                }
+
             }
         }
     }
