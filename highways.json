@@ -8378,6 +8378,9 @@
             "lines": {
                 "Aragon Ice Highways": {
                     "Africa": ["", "Main line"]
+                },
+                "Spain-Venice Ice lines": {
+                    "Portaneda-Cuenca": ["", "Main line"]
                 }
             }
         },
@@ -19428,6 +19431,184 @@
             "areas": [
                 [[-27035, -12156], [-27028, -12144]]
             ]
+        },
+        {
+            "name": "Portaneda",
+            "id": 1525,
+            "x": -577,
+            "z": -6612,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Portaneda-Cuenca": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-578, -6613], [-575, -6604]]
+            ]
+        },
+        {
+            "name": "Murcia",
+            "id": 1526,
+            "x": -577,
+            "z": -6612,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Portaneda-Cuenca": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Murcia JCT",
+            "type": "jct",
+            "id": 1527,
+            "x": -578,
+            "z": -7000,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Portaneda-Cuenca": ["", "Main line to Cartagena branch"]
+                }
+            }
+        },
+        {
+            "name": "Alicante-Murcia JCT",
+            "type": "jct",
+            "id": 1528,
+            "x": -578,
+            "z": -7225,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Portaneda-Cuenca": ["", "Main line to Alicante branch"]
+                }
+            }
+        },
+        {
+            "name": "Alicante Mine",
+            "id": 1529,
+            "x": -416,
+            "z": -7225,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Portaneda-Cuenca": ["", "Alicante branch"]
+                }
+            }
+        },
+        {
+            "name": "Alicante",
+            "id": 1530,
+            "x": -321,
+            "z": -7225,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Portaneda-Cuenca": ["", "Alicante branch"]
+                }
+            }
+        },
+        {
+            "name": "Almeria JCT",
+            "type": "jct",
+            "id": 1531,
+            "x": -578,
+            "z": -7285,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Portaneda-Cuenca": ["", "Main line"],
+                    "Cordoba-Valencia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cuenca JCT",
+            "type": "jct",
+            "id": 1532,
+            "x": -578,
+            "z": -7466,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Portaneda-Cuenca": ["", "Main line to Espana branch"]
+                }
+            }
+        },
+        {
+            "name": "Cordoba West JCT",
+            "type": "jct",
+            "id": 1533,
+            "x": -1326,
+            "z": -7285,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Cordoba-Valencia": ["", "Main line"],
+                    "Cordoba-Castilla": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cordoba JCT",
+            "type": "jct",
+            "id": 1534,
+            "x": -1092.5,
+            "z": -7285,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Cordoba-Valencia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "JAEN JCT",
+            "type": "jct",
+            "id": 1535,
+            "x": -835,
+            "z": -7285,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Cordoba-Valencia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Salamaca-Trujilo",
+            "id": 1536,
+            "x": -1326,
+            "z": -7461,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Cordoba-Castilla": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-1324, -7465], [-1333, -7456]],
+                [[-1334, -7463], [-1332, -7459]]
+            ]
+        },
+        {
+            "name": "Salamaca",
+            "id": 1537,
+            "x": -1326,
+            "z": -7696,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Cordoba-Castilla": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-1328, -7706], [-1324, -7687]],
+                [[-1328, -7702], [-1321, -7691]],
+                [[-1319, -7699], [-1322, -7693]],
+                [[-1325, -7695], [-1345, -7698]],
+                [[-1342, -7686], [-1345, -7698]]
+            ]
+        },
+        {
+            "name": "Castilla West JCT",
+            "type": "jct",  
+            "id": 1538,
+            "x": -1326,
+            "z": -7943,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Cordoba-Castilla": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -25036,6 +25217,81 @@
                             [-29916, -10611]
                         ],
                         "stations": [1517, 1518, 1519, 1153]
+                    }
+                }
+            }
+        },
+        "Spain-Venice Ice lines": {
+            "Portaneda-Cuenca": {
+                "prefix": "",
+                "code": "PTN-CNC",
+                "color": "d6a253",
+                "y": 1,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-577, -6392],
+                            [-577, -6984],
+                            [-578, -6987],
+                            [-578, -7599]
+                        ],
+                        "stations": [666, 1525, 1526, [1527, "Cartagena branch"], [1528, "Alicante branch"], 1531, [1532, "Espana branch"]]
+                    },
+                    "Cartagena branch": {
+                        "vertices": [
+                            [-578, -7000],
+                            [-604, -7000]
+                        ],
+                        "stations": [[1527, "Main line"]]
+                    },
+                    "Alicante branch": {
+                        "vertices": [
+                            [-578, -7225],
+                            [-321, -7225]
+                        ],
+                        "stations": [[1528, "Yazyuu branch"], 1529, 1530]
+                    },
+                    "Espana branch": {
+                        "vertices": [
+                            [-578, -7466],
+                            [-401, -7466]
+                        ],
+                        "stations": [[1532, "Main line"]]
+                    }
+                }
+            },
+            "Cordoba-Valencia": {
+                "prefix": "",
+                "code": "CDB-VLN",
+                "color": "da121a",
+                "y": 1,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-1360, -7285],
+                            [-668, -7285],
+                            [-668, -7279],
+                            [-639, -7279],
+                            [-639, -7285],
+                            [-326, -7285],
+                            [-326, -7376]
+                        ],
+                        "stations": [1533, 1534, 1535, 1531]
+                    }
+                }
+            },
+            "Cordoba-Castilla": {
+                "prefix": "",
+                "code": "CDB-CTL",
+                "color": "fcdd09",
+                "y": 1,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-1326, -7235],
+                            [-1326, -7947]
+                        ],
+                        "stations": [1533, 1536, 1537, 1538]
                     }
                 }
             }
