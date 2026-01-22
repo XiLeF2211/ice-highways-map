@@ -19392,9 +19392,21 @@
             }
         },
         {
-            "name": "The Whizzards JCT",
+            "name": "Thundr JCT",
             "type": "jct",
             "id": 1522,
+            "x": -33254.5,
+            "z": -14113.5,
+            "lines": {
+                "Intercontinental": {
+                    "Bering Strait": ["", "East line to South line"]
+                }
+            }
+        },
+        {
+            "name": "The Whizzards JCT",
+            "type": "jct",
+            "id": 1523,
             "x": -27031,
             "z": -11859,
             "lines": {
@@ -19405,7 +19417,7 @@
         },
         {
             "name": "The Whizzards",
-            "id": 1523,
+            "id": 1524,
             "x": -27031,
             "z": -12153,
             "lines": {
@@ -24313,7 +24325,7 @@
                             [-27031, -11859],
                             [-27031, -12153]
                         ],
-                        "stations": [[1522, "Main line"], 1523]
+                        "stations": [[1523, "Main line"], 1524]
                     },
                     "Talkeetna branch": {
                         "vertices": [
@@ -26577,6 +26589,29 @@
                         "stations": [1487, 940]
                     }
                 }
+            },
+            "Bering Strait": {
+                "prefix": "",
+                "code": "",
+                "color": "9d4366",
+                "y": 70,
+                "branches": {
+                    "South line": {
+                        "vertices": [
+                            [-33254.5, -12842],
+                            [-33254.5, -14117]
+                        ],
+                        "stations": [[1522, "East line"]]
+                    },
+                    "East line": {
+                        "vertices": [
+                            [-33254.5, -14113.5],
+                            [-33010.5, -14113.5]
+                        ],
+                        "stations": [[1522, "South line"]]
+                    }
+                }
+
             }
         }
     }
