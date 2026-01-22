@@ -19606,7 +19606,166 @@
             "z": -7943,
             "lines": {
                 "Spain-Venice Ice lines": {
-                    "Cordoba-Castilla": ["", "Main line"]
+                    "Cordoba-Castilla": ["", "Main line"],
+                    "Lugo-Soria": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Lugo JCT",
+            "type": "jct",  
+            "id": 1539,
+            "x": -1768,
+            "z": -7943,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Lugo-Soria": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Lugo JCT",
+            "type": "elev-we",
+            "id": 1540,
+            "x": -1766,
+            "z": -7943,
+            "y1": 2,
+            "y2": 1,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Lugo-Soria": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Vila Real Break",
+            "id": 1541,
+            "x": -1736,
+            "z": -7943,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Lugo-Soria": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Castilla Cementry Break",
+            "id": 1542,
+            "x": -1487,
+            "z": -7943,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Lugo-Soria": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Castilla (JCT)",
+            "id": 1543,
+            "x": -1243,
+            "z": -7943,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Lugo-Soria": ["", "Main line to Leon branch"]
+                }
+            },
+            "areas": [
+                [[-1247, -7945], [-1239, -7938]]
+            ]
+        },
+        {
+            "name": "Castilla-Cantabria",
+            "id": 1544,
+            "x": -1243,
+            "z": -8154,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Lugo-Soria": ["", "Leon branch"]
+                }
+            }
+        },
+        {
+            "name": "Leon",
+            "id": 1545,
+            "x": -949,
+            "z": -8154,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Lugo-Soria": ["", "Leon branch"]
+                }
+            }
+        },
+        {
+            "name": "Castilla Quarry",
+            "type": "semi3",
+            "id": 1546,
+            "x": -1215,
+            "z": -7943,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Lugo-Soria": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Burgos JCT",
+            "type": "jct",
+            "id": 1547,
+            "x": -947,
+            "z": -7943,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Lugo-Soria": ["", "Main line to Cuenca-Madrid branch"]
+                }
+            }
+        },
+        {
+            "name": "Burgos South JCT",
+            "type": "jct",
+            "id": 1548,
+            "x": -947,
+            "z": -7679,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Lugo-Soria": ["", "Cuenca-Madrid branch"]
+                }
+            }
+        },
+        {
+            "name": "Austria JCT",
+            "type": "jct",
+            "id": 1549,
+            "x": -947,
+            "z": -7606,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Lugo-Soria": ["", "Cuenca-Madrid branch"]
+                }
+            }
+        },
+        {
+            "name": "Burgos",
+            "id": 1550,
+            "x": -936,
+            "z": -7943,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Lugo-Soria": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-944, -7938], [-933, -7945]]
+            ]
+        },
+        {
+            "name": "Soria JCT",
+            "type": "jct",
+            "id": 1551,
+            "x": -761,
+            "z": -7943,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Lugo-Soria": ["", "Euskadi branch"]
                 }
             }
         }
@@ -25292,6 +25451,47 @@
                             [-1326, -7947]
                         ],
                         "stations": [1533, 1536, 1537, 1538]
+                    }
+                }
+            },
+            "Lugo-Soria": {
+                "prefix": "",
+                "code": "LGO-SRA",
+                "color": "0099cc",
+                "y": 1,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-1768, -7943],
+                            [-705, -7943]
+                        ],
+                        "stations": [1539, 1540, 1541, 1542, 1538, [1543, "Leon branch"], 1546, [1547, "Cuenca-Madrid branch"], 1550, 1551]
+                    },
+                    "Leon branch": {
+                        "vertices": [
+                            [-1243, -7943],
+                            [-1243, -8154],
+                            [-949, -8154],
+                            [-949, -8111],
+                            [-791, -8111]
+                        ],
+                        "stations": [[1543, "Main line"], 1544, 1545]
+                    },
+                    "Cuenca-Madrid branch": {
+                        "vertices": [
+                            [-947, -7943],
+                            [-947, -7590],
+                            [-947, -7606],
+                            [-593, -7606]
+                        ],
+                        "stations": [[1547, "Main line"], 1548, 1549]
+                    },
+                    "Euskadi branch": {
+                        "vertices": [
+                            [-761, -7943],
+                            [-761, -8098]
+                        ],
+                        "stations": [[1551, "Main line"]]
                     }
                 }
             }
