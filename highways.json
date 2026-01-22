@@ -19390,6 +19390,32 @@
                     "Haldwan-Castlers": ["", "Northern route"]
                 }
             }
+        },
+        {
+            "name": "The Whizzards JCT",
+            "type": "jct",
+            "id": 1522,
+            "x": -27031,
+            "z": -11859,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Upper": ["", "Main line to The Whizzards branch"]
+                }
+            }
+        },
+        {
+            "name": "The Whizzards",
+            "id": 1523,
+            "x": -27031,
+            "z": -12153,
+            "lines": {
+                "Alaskan Ice lines": {
+                    "Blackwater-Nunivak Upper": ["", "The Whizzards branch"]
+                }
+            },
+            "areas": [
+                [[-27035, -12156], [-27028, -12144]]
+            ]
         }
     ],
     "lines": {
@@ -24281,6 +24307,13 @@
                             [-27711, -11238]
                         ],
                         "stations": [1120, 1117, 1121, [1122, "Talkeetna branch"], [1124, "Denali branch"], 1126]
+                    },
+                    "The Whizzards branch": {
+                        "vertices": [
+                            [-27031, -11859],
+                            [-27031, -12153]
+                        ],
+                        "stations": [[1522, "Main line"], 1523]
                     },
                     "Talkeetna branch": {
                         "vertices": [
