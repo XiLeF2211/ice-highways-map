@@ -24658,7 +24658,7 @@
                             [-27655, -11238],
                             [-27711, -11238]
                         ],
-                        "stations": [1120, 1117, 1121, [1122, "Talkeetna branch"], [1124, "Denali branch"], 1126]
+                        "stations": [1120, 1117, 1121, [1523, "Talkeetna branch"], [1122, "Talkeetna branch"], [1124, "Denali branch"], 1126]
                     },
                     "The Whizzards branch": {
                         "vertices": [
