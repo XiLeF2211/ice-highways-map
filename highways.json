@@ -2391,7 +2391,10 @@
                 "Kingdom of Havaiki": {
                     "North Network": ["", ""]
                 }
-            }
+            },
+            "areas": [
+                [[31855, 6384], [31839, 6400]]
+            ]
         },
         {
             "name": "Auckland",
@@ -2402,7 +2405,10 @@
                 "Kingdom of Havaiki": {
                     "North Network": ["", ""]
                 }
-            }
+            },
+            "areas": [
+                [[32048, 6704], [32079, 6722]]
+            ]
         },
         {
             "name": "Havaiki Square JCT",
@@ -19620,6 +19626,9 @@
             "lines": {
                 "Spain-Venice Ice lines": {
                     "Lugo-Soria": ["", "Main line"]
+                },
+                "Local": {
+                    "Portugal Metro": ["", "Main line"]
                 }
             }
         },
@@ -19768,6 +19777,141 @@
                     "Lugo-Soria": ["", "Euskadi branch"]
                 }
             }
+        },
+        {
+            "name": "Castilla Town Spawn",
+            "id": 1552,
+            "x": -1415,
+            "z": -7943,
+            "lines": {
+                "Spain-Venice Ice lines": {
+                    "Lugo-Soria": ["", "Euskadi branch"]
+                }
+            }
+        },
+        {
+            "name": "Havaiki Western Sea JCT",
+            "type": "jct",
+            "id": 1553,
+            "x": 31700,
+            "z": 6698,
+            "lines": {
+                "Intercontinental": {
+                    "Tasman Highway": ["", "Main line"]
+                },
+                "Local": {
+                    "East New Caledonia": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "East New Caledonia",
+            "id": 1554,
+            "x": 31700,
+            "z": 3777,
+            "lines": {
+                "Local": {
+                    "East New Caledonia": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Porto",
+            "id": 1555,
+            "x": -1768,
+            "z": -7838,
+            "lines": {
+                "Local": {
+                    "Portugal Metro": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-1778, -7841], [-1766, -7836]],
+                [[-1770, -7856], [-1766, -7836]],
+                [[-1770, -7853], [-1755, -7836]],
+                [[-1766, -7849], [-1757, -7857]],
+                [[-1763, -7856], [-1759, -7859]],
+                [[-1770, -7843], [-1756, -7834]]
+            ]
+        },
+        {
+            "name": "Aveiro",
+            "id": 1556,
+            "x": -1768,
+            "z": -7664,
+            "lines": {
+                "Local": {
+                    "Portugal Metro": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-1776, -7674], [-1765, -7655]]
+            ]
+        },
+        {
+            "name": "Leiria",
+            "id": 1557,
+            "x": -1768,
+            "z": -7512,
+            "lines": {
+                "Local": {
+                    "Portugal Metro": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-1761, -7520], [-1776, -7505]]
+            ]
+        },
+        {
+            "name": "Lisbon",
+            "id": 1558,
+            "x": -1768,
+            "z": -7232,
+            "lines": {
+                "Local": {
+                    "Portugal Metro": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-1776, -7248], [-1761, -7217]]
+            ]
+        },
+        {
+            "name": "Evora JCT",
+            "type": "jct",
+            "id": 1559,
+            "x": -1768,
+            "z": -7176,
+            "lines": {
+                "Local": {
+                    "Portugal Metro": ["", "Main line to Evora Undersea District branch"]
+                }
+            }
+        },
+        {
+            "name": "Evora Undersea District",
+            "id": 1560,
+            "x": -1856,
+            "z": -7176,
+            "lines": {
+                "Local": {
+                    "Portugal Metro": ["", "Evora Undersea District branch"]
+                }
+            }
+        },
+        {
+            "name": "Lisbon",
+            "id": 1561,
+            "x": -1768,
+            "z": -7096,
+            "lines": {
+                "Local": {
+                    "Portugal Metro": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-1761, -7104], [-1776, -7089]]
+            ]
         }
     ],
     "lines": {
@@ -25465,7 +25609,7 @@
                             [-1768, -7943],
                             [-705, -7943]
                         ],
-                        "stations": [1539, 1540, 1541, 1542, 1538, [1543, "Leon branch"], 1546, [1547, "Cuenca-Madrid branch"], 1550, 1551]
+                        "stations": [1539, 1540, 1541, 1542, 1552, 1538, [1543, "Leon branch"], 1546, [1547, "Cuenca-Madrid branch"], 1550, 1551]
                     },
                     "Leon branch": {
                         "vertices": [
@@ -25923,6 +26067,43 @@
                         "stations": [969, 1485]
                     }
                 }
+            },
+            "East New Caledonia": {
+                "prefix": "",
+                "code": "ENC",
+                "color": "c2c2c2",
+                "y": 2,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [31700, 6698],
+                            [31700, 3700]
+                        ],
+                        "stations": [1553, 1554]
+                    }
+                }
+            },
+            "Portugal Metro": {
+                "prefix": "",
+                "code": "PT-M",
+                "color": "00A358",
+                "y": 2,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-1768, -8048],
+                            [-1768, -7089]
+                        ],
+                        "stations": [1539, 1555, 1556, 1557, 1558, [1559, "Evora Undersea District"], 1561]
+                    },
+                    "Evora Undersea District branch": {
+                        "vertices": [
+                            [-1768, -7176],
+                            [-1887, -7176]
+                        ],
+                        "stations": [[1559, "Main line"], 1560]
+                    }
+                }
             }
         },
         "Intercontinental": {
@@ -26002,7 +26183,7 @@
                             [28274, 6698],
                             [31847, 6698]
                         ],
-                        "stations": [207, 208, [209, "Antarctica branch"], 1401, 205]
+                        "stations": [207, 208, [209, "Antarctica branch"], 1401, 1553, 205]
                     },
                     "Antarctica branch": {
                         "vertices": [
