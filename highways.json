@@ -19785,7 +19785,7 @@
             "z": -7943,
             "lines": {
                 "Spain-Venice Ice lines": {
-                    "Lugo-Soria": ["", "Euskadi branch"]
+                    "Lugo-Soria": ["", "Main line"]
                 }
             }
         },
@@ -19912,6 +19912,17 @@
             "areas": [
                 [[-1761, -7104], [-1776, -7089]]
             ]
+        },
+        {
+            "name": "Rakhine",
+            "id": 1562,
+            "x": 16868,
+            "z": -3999,
+            "lines": {
+                "TNIH": {
+                    "Chittagong Bypass": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -20505,7 +20516,7 @@
                             [16625, -3999],
                             [16625, -4504]
                         ],
-                        "stations": [388, 389, 390, 61, 391, 392]
+                        "stations": [388, 1562, 389, 390, 61, 391, 392]
                     }
                 }
             },
