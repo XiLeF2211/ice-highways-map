@@ -19923,6 +19923,28 @@
                     "Chittagong Bypass": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Felicity Hights",
+            "id": 1563,
+            "x": 15511,
+            "z": -9000,
+            "lines": {
+                "TNIH": {
+                    "Xinjiang Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Peekoland",
+            "id": 1564,
+            "x": 15621,
+            "z": -9153,
+            "lines": {
+                "TNIH": {
+                    "Xinjiang Main": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -20553,9 +20575,11 @@
                             [15301, -8008],
                             [15301, -8306],
                             [15511, -8306],
-                            [15511, -8830]
+                            [15511, -9000],
+                            [15621, -9000],
+                            [15621, -9153]
                         ],
-                        "stations": [271, 272, [967, "Syr Darya-Bishkek branch"], 556, 557, 929, 928, 913, 905, 463, 465, 466, 897, 898, 900, 956, 904]
+                        "stations": [271, 272, [967, "Syr Darya-Bishkek branch"], 556, 557, 929, 928, 913, 905, 463, 465, 466, 897, 898, 900, 956, 904, 1563, 1564]
                     },
                     "Syr Darya-Bishkek branch": {
                         "vertices": [
