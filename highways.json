@@ -8458,11 +8458,13 @@
             "z": -10541,
             "lines": {
                 "Intercontinental": {
-                    "Old Y=65 Moscow Suburban": ["", "Smolensk branch"]
+                    "Old Y=65 Moscow Suburban": ["", "Smolensk branch"],
+                    "Kiev - Petersburg Tract": ["", "New Jasionka branch"]
                 }
             },
             "areas": [
-                [[6516, -10539], [6534, -10559]]
+                [[6516, -10539], [6534, -10559]],
+                [[6516, -10573], [6529, -10547]]
             ]
         },
         {
@@ -8474,7 +8476,7 @@
             "lines": {
                 "Intercontinental": {
                     "European Russia": ["", "Main line"],
-                    "Kiev - Petersburg Tract": ["", "South Moscow"]
+                    "Kiev - Petersburg Tract": ["", "New Jasionka branch"]
                 }
             }
         },
@@ -19993,6 +19995,28 @@
                     "European Russia": ["", "Izumo branch"]
                 }
             }
+        },
+        {
+            "name": "Spurce City",
+            "id": 1568,
+            "x": 6264,
+            "z": -9692,
+            "lines": {
+                "Intercontinental": {
+                    "Kiev - Petersburg Tract": ["", "New Jasionka branch"]
+                }
+            }
+        },
+        {
+            "name": "Kupilovka",
+            "id": 1569,
+            "x": 7870,
+            "z": -9874,
+            "lines": {
+                "Intercontinental": {
+                    "European Russia": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -26427,12 +26451,12 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [7839, -9874],
+                            [7870, -9874],
                             [5600, -9874],
                             [5600, -9771],
                             [5055, -9771]
                         ],
-                        "stations": [[699, "Chechnya line"], 673, 700, 701]
+                        "stations": [1569, [699, "Chechnya line"], 673, 700, 701]
                     },
                     "Chechnya line": {
                         "vertices": [
@@ -26864,13 +26888,15 @@
                     },
                     "New Jasionka branch": {
                         "vertices": [
-                            [6550, -10570],
+                            [5794, -10570],
                             [6070.5, -10570],
                             [6070.5, -10565.5],
                             [6070.5, -10570],
-                            [5794, -10570]
+                            [6550, -10570],
+                            [6550, -9692],
+                            [6264, -9692]
                         ],
-                        "stations": [597, 472, [596, "Main line"]]
+                        "stations": [[596, "Main line"], 472, 597, 672, 673, 1568]
                     },
                     "Kiev - Billgorod branch": {
                         "vertices": [
@@ -26889,14 +26915,6 @@
                             [6200, -7376]
                         ],
                         "stations": [[599, "Kiev - Billgorod branch"]]
-                    },
-                    "South Moscow": {
-                        "vertices": [
-                            [6550, -10063],
-                            [6550, -9692],
-                            [6336, -9692]
-                        ],
-                        "stations": [673]
                     }
                 }
             },
