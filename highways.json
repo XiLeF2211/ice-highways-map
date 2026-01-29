@@ -5144,14 +5144,14 @@
             }
         },
         {
-            "name": "1st Leningrad route JCT",
+            "name": "Oktyabrina JCT",
             "type": "jct",
             "id": 418,
             "x": 14539,
             "z": -9491,
             "lines": {
                 "Intercontinental": {
-                    "Russian Republic ice roads": ["", "Kazakhstan - Leningrad route"]
+                    "Russian Republic ice roads": ["", "Kazakhstan - Leningrad route to Peekoland route"]
                 }
             }
         },
@@ -19950,8 +19950,17 @@
             "lines": {
                 "TNIH": {
                     "Xinjiang Main": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "Russian Republic ice roads": ["", "Peekoland route"]
                 }
-            }
+            },
+            "areas": [
+                [[15597, -9152], [15608, -9158]],
+                [[15597, -9153], [15620, -9156]],
+                [[15619, -9157], [15627, -9148]],
+                [[15625, -9155], [15630, -9150]]
+            ]
         },
         {
             "name": "Kita JCT",
@@ -26638,13 +26647,13 @@
                         ],
                         "stations": [[402, "Novosibirsk Ring"], 403, 404, 405]
                     },
-                    "Uvs-Nur lake route": {
+                    "Peekoland route": {
                         "vertices": [
                             [14539, -9491],
                             [15599, -9491],
-                            [15599, -9170]
+                            [15599, -9152]
                         ],
-                        "stations": [418]
+                        "stations": [418, 1564]
                     }
                 }
             },
