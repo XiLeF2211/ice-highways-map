@@ -463,7 +463,6 @@
         },
         {
             "name": "Jezkazgan Southern Nether Portal",
-            "type": "jct",
             "id": 39,
             "x": 1560,
             "z": -1074,
@@ -489,7 +488,6 @@
         },
         {
             "name": "Jezkazgan Northern Nether Portal",
-            "type": "jct",
             "id": 41,
             "x": 1560,
             "z": -1093,
@@ -502,7 +500,6 @@
         },
         {
             "name": "Jezkazgan Western Nether Portal",
-            "type": "jct",
             "id": 42,
             "x": 1549,
             "z": -1085,

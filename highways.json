@@ -5818,7 +5818,7 @@
             "z": -10425,
             "lines": {
                 "Intercontinental": {
-                    "Old Y=63 West-Russian": ["", "New Jasionka branch"]
+                    "Old Y=63 Moscow": ["", "New Jasionka branch"]
                 }
             }
         },
@@ -5835,7 +5835,7 @@
                     "Baikal - Lithuania": ["", "Main line"]
                 },
                 "Intercontinental": {
-                    "Old Y=63 West-Russian": ["", "New Jasionka branch"],
+                    "Old Y=63 Moscow": ["", "New Jasionka branch"],
                     "Old Y=65 Moscow Suburban": ["", "Smolensk branch"],
                     "Kiev - Petersburg Tract": ["", "New Jasionka branch"]
                 }
@@ -5865,7 +5865,7 @@
             "z": -10394,
             "lines": {
                 "Intercontinental": {
-                    "Old Y=63 West-Russian": ["", "East Moscow branch"]
+                    "Old Y=63 Moscow": ["", "East Moscow branch"]
                 }
             }
         },
@@ -5876,7 +5876,7 @@
             "z": -10025,
             "lines": {
                 "Intercontinental": {
-                    "Old Y=63 West-Russian": ["", "East Moscow branch"]
+                    "Old Y=63 Moscow": ["", "East Moscow branch"]
                 }
             }
         },
@@ -6885,7 +6885,7 @@
                     "New Jasionka": ["", "Elevator branch"]
                 },
                 "Intercontinental": {
-                    "Old Y=63 West-Russian": ["", "New Jasionka branch"]
+                    "Old Y=63 Moscow": ["", "New Jasionka branch"]
                 }
             }
         },
@@ -8473,7 +8473,7 @@
             "lines": {
                 "Intercontinental": {
                     "European Russia": ["", "Main line"],
-                    "Kiev - Petersburg Tract": ["", "South Moscow"]
+                    "Kiev - Petersburg Tract": ["", "New Jasionka branch"]
                 }
             }
         },
@@ -8994,7 +8994,7 @@
             "z": -1970.5,
             "lines": {
                 "Afrique Rail": {
-                    "Abuja": ["", "Main line (Meroewin)"]
+                    "Abuja": ["", "Main line"]
                 }
             }
         },
@@ -9005,7 +9005,7 @@
             "z": -1970.5,
             "lines": {
                 "Afrique Rail": {
-                    "Abuja": ["", "Main line (Meroewin)"]
+                    "Abuja": ["", "Main line"]
                 }
             },
             "areas": [
@@ -9020,7 +9020,7 @@
             "z": -1970.5,
             "lines": {
                 "Afrique Rail": {
-                    "Abuja": ["", "Main line (Meroewin)"]
+                    "Abuja": ["", "Main line"]
                 }
             }
         },
@@ -9031,7 +9031,7 @@
             "z": -2293.5,
             "lines": {
                 "Afrique Rail": {
-                    "Abuja": ["", "Main line (Meroewin)"]
+                    "Abuja": ["", "Main line"]
                 }
             },
             "areas": [
@@ -18696,7 +18696,7 @@
             }
         },
         {
-            "name": "Nura-Kazakh y=8 ↔ y=11 Elevator",
+            "name": "Nura-Kazakh y=8 ↔ y=111 Elevator",
             "type": "elev-we",
             "id": 1466,
             "x": 11799,
@@ -18706,6 +18706,9 @@
             "lines": {
                 "talion03's Ice Highways": {
                     "X=11799": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "Chitograd Ice Highways": ["", "Main line"]
                 }
             },
             "areas": [
@@ -21793,18 +21796,11 @@
                             [3101.5, -2013.5],
                             [3855.5, -2013.5],
                             [3855.5, -1970.5],
-                            [3905, -1970.5]
-                        ],
-                        "stations": [559, 581, 582, 583, 584, 585, 586, 587]
-                    },
-                    "Main line (Meroewin)": {
-                        "vertices": [
-                            [4016, -1970.5],
                             [4866.5, -1970.5],
                             [4866.5, -2293.5],
                             [5399, -2293.5]
                         ],
-                        "stations": [711, 712, 713, 714]
+                        "stations": [559, 581, 582, 583, 584, 585, 586, 587, 711, 712, 713, 714]
                     }
                 }
             },
@@ -26596,7 +26592,7 @@
                     }
                 }
             },
-            "Old Y=63 West-Russian": {
+            "Old Y=63 Moscow": {
                 "prefix": "",
                 "code": "OWRUS",
                 "color": "CF9FFF",
@@ -26604,7 +26600,7 @@
                 "branches": {
                     "New Jasionka branch": {
                         "vertices": [
-                            [6254, -10394],
+                            [6420, -10394],
                             [6063, -10394],
                             [6063, -10397],
                             [6063, -10394],
@@ -26785,13 +26781,15 @@
                     },
                     "New Jasionka branch": {
                         "vertices": [
+                            [6336, -9692],
+                            [6550, -9692],
                             [6550, -10570],
                             [6070.5, -10570],
                             [6070.5, -10565.5],
                             [6070.5, -10570],
                             [5794, -10570]
                         ],
-                        "stations": [597, 472, [596, "Main line"]]
+                        "stations": [673, 597, 472, [596, "Main line"]]
                     },
                     "Kiev - Billgorod branch": {
                         "vertices": [
@@ -26810,14 +26808,6 @@
                             [6200, -7376]
                         ],
                         "stations": [[599, "Kiev - Billgorod branch"]]
-                    },
-                    "South Moscow": {
-                        "vertices": [
-                            [6550, -10063],
-                            [6550, -9692],
-                            [6336, -9692]
-                        ],
-                        "stations": [673]
                     }
                 }
             },
