@@ -5211,7 +5211,8 @@
             "z": 1399,
             "lines": {
                 "Ariguma Railway": {
-                    "Nankyoku Shinkansen": ["", ""]
+                    "Nankyoku Shinkansen": ["", ""],
+                    "Peru Shinkansen": ["", ""]
                 }
             },
             "notes": "Japanese name: 木多"
@@ -5892,7 +5893,7 @@
             }
         },
         {
-            "name": "Z=-9137 Emergency exit",
+            "name": "Engelsland",
             "id": 476,
             "x": 15230,
             "z": -9137,
@@ -8873,14 +8874,15 @@
             ]
         },
         {
-            "name": "Z=-8889 Point JCT",
+            "name": "Izumo JCT",
             "type": "jct",
             "id": 702,
             "x": 7785,
             "z": -8889,
+            "notes": "Japanese name: 出雲JCT",
             "lines": {
                 "Intercontinental": {
-                    "European Russia": ["", "Chechnya line"]
+                    "European Russia": ["", "Chechnya line to Izumo branch"]
                 }
             }
         },
@@ -9365,7 +9367,7 @@
             }
         },
         {
-            "name": "Emergency exit",
+            "name": "Billings",
             "id": 739,
             "x": -20156,
             "z": -8688.5,
@@ -18706,6 +18708,9 @@
             "lines": {
                 "talion03's Ice Highways": {
                     "X=11799": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "Chitograd Ice Highways": ["", "Main line"]
                 }
             },
             "areas": [
@@ -19943,6 +19948,49 @@
             "lines": {
                 "TNIH": {
                     "Xinjiang Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kita JCT",
+            "type": "inter1",
+            "id": 1565,
+            "x": -14085,
+            "z": 1399,
+            "y1": 91,
+            "y2": 95,
+            "notes": "Japanese name: 木多JCT",
+            "lines": {
+                "Ariguma Railway": {
+                    "Nankyoku Shinkansen": ["", ""],
+                    "Peru Shinkansen": ["", ""]
+                }
+            },
+            "areas": [
+                [[-14109, 1393], [-14074, 1404]]
+            ]
+        },
+        {
+            "name": "Sakagawa",
+            "id": 1566,
+            "x": -13945,
+            "z": 1065,
+            "notes": "Japanese name: 佐華川",
+            "lines": {
+                "Ariguma Railway": {
+                    "Peru Shinkansen": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Izumo",
+            "id": 1567,
+            "x": 8080,
+            "z": -8889,
+            "notes": "Japanese name: 出雲",
+            "lines": {
+                "Intercontinental": {
+                    "European Russia": ["", "Izumo branch"]
                 }
             }
         }
@@ -21566,7 +21614,7 @@
         "Ariguma Railway": {
             "Nankyoku Shinkansen": {
                 "prefix": "",
-                "code": "",
+                "code": "南極",
                 "color": "fa0000",
                 "y": 91,
                 "branches": {
@@ -21581,7 +21629,31 @@
                             [-13753, 2905],
                             [-12921, 2905]
                         ],
-                        "stations": [424, 423, 310, 311, 312, 313, 314, 670, 671]
+                        "stations": [424, 1565, 423, 310, 311, 312, 313, 314, 670, 671]
+                    }
+                }
+            },
+            "Peru Shinkansen": {
+                "prefix": "",
+                "code": "ペルー",
+                "color": "fa0000",
+                "y": 91,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-14064, 1399],
+                            [-14085, 1403],
+                            [-14107, 1403],
+                            [-14107, 1395],
+                            [-14085, 1395],
+                            [-14064, 1399],
+                            [-14085, 1395],
+                            [-14107, 1395],
+                            [-14107, 1253],
+                            [-13945, 1253],
+                            [-13945, 1060]
+                        ],
+                        "stations": [423, 1565, 1566]
                     }
                 }
             }
@@ -26378,7 +26450,7 @@
                             [14551, -7969],
                             [14551, -8794]
                         ],
-                        "stations": [[699, "Main line"], 702, 703, 704, 293, 705, 968, [706, "Bishkek-Alaykel line"], 964, 965, 966]
+                        "stations": [[699, "Main line"], [702, "Izumo branch"], 703, 704, 293, 705, 968, [706, "Bishkek-Alaykel line"], 964, 965, 966]
                     },
                     "Bishkek-Alaykel line": {
                         "vertices": [
@@ -26389,6 +26461,16 @@
                             [13601, -7614]
                         ],
                         "stations": [936, 953, [706, "Chechnya line"], 954]
+                    },
+                    "Izumo branch": {
+                        "vertices": [
+                            [7785, -8889],
+                            [18080, -8889],
+                            [13602, -8095],
+                            [13601, -8095],
+                            [13601, -7614]
+                        ],
+                        "stations": [[702, "Chechnya line"], 1567]
                     }
                 }
             },
