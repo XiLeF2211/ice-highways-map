@@ -20026,6 +20026,173 @@
                     "European Russia": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Derry JCT",
+            "type": "jct",
+            "id": 1570,
+            "x": -1656,
+            "z": -10760,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Main line to Derry branch"]
+                }
+            }
+        },
+        {
+            "name": "Derry",
+            "id": 1571,
+            "x": -1656,
+            "z": -10350,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Derry branch"]
+                }
+            }
+        },
+        {
+            "name": "Galway North JCT",
+            "type": "jct",
+            "id": 1572,
+            "x": -1752,
+            "z": -10760,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Galway JCT",
+            "type": "jct",
+            "id": 1573,
+            "x": -1752,
+            "z": -10296,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Main line to Galway branch"]
+                }
+            }
+        },
+        {
+            "name": "Galway",
+            "id": 1574,
+            "x": -1746,
+            "z": -10296,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Galway branch"]
+                }
+            }
+        },
+        {
+            "name": "Inis-Ge JCT",
+            "type": "jct",
+            "id": 1575,
+            "x": -1752,
+            "z": -10168,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Main line to Inis-Ge branch"]
+                }
+            }
+        },
+        {
+            "name": "Peebles JCT",
+            "type": "jct",
+            "id": 1576,
+            "x": -1752,
+            "z": -10008,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Main line to Aylywyn Ice lines connector branch"]
+                }
+            }
+        },
+        {
+            "name": "Peebles Elevator",
+            "type": "elev-we",
+            "id": 1577,
+            "x": -1761,
+            "z": -10008,
+            "y1": -61,
+            "y2": 41,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Aylywyn Ice lines connector branch"]
+                }
+            }
+        },
+        {
+            "name": "Cashel JCT",
+            "type": "jct",
+            "id": 1578,
+            "x": -1640,
+            "z": -10008,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Main line to Cork branch"]
+                }
+            }
+        },
+        {
+            "name": "Cashel",
+            "id": 1579,
+            "x": -1640,
+            "z": -9880,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Cork branch"]
+                }
+            },
+            "areas": [
+                [[-1673, -9905], [-1615, -9856]]
+            ]
+        },
+        {
+            "name": "Dublin Southwest JCT",
+            "type": "jct",
+            "id": 1580,
+            "x": -1592,
+            "z": -9848,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Cork branch to Dublin south connector"]
+                }
+            }
+        },
+        {
+            "name": "Cork",
+            "id": 1581,
+            "x": -1700,
+            "z": -9714.5,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Cork branch"]
+                }
+            }
+        },
+        {
+            "name": "Dublin",
+            "id": 1582,
+            "x": -1405,
+            "z": -9944,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Dublin South JCT",
+            "id": 1583,
+            "x": -1405,
+            "z": -9848,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Main line to Dublin south connector"]
+                }
+            }
         }
     ],
     "lines": {
@@ -27253,7 +27420,7 @@
                 "prefix": "",
                 "code": "NHSI",
                 "color": "acb064",
-                "y": 61,
+                "y": -61,
                 "branches": {
                     "Main line": {
                         "vertices": [
@@ -27267,7 +27434,7 @@
                             [-456, -10936],
                             [-456, -11226]
                         ],
-                        "stations": [1418, 1419, [1420, "BladeeCity branch"], [1421, "Qaqortoq branch"], [1423, "MarkVille branch"], [1425, "Ataa branch"], [1426, "Iceland branch"], [1428, "Midleton branch"], [1430, "Iverness branch"], [1432, "Highlands branch"], 1434, 1435]
+                        "stations": [1418, 1419, [1420, "BladeeCity branch"], [1421, "Qaqortoq branch"], [1423, "MarkVille branch"], [1425, "Ataa branch"], [1426, "Iceland branch"], [1428, "Midleton branch"], 1572, [1570, "Derry branch"], [1430, "Iverness branch"], [1432, "Highlands branch"], 1434, 1435]
                     },
                     "BladeeCity branch": {
                         "vertices": [
@@ -27310,6 +27477,13 @@
                             [-2088, -10777]
                         ],
                         "stations": [[1428, "Main line"], 1429]
+                    },
+                    "Derry branch": {
+                        "vertices": [
+                            [-1656, -10760],
+                            [-1656, -10350]
+                        ],
+                        "stations": [[1570, "Main line"], 1571]
                     },
                     "Iverness branch": {
                         "vertices": [
@@ -27370,7 +27544,7 @@
             },
             "Bering Strait": {
                 "prefix": "",
-                "code": "",
+                "code": "BS",
                 "color": "9d4366",
                 "y": 70,
                 "branches": {
@@ -27389,7 +27563,63 @@
                         "stations": [[1522, "South line"]]
                     }
                 }
-
+            },
+            "Ireland Ice lines": {
+                "prefix": "",
+                "code": "IRL",
+                "color": "169b62",
+                "y": -61,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-1752, -10760],
+                            [-1752, -10008],
+                            [-1400, -10008],
+                            [-1400, -9944],
+                            [-1405, -9944],
+                            [-1405, -9401]
+                        ],
+                        "stations": [1572, [1573, "Galway branch"], [1575, "Inis-Ge branch"], [1576, "Aylywyn Ice lines connector branch"], [1578, "Cork branch"], 1582, [1583, "Dublin south connector"]]
+                    },
+                    "Galway branch": {
+                        "vertices": [
+                            [-1752, -10296],
+                            [-1746, -10296]
+                        ],
+                        "stations": [[1573, "Main line"], 1574]
+                    },
+                    "Inis-Ge branch": {
+                        "vertices": [
+                            [-1752, -10168],
+                            [-2048, -10168]
+                        ],
+                        "stations": [[1575, "Main line"]]
+                    },
+                    "Aylywyn Ice lines connector branch": {
+                        "vertices": [
+                            [-1752, -10008],
+                            [-1761, -10008]
+                        ],
+                        "stations": [[1576, "Main line"], 1577]
+                    },
+                    "Cork branch": {
+                        "vertices": [
+                            [-1640, -10008],
+                            [-1640, -9848],
+                            [-1592, -9848],
+                            [-1592, -9714.5],
+                            [-1703, -9714.5]
+                        ],
+                        "stations": [[1578, "Main line"], 1579, [1580, "Dublin south connector"], 1581]
+                    },
+                    "Dublin south connector": {
+                        "vertices": [
+                            [-1592, -9848],
+                            [-1405, -9848]
+                        ],
+                        "stations": [[1580, "Cork branch"], [1583, "Main line"]]
+                    }
+                }
             }
         }
     }
