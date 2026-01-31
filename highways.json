@@ -20205,7 +20205,7 @@
             "z": -10936,
             "lines": {
                 "Intercontinental": {
-                    "Ireland Ice lines": ["", "Main line to Sealand branch"]
+                    "Britain-Norway": ["", "Main line to Sealand branch"]
                 }
             }
         },
@@ -20217,7 +20217,7 @@
             "z": -10024,
             "lines": {
                 "Intercontinental": {
-                    "Ireland Ice lines": ["", "Sealand branch to North London-Sealand"]
+                    "Britain-Norway": ["", "Sealand branch to North London-Sealand"]
                 }
             }
         },
@@ -20228,7 +20228,7 @@
             "z": -9953,
             "lines": {
                 "Intercontinental": {
-                    "Ireland Ice lines": ["", "Sealand branch"]
+                    "Britain-Norway": ["", "Sealand branch"]
                 }
             },
             "areas": [
@@ -20243,7 +20243,7 @@
             "notes": "Platform located at Y=95",
             "lines": {
                 "Intercontinental": {
-                    "Ireland Ice lines": ["", "Main line"]
+                    "Britain-Norway": ["", "Main line"]
                 }
             },
             "areas": [
@@ -20267,7 +20267,7 @@
             "z": -11634,
             "lines": {
                 "Intercontinental": {
-                    "Ireland Ice lines": ["", "Main line"]
+                    "Britain-Norway": ["", "Main line"]
                 },
                 "Local": {
                     "Norwyn-Oakhaven": ["", ""]
@@ -20285,7 +20285,7 @@
             "z": -10024,
             "lines": {
                 "Intercontinental": {
-                    "Ireland Ice lines": ["", "North London-Sealand to Cambridge branch"]
+                    "Britain-Norway": ["", "North London-Sealand to Cambridge branch"]
                 }
             }
         },
@@ -20296,7 +20296,7 @@
             "z": -9920,
             "lines": {
                 "Intercontinental": {
-                    "Ireland Ice lines": ["", "Cambridge branch"]
+                    "Britain-Norway": ["", "Cambridge branch"]
                 }
             },
             "areas": [
@@ -20312,7 +20312,7 @@
             "z": -10024,
             "lines": {
                 "Intercontinental": {
-                    "Ireland Ice lines": ["", "North London-Sealand to Birmingham branch"]
+                    "Britain-Norway": ["", "North London-Sealand to Birmingham branch"]
                 }
             }
         },
@@ -20323,7 +20323,7 @@
             "z": -10019,
             "lines": {
                 "Intercontinental": {
-                    "Ireland Ice lines": ["", "Birmingham branch"]
+                    "Britain-Norway": ["", "Birmingham branch"]
                 }
             }
         },
@@ -20334,7 +20334,7 @@
             "z": -9887,
             "lines": {
                 "Intercontinental": {
-                    "Ireland Ice lines": ["", "North London-Sealand"]
+                    "Britain-Norway": ["", "North London-Sealand"]
                 }
             }
         }
