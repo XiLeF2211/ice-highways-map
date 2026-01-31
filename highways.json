@@ -27806,14 +27806,14 @@
                             [1032, -11601.9166667],
                             [1032, -11634]
                         ],
-                        "stations": [1434]
+                        "stations": [1434, [1584, "Sealand branch"], 1587, 1588]
                     },
                     "Sealand branch": {
                         "vertices": [
                             [334, -10936],
                             [334, -9953]
                         ],
-                        "stations": []
+                        "stations": [[1584, "Main line"], [1585, "North London-Sealand"], 1586]
                     },
                     "North London-Sealand": {
                         "vertices": [
@@ -27822,7 +27822,7 @@
                             [-82, -10024],
                             [460, -10024]
                         ],
-                        "stations": []
+                        "stations": [1593, [1591, "Birmingham branch"], [1589, "Cambridge branch"], [1585, "Sealand branch"]]
                     },
                     "Birmingham branch": {
                         "vertices": [
@@ -27835,14 +27835,14 @@
                             [-489, -10035],
                             [-496, -10035]
                         ],
-                        "stations": []
+                        "stations": [[1591, "North London-Sealand"], 1592]
                     },
                     "Cambridge branch": {
                         "vertices": [
                             [8, -10024],
                             [8, -9920]
                         ],
-                        "stations": []
+                        "stations": [[1589, "North London-Sealand"], 1590]
                     }
                 }
             }
