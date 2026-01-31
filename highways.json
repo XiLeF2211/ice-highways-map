@@ -18318,7 +18318,8 @@
             "z": -10936,
             "lines": {
                 "Intercontinental": {
-                    "Narsaq High Speed Iceway": ["", "Main line"]
+                    "Narsaq High Speed Iceway": ["", "Main line"],
+                    "Britain-Norway": ["", "Main line"]
                 }
             }
         },
@@ -20024,6 +20025,316 @@
             "lines": {
                 "Intercontinental": {
                     "European Russia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Derry JCT",
+            "type": "jct",
+            "id": 1570,
+            "x": -1656,
+            "z": -10760,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Main line to Derry branch"]
+                }
+            }
+        },
+        {
+            "name": "Derry",
+            "id": 1571,
+            "x": -1656,
+            "z": -10350,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Derry branch"]
+                }
+            }
+        },
+        {
+            "name": "Galway North JCT",
+            "type": "jct",
+            "id": 1572,
+            "x": -1752,
+            "z": -10760,
+            "lines": {
+                "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Main line"],
+                    "Ireland Ice lines": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Galway JCT",
+            "type": "jct",
+            "id": 1573,
+            "x": -1752,
+            "z": -10296,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Main line to Galway branch"]
+                }
+            }
+        },
+        {
+            "name": "Galway",
+            "id": 1574,
+            "x": -1746,
+            "z": -10296,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Galway branch"]
+                }
+            }
+        },
+        {
+            "name": "Inis-Ge JCT",
+            "type": "jct",
+            "id": 1575,
+            "x": -1752,
+            "z": -10168,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Main line to Inis-Ge branch"]
+                }
+            }
+        },
+        {
+            "name": "Peebles JCT",
+            "type": "jct",
+            "id": 1576,
+            "x": -1752,
+            "z": -10008,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Main line to Aylywyn Ice lines connector branch"]
+                }
+            }
+        },
+        {
+            "name": "Peebles Elevator",
+            "type": "elev-we",
+            "id": 1577,
+            "x": -1761,
+            "z": -10008,
+            "y1": -61,
+            "y2": 41,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Aylywyn Ice lines connector branch"]
+                }
+            }
+        },
+        {
+            "name": "Cashel JCT",
+            "type": "jct",
+            "id": 1578,
+            "x": -1640,
+            "z": -10008,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Main line to Cork branch"]
+                }
+            }
+        },
+        {
+            "name": "Cashel",
+            "id": 1579,
+            "x": -1640,
+            "z": -9880,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Cork branch"]
+                }
+            },
+            "areas": [
+                [[-1673, -9905], [-1615, -9856]]
+            ]
+        },
+        {
+            "name": "Dublin Southwest JCT",
+            "type": "jct",
+            "id": 1580,
+            "x": -1592,
+            "z": -9848,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Cork branch to Dublin south connector"]
+                }
+            }
+        },
+        {
+            "name": "Cork",
+            "id": 1581,
+            "x": -1700,
+            "z": -9714.5,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Cork branch"]
+                }
+            }
+        },
+        {
+            "name": "Dublin",
+            "id": 1582,
+            "x": -1405,
+            "z": -9944,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Dublin South JCT",
+            "type": "jct",
+            "id": 1583,
+            "x": -1405,
+            "z": -9848,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Main line to Dublin south connector"]
+                }
+            }
+        },
+        {
+            "name": "Dogger-Asgard JCT",
+            "type": "jct",
+            "id": 1584,
+            "x": 334,
+            "z": -10936,
+            "lines": {
+                "Intercontinental": {
+                    "Britain-Norway": ["", "Main line to Sealand branch"]
+                }
+            }
+        },
+        {
+            "name": "Sealand JCT",
+            "type": "jct",
+            "id": 1585,
+            "x": 334,
+            "z": -10024,
+            "lines": {
+                "Intercontinental": {
+                    "Britain-Norway": ["", "Sealand branch to North London-Sealand"]
+                }
+            }
+        },
+        {
+            "name": "Sealand",
+            "id": 1586,
+            "x": 334,
+            "z": -9953,
+            "lines": {
+                "Intercontinental": {
+                    "Britain-Norway": ["", "Sealand branch"]
+                }
+            },
+            "areas": [
+                [[331, -9968], [336, -9948]]
+            ]
+        },
+        {
+            "name": "Asgard",
+            "id": 1587,
+            "x": 1062,
+            "z": -11597.5,
+            "notes": "Platform located at Y=95",
+            "lines": {
+                "Intercontinental": {
+                    "Britain-Norway": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[1011, -11599], [1015, -11595]],
+                [[1014, -11600], [1018, -11594]],
+                [[1017, -11601], [1021, -11593]],
+                [[1020, -11602], [1024, -11592]],
+                [[1023, -11603], [1027, -11591]],
+                [[1026, -11604], [1030, -11590]],
+                [[1029, -11605], [1033, -11589]],
+                [[1032, -11606], [1036, -11588]],
+                [[1035, -11607], [1042, -11587]],
+                [[1041, -11606], [1076, -11587]],
+                [[1041, -11599], [1084, -11594]]
+            ]
+        },
+        {
+            "name": "Norwyn",
+            "id": 1588,
+            "x": 1032,
+            "z": -11634,
+            "lines": {
+                "Intercontinental": {
+                    "Britain-Norway": ["", "Main line"]
+                },
+                "Local": {
+                    "Norwyn-Oakhaven": ["", ""]
+                }
+            },
+            "areas": [
+                [[1024, -11649], [1040, -11633]]
+            ]
+        },
+        {
+            "name": "Cambridge JCT",
+            "type": "jct",
+            "id": 1589,
+            "x": 8,
+            "z": -10024,
+            "lines": {
+                "Intercontinental": {
+                    "Britain-Norway": ["", "North London-Sealand to Cambridge branch"]
+                }
+            }
+        },
+        {
+            "name": "Cambridge",
+            "id": 1590,
+            "x": 8,
+            "z": -9920,
+            "lines": {
+                "Intercontinental": {
+                    "Britain-Norway": ["", "Cambridge branch"]
+                }
+            },
+            "areas": [
+                [[-1, -9984], [17, -9919]],
+                [[-12, -9963], [1, -9950]]
+            ]
+        },
+        {
+            "name": "Cambridge JCT",
+            "type": "jct",
+            "id": 1591,
+            "x": -82,
+            "z": -10024,
+            "lines": {
+                "Intercontinental": {
+                    "Britain-Norway": ["", "North London-Sealand to Birmingham branch"]
+                }
+            }
+        },
+        {
+            "name": "Cambridge",
+            "id": 1592,
+            "x": -303,
+            "z": -10019,
+            "lines": {
+                "Intercontinental": {
+                    "Britain-Norway": ["", "Birmingham branch"]
+                }
+            }
+        },
+        {
+            "name": "North London",
+            "id": 1593,
+            "x": -178.5,
+            "z": -9887,
+            "lines": {
+                "Intercontinental": {
+                    "Britain-Norway": ["", "North London-Sealand"]
                 }
             }
         }
@@ -26244,6 +26555,26 @@
                         "stations": [[1559, "Main line"], 1560]
                     }
                 }
+            },
+            "Norwyn-Oakhaven": {
+                "prefix": "",
+                "code": "NWY-OHV",
+                "color": "a2a2a2",
+                "y": -62,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [1041, -11636],
+                            [1054, -11636],
+                            [1054, -11662],
+                            [1070, -11662],
+                            [1070, -11772],
+                            [1139, -11772],
+                            [1139, -11765]
+                        ],
+                        "stations": [1588]
+                    }
+                }
             }
         },
         "Intercontinental": {
@@ -27253,7 +27584,7 @@
                 "prefix": "",
                 "code": "NHSI",
                 "color": "acb064",
-                "y": 61,
+                "y": -61,
                 "branches": {
                     "Main line": {
                         "vertices": [
@@ -27267,7 +27598,7 @@
                             [-456, -10936],
                             [-456, -11226]
                         ],
-                        "stations": [1418, 1419, [1420, "BladeeCity branch"], [1421, "Qaqortoq branch"], [1423, "MarkVille branch"], [1425, "Ataa branch"], [1426, "Iceland branch"], [1428, "Midleton branch"], [1430, "Iverness branch"], [1432, "Highlands branch"], 1434, 1435]
+                        "stations": [1418, 1419, [1420, "BladeeCity branch"], [1421, "Qaqortoq branch"], [1423, "MarkVille branch"], [1425, "Ataa branch"], [1426, "Iceland branch"], [1428, "Midleton branch"], 1572, [1570, "Derry branch"], [1430, "Iverness branch"], [1432, "Highlands branch"], 1434, 1435]
                     },
                     "BladeeCity branch": {
                         "vertices": [
@@ -27310,6 +27641,13 @@
                             [-2088, -10777]
                         ],
                         "stations": [[1428, "Main line"], 1429]
+                    },
+                    "Derry branch": {
+                        "vertices": [
+                            [-1656, -10760],
+                            [-1656, -10350]
+                        ],
+                        "stations": [[1570, "Main line"], 1571]
                     },
                     "Iverness branch": {
                         "vertices": [
@@ -27370,7 +27708,7 @@
             },
             "Bering Strait": {
                 "prefix": "",
-                "code": "",
+                "code": "BS",
                 "color": "9d4366",
                 "y": 70,
                 "branches": {
@@ -27389,7 +27727,124 @@
                         "stations": [[1522, "South line"]]
                     }
                 }
-
+            },
+            "Ireland Ice lines": {
+                "prefix": "",
+                "code": "IRL",
+                "color": "169b62",
+                "y": -61,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-1752, -10760],
+                            [-1752, -10008],
+                            [-1400, -10008],
+                            [-1400, -9944],
+                            [-1405, -9944],
+                            [-1405, -9401]
+                        ],
+                        "stations": [1572, [1573, "Galway branch"], [1575, "Inis-Ge branch"], [1576, "Aylywyn Ice lines connector branch"], [1578, "Cork branch"], 1582, [1583, "Dublin south connector"]]
+                    },
+                    "Galway branch": {
+                        "vertices": [
+                            [-1752, -10296],
+                            [-1746, -10296]
+                        ],
+                        "stations": [[1573, "Main line"], 1574]
+                    },
+                    "Inis-Ge branch": {
+                        "vertices": [
+                            [-1752, -10168],
+                            [-2048, -10168]
+                        ],
+                        "stations": [[1575, "Main line"]]
+                    },
+                    "Aylywyn Ice lines connector branch": {
+                        "vertices": [
+                            [-1752, -10008],
+                            [-1761, -10008]
+                        ],
+                        "stations": [[1576, "Main line"], 1577]
+                    },
+                    "Cork branch": {
+                        "vertices": [
+                            [-1640, -10008],
+                            [-1640, -9848],
+                            [-1592, -9848],
+                            [-1592, -9714.5],
+                            [-1703, -9714.5]
+                        ],
+                        "stations": [[1578, "Main line"], 1579, [1580, "Dublin south connector"], 1581]
+                    },
+                    "Dublin south connector": {
+                        "vertices": [
+                            [-1592, -9848],
+                            [-1405, -9848]
+                        ],
+                        "stations": [[1580, "Cork branch"], [1583, "Main line"]]
+                    }
+                }
+            },
+            "Britain-Norway": {
+                "prefix": "",
+                "code": "BT-NO",
+                "color": "C8102E",
+                "y": -61,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-456, -10936],
+                            [520, -10936],
+                            [520, -11656],
+                            [968, -11656],
+                            [1016, -11596],
+                            [1039, -11604.5],
+                            [1073.5, -11604.5],
+                            [1073.5, -11590.5],
+                            [1040, -11590.5],
+                            [1016, -11596],
+                            [1032, -11601.9166667],
+                            [1032, -11634]
+                        ],
+                        "stations": [1434, [1584, "Sealand branch"], 1587, 1588]
+                    },
+                    "Sealand branch": {
+                        "vertices": [
+                            [334, -10936],
+                            [334, -9953]
+                        ],
+                        "stations": [[1584, "Main line"], [1585, "North London-Sealand"], 1586]
+                    },
+                    "North London-Sealand": {
+                        "vertices": [
+                            [-230, -9887],
+                            [-82, -9887],
+                            [-82, -10024],
+                            [460, -10024]
+                        ],
+                        "stations": [1593, [1591, "Birmingham branch"], [1589, "Cambridge branch"], [1585, "Sealand branch"]]
+                    },
+                    "Birmingham branch": {
+                        "vertices": [
+                            [-82, -10024],
+                            [-138, -10024],
+                            [-144, -10018],
+                            [-303, -10019],
+                            [-401, -10029],
+                            [-423, -10029],
+                            [-489, -10035],
+                            [-496, -10035]
+                        ],
+                        "stations": [[1591, "North London-Sealand"], 1592]
+                    },
+                    "Cambridge branch": {
+                        "vertices": [
+                            [8, -10024],
+                            [8, -9920]
+                        ],
+                        "stations": [[1589, "North London-Sealand"], 1590]
+                    }
+                }
             }
         }
     }
