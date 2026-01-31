@@ -18318,7 +18318,8 @@
             "z": -10936,
             "lines": {
                 "Intercontinental": {
-                    "Narsaq High Speed Iceway": ["", "Main line"]
+                    "Narsaq High Speed Iceway": ["", "Main line"],
+                    "Britain-Norway": ["", "Main line"]
                 }
             }
         },
@@ -20058,6 +20059,7 @@
             "z": -10760,
             "lines": {
                 "Intercontinental": {
+                    "Narsaq High Speed Iceway": ["", "Main line"],
                     "Ireland Ice lines": ["", "Main line"]
                 }
             }
@@ -27618,6 +27620,67 @@
                             [-1405, -9848]
                         ],
                         "stations": [[1580, "Cork branch"], [1583, "Main line"]]
+                    }
+                }
+            },
+            "Britain-Norway": {
+                "prefix": "",
+                "code": "BT-NO",
+                "color": "ba0c2f",
+                "y": -61,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-456, -10936],
+                            [520, -10936],
+                            [520, -11656],
+                            [968, -11656],
+                            [1016, -11596],
+                            [1039, -11604.5],
+                            [1073.5, -11604.5],
+                            [1073.5, -11590.5],
+                            [1040, -11590.5],
+                            [1016, -11596],
+                            [1032, -11601.9166667],
+                            [1032, -11634]
+                        ],
+                        "stations": [1434]
+                    },
+                    "Sealand branch": {
+                        "vertices": [
+                            [334, -10936],
+                            [334, -9953]
+                        ],
+                        "stations": []
+                    },
+                    "North London-Sealand": {
+                        "vertices": [
+                            [-230, -9887],
+                            [-82, -9887],
+                            [-82, -10024],
+                            [460, -10024]
+                        ],
+                        "stations": []
+                    },
+                    "Birmingham branch": {
+                        "vertices": [
+                            [-82, -10024],
+                            [-138, -10024],
+                            [-144, -10018],
+                            [-303, -10019],
+                            [-401, -10029],
+                            [-423, -10029],
+                            [-489, -10035],
+                            [-496, -10035]
+                        ],
+                        "stations": []
+                    },
+                    "Cambridge branch": {
+                        "vertices": [
+                            [8, -10024],
+                            [8, -9920]
+                        ],
+                        "stations": []
                     }
                 }
             }
