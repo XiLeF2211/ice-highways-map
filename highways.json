@@ -20187,12 +20187,154 @@
         },
         {
             "name": "Dublin South JCT",
+            "type": "jct",
             "id": 1583,
             "x": -1405,
             "z": -9848,
             "lines": {
                 "Intercontinental": {
                     "Ireland Ice lines": ["", "Main line to Dublin south connector"]
+                }
+            }
+        },
+        {
+            "name": "Dogger-Asgard JCT",
+            "type": "jct",
+            "id": 1584,
+            "x": 334,
+            "z": -10936,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Main line to Sealand branch"]
+                }
+            }
+        },
+        {
+            "name": "Sealand JCT",
+            "type": "jct",
+            "id": 1585,
+            "x": 334,
+            "z": -10024,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Sealand branch to North London-Sealand"]
+                }
+            }
+        },
+        {
+            "name": "Sealand",
+            "id": 1586,
+            "x": 334,
+            "z": -9953,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Sealand branch"]
+                }
+            },
+            "areas": [
+                [[331, -9968], [336, -9948]]
+            ]
+        },
+        {
+            "name": "Asgard",
+            "id": 1587,
+            "x": 1062,
+            "z": -11597.5,
+            "notes": "Platform located at Y=95",
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[1011, -11599], [1015, -11595]],
+                [[1014, -11600], [1018, -11594]],
+                [[1017, -11601], [1021, -11593]],
+                [[1020, -11602], [1024, -11592]],
+                [[1023, -11603], [1027, -11591]],
+                [[1026, -11604], [1030, -11590]],
+                [[1029, -11605], [1033, -11589]],
+                [[1032, -11606], [1036, -11588]],
+                [[1035, -11607], [1042, -11587]],
+                [[1041, -11606], [1076, -11587]],
+                [[1041, -11599], [1084, -11594]]
+            ]
+        },
+        {
+            "name": "Norwyn",
+            "id": 1588,
+            "x": 1032,
+            "z": -11634,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Main line"]
+                },
+                "Local": {
+                    "Norwyn-Oakhaven": ["", ""]
+                }
+            },
+            "areas": [
+                [[1024, -11649], [1040, -11633]]
+            ]
+        },
+        {
+            "name": "Cambridge JCT",
+            "type": "jct",
+            "id": 1589,
+            "x": 8,
+            "z": -10024,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "North London-Sealand to Cambridge branch"]
+                }
+            }
+        },
+        {
+            "name": "Cambridge",
+            "id": 1590,
+            "x": 8,
+            "z": -9920,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Cambridge branch"]
+                }
+            },
+            "areas": [
+                [[-1, -9984], [17, -9919]],
+                [[-12, -9963], [1, -9950]]
+            ]
+        },
+        {
+            "name": "Cambridge JCT",
+            "type": "jct",
+            "id": 1591,
+            "x": -82,
+            "z": -10024,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "North London-Sealand to Birmingham branch"]
+                }
+            }
+        },
+        {
+            "name": "Cambridge",
+            "id": 1592,
+            "x": -303,
+            "z": -10019,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "Birmingham branch"]
+                }
+            }
+        },
+        {
+            "name": "North London",
+            "id": 1593,
+            "x": -178.5,
+            "z": -9887,
+            "lines": {
+                "Intercontinental": {
+                    "Ireland Ice lines": ["", "North London-Sealand"]
                 }
             }
         }
@@ -26413,6 +26555,26 @@
                         "stations": [[1559, "Main line"], 1560]
                     }
                 }
+            },
+            "Norwyn-Oakhaven": {
+                "prefix": "",
+                "code": "NWY-OHV",
+                "color": "a2a2a2",
+                "y": -62,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [1041, -11636],
+                            [1054, -11636],
+                            [1054, -11662],
+                            [1070, -11662],
+                            [1070, -11772],
+                            [1139, -11772],
+                            [1139, -11765]
+                        ],
+                        "stations": [1588]
+                    }
+                }
             }
         },
         "Intercontinental": {
@@ -27626,7 +27788,7 @@
             "Britain-Norway": {
                 "prefix": "",
                 "code": "BT-NO",
-                "color": "ba0c2f",
+                "color": "C8102E",
                 "y": -61,
                 "branches": {
                     "Main line": {
