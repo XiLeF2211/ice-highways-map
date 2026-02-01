@@ -20375,6 +20375,82 @@
                     "East Pacific": ["", "Main line to Capital branch"]
                 }
             }
+        },
+        {
+            "name": "Yueyang",
+            "id": 1597,
+            "x": 20783,
+            "z": -5446.5,
+            "lines": {
+                "China Iceway": {
+                    "Yueyang-Hangzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ruijin Y=50 JCT",
+            "type": "jct",
+            "id": 1598,
+            "x": 21059.5,
+            "z": -5446.5,
+            "lines": {
+                "China Iceway": {
+                    "Yueyang-Hangzhou": ["", "Main line to Ruijin branch"]
+                }
+            }
+        },
+        {
+            "name": "Ruijin (Subway)",
+            "id": 1599,
+            "x": 21059.5,
+            "z": -5357,
+            "lines": {
+                "China Iceway": {
+                    "Yueyang-Hangzhou": ["", "Ruijin branch"]
+                }
+            },
+            "areas": [
+                [[21056, -5360], [21063, -5353]],
+                [[21050, -5359], [21063, -5353]],
+                [[21050, -5359], [21056, -5328]],
+                [[21049, -5342], [21057, -5327]]
+            ]
+        },
+        {
+            "name": "Haikou JCT",
+            "type": "jct",
+            "id": 1600,
+            "x": 21126.5,
+            "z": -5643.5,
+            "lines": {
+                "China Iceway": {
+                    "Yueyang-Hangzhou": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[21121, -5647], [21132, -5640]]
+            ]
+        },
+        {
+            "name": "Hangzhou",
+            "id": 1600,
+            "x": 21910,
+            "z": -5643.5,
+            "lines": {
+                "China Iceway": {
+                    "Yueyang-Hangzhou": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[21888, -5664], [21912, -5640]],
+                [[21888, -5664], [21917, -5659]],
+                [[21914, -5694], [21937, -5664]],
+                [[21914, -5694], [21939, -5678]],
+                [[21937, -5692], [21944, -5687]],
+                [[21920, -5694], [21937, -5677]],
+                [[21927, -5704], [21937, -5677]],
+                [[21921, -5696], [21933, -5680]]
+            ]
         }
     ],
     "lines": {
@@ -24378,6 +24454,30 @@
                             [20153, -6266]
                         ],
                         "stations": [[1047, "Main line"], 1048]
+                    }
+                }
+            },
+            "Yueyang-Hangzhou": {
+                "prefix": "",
+                "code": "岳阳杭州",
+                "color": "f5d000",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [20783, -5446.5],
+                            [21059.5, -5446.5],
+                            [21059.5, -5643.5],
+                            [21910, -5643.5]
+                        ],
+                        "stations": [1597, [1598, "Ruijin branch"], 1600, 1601]
+                    },
+                    "Ruijin branch": {
+                        "vertices": [
+                            [21059.5, -5446.5],
+                            [21059.5, -5357]
+                        ],
+                        "stations": [[1598, "Main line"], 1599]
                     }
                 }
             }
