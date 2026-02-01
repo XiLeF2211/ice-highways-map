@@ -10021,7 +10021,8 @@
             "z": -8553,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Oceanside": ["", "Main line"]
+                    "Oceanside": ["", "Main line"],
+                    "East Pacific": ["", "Main line"]
                 }
             }
         },
@@ -10050,14 +10051,15 @@
             }
         },
         {
-            "name": "Pacific Ocean ( JCT)",
+            "name": "Pacific Ocean (Cascadia Capital JCT)",
             "type": "jct",
             "id": 793,
             "x": -23189,
             "z": -8760,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Oceanside": ["", "Neah Bay connector branch"]
+                    "Oceanside": ["", "Neah Bay connector branch"],
+                    "East Pacific": ["", "Capital branch"]
                 }
             }
         },
@@ -20337,6 +20339,42 @@
                     "Britain-Norway": ["", "North London-Sealand"]
                 }
             }
+        },
+        {
+            "name": "South West Greys Harbour JCT",
+            "id": 1594,
+            "x": -24931,
+            "z": -9847.5,
+            "type": "jct",
+            "lines": {
+                "Cascadian Ice lines": {
+                    "East Pacific": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Point-m24572 JCT",
+            "id": 1595,
+            "x": -24572.5,
+            "z": -9152,
+            "type": "jct",
+            "lines": {
+                "Cascadian Ice lines": {
+                    "East Pacific": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Point-m8760 JCT",
+            "id": 1596,
+            "x": -23608,
+            "z": -8760,
+            "type": "jct",
+            "lines": {
+                "Cascadian Ice lines": {
+                    "East Pacific": ["", "Main line to Capital branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -22883,6 +22921,30 @@
                     }
                 }
             },
+            "East Pacific": {
+                "prefix": "",
+                "code": "",
+                "color": "90ee90",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-24931, -10249],
+                            [-24931, -9152],
+                            [-23608, -9152],
+                            [-23608, -7155]
+                        ],
+                        "stations": [1594, 1595, [1596, "Capital branch"], 790]
+                    },
+                    "Capital branch": {
+                        "vertices": [
+                            [-23152, -8760],
+                            [-23608, -8760]
+                        ],
+                        "stations": [[1596, "Main line"], 793]
+                    }
+                }
+            },
             "HayRiver": {
                 "prefix": "",
                 "code": "HR",
@@ -22901,7 +22963,7 @@
                             [-21568, -11269],
                             [-21568, -11343]
                         ],
-                        "stations": [[1172, "HayRiver branch"], 1173, 1174]
+                        "stations": [[1172, "Main line"], 1173, 1174]
                     }
                 }
             },
