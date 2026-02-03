@@ -20433,7 +20433,7 @@
         },
         {
             "name": "Hangzhou",
-            "id": 1600,
+            "id": 1601,
             "x": 21910,
             "z": -5643.5,
             "lines": {
@@ -20451,6 +20451,28 @@
                 [[21927, -5704], [21937, -5677]],
                 [[21921, -5696], [21933, -5680]]
             ]
+        },
+        {
+            "name": "Dragon Utopia East JCT",
+            "id": 1602,
+            "x": 21045,
+            "z": -8708,
+            "lines": {
+                "Japan Ice lines": {
+                    "Tosa Dragon": ["", "Main line to Dragon Utopia bypass"]
+                }
+            }
+        },
+        {
+            "name": "Dragon Utopia West JCT",
+            "id": 1603,
+            "x": 20905,
+            "z": -8708,
+            "lines": {
+                "Japan Ice lines": {
+                    "Tosa Dragon": ["", "Main line to Dragon Utopia bypass"]
+                }
+            }
         }
     ],
     "lines": {
@@ -24233,7 +24255,7 @@
                             [15229, -8711],
                             [15227, -8711]
                         ],
-                        "stations": [917, 915, 806, 955, [1382, "Mongolian extension"], 958, [957, "Cuzzistan JCT connector"], 959, 960]
+                        "stations": [917, 915, 806, [1602, "Main line"], 955, [1603, "Main line"], [1382, "Mongolian extension"], 958, [957, "Cuzzistan JCT connector"], 959, 960]
                     },
                     "Cuzzistan JCT connector": {
                         "vertices": [
@@ -24251,6 +24273,15 @@
                             [18994, -8708]
                         ],
                         "stations": [1381, 1383, [1382, "Main line"]]
+                    },
+                    "Dragon Utopia bypass": {
+                        "vertices": [
+                            [21045, -8708],
+                            [21045, -8630],
+                            [20905, -8630],
+                            [20905, -8708]
+                        ],
+                        "stations": [[1602, "Main line"], [1603, "Main line"]]
                     }
                 }
             }
