@@ -20454,6 +20454,7 @@
         },
         {
             "name": "Dragon Utopia East JCT",
+            "type": "jct",
             "id": 1602,
             "x": 21045,
             "z": -8708,
@@ -20465,6 +20466,7 @@
         },
         {
             "name": "Dragon Utopia West JCT",
+            "type": "jct",
             "id": 1603,
             "x": 20905,
             "z": -8708,
