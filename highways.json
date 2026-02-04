@@ -10479,6 +10479,9 @@
             "lines": {
                 "China Iceway": {
                     "Huangsha Upper": ["", "Main line"]
+                },
+                "Ming Federation Standard Line": {
+                    "Fengning-Aacity Y=83": ["", "North section"]
                 }
             },
             "areas": [
@@ -20425,6 +20428,9 @@
             "lines": {
                 "China Iceway": {
                     "Yueyang-Hangzhou": ["", "Main line"]
+                },
+                "Ming Federation Standard Line": {
+                    "Fengning-Aacity Y=50": ["", "Wuhan section"]
                 }
             },
             "areas": [
@@ -20475,6 +20481,212 @@
                     "Tosa Dragon": ["", "Main line to Dragon Utopia bypass"]
                 }
             }
+        },
+        {
+            "name": "Fengning",
+            "id": 1604,
+            "x": 21230,
+            "z": -7980,
+            "lines": {
+                "Ming Federation Standard Line": {
+                    "Fengning-Aacity Y=83": ["", "North section"]
+                }
+            }
+        },
+        {
+            "name": "Beiping West JCT",
+            "type": "jct",
+            "id": 1605,
+            "x": 21126.5,
+            "z": -7433.5,
+            "lines": {
+                "Ming Federation Standard Line": {
+                    "Fengning-Aacity Y=83": ["", "North section"]
+                }
+            },
+            "areas": [
+                [[21122, -7438], [21131, -7429]]
+            ]
+        },
+        {
+            "name": "Handanbei",
+            "id": 1606,
+            "x": 21126.5,
+            "z": -7176.5,
+            "lines": {
+                "Ming Federation Standard Line": {
+                    "Fengning-Aacity Y=83": ["", "North section"]
+                }
+            },
+            "areas": [
+                [[21117, -7183], [21136, -7168]]
+            ]
+        },
+        {
+            "name": "Handan",
+            "id": 1607,
+            "x": 21126.5,
+            "z": -7045,
+            "lines": {
+                "Ming Federation Standard Line": {
+                    "Fengning-Aacity Y=83": ["", "North section"]
+                }
+            },
+            "areas": [
+                [[21108, -7067], [21145, -7029]]
+            ]
+        },
+        {
+            "name": "Jining",
+            "id": 1608,
+            "x": 21126.5,
+            "z": -6716,
+            "lines": {
+                "Ming Federation Standard Line": {
+                    "Fengning-Aacity Y=83": ["", "North section"]
+                }
+            },
+            "areas": [
+                [[21130, -6742], [21168, -6690]],
+                [[21115, -6751], [21138, -6678]]
+            ]
+        },
+        {
+            "name": "Jining JCT",
+            "type": "jct",
+            "id": 1609,
+            "x": 21126.5,
+            "z": -6663.5,
+            "lines": {
+                "Ming Federation Standard Line": {
+                    "Fengning-Aacity Y=83": ["", "North section"]
+                }
+            },
+            "areas": [
+                [[21122, -6668], [21131, -6659]]
+            ]
+        },
+        {
+            "name": "Bengbu JCT",
+            "type": "jct",
+            "id": 1610,
+            "x": 21126.5,
+            "z": -6377,
+            "lines": {
+                "Ming Federation Standard Line": {
+                    "Fengning-Aacity Y=83": ["", "North section"]
+                }
+            },
+            "areas": [
+                [[21121, -6382], [21131, -6371]]
+            ]
+        },
+        {
+            "name": "Bengbu Elevator",
+            "type": "elev-we",
+            "id": 1611,
+            "x": 21126.5,
+            "z": -6307,
+            "y1": 83,
+            "y2": 50,
+            "lines": {
+                "Ming Federation Standard Line": {
+                    "Fengning-Aacity Y=83": ["", "North section"],
+                    "Fengning-Aacity Y=50": ["", "Wuhan section"]
+                }
+            },
+            "areas": [
+                [[21121, -6310], [21132, -6302]]
+            ]
+        },
+        {
+            "name": "Wuhan",
+            "id": 1612,
+            "x": 21126.5,
+            "z": -5776,
+            "lines": {
+                "Ming Federation Standard Line": {
+                    "Fengning-Aacity Y=50": ["", "Wuhan section"]
+                }
+            },
+            "areas": [
+                [[21116, -5792], [21137, -5764]]
+            ]
+        },
+        {
+            "name": "Nanchang Elevator",
+            "type": "elev-ew",
+            "id": 1613,
+            "x": 21126.5,
+            "z": -5593,
+            "lines": {
+                "Ming Federation Standard Line": {
+                    "Fengning-Aacity Y=50": ["", "Wuhan section"],
+                    "Fengning-Aacity Y=83": ["", "South section"]
+                }
+            },
+            "areas": [
+                [[21121, -5596], [21132, -5590]]
+            ]
+        },
+        {
+            "name": "Ruijin JCT",
+            "type": "jct",
+            "id": 1614,
+            "x": 21126.5,
+            "z": -5369,
+            "lines": {
+                "Ming Federation Standard Line": {
+                    "Fengning-Aacity Y=83": ["", "South section"]
+                }
+            },
+            "areas": [
+                [[21122, -5371], [21131, -5360]]
+            ]
+        },
+        {
+            "name": "Ruijin",
+            "id": 1615,
+            "x": 21126.5,
+            "z": -5314.5,
+            "lines": {
+                "Ming Federation Standard Line": {
+                    "Fengning-Aacity Y=83": ["", "South section"]
+                }
+            },
+            "areas": [
+                [[21111, -5327], [21132, -5300]]
+            ]
+        },
+        {
+            "name": "Huawan",
+            "id": 1616,
+            "x": 21126.5,
+            "z": -5064,
+            "lines": {
+                "Ming Federation Standard Line": {
+                    "Fengning-Aacity Y=83": ["", "South section"]
+                }
+            },
+            "areas": [
+                [[21111, -5085], [21135, -5040]]
+            ]
+        },
+        {
+            "name": "Aacity Elevator",
+            "type": "elev-we",
+            "id": 1617,
+            "x": 21126.5,
+            "z": -4834,
+            "lines": {
+                "Ming Federation Standard Line": {
+                    "Fengning-Aacity Y=83": ["", "South section"],
+                    "Fengning-Aacity Y=50": ["", "Aacity section"]
+                }
+            },
+            "areas": [
+                [[21121, -4837], [21132, -4830]]
+            ]
         }
     ],
     "lines": {
@@ -24511,6 +24723,66 @@
                             [21059.5, -5357]
                         ],
                         "stations": [[1598, "Main line"], 1599]
+                    }
+                }
+            }
+        },
+        "Ming Federation Standard Line": {
+            "Fengning-Aacity Y=83": {
+                "prefix": "",
+                "code": "丰宁A Y=83",
+                "color": "f5d000",
+                "y": 83,
+                "branches": {
+                    "North section": {
+                        "vertices": [
+                            [21124, -6307],
+                            [21124, -7959],
+                            [21222, -7959],
+                            [21222, -7980],
+                            [21230, -7980],
+                            [21230, -7975],
+                            [21227, -7975],
+                            [21227, -7954],
+                            [21129, -7954],
+                            [21129, -6307]
+                        ],
+                        "stations": [1604, 824, 1605, 1606, 1607, 1608, 1609, 1610, 1611]
+                    },
+                    "South section": {
+                        "vertices": [
+                            [21124, -4834],
+                            [21124, -6307],
+                            [21129, -6307],
+                            [21129, -4834]
+                        ],
+                        "stations": [1613, 1614, 1615, 1616, 1617]
+                    }
+                }
+            },
+            "Fengning-Aacity Y=50": {
+                "prefix": "",
+                "code": "丰宁A Y=50",
+                "color": "f5d000",
+                "y": 50,
+                "branches": {
+                    "Wuhan section": {
+                        "vertices": [
+                            [21124, -5593],
+                            [21124, -6307],
+                            [21129, -6307],
+                            [21129, -5593]
+                        ],
+                        "stations": [1611, 1612, 1600, 1613]
+                    },
+                    "Aacity section": {
+                        "vertices": [
+                            [21124, -4752],
+                            [21124, -4834],
+                            [21129, -4834],
+                            [21129, -4752]
+                        ],
+                        "stations": [1617]
                     }
                 }
             }
