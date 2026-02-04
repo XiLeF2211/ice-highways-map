@@ -67,6 +67,8 @@ Note that the capitalization does not change, and note that it is simply the str
 > [!NOTE]  
 > For other lines that are not shown on the list or to see detailed additions history, please see [the related database changes history](https://github.com/XiLeF2211/ice-highways-map/commits/main/highways.json)
 
+4 February 2026: Ming Federation Standard Lines (edited by **nokteholda**)
+
 31 January 2026: Ireland Ice lines, Britain-Norway and Norwyn-Oakhaven lines (edited by **nokteholda**)
 
 25 January 2026: East New Caledonia and Portugal Metro lines (edited by **nokteholda**)
