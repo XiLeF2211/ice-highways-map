@@ -10691,6 +10691,9 @@
                 "China Iceway": {
                     "Baotou": ["", "Main line"],
                     "Chen Chang-Luoyang": ["", "Main line"]
+                },
+                "Ming Federation Standard Line": {
+                    "Luoyang-Nanjing": ["", "Main line"]
                 }
             }
         },
@@ -20574,7 +20577,8 @@
             "z": -6377,
             "lines": {
                 "Ming Federation Standard Line": {
-                    "Fengning-Aacity Y=83": ["", "North section"]
+                    "Fengning-Aacity Y=83": ["", "North section"],
+                    "Luoyang-Nanjing": ["", "Main line"]
                 }
             },
             "areas": [
@@ -20686,6 +20690,63 @@
             },
             "areas": [
                 [[21121, -4837], [21132, -4830]]
+            ]
+        },
+        {
+            "name": "Luoyang JCT",
+            "type": "jct",
+            "id": 1618,
+            "x": 20330,
+            "z": -6409,
+            "lines": {
+                "Ming Federation Standard Line": {
+                    "Luoyang-Nanjing": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[20328, -6415], [20333, -6403]]
+            ]
+        },
+        {
+            "name": "Zhumadian",
+            "type": "semi3",
+            "id": 1619,
+            "x": 20877,
+            "z": -6374,
+            "lines": {
+                "Ming Federation Standard Line": {
+                    "Luoyang-Nanjing": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bengbu",
+            "id": 1620,
+            "x": 21252.5,
+            "z": -6377,
+            "lines": {
+                "Ming Federation Standard Line": {
+                    "Luoyang-Nanjing": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[21205, -6394], [21279, -6363]],
+                [[21245, -6373], [21279, -6357]]
+            ]
+        },
+        {
+            "name": "Nanjing JCT",
+            "type": "jct",
+            "id": 1621,
+            "x": 21448,
+            "z": -6377,
+            "lines": {
+                "Ming Federation Standard Line": {
+                    "Luoyang-Nanjing": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[21443, -6382], [21453, -6372]]
             ]
         }
     ],
@@ -24783,6 +24844,34 @@
                             [21129, -4752]
                         ],
                         "stations": [1617]
+                    }
+                }
+            },
+            "Luoyang-Nanjing": {
+                "prefix": "",
+                "code": "洛阳南京",
+                "color": "f5d000",
+                "y": 83,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [21564, -6364.5],
+                            [21544, -6364.5],
+                            [21535, -6374],
+                            [20665, -6374],
+                            [20644, -6378],
+                            [20616, -6404],
+                            [20610, -6406],
+                            [20330, -6406],
+                            [20330, -6420],
+                            [20330, -6412],
+                            [20610, -6412],
+                            [20622, -6409],
+                            [20647, -6384],
+                            [20665, -6380],
+                            [21566, -6380]
+                        ],
+                        "stations": [836, 1618, 1619, 1610, 1620, 1621]
                     }
                 }
             }
