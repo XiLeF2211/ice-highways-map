@@ -467,6 +467,7 @@
             "id": 39,
             "x": 1560,
             "z": -1074,
+            "type": "jct",
             "lines": {
                 "Y=6": {
                     "Baydibek-Nura": ["", "Main line"]
@@ -492,6 +493,7 @@
             "id": 41,
             "x": 1560,
             "z": -1093,
+            "type": "jct",
             "lines": {
                 "Y=6": {
                     "Baydibek-Nura": ["", "Main line"]
@@ -504,6 +506,7 @@
             "id": 42,
             "x": 1549,
             "z": -1085,
+            "type": "jct",
             "lines": {
                 "Y=6": {
                     "Line 2 (Kazakhstan)": ["", "Main line"]

@@ -20940,6 +20940,33 @@
             "areas": [
                 [[21375, -5548], [21378, -5539]]
             ]
+        },
+        {
+            "name": "Tamaghza JCT",
+            "type": "jct",
+            "id": 1635,
+            "x": 3517.5,
+            "z": -1346.5,
+            "lines": {
+                "Somalia Ice lines": {
+                    "Pan-african": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Elevator",
+            "type": "elev-we",
+            "y1": 65,
+            "y2": 75,
+            "id": 1636,
+            "x": 7717.5,
+            "z": -1342.5,
+            "lines": {
+                "Somalia Ice lines": {
+                    "Pan-african": ["", "Main line"],
+                    "1st Somalia": ["", "Y=65 Connector branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -23090,7 +23117,7 @@
                             [7736, -1342.5],
                             [7717.5, -1342.5]
                         ],
-                        "stations": [[867, "Rattay - Djibouti"]]
+                        "stations": [1636, [867, "Rattay - Djibouti"]]
                     }
                 }
             },
@@ -23130,6 +23157,33 @@
                             [7560, -6]
                         ],
                         "stations": [[868, "Main line"], 869]
+                    }
+                }
+            },
+            "Pan-african": {
+                "prefix": "",
+                "code": "",
+                "color": "f0e2a1",
+                "y": 65,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [8884.5, -1346.5],
+                            [5842.5, -1346.5],
+                            [5842.5, -1261.5],
+                            [5725.5, -1261.5],
+                            [5725.5, -1346.5],
+                            [788.5, -1346.5]
+                        ],
+                        "stations": [1635, 1636]
+                    },
+                    "": {
+                        "vertices": [
+                            [7702.5, -1346.5],
+                            [7702.5, -1342.5],
+                            [7717.5, -1342.5]
+                        ],
+                        "stations": []
                     }
                 }
             }
