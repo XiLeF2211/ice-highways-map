@@ -536,6 +536,30 @@
                     "Marodnyi": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Eestifur",
+            "id": 45,
+            "x": 1356.5,
+            "z": -1493.5,
+            "lines": {
+                "Y=49": {
+                    "Marodnyi": ["", "Main line"]
+                }
+            },
+            "notes": "Portal to Eestfur at x1353 y49 z-1501"
+        },
+        {
+            "name": "North Eestifur JCT",
+            "type": "jct",
+            "id": 46,
+            "x": 1356.5,
+            "z": -1527.5,
+            "lines": {
+                "Y=49": {
+                    "Marodnyi": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -639,6 +663,9 @@
                     }
                 }
             },
+            "North": {
+
+            },
             "Minsk ex": {
                 "prefix": "",
                 "code": "",
@@ -665,7 +692,7 @@
                             [1356.5, -1377],
                             [1356.5, -2000]
                         ],
-                        "stations": [44, [43, "Ice farm branch"], 27]
+                        "stations": [44, 46, 45, [43, "Ice farm branch"], 27]
                     },
                     "Ice farm branch": {
                         "vertices": [

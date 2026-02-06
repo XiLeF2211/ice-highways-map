@@ -5423,7 +5423,7 @@
                     "Arkhangelsk - Eestifur": ["", "Main line"]
                 },
                 "Local": {
-                    "Narodnyi local": ["", "Main line"]
+                    "Y=86 Narodnyi": ["", "Main line"]
                 }
             },
             "notes": "Interchange to WSD North Railway",
@@ -6218,7 +6218,7 @@
             "z": -12750,
             "lines": {
                 "Local": {
-                    "Narodnyi local": ["", "Ice farm line"]
+                    "Y=86 Narodnyi": ["", "Ice farm line"]
                 }
             }
         },
@@ -6230,7 +6230,7 @@
             "z": -12634,
             "lines": {
                 "Local": {
-                    "Narodnyi local": ["", "Ice farm line to 1st Bamboo branch"]
+                    "Y=86 Narodnyi": ["", "Ice farm line to 1st Bamboo branch"]
                 }
             }
         },
@@ -6242,7 +6242,7 @@
             "z": -12051,
             "lines": {
                 "Local": {
-                    "Narodnyi local": ["", "Main line to Ice farm line"]
+                    "Y=86 Narodnyi": ["", "Main line to Ice farm line"]
                 }
             }
         },
@@ -6253,7 +6253,7 @@
             "z": -12051,
             "lines": {
                 "Local": {
-                    "Narodnyi local": ["", "Main line"]
+                    "Y=86 Narodnyi": ["", "Main line"]
                 }
             }
         },
@@ -7209,7 +7209,7 @@
             "z": -12634.5,
             "lines": {
                 "Local": {
-                    "Narodnyi local": ["", "1st Bamboo branch to 2nd Bamboo branch"]
+                    "Y=86 Narodnyi": ["", "1st Bamboo branch to 2nd Bamboo branch"]
                 }
             }
         },
@@ -7220,7 +7220,7 @@
             "z": -12728.5,
             "lines": {
                 "Local": {
-                    "Narodnyi local": ["", "2nd Bamboo branch"]
+                    "Y=86 Narodnyi": ["", "2nd Bamboo branch"]
                 }
             }
         },
@@ -7234,7 +7234,7 @@
             "z": -12722.5,
             "lines": {
                 "Local": {
-                    "Narodnyi local": ["", "1st Bamboo branch"]
+                    "Y=86 Narodnyi": ["", "1st Bamboo branch"]
                 },
                 "Intercontinental": {
                     "North Siberian": ["", "Main line"]
@@ -18660,14 +18660,17 @@
             }
         },
         {
-            "name": "Deckenbaus West JCT",
+            "name": "Y=87 Deckenbaus West JCT",
             "type": "jct",
             "id": 1462,
             "x": 11757,
-            "z": -12052,
+            "z": -12051.5,
             "lines": {
                 "talion03's Ice Highways": {
                     "X=11799": ["", "Deckenbaus connector branch"]
+                },
+                "Local": {
+                    "Y=86 Narodnyi": ["", "Main line"]
                 }
             }
         },
@@ -20967,6 +20970,64 @@
                     "1st Somalia": ["", "Y=65 Connector branch"]
                 }
             }
+        },
+        {
+            "name": "Y=86 to Y=87 Sawdust Ramp",
+            "type": "inter2",
+            "id": 1637,
+            "x": 11056.5,
+            "z": -12051.5,
+            "lines": {
+                "Local": {
+                    "Y=86 Narodnyi": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Y=87 MrOstSergey JCT",
+            "type": "jct",
+            "id": 1638,
+            "x": 11313.5,
+            "z": -12051.5,
+            "lines": {
+                "Local": {
+                    "Y=86 Narodnyi": ["", "Main line to MOS branch"]
+                }
+            }
+        },
+        {
+            "name": "Y=87 to Y=60 Elevator",
+            "type": "elev-we",
+            "y1": 87,
+            "y2": 60,
+            "id": 1639,
+            "x": 11809.5,
+            "z": -12119.5,
+            "lines": {
+                "Local": {
+                    "Y=86 Narodnyi": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Y=87 to Y=55 Elevator",
+            "type": "elev-we",
+            "y1": 87,
+            "y2": 55,
+            "id": 1640,
+            "x": 11313.5,
+            "z": -11688,
+            "lines": {
+                "Local": {
+                    "Y=86 Narodnyi": ["", "MOS branch"]
+                },
+                "Intercontinental": {
+                    "Ratzakah": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[11319, -11694], [11308, -11690]]
+            ]
         }
     ],
     "lines": {
@@ -24209,8 +24270,8 @@
                         ],
                         "stations": [425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441],
                         "concurrencies": {
-                            "Local.Narodnyi local": [
-                                [11052, -12051],
+                            "Local.Y=86 Narodnyi": [
+                                [11809, -12051],
                                 [9805, -12051]
                             ]
                         }
@@ -26641,7 +26702,7 @@
                         "vertices": [
                             [11799, -11719],
                             [11757, -11719],
-                            [11757, -12052]
+                            [11757, -12051.5]
                         ],
                         "stations": [[1460, "Main line"], 1461, 1462]
                     },
@@ -27123,7 +27184,7 @@
                     }
                 }
             },
-            "Narodnyi local": {
+            "Y=86 Narodnyi": {
                 "prefix": "",
                 "code": "",
                 "color": "6CABF2",
@@ -27131,16 +27192,18 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
+                            [11809.5, -12119.5],
+                            [11809.5, -12051.5],
                             [11052, -12051.5],
                             [10323, -12051.5],
                             [10323, -11961],
                             [10323, -12051.5],
                             [9805, -12051.5]
                         ],
-                        "stations": [505, [504, "Ice farm line"], 439],
+                        "stations": [439, [504, "Ice farm line"], 505, 1637, [1638, "MOS branch"], 1462, 1639],
                         "concurrencies": {
                             "Y=42 Ice lines.Arkhangelsk - Eestifur": [
-                                [11052, -12051.5],
+                                [11809, -12051.5],
                                 [9805, -12051.5]
                             ]
                         }
@@ -27167,6 +27230,13 @@
                             [10545.5, -12728.5]
                         ],
                         "stations": [[577, "1st Bamboo branch"],578]
+                    },
+                    "MOS branch": {
+                        "vertices": [
+                            [11313.5, -12051.5],
+                            [11313.5, -11601.5]
+                        ],
+                        "stations": [[1638, "Main line"]]
                     }
                 }
             },

@@ -5400,7 +5400,7 @@
                     "Arkhangelsk - Eestifur": ["", "Main line"]
                 },
                 "Local": {
-                    "Narodnyi local": ["", "Main line"]
+                    "Y=86 Narodnyi": ["", "Main line"]
                 }
             },
             "notes": "Interchange to WSD North Railway",
@@ -6195,7 +6195,7 @@
             "z": -12750,
             "lines": {
                 "Local": {
-                    "Narodnyi local": ["", "Ice farm line"]
+                    "Y=86 Narodnyi": ["", "Ice farm line"]
                 }
             }
         },
@@ -6207,7 +6207,7 @@
             "z": -12634,
             "lines": {
                 "Local": {
-                    "Narodnyi local": ["", "Ice farm line to 1st Bamboo branch"]
+                    "Y=86 Narodnyi": ["", "Ice farm line to 1st Bamboo branch"]
                 }
             }
         },
@@ -6219,7 +6219,7 @@
             "z": -12051,
             "lines": {
                 "Local": {
-                    "Narodnyi local": ["", "Main line to Ice farm line"]
+                    "Y=86 Narodnyi": ["", "Main line to Ice farm line"]
                 }
             }
         },
@@ -6230,7 +6230,7 @@
             "z": -12051,
             "lines": {
                 "Local": {
-                    "Narodnyi local": ["", "Main line"]
+                    "Y=86 Narodnyi": ["", "Main line"]
                 }
             }
         },
@@ -7186,7 +7186,7 @@
             "z": -12634.5,
             "lines": {
                 "Local": {
-                    "Narodnyi local": ["", "1st Bamboo branch to 2nd Bamboo branch"]
+                    "Y=86 Narodnyi": ["", "1st Bamboo branch to 2nd Bamboo branch"]
                 }
             }
         },
@@ -7197,7 +7197,7 @@
             "z": -12728.5,
             "lines": {
                 "Local": {
-                    "Narodnyi local": ["", "2nd Bamboo branch"]
+                    "Y=86 Narodnyi": ["", "2nd Bamboo branch"]
                 }
             }
         },
@@ -7211,7 +7211,7 @@
             "z": -12722.5,
             "lines": {
                 "Local": {
-                    "Narodnyi local": ["", "1st Bamboo branch"]
+                    "Y=86 Narodnyi": ["", "1st Bamboo branch"]
                 },
                 "Intercontinental": {
                     "North Siberian": ["", "Main line"]
@@ -21715,7 +21715,7 @@
                         ],
                         "stations": [425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441],
                         "concurrencies": {
-                            "Local.Narodnyi local": [
+                            "Local.Y=86 Narodnyi": [
                                 [11052, -12051],
                                 [9805, -12051]
                             ]
@@ -24084,7 +24084,7 @@
                     }
                 }
             },
-            "Narodnyi local": {
+            "Y=86 Narodnyi": {
                 "prefix": "",
                 "code": "",
                 "color": "6CABF2",
