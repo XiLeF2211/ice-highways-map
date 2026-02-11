@@ -9415,7 +9415,8 @@
             "z": -4854,
             "lines": {
                 "TNIH": {
-                    "Makran Main": ["", "Main line to Kemmnath branch"]
+                    "Makran Main": ["", "Main line"],
+                    "Afghan": ["", "Main line"]
                 }
             }
         },
@@ -9426,7 +9427,7 @@
             "z": -4955,
             "lines": {
                 "TNIH": {
-                    "Makran Main": ["", "Kemmnath branch"]
+                    "Afghan": ["", "Main line"]
                 }
             }
         },
@@ -13256,7 +13257,7 @@
             "z": -5516,
             "lines": {
                 "TNIH": {
-                    "Makran Main": ["", "Kemmnath branch"]
+                    "Afghan": ["", "Main line"]
                 },
                 "talion03's Ice Highways": {
                     "X=11799": ["", "Kemmnath branch"]
@@ -21064,6 +21065,18 @@
                     "Kazan": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Kemmnath Mine",
+            "type": "semi2",
+            "id": 1644,
+            "x": 12214,
+            "z": -5612,
+            "lines": {
+                "TNIH": {
+                    "Afghan": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -21269,7 +21282,7 @@
                             [9979, -6468],
                             [9979, -7022]
                         ],
-                        "stations": [26, 27, 28, [29, "Gujarat branch"], 30, 211, 320, 321, 322, [742, "Kemmnath branch"], 871, 323, 774, 797, 595, 594, 593, 554, 492, 618, 491, 490, 489, 626, 1004, 707, 708, 709]
+                        "stations": [26, 27, 28, [29, "Gujarat branch"], 30, 211, 320, 321, 322, 742, 871, 323, 774, 797, 595, 594, 593, 554, 492, 618, 491, 490, 489, 626, 1004, 707, 708, 709]
                     },
                     "Gujarat branch": {
                         "vertices": [
@@ -21277,14 +21290,6 @@
                             [12729, -4310]
                         ],
                         "stations": [[29, "Main line"], 31]
-                    },
-                    "Kemmnath branch": {
-                        "vertices": [
-                            [11751, -4854],
-                            [11751, -5516],
-                            [12023, -5516]
-                        ],
-                        "stations": [[742, "Main line"], 743, 1034]
                     }
                 }
             },
@@ -21567,9 +21572,11 @@
                             [12000, -6667],
                             [12000, -6329],
                             [12215, -6329],
-                            [12215, -6264]
+                            [12215, -5516],
+                            [11751, -5516],
+                            [11751, -4854]
                         ],
-                        "stations": [252, 816, 224, 262, 263, 896, 264, 265, 266],
+                        "stations": [252, 816, 224, 262, 263, 896, 264, 265, 266, 1644, 1034, 743, 742],
                         "concurrencies": {
                             "TNIH.Loopstan Main": [
                                 [12000, -6468],
