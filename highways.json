@@ -9000,7 +9000,7 @@
             "z": -1970.5,
             "lines": {
                 "Afrique Rail": {
-                    "Abuja": ["", "Main line (Meroewin)"]
+                    "Abuja": ["", "Main line"]
                 }
             }
         },
@@ -9011,7 +9011,7 @@
             "z": -1970.5,
             "lines": {
                 "Afrique Rail": {
-                    "Abuja": ["", "Main line (Meroewin)"]
+                    "Abuja": ["", "Main line"]
                 }
             },
             "areas": [
@@ -9026,7 +9026,7 @@
             "z": -1970.5,
             "lines": {
                 "Afrique Rail": {
-                    "Abuja": ["", "Main line (Meroewin)"]
+                    "Abuja": ["", "Main line"]
                 }
             }
         },
@@ -9037,7 +9037,7 @@
             "z": -2293.5,
             "lines": {
                 "Afrique Rail": {
-                    "Abuja": ["", "Main line (Meroewin)"]
+                    "Abuja": ["", "Main line"]
                 }
             },
             "areas": [
@@ -22936,18 +22936,11 @@
                             [3101.5, -2013.5],
                             [3855.5, -2013.5],
                             [3855.5, -1970.5],
-                            [3905, -1970.5]
-                        ],
-                        "stations": [559, 581, 582, 583, 584, 585, 586, 587]
-                    },
-                    "Main line (Meroewin)": {
-                        "vertices": [
-                            [4016, -1970.5],
                             [4866.5, -1970.5],
                             [4866.5, -2293.5],
                             [5399, -2293.5]
                         ],
-                        "stations": [711, 712, 713, 714]
+                        "stations": [559, 581, 582, 583, 584, 585, 586, 587, 711, 712, 713, 714]
                     }
                 }
             },
