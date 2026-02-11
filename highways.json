@@ -4019,7 +4019,7 @@
             "lines": {
                 "Y=53 Ice Lines System": {
                     "Chitograd-Khazar": ["", ""],
-                    "Khazar-Frejlord": ["", "Main line"]
+                    "Kazan": ["", "Main line"]
                 }
             }
         },
@@ -4290,7 +4290,7 @@
                     "Rybinsk-Novgorod-Kazan": ["", "Moscow-Kazan line"]
                 },
                 "Y=53 Ice Lines System": {
-                    "Khazar-Frejlord": ["", "Main line"]
+                    "Kazan": ["", "Main line"]
                 }
             }
         },
@@ -4301,7 +4301,7 @@
             "z": -10455,
             "lines": {
                 "Y=53 Ice Lines System": {
-                    "Khazar-Frejlord": ["", "Main line"]
+                    "Kazan": ["", "Main line"]
                 }
             }
         },
@@ -4313,7 +4313,7 @@
             "z": -10455,
             "lines": {
                 "Y=53 Ice Lines System": {
-                    "Khazar-Frejlord": ["", "Main line to Nizhnekamsk branch"]
+                    "Kazan": ["", "Main line to Nizhnekamsk branch"]
                 }
             }
         },
@@ -4327,7 +4327,7 @@
             "z": -10455,
             "lines": {
                 "Y=53 Ice Lines System": {
-                    "Khazar-Frejlord": ["", "Main line"]
+                    "Kazan": ["", "Main line"]
                 },
                 "Ural Ice lines": {
                     "Frejlord": ["", "Main line"]
@@ -4341,7 +4341,7 @@
             "z": -10370,
             "lines": {
                 "Y=53 Ice Lines System": {
-                    "Khazar-Frejlord": ["", "Nizhnekamsk branch"]
+                    "Kazan": ["", "Nizhnekamsk branch"]
                 }
             }
         },
@@ -5630,7 +5630,9 @@
             "x": 8570,
             "z": -11125,
             "lines": {
-                "Y=53 Ice Lines System": {},
+                "Y=53 Ice Lines System": {
+                    "Kazan": ["", "Main line"]
+                },
                 "Y=42 Ice lines": {
                     "Arkhangelsk forest": ["", "Vyatka branch"]
                 }
@@ -21028,6 +21030,40 @@
             "areas": [
                 [[11319, -11694], [11308, -11690]]
             ]
+        },
+        {
+            "name": "Serebryanka JCT",
+            "type": "jct",
+            "id": 1641,
+            "x": 8570.5,
+            "z": -10728.5,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Kazan": ["", "Main line to Serebryanka branch"]
+                }
+            }
+        },
+        {
+            "name": "Serebryanka",
+            "id": 1642,
+            "x": 8633,
+            "z": -10728.5,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Kazan": ["", "Serebryanka branch"]
+                }
+            }
+        },
+        {
+            "name": "Old Vyatka",
+            "id": 1643,
+            "x": 8570.5,
+            "z": -11096,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Kazan": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -23967,18 +24003,24 @@
                     }
                 }
             },
-            "Khazar-Frejlord": {
+            "Kazan": {
                 "prefix": "",
-                "code": "KZ-FL",
+                "code": "KZ",
                 "color": "3F704D",
                 "y": 53,
                 "branches": {
                     "Main line": {
                         "vertices": [
+                            [8570.5, -11125.5],
+                            [8570.5, -10455.5],
+                            [8718.5, -10455.5],
+                            [8718.5, -10451.5],
+                            [8731.5, -10451.5],
+                            [8731.5, -10455],
                             [8728, -10455],
                             [9457.5, -10455]
                         ],
-                        "stations": [350, 329, 351, [352, "Nizhnekamsk branch"], 353]
+                        "stations": [455, 1643, [1641, "Serebryanka branch"], 350, 329, 351, [352, "Nizhnekamsk branch"], 353]
                     },
                     "Nizhnekamsk branch": {
                         "vertices": [
@@ -23986,6 +24028,13 @@
                             [9159, -10455]
                         ],
                         "stations": [[352, "Main line"], 354]
+                    },
+                    "Serebryanka branch": {
+                        "vertices": [
+                            [8570.5, -10728.5],
+                            [8640, -10728.5]
+                        ],
+                        "stations": [[1641, "Main line"], 1642]
                     }
                 }
             },
@@ -27979,7 +28028,7 @@
                 "branches": {
                     "New Jasionka branch": {
                         "vertices": [
-                            [6254, -10394],
+                            [6432, -10394],
                             [6063, -10394],
                             [6063, -10397],
                             [6063, -10394],
