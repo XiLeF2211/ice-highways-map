@@ -9829,13 +9829,14 @@
             }
         },
         {
-            "name": "Perico-Saravan",
+            "name": "Perico-Saravan (JCT)",
             "id": 774,
             "x": 11295,
             "z": -5018,
             "lines": {
                 "TNIH": {
-                    "Makran Main": ["", "Main line"]
+                    "Makran Main": ["", "Main line"],
+                    "Afghan": ["", "Saravan branch"]
                 }
             }
         },
@@ -21077,6 +21078,29 @@
                     "Afghan": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Teertaj JCT",
+            "type": "jct",
+            "id": 1645,
+            "x": 11751,
+            "z": -5032,
+            "lines": {
+                "TNIH": {
+                    "Afghan": ["", "Main line to Saravan branch"]
+                }
+            }
+        },
+        {
+            "name": "Saravan",
+            "id": 1646,
+            "x": 11430,
+            "z": -5018,
+            "lines": {
+                "TNIH": {
+                    "Afghan": ["", "Saravan branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -21576,7 +21600,7 @@
                             [11751, -5516],
                             [11751, -4854]
                         ],
-                        "stations": [252, 816, 224, 262, 263, 896, 264, 265, 266, 1644, 1034, 743, 742],
+                        "stations": [252, 816, 224, 262, 263, 896, 264, 265, 266, 1644, 1034, [1645, "Saravan branch"], 743, 742],
                         "concurrencies": {
                             "TNIH.Loopstan Main": [
                                 [12000, -6468],
@@ -21584,6 +21608,15 @@
                                 [12215, -6329]
                             ]
                         }
+                    },
+                    "Saravan branch": {
+                        "vertices": [
+                            [11751, -5032],
+                            [11430, -5032],
+                            [11430, -5018],
+                            [11295, -5018]
+                        ],
+                        "stations": [[1645, "Main line"], 1646, 774]
                     }
                 }
             },
