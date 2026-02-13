@@ -21101,6 +21101,39 @@
                     "Afghan": ["", "Saravan branch"]
                 }
             }
+        },
+        {
+            "name": "Chiakipolis (Bohai Strait Bridge)",
+            "id": 1647,
+            "x": 22232,
+            "z": -7308,
+            "lines": {
+                "Local": {
+                    "Bohai Strait Bridge": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Bohai Strait Bridge Center Point",
+            "id": 1648,
+            "x": 22232,
+            "z": -7192,
+            "lines": {
+                "Local": {
+                    "Bohai Strait Bridge": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Wondeong",
+            "id": 1649,
+            "x": 22232,
+            "z": -7074,
+            "lines": {
+                "Local": {
+                    "Bohai Strait Bridge": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -27587,6 +27620,21 @@
                             [1139, -11765]
                         ],
                         "stations": [1588]
+                    }
+                }
+            },
+            "Bohai Strait Bridge": {
+                "prefix": "",
+                "code": "渤海",
+                "color": "0099c5",
+                "y": 69,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [22232, -7308],
+                            [22232, -7074]
+                        ],
+                        "stations": [1647, 1648, 1649]
                     }
                 }
             }
