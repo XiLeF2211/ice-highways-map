@@ -2551,6 +2551,7 @@
         },
         {
             "name": "SigmaVille",
+            "type": "semi1",
             "id": 212,
             "x": 13944,
             "z": -5940,
@@ -2577,6 +2578,7 @@
         },
         {
             "name": "Amritsar",
+            "type": "semi1",
             "id": 214,
             "x": 13642,
             "z": -5940,
@@ -2588,6 +2590,7 @@
         },
         {
             "name": "Lahore",
+            "type": "semi2",
             "id": 215,
             "x": 13400,
             "z": -5977,
@@ -2599,6 +2602,7 @@
         },
         {
             "name": "Islamabad",
+            "type": "semi2",
             "id": 216,
             "x": 13400,
             "z": -6326,
@@ -21134,6 +21138,40 @@
                     "Bohai Strait Bridge": ["", ""]
                 }
             }
+        },
+        {
+            "name": "OasisTown JCT",
+            "type": "jct",
+            "id": 1650,
+            "x": 9689,
+            "z": -6116,
+            "lines": {
+                "TNIH": {
+                    "Iran": ["", "Main line to Tehran branch"]
+                }
+            }
+        },
+        {
+            "name": "Sepahan",
+            "id": 1651,
+            "x": 9307,
+            "z": -6116,
+            "lines": {
+                "TNIH": {
+                    "Iran": ["", "Tehran branch"]
+                }
+            }
+        },
+        {
+            "name": "Tehran",
+            "id": 1652,
+            "x": 9207,
+            "z": -6297,
+            "lines": {
+                "TNIH": {
+                    "Iran": ["", "Tehran branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -21795,7 +21833,15 @@
                             [9689, -6468],
                             [9979, -6468]
                         ],
-                        "stations": [618, 977, 619, 1002, 1003, 1004]
+                        "stations": [618, 977, 619, 1002, [1650, "Tehran branch"], 1003, 1004]
+                    },
+                    "Tehran branch": {
+                        "vertices": [
+                            [9689, -6116],
+                            [9207, -6116],
+                            [9207, -6297]
+                        ],
+                        "stations": [[1650, "Main line"], 1651, 1652]
                     }
                 }
             },
