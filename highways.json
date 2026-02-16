@@ -21172,6 +21172,81 @@
                     "Iran": ["", "Tehran branch"]
                 }
             }
+        },
+        {
+            "name": "Itomori",
+            "id": 1653,
+            "x": 23551.5,
+            "z": -7226,
+            "lines": {
+                "Local": {
+                    "Itomori-Seoul": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Seoul-Itomori JCT",
+            "type": "jct",
+            "id": 1654,
+            "x": 23551.5,
+            "z": -7048.5,
+            "lines": {
+                "Local": {
+                    "Itomori-Seoul": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Wonju",
+            "id": 1655,
+            "x": 23572.5,
+            "z": -7048.5,
+            "lines": {
+                "Local": {
+                    "Itomori-Seoul": ["", ""]
+                }
+            },
+            "areas": [
+                [[23555, -7054], [23590, -7039]]
+            ]
+        },
+        {
+            "name": "Wonju JCT",
+            "type": "jct",
+            "id": 1656,
+            "x": 23572.5,
+            "z": -6999.5,
+            "lines": {
+                "Local": {
+                    "Itomori-Seoul": ["", ""],
+                    "Seoul-East Sea": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Epstein Island 67/69 (Ulleung-do)",
+            "id": 1657,
+            "x": 23994.5,
+            "z": -6999.5,
+            "lines": {
+                "Local": {
+                    "Seoul-East Sea": ["", ""]
+                }
+            },
+            "areas": [
+                [[23992, -7054], [23997, -6997]]
+            ]
+        },
+        {
+            "name": "East Sea Emergency Exit",
+            "id": 1658,
+            "x": 24186,
+            "z": -6999.5,
+            "lines": {
+                "Local": {
+                    "Seoul-East Sea": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -27681,6 +27756,40 @@
                             [22232, -7074]
                         ],
                         "stations": [1647, 1648, 1649]
+                    }
+                }
+            },
+            "Itomori-Seoul": {
+                "prefix": "",
+                "code": "이서",
+                "color": "008CA0",
+                "y": 50,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [23551.5, -7238],
+                            [23551.5, -7048.5],
+                            [23421, -7048.5],
+                            [23551.5, -7048.5],
+                            [23572.5, -7048.5],
+                            [23572.5, -6896]
+                        ],
+                        "stations": [1653, 1654, 1655, 1656]
+                    }
+                }
+            },
+            "Seoul-East Sea": {
+                "prefix": "",
+                "code": "이서",
+                "color": "3D117B",
+                "y": 50,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [23421, -6999.5],
+                            [24186, -6999.5]
+                        ],
+                        "stations": [1656, 1657, 1658]
                     }
                 }
             }
