@@ -21147,7 +21147,7 @@
             "z": -6116,
             "lines": {
                 "TNIH": {
-                    "Iran": ["", "Main line to Tehran branch"]
+                    "Iran": ["", "Main line to Nishapur branch"]
                 }
             }
         },
@@ -21158,7 +21158,7 @@
             "z": -6116,
             "lines": {
                 "TNIH": {
-                    "Iran": ["", "Tehran branch"]
+                    "Iran": ["", "Nishapur branch"]
                 }
             }
         },
@@ -21169,7 +21169,7 @@
             "z": -6297,
             "lines": {
                 "TNIH": {
-                    "Iran": ["", "Tehran branch"]
+                    "Iran": ["", "Nishapur branch"]
                 }
             }
         },
@@ -21245,6 +21245,17 @@
             "lines": {
                 "Local": {
                     "Seoul-East Sea": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Nishapur",
+            "id": 1659,
+            "x": 9207,
+            "z": -6581,
+            "lines": {
+                "TNIH": {
+                    "Iran": ["", "Nishapur branch"]
                 }
             }
         }
@@ -21908,15 +21919,15 @@
                             [9689, -6468],
                             [9979, -6468]
                         ],
-                        "stations": [618, 977, 619, 1002, [1650, "Tehran branch"], 1003, 1004]
+                        "stations": [618, 977, 619, 1002, [1650, "Nishapur branch"], 1003, 1004]
                     },
-                    "Tehran branch": {
+                    "Nishapur branch": {
                         "vertices": [
                             [9689, -6116],
                             [9207, -6116],
-                            [9207, -6297]
+                            [9207, -6581]
                         ],
-                        "stations": [[1650, "Main line"], 1651, 1652]
+                        "stations": [[1650, "Main line"], 1651, 1652, 1659]
                     }
                 }
             },
