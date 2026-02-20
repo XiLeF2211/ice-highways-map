@@ -3679,7 +3679,7 @@
         {
             "name": "Chechnya",
             "id": 301,
-            "x": 8198, 
+            "x": 8203.5,
             "z": -8281,
             "lines": {
                 "Intercontinental": {
@@ -4072,7 +4072,7 @@
             "lines": {
                 "Y=53 Ice Lines System": {
                     "Borovichi-Rybinsk-Novgorod": ["", "Moscow connector branch"],
-                    "Moscow Ring": ["", "Main line"]
+                    "Moscow": ["", "Ring line"]
                 }
             }
         },
@@ -4179,7 +4179,7 @@
             }
         },
         {
-            "name": "Moscovskii Forest",
+            "name": "Losiny Ostrov Forest",
             "id": 342,
             "x": 6580,
             "z": -10870,
@@ -4196,7 +4196,7 @@
             "z": -10728,
             "lines": {
                 "Y=53 Ice Lines System": {
-                    "Moscow Ring": ["", "Main line"]
+                    "Moscow": ["", "Ring line"]
                 }
             },
             "areas": [
@@ -4211,8 +4211,7 @@
             "z": -10392,
             "lines": {
                 "Y=53 Ice Lines System": {
-                    "Moscow Ring": ["", "Main line to Billgorod connector branch"],
-                    "New Jasionka": ["", "Main line"]
+                    "Moscow": ["", "Ring line to Rybinsk-Billgorod"]
                 }
             }
         },
@@ -4226,7 +4225,7 @@
             "z": -10364,
             "lines": {
                 "Y=53 Ice Lines System": {
-                    "Moscow Ring": ["", "Billgorod connector branch"]
+                    "Moscow": ["", "Rybinsk-Billgorod"]
                 }
             }
         },
@@ -4240,7 +4239,7 @@
             "z": -10024,
             "lines": {
                 "Y=53 Ice Lines System": {
-                    "Moscow Ring": ["", "Billgorod connector branch"]
+                    "Moscow": ["", "Rybinsk-Billgorod"]
                 },
                 "Y=93 Ice Lines System": {
                     "Billgorod-Moscow": ["", "Main line"]
@@ -6181,13 +6180,13 @@
             }
         },
         {
-            "name": "Moscow (Rybinsk station)",
+            "name": "Moscow (Rostokino)",
             "id": 499,
             "x": 6716,
             "z": -10676,
             "lines": {
                 "Y=53 Ice Lines System": {
-                    "Moscow Ring": ["", "Main line"]
+                    "Moscow": ["", "Ring line"]
                 }
             }
         },
@@ -6846,7 +6845,7 @@
             "lines": {
                 "Y=53 Ice Lines System": {
                     "New Jasionka": ["", "Main line"],
-                    "Moscow Ring": ["", "Main line"]
+                    "Moscow": ["", "Ring line"]
                 }
             }
         },
@@ -7717,7 +7716,7 @@
             "lines": {
                 "Y=53 Ice Lines System": {
                     "New Jasionka": ["", "Main line"],
-                    "Moscow Ring": ["", "Main line"]
+                    "Moscow": ["", "Ring line"]
                 }
             }
         },
@@ -8898,11 +8897,12 @@
             "name": "Chechnya (Industrial JCT)",
             "type": "jct",
             "id": 703,
-            "x": 8226,
+            "x": 8203.5,
             "z": -8360,
             "lines": {
                 "Intercontinental": {
-                    "European Russia": ["", "Chechnya line"]
+                    "European Russia": ["", "Chechnya line"],
+                    "Chitograd Ice Highways": ["", "Main line"]
                 }
             }
         },
@@ -8910,14 +8910,15 @@
             "name": "Chechnya (Industrial tower)",
             "id": 704,
             "x": 8226,
-            "z": -8352,
+            "z": -8360,
             "lines": {
                 "Intercontinental": {
                     "European Russia": ["", "Chechnya line"]
                 }
             },
             "areas": [
-                [[8225, -8351], [8239, -8342]]
+                [[8225, -8351], [8239, -8342]],
+                [[8225, -8350], [8227, -8358]]
             ]
         },
         {
@@ -21258,6 +21259,41 @@
                     "Iran": ["", "Nishapur branch"]
                 }
             }
+        },
+        {
+            "name": "Moscow (Raddi's JCT)",
+            "type": "jct",
+            "id": 1660,
+            "x": 6580,
+            "z": -10418,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Moscow": ["", "Rybinsk-Billgorod"],
+                    "New Jasionka": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Moscow (Lighteveryda's Point)",
+            "id": 1661,
+            "x": 6580,
+            "z": -10612.5,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Borovichi-Rybinsk-Novgorod": ["", "Moscow connector branch"]
+                }
+            }
+        },
+        {
+            "name": "Moscow (Nanachi's Point)",
+            "id": 1662,
+            "x": 6580,
+            "z": -10450.5,
+            "lines": {
+                "Y=53 Ice Lines System": {
+                    "Moscow": ["", "Rybinsk-Billgorod"]
+                }
+            }
         }
     ],
     "lines": {
@@ -24274,9 +24310,9 @@
                     "Moscow connector branch": {
                         "vertices": [
                             [6580, -10989],
-                            [6580, -10728]
+                            [6580, -10608]
                         ],
-                        "stations": [333, 342, [334, "Main line"]]
+                        "stations": [[334, "Main line"], 342, 333, 1661]
                     },
                     "Ogre branch": {
                         "vertices": [
@@ -24287,13 +24323,13 @@
                     }
                 }
             },
-            "Moscow Ring": {
+            "Moscow": {
                 "prefix": "",
                 "code": "MOW",
                 "color": "3F704D",
                 "y": 53,
                 "branches": {
-                    "Main line": {
+                    "Ring line": {
                         "vertices": [
                             [6253, -10418],
                             [6253, -10728],
@@ -24302,18 +24338,18 @@
                             [6436, -10392],
                             [6436, -10418]
                         ],
-                        "stations": [[344, "Billgorod connector branch"], 616, 549, 343, 333, 499, [344, "Billgorod connector branch"]]
+                        "stations": [[344, "Rybinsk-Billgorod"], 616, 549, 343, 333, 499, [344, "Rybinsk-Billgorod"]]
                     },
-                    "Billgorod connector branch": {
+                    "Rybinsk-Billgorod": {
                         "vertices": [
-                            [6580, -10392],
+                            [6580, -10525],
                             [6580, -10364],
                             [6584, -10364],
                             [6580, -10364],
                             [6580, -10024],
                             [6582, -10024]
                         ],
-                        "stations": [[344, "Main line"], 345, 346]
+                        "stations": [1662, 1660, 344, 345, 346]
                     }
                 }
             },
@@ -24325,7 +24361,6 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [6580, -10392],
                             [6580, -10418],
                             [6253, -10418],
                             [6032, -10418]
@@ -27967,9 +28002,10 @@
                             [8512, -8153],
                             [8269, -8153],
                             [8269, -8281],
-                            [8198, -8281]
+                            [8203.5, -8281],
+                            [8203.5, -8360]
                         ],
-                        "stations": [292, [940, "Chitograd Ice Highways connector branch"], 930, 1466, 540, 538, 293, 294, [295, "TNIH Connector branch"], [296, "Chitograd local branch"], 298, [675, "Jamalonious branch"], 301]
+                        "stations": [292, [940, "Chitograd Ice Highways connector branch"], 930, 1466, 540, 538, 293, 294, [295, "TNIH Connector branch"], [296, "Chitograd local branch"], 298, [675, "Jamalonious branch"], 301, 703]
                     },
                     "TNIH connector branch": {
                         "vertices": [
@@ -28033,7 +28069,6 @@
                             [7965, -8801],
                             [7965, -8360],
                             [8226, -8360],
-                            [8226, -8352],
                             [8226, -9144],
                             [10383, -9144],
                             [10383, -8250],
