@@ -7721,7 +7721,7 @@
             }
         },
         {
-            "name": "Moscow (CrazyCat's Palace)",
+            "name": "Moscow (CrazyCat's House)",
             "id": 617,
             "x": 6503,
             "z": -10418,
@@ -18721,7 +18721,7 @@
             }
         },
         {
-            "name": "Nura-Kazakh y=8 ↔ y=11 Elevator",
+            "name": "Nura-Kazakh y=8 ↔ y=111 Elevator",
             "type": "elev-we",
             "id": 1466,
             "x": 11799,
@@ -19001,7 +19001,7 @@
             "z": -8682,
             "lines": {
                 "Kazakhstan Ice lines": {
-                    "Line 2": ["", "Extension"]
+                    "Line 2": ["", "West branch"]
                 }
             },
             "notes": "portal to coordinate: 1560, 6, -1093"
@@ -19014,7 +19014,7 @@
             "z": -8682,
             "lines": {
                 "Kazakhstan Ice lines": {
-                    "Line 2": ["", "Extension"],
+                    "Line 2": ["", "West branch"],
                     "Line 5": ["", "Main line"]
                 },
                 "Intercontinental": {
@@ -21321,6 +21321,110 @@
                 },
                 "TNIH": {
                     "Bukhara": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Y41 to Y88 (Surface) elevator",
+            "type": "elev-we",
+            "y1": 41,
+            "y2": 88,
+            "id": 1665,
+            "x": 12273,
+            "z": -9284,
+            "lines": {
+                "Y=42 Ice lines": {
+                    "Baikal - Lithuania": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "1st Y41 to Y2 elevator",
+            "type": "elev-we",
+            "y1": 41,
+            "y2": 2,
+            "id": 1666,
+            "x": 12485,
+            "z": -9284,
+            "lines": {
+                "Y=42 Ice lines": {
+                    "Baikal - Lithuania": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "Chitograd Ice Highways": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "2nd Y41 to Y2 elevator",
+            "type": "elev-we",
+            "y1": 41,
+            "y2": 2,
+            "id": 1667,
+            "x": 15604,
+            "z": -9284,
+            "lines": {
+                "Y=42 Ice lines": {
+                    "Baikal - Lithuania": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "Russian Republic ice roads": ["", "Peekoland route"]
+                }
+            }
+        },
+        {
+            "name": "Y2 to Y82 elevator",
+            "type": "elev-we",
+            "y1": 2,
+            "y2": 82,
+            "id": 1668,
+            "x": 12482,
+            "z": -9286,
+            "lines": {
+                "Intercontinental": {
+                    "Chitograd Ice Highways": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Line 2 (North Caspian JCT)",
+            "type": "jct",
+            "id": 1669,
+            "x": 9261,
+            "z": -8682,
+            "lines": {
+                "Intercontinental": {
+                    "Chitograd Ice Highways": ["", "Main line"]
+                },
+                "Kazakhstan Ice lines": {
+                    "Line 2": ["", "West branch"]
+                }
+            }
+        },
+        {
+            "name": "Line 2 (X=10383 JCT)",
+            "type": "jct",
+            "id": 1670,
+            "x": 10383,
+            "z": -8682,
+            "lines": {
+                "Intercontinental": {
+                    "European Russia": ["", "Chechnya line"]
+                },
+                "Kazakhstan Ice lines": {
+                    "Line 2": ["", "West branch"]
+                }
+            }
+        },
+        {
+            "name": "Jezkazgan East Nether Portal",
+            "type": "jct",
+            "id": 1671,
+            "x": 12561,
+            "z": -8682,
+            "lines": {
+                "Kazakhstan Ice lines": {
+                    "Line 2": ["", "Main line"]
                 }
             }
         }
@@ -24394,7 +24498,7 @@
                             [6253, -10418],
                             [6032, -10418]
                         ],
-                        "stations": [344, 617, 616, 549, 550, 472],
+                        "stations": [1660, 617, 616, 549, 550, 472],
                         "concurrencies": {
                             "Y=53 Ice Lines System.Moscow Ring": [
                                 [6436, -10418],
@@ -24797,7 +24901,7 @@
                             [5638, -10054],
                             [4369, -10054]
                         ],
-                        "stations": [534, 535, 536, [537, "New Oblivion branch"], 538, 299, 355, 553, 472, 539]
+                        "stations": [534, 1667, 1666, 1665, 535, 536, [537, "New Oblivion branch"], 538, 299, 355, 553, 472, 539]
                     },
                     "New Oblivion branch": {
                         "vertices": [
@@ -24805,7 +24909,28 @@
                             [9311, -9418]
                         ],
                         "stations": [[537, "Main line"], 541]
-                    }
+                    },
+					"": {
+						"vertices": [
+                            [12485, -9283],
+                            [12485, -9284]
+                        ],
+						"stations": []
+					},
+                    " ": {
+						"vertices": [
+                            [12273, -9284],
+                            [12273, -9283]
+                        ],
+						"stations": []
+					},
+                    "  ": {
+						"vertices": [
+                            [11799, -9245],
+                            [11799, -9283]
+                        ],
+						"stations": []
+					}
                 }
             }
         },
@@ -25955,14 +26080,14 @@
                             [12536, -8682],
                             [13597, -8682]
                         ],
-                        "stations": [942, 938, 943]
+                        "stations": [942, 1671, 938, 943]
                     },
-                    "Extension": {
+                    "West branch": {
                         "vertices": [
                             [12399, -8682],
-                            [12191, -8682]
+                            [9261, -8682]
                         ],
-                        "stations": [1488, 1489]
+                        "stations": [1488, 1489, 1670, 1669]
                     }
                 }
             },
@@ -27006,6 +27131,10 @@
                             "Modern Silk Road.MSR Main line (Y=111)": [
                                 [11799, -7800],
                                 [11799, -7049]
+                            ],
+                            "Y=42 Ice lines.Baikal - Lithuania": [
+                                [11799, -9283],
+                                [11799, -9245]
                             ]
                         }
                     },
@@ -28034,7 +28163,7 @@
                             [8203.5, -8281],
                             [8203.5, -8360]
                         ],
-                        "stations": [292, [940, "Chitograd Ice Highways connector branch"], 930, 1466, 540, 538, 293, 294, [295, "TNIH Connector branch"], [296, "Chitograd local branch"], 298, [675, "Jamalonious branch"], 301, 703]
+                        "stations": [292, 1668, 1666, [940, "Chitograd Ice Highways connector branch"], 930, 1466, 540, 538, 293, 1669, 294, [295, "TNIH Connector branch"], [296, "Chitograd local branch"], 298, [675, "Jamalonious branch"], 301, 703]
                     },
                     "TNIH connector branch": {
                         "vertices": [
@@ -28076,6 +28205,7 @@
                     }
                 }
             },
+
             "European Russia": {
                 "prefix": "",
                 "code": "EUR.RUS",
@@ -28106,7 +28236,7 @@
                             [14551, -7969],
                             [14551, -8794]
                         ],
-                        "stations": [[699, "Main line"], [702, "Izumo branch"], 703, 704, 293, 1664, 705, 968, [706, "Bishkek-Alaykel line"], 964, 965, 966]
+                        "stations": [[699, "Main line"], [702, "Izumo branch"], 703, 704, 293, 1670, 1664, 705, 968, [706, "Bishkek-Alaykel line"], 964, 965, 966]
                     },
                     "Bishkek-Alaykel line": {
                         "vertices": [
@@ -28276,7 +28406,7 @@
                             [15599, -9491],
                             [15599, -9152]
                         ],
-                        "stations": [418, 1564]
+                        "stations": [418,  1667, 1564]
                     }
                 }
             },
