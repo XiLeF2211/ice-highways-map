@@ -21294,6 +21294,35 @@
                     "Moscow": ["", "Rybinsk-Billgorod"]
                 }
             }
+        },
+        {
+            "name": "CanvasTown Stairs",
+            "type": "elev-ew",
+            "id": 1663,
+            "x": 11620,
+            "z": -7875,
+            "y1": 10,
+            "y2": 2,
+            "lines": {
+                "TNIH": {
+                    "Bukhara": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "CanvasTown JCT",
+            "type": "jct",
+            "id": 1664,
+            "x": 11620,
+            "z": -7969,
+            "lines": {
+                "Intercontinental": {
+                    "European Russia": ["", "Chechnya line"]
+                },
+                "TNIH": {
+                    "Bukhara": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -21741,7 +21770,7 @@
                             [11620, -7022],
                             [11620, -7872]
                         ],
-                        "stations": [225, 250, 251, 252, [253, "Turkmenabat branch"], 254, 255]
+                        "stations": [225, 250, 251, 252, [253, "Turkmenabat branch"], 254, 255, 1663, 1664]
                     },
                     "Turkmenabat branch": {
                         "vertices": [
@@ -28077,7 +28106,7 @@
                             [14551, -7969],
                             [14551, -8794]
                         ],
-                        "stations": [[699, "Main line"], [702, "Izumo branch"], 703, 704, 293, 705, 968, [706, "Bishkek-Alaykel line"], 964, 965, 966]
+                        "stations": [[699, "Main line"], [702, "Izumo branch"], 703, 704, 293, 1664, 705, 968, [706, "Bishkek-Alaykel line"], 964, 965, 966]
                     },
                     "Bishkek-Alaykel line": {
                         "vertices": [
