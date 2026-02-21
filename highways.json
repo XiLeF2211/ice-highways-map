@@ -21325,13 +21325,10 @@
             }
         },
         {
-            "name": "Y41 to Y88 (Surface) elevator",
-            "type": "elev-we",
-            "y1": 41,
-            "y2": 88,
+            "name": "X=12273 Elevator",
             "id": 1665,
             "x": 12273,
-            "z": -9284,
+            "z": -9283,
             "lines": {
                 "Y=42 Ice lines": {
                     "Baikal - Lithuania": ["", "Main line"]
@@ -21373,13 +21370,10 @@
             }
         },
         {
-            "name": "Y2 to Y82 elevator",
-            "type": "elev-we",
-            "y1": 2,
-            "y2": 82,
+            "name": "Z=-9486 Elevator",
             "id": 1668,
             "x": 12482,
-            "z": -9286,
+            "z": -9486,
             "lines": {
                 "Intercontinental": {
                     "Chitograd Ice Highways": ["", "Main line"]
