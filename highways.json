@@ -11412,11 +11412,12 @@
             "name": "Abram East JCT",
             "type": "jct",
             "id": 894,
-            "x": 20481,
+            "x": 20488,
             "z": -11176,
             "lines": {
                 "Polaris Highway": {
-                    "Old Angara Highway": ["", "Main line"]
+                    "Old Angara Highway": ["", "Main line"],
+                    "Abram-Hanhay": ["", "Main line"]
                 }
             }
         },
@@ -21421,6 +21422,20 @@
                     "Line 2": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Abram South Stairs",
+            "type": "elev-we",
+            "id": 1672,
+            "x": 20488,
+            "z": -11176,
+            "y1": 73,
+            "y2": 55,
+            "lines": {
+                "Polaris Highway": {
+                    "Abram-Hanhay": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -25995,6 +26010,9 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
+                            [19385, -12840],
+                            [19385, -12881],
+                            [19271, -12881],
                             [19271, -13184],
                             [19271, -13232],
                             [19398, -13232],
@@ -26043,6 +26061,24 @@
                             [20284, -11228]
                         ],
                         "stations": [[890, "Main line"], 891]
+                    }
+                }
+            },
+            "Abram-Hanhay": {
+                "prefix": "",
+                "code": "AH",
+                "color": "80c71f",
+                "y": 55,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [20488, -11176],
+                            [20488, -10936],
+                            [20919, -10936],
+                            [20919, -10648],
+                            [21235, -10648]
+                        ],
+                        "stations": [894, 1672]
                     }
                 }
             }
