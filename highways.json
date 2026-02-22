@@ -24230,7 +24230,7 @@
                             [-22809, -10662],
                             [-21909, -10662]
                         ],
-                        "stations": [1059, [1673, "Incomplete Shaft branch"], 1674, 1060, 1675, 1676],
+                        "stations": [1677, [1679, "Lynnwood branch"], 1675, 625, 624],
                         "concurrencies": {
                             "Cascadian Ice lines.Aklavik - Cascadia": [
                                 [-22809, -10651.5],
@@ -24243,7 +24243,7 @@
                             [-24211.5, -10834],
                             [-24211.5, -10592]
                         ],
-                        "stations": [[1673, "Main line"]]
+                        "stations": [1678, [1679, "Main line"]]
                     }
                 }
             }
