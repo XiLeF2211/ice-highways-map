@@ -7816,26 +7816,28 @@
             ]
         },
         {
-            "name": "Rainbow Lake JCT",
+            "name": "Graham-Laurier North JCT",
             "type": "jct",
             "id": 624,
             "x": -22809,
             "z": -10662,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Aklavik - Cascadia": ["", "Main line"]
+                    "Aklavik - Cascadia": ["", "Main line"],
+                    "Lynnwood-Rainbow Lake": ["", "Main line"]
                 }
             }
         },
         {
-            "name": "Sitka JCT",
+            "name": "Graham-Laurier South JCT",
             "type": "jct",
             "id": 625,
             "x": -22809,
             "z": -10651.5,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Aklavik - Cascadia": ["", "Main line"]
+                    "Aklavik - Cascadia": ["", "Main line"],
+                    "Lynnwood-Rainbow Lake": ["", "Main line"]
                 }
             }
         },
@@ -13581,7 +13583,7 @@
             ]
         },
         {
-            "name": "Caribou Meadows",
+            "name": "Caribou Meadows (JCT)",
             "id": 1058,
             "x": -24505.5,
             "z": -11059.5,
@@ -13593,25 +13595,27 @@
             }
         },
         {
-            "name": "Castle John JCT",
+            "name": "Castle John West JCT",
             "type": "jct",
             "id": 1059,
             "x": -24211.5,
             "z": -11275.5,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Castle John - East Alaska": ["", "Main line"]
+                    "Castle John - East Alaska": ["", "Main line"],
+                    "Cloud Mountain-Sitka": ["", "Main line"]
                 }
             }
         },
         {
-            "name": "Castle John",
+            "name": "Castle John (JCT)",
             "id": 1060,
             "x": -23984.5,
             "z": -11275.5,
             "lines": {
                 "Cascadian Ice lines": {
-                    "Castle John - East Alaska": ["", "Main line"]
+                    "Castle John - East Alaska": ["", "Main line"],
+                    "Cloud Mountain-Sitka": ["", "Main line"]
                 }
             }
         },
@@ -21436,6 +21440,92 @@
                     "Abram-Hanhay": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Castle John North JCT",
+            "type": "jct",
+            "id": 1673,
+            "x": -24191.5,
+            "z": -11557.5,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Cloud Mountain-Sitka": ["", "Main line to Incomplete Shaft branch"]
+                }
+            }
+        },
+        {
+            "name": "Cloud Mountain",
+            "id": 1674,
+            "x": -24047.5,
+            "z": -11557.5,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Cloud Mountain-Sitka": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Castle John Interchange (South JCT)",
+            "type": "jct",
+            "id": 1675,
+            "x": -23994.5,
+            "z": -10651.5,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Cloud Mountain-Sitka": ["", "Main line"],
+                    "Lynnwood-Rainbow Lake": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sitka",
+            "id": 1676,
+            "x": -23994.5,
+            "z": -10056.5,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Cloud Mountain-Sitka": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-23999, -10064], [-23983, -10049]]
+            ]
+        },
+        {
+            "name": "Lynnwood West JCT",
+            "type": "jct",
+            "id": 1677,
+            "x": -24505.5,
+            "z": -10651.5,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Kingsport - Cascadian Alaska": ["", "Main line"],
+                    "Lynnwood-Rainbow Lake": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Lynnwood",
+            "id": 1678,
+            "x": -24211.5,
+            "z": -10834,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Lynnwood-Rainbow Lake": ["", "Lynnwood branch"]
+                }
+            }
+        },
+        {
+            "name": "Lynnwood JCT",
+            "type": "jct",
+            "id": 1679,
+            "x": -24211.5,
+            "z": -10651.5,
+            "lines": {
+                "Cascadian Ice lines": {
+                    "Lynnwood-Rainbow Lake": ["", "Main line to Lynnwood branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -23734,7 +23824,13 @@
                             [-22808, -8792],
                             [-22935, -8792]
                         ],
-                        "stations": [681, 623, 624, 625, 769, 768, 767, 726, 725, 724, 674 , [620, "Olympia branch"], 609]
+                        "stations": [681, 623, 624, 625, 769, 768, 767, 726, 725, 724, 674 , [620, "Olympia branch"], 609],
+                        "concurrencies": {
+                            "Cascadian Ice lines.Lynnwood-Rainbow Lake": [
+                                [-22809, -10651.5],
+                                [-22809, -10662]
+                            ]
+                        }
                     },
                     "Olympia branch": {
                         "vertices": [
@@ -23806,7 +23902,7 @@
                             [-24505.5, -10466.5],
                             [-24505.5, -11059.5]
                         ],
-                        "stations": [1056, 1057, 1058]
+                        "stations": [1056, 1057, 1677, 1058]
                     }
                 }
             },
@@ -24089,6 +24185,65 @@
                             [-17296, -8753]
                         ],
                         "stations": [1241, 1242, 1243, 1239]
+                    }
+                }
+            },
+            "Cloud Mountain-Sitka": {
+                "prefix": "",
+                "code": "CM-S",
+                "color": "90ee90",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-24211.5, -11264],
+                            [-24211.5, -11557.5],
+                            [-23994.5, -11557.5],
+                            [-23994.5, -11282.5],
+                            [-23984.5, -11282.5],
+                            [-23984.5, -11268.5],
+                            [-23994.5, -11268.5],
+                            [-23994.5, -10651.5],
+                            [-23994.5, -10049]
+                        ],
+                        "stations": [1059, [1673, "Incomplete Shaft branch"], 1674, 1060, 1675, 1676]
+                    },
+                    "Incomplete Shaft branch": {
+                        "vertices": [
+                            [-24191.5, -11557.5],
+                            [-24191.5, -11808]
+                        ],
+                        "stations": [[1673, "Main line"]]
+                    }
+                }
+            },
+            "Lynnwood-Rainbow Lake": {
+                "prefix": "",
+                "code": "L-RL",
+                "color": "90ee90",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-24505.5, -10651.5],
+                            [-22809, -10651.5],
+                            [-22809, -10662],
+                            [-21909, -10662]
+                        ],
+                        "stations": [1059, [1673, "Incomplete Shaft branch"], 1674, 1060, 1675, 1676],
+                        "concurrencies": {
+                            "Cascadian Ice lines.Aklavik - Cascadia": [
+                                [-22809, -10651.5],
+                                [-22809, -10662]
+                            ]
+                        }
+                    },
+                    "Lynnwood branch": {
+                        "vertices": [
+                            [-24211.5, -10834],
+                            [-24211.5, -10592]
+                        ],
+                        "stations": [[1673, "Main line"]]
                     }
                 }
             }
