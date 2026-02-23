@@ -4787,6 +4787,9 @@
             "x": 16950,
             "z": -3999,
             "lines": {
+                "Indochina Subway": {
+                    "Port Molehill-Rakhine": ["", "Main line"]
+                },
                 "TNIH": {
                     "Chittagong Bypass": ["", "Main line"]
                 }
@@ -4846,10 +4849,16 @@
             "x": 17687,
             "z": -3998,
             "lines": {
+                "Indochina Subway": {
+                    "Port Molehill-Rakhine": ["", "Main line"]
+                },
                 "TNIH": {
                     "Avachi Rapid": ["", "Main line"]
                 }
-            }
+            },
+            "areas": [
+                [[17686, -4002], [17689, -3994]]
+            ]
         },
         {
             "name": "Mandalay Ice Stairs",
@@ -21526,6 +21535,121 @@
                     "Lynnwood-Rainbow Lake": ["", "Main line to Lynnwood branch"]
                 }
             }
+        },
+        {
+            "name": "Port Molehill JCT",
+            "type": "jct",
+            "id": 1680,
+            "x": 17801,
+            "z": -2999,
+            "lines": {
+                "Indochina Subway": {
+                    "Port Molehill-Rakhine": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Burma (Moonrise) JCT",
+            "type": "jct",
+            "id": 1681,
+            "x": 17801,
+            "z": -3210,
+            "lines": {
+                "Indochina Subway": {
+                    "Port Molehill-Rakhine": ["", "Main line to Burma (Moonrise) branch"]
+                }
+            }
+        },
+        {
+            "name": "Burma (Moonrise)",
+            "id": 1682,
+            "x": 17856,
+            "z": -3210,
+            "lines": {
+                "Indochina Subway": {
+                    "Port Molehill-Rakhine": ["", "Burma (Moonrise) branch"]
+                }
+            }
+        },
+        {
+            "name": "Yangon JCT",
+            "type": "jct",
+            "id": 1683,
+            "x": 17801,
+            "z": -3344,
+            "lines": {
+                "Indochina Subway": {
+                    "Port Molehill-Rakhine": ["", "Main line to Yangon branch"]
+                }
+            }
+        },
+        {
+            "name": "Yangon",
+            "id": 1684,
+            "x": 17745,
+            "z": -3344,
+            "lines": {
+                "Indochina Subway": {
+                    "Port Molehill-Rakhine": ["", "Yangon branch"]
+                }
+            }
+        },
+        {
+            "name": "Bawlakhe",
+            "type": "semi2",
+            "id": 1685,
+            "x": 17801,
+            "z": -3552,
+            "lines": {
+                "Indochina Subway": {
+                    "Port Molehill-Rakhine": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Songians",
+            "id": 1686,
+            "x": 17687,
+            "z": -3680,
+            "lines": {
+                "Indochina Subway": {
+                    "Port Molehill-Rakhine": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Central Ava JCT",
+            "type": "jct",
+            "id": 1687,
+            "x": 17577,
+            "z": -3999,
+            "lines": {
+                "Indochina Subway": {
+                    "Port Molehill-Rakhine": ["", "Main line to Central Ava branch"]
+                }
+            }
+        },
+        {
+            "name": "Central Ava",
+            "id": 1688,
+            "x": 17577,
+            "z": -3938,
+            "lines": {
+                "Indochina Subway": {
+                    "Port Molehill-Rakhine": ["", "Central Ava branch"]
+                }
+            }
+        },
+        {
+            "name": "Kusanagi",
+            "id": 1689,
+            "x": 17273,
+            "z": -3999,
+            "lines": {
+                "Indochina Subway": {
+                    "Port Molehill-Rakhine": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -27635,6 +27759,47 @@
                             [-761, -8098]
                         ],
                         "stations": [[1551, "Main line"]]
+                    }
+                }
+            }
+        },
+        "Indochina Subway": {
+            "Port Molehill-Rakhine": {
+                "prefix": "",
+                "code": "PMh-Rkn",
+                "color": "ff0000",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [17801, -2999],
+                            [17801, -3661],
+                            [17687, -3661],
+                            [17687, -3999],
+                            [16950, -3999]
+                        ],
+                        "stations": [1680, [1681, "Burma (Moonrise) branch"], [1683, "Yangon branch"], 1685, 1686, 393, [1687, "Central Ava branch"], 1689, 388]
+                    },
+                    "Burma (Moonrise) branch": {
+                        "vertices": [
+                            [17801, -3210],
+                            [17856, -3210]
+                        ],
+                        "stations": [[1681, "Main line"], 1682]
+                    },
+                    "Yangon branch": {
+                        "vertices": [
+                            [17801, -3344],
+                            [17745, -3344]
+                        ],
+                        "stations": [[1683, "Main line"], 1684]
+                    },
+                    "Central Ava branch": {
+                        "vertices": [
+                            [17577, -3999],
+                            [17577, -3938]
+                        ],
+                        "stations": [[1688, "Main line"], 1689]
                     }
                 }
             }
