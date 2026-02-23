@@ -726,6 +726,9 @@
             "x": 16863,
             "z": -4314,
             "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Yunnan": ["", "Main line"]
+                },
                 "TNIH": {
                     "Bangla-Caspian": ["", "Main line"]
                 }
@@ -4850,7 +4853,8 @@
             "z": -3998,
             "lines": {
                 "Indochina Subway": {
-                    "Port Molehill-Rakhine": ["", "Main line"]
+                    "Port Molehill-Rakhine": ["", "Main line"],
+                    "Chittagong-Yunnan": ["", "Avachi Connector"]
                 },
                 "TNIH": {
                     "Avachi Rapid": ["", "Main line"]
@@ -21650,6 +21654,192 @@
                     "Port Molehill-Rakhine": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Chittagong East JCT",
+            "type": "jct",
+            "id": 1690,
+            "x": 16950,
+            "z": -4314,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Yunnan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Lashu West JCT",
+            "type": "jct",
+            "id": 1691,
+            "x": 17687,
+            "z": -4314,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Yunnan": ["", "Main line to Avachi Connector"]
+                }
+            }
+        },
+        {
+            "name": "Lashu JCT",
+            "type": "jct",
+            "id": 1692,
+            "x": 17821,
+            "z": -4314,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Yunnan": ["", "Main line to Lashu branch"]
+                }
+            }
+        },
+        {
+            "name": "Lashu",
+            "id": 1693,
+            "x": 17821,
+            "z": -4355,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Yunnan": ["", "Lashu branch"]
+                }
+            }
+        },
+        {
+            "name": "Roaring River JCT",
+            "type": "jct",
+            "id": 1694,
+            "x": 18301,
+            "z": -4314,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Yunnan": ["", "Main line to Roaring River branch"]
+                }
+            }
+        },
+        {
+            "name": "Roaring River",
+            "id": 1695,
+            "x": 18350,
+            "z": -4256,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Yunnan": ["", "Roaring River branch"]
+                }
+            }
+        },
+        {
+            "name": "Roaring Temple",
+            "id": 1696,
+            "x": 18358,
+            "z": -4570,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Yunnan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yunnan Elevator",
+            "type": "elev-ew",
+            "id": 1697,
+            "x": 18534,
+            "z": -4570,
+            "y1": 10,
+            "y2": 83,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Yunnan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yunnan JCT",
+            "type": "jct",
+            "id": 1698,
+            "x": 18540,
+            "z": -4570,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Yunnan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kedah JCT",
+            "type": "jct",
+            "id": 1699,
+            "x": 18139,
+            "z": -1350,
+            "lines": {
+                "Indochina Subway": {
+                    "Kedah-Pattani": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Gold (Langkawi)",
+            "id": 1700,
+            "x": 18258,
+            "z": -1350,
+            "lines": {
+                "Indochina Subway": {
+                    "Kedah-Pattani": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Penang JCT",
+            "type": "jct",
+            "id": 1701,
+            "x": 18370,
+            "z": -1350,
+            "lines": {
+                "Indochina Subway": {
+                    "Kedah-Pattani": ["", "Main line to Penang branch"]
+                }
+            }
+        },
+        {
+            "name": "Penang",
+            "id": 1702,
+            "x": 18370,
+            "z": -1168,
+            "lines": {
+                "Indochina Subway": {
+                    "Kedah-Pattani": ["", "Penang branch"]
+                }
+            }
+        },
+        {
+            "name": "Pattani (JCT)",
+            "id": 1703,
+            "x": 18488,
+            "z": -1350,
+            "lines": {
+                "Indochina Subway": {
+                    "Kedah-Pattani": ["", "Main line to Musang branch"]
+                }
+            }
+        },
+        {
+            "name": "Musang",
+            "id": 1704,
+            "x": 18488,
+            "z": -1181,
+            "lines": {
+                "Indochina Subway": {
+                    "Kedah-Pattani": ["", "Musang branch"]
+                }
+            }
+        },
+        {
+            "name": "Pattani Sea JCT",
+            "id": 1705,
+            "x": 19104,
+            "z": -1350,
+            "lines": {
+                "Indochina Subway": {
+                    "Kedah-Pattani": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -27800,6 +27990,74 @@
                             [17577, -3938]
                         ],
                         "stations": [[1687, "Main line"], 1688]
+                    }
+                }
+            },
+            "Chittagong-Yunnan": {
+                "prefix": "",
+                "code": "Ctg-Yn",
+                "color": "ff0000",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [16863, -4314],
+                            [18301, -4314],
+                            [18301, -4570],
+                            [18540, -4570]
+                        ],
+                        "stations": [59, 1690, [1691, "Avachi Connector"], [1692, "Lashu branch"], [1694, "Roaring River branch"], 1696, 1697, 1698]
+                    },
+                    "Avachi Connector": {
+                        "vertices": [
+                            [17687, -4314],
+                            [17687, -3999]
+                        ],
+                        "stations": [[1691, "Main line"], 393]
+                    },
+                    "Lashu branch": {
+                        "vertices": [
+                            [17821, -4314],
+                            [17821, -4355]
+                        ],
+                        "stations": [[1692, "Main line"], 1693]
+                    },
+                    "Roaring Temple branch": {
+                        "vertices": [
+                            [18301, -4314],
+                            [18301, -4256],
+                            [18350, -4256]
+                        ],
+                        "stations": [[1694, "Main line"], 1695]
+                    }
+                }
+            },
+            "Kedah-Pattani": {
+                "prefix": "",
+                "code": "Kdh-Ptn",
+                "color": "ffd800",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [17798, -1350],
+                            [19104, -1350]
+                        ],
+                        "stations": [1699, 1700, [1701, "Penang branch"], [1703, "Musang branch"], 1705]
+                    },
+                    "Penang branch": {
+                        "vertices": [
+                            [18370, -1350],
+                            [18370, -1168]
+                        ],
+                        "stations": [[1701, "Main line"], 1702]
+                    },
+                    "Musang branch": {
+                        "vertices": [
+                            [18488, -1350],
+                            [18488, -1181]
+                        ],
+                        "stations": [[1703, "Main line"], 1704]
                     }
                 }
             }
