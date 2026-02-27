@@ -22558,6 +22558,8 @@
             "id": 1765,
             "x": 19833,
             "z": 443,
+            "y1": 31,
+            "y2": 40,
             "lines": {
                 "Indochina Subway": {
                     "Palembang-Landjut": ["", "Main line"]
