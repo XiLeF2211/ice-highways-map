@@ -10601,7 +10601,7 @@
             ]
         },
         {
-            "name": "Baotou West Eemergency exit",
+            "name": "Baotou West Emergency exit",
             "type": "semi4",
             "id": 830,
             "x": 20151,
@@ -22054,7 +22054,7 @@
         },
         {
             "name": "Jambi Elevator",
-            "type": "elev-we",
+            "type": "elev-ew",
             "id": 1723,
             "x": 18690,
             "z": 409,
@@ -22086,7 +22086,8 @@
             "z": 409,
             "lines": {
                 "Indochina Subway": {
-                    "Chittagong-Fairycarrot Y=31": ["", "Main line"]
+                    "Chittagong-Fairycarrot Y=31": ["", "Main line"],
+                    "Singapore-Bali": ["", "Main line"]
                 }
             }
         },
@@ -22109,6 +22110,355 @@
             "lines": {
                 "Indochina Subway": {
                     "Taykiye": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Singapore JCT",
+            "type": "jct",
+            "id": 1728,
+            "x": 19103,
+            "z": -460,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Saguenay Elevator",
+            "type": "elev-ew",
+            "id": 1729,
+            "x": 19103,
+            "z": -420,
+            "y1": 32,
+            "y2": 31,
+            "lines": {
+                "Indochina Subway": {
+                    "ingapore-Bali": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Singapore Mine (Saguenay)",
+            "type": "semi2",
+            "id": 1730,
+            "x": 19103,
+            "z": -387,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sentosa",
+            "id": 1731,
+            "x": 19103,
+            "z": -314,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sentosa JCT",
+            "type": "jct",
+            "id": 1732,
+            "x": 19103,
+            "z": -262,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mimo Empire",
+            "id": 1733,
+            "x": 19129,
+            "z": -56,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Fairycarrot",
+            "id": 1734,
+            "x": 19192,
+            "z": 420,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Palembang (JCT)",
+            "id": 1735,
+            "x": 19192,
+            "z": 500,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nelden",
+            "id": 1736,
+            "x": 19192,
+            "z": 553,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Acyarek emergency exit",
+            "type": "semi4",
+            "id": 1737,
+            "x": 19192,
+            "z": 675,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Raskov JCT",
+            "type": "jct",
+            "id": 1738,
+            "x": 19192,
+            "z": 808,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"],
+                    "Chum Kevin": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Raskov",
+            "id": 1739,
+            "x": 19192,
+            "z": 904,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Jakarta",
+            "id": 1740,
+            "x": 19527,
+            "z": 1027,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Andrei2274's Plot",
+            "type": "semi2",
+            "id": 1741,
+            "x": 19527,
+            "z": 1185,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bandung JCT",
+            "type": "jct",
+            "id": 1742,
+            "x": 19792,
+            "z": 1325,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"],
+                    "Chum Kevin": ["", "Jakarta branch"]
+                }
+            }
+        },
+        {
+            "name": "Pangandaran",
+            "id": 1743,
+            "x": 19848,
+            "z": 1325,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yogyakarta (JCT)",
+            "id": 1744,
+            "x": 20195,
+            "z": 1325,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"],
+                    "Chum Kevin": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Salatiga",
+            "id": 1745,
+            "x": 20277,
+            "z": 1212,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Rembang",
+            "id": 1746,
+            "x": 20340,
+            "z": 1131,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Trowulan",
+            "id": 1747,
+            "x": 20598,
+            "z": 1131,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Trowulan JCT",
+            "type": "jct",
+            "id": 1748,
+            "x": 20626,
+            "z": 1131,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Surabaya-Madura (JCT)",
+            "id": 1749,
+            "x": 20825,
+            "z": 1131,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mataram",
+            "id": 1750,
+            "x": 21319,
+            "z": 1397,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bali",
+            "id": 1751,
+            "x": 21140,
+            "z": 1427,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Bali": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Jakarta JCT",
+            "type": "jct",
+            "id": 1752,
+            "x": 19792,
+            "z": 808,
+            "lines": {
+                "Indochina Subway": {
+                    "Chum Kevin": ["", "Main line to Jakarta branch"]
+                }
+            }
+        },
+        {
+            "name": "Jakarta-Banten",
+            "id": 1753,
+            "x": 19792,
+            "z": 1078,
+            "lines": {
+                "Indochina Subway": {
+                    "Chum Kevin": ["", "Jakarta branch"]
+                }
+            }
+        },
+        {
+            "name": "New Battyvia JCT",
+            "type": "jct",
+            "id": 1754,
+            "x": 19813,
+            "z": 808,
+            "lines": {
+                "Indochina Subway": {
+                    "Chum Kevin": ["", "Main line to New Battyvia branch"]
+                }
+            }
+        },
+        {
+            "name": "New Battyvia Elevator",
+            "type": "elev-we",
+            "id": 1755,
+            "x": 19813,
+            "z": 1068,
+            "y1": 31,
+            "y2": 40,
+            "lines": {
+                "Indochina Subway": {
+                    "Chum Kevin": ["", "New Battyvia branch"]
+                }
+            }
+        },
+        {
+            "name": "New Battyvia",
+            "id": 1756,
+            "x": 19701,
+            "z": 1112,
+            "lines": {
+                "Indochina Subway": {
+                    "Chum Kevin": ["", "New Battyvia branch"]
+                }
+            }
+        },
+        {
+            "name": "Semarang",
+            "id": 1757,
+            "x": 20195,
+            "z": 1156,
+            "lines": {
+                "Indochina Subway": {
+                    "Chum Kevin": ["", "Main line"]
                 }
             }
         }
@@ -28428,6 +28778,64 @@
                             [18488, -1181]
                         ],
                         "stations": [[1703, "Main line"], 1704]
+                    }
+                }
+            },
+            "Singapore-Bali": {
+                "prefix": "",
+                "code": "Sgp-Bal",
+                "color": "b200ff",
+                "y": 31,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [19103, -460],
+                            [19103, -173],
+                            [19129, -147],
+                            [19129, 409],
+                            [19192, 409],
+                            [19192, 1024],
+                            [19527, 1024],
+                            [19527, 1325],
+                            [20277, 1325],
+                            [20277, 1131],
+                            [21319, 1131],
+                            [21319, 1427],
+                            [21140, 1427]
+                        ],
+                        "stations": [1728, 1729, 1730, 1731, 1732, 1733, 1725, 1736, 1737, 1738, 1739, 1740, 1741, 1742, 1743, 1744, 1745, 1746, 1747, 1748, 1749, 1750, 1751]
+                    }
+                }
+            },
+            "Chum Kevin": {
+                "prefix": "",
+                "code": "CK",
+                "color": "b200ff",
+                "y": 31,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [19192, 808],
+                            [20195, 808],
+                            [20195, 1325]
+                        ],
+                        "stations": [1738, [1752, "Jakarta branch"], [1754, "New Battyvia branch"], 1757, 1744]
+                    },
+                    "Jakarta branch": {
+                        "vertices": [
+                            [19792, 808],
+                            [19792, 1325]
+                        ],
+                        "stations": [[1752, "Jakarta branch"], 1753, 1742]
+                    },
+                    "New Battyvia branch": {
+                        "vertices": [
+                            [19813, 808],
+                            [19813, 1073],
+                            [19701, 1073],
+                            [19701, 1112]
+                        ],
+                        "stations": [[1754, "Jakarta branch"], 1755, 1756]
                     }
                 }
             }
