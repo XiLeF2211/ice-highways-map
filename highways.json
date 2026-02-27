@@ -463,8 +463,8 @@
             "z": -4314,
             "lines": {
                 "TNIH": {
-                    "Nyingchi": ["", "Main line"],
-                    "Bangla-Caspian": ["", "Main line"]
+                    "Bangla-Caspian": ["", "Main line"],
+                    "Nyingchi": ["", "Main line"]
                 }
             }
         },
@@ -731,7 +731,8 @@
                     "Chittagong-Yunnan": ["", "Main line"]
                 },
                 "TNIH": {
-                    "Bangla-Caspian": ["", "Main line"]
+                    "Bangla-Caspian": ["", "Main line"],
+                    "Nyingchi": ["", "Main line"]
                 }
             }
         },
@@ -22260,7 +22261,7 @@
                         ],
                         "stations": [11, 12, 13, 14, [15, "Haldwani branch"], 17, [18, "Little Lhasa branch"], 19, 20, 21, 970, 22, 23, 24, 25, 240, [1207, "New Mesia branch"], 241, 242],
                         "concurrencies": {
-                            "TNIH.Nyinchi": [
+                            "TNIH.Nyingchi": [
                                 [16860, -5184],
                                 [16860, -5047]
                             ]
@@ -22400,8 +22401,12 @@
                             [16860, -5910],
                             [16999, -5910]
                         ],
-                        "stations": [39, 40, [41, "Bogra branch"], 42, 24, 23, 239, 43, [1205, "Lhasa branch"], 44, 45],
+                        "stations": [59, 39, 40, [41, "Bogra branch"], 42, 24, 23, 239, 43, [1205, "Lhasa branch"], 44, 45],
                         "concurrencies": {
+                            "TNIH.Bangla-Caspian": [
+                                [16863, -4314],
+                                [16860, -4314]
+                            ],
                             "TNIH.Lower Himalayas": [
                                 [16860, -5047],
                                 [16860, -5184]
@@ -22449,7 +22454,13 @@
                             [9054, -7022],
                             [9054, -7034]
                         ],
-                        "stations": [59, 39, 60, 61, 62, 35, 63, 64, 65, [66, "Laccadive Sea branch"], 67, [68, "Santulan branch"], 26, 69, 70, 11, 71, 72, [73, "Himalayas branch"], 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 601, 225, 226]
+                        "stations": [59, 39, 60, 61, 62, 35, 63, 64, 65, [66, "Laccadive Sea branch"], 67, [68, "Santulan branch"], 26, 69, 70, 11, 71, 72, [73, "Himalayas branch"], 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 601, 225, 226],
+                        "concurrencies": {
+                            "TNIH.Nyingchi": [
+                                [16863, -4314],
+                                [16860, -4314]
+                            ]
+                        }
                     },
                     "Laccadive Sea branch": {
                         "vertices": [
@@ -28276,7 +28287,13 @@
                             [18301, -4570],
                             [18540, -4570]
                         ],
-                        "stations": [59, 1690, [1691, "Avachi Connector"], [1692, "Lashu branch"], [1694, "Roaring River branch"], 1696, 1697, 1698]
+                        "stations": [59, 1690, [1691, "Avachi Connector"], [1692, "Lashu branch"], [1694, "Roaring River branch"], 1696, 1697, 1698],
+                        "concurrencies": {
+                            "Indochina Subway.Chittagong-Fairycarrot Y=10": [
+                                [16863, -4314],
+                                [16950, -4314]
+                            ]
+                        }
                     },
                     "Avachi Connector": {
                         "vertices": [
@@ -28327,7 +28344,13 @@
                             [18609, 409],
                             [18690, 409]
                         ],
-                        "stations": [59, 1690, 388, 1706, 1707, 1708, 1680, 1709, 1710, 1711, [1712, "Vienna branch"], [1715, "Nakhon branch"], 1699, 1718, 1719, 1720, 1721, 1722, 1723]
+                        "stations": [59, 1690, 388, 1706, 1707, 1708, 1680, 1709, 1710, 1711, [1712, "Vienna branch"], [1715, "Nakhon branch"], 1699, 1718, 1719, 1720, 1721, 1722, 1723],
+                        "concurrencies": {
+                            "Indochina Subway.Chittagong-Yunnan": [
+                                [16863, -4314],
+                                [16950, -4314]
+                            ]
+                        }
                     },
                     "Vienna branch": {
                         "vertices": [
