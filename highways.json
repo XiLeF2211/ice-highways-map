@@ -22167,10 +22167,11 @@
             "type": "jct",
             "id": 1732,
             "x": 19103,
-            "z": -262,
+            "z": -261,
             "lines": {
                 "Indochina Subway": {
-                    "Singapore-Bali": ["", "Main line"]
+                    "Singapore-Bali": ["", "Main line"],
+                    "Sentosa-Worthching": ["", "Main line"]
                 }
             }
         },
@@ -22203,7 +22204,8 @@
             "z": 500,
             "lines": {
                 "Indochina Subway": {
-                    "Singapore-Bali": ["", "Main line"]
+                    "Singapore-Bali": ["", "Main line"],
+                    "Palembang-Landjut": ["", "Main line"]
                 }
             }
         },
@@ -22459,6 +22461,118 @@
             "lines": {
                 "Indochina Subway": {
                     "Chum Kevin": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Batam",
+            "id": 1758,
+            "x": 19037,
+            "z": -261,
+            "lines": {
+                "Indochina Subway": {
+                    "Sentosa-Worthching": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Glacéau (Southbank)",
+            "id": 1759,
+            "x": 18803,
+            "z": -261,
+            "lines": {
+                "Indochina Subway": {
+                    "Sentosa-Worthching": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[18806, -268], [18810, -260]],
+                [[18799, -268], [18810, -261]],
+                [[18800, -269], [18806, -266]],
+                [[18800, -269], [18806, -254]],
+                [[18791, -271], [18802, -263]],
+                [[18799, -254], [18804, -263]],
+                [[18796, -266], [18808, -257]]
+            ]
+        },
+        {
+            "name": "Worthching JCT",
+            "type": "jct",
+            "id": 1760,
+            "x": 18588,
+            "z": -163,
+            "lines": {
+                "Indochina Subway": {
+                    "Sentosa-Worthching": ["", "Main line to United Oceanesia branch"]
+                }
+            }
+        },
+        {
+            "name": "United Oceanesia",
+            "id": 1761,
+            "x": 18588,
+            "z": -502,
+            "lines": {
+                "Indochina Subway": {
+                    "Sentosa-Worthching": ["", "United Oceanesia branch"]
+                }
+            }
+        },
+        {
+            "name": "Worthching",
+            "id": 1762,
+            "x": 18500,
+            "z": -163,
+            "lines": {
+                "Indochina Subway": {
+                    "Sentosa-Worthching": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tanjung JCT",
+            "type": "jct",
+            "id": 1763,
+            "x": 19816,
+            "z": 443,
+            "lines": {
+                "Indochina Subway": {
+                    "Palembang-Landjut": ["", "Main line to Tanjung branch"]
+                }
+            }
+        },
+        {
+            "name": "Tanjung",
+            "id": 1764,
+            "x": 19816,
+            "z": 436,
+            "lines": {
+                "Indochina Subway": {
+                    "Palembang-Landjut": ["", "Tanjung branch"]
+                }
+            }
+        },
+        {
+            "name": "Tanjung Elevator",
+            "type": "elev-ew",
+            "id": 1765,
+            "x": 19833,
+            "z": 443,
+            "lines": {
+                "Indochina Subway": {
+                    "Palembang-Landjut": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Landjut JCT",
+            "type": "jct",
+            "id": 1766,
+            "x": 20359,
+            "z": 440,
+            "lines": {
+                "Indochina Subway": {
+                    "Palembang-Landjut": ["", "Main line"]
                 }
             }
         }
@@ -28836,6 +28950,56 @@
                             [19701, 1112]
                         ],
                         "stations": [[1754, "Main line"], 1755, 1756]
+                    }
+                }
+            },
+            "Sentosa-Worthching": {
+                "prefix": "",
+                "code": "Sts-Wcg",
+                "color": "b200ff",
+                "y": 31,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [19103, -261],
+                            [18769, -261],
+                            [18769, -163],
+                            [18495, -163]
+                        ],
+                        "stations": [1732, 1758, 1759, [1760, "United Oceanesia branch"], 1762]
+                    },
+                    "United Oceanesia branch": {
+                        "vertices": [
+                            [18588, -163],
+                            [18588, -502]
+                        ],
+                        "stations": [[1760, "Main line"], 1761]
+                    }
+                }
+            },
+            "Palembang-Landjut": {
+                "prefix": "",
+                "code": "Sts-Wcg",
+                "color": "b200ff",
+                "y": 31,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [19192, 500],
+                            [19816, 500],
+                            [19816, 443],
+                            [19838, 443],
+                            [19838, 440],
+                            [20359, 440]
+                        ],
+                        "stations": [1735, [1763, "United Oceanesia branch"], 1765, 1766]
+                    },
+                    "Tanjung branch": {
+                        "vertices": [
+                            [19816, 443],
+                            [19816, 436]
+                        ],
+                        "stations": [[1760, "Main line"], 1761]
                     }
                 }
             }

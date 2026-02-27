@@ -1,7 +1,7 @@
 # EarthMC Ice Highways Map
 
 This is a tool that aims to give information on stations and lines across the EarthMC server. However, as of February 27th, 2026, 
-it only has 1800 (1757+43) stations across 297 (288+9) lines (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
+it only has 1810 (1767+43) stations across 299 (290+9) lines (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
 
 # Adding lines to the map (direct push commit method) tutorial
 
@@ -67,7 +67,7 @@ Note that the capitalization does not change, and note that it is simply the str
 > [!NOTE]  
 > For other lines that are not shown on the list or to see detailed additions history, please see [the related database changes history](https://github.com/XiLeF2211/ice-highways-map/commits/main/highways.json)
 
-27 February 2026: Chittagong-Fairycarrot, Taykiye, Singapore-Bali and Chum Kevin lines (edited by **nokteholda**)
+27 February 2026: Chittagong-Fairycarrot, Taykiye, Singapore-Bali, Chum Kevin, Sentosa-Worthching, and Palembang-Landjut lines (edited by **nokteholda**)
 
 23 February 2026: Port Molehill-Rakhine, Chittagong-Yunnan, and Kedah-Pattani lines (edited by **nokteholda**)
 
