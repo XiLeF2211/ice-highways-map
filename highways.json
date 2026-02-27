@@ -727,6 +727,7 @@
             "z": -4314,
             "lines": {
                 "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Main line"],
                     "Chittagong-Yunnan": ["", "Main line"]
                 },
                 "TNIH": {
@@ -3728,6 +3729,9 @@
             "x": 18907,
             "z": 409,
             "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=31": ["", "Main line"]
+                },
                 "Local": {
                     "Suma-Sula Ice Road": ["", "Main line"]
                 }
@@ -4791,6 +4795,7 @@
             "z": -3999,
             "lines": {
                 "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Main line"],
                     "Port Molehill-Rakhine": ["", "Main line"]
                 },
                 "TNIH": {
@@ -21315,7 +21320,7 @@
         },
         {
             "name": "CanvasTown Stairs",
-            "type": "elev-ew",
+            "type": "elev-we",
             "id": 1663,
             "x": 11620,
             "z": -7875,
@@ -21548,6 +21553,7 @@
             "z": -2999,
             "lines": {
                 "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Main line"],
                     "Port Molehill-Rakhine": ["", "Main line"]
                 }
             }
@@ -21663,6 +21669,7 @@
             "z": -4314,
             "lines": {
                 "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Main line"],
                     "Chittagong-Yunnan": ["", "Main line"]
                 }
             }
@@ -21770,6 +21777,7 @@
             "z": -1350,
             "lines": {
                 "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Main line"],
                     "Kedah-Pattani": ["", "Main line"]
                 }
             }
@@ -21832,12 +21840,274 @@
         },
         {
             "name": "Pattani Sea JCT",
+            "type": "jct",
             "id": 1705,
             "x": 19104,
             "z": -1350,
             "lines": {
                 "Indochina Subway": {
                     "Kedah-Pattani": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Akyab",
+            "id": 1706,
+            "x": 16950,
+            "z": -3950,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Port Sparrow",
+            "id": 1707,
+            "x": 17281,
+            "z": -3477,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Saint Hades Yangon West",
+            "id": 1708,
+            "x": 17383,
+            "z": -2999,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Aistoral",
+            "id": 1709,
+            "x": 17921,
+            "z": -2999,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kanchanaburi (JCT)",
+            "id": 1710,
+            "x": 18139,
+            "z": -2840,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Main line"],
+                    "Taykiye": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[18134, -2846], [18142, -2833]]
+            ]
+        },
+        {
+            "name": "Dostakya",
+            "id": 1711,
+            "x": 18139,
+            "z": -2466,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Vienna JCT",
+            "type": "jct",
+            "id": 1712,
+            "x": 18139,
+            "z": -1988,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Main line to Vienna branch"]
+                }
+            }
+        },
+        {
+            "name": "Vienna",
+            "id": 1713,
+            "x": 18139,
+            "z": -2071,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Vienna branch"]
+                }
+            }
+        },
+        {
+            "name": "Phuket",
+            "id": 1714,
+            "x": 18053,
+            "z": -1726,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Nakhon branch"]
+                }
+            }
+        },
+        {
+            "name": "Nakhon JCT",
+            "type": "jct",
+            "id": 1715,
+            "x": 18139,
+            "z": -1726,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Main line to Nakhon branch"]
+                }
+            }
+        },
+        {
+            "name": "Nakhon",
+            "id": 1716,
+            "x": 18308,
+            "z": -1690,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Nakhon branch"]
+                }
+            }
+        },
+        {
+            "name": "Nakhon Elevator",
+            "type": "elev-we",
+            "id": 1717,
+            "x": 18380,
+            "z": -1529,
+            "y1": 10,
+            "y2": 69,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Nakhon branch"]
+                }
+            }
+        },
+        {
+            "name": "Medan JCT",
+            "type": "jct",
+            "id": 1718,
+            "x": 18139,
+            "z": -862,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "ChopXgrad",
+            "id": 1719,
+            "x": 18139,
+            "z": -617,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Quixotic Junction",
+            "id": 1720,
+            "x": 18139,
+            "z": -395,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[18138, -395], [18147, -389]],
+                [[18137, -400], [18146, -387]]
+            ]
+        },
+        {
+            "name": "Bukittinggi",
+            "id": 1721,
+            "x": 18353,
+            "z": -79,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Torukeli",
+            "id": 1722,
+            "x": 18609,
+            "z": 119,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Jambi Elevator",
+            "type": "elev-we",
+            "id": 1723,
+            "x": 18690,
+            "z": 409,
+            "y1": 10,
+            "y2": 31,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=10": ["", "Main line"],
+                    "Chittagong-Fairycarrot Y=31": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Jambi",
+            "id": 1724,
+            "x": 18831,
+            "z": 409,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=31": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Fairycarrot JCT",
+            "type": "jct",
+            "id": 1725,
+            "x": 19129,
+            "z": 409,
+            "lines": {
+                "Indochina Subway": {
+                    "Chittagong-Fairycarrot Y=31": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Citrus",
+            "id": 1726,
+            "x": 18011,
+            "z": -2832,
+            "lines": {
+                "Indochina Subway": {
+                    "Taykiye": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cucumber",
+            "id": 1727,
+            "x": 18011,
+            "z": -2682,
+            "lines": {
+                "Indochina Subway": {
+                    "Taykiye": ["", "Main line"]
                 }
             }
         }
@@ -28029,6 +28299,83 @@
                             [18350, -4256]
                         ],
                         "stations": [[1694, "Main line"], 1695]
+                    }
+                }
+            },
+            "Chittagong-Fairycarrot Y=10": {
+                "prefix": "",
+                "code": "Ctg-Frc Y10",
+                "color": "ff0000",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [16863, -4314],
+                            [16950, -4314],
+                            [16950, -3733],
+                            [17281, -3733],
+                            [17281, -3821],
+                            [17281, -3733],
+                            [17281, -2999],
+                            [18139, -2999],
+                            [18139, -2117],
+                            [18172, -2117],
+                            [18172, -1988],
+                            [18139, -1988],
+                            [18139, -79],
+                            [18609, -79],
+                            [18609, 409],
+                            [18690, 409]
+                        ],
+                        "stations": [59, 1690, 388, 1706, 1707, 1708, 1680, 1709, 1710, 1711, [1712, "Vienna branch"], [1715, "Nakhon branch"], 1699, 1718, 1719, 1720, 1721, 1722, 1723]
+                    },
+                    "Vienna branch": {
+                        "vertices": [
+                            [18139, -1988],
+                            [18139, -2071]
+                        ],
+                        "stations": [[1712, "Main line"], 1713]
+                    },
+                    "Nakhon branch": {
+                        "vertices": [
+                            [18053, -1726],
+                            [18301, -1726],
+                            [18301, -1690],
+                            [18380, -1690],
+                            [18380, -1529]
+                        ],
+                        "stations": [1714, [1715, "Main line"], 1716, 1717]
+                    }
+                }
+            },
+            "Chittagong-Fairycarrot Y=31": {
+                "prefix": "",
+                "code": "Ctg-Frc Y31",
+                "color": "ff0000",
+                "y": 31,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [18690, 409],
+                            [19129, 409]
+                        ],
+                        "stations": [1723, 1724, 304, 1725]
+                    }
+                }
+            },
+            "Taykiye": {
+                "prefix": "",
+                "code": "Tyk",
+                "color": "0026ff",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [18139, -2836],
+                            [18011, -2836],
+                            [18011, -2677]
+                        ],
+                        "stations": [1710, 1726, 1727]
                     }
                 }
             },
