@@ -21903,6 +21903,7 @@
             "lines": {
                 "Indochina Subway": {
                     "Chittagong-Fairycarrot Y=10": ["", "Main line"],
+                    "Kanchanaburi-Vientiane": ["", "Main line"],
                     "Taykiye": ["", "Main line"]
                 }
             },
@@ -22575,6 +22576,68 @@
             "lines": {
                 "Indochina Subway": {
                     "Palembang-Landjut": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bangkok",
+            "id": 1767,
+            "x": 18366,
+            "z": -2840,
+            "lines": {
+                "Indochina Subway": {
+                    "Kanchanaburi-Vientiane": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nakhon Ratcha",
+            "id": 1768,
+            "x": 18803,
+            "z": -2840,
+            "lines": {
+                "Indochina Subway": {
+                    "Kanchanaburi-Vientiane": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Khmer State JCT",
+            "type": "jct",
+            "id": 1769,
+            "x": 19063,
+            "z": -2840,
+            "lines": {
+                "Indochina Subway": {
+                    "Kanchanaburi-Vientiane": ["", "Main line to Khmer State branch"]
+                }
+            }
+        },
+        {
+            "name": "Khmer State",
+            "id": 1770,
+            "x": 19063,
+            "z": -2589,
+            "lines": {
+                "Indochina Subway": {
+                    "Kanchanaburi-Vientiane": ["", "Khmer State branch"]
+                }
+            },
+            "areas": [
+                [[19061, -2594], [19068, -2586]],
+                [[19062, -2588], [19070, -2581]],
+                [[19062, -2583], [19069, -2577]]
+            ]
+        },
+        {
+            "name": "Vientiane",
+            "type": "jct",
+            "id": 1771,
+            "x": 19342,
+            "z": -2840,
+            "lines": {
+                "Indochina Subway": {
+                    "Kanchanaburi-Vientiane": ["", "Main line"]
                 }
             }
         }
@@ -28865,6 +28928,28 @@
                             [18011, -2677]
                         ],
                         "stations": [1710, 1726, 1727]
+                    }
+                }
+            },
+            "Kanchanaburi-Vientiane": {
+                "prefix": "",
+                "code": "Knb-Vnt",
+                "color": "0026ff",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [18139, -2840],
+                            [19342, -2840]
+                        ],
+                        "stations": [1710, 1767, 1768, [1769, "Khmer State branch"], 1771]
+                    },
+                    "Khmer State branch": {
+                        "vertices": [
+                            [19063, -2840],
+                            [19063, -2589]
+                        ],
+                        "stations": [[1769, "Main line"], 1770]
                     }
                 }
             },
