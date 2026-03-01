@@ -20459,7 +20459,7 @@
             ]
         },
         {
-            "name": "Haikou JCT",
+            "name": "Hankou JCT",
             "type": "jct",
             "id": 1600,
             "x": 21126.5,
@@ -22792,7 +22792,7 @@
         },
         {
             "name": "Himaria",
-            "id": 1783,
+            "id": 1784,
             "x": 18880,
             "z": -2309,
             "lines": {
@@ -22864,7 +22864,8 @@
             "z": -3221,
             "lines": {
                 "Indochina Subway": {
-                    "Singapore-Hanoi": ["", "Main line"]
+                    "Singapore-Hanoi": ["", "Main line"],
+                    "Khammouan-Xisha Islands": ["", "Main line"]
                 }
             }
         },
@@ -22876,6 +22877,65 @@
             "lines": {
                 "Indochina Subway": {
                     "Singapore-Hanoi": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "South Vietnam",
+            "id": 1792,
+            "x": 19580,
+            "z": -3221,
+            "lines": {
+                "Indochina Subway": {
+                    "Khammouan-Xisha Islands": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Huế Đông",
+            "id": 1793,
+            "x": 19720,
+            "z": -3221,
+            "lines": {
+                "Indochina Subway": {
+                    "Khammouan-Xisha Islands": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hainan Sea JCT",
+            "type": "jct",
+            "id": 1794,
+            "x": 20306,
+            "z": -3221,
+            "lines": {
+                "Indochina Subway": {
+                    "Khammouan-Xisha Islands": ["", "Main line to Haikou branch"]
+                }
+            }
+        },
+        {
+            "name": "Haikou Elevator",
+            "type": "elev-we",
+            "id": 1795,
+            "x": 20306,
+            "z": -3451,
+            "y1": 10,
+            "y2": 50,
+            "lines": {
+                "Indochina Subway": {
+                    "Khammouan-Xisha Islands": ["", "Haikou branch"]
+                }
+            }
+        },
+        {
+            "name": "Haikou",
+            "id": 1796,
+            "x": 20306,
+            "z": -3706,
+            "lines": {
+                "Indochina Subway": {
+                    "Khammouan-Xisha Islands": ["", "Haikou branch"]
                 }
             }
         }
@@ -29191,6 +29251,29 @@
                     }
                 }
             },
+            "Khammouan-Xisha Islands": {
+                "prefix": "",
+                "code": "Khm-Xsh",
+                "color": "0026ff",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [19342, -3221],
+                            [20637, -3221],
+                            [20637, -3237]
+                        ],
+                        "stations": [1790, 1792, 1793, [1794, "Haikou branch"]]
+                    },
+                    "Haikou branch": {
+                        "vertices": [
+                            [20306, -3221],
+                            [20306, -3706]
+                        ],
+                        "stations": [[1794, "Main line"], 1795, 1796]
+                    }
+                }
+            },
             "Singapore-Hanoi": {
                 "prefix": "",
                 "code": "Sgp-Hno",
@@ -29206,7 +29289,7 @@
                             [19307, -3285],
                             [19307, -3821]
                         ],
-                        "stations": [1728, 1772, [1773, "Temasek branch"], 1705, 1777, [1778, "Tear branch"], 1780, [1781, "Himaria branch"], 1785, 1786, 1787, 1788, 1789, 1790, 1791]
+                        "stations": [1728, 1772, [1773, "Temasek branch"], 1705, 1777, [1778, "Tear branch"], 1780, [1781, "Himaria branch"], 1785, 1786, 1787, 1771, 1788, 1789, 1790, 1791]
                     },
                     "Temasek branch": {
                         "vertices": [
