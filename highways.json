@@ -21847,6 +21847,7 @@
             "z": -1350,
             "lines": {
                 "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Main line"],
                     "Kedah-Pattani": ["", "Main line"]
                 }
             }
@@ -22122,6 +22123,7 @@
             "z": -460,
             "lines": {
                 "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Main line"],
                     "Singapore-Bali": ["", "Main line"]
                 }
             }
@@ -22620,7 +22622,8 @@
             "z": -2589,
             "lines": {
                 "Indochina Subway": {
-                    "Kanchanaburi-Vientiane": ["", "Khmer State branch"]
+                    "Kanchanaburi-Vientiane": ["", "Khmer State branch"],
+                    "Singapore-Hanoi": ["", "Khmer State branch"]
                 }
             },
             "areas": [
@@ -22637,7 +22640,242 @@
             "z": -2840,
             "lines": {
                 "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Main line"],
                     "Kanchanaburi-Vientiane": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mersing Elevators",
+            "type": "elev-ew",
+            "id": 1772,
+            "x": 19103,
+            "z": -601,
+            "y1": 31,
+            "y2": 10,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Temasek JCT",
+            "type": "jct",
+            "id": 1773,
+            "x": 19103,
+            "z": -999,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Main line to Temasek branch"]
+                }
+            }
+        },
+        {
+            "name": "Temasek Elevator",
+            "type": "elev-ew",
+            "id": 1774,
+            "x": 19047,
+            "z": -999,
+            "y1": 10,
+            "y2": 9,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Temasek branch"]
+                }
+            }
+        },
+        {
+            "name": "Temasek Mine",
+            "id": 1775,
+            "x": 19008,
+            "z": -999,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Temasek branch"]
+                }
+            }
+        },
+        {
+            "name": "Temasek",
+            "id": 1776,
+            "x": 18873,
+            "z": -999,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Temasek branch"]
+                }
+            }
+        },
+        {
+            "name": "An Xuyen",
+            "id": 1777,
+            "x": 19103,
+            "z": -1721,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "An Xuyen JCT",
+            "type": "jct",
+            "id": 1778,
+            "x": 19103,
+            "z": -1854,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Main line to Tear branch"]
+                }
+            }
+        },
+        {
+            "name": "Tỉ Bẫn (Tear)",
+            "id": 1779,
+            "x": 19192,
+            "z": -1854,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Tear branch"]
+                }
+            }
+        },
+        {
+            "name": "Phu Quoc",
+            "id": 1780,
+            "x": 19103,
+            "z": -2023,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Himaria JCT",
+            "type": "jct",
+            "id": 1781,
+            "x": 19103,
+            "z": -2216,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Main line to Himaria branch"]
+                }
+            }
+        },
+        {
+            "name": "Himaria Elevator",
+            "type": "elev-ew",
+            "id": 1782,
+            "x": 19103,
+            "z": -2226,
+            "y1": 10,
+            "y2": 9,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Himaria branch"]
+                }
+            }
+        },
+        {
+            "name": "Himaria Elevator",
+            "type": "jct",
+            "id": 1783,
+            "x": 19064,
+            "z": -2309,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Himaria branch to Khmer State branch"]
+                }
+            }
+        },
+        {
+            "name": "Himaria",
+            "id": 1783,
+            "x": 18880,
+            "z": -2309,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Himaria branch"]
+                }
+            }
+        },
+        {
+            "name": "Phom Penh",
+            "id": 1785,
+            "x": 19180,
+            "z": -2216,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ho Chi Minh West",
+            "id": 1786,
+            "x": 19342,
+            "z": -2216,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cambodia",
+            "type": "semi4",
+            "id": 1787,
+            "x": 19342,
+            "z": -2371,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Xan the Ham",
+            "id": 1788,
+            "x": 19342,
+            "z": -2952,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Khmer-DragonStone",
+            "id": 1789,
+            "x": 19342,
+            "z": -2973,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Khammouan (JCT)",
+            "id": 1790,
+            "x": 19342,
+            "z": -3221,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hanoi",
+            "id": 1791,
+            "x": 19307,
+            "z": -3821,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Hanoi": ["", "Main line"]
                 }
             }
         }
@@ -28950,6 +29188,54 @@
                             [19063, -2589]
                         ],
                         "stations": [[1769, "Main line"], 1770]
+                    }
+                }
+            },
+            "Singapore-Hanoi": {
+                "prefix": "",
+                "code": "Sgp-Hno",
+                "color": "ffd800",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [19103, -460],
+                            [19103, -2216],
+                            [19342, -2216],
+                            [19342, -3250],
+                            [19307, -3285],
+                            [19307, -3821]
+                        ],
+                        "stations": [1728, 1772, [1773, "Temasek branch"], 1705, 1777, [1778, "Tear branch"], 1780, [1781, "Himaria branch"], 1785, 1786, 1787, 1788, 1789, 1790, 1791]
+                    },
+                    "Temasek branch": {
+                        "vertices": [
+                            [19103, -999],
+                            [18873, -999]
+                        ],
+                        "stations": [[1773, "Main line"], 1774, 1775, 1776]
+                    },
+                    "Tear branch": {
+                        "vertices": [
+                            [19103, -1854],
+                            [19192, -1854]
+                        ],
+                        "stations": [[1778, "Main line"], 1789]
+                    },
+                    "Himaria branch": {
+                        "vertices": [
+                            [19103, -2216],
+                            [19103, -2309],
+                            [18880, -2309]
+                        ],
+                        "stations": [[1781, "Main line"], 1782, [1783, "Khmer State branch"], 1784]
+                    },
+                    "Khmer State branch": {
+                        "vertices": [
+                            [19064, -2309],
+                            [19064, -2581]
+                        ],
+                        "stations": [[1783, "Himaria branch"], 1770]
                     }
                 }
             },
