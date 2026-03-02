@@ -23015,7 +23015,6 @@
             "z": -154,
             "lines": {
                 "Indochina Subway": {
-                    "Borneo Ring Ice Road": ["", "Main line"],
                     "Singapore-Florence": ["", "Pontianak branch"]
                 }
             }
@@ -23028,6 +23027,8 @@
             "z": -154,
             "lines": {
                 "Indochina Subway": {
+                    
+                    "Borneo Ring Ice Road": ["", "Main line"],
                     "Singapore-Florence": ["", "Pontianak branch"]
                 }
             }
