@@ -67,7 +67,7 @@ Note that the capitalization does not change, and note that it is simply the str
 > [!NOTE]  
 > For other lines that are not shown on the list or to see detailed additions history, please see [the related database changes history](https://github.com/XiLeF2211/ice-highways-map/commits/main/highways.json)
 
-2 March 2026: Khammouan-Xisha Islands, Singapore-Florence, Borneo Ring Ice Road and Sebangau-Trowulan lines (edited by **nokteholda**)
+2 March 2026: Khammouan-Xisha Islands, Singapore-Florence, Borneo Ring Ice Road, Sebangau-Trowulan, Kalimantano Subway lines (edited by **nokteholda**)
 
 1 March 2026: Singapore-Hanoi line (edited by **nokteholda**)
 
