@@ -22578,6 +22578,7 @@
             "z": 440,
             "lines": {
                 "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line"],
                     "Palembang-Landjut": ["", "Main line"]
                 }
             }
@@ -23013,12 +23014,13 @@
             "z": -154,
             "lines": {
                 "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line"],
                     "Singapore-Florence": ["", "Pontianak branch"]
                 }
             }
         },
         {
-            "name": "Pontianak JCT",
+            "name": "Kapuas JCT",
             "type": "jct",
             "id": 1803,
             "x": 20359,
@@ -23060,7 +23062,8 @@
             "z": -300,
             "lines": {
                 "Indochina Subway": {
-                    "Singapore-Florence": ["", "Main line"]
+                    "Singapore-Florence": ["", "Main line"],
+                    "Borneo Ring Ice Road": ["", "Main line"]
                 }
             }
         },
@@ -23084,6 +23087,7 @@
             "z": -581,
             "lines": {
                 "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line"],
                     "Singapore-Florence": ["", "Pinecrest-Sebangau branch"]
                 }
             }
@@ -23125,13 +23129,14 @@
             }
         },
         {
-            "name": "Sebangau East JCT",
+            "name": "Hibbzstate JCT",
             "type": "jct",
             "id": 1812,
             "x": 20862,
             "z": 440,
             "lines": {
                 "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line"],
                     "Singapore-Florence": ["", "Pinecrest-Sebangau branch"]
                 }
             }
@@ -23225,7 +23230,8 @@
             "z": -104,
             "lines": {
                 "Indochina Subway": {
-                    "Singapore-Florence": ["", "Main line"]
+                    "Singapore-Florence": ["", "Main line"],
+                    "Borneo Ring Ice Road": ["", "Main line"]
                 }
             }
         },
@@ -23322,6 +23328,358 @@
             "lines": {
                 "Indochina Subway": {
                     "Singapore-Florence": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cosmaville JCT",
+            "type": "jct",
+            "id": 1829,
+            "x": 21297,
+            "z": 440,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line to Pulau Laut branch"]
+                }
+            }
+        },
+        {
+            "name": "Pulau Laut",
+            "id": 1830,
+            "x": 21297,
+            "z": 553,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Pulau Laut branch"]
+                }
+            }
+        },
+        {
+            "name": "Sebangau Factory JCT",
+            "type": "jct",
+            "id": 1821,
+            "x": 21027,
+            "z": 440,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line to Sebangau Factory branch"]
+                }
+            }
+        },
+        {
+            "name": "Sebangau Factory",
+            "id": 1832,
+            "x": 21027,
+            "z": 352,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Sebangau Factory branch"]
+                }
+            }
+        },
+        {
+            "name": "Hibbzstate",
+            "id": 1833,
+            "x": 20975,
+            "z": 440,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[20963, 421], [20980, 433]],
+                [[20959, 430], [20992, 443]],
+                [[20967, 439], [20984, 446]]
+            ]
+        },
+        {
+            "name": "Sebangau (JCT)",
+            "id": 1834,
+            "x": 20626,
+            "z": 440,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[20622, 432], [20681, 447]],
+                [[20616, 437], [20626, 443]],
+                [[20632, 434], [20653, 463]],
+                [[20624, 438], [20657, 455]]
+            ]
+        },
+        {
+            "name": "Landjut",
+            "id": 1835,
+            "x": 20359,
+            "z": 327,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "SK",
+            "id": 1836,
+            "x": 20359,
+            "z": 184,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kapuas",
+            "id": 1837,
+            "x": 20359,
+            "z": -168,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "West Borneo City",
+            "id": 1838,
+            "x": 20359,
+            "z": -460,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bruit Island JCT",
+            "type": "jct",
+            "id": 1839,
+            "x": 20382,
+            "z": -581,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line to Bruit Island branch"]
+                }
+            }
+        },
+        {
+            "name": "Bruit Island",
+            "id": 1840,
+            "x": 20382,
+            "z": -622,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Bruit Island branch"]
+                }
+            }
+        },
+        {
+            "name": "Serentina",
+            "id": 1841,
+            "x": 20520,
+            "z": -581,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Pinecrest",
+            "id": 1842,
+            "x": 20773,
+            "z": -581,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sarawak JCT",
+            "type": "jct",
+            "id": 1843,
+            "x": 20902,
+            "z": -791,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sarawak",
+            "id": 1844,
+            "x": 20902,
+            "z": -852,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sarawak North JCT",
+            "type": "jct",
+            "id": 1845,
+            "x": 20902,
+            "z": -1175,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line to Sarawak Sea Access"]
+                }
+            }
+        },
+        {
+            "name": "Sarawak Open Sea Access Elevator",
+            "type": "elev-we",
+            "id": 1846,
+            "x": 20727,
+            "z": -1175,
+            "y1": 40,
+            "y2": 63,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Sarawak Sea Access"]
+                }
+            }
+        },
+        {
+            "name": "Crystal Isles",
+            "id": 1847,
+            "x": 21175,
+            "z": -1175,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Plopkota",
+            "id": 1848,
+            "x": 21279,
+            "z": -1175,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Israel",
+            "id": 1849,
+            "x": 21597,
+            "z": -1175,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Lahad Datu",
+            "id": 1850,
+            "x": 21641,
+            "z": -1095,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sanko",
+            "id": 1851,
+            "x": 21641,
+            "z": -987,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tarakan JCT",
+            "type": "jct",
+            "id": 1852,
+            "x": 21641,
+            "z": -759,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line to Tarakan branch"]
+                }
+            }
+        },
+        {
+            "name": "Tarakan",
+            "id": 1853,
+            "x": 21511,
+            "z": -759,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Tarakan branch"]
+                }
+            }
+        },
+        {
+            "name": "Protown",
+            "id": 1854,
+            "x": 21436,
+            "z": -759,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Tarakan branch"]
+                }
+            }
+        },
+        {
+            "name": "Aurburn JCT",
+            "type": "jct",
+            "id": 1855,
+            "x": 21641,
+            "z": -517,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line to Aurburn branch"]
+                }
+            }
+        },
+        {
+            "name": "Aurburn",
+            "id": 1856,
+            "x": 21591,
+            "z": -517,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Aurburn branch"]
+                }
+            }
+        },
+        {
+            "name": "2nd Emerald Isles JCT",
+            "type": "jct",
+            "id": 1857,
+            "x": 21768,
+            "z": -282,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Main line to Emerald Isles branch"]
+                }
+            }
+        },
+        {
+            "name": "Emerald Isles",
+            "id": 1858,
+            "x": 21768,
+            "z": -314,
+            "lines": {
+                "Indochina Subway": {
+                    "Borneo Ring Ice Road": ["", "Emerald Isles branch"]
                 }
             }
         }
@@ -29904,6 +30262,78 @@
                             [21959, 182]
                         ],
                         "stations": [[1826, "Main line"], 1827]
+                    }
+                }
+            },
+            "Borneo Ring Ice Road": {
+                "prefix": "",
+                "code": "BRIR",
+                "color": "4cff00",
+                "y": 40,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [21297, 384],
+                            [21297, 440],
+                            [20359, 440],
+                            [20360, -581],
+                            [20902, -581],
+                            [20902, -1175],
+                            [21641, -1175],
+                            [21641, -282],
+                            [21768, -282],
+                            [21768, -104]
+                        ],
+                        "stations": [[1829, "Pulau Laut branch"], [1831, "Sebangau Factory branch"], 1833, 1812, 1834, 1766, 1835, 1836, 1803, 1837, 1806, 1838, [1839, "Bruit Island branch"], 1841, 1842, 1808, 1843, 1844, [1845, "Sarawak Sea Access"], 1847, 1848, 1849, 1850, 1851, [1852, "Tarakan branch"], [1855, "Aurburn branch"], [1857, "Emerald Isles branch"], 1820]
+                    },
+                    "Pulau Laut branch": {
+                        "vertices": [
+                            [21297, 440],
+                            [21297, 553]
+                        ],
+                        "stations": [[1829, "Main line"], 1830]
+                    },
+                    "Sebangau Factory branch": {
+                        "vertices": [
+                            [21027, 440],
+                            [21027, 352]
+                        ],
+                        "stations": [[1831, "Main line"], 1832]
+                    },
+                    "Bruit Island branch": {
+                        "vertices": [
+                            [20382, -581],
+                            [20382, -622]
+                        ],
+                        "stations": [[1839, "Main line"], 1840]
+                    },
+                    "Sarawak Sea Access": {
+                        "vertices": [
+                            [20902, -1175],
+                            [20727, -1175]
+                        ],
+                        "stations": [[1845, "Main line"], 1846]
+                    },
+                    "Tarakan branch": {
+                        "vertices": [
+                            [21641, -759],
+                            [21436, -759]
+                        ],
+                        "stations": [[1852, "Main line"], 1853, 1854]
+                    },
+                    "Aurburn branch": {
+                        "vertices": [
+                            [21641, -517],
+                            [21591, -517]
+                        ],
+                        "stations": [[1855, "Main line"], 1856]
+                    },
+                    "Emerald Isles branch": {
+                        "vertices": [
+                            [21768, -282],
+                            [21768, -314]
+                        ],
+                        "stations": [[1857, "Main line"], 1858]
                     }
                 }
             }
