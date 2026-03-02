@@ -22123,6 +22123,7 @@
             "z": -460,
             "lines": {
                 "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line"],
                     "Singapore-Hanoi": ["", "Main line"],
                     "Singapore-Bali": ["", "Main line"]
                 }
@@ -22936,6 +22937,391 @@
             "lines": {
                 "Indochina Subway": {
                     "Khammouan-Xisha Islands": ["", "Haikou branch"]
+                }
+            }
+        },
+        {
+            "name": "Singapore Grand (Saguenay)",
+            "id": 1797,
+            "x": 19060,
+            "z": -460,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Singapore Elevator",
+            "type": "elev-we",
+            "id": 1798,
+            "x": 19073,
+            "z": -460,
+            "y1": 40,
+            "y2": 31,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Natuna Sea Elevator",
+            "type": "elev-ew",
+            "id": 1799,
+            "x": 19842,
+            "z": -460,
+            "y1": 31,
+            "y2": 40,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Melbourg",
+            "id": 1800,
+            "x": 20002,
+            "z": -405,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[19989, -418], [20008, -402]],
+                [[19999, -406], [20006, -400]]
+            ]
+        },
+        {
+            "name": "Melbourg JCT",
+            "type": "jct",
+            "id": 1801,
+            "x": 20008,
+            "z": -300,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line to Pontianak branch"]
+                }
+            }
+        },
+        {
+            "name": "Pontianak",
+            "id": 1802,
+            "x": 20040,
+            "z": -154,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Pontianak branch"]
+                }
+            }
+        },
+        {
+            "name": "Pontianak JCT",
+            "type": "jct",
+            "id": 1803,
+            "x": 20359,
+            "z": -154,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Pontianak branch"]
+                }
+            }
+        },
+        {
+            "name": "Melbourg East Mine",
+            "id": 1804,
+            "x": 20138,
+            "z": -300,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bengkayang Emergency Exit",
+            "type": "semi3",
+            "id": 1805,
+            "x": 20200,
+            "z": -300,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cyssus JCT",
+            "type": "jct",
+            "id": 1806,
+            "x": 20360,
+            "z": -300,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sebangau Lake",
+            "type": "semi3",
+            "id": 1807,
+            "x": 20533,
+            "z": -300,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Pinecrest JCT",
+            "type": "jct",
+            "id": 1808,
+            "x": 20862,
+            "z": -581,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Pinecrest-Sebangau branch"]
+                }
+            }
+        },
+        {
+            "name": "Stoneland JCT",
+            "type": "jct",
+            "id": 1809,
+            "x": 20862,
+            "z": -425,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Pinecrest-Sebangau branch"]
+                }
+            }
+        },
+        {
+            "name": "Godly North JCT",
+            "type": "jct",
+            "id": 1810,
+            "x": 20862,
+            "z": -300,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line to Pinecrest-Sebangau branch"]
+                }
+            }
+        },
+        {
+            "name": "Godly JCT",
+            "type": "jct",
+            "id": 1811,
+            "x": 20862,
+            "z": -104,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line to Pinecrest-Sebangau branch"]
+                }
+            }
+        },
+        {
+            "name": "Sebangau East JCT",
+            "type": "jct",
+            "id": 1812,
+            "x": 20862,
+            "z": 440,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Pinecrest-Sebangau branch"]
+                }
+            }
+        },
+        {
+            "name": "Kalimantano JCT",
+            "type": "jct",
+            "id": 1813,
+            "x": 21125,
+            "z": -104,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "RMF Emergency Exit",
+            "id": 1814,
+            "x": 21239,
+            "z": -104,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Albany Unknown Historic House",
+            "type": "semi3",
+            "id": 1815,
+            "x": 21282,
+            "z": -104,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Petronas",
+            "type": "semi3",
+            "id": 1816,
+            "x": 21362,
+            "z": -104,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Albany Unnamed Restaurant",
+            "id": 1817,
+            "x": 21432,
+            "z": -104,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Albany (JCT)",
+            "id": 1818,
+            "x": 21479,
+            "z": -104,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Albany East JCT",
+            "type": "jct",
+            "id": 1819,
+            "x": 21518,
+            "z": -104,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Emerald Isles JCT",
+            "type": "jct",
+            "id": 1820,
+            "x": 21768,
+            "z": -104,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Port Ampana JCT",
+            "type": "jct",
+            "id": 1821,
+            "x": 21903,
+            "z": -104,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line to Port Ampana branch"]
+                }
+            }
+        },
+        {
+            "name": "Port Ampana",
+            "id": 1822,
+            "x": 21938,
+            "z": -104,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Port Ampana branch"]
+                }
+            }
+        },
+        {
+            "name": "2nd Cape Cod North JCT",
+            "type": "jct",
+            "id": 1823,
+            "x": 21903,
+            "z": 49,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line to Cape Cod connector"]
+                }
+            }
+        },
+        {
+            "name": "3rd Cape Cod North JCT",
+            "type": "jct",
+            "id": 1824,
+            "x": 21841,
+            "z": 69,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Cape Cod connector"]
+                }
+            }
+        },
+        {
+            "name": "Cape Cod North JCT",
+            "type": "jct",
+            "id": 1825,
+            "x": 21903,
+            "z": 69,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "King Troy Abode JCT",
+            "type": "jct",
+            "id": 1826,
+            "x": 21959,
+            "z": 69,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line to King Troy Abode branch"]
+                }
+            }
+        },
+        {
+            "name": "King Troy Abode",
+            "id": 1827,
+            "x": 21959,
+            "z": 182,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "King Troy Abode branch"]
+                }
+            }
+        },
+        {
+            "name": "Florence Elevator",
+            "type": "elev-we",
+            "id": 1828,
+            "x": 22607,
+            "z": 69,
+            "y1": 40,
+            "y2": 16,
+            "lines": {
+                "Indochina Subway": {
+                    "Singapore-Florence": ["", "Main line"]
                 }
             }
         }
@@ -29458,6 +29844,68 @@
                         "stations": [[1763, "Main line"], 1764]
                     }
                 }
+            },
+            "Singapore-Florence": {
+                "prefix": "",
+                "code": "Sgp-Frn",
+                "color": "00ffff",
+                "y": 40,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [19060, -460],
+                            [19947, -460],
+                            [19947, -412],
+                            [19991, -412],
+                            [19991, -405],
+                            [20008, -405],
+                            [20008, -300],
+                            [20862, -300],
+                            [20862, -104],
+                            [21903, -104],
+                            [21903, 69],
+                            [22816, 69]
+                        ],
+                        "stations": [1797, 1798, 1728, 1799, 1800, [1801, "Pontianak branch"], 1804, 1805, 1806, 1807, [1810, "Pinecrest-Sebangau branch"], [1811, "Pinecrest-Sebangau branch"], 1813, 1814, 1815, 1816, 1817, 1818, 1819, 1820, [1821, "Port Ampana branch"], [1823, "Cape Cod connector"], [1826, "King Troy Abode branch"], 1828]
+                    },
+                    "Pontianak branch": {
+                        "vertices": [
+                            [20008, -300],
+                            [20008, -154],
+                            [20359, -154]
+                        ],
+                        "stations": [[1801, "Main line"], 1802, 1803]
+                    },
+                    "Pinecrest-Sebangau branch": {
+                        "vertices": [
+                            [20862, -581],
+                            [20862, 440]
+                        ],
+                        "stations": [1808, 1809, [1810, "Main line"], [1811, "Main line"], [1812, "Main line"]]
+                    },
+                    "Port Ampana branch": {
+                        "vertices": [
+                            [21903, -104],
+                            [21938, -104]
+                        ],
+                        "stations": [[1821, "Main line"], 1822]
+                    },
+                    "Cape Cod connector": {
+                        "vertices": [
+                            [21903, 49],
+                            [21841, 49],
+                            [21841, 69]
+                        ],
+                        "stations": [[1823, "Main line"], 1824]
+                    },
+                    "King Troy Abode branch": {
+                        "vertices": [
+                            [21959, 69],
+                            [21959, 182]
+                        ],
+                        "stations": [[1827, "Main line"], 1828]
+                    }
+                }
             }
         },
         "Local": {
@@ -29769,7 +30217,7 @@
             },
             "Konrinzi": {
                 "prefix": "",
-                "code": "金林寺",
+                "code": "金輪寺",
                 "color": "016a6d",
                 "y": 83,
                 "branches": {
