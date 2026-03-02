@@ -23102,7 +23102,8 @@
             "z": -425,
             "lines": {
                 "Indochina Subway": {
-                    "Singapore-Florence": ["", "Pinecrest-Sebangau branch"]
+                    "Singapore-Florence": ["", "Pinecrest-Sebangau branch"],
+                    "Kalimantano Subway": ["", "Stoneland branch"]
                 }
             }
         },
@@ -23151,7 +23152,8 @@
             "z": -104,
             "lines": {
                 "Indochina Subway": {
-                    "Singapore-Florence": ["", "Main line"]
+                    "Singapore-Florence": ["", "Main line"],
+                    "Kalimantano Subway": ["", "Main line"]
                 }
             }
         },
@@ -23507,10 +23509,11 @@
             "type": "jct",
             "id": 1843,
             "x": 20902,
-            "z": -791,
+            "z": -790,
             "lines": {
                 "Indochina Subway": {
-                    "Borneo Ring Ice Road": ["", "Main line"]
+                    "Borneo Ring Ice Road": ["", "Main line"],
+                    "Kalimantano Subway": ["", "Sarawak branch"]
                 }
             }
         },
@@ -23708,6 +23711,98 @@
             "lines": {
                 "Indochina Subway": {
                     "Sebangau-Trowulan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Catville JCT",
+            "type": "jct",
+            "id": 1861,
+            "x": 21125,
+            "z": -153,
+            "lines": {
+                "Indochina Subway": {
+                    "Kalimantano Subway": ["", "Main line to Catville branch"]
+                }
+            }
+        },
+        {
+            "name": "Catville",
+            "id": 1862,
+            "x": 21190,
+            "z": -153,
+            "lines": {
+                "Indochina Subway": {
+                    "Kalimantano Subway": ["", "Catville branch"]
+                }
+            }
+        },
+        {
+            "name": "Alboria",
+            "id": 1863,
+            "x": 21125,
+            "z": -309,
+            "lines": {
+                "Indochina Subway": {
+                    "Kalimantano Subway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Rodail Base JCT",
+            "type": "jct",
+            "id": 1864,
+            "x": 21125,
+            "z": -425,
+            "lines": {
+                "Indochina Subway": {
+                    "Kalimantano Subway": ["", "Main line to Stoneland branch"]
+                }
+            }
+        },
+        {
+            "name": "Stoneland",
+            "id": 1865,
+            "x": 20754,
+            "z": -425,
+            "lines": {
+                "Indochina Subway": {
+                    "Kalimantano Subway": ["", "Stoneland branch"]
+                }
+            }
+        },
+        {
+            "name": "Rodail Base",
+            "type": "semi4",
+            "id": 1866,
+            "x": 21125,
+            "z": -428,
+            "lines": {
+                "Indochina Subway": {
+                    "Kalimantano Subway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "ZND West JCT",
+            "type": "jct",
+            "id": 1867,
+            "x": 21125,
+            "z": -790,
+            "lines": {
+                "Indochina Subway": {
+                    "Kalimantano Subway": ["", "Main line to Sarawak branch"]
+                }
+            }
+        },
+        {
+            "name": "ZND Empire",
+            "id": 1868,
+            "x": 21400,
+            "z": -862,
+            "lines": {
+                "Indochina Subway": {
+                    "Kalimantano Subway": ["", "Main line"]
                 }
             }
         }
@@ -30381,6 +30476,44 @@
                             [21768, -314]
                         ],
                         "stations": [[1857, "Main line"], 1858]
+                    }
+                }
+            },
+            "Kalimantano Subway": {
+                "prefix": "",
+                "code": "KS",
+                "color": "9A912F",
+                "y": 40,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [21125, -104],
+                            [21125, -790],
+                            [21400, -790],
+                            [21400, -862]
+                        ],
+                        "stations": [1813, [1861, "Catville branch"], 1863, [1864, "Stoneland branch"], 1866, [1867, "Sarawak branch"], 1868]
+                    },
+                    "Catville branch": {
+                        "vertices": [
+                            [21125, -153],
+                            [21190, -153]
+                        ],
+                        "stations": [[1861, "Main line"], 1862]
+                    },
+                    "Stoneland branch": {
+                        "vertices": [
+                            [21125, -425],
+                            [20754, -425]
+                        ],
+                        "stations": [[1864, "Main line"], 1809, 1865]
+                    },
+                    "Sarawak branch": {
+                        "vertices": [
+                            [21125, -790],
+                            [20902, -790]
+                        ],
+                        "stations": [[1867, "Main line"], 1843]
                     }
                 }
             }
