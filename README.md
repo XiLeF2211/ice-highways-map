@@ -1,7 +1,7 @@
 # EarthMC Ice Highways Map
 
 This is a tool that aims to give information on stations and lines across the EarthMC server. However, as of March 2nd, 2026, 
-it only has 1902 (1859+43) stations across 304 (295+9) lines (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
+it only has 1904 (1861+43) stations across 305 (296+9) lines (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
 
 # Adding lines to the map (direct push commit method) tutorial
 
@@ -67,7 +67,7 @@ Note that the capitalization does not change, and note that it is simply the str
 > [!NOTE]  
 > For other lines that are not shown on the list or to see detailed additions history, please see [the related database changes history](https://github.com/XiLeF2211/ice-highways-map/commits/main/highways.json)
 
-2 March 2026: Khammouan-Xisha Islands, Singapore-Florence and Borneo Ring Ice Road lines (edited by **nokteholda**)
+2 March 2026: Khammouan-Xisha Islands, Singapore-Florence, Borneo Ring Ice Road and Sebangau-Trowulan lines (edited by **nokteholda**)
 
 1 March 2026: Singapore-Hanoi line (edited by **nokteholda**)
 

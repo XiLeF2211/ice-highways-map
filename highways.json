@@ -22360,7 +22360,8 @@
             "z": 1131,
             "lines": {
                 "Indochina Subway": {
-                    "Singapore-Bali": ["", "Main line"]
+                    "Singapore-Bali": ["", "Main line"],
+                    "Sebangau-Trowulan": ["", "Main line"]
                 }
             }
         },
@@ -23400,7 +23401,8 @@
             "z": 440,
             "lines": {
                 "Indochina Subway": {
-                    "Borneo Ring Ice Road": ["", "Main line"]
+                    "Borneo Ring Ice Road": ["", "Main line"],
+                    "Sebangau-Trowulan": ["", "Main line"]
                 }
             },
             "areas": [
@@ -23680,6 +23682,31 @@
             "lines": {
                 "Indochina Subway": {
                     "Borneo Ring Ice Road": ["", "Emerald Isles branch"]
+                }
+            }
+        },
+        {
+            "name": "Sebangau Elevator",
+            "type": "elev-ew",
+            "id": 1859,
+            "x": 20629,
+            "z": 604,
+            "y1": 40,
+            "y2": 31,
+            "lines": {
+                "Indochina Subway": {
+                    "Sebangau-Trowulan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bawean",
+            "id": 1860,
+            "x": 20626,
+            "z": 935,
+            "lines": {
+                "Indochina Subway": {
+                    "Sebangau-Trowulan": ["", "Main line"]
                 }
             }
         }
@@ -30200,6 +30227,25 @@
                             [19816, 436]
                         ],
                         "stations": [[1763, "Main line"], 1764]
+                    }
+                }
+            },
+            "Sebangau-Trowulan": {
+                "prefix": "",
+                "code": "Sbg-Twl",
+                "color": "b200ff",
+                "y": 31,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [20626, 440],
+                            [20626, 608],
+                            [20629, 608],
+                            [20629, 601],
+                            [20626, 601],
+                            [20626, 1131]
+                        ],
+                        "stations": [1834, 1859, 1860, 1748]
                     }
                 }
             },
