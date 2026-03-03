@@ -17677,8 +17677,11 @@
             "type": "jct",
             "id": 1377,
             "x": 22169,
-            "z": 1428,
+            "z": 1427,
             "lines": {
+                "Indochina Subway": {
+                    "Reok-Bunaken": ["", "Main line"]
+                },
                 "Sulawesian Highway": {
                     "Bubba - Tatam": ["", "Main line"]
                 }
@@ -23282,7 +23285,8 @@
             "z": 69,
             "lines": {
                 "Indochina Subway": {
-                    "Singapore-Florence": ["", "Cape Cod connector"]
+                    "Singapore-Florence": ["", "Cape Cod connector"],
+                    "Cape Cod-Bunaken": ["", "Main line"]
                 }
             }
         },
@@ -23294,7 +23298,8 @@
             "z": 69,
             "lines": {
                 "Indochina Subway": {
-                    "Singapore-Florence": ["", "Main line"]
+                    "Singapore-Florence": ["", "Main line"],
+                    "Cape Cod-Bunaken": ["", "Main line"]
                 }
             }
         },
@@ -23343,7 +23348,8 @@
             "z": 440,
             "lines": {
                 "Indochina Subway": {
-                    "Borneo Ring Ice Road": ["", "Main line to Pulau Laut branch"]
+                    "Borneo Ring Ice Road": ["", "Main line to Pulau Laut branch"],
+                    "Cape Cod-Bunaken": ["", "BRIR connector"]
                 }
             }
         },
@@ -23803,6 +23809,157 @@
             "lines": {
                 "Indochina Subway": {
                     "Kalimantano Subway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cape Cod",
+            "id": 1869,
+            "x": 21867,
+            "z": 69,
+            "lines": {
+                "Indochina Subway": {
+                    "Cape Cod-Bunaken": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cape Cod South JCT",
+            "type": "jct",
+            "id": 1870,
+            "x": 21915,
+            "z": 328,
+            "lines": {
+                "Indochina Subway": {
+                    "Cape Cod-Bunaken": ["", "Main line to Luwu branch"]
+                }
+            }
+        },
+        {
+            "name": "Immigrants (Luwu)",
+            "id": 1871,
+            "x": 22086,
+            "z": 328,
+            "lines": {
+                "Indochina Subway": {
+                    "Cape Cod-Bunaken": ["", "Luwu branch"]
+                }
+            }
+        },
+        {
+            "name": "2nd Cape Cod South JCT",
+            "type": "jct",
+            "id": 1872,
+            "x": 21915,
+            "z": 440,
+            "lines": {
+                "Indochina Subway": {
+                    "Cape Cod-Bunaken": ["", "Main line to BRIR connector"]
+                }
+            }
+        },
+        {
+            "name": "Cape Cod South",
+            "id": 1873,
+            "x": 21769,
+            "z": 440,
+            "lines": {
+                "Indochina Subway": {
+                    "Cape Cod-Bunaken": ["", "BRIR connector"]
+                }
+            }
+        },
+        {
+            "name": "Manado JCT",
+            "type": "jct",
+            "id": 1874,
+            "x": 21915,
+            "z": 581,
+            "lines": {
+                "Indochina Subway": {
+                    "Cape Cod-Bunaken": ["", "Main line to Manado branch"]
+                }
+            }
+        },
+        {
+            "name": "Manado",
+            "id": 1875,
+            "x": 21915,
+            "z": 797,
+            "lines": {
+                "Indochina Subway": {
+                    "Cape Cod-Bunaken": ["", "Manado branch"]
+                }
+            }
+        },
+        {
+            "name": "Fort Cod",
+            "id": 1876,
+            "x": 22281,
+            "z": 581,
+            "lines": {
+                "Indochina Subway": {
+                    "Cape Cod-Bunaken": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kendari",
+            "id": 1877,
+            "x": 22428,
+            "z": 581,
+            "lines": {
+                "Indochina Subway": {
+                    "Cape Cod-Bunaken": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Kendari",
+            "id": 1878,
+            "x": 22428,
+            "z": 772,
+            "lines": {
+                "Indochina Subway": {
+                    "Cape Cod-Bunaken": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kendari Elevator",
+            "type": "elev-ew",
+            "id": 1879,
+            "x": 22428,
+            "z": 777,
+            "y1": 40,
+            "y2": 31,
+            "lines": {
+                "Indochina Subway": {
+                    "Cape Cod-Bunaken": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bunaken JCT",
+            "type": "jct",
+            "id": 1880,
+            "x": 22428,
+            "z": 1427,
+            "lines": {
+                "Indochina Subway": {
+                    "Cape Cod-Bunaken": ["", "Main line"],
+                    "Reok-Bunaken": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bunaken",
+            "id": 1880,
+            "x": 22469,
+            "z": 1427,
+            "lines": {
+                "Indochina Subway": {
+                    "Reok-Bunaken": ["", "Main line"]
                 }
             }
         }
@@ -25398,7 +25555,7 @@
                 "prefix": "",
                 "code": "SU-AU",
                 "color": "a2a2a2",
-                "y": 1,
+                "y": 2,
                 "branches": {
                     "": {
                         "vertices": [
@@ -25415,7 +25572,7 @@
                 "prefix": "",
                 "code": "BU-TA",
                 "color": "a2a2a2",
-                "y": 1,
+                "y": 2,
                 "branches": {
                     "Main line": {
                         "vertices": [
@@ -30326,6 +30483,22 @@
                     }
                 }
             },
+            "Reok-Bunaken ": {
+                "prefix": "",
+                "code": "Reo-Bnk",
+                "color": "b200ff",
+                "y": 31,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [22064, 1427],
+                            [22542, 1427],
+                            [22542, 1506]
+                        ],
+                        "stations": [1377, 1380, 1381]
+                    }
+                }
+            },
             "Sebangau-Trowulan": {
                 "prefix": "",
                 "code": "Sbg-Twl",
@@ -30514,6 +30687,47 @@
                             [20902, -790]
                         ],
                         "stations": [[1867, "Main line"], 1843]
+                    }
+                }
+            },
+            "Cape Cod-Bunaken": {
+                "prefix": "",
+                "code": "CCd-Bnk",
+                "color": "ff6a00",
+                "y": 40,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [21903, 69],
+                            [21804, 69],
+                            [21804, 328],
+                            [21915, 328],
+                            [21915, 581],
+                            [22428, 581],
+                            [22428, 1427]
+                        ],
+                        "stations": [1825, 1869, 1824, [1870, "Luwu branch"], [1872, "BRIR connector"], [1874, "Manado JCT"], 1876, 1877, 1878, 1879, 1880]
+                    },
+                    "Luwu branch": {
+                        "vertices": [
+                            [21915, 328],
+                            [22086, 328]
+                        ],
+                        "stations": [[1870, "Main line"], 1871]
+                    },
+                    "BRIR connector": {
+                        "vertices": [
+                            [21915, 440],
+                            [21297, 440]
+                        ],
+                        "stations": [[1872, "Main line"], 1873, 1829]
+                    },
+                    "Manado branch": {
+                        "vertices": [
+                            [21915, 581],
+                            [21915, 797]
+                        ],
+                        "stations": [[1874, "Main line"], 1875]
                     }
                 }
             }

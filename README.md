@@ -1,7 +1,7 @@
 # EarthMC Ice Highways Map
 
-This is a tool that aims to give information on stations and lines across the EarthMC server. However, as of March 2nd, 2026, 
-it only has 1912 (1869+43) stations across 306 (297+9) lines (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
+This is a tool that aims to give information on stations and lines across the EarthMC server. However, as of March 3rd, 2026, 
+it only has 1925 (1882+43) stations across 308 (299+9) lines (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
 
 # Adding lines to the map (direct push commit method) tutorial
 
@@ -66,6 +66,8 @@ Note that the capitalization does not change, and note that it is simply the str
 
 > [!NOTE]  
 > For other lines that are not shown on the list or to see detailed additions history, please see [the related database changes history](https://github.com/XiLeF2211/ice-highways-map/commits/main/highways.json)
+
+3 March 2026: Cape Cod-Bunaken and Reok-Bunaken lines (edited by **nokteholda**)
 
 2 March 2026: Khammouan-Xisha Islands, Singapore-Florence, Borneo Ring Ice Road, Sebangau-Trowulan, Kalimantano Subway lines (edited by **nokteholda**)
 
