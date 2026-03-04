@@ -23214,6 +23214,9 @@
             "lines": {
                 "Indochina Subway": {
                     "Singapore-Florence": ["", "Main line"]
+                },
+                "Local": {
+                    "Albany High Speed Icerail": ["", "Main line"]
                 }
             }
         },
@@ -23226,6 +23229,9 @@
             "lines": {
                 "Indochina Subway": {
                     "Singapore-Florence": ["", "Main line"]
+                },
+                "Local": {
+                    "Albany High Speed Icerail": ["", "Volkov House branch"]
                 }
             }
         },
@@ -23954,12 +23960,114 @@
         },
         {
             "name": "Bunaken",
-            "id": 1880,
+            "id": 1881,
             "x": 22469,
             "z": 1427,
             "lines": {
                 "Indochina Subway": {
                     "Reok-Bunaken": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Albany South JCT",
+            "type": "jct",
+            "id": 1882,
+            "x": 21479,
+            "z": -43,
+            "lines": {
+                "Local": {
+                    "Albany High Speed Icerail": ["", "Main line to Delta branch"]
+                }
+            }
+        },
+        {
+            "name": "Volkov House",
+            "id": 1883,
+            "x": 21518,
+            "z": -64,
+            "lines": {
+                "Local": {
+                    "Albany High Speed Icerail": ["", "Volkov House branch"]
+                }
+            }
+        },
+        {
+            "name": "Delta JCT",
+            "type": "jct",
+            "id": 1884,
+            "x": 21518,
+            "z": -43,
+            "lines": {
+                "Local": {
+                    "Albany High Speed Icerail": ["", "Delta branch to Volkov House branch"]
+                }
+            }
+        },
+        {
+            "name": "Delta",
+            "id": 1885,
+            "x": 21532,
+            "z": -43,
+            "lines": {
+                "Local": {
+                    "Albany High Speed Icerail": ["", "Delta branch"]
+                }
+            }
+        },
+        {
+            "name": "Shredder123's House",
+            "id": 1886,
+            "x": 21448,
+            "z": -43,
+            "lines": {
+                "Local": {
+                    "Albany High Speed Icerail": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Historic",
+            "id": 1887,
+            "x": 21404,
+            "z": 25,
+            "lines": {
+                "Local": {
+                    "Albany High Speed Icerail": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "2nd Albany South JCT",
+            "type": "jct",
+            "id": 1888,
+            "x": 21297,
+            "z": 25,
+            "lines": {
+                "Local": {
+                    "Albany High Speed Icerail": ["", "Main line to Albany Military Academy branch"]
+                }
+            }
+        },
+        {
+            "name": "Albany Military Academy",
+            "id": 1889,
+            "x": 21272,
+            "z": 51,
+            "lines": {
+                "Local": {
+                    "Albany High Speed Icerail": ["", "Albany Military Academy branch"]
+                }
+            }
+        },
+        {
+            "name": "Cosmaville",
+            "id": 1890,
+            "x": 21297,
+            "z": 318,
+            "lines": {
+                "Local": {
+                    "Albany High Speed Icerail": ["", "Main line"]
                 }
             }
         }
@@ -31272,6 +31380,47 @@
                             [24186, -6999.5]
                         ],
                         "stations": [1656, 1657, 1658]
+                    }
+                }
+            },
+            "Albany High Speed Icerail": {
+                "prefix": "",
+                "code": "AHSR",
+                "color": "00ffa5",
+                "y": 40,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [21479, -104],
+                            [21479, -43],
+                            [21404, -43],
+                            [21404, 25],
+                            [21297, 25],
+                            [21297, 373]
+                        ],
+                        "stations": []
+                    },
+                    "Delta branch": {
+                        "vertices": [
+                            [21479, -43],
+                            [21532, -43]
+                        ],
+                        "stations": [[1861, "Main line"], 1862]
+                    },
+                    "Volkov House branch": {
+                        "vertices": [
+                            [21518, -43],
+                            [21518, -104]
+                        ],
+                        "stations": [[1864, "Main line"], 1809, 1865]
+                    },
+                    "Albany Military Academy branch": {
+                        "vertices": [
+                            [21297, 25],
+                            [21272, 25],
+                            [21272, 51]
+                        ],
+                        "stations": [[1867, "Main line"], 1843]
                     }
                 }
             }
