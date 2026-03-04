@@ -31398,21 +31398,21 @@
                             [21297, 25],
                             [21297, 373]
                         ],
-                        "stations": []
+                        "stations": [1818, [1882, "Delta branch"], 1886, 1887, [1888, "Albany Military Academy branch"], 1890]
                     },
                     "Delta branch": {
                         "vertices": [
                             [21479, -43],
                             [21532, -43]
                         ],
-                        "stations": [[1861, "Main line"], 1862]
+                        "stations": [[1882, "Main line"], [1884, "Volkov House branch"], 1885]
                     },
                     "Volkov House branch": {
                         "vertices": [
                             [21518, -43],
                             [21518, -104]
                         ],
-                        "stations": [[1864, "Main line"], 1809, 1865]
+                        "stations": [1819, 1883, [1882, "Delta branch"]]
                     },
                     "Albany Military Academy branch": {
                         "vertices": [
@@ -31420,7 +31420,7 @@
                             [21272, 25],
                             [21272, 51]
                         ],
-                        "stations": [[1867, "Main line"], 1843]
+                        "stations": [[1888, "Main line"], 1889]
                     }
                 }
             }
