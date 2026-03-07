@@ -24094,6 +24094,17 @@
                 }
             },
             "notes": "Japanese name: 未来"
+        },
+        {
+            "name": "Kurkat",
+            "id": 1893,
+            "x": 12524,
+            "z": -7500,
+            "lines": {
+                "TNIH": {
+                    "Loopstan Main": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -24661,7 +24672,7 @@
                             [12588, -6446],
                             [12588, -6771]
                         ],
-                        "stations": [222, 261, 269, 270, 271, 273, 274, 275, 276, 277, 255, [278, "Sand branch"], 280, 281, 282, 283, 284, 555, [469, "SkyHaven JCT connector"], 600, 470, [488, "Persia Region Connector Branch"], 872, 895, 896, 264, 265, 267, 268, 222],
+                        "stations": [222, 261, 269, 270, 1893, 271, 273, 274, 275, 276, 277, 255, [278, "Sand branch"], 280, 281, 282, 283, 284, 555, [469, "SkyHaven JCT connector"], 600, 470, [488, "Persia Region Connector Branch"], 872, 895, 896, 264, 265, 267, 268, 222],
                         "concurrencies": {
                             "TNIH.Afghan": [
                                 [12000, -6468],
