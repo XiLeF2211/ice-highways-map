@@ -830,14 +830,14 @@
             }
         },
         {
-            "name": "Santulan  JCT",
+            "name": "Santulan JCT",
             "type": "jct",
             "id": 68,
             "x": 14663,
             "z": -4780,
             "lines": {
                 "TNIH": {
-                    "Bangla-Caspian": ["", "Main line to Santulan branch"]
+                    "Bangla-Caspian": ["", "Main line to Jittleyang branch"]
                 }
             }
         },
@@ -2837,7 +2837,7 @@
             "z": -4822,
             "lines": {
                 "TNIH": {
-                    "Bangla-Caspian": ["", "Santulan branch"]
+                    "Bangla-Caspian": ["", "Jittleyang branch"]
                 }
             }
         },
@@ -24105,6 +24105,63 @@
                     "Loopstan Main": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Patna JCT",
+            "type": "jct",
+            "id": 1894,
+            "x": 15601,
+            "z": -4780,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Main line to Patna branch"]
+                }
+            }
+        },
+        {
+            "name": "Patna",
+            "id": 1895,
+            "x": 15601,
+            "z": -4829,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Patna branch"]
+                }
+            }
+        },
+        {
+            "name": "Jittleyang",
+            "id": 1896,
+            "x": 14663,
+            "z": -4956,
+            "lines": {
+                "TNIH": {
+                    "Bangla-Caspian": ["", "Jittleyang branch"]
+                }
+            }
+        },
+        {
+            "name": "Haldwani JCT",
+            "type": "jct",
+            "id": 1897,
+            "x": 14785,
+            "z": -5235,
+            "lines": {
+                "TNIH": {
+                    "Lower Himalayas": ["", "Haldwani branch to Haldwani Race Track branch"]
+                }
+            }
+        },
+        {
+            "name": "Patna",
+            "id": 1898,
+            "x": 14887,
+            "z": -5235,
+            "lines": {
+                "TNIH": {
+                    "Lower Himalayas": ["", "Haldwani Race Track branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -24266,7 +24323,14 @@
                             [14785, -5184],
                             [14785, -5351]
                         ],
-                        "stations": [[15, "Main line"], 16]
+                        "stations": [[15, "Main line"], [1897, "Haldwani Race Track branch"], 16]
+                    },
+                    "Haldwani Race Track branch": {
+                        "vertices": [
+                            [14785, -5235],
+                            [14887, -5235]
+                        ],
+                        "stations": [[1897, "Main line"], 1898]
                     },
                     "Little Lhasa branch": {
                         "vertices": [
@@ -24455,13 +24519,20 @@
                             [9054, -7022],
                             [9054, -7034]
                         ],
-                        "stations": [59, 39, 60, 61, 62, 35, 63, 64, 65, [66, "Laccadive Sea branch"], 67, [68, "Santulan branch"], 26, 69, 70, 11, 71, 72, [73, "Himalayas branch"], 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 601, 225, 226],
+                        "stations": [59, 39, 60, 61, 62, 35, 63, 64, 65, [66, "Laccadive Sea branch"], 67, [68, "Jittleyang branch"], 26, 69, 70, 11, 71, 72, [73, "Himalayas branch"], 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 601, 225, 226],
                         "concurrencies": {
                             "TNIH.Nyingchi": [
                                 [16863, -4314],
                                 [16860, -4314]
                             ]
                         }
+                    },
+                    "Patna branch": {
+                        "vertices": [
+                            [15601, -4780],
+                            [15601, -4829]
+                        ],
+                        "stations": [[1894, "Main line"], 1895]
                     },
                     "Laccadive Sea branch": {
                         "vertices": [
@@ -24470,12 +24541,12 @@
                         ],
                         "stations": [[66, "Main line"], 232]
                     },
-                    "Santulan branch": {
+                    "Jittleyang branch": {
                         "vertices": [
                             [14663, -4780],
-                            [14663, -4822]
+                            [14663, -4956]
                         ],
-                        "stations": [[68, "Main line"], 233]
+                        "stations": [[68, "Main line"], 233, 1896]
                     },
                     "Himalayas branch": {
                         "vertices": [
