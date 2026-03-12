@@ -762,6 +762,7 @@
         },
         {
             "name": "Barisal",
+            "type": "semi1",
             "id": 62,
             "x": 16532,
             "z": -4378,
@@ -795,6 +796,7 @@
         },
         {
             "name": "Daimon-Nishi",
+            "type": "semi3",
             "id": 65,
             "x": 15307,
             "z": -4780,
@@ -860,8 +862,15 @@
             "lines": {
                 "TNIH": {
                     "Bangla-Caspian": ["", "Main line"]
+                },
+                "Local": {
+                    "Agra local": ["", ""]
                 }
-            }
+            },
+            "areas": [
+                [[14209, -5131], [14221, -5122]],
+                [[14208, -5136], [14219, -5121]]
+            ]
         },
         {
             "name": "Aligarh Mine",
@@ -24162,6 +24171,32 @@
                     "Lower Himalayas": ["", "Haldwani Race Track branch"]
                 }
             }
+        },
+        {
+            "name": "Agra South",
+            "id": 1899,
+            "x": 14137,
+            "z": -5124,
+            "lines": {
+                "Local": {
+                    "Agra local": ["", ""]
+                }
+            },
+            "areas": [
+                [[14134, -5127], [14140, -5029]],
+                [[14131, -5038], [14143, -5029]]
+            ]
+        },
+        {
+            "name": "Agra Mine",
+            "id": 1900,
+            "x": 14087,
+            "z": -5124,
+            "lines": {
+                "Local": {
+                    "Agra local": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -31534,6 +31569,21 @@
                             [21272, 51]
                         ],
                         "stations": [[1888, "Main line"], 1889]
+                    }
+                }
+            },
+            "Agra local": {
+                "prefix": "",
+                "code": "Agra",
+                "color": "a2a2a2",
+                "y": 10,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [14218, -5124],
+                            [14087, -5124]
+                        ],
+                        "stations": [70, 1899, 1900]
                     }
                 }
             }
