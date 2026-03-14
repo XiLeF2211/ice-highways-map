@@ -20495,7 +20495,8 @@
             "z": -5643.5,
             "lines": {
                 "China Iceway": {
-                    "Yueyang-Hangzhou": ["", "Main line"]
+                    "Yueyang-Hangzhou": ["", "Main line"],
+                    "Liaodong-Hangzhou": ["", "Main line"]
                 }
             },
             "areas": [
@@ -20807,10 +20808,18 @@
             "lines": {
                 "Ming Federation Standard Line": {
                     "Qingdao-Jiangxi": ["", "Main line"]
+                },
+                "China Iceway": {
+                    "Liaodong-Hangzhou": ["", "Main line to Qingdao branch"]
                 }
             },
             "areas": [
-                [[21849, -6867], [21961, -6839]]
+                [[21849, -6867], [21961, -6839]],
+                [[21949, -6895], [22009, -6864]],
+                [[21978, -6867], [22009, -6853]],
+                [[21935, -6870], [21957, -6864]],
+                [[21935, -6870], [21957, -6864]],
+                [[21943, -6879], [21950, -6864]]
             ]
         },
         {
@@ -20839,6 +20848,9 @@
             "lines": {
                 "Ming Federation Standard Line": {
                     "Qingdao-Jiangxi": ["", "Qingdao Subway connector"]
+                },
+                "China Iceway": {
+                    "Liaodong-Hangzhou": ["", "Qingdao branch"]
                 }
             },
             "areas": [
@@ -24197,6 +24209,218 @@
                     "Agra local": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Shenyang",
+            "id": 1901,
+            "x": 22613.5,
+            "z": -7850,
+            "lines": {
+                "China Iceway": {
+                    "Liaodong-Hangzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Shenyang JCT",
+            "type": "jct",
+            "id": 1902,
+            "x": 22613.5,
+            "z": -7734.5,
+            "lines": {
+                "China Iceway": {
+                    "Liaodong-Hangzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Dandong",
+            "id": 1903,
+            "x": 22613.5,
+            "z": -7549.5,
+            "lines": {
+                "China Iceway": {
+                    "Liaodong-Hangzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Dandong JCT",
+            "type": "jct",
+            "id": 1904,
+            "x": 22613.5,
+            "z": -7516.5,
+            "lines": {
+                "China Iceway": {
+                    "Liaodong-Hangzhou": ["", "Main line to Tumen branch"]
+                }
+            }
+        },
+        {
+            "name": "Tumenian-East Dandong",
+            "id": 1905,
+            "x": 22642.5,
+            "z": -7516.5,
+            "lines": {
+                "China Iceway": {
+                    "Liaodong-Hangzhou": ["", "Tumen branch"]
+                }
+            }
+        },
+        {
+            "name": "West Tumen",
+            "id": 1906,
+            "x": 22757.5,
+            "z": -7516.5,
+            "lines": {
+                "China Iceway": {
+                    "Liaodong-Hangzhou": ["", "Tumen branch"]
+                }
+            }
+        },
+        {
+            "name": "Tumen",
+            "id": 1907,
+            "x": 22857.5,
+            "z": -7516.5,
+            "lines": {
+                "China Iceway": {
+                    "Liaodong-Hangzhou": ["", "Tumen branch"]
+                }
+            }
+        },
+        {
+            "name": "Wondeong JCT",
+            "id": 1908,
+            "x": 22623,
+            "z": -6999.5,
+            "lines": {
+                "China Iceway": {
+                    "Liaodong-Hangzhou": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[22610, -7002], [22636, -6997]]
+            ]
+        },
+        {
+            "name": "Qingdao East JCT",
+            "type": "jct",
+            "id": 1909,
+            "x": 21973.5,
+            "z": -6859.5,
+            "lines": {
+                "China Iceway": {
+                    "Liaodong-Hangzhou": ["", "Main line to Qingdao branch"]
+                }
+            },
+            "areas": [
+                [[21967, -6866], [21980, -6853]]
+            ]
+        },
+        {
+            "name": "Qingdao Southeast JCT",
+            "type": "jct",
+            "id": 1910,
+            "x": 21973.5,
+            "z": -6791,
+            "lines": {
+                "China Iceway": {
+                    "Liaodong-Hangzhou": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[21967, -6798], [21980, -6784]]
+            ]
+        },
+        {
+            "name": "Qingdao-Rizhao JCT",
+            "type": "jct",
+            "id": 1911,
+            "x": 21973.5,
+            "z": -6748.5,
+            "lines": {
+                "China Iceway": {
+                    "Liaodong-Hangzhou": ["", "Main line to Rizhao branch"]
+                }
+            }
+        },
+        {
+            "name": "Rizhao JCT",
+            "type": "jct",
+            "id": 1912,
+            "x": 22195.5,
+            "z": -6859.5,
+            "lines": {
+                "China Iceway": {
+                    "Liaodong-Hangzhou": ["", "Main line to Rizhao branch"]
+                }
+            },
+            "areas": [
+                [[22192, -6866], [22199, -6853]]
+            ]
+        },
+        {
+            "name": "Rizhao",
+            "id": 1913,
+            "x": 22195.5,
+            "z": -6907,
+            "lines": {
+                "China Iceway": {
+                    "Liaodong-Hangzhou": ["", "Rizhao branch"]
+                }
+            }
+        },
+        {
+            "name": "Nanjing East JCT",
+            "type": "jct",
+            "id": 1914,
+            "x": 21933.5,
+            "z": -6367.5,
+            "lines": {
+                "China Iceway": {
+                    "Liaodong-Hangzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nanjing",
+            "id": 1915,
+            "x": 21933.5,
+            "z": -6362.5,
+            "lines": {
+                "China Iceway": {
+                    "Liaodong-Hangzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Huzhou JCT",
+            "type": "jct",
+            "id": 1916,
+            "x": 21933.5,
+            "z": -5962.5,
+            "lines": {
+                "China Iceway": {
+                    "Liaodong-Hangzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Huzhou",
+            "id": 1917,
+            "x": 21933.5,
+            "z": -5895.5,
+            "lines": {
+                "China Iceway": {
+                    "Liaodong-Hangzhou": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[21934, -5920], [21945, -5899]],
+                [[21934, -5891], [21945, -5870]],
+                [[21925, -5914], [21936, -5877]]
+            ]
         }
     ],
     "lines": {
@@ -28393,6 +28617,66 @@
                             [21059.5, -5357]
                         ],
                         "stations": [[1598, "Main line"], 1599]
+                    }
+                }
+            },
+            "Liaodong-Hangzhou": {
+                "prefix": "",
+                "code": "辽东杭州",
+                "color": "9900FF",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [22613.5, -8046],
+                            [22613.5, -6862.5],
+                            [21970.5, -6862.5],
+                            [21970.5, -6767.5],
+                            [21973.5, -6754.5],
+                            [21973.5, -6367.5],
+                            [21933.5, -6367.5],
+                            [21933.5, -5679],
+                            [21933.5, -6367.5],
+                            [21973.5, -6367.5],
+                            [21973.5, -6754.5],
+                            [21976.5, -6767.5],
+                            [21976.5, -6856.5],
+                            [22632.5, -6856.5],
+                            [22632.5, -6999.5]
+                        ],
+                        "stations": [1901, 1902, 1093, [1904, "Tumen branch"], 1908, 1912, 1622, [1909, "Qingdao branch"], 1910, 1911, 1912, 1913, 1914, 1915, 1916, 1917, 1601]
+                    },
+                    "Tumen branch": {
+                        "vertices": [
+                            [22613.5, -7516.5],
+                            [22862, -7516.5]
+                        ],
+                        "stations": [[1904, "Main line"], 1905, 1906, 1907]
+                    },
+                    "Qingdao branch": {
+                        "vertices": [
+                            [21962, -6862],
+                            [21970.5, -6862],
+                            [21970.5, -6895],
+                            [21970.5, -6856.5],
+                            [21976.5, -6856.5],
+                            [21976.5, -6895]
+                        ],
+                        "stations": [1624, [1909, "Main line"], 1622]
+                    },
+                    "Rizhao branch": {
+                        "vertices": [
+                            [21973.5, -6748.5],
+                            [22028.5, -6748.5],
+                            [22028.5, -6758.5],
+                            [22124.5, -6758.5],
+                            [22124.5, -6771.5],
+                            [22131.5, -6771.5],
+                            [22131.5, -6844.5],
+                            [22195.5, -6844.5],
+                            [22195.5, -6907]
+                        ],
+                        "stations": []
                     }
                 }
             }
