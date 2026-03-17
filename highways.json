@@ -28644,7 +28644,7 @@
                             [22632.5, -6856.5],
                             [22632.5, -6999.5]
                         ],
-                        "stations": [1901, 1902, 1093, [1904, "Tumen branch"], 1908, [1912, "Rizhao branch"], 1622, [1909, "Qingdao branch"], 1910, [1911, "Rizhao branch"], 1914, 1915, 1916, 1917, 1601]
+                        "stations": [1901, 1902, 1903, [1904, "Tumen branch"], 1908, [1912, "Rizhao branch"], 1622, [1909, "Qingdao branch"], 1910, [1911, "Rizhao branch"], 1914, 1915, 1916, 1917, 1601]
                     },
                     "Tumen branch": {
                         "vertices": [

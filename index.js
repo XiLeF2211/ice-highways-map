@@ -186,7 +186,7 @@ async function renderTowns() {
             fillColor: region.fill,
             color: region.outline,
             weight: 1
-        }).addTo(townsLayer).bindPopup(region.town + (region.nation != undefined ? ', ' + region.nation : ''))
+        }).addTo(townsLayer).bindPopup(escapeHtml(region.town) + (escapeHtml(region.nation) != undefined ? ', ' + escapeHtml(region.nation) : ''))
     }
 
     const stopTownRender = new Date()
@@ -351,6 +351,16 @@ async function renderStations(dataset, mod) {
 
     const stopStationRender = new Date()
     console.log(`debug: Rendering stations took ${stopStationRender - startStationRender}ms`)
+}
+
+function escapeHtml(text) {
+  if (typeof text !== 'string') return text;
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
 }
 
 function showLine(companyName, lineName, line) {
