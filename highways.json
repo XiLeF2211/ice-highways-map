@@ -24379,7 +24379,8 @@
             "z": -6367.5,
             "lines": {
                 "China Iceway": {
-                    "Liaodong-Hangzhou": ["", "Main line"]
+                    "Liaodong-Hangzhou": ["", "Main line"],
+                    "Suqian-Nanjing": ["", "Main line"]
                 }
             }
         },
@@ -24554,6 +24555,56 @@
                     "Huzhou-Suzhou": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Suqian JCT",
+            "type": "jct",
+            "id": 1926,
+            "x": 21571,
+            "z": -6365.5,
+            "lines": {
+                "China Iceway": {
+                    "Suqian-Nanjing": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nanjing East Elevator",
+            "type": "elev-we",
+            "id": 1927,
+            "x": 21652,
+            "z": -6367.5,
+            "lines": {
+                "China Iceway": {
+                    "Suqian-Nanjing": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Jiangsu West",
+            "id": 1928,
+            "x": 21680.5,
+            "z": -6367.5,
+            "lines": {
+                "China Iceway": {
+                    "Suqian-Nanjing": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yangzhou",
+            "id": 1929,
+            "x": 21852,
+            "z": -6367.5,
+            "lines": {
+                "China Iceway": {
+                    "Suqian-Nanjing": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[21847, -6385], [21856, -6364]],
+                [[21839, -6380], [21869, -6368]]
+            ]
         }
     ],
     "lines": {
@@ -28833,6 +28884,23 @@
                             [22202, -5962.5]
                         ],
                         "stations": [[1922, "Main line"], 1923]
+                    }
+                }
+            },
+            "Suqian-Nanjing": {
+                "prefix": "",
+                "code": "宿迁南京",
+                "color": "9900FF",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [21571, -6365.5],
+                            [21571, -6367.5],
+                            [21652, -6367.5],
+                            [21933.5, -6367.5]
+                        ],
+                        "stations": [1926, 1927, 1928, 1929, 1914]
                     }
                 }
             }
