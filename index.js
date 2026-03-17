@@ -353,9 +353,9 @@ async function renderStations(dataset, mod) {
     console.log(`debug: Rendering stations took ${stopStationRender - startStationRender}ms`)
 }
 
-function escapeHtml(text) {
-  if (typeof text !== 'string') return text;
-  return text
+function escapeHtml(textContent) {
+  if (typeof textContent !== 'string') return textContent;
+  return textContent
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
