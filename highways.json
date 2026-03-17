@@ -24574,6 +24574,8 @@
             "id": 1927,
             "x": 21652,
             "z": -6367.5,
+            "y1": 50,
+            "y2": 48,
             "lines": {
                 "China Iceway": {
                     "Suqian-Nanjing": ["", "Main line"]
@@ -24605,6 +24607,78 @@
                 [[21847, -6385], [21856, -6364]],
                 [[21839, -6380], [21869, -6368]]
             ]
+        },
+        {
+            "name": "Mexico",
+            "id": 1930,
+            "x": -9969.5,
+            "z": 2920,
+            "lines": {
+                "Intercontinental": {
+                    "Metro America": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-10018, 2914], [-10008, 2929]],
+                [[-10012, 2920], [-9970, 2925]],
+                [[-9972, 2919], [-9964, 2927]]
+            ]
+        },
+        {
+            "name": "Mexico South Emergency Exit",
+            "type": "semi4",
+            "id": 1931,
+            "x": -9969.5,
+            "z": 3126,
+            "lines": {
+                "Intercontinental": {
+                    "Metro America": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Niteroi Center (JCT)",
+            "id": 1932,
+            "x": -8392.5,
+            "z": 3719.5,
+            "lines": {
+                "Intercontinental": {
+                    "Metro America": ["", "Main line to Ayrith branch"]
+                }
+            }
+        },
+        {
+            "name": "Ayrith",
+            "id": 1933,
+            "x": -8059.5,
+            "z": 3836,
+            "lines": {
+                "Intercontinental": {
+                    "Metro America": ["", "Ayrith branch"]
+                }
+            }
+        },
+        {
+            "name": "Alysium",
+            "id": 1934,
+            "x": -8392.5,
+            "z": 3927.5,
+            "lines": {
+                "Intercontinental": {
+                    "Metro America": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Matthewopia",
+            "id": 1935,
+            "x": -7994.5,
+            "z": 4095,
+            "lines": {
+                "Intercontinental": {
+                    "Metro America": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -33363,6 +33437,34 @@
                             [8, -9920]
                         ],
                         "stations": [[1589, "North London-Sealand"], 1590]
+                    }
+                }
+            },
+            "Metro America": {
+                "prefix": "",
+                "code": "MA",
+                "color": "5DBC5E",
+                "y": 30,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-9969.5, 2920],
+                            [-9969.5, 3126],
+                            [-9969.5, 3671.5],
+                            [-8392.5, 3671.5],
+                            [-8392.5, 3927.5],
+                            [-7994.5, 3927.5],
+                            [-7994.5, 4095]
+                        ],
+                        "stations": [1930, 1931, [1932, "Ayrith branch"], 1934, 1935]
+                    },
+                    "Ayrith branch": {
+                        "vertices": [
+                            [-8392.5, 3719.5],
+                            [-8059.5, 3719.5],
+                            [-8059.5, 3836]
+                        ],
+                        "stations": [[1932, "Main line"], 1933]
                     }
                 }
             }
