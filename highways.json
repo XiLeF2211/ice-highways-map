@@ -18572,8 +18572,9 @@
             "z": 7720,
             "lines": {
                 "Tierra del Fuego": {
-                    "National": ["", ""],
-                    "Valdes Local": ["", ""]
+                    "National": ["", "Main line"],
+                    "Valdes Local": ["", ""],
+                    "Budouame Local": ["", ""]
                 }
             }
         },
@@ -18587,7 +18588,7 @@
             "y2": 16,
             "lines": {
                 "Tierra del Fuego": {
-                    "National": ["", ""]
+                    "National": ["", "Main line"]
                 }
             }
         },
@@ -24710,6 +24711,77 @@
                 [[22640, -8784], [22646, -8770]],
                 [[22638, -8775], [22658, -8740]]
             ]
+        },
+        {
+            "name": "Sarmiento JCT",
+            "type": "jct",
+            "id": 1938,
+            "x": -13071,
+            "z": 8386,
+            "lines": {
+                "Tierra del Fuego": {
+                    "National": ["", "Main line to F1 branch"]
+                }
+            }
+        },
+        {
+            "name": "Patagonian F1 Circuit",
+            "id": 1939,
+            "x": -12960,
+            "z": 8386,
+            "lines": {
+                "Tierra del Fuego": {
+                    "National": ["", "F1 branch"]
+                }
+            }
+        },
+        {
+            "name": "S.A.D JCT",
+            "type": "jct",
+            "id": 1940,
+            "x": -13071,
+            "z": 9068,
+            "lines": {
+                "Tierra del Fuego": {
+                    "National": ["", "Main line to Palo branch"]
+                }
+            }
+        },
+        {
+            "name": "Palo",
+            "id": 1941,
+            "x": -12857,
+            "z": 9068,
+            "lines": {
+                "Tierra del Fuego": {
+                    "National": ["", "Palo branch"]
+                }
+            }
+        },
+        {
+            "name": "Valdes Elevation Changes",
+            "type": "elev-ew",
+            "id": 1942,
+            "x": -12239,
+            "z": 7685,
+            "y1": 50,
+            "y2": 51,
+            "lines": {
+                "Tierra del Fuego": {
+                    "Budouame Local": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Budouame",
+            "id": 1943,
+            "x": -12239,
+            "z": 7450,
+            "lines": {
+                "Tierra del Fuego": {
+                    "Budouame Local": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -30623,15 +30695,29 @@
                 "prefix": "",
                 "code": "TDF",
                 "color": "a2a2a2",
-                "y": 49,
+                "y": 50,
                 "branches": {
-                    "": {
+                    "Main line": {
                         "vertices": [
                             [-12239, 7720],
                             [-13071, 7720],
                             [-13071, 10277]
                         ],
-                        "stations": [1451, 1452]
+                        "stations": [1451, [1938, "F1 branch"], [1940, "Palo branch"], 1452]
+                    },
+                    "F1 branch": {
+                        "vertices": [
+                            [-13259, 8386],
+                            [-12863, 8386]
+                        ],
+                        "stations": [[1938, "Main line"], 1939]
+                    },
+                    "Palo branch": {
+                        "vertices": [
+                            [-13071, 9068],
+                            [-12857, 9068]
+                        ],
+                        "stations": [[1940, "Main line"], 1941]
                     }
                 }
             },
@@ -30639,7 +30725,7 @@
                 "prefix": "",
                 "code": "Valdes",
                 "color": "a2a2a2",
-                "y": 49,
+                "y": 50,
                 "branches": {
                     "": {
                         "vertices": [
@@ -30652,6 +30738,21 @@
                             [-12239, 7720]
                         ],
                         "stations": [1451, 1453, 1454, 1455]
+                    }
+                }
+            },
+            "Budouame Local": {
+                "prefix": "",
+                "code": "蒲萄飴",
+                "color": "a2a2a2",
+                "y": 51,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-12239, 7720],
+                            [-12239, 7450]
+                        ],
+                        "stations": [1451, 1942, 1943]
                     }
                 }
             }
