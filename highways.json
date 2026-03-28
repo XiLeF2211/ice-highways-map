@@ -10251,7 +10251,7 @@
             }
         },
         {
-            "name": "Fc",
+            "name": "Fc (Qayilar)",
             "id": 806,
             "x": 22332,
             "z": -8774,
@@ -24679,6 +24679,37 @@
                     "Metro America": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "JLP Headquarters JCT",
+            "type": "jct",
+            "id": 1936,
+            "x": 22647.5,
+            "z": -8680.5,
+            "lines": {
+                "Japan Ice lines": {
+                    "Manchuria Main": ["", "Manchuria-Tosa Branch to JLP Headquarters Branch"]
+                }
+            },
+            "areas": [
+                [[22643, -8685], [22653, -8674]]
+            ]
+        },
+        {
+            "name": "JLP Headquarters",
+            "id": 1937,
+            "x": 22647.5,
+            "z": -8757.5,
+            "lines": {
+                "Japan Ice lines": {
+                    "Manchuria Main": ["", "JLP Headquarters Branch"]
+                }
+            },
+            "areas": [
+                [[22624, -8848], [22688, -8784]],
+                [[22640, -8784], [22646, -8770]],
+                [[22638, -8775], [22658, -8740]]
+            ]
         }
     ],
     "lines": {
@@ -28601,7 +28632,16 @@
                             [22338, -8854],
                             [22332, -8854]
                         ],
-                        "stations": [914, 806, 916, 917]
+                        "stations": [914, [1936, "JLP Headquarters Branch"], 806, 916, 917]
+                    },
+                    "JLP Headquarters Branch": {
+                        "vertices": [
+                            [22646, -8776],
+                            [22646, -8679],
+                            [22649, -8679],
+                            [22649, -8776]
+                        ],
+                        "stations": [[1936, "Manchuria-Tosa Branch"], 1937]
                     }
                 }
             },
