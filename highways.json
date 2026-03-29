@@ -24782,6 +24782,18 @@
                     "Budouame Local": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Heff-Crimson Mine",
+            "type": "semi2",
+            "id": 1944,
+            "x": 16742,
+            "z": -9488,
+            "lines": {
+                "Y=42 Ice lines": {
+                    "Baikal - Lithuania": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -28352,7 +28364,7 @@
                             [5638, -10054],
                             [4369, -10054]
                         ],
-                        "stations": [534, 1667, 1666, 1665, 535, 536, [537, "New Oblivion branch"], 538, 299, 355, 553, 472, 539]
+                        "stations": [534, 1944, 1667, 1666, 1665, 535, 536, [537, "New Oblivion branch"], 538, 299, 355, 553, 472, 539]
                     },
                     "New Oblivion branch": {
                         "vertices": [
