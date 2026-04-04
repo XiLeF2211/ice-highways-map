@@ -11667,7 +11667,7 @@
             }
         },
         {
-            "name": "Issyk-Kul",
+            "name": "Ishikari-Numata",
             "id": 913,
             "x": 14301,
             "z": -8008,
@@ -16478,11 +16478,12 @@
             "name": "Whitlam JCT",
             "type":"jct",
             "id": 1280,
-            "x": 27072,
+            "x": 27072.5,
             "z": 5981.5,
             "lines": {
                 "Oceanian Metrolink": {
-                    "Green" : ["", "Main line"]
+                    "Green" : ["", "Main line"],
+                    "Cyan" : ["", "Main line"]
                 }
             }
         },
@@ -24794,6 +24795,142 @@
                     "Baikal - Lithuania": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Hawker JCT",
+            "type": "jct",
+            "id": 1945,
+            "x": 25364.5,
+            "z": 5635.5,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Green" : ["", "Main line"],
+                    "Yellow" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hawker Elevation Slope",
+            "type": "elev-we",
+            "id": 1946,
+            "x": 25364.5,
+            "z": 5544.5,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Yellow" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[25362, 5543], [25367, 5604]]
+            ]
+        },
+        {
+            "name": "Seaforth Temporary Stop",
+            "type": "semi2",
+            "id": 1947,
+            "x": 25364.5,
+            "z": 4987.5,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Yellow" : ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Flinders-Seaforth",
+            "id": 1948,
+            "x": 25236.5,
+            "z": 4825.5,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Yellow" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[25152, 4823], [25297, 4836]]
+            ]
+        },
+        {
+            "name": "Novus Roselyn",
+            "id": 1949,
+            "x": 27037.5,
+            "z": 6213.5,
+            "lines": {
+                "Oceanian Metrolink": {
+                    "Cyan" : ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[27035, 6202], [27063, 6224]],
+                [[27030, 6205], [27049, 6219]]
+            ]
+        },
+        {
+            "name": "Dali West",
+            "id": 1950,
+            "x": 18289,
+            "z": -4904,
+            "lines": {
+                "China Iceway": {
+                    "Dali-Ya'an": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[18288, -4906], [18296, -4902]],
+                [[18293, -4912], [18296, -4902]]
+            ]
+        },
+        {
+            "name": "Litang JCT",
+            "type": "jct",
+            "id": 1951,
+            "x": 18199,
+            "z": -5369,
+            "lines": {
+                "China Iceway": {
+                    "Dali-Ya'an": ["", "Main line to Litang branch"]
+                }
+            }
+        },
+        {
+            "name": "Litang",
+            "id": 1952,
+            "x": 18103,
+            "z": -5369,
+            "lines": {
+                "China Iceway": {
+                    "Dali-Ya'an": ["", "Litang branch"]
+                }
+            }
+        },
+        {
+            "name": "Ziyang North",
+            "id": 1953,
+            "x": 18887,
+            "z": -5369,
+            "lines": {
+                "China Iceway": {
+                    "Dali-Ya'an": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[18874, -5372], [18898, -5355]],
+                [[18875, -5373], [18897, -5363]],
+                [[18878, -5374], [18895, -5363]],
+                [[18882, -5374], [18894, -5363]],
+                [[18883, -5374], [18891, -5363]]
+            ]
+        },
+        {
+            "name": "Ya'an South",
+            "id": 1954,
+            "x": 19084,
+            "z": -5369,
+            "lines": {
+                "China Iceway": {
+                    "Dali-Ya'an": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -29101,6 +29238,30 @@
                         "stations": [1926, 1927, 1928, 1929, 1914]
                     }
                 }
+            },
+            "Dali-Ya'an": {
+                "prefix": "",
+                "code": "大理雅安",
+                "color": "E300A6",
+                "y": 138,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [18289, -4904],
+                            [18199, -4904],
+                            [18199, -5369],
+                            [19084, -5369]
+                        ],
+                        "stations": [1950, [1951, "Litang branch"], 1953, 1954]
+                    },
+                    "Litang branch": {
+                        "vertices": [
+                            [18199, -5369],
+                            [18103, -5369]
+                        ],
+                        "stations": [[1951, "Main line"], 1952]
+                    }
+                }
             }
         },
         "Ming Federation Standard Line": {
@@ -30602,9 +30763,9 @@
                             [26782.5, 5981.5],
                             [26194.5, 5981.5],
                             [26194.5, 5635.5],
-                            [25846, 5635.5]
+                            [25354, 5635.5]
                         ],
-                        "stations": [1271, [1278, "Blaxland triangle connector"], 1279, 1280, 1281, 1282]
+                        "stations": [1945, 1271, [1278, "Blaxland triangle connector"], 1279, 1280, 1281, 1282]
                     },
                     "Blaxland triangle connector": {
                         "vertices": [
@@ -30612,6 +30773,38 @@
                             [27393.5, 6016.5]
                         ],
                         "stations": [[1278, "Main line"], 1272]
+                    }
+                }
+            },
+            "Cyan": {
+                "prefix": "",
+                "code": "Cyan",
+                "color": "169C9C",
+                "y": 67,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [27072.5, 5981.5],
+                            [27037.5, 6016.5],
+                            [27037.5, 6218]
+                        ],
+                        "stations": [1270]
+                    }
+                }
+            },
+            "Yellow": {
+                "prefix": "",
+                "code": "Yellow",
+                "color": "FED83D",
+                "y": 64,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [25364.5, 5635.5],
+                            [25364.5, 4825.5],
+                            [25236.5, 4825.5]
+                        ],
+                        "stations": [1945, 1946, 1947, 1948]
                     }
                 }
             }

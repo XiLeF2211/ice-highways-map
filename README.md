@@ -1,7 +1,7 @@
 # EarthMC Ice Highways Map
 
-This is a tool that aims to give information on stations and lines across the EarthMC server. However, as of March 28th, 2026, 
-it only has 1987 (1944+43) stations across 316 (307+9) lines (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
+This is a tool that aims to give information on stations and lines across the EarthMC server. However, as of April 4th, 2026, 
+it only has 1998 (1955+43) stations across 319 (310+9) lines (including junctions and interchanges and elevators). You can contribute station and line information by posting an issue with the tag 'newlocation.'
 
 # Adding lines to the map (direct push commit method) tutorial
 
@@ -66,6 +66,8 @@ Note that the capitalization does not change, and note that it is simply the str
 
 > [!NOTE]  
 > For other lines that are not shown on the list or to see detailed additions history, please see [the related database changes history](https://github.com/XiLeF2211/ice-highways-map/commits/main/highways.json)
+
+4 April 2026: Oceania Metrolink (Cyan and Yellow) and Dali-Ya'an lines (edited by **nokteholda**)
 
 17 March 2026: Huzhou-Suzhou, Suqian-Nanjing and Metro America line (edited by **nokteholda**)
 
