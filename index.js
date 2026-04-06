@@ -1,7 +1,9 @@
+const map_name = 'aurora';
+
 const proxyURL = 'https://api.codetabs.com/v1/proxy/?quest='
 const mapURL = 'https://map.earthmc.net/tiles'
-const highwaysURL = 'https://raw.githubusercontent.com/XiLeF2211/ice-highways-map/refs/heads/main/highways.json'
-const netherHighwaysURL = 'https://raw.githubusercontent.com/XiLeF2211/ice-highways-map/refs/heads/main/netherHighways.json'
+const highwaysURL = 'https://raw.githubusercontent.com/XiLeF2211/ice-highways-map/refs/heads/main/' + map_name + '/highways.json'
+const netherHighwaysURL = 'https://raw.githubusercontent.com/XiLeF2211/ice-highways-map/refs/heads/main/' + map_name + '/netherHighways.json'
 
 let highwayData;
 let netherHighwayData;
