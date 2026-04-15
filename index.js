@@ -1,4 +1,4 @@
-const map_name = 'aurora';
+const map_name = 'nostra';
 
 const proxyURL = 'https://api.codetabs.com/v1/proxy/?quest='
 const mapURL = 'https://map.earthmc.net/tiles'
@@ -35,7 +35,7 @@ const map = L.map('mapa', {
 map.zoomControl.setPosition('topright');
 
 const overworld = L.tileLayer(proxyURL + mapURL + '/minecraft_overworld/{z}/{x}_{y}.png', {
-    maxNativeZoom: 3,
+    maxNativeZoom: 5,
     minNativeZoom: 0,
     maxZoom: 15,
     minZoom: -2
