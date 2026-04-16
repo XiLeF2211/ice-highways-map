@@ -1,9 +1,10 @@
-const map_name = 'nostra';
+const mapName = 'nostra';
+const projection = 64; // for Aurora 16.
 
 const proxyURL = 'https://api.codetabs.com/v1/proxy/?quest='
 const mapURL = 'https://map.earthmc.net/tiles'
-const highwaysURL = 'https://raw.githubusercontent.com/XiLeF2211/ice-highways-map/refs/heads/main/' + map_name + '/highways.json'
-const netherHighwaysURL = 'https://raw.githubusercontent.com/XiLeF2211/ice-highways-map/refs/heads/main/' + map_name + '/netherHighways.json'
+const highwaysURL = 'https://raw.githubusercontent.com/XiLeF2211/ice-highways-map/refs/heads/main/' + mapName + '/highways.json'
+const netherHighwaysURL = 'https://raw.githubusercontent.com/XiLeF2211/ice-highways-map/refs/heads/main/' + mapName + '/netherHighways.json'
 
 let highwayData;
 let netherHighwayData;
@@ -34,7 +35,7 @@ const map = L.map('mapa', {
 }).setView([0, 0], 1);
 map.zoomControl.setPosition('topright');
 
-const overworld = L.tileLayer(proxyURL + mapURL + '/minecraft_overworld/{z}/{x}_{y}.png', {
+const overworld = L.tileLayer(mapURL + '/minecraft_overworld/{z}/{x}_{y}.png', {
     maxNativeZoom: 5,
     minNativeZoom: 0,
     maxZoom: 15,
@@ -64,10 +65,10 @@ let coordinateController = document.querySelector('.leaflet-mousecoords');
 // Show coordinates
 map.on("mousemove", function (e) {
     // Get x and z coords
-    let xCoord = 64 * e.latlng.lng.toFixed(2)
+    let xCoord = projection * e.latlng.lng.toFixed(2)
     xCoord = xCoord > 0 ? Math.floor(xCoord) : Math.ceil(xCoord)
 
-    let zCoord = -64 * e.latlng.lat.toFixed(2)
+    let zCoord = -projection * e.latlng.lat.toFixed(2)
     zCoord = zCoord > 0 ? Math.floor(zCoord) : Math.ceil(zCoord)
     if (coordinateController) {
         coordinateController.textContent = `X: ${xCoord}, Z: ${zCoord}`
@@ -167,7 +168,7 @@ async function renderTowns() {
         for (const region of town.points) {
             const vertices = []
             for (const vertex of region[0]) {
-                vertices.push([-vertex.z / 16, vertex.x / 16])
+                vertices.push([-vertex.z / projection, vertex.x / projection])
             }
 
             if (regions.find(region => region.town == townName)) isCapital = false
@@ -207,7 +208,7 @@ async function renderLines(dataset, mod) {
             for (const branch of Object.keys(lineData.branches)) {
                 const vertices = []
                 for (const vertex of lineData.branches[branch].vertices) {
-                    vertices.push([-vertex[1] / 16, vertex[0] / 16])
+                    vertices.push([-vertex[1] / projection, vertex[0] / projection])
                 }
 
                 let container = document.createElement('div');
@@ -239,7 +240,7 @@ async function renderLines(dataset, mod) {
                     for (const concurrency of Object.keys(lineData.branches[branch].concurrencies)) {
                         const concurrentVertices = []
                         for (const vertex of lineData.branches[branch].concurrencies[concurrency]) {
-                            concurrentVertices.push([-vertex[1] / 16, vertex[0] / 16])
+                            concurrentVertices.push([-vertex[1] / projection, vertex[0] / projection])
                         }
 
                         let concurrencyContainer = document.createElement('div')
@@ -285,7 +286,7 @@ async function renderPath(stations) {
     map.removeLayer(renderedPath);
     renderedPath = L.layerGroup([]);
     for (let station of stations) {
-        L.circleMarker([-currentData.stations[station].z / 16, currentData.stations[station].x / 16], {
+        L.circleMarker([-currentData.stations[station].z / projection, currentData.stations[station].x / projection], {
             radius: 10,
             color: '#000000'
         })
@@ -320,11 +321,11 @@ async function renderStations(dataset, mod) {
                     // Flipped coordinates because that's how GeoJSON works in contrast to Leaflet :p
                     turf.polygon(
                         [[
-                            [region[0][0] / 16, -region[0][1] / 16],
-                            [region[0][0] / 16, -region[1][1] / 16],
-                            [region[1][0] / 16, -region[1][1] / 16],
-                            [region[1][0] / 16, -region[0][1] / 16],
-                            [region[0][0] / 16, -region[0][1] / 16],
+                            [region[0][0] / projection, -region[0][1] / projection],
+                            [region[0][0] / projection, -region[1][1] / projection],
+                            [region[1][0] / projection, -region[1][1] / projection],
+                            [region[1][0] / projection, -region[0][1] / projection],
+                            [region[0][0] / projection, -region[0][1] / projection],
                         ]]
                     )
                 )
@@ -337,13 +338,13 @@ async function renderStations(dataset, mod) {
             }).bindPopup(container).addTo(stationsLayer);
         }
 
-        if (Object.hasOwn(station, 'type')) L.marker([-station.z / 16, station.x / 16], {
+        if (Object.hasOwn(station, 'type')) L.marker([-station.z / projection, station.x / projection], {
             icon: L.icon({
                 iconUrl: 'assets/symbols/' + station.type + '.svg',
                 iconSize: 14
             })
         }).addTo(stationsLayer).bindPopup(container)
-        else L.circleMarker([-station.z / 16, station.x / 16], {
+        else L.circleMarker([-station.z / projection, station.x / projection], {
             radius: 5,
             color: '#ffffff'
         })
@@ -656,18 +657,14 @@ function closeSide() {
 }
 
 function locate(x, z) {
-    map.panTo([-z / 16, x / 16])
-    marker = L.marker([-z / 16, x / 16]).addTo(map)
+    map.panTo([-z / projection, x / projection])
+    marker = L.marker([-z / projection, x / projection]).addTo(map)
 }
 
 async function fetchJSON(url) {
     const response = await fetch(url)
     if (response.ok) return response.json()
     else return null
-}
-
-function roundTo16(number) {
-    return Math.round(number / 16) * 16
 }
 
 document.getElementById('mapa').addEventListener('click', () => {
