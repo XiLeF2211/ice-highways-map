@@ -1,8 +1,75 @@
 {
     "stations": [
-
+        {
+            "name": "Kita",
+            "id": 0,
+            "x": 6407,
+            "z": -2216,
+            "lines": {
+                "Intercontinental": {
+                    "Far East Ice Mining Outpost": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Far East Capital JCT",
+            "id": 1,
+            "type": "jct",
+            "x": 6407,
+            "z": -2606,
+            "lines": {
+                "Intercontinental": {
+                    "Far East Ice Mining Outpost": ["", "Main Line to Far East Capital branch"]
+                }
+            }
+        },
+        {
+            "name": "Far East Capital",
+            "id": 2,
+            "x": 6518,
+            "z": -2606,
+            "lines": {
+                "Intercontinental": {
+                    "Far East Ice Mining Outpost": ["", "Far East Capital branch"]
+                }
+            }
+        },
+        {
+            "name": "Far East Ice Mining Outpost",
+            "id": 3,
+            "x": 6407,
+            "z": -3403,
+            "lines": {
+                "Intercontinental": {
+                    "Far East Ice Mining Outpost": ["", "Main Line"]
+                }
+            }
+        }
     ],
     "lines": {
-        
+        "Intercontinental": {
+            "Far East Ice Mining Outpost": {
+                "prefix": "",
+                "code": "FE-IMO",
+                "color": "FED83D",
+                "y": 10,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [6407, -2216],
+                            [6407, -3403]
+                        ],
+                        "stations": [0, [1, "Far East Capital branch"], 3]
+                    },
+                    "Far East Capital branch": {
+                        "vertices": [
+                            [6407, -2606],
+                            [6518, -2606]
+                        ],
+                        "stations": [[1, "Main Line"], 2]
+                    }
+                }
+            }
+        }
     }
 }
