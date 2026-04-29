@@ -41,7 +41,7 @@
             "z": -17732,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", ""]
+                    "Siberia Main": ["", "Main line"]
                 }
             }
         },
@@ -53,7 +53,7 @@
             "z": -18248,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", ""]
+                    "Siberia Main": ["", "Main line"]
                 }
             }
         },
@@ -65,7 +65,7 @@
             "z": -18894,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", ""]
+                    "Siberia Main": ["", "Main line"]
                 }
             }
         },
@@ -77,18 +77,29 @@
             "z": -19868,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", ""]
+                    "Siberia Main": ["", "Main line"]
                 }
             }
         },
         {
-            "name": "Far East Capital",
+            "name": "Far East Capital (JCT)",
             "id": 7,
             "x": 52340,
             "z": -21052,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", ""]
+                    "Siberia Main": ["", "Main line to Duchy of Rivers branch"]
+                }
+            }
+        },
+        {
+            "name": "Duchy of Rivers",
+            "id": 8,
+            "x": 51754,
+            "z": -21052,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Duchy of Rivers branch"]
                 }
             }
         }
@@ -119,13 +130,20 @@
                 "color": "0233A0",
                 "y": 10,
                 "branches": {
-                    "": {
+                    "Main line": {
                         "vertices": [
-                            [51176, -17732],
+                            [51172, -17732],
                             [52340, -17732],
-                            [52340, -21052]
+                            [52340, -21056]
                         ],
-                        "stations": [3, 4, 5, 6, 7]
+                        "stations": [3, 4, 5, 6, [7, "Duchy of Rivers branch"]]
+                    },
+                    "Duchy of Rivers branch": {
+                        "vertices": [
+                            [52340, -21052],
+                            [51751, -21052]
+                        ],
+                        "stations": [[7, "Main line"], 8]
                     }
                 }
             }
