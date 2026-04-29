@@ -33,6 +33,64 @@
                     "Deccan": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Kita",
+            "id": 3,
+            "x": 51176,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Suzuman Mine",
+            "id": 4,
+            "type": "semi4",
+            "x": 52340,
+            "z": -18248,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Hokushin-Mombetsu Mine",
+            "id": 5,
+            "type": "semi4",
+            "x": 52340,
+            "z": -18894,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Moma",
+            "id": 6,
+            "type": "semi4",
+            "x": 52340,
+            "z": -19868,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Far East Capital",
+            "id": 7,
+            "x": 52340,
+            "z": -21052,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -52,6 +110,22 @@
                             [28609, 4011]
                         ],
                         "stations": [2, 0, 1]
+                    }
+                }
+            },
+            "Siberia Main": {
+                "prefix": "",
+                "code": "SB",
+                "color": "0233A0",
+                "y": 10,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [51176, -17732],
+                            [52340, -17732],
+                            [52340, -21052]
+                        ],
+                        "stations": [3, 4, 5, 6, 7]
                     }
                 }
             }
