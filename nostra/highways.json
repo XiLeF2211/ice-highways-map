@@ -35,13 +35,14 @@
             }
         },
         {
-            "name": "Kita",
+            "name": "Kita (JCT)",
             "id": 3,
-            "x": 51176,
+            "x": 51179,
             "z": -17732,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line"]
+                    "Siberia Main": ["", "Main line"],
+                    "Okota": ["", ""]
                 }
             }
         },
@@ -102,6 +103,18 @@
                     "Siberia Main": ["", "Duchy of Rivers branch"]
                 }
             }
+        },
+        {
+            "name": "Anasushiki",
+            "id": 9,
+            "type": "semi2",
+            "x": 51179,
+            "z": -17121,
+            "lines": {
+                "TNIH": {
+                    "Okota": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -144,6 +157,21 @@
                             [51751, -21052]
                         ],
                         "stations": [[7, "Main line"], 8]
+                    }
+                }
+            },
+            "Okota": {
+                "prefix": "",
+                "code": "OT",
+                "color": "FFD800",
+                "y": 10,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [51179, -17732],
+                            [51179, -16797]
+                        ],
+                        "stations": [3, 9]
                     }
                 }
             }
