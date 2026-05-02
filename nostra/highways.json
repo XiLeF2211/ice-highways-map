@@ -115,6 +115,39 @@
                     "Okota": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Okota",
+            "id": 10,
+            "x": 51179,
+            "z": -16196,
+            "lines": {
+                "TNIH": {
+                    "Okota": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Miami",
+            "id": 11,
+            "x": -28742,
+            "z": -1765,
+            "lines": {
+                "Florida": {
+                    "Miami-Fort Myers": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Fort Myers",
+            "id": 12,
+            "x": -29355,
+            "z": -1765,
+            "lines": {
+                "Florida": {
+                    "Miami-Fort Myers": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -169,9 +202,26 @@
                     "": {
                         "vertices": [
                             [51179, -17732],
-                            [51179, -16797]
+                            [51179, -16196]
                         ],
-                        "stations": [3, 9]
+                        "stations": [3, 9, 10]
+                    }
+                }
+            }
+        },
+        "Florida": {
+            "Miami-Fort Myers": {
+                "prefix": "",
+                "code": "M-FM",
+                "color": "FF0000",
+                "y": 404,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-28742, -1765],
+                            [-29355, -1765]
+                        ],
+                        "stations": [2, 0, 1]
                     }
                 }
             }
