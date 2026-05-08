@@ -44,6 +44,28 @@
                     "Far East Ice Mining Outpost": ["", "Main Line"]
                 }
             }
+        },
+        {
+            "name": "Moscow",
+            "id": 4,
+            "x": 1671,
+            "z": -1787,
+            "lines": {
+                "Soviet Union": {
+                    "Moscow-Lodheim": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Lodheim",
+            "id": 5,
+            "x": 1671,
+            "z": -2411,
+            "lines": {
+                "Soviet Union": {
+                    "Moscow-Lodheim": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -67,6 +89,23 @@
                             [6518, -2606]
                         ],
                         "stations": [[1, "Main Line"], 2]
+                    }
+                }
+            }
+        },
+        "Soviet Union": {
+            "Moscow-Lodheim": {
+                "prefix": "",
+                "code": "MC-LH",
+                "color": "CD0000",
+                "y": 71,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [1671, -1787],
+                            [1671, -2411]
+                        ],
+                        "stations": [4, 5]
                     }
                 }
             }
