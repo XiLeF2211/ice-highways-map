@@ -258,7 +258,7 @@
             "z": -17732,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line to Willsden branch"]
+                    "Siberia Main": ["", "Main line"]
                 }
             }
         }
@@ -371,6 +371,27 @@
                             [-25681, 93]
                         ],
                         "stations": [15, 16, 17]
+                    }
+                }
+            }
+        },
+        "African Iceways": {
+            "Alexandria-Nile Regional": {
+                "prefix": "",
+                "code": "Alx-Nl",
+                "color": "C1B131",
+                "y": 77,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [10636, -3334],
+                            [11258, -3334],
+                            [11261, -3331],
+                            [11261, -3304],
+                            [11264, -3301],
+                            [11361, -3301]
+                        ],
+                        "stations": []
                     }
                 }
             }
