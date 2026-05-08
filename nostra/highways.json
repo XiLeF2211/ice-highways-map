@@ -215,6 +215,52 @@
                     "Siberia Main": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Skaldrin",
+            "id": 19,
+            "x": 52960.5,
+            "z": -21893.5,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Maisuki JCT",
+            "type": "jct",
+            "id": 20,
+            "x": 50270,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Willsden branch"]
+                }
+            }
+        },
+        {
+            "name": "Willsden",
+            "id": 21,
+            "x": 50270,
+            "z": -17976,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Willsden branch"]
+                }
+            }
+        },
+        {
+            "name": "Maisuki Mine",
+            "type": "semi3",
+            "id": 22,
+            "x": 50026,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Willsden branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -245,12 +291,20 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [51172, -17732],
+                            [49788, -17732],
                             [52340, -17732],
                             [52340, -21475.5],
-                            [52474.5, -21475.5]
+                            [52960.5, -21474.5],
+                            [52960.5, -21893.5]
                         ],
-                        "stations": [3, 4, 5, 6, [7, "Duchy of Rivers branch"], 18]
+                        "stations": [22, [20, "Willsden branch"], 3, 4, 5, 6, [7, "Duchy of Rivers branch"], 18, 19]
+                    },
+                    "Willsden branch": {
+                        "vertices": [
+                            [50270, -17732],
+                            [50270, -17976]
+                        ],
+                        "stations": [[20, "Main line"], 21]
                     },
                     "Duchy of Rivers branch": {
                         "vertices": [
