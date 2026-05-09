@@ -269,7 +269,7 @@
             "z": -168,
             "lines": {
                 "TNIH": {
-                    "Narmada": ["", "Main line"]
+                    "Narmada": ["", ""]
                 }
             }
         },
@@ -281,7 +281,7 @@
             "z": -316,
             "lines": {
                 "TNIH": {
-                    "Narmada": ["", "Main line"]
+                    "Narmada": ["", ""]
                 }
             }
         },
@@ -292,7 +292,7 @@
             "z": -316,
             "lines": {
                 "TNIH": {
-                    "Narmada": ["", "Main line"]
+                    "Narmada": ["", ""]
                 }
             }
         }
