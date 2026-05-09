@@ -261,6 +261,40 @@
                     "Siberia Main": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Kaurora",
+            "id": 23,
+            "x": 27518,
+            "z": -168,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Narmadapuram Mineshaft",
+            "type": "semi3",
+            "id": 24,
+            "x": 27599,
+            "z": -316,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sita West",
+            "id": 25,
+            "x": 27919,
+            "z": -316,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -291,7 +325,7 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [49788, -17732],
+                            [49050, -17732],
                             [52340, -17732],
                             [52340, -21475.5],
                             [52960.5, -21474.5],
@@ -327,6 +361,22 @@
                             [51179, -16196]
                         ],
                         "stations": [3, 9, 10]
+                    }
+                }
+            },
+            "Narmada": {
+                "prefix": "",
+                "code": "NM",
+                "color": "561574",
+                "y": 10,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [27518, 38],
+                            [27518, -316],
+                            [27936, -316]
+                        ],
+                        "stations": []
                     }
                 }
             }
