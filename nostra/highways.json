@@ -184,7 +184,7 @@
             }
         },
         {
-            "name": "Pirate's Bay",
+            "name": "Pirate Bay",
             "id": 16,
             "x": -25681,
             "z": 799,
@@ -293,6 +293,41 @@
             "lines": {
                 "TNIH": {
                     "Narmada": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Pirate Bay JCT",
+            "type": "jct",
+            "id": 26,
+            "x": -25857,
+            "z": 799,
+            "lines": {
+                "Florida": {
+                    "Guantanamo Bay-Cockburn Harbour": ["", ""],
+                    "Pirate Bay-Tiburon": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Port-au-Prince",
+            "id": 27,
+            "x": -25857,
+            "z": 1258,
+            "lines": {
+                "Florida": {
+                    "Pirate Bay-Tiburon": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Tiburon",
+            "id": 28,
+            "x": -25999,
+            "z": 1329,
+            "lines": {
+                "Florida": {
+                    "Pirate Bay-Tiburon": ["", ""]
                 }
             }
         }
@@ -420,7 +455,23 @@
                             [-25681, 799],
                             [-25681, 93]
                         ],
-                        "stations": [15, 16, 17]
+                        "stations": [15, 26, 16, 17]
+                    }
+                }
+            },
+            "Pirate Bay-Tiburon": {
+                "prefix": "",
+                "code": "PB-T",
+                "color": "89F336",
+                "y": 40,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-25857, 799],
+                            [-25857, 1329],
+                            [-25999, 1329]
+                        ],
+                        "stations": [26, 27, 28]
                     }
                 }
             }
