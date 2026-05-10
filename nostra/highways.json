@@ -179,7 +179,7 @@
             "z": 763,
             "lines": {
                 "Florida": {
-                    "Guama-Cockburn Harbour": ["", "Main line"]
+                    "Guama-Cockburn Harbour": ["", "Guantanamo Bay branch"]
                 }
             }
         },
@@ -524,7 +524,7 @@
                             [-25681, 799],
                             [-25681, 93]
                         ],
-                        "stations": [29, [30, "Main line"], 15, 26, 16, 17]
+                        "stations": [29, [30, "Guantanamo Bay branch"], 26, 16, 17]
                     },
                     "Guantanamo Bay branch": {
                         "vertices": [
