@@ -179,7 +179,7 @@
             "z": 763,
             "lines": {
                 "Florida": {
-                    "Guantanamo Bay-Cockburn Harbour": ["", ""]
+                    "Guama-Cockburn Harbour": ["", "Main line"]
                 }
             }
         },
@@ -190,7 +190,7 @@
             "z": 799,
             "lines": {
                 "Florida": {
-                    "Guantanamo Bay-Cockburn Harbour": ["", ""]
+                    "Guama-Cockburn Harbour": ["", "Main line"]
                 }
             }
         },
@@ -201,7 +201,7 @@
             "z": 93,
             "lines": {
                 "Florida": {
-                    "Guantanamo Bay-Cockburn Harbour": ["", ""]
+                    "Guama-Cockburn Harbour": ["", "Main line"]
                 }
             }
         },
@@ -304,7 +304,7 @@
             "z": 799,
             "lines": {
                 "Florida": {
-                    "Guantanamo Bay-Cockburn Harbour": ["", ""],
+                    "Guama-Cockburn Harbour": ["", "Main line"],
                     "Pirate Bay-Tiburon": ["", ""]
                 }
             }
@@ -328,6 +328,76 @@
             "lines": {
                 "Florida": {
                     "Pirate Bay-Tiburon": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Guama JCT",
+            "type": "jct",
+            "id": 29,
+            "x": -27569,
+            "z": 799,
+            "lines": {
+                "Florida": {
+                    "Guama-Cockburn Harbour": ["", "Main line"],
+                    "Camaguey-Jamaica-Montego Bay": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Guantanamo Bay JCT",
+            "type": "jct",
+            "id": 30,
+            "x": -26917,
+            "z": 799,
+            "lines": {
+                "Florida": {
+                    "Guama-Cockburn Harbour": ["", "Main line to Guantanamo Bay"]
+                }
+            }
+        },
+        {
+            "name": "Camaguey",
+            "id": 31,
+            "x": -27536,
+            "z": 373,
+            "lines": {
+                "Florida": {
+                    "Camaguey-Jamaica-Montego Bay": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Jamaica JCT",
+            "type": "jct",
+            "id": 32,
+            "x": -27569,
+            "z": 1330,
+            "lines": {
+                "Florida": {
+                    "Camaguey-Jamaica-Montego Bay": ["", "Main line to Jamaica branch"]
+                }
+            }
+        },
+        {
+            "name": "Jamaica",
+            "id": 33,
+            "x": -27903,
+            "z": 1330,
+            "lines": {
+                "Florida": {
+                    "Camaguey-Jamaica-Montego Bay": ["", "Jamaica branch"]
+                }
+            }
+        },
+        {
+            "name": "Montego Bay",
+            "id": 34,
+            "x": -27569,
+            "z": 1454,
+            "lines": {
+                "Florida": {
+                    "Camaguey-Jamaica-Montego Bay": ["", "Main line"]
                 }
             }
         }
@@ -442,20 +512,26 @@
                     }
                 }
             },
-            "Guantanamo Bay-Cockburn Harbour": {
+            "Guama-Cockburn Harbour": {
                 "prefix": "",
                 "code": "GB-CH",
                 "color": "89F336",
                 "y": 40,
                 "branches": {
-                    "": {
+                    "Main line": {
                         "vertices": [
-                            [-26917, 763],
-                            [-26917, 799],
+                            [-27569, 799],
                             [-25681, 799],
                             [-25681, 93]
                         ],
-                        "stations": [15, 26, 16, 17]
+                        "stations": [29, [30, "Main line"], 15, 26, 16, 17]
+                    },
+                    "Guantanamo Bay branch": {
+                        "vertices": [
+                            [-26917, 763],
+                            [-26917, 799]
+                        ],
+                        "stations": [[30, "Main line"], 15]
                     }
                 }
             },
@@ -472,6 +548,29 @@
                             [-25999, 1329]
                         ],
                         "stations": [26, 27, 28]
+                    }
+                }
+            },
+            "Camaguey-Jamaica-Montego Bay": {
+                "prefix": "",
+                "code": "C-J-MB",
+                "color": "89F336",
+                "y": 40,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-27536, 373],
+                            [-27569, 373],
+                            [-27569, 1454]
+                        ],
+                        "stations": [31, 29, [32, "Jamaica branch"], 34]
+                    },
+                    "Jamaica branch": {
+                        "vertices": [
+                            [-27569, 1330],
+                            [-27903, 1330]
+                        ],
+                        "stations": [[32, "Main line"], 33]
                     }
                 }
             }
