@@ -6,8 +6,9 @@
             "x": 6407,
             "z": -2216,
             "lines": {
-                "Intercontinental": {
-                    "Far East Ice Mining Outpost": ["", "Main Line"]
+                "TNIH": {
+                    "Far East Ice Mining Outpost": ["", "Main Line"],
+                    "Nether Siberia": ["", "Main Line"]
                 }
             }
         },
@@ -18,7 +19,7 @@
             "x": 6407,
             "z": -2606,
             "lines": {
-                "Intercontinental": {
+                "TNIH": {
                     "Far East Ice Mining Outpost": ["", "Main Line to Far East Capital branch"]
                 }
             }
@@ -29,7 +30,7 @@
             "x": 6518,
             "z": -2606,
             "lines": {
-                "Intercontinental": {
+                "TNIH": {
                     "Far East Ice Mining Outpost": ["", "Far East Capital branch"]
                 }
             }
@@ -40,7 +41,7 @@
             "x": 6407,
             "z": -3403,
             "lines": {
-                "Intercontinental": {
+                "TNIH": {
                     "Far East Ice Mining Outpost": ["", "Main Line"]
                 }
             }
@@ -66,15 +67,180 @@
                     "Moscow-Lodheim": ["", ""]
                 }
             }
+        },
+        {
+            "name": "-841 JCT",
+            "id": 6,
+            "type": "jct",
+            "x": 5546.5,
+            "z": -841.5,
+            "lines": {
+                "Intercontinental": {
+                    "Yamada": ["", "Main Line"],
+                    "Shimeji": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Ice-Rail JCT",
+            "id": 7,
+            "type": "jct",
+            "x": 5546.5,
+            "z": -871.5,
+            "lines": {
+                "Intercontinental": {
+                    "Yamada": ["", "Main Line"],
+                    "Ice Rail": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "LiZeki JCT",
+            "id": 8,
+            "type": "jct",
+            "x": 5546.5,
+            "z": -897.5,
+            "lines": {
+                "Intercontinental": {
+                    "Yamada": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "-1020 JCT",
+            "id": 9,
+            "type": "jct",
+            "x": 5546.5,
+            "z": -1020.5,
+            "lines": {
+                "Intercontinental": {
+                    "Yamada": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Portal -1149",
+            "id": 10,
+            "x": 5546.5,
+            "z": -1149.5,
+            "lines": {
+                "Intercontinental": {
+                    "Yamada": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Portal -1600",
+            "id": 11,
+            "x": 5546.5,
+            "z": -1600.5,
+            "lines": {
+                "Intercontinental": {
+                    "Yamada": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Portal -1902",
+            "id": 12,
+            "x": 5546.5,
+            "z": -1902.5,
+            "lines": {
+                "Intercontinental": {
+                    "Yamada": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Yamada Point",
+            "id": 13,
+            "x": 5546.5,
+            "z": -2216.5,
+            "lines": {
+                "TNIH": {
+                    "Nether Siberia": ["", "Main Line"]
+                },
+                "Intercontinental": {
+                    "Yamada": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "-2419 JCT",
+            "id": 14,
+            "type": "jct",
+            "x": 5546.5,
+            "z": -2419.5,
+            "lines": {
+                "Intercontinental": {
+                    "Yamada": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Portal -2610",
+            "id": 15,
+            "x": 5546.5,
+            "z": -2610.5,
+            "lines": {
+                "Intercontinental": {
+                    "Yamada": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Portal -3184",
+            "id": 16,
+            "x": 5546.5,
+            "z": -3184.5,
+            "lines": {
+                "Intercontinental": {
+                    "Yamada": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Portal 4597",
+            "id": 17,
+            "x": 4597.5,
+            "z": -871.5,
+            "lines": {
+                "Intercontinental": {
+                    "Ice Rail": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Portal 4906",
+            "id": 18,
+            "x": 4906.5,
+            "z": -871.5,
+            "lines": {
+                "Intercontinental": {
+                    "Ice Rail": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Portal 5628",
+            "id": 19,
+            "x": 5628.5,
+            "z": -871.5,
+            "lines": {
+                "Intercontinental": {
+                    "Ice Rail": ["", "Main Line"],
+                    "Shimeji": ["", "Main Line"]
+                }
+            }
         }
     ],
     "lines": {
-        "Intercontinental": {
+        "TNIH": {
             "Far East Ice Mining Outpost": {
                 "prefix": "",
                 "code": "FE-IMO",
                 "color": "FED83D",
-                "y": 10,
+                "y": 120,
                 "branches": {
                     "Main Line": {
                         "vertices": [
@@ -89,6 +255,69 @@
                             [6518, -2606]
                         ],
                         "stations": [[1, "Main Line"], 2]
+                    }
+                }
+            },
+            "Nether Siberia": {
+                "prefix": "",
+                "code": "N-SB",
+                "color": "0233A0",
+                "y": 120,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [6455.5, -2216.5],
+                            [5547.5, -2216.5]
+                        ],
+                        "stations": [13, 0]
+                    }
+                }
+            }
+        },
+        "Intercontinental": {
+            "Yamada": {
+                "prefix": "",
+                "code": "YAM",
+                "color": "FFEEDD",
+                "y": 125,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [5546.5, -841.5],
+                            [5546.5, -3184.5]
+                        ],
+                        "stations": [16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6]
+                    }
+                }
+            },
+            "Ice Rail": {
+                "prefix": "",
+                "code": "IR",
+                "color": "EA00FB",
+                "y": 125,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [5672.5, -871.5],
+                            [4597.5, -871.5]
+                        ],
+                        "stations": [17, 18, 7, 19]
+                    }
+                }
+            },
+            "Shimeji": {
+                "prefix": "",
+                "code": "SHJ",
+                "color": "AF0000",
+                "y": 125,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [5628.5, -1051.5],
+                            [5628.5, -841.5],
+                            [5379.5, -841.5]
+                        ],
+                        "stations": []
                     }
                 }
             }
