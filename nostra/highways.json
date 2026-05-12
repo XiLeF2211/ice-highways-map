@@ -400,6 +400,18 @@
                     "Camaguey-Jamaica-Montego Bay": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Churachinki Mine",
+            "type": "semi3",
+            "id": 35,
+            "x": 48140,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -430,13 +442,13 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [49050, -17732],
+                            [46330, -17732],
                             [52340, -17732],
                             [52340, -21475.5],
                             [52960.5, -21474.5],
                             [52960.5, -21893.5]
                         ],
-                        "stations": [22, [20, "Willsden branch"], 3, 4, 5, 6, [7, "Duchy of Rivers branch"], 18, 19]
+                        "stations": [35, 22, [20, "Willsden branch"], 3, 4, 5, 6, [7, "Duchy of Rivers branch"], 18, 19]
                     },
                     "Willsden branch": {
                         "vertices": [
