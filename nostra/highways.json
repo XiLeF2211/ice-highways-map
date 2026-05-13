@@ -7,7 +7,7 @@
             "z": 3863,
             "lines": {
                 "TNIH": {
-                    "Deccan": ["", ""]
+                    "Deccan": ["", "Main line"]
                 }
             }
         },
@@ -18,7 +18,7 @@
             "z": 4011,
             "lines": {
                 "TNIH": {
-                    "Deccan": ["", ""]
+                    "Deccan": ["", "Main line"]
                 }
             }
         },
@@ -30,7 +30,7 @@
             "z": 3569,
             "lines": {
                 "TNIH": {
-                    "Deccan": ["", ""]
+                    "Deccan": ["", "Main line"]
                 }
             }
         },
@@ -412,6 +412,53 @@
                     "Siberia Main": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Yakutia JCT",
+            "type": "jct",
+            "id": 36,
+            "x": 46360,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Yakutia branch"]
+                }
+            }
+        },
+        {
+            "name": "Yakutia",
+            "id": 37,
+            "x": 46360,
+            "z": -17815,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Yakutia branch"]
+                }
+            }
+        },
+        {
+            "name": "Dragonfall JCT",
+            "id": 38,
+            "type": "jct",
+            "x": 28534,
+            "z": 2089,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Main line to Dragonfall branch"]
+                }
+            }
+        },
+        {
+            "name": "Dragonfall West Mine",
+            "id": 39,
+            "type": "semi1",
+            "x": 29160,
+            "z": 2089,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Main line to Dragonfall branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -422,15 +469,20 @@
                 "color": "EB7400",
                 "y": 10,
                 "branches": {
-                    "": {
+                    "Main line": {
                         "vertices": [
-                            [28740, 3408],
-                            [28740, 3484],
-                            [28534, 3484],
+                            [28534, 2005],
                             [28534, 4011],
                             [28609, 4011]
                         ],
-                        "stations": [2, 0, 1]
+                        "stations": [[38, "Dragonfall branch"], 2, 0, 1]
+                    },
+                    "Dragonfall branch": {
+                        "vertices": [
+                            [28534, 2089],
+                            [29300, 2089]
+                        ],
+                        "stations": [[38, "Main line"], 39]
                     }
                 }
             },
@@ -448,7 +500,14 @@
                             [52960.5, -21474.5],
                             [52960.5, -21893.5]
                         ],
-                        "stations": [35, 22, [20, "Willsden branch"], 3, 4, 5, 6, [7, "Duchy of Rivers branch"], 18, 19]
+                        "stations": [[36, "Yakutia branch"], 35, 22, [20, "Willsden branch"], 3, 4, 5, 6, [7, "Duchy of Rivers branch"], 18, 19]
+                    },
+                    "Yakutia branch": {
+                        "vertices": [
+                            [46360, -17732],
+                            [46360, -17815]
+                        ],
+                        "stations": [[36, "Main line"], 37]
                     },
                     "Willsden branch": {
                         "vertices": [
