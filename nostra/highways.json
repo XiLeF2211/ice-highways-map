@@ -459,6 +459,39 @@
                     "Deccan": ["", "Main line to Dragonfall branch"]
                 }
             }
+        },
+        {
+            "name": "Bremer Bay",
+            "id": 40,
+            "x": 42207,
+            "z": 21108,
+            "lines": {
+                "PTA": {
+                    "Westralia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Esperance",
+            "id": 41,
+            "x": 43276,
+            "z": 20539,
+            "lines": {
+                "PTA": {
+                    "Westralia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mandurah",
+            "id": 42,
+            "x": 44360,
+            "z": 20526,
+            "lines": {
+                "PTA": {
+                    "Westralia": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -666,6 +699,31 @@
                     }
                 }
             }
+        },
+        "PTA": {
+            "Westralia": {
+                "prefix": "",
+                "code": "WSA",
+                "color": "B54800",
+                "y": 48,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [42207, 21108],
+                            [42421, 21108],
+                            [42989, 20539],
+                            [44303, 20539],
+                            [44315, 20526],
+                            [44333, 20526, "Elevator from Y=48 to Y=49"],
+                            [44360, 20526]
+                        ],
+                        "stations": [40, 41, 42]
+                    }
+                }
+            }
+        },
+        "Intercontinental": {
+
         }
     }
 }

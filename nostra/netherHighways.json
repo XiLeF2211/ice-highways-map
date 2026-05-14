@@ -69,7 +69,7 @@
             }
         },
         {
-            "name": "-841 JCT",
+            "name": "Yamada - Shimeji JCT",
             "id": 6,
             "type": "jct",
             "x": 5546.5,
@@ -82,7 +82,7 @@
             }
         },
         {
-            "name": "Ice-Rail JCT",
+            "name": "Yamada - Ice-Rail JCT",
             "id": 7,
             "type": "jct",
             "x": 5546.5,
@@ -225,10 +225,45 @@
             "name": "Portal 5628",
             "id": 19,
             "x": 5628.5,
+            "z": -841.5,
+            "lines": {
+                "Intercontinental": {
+                    "Shimeji": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Stairs 5628",
+            "id": 20,
+            "x": 5379.5,
+            "z": -841.5,
+            "lines": {
+                "Intercontinental": {
+                    "Shimeji": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Shimeji - Ice-Rail JCT",
+            "type": "jct",
+            "id": 21,
+            "x": 5628.5,
             "z": -871.5,
             "lines": {
                 "Intercontinental": {
-                    "Ice Rail": ["", "Main Line"],
+                    "Shimeji": ["", "Main Line"],
+                    "Ice Rail": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Shimeji -1020 JCT",
+            "type": "jct",
+            "id": 22,
+            "x": 5628.5,
+            "z": -1020.5,
+            "lines": {
+                "Intercontinental": {
                     "Shimeji": ["", "Main Line"]
                 }
             }
@@ -267,7 +302,7 @@
                     "Main Line": {
                         "vertices": [
                             [6455.5, -2216.5],
-                            [5547.5, -2216.5]
+                            [3905.5, -2216.5]
                         ],
                         "stations": [13, 0]
                     }
@@ -301,7 +336,7 @@
                             [5672.5, -871.5],
                             [4597.5, -871.5]
                         ],
-                        "stations": [17, 18, 7, 19]
+                        "stations": [17, 18, 7, 21]
                     }
                 }
             },
@@ -317,7 +352,7 @@
                             [5628.5, -841.5],
                             [5379.5, -841.5]
                         ],
-                        "stations": []
+                        "stations": [22, 21, 19, 6]
                     }
                 }
             }
