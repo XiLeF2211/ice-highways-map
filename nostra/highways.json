@@ -456,7 +456,7 @@
             "z": 2089,
             "lines": {
                 "TNIH": {
-                    "Deccan": ["", "Main line to Dragonfall branch"]
+                    "Deccan": ["", "Dragonfall branch"]
                 }
             }
         },
@@ -492,6 +492,84 @@
                     "Westralia": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Mahadevur Mine (JCT)",
+            "id": 43,
+            "x": 28534,
+            "z": 1209,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Main line to Timmuh Town branch"]
+                }
+            }
+        },
+        {
+            "name": "San Sitee",
+            "id": 44,
+            "x": 28614,
+            "z": 1209,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Timmuh Town branch"]
+                }
+            }
+        },
+        {
+            "name": "Timmuh Town",
+            "id": 45,
+            "x": 28807,
+            "z": 1209,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Timmuh Town branch"]
+                }
+            }
+        },
+        {
+            "name": "Skaldrin JCT",
+            "type": "jct",
+            "id": 46,
+            "x": 52960.5,
+            "z": -21953,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Willheim branch"]
+                }
+            }
+        },
+        {
+            "name": "Willheim",
+            "id": 47,
+            "x": 53220,
+            "z": -21953,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Willheim branch"]
+                }
+            }
+        },
+        {
+            "name": "Gobi",
+            "id": 48,
+            "x": 35355,
+            "z": -9258,
+            "lines": {
+                "Intercontinental": {
+                    "Trans-Gobi": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Jiayuguan Entrance",
+            "id": 49,
+            "x": 35355,
+            "z": -6933,
+            "lines": {
+                "Intercontinental": {
+                    "Trans-Gobi": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -504,11 +582,11 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [28534, 2005],
+                            [28534, 1000],
                             [28534, 4011],
                             [28609, 4011]
                         ],
-                        "stations": [[38, "Dragonfall branch"], 2, 0, 1]
+                        "stations": [[43, "Timmuh Town branch"], [38, "Dragonfall branch"], 2, 0, 1]
                     },
                     "Dragonfall branch": {
                         "vertices": [
@@ -516,6 +594,13 @@
                             [29300, 2089]
                         ],
                         "stations": [[38, "Main line"], 39]
+                    },
+                    "Timmuh Town branch": {
+                        "vertices": [
+                            [28534, 1209],
+                            [28807, 1209]
+                        ],
+                        "stations": [[43, "Main line"], 44, 45]
                     }
                 }
             },
@@ -531,9 +616,9 @@
                             [52340, -17732],
                             [52340, -21475.5],
                             [52960.5, -21474.5],
-                            [52960.5, -21893.5]
+                            [52960.5, -22000]
                         ],
-                        "stations": [[36, "Yakutia branch"], 35, 22, [20, "Willsden branch"], 3, 4, 5, 6, [7, "Duchy of Rivers branch"], 18, 19]
+                        "stations": [[36, "Yakutia branch"], 35, 22, [20, "Willsden branch"], 3, 4, 5, 6, [7, "Duchy of Rivers branch"], 18, 19, [46, "Willheim branch"]]
                     },
                     "Yakutia branch": {
                         "vertices": [
@@ -555,6 +640,13 @@
                             [51751, -21052]
                         ],
                         "stations": [[7, "Main line"], 8]
+                    },
+                    "Willheim branch": {
+                        "vertices": [
+                            [52960.5, -21953],
+                            [53220, -21953]
+                        ],
+                        "stations": [[46, "Main line"], 47]
                     }
                 }
             },
@@ -723,7 +815,21 @@
             }
         },
         "Intercontinental": {
-
+            "Trans-Gobi": {
+                "prefix": "",
+                "code": "TG",
+                "color": "FFFF00",
+                "y": 110,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [35355, -9258],
+                            [35355, -6933]
+                        ],
+                        "stations": [48, 49]
+                    }
+                }
+            }
         }
     }
 }
