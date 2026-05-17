@@ -656,6 +656,62 @@
                     "Deccan": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Velikaya Artel",
+            "id": 57,
+            "x": 56419.5,
+            "z": -14007.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main Y=10": ["", "Main line (South)"]
+                }
+            }
+        },
+        {
+            "name": "Rykovskiy (JCT)",
+            "id": 58,
+            "x": 56419.5,
+            "z": -13056.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main Y=10": ["", "Main line (South) to Petropavlosk branch"]
+                }
+            }
+        },
+        {
+            "name": "Petropavlosk",
+            "id": 59,
+            "x": 56825,
+            "z": -13056.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main Y=10": ["", "Petropavlosk branch"]
+                }
+            }
+        },
+        {
+            "name": "Rekinikki JCT",
+            "type": "jct",
+            "id": 60,
+            "x": 56099.5,
+            "z": -12919.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main Y=10": ["", "Main line (South) to Rekinikki branch"]
+                }
+            }
+        },
+        {
+            "name": "Rekinikki",
+            "id": 61,
+            "x": 56027,
+            "z": -12919.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main Y=10": ["", "Rekinikki branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -761,7 +817,21 @@
                             [56099.5, -13056.5],
                             [56099.5, -12691]
                         ],
-                        "stations": [52, 53]
+                        "stations": [52, 57, [58, "Petropavlosk branch"], [60, "Rekinikki branch"], 53]
+                    },
+                    "Petropavlosk branch": {
+                        "vertices": [
+                            [56419.5, -13056.5],
+                            [56829, -13056.5]
+                        ],
+                        "stations": [[58, "Main line (South)"], 59]
+                    },
+                    "Rekinikki branch": {
+                        "vertices": [
+                            [56099.5, -12919.5],
+                            [56027, -12919.5]
+                        ],
+                        "stations": [[60, "Main line (South)"], 61]
                     }
                 }
             },
