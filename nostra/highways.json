@@ -622,6 +622,40 @@
                     "Kamchatka Main Y=10": ["", "Main line (South)"]
                 }
             }
+        },
+        {
+            "name": "Kol Sentar",
+            "id": 54,
+            "x": 28393,
+            "z": 770,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Valmora",
+            "id": 55,
+            "x": 28317,
+            "z": 201,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nagpur Mine",
+            "type": "semi4",
+            "id": 56,
+            "x": 28317,
+            "z": -41,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -634,11 +668,13 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [28534, 1000],
+                            [28317, -64],
+                            [28317, 770],
+                            [28534, 770],
                             [28534, 4011],
                             [28609, 4011]
                         ],
-                        "stations": [[43, "Timmuh Town branch"], [38, "Dragonfall branch"], 2, 0, 1]
+                        "stations": [56, 55, 54, [43, "Timmuh Town branch"], [38, "Dragonfall branch"], 2, 0, 1]
                     },
                     "Dragonfall branch": {
                         "vertices": [
