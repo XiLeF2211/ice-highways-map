@@ -712,6 +712,41 @@
                     "Kamchatka Main Y=10": ["", "Rekinikki branch"]
                 }
             }
+        },
+        {
+            "name": "Akagane Trial Chambers",
+            "id": 62,
+            "type": "semi4",
+            "x": 52960.5,
+            "z": -22476,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yakutsk JCT",
+            "id": 63,
+            "type": "jct",
+            "x": 52960.5,
+            "z": -22675,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Yakutsk branch"]
+                }
+            }
+        },
+        {
+            "name": "Yakutsk",
+            "id": 64,
+            "x": 53065,
+            "z": -22675,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Yakutsk branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -760,9 +795,9 @@
                             [52340, -17732],
                             [52340, -21475.5],
                             [52960.5, -21474.5],
-                            [52960.5, -22000]
+                            [52960.5, -23040]
                         ],
-                        "stations": [[36, "Yakutia branch"], 35, 22, [20, "Willsden branch"], 3, 4, 5, 6, [7, "Duchy of Rivers branch"], 18, 19, [46, "Willheim branch"]]
+                        "stations": [[36, "Yakutia branch"], 35, 22, [20, "Willsden branch"], 3, 4, 5, 6, [7, "Duchy of Rivers branch"], 18, 19, [46, "Willheim branch"], 62, [63, "Yakutsk branch"]]
                     },
                     "Yakutia branch": {
                         "vertices": [
@@ -791,6 +826,13 @@
                             [53220, -21953]
                         ],
                         "stations": [[46, "Main line"], 47]
+                    },
+                    "Yakutsk branch": {
+                        "vertices": [
+                            [52960.5, -22675],
+                            [53065, -22675]
+                        ],
+                        "stations": [[63, "Main line"], 64]
                     }
                 }
             },
