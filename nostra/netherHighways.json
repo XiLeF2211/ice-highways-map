@@ -152,7 +152,7 @@
             }
         },
         {
-            "name": "Yamada Point",
+            "name": "Yamada Point | Interchange",
             "id": 13,
             "x": 5546.5,
             "z": -2216.5,
@@ -267,6 +267,108 @@
                     "Shimeji": ["", "Main Line"]
                 }
             }
+        },
+        {
+            "name": "Perturbator Point Interchange",
+            "id": 23,
+            "x": 4300,
+            "z": -2216.5,
+            "lines": {
+                "TNIH": {
+                    "Nether Siberia": ["", "Main Line"]
+                },
+                "Intercontinental": {
+                    "Perturbator": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Portal 3350",
+            "id": 24,
+            "x": 3350,
+            "z": -2197,
+            "lines": {
+                "Intercontinental": {
+                    "Perturbator": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Portal 3500",
+            "id": 25,
+            "x": 3500,
+            "z": -2197,
+            "lines": {
+                "Intercontinental": {
+                    "Perturbator": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Portal 3650",
+            "id": 26,
+            "x": 3650,
+            "z": -2197,
+            "lines": {
+                "Intercontinental": {
+                    "Perturbator": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Portal 3800",
+            "id": 27,
+            "x": 3800,
+            "z": -2197,
+            "lines": {
+                "Intercontinental": {
+                    "Perturbator": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Perturbator - Novyi Chitostan | Interchange",
+            "id": 28,
+            "x": 4125,
+            "z": -2197,
+            "lines": {
+                "Intercontinental": {
+                    "Perturbator": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Perturbator - Bondrewd Interchange",
+            "id": 29,
+            "x": 4200,
+            "z": -2197,
+            "lines": {
+                "Intercontinental": {
+                    "Perturbator": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Portal 4300",
+            "id": 30,
+            "x": 4300,
+            "z": -2197,
+            "lines": {
+                "Intercontinental": {
+                    "Perturbator": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Portal -2706",
+            "id": 31,
+            "x": 4300,
+            "z": -2706,
+            "lines": {
+                "Intercontinental": {
+                    "Perturbator": ["", "Main Line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -302,9 +404,9 @@
                     "Main Line": {
                         "vertices": [
                             [6455.5, -2216.5],
-                            [3905.5, -2216.5]
+                            [2257.5, -2216.5]
                         ],
-                        "stations": [13, 0]
+                        "stations": [23, 13, 0]
                     }
                 }
             }
@@ -353,6 +455,22 @@
                             [5379.5, -841.5]
                         ],
                         "stations": [22, 21, 19, 6]
+                    }
+                }
+            },
+            "Perturbator": {
+                "prefix": "PRT line | ",
+                "code": "PRT",
+                "color": "FF0010",
+                "y": 123,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [4300, -2706],
+                            [4300, -2197],
+                            [3350, -2197]
+                        ],
+                        "stations": [24, 25, 26, 27, 28, 29, 30, 23, 31]
                     }
                 }
             }
