@@ -747,6 +747,51 @@
                     "Siberia Main": ["", "Yakutsk branch"]
                 }
             }
+        },
+        {
+            "name": "Havant",
+            "id": 65,
+            "x": -352,
+            "z": -11938,
+            "lines": {
+                "TNIH": {
+                    "Channel (Friendship)": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cherbourg JCT",
+            "type": "jct",
+            "id": 66,
+            "x": -352,
+            "z": -11403,
+            "lines": {
+                "TNIH": {
+                    "Channel (Friendship)": ["", "Main line to Cherbourg branch"]
+                }
+            }
+        },
+        {
+            "name": "Cherbourg",
+            "id": 67,
+            "x": -590,
+            "z": -11403,
+            "lines": {
+                "TNIH": {
+                    "Channel (Friendship)": ["", "Cherbourg branch"]
+                }
+            }
+        },
+        {
+            "name": "Omaha Beach",
+            "id": 68,
+            "x": -352,
+            "z": -11209,
+            "lines": {
+                "TNIH": {
+                    "Channel (Friendship)": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -906,6 +951,28 @@
                             [27936, -316]
                         ],
                         "stations": [23, 24, 25]
+                    }
+                }
+            },
+            "Channel (Friendship)": {
+                "prefix": "",
+                "code": "CH",
+                "color": "FCE992",
+                "y": 1,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-352, -11938],
+                            [-352, -11209]
+                        ],
+                        "stations": [65, [66, "Cherbourg branch"], 68]
+                    },
+                    "Cherbourg branch": {
+                        "vertices": [
+                            [-352, -11403],
+                            [-590, -11403]
+                        ],
+                        "stations": [[66, "Main line"], 67]
                     }
                 }
             }
