@@ -792,6 +792,43 @@
                     "Channel (Friendship)": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Baylon",
+            "id": 69,
+            "x": 52171,
+            "z": -23834.5,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sita JCT",
+            "type": "jct",
+            "id": 70,
+            "x": 28317,
+            "z": -316,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", ""],
+                    "Deccan": ["", "Main line"],
+                    "Hooman": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Berkheri Mine",
+            "type": "semi4",
+            "id": 71,
+            "x": 28317,
+            "z": -643,
+            "lines": {
+                "TNIH": {
+                    "Hooman": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -804,14 +841,13 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [28032, -316],
                             [28317, -316],
                             [28317, 770],
                             [28534, 770],
                             [28534, 4011],
                             [28609, 4011]
                         ],
-                        "stations": [56, 55, 54, [43, "Timmuh Town branch"], [38, "Dragonfall branch"], 2, 0, 1]
+                        "stations": [70, 56, 55, 54, [43, "Timmuh Town branch"], [38, "Dragonfall branch"], 2, 0, 1]
                     },
                     "Dragonfall branch": {
                         "vertices": [
@@ -829,6 +865,21 @@
                     }
                 }
             },
+            "Hooman": {
+                "prefix": "",
+                "code": "HM",
+                "color": "169C9C",
+                "y": 10,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [28317, -316],
+                            [28317, -643]
+                        ],
+                        "stations": [70, 71]
+                    }
+                }
+            },
             "Siberia Main": {
                 "prefix": "",
                 "code": "SB",
@@ -841,9 +892,10 @@
                             [52340, -17732],
                             [52340, -21475.5],
                             [52960.5, -21474.5],
-                            [52960.5, -23040]
+                            [52960.5, -23834.5],
+                            [52171, -23834.5]
                         ],
-                        "stations": [[36, "Yakutia branch"], 35, 22, [20, "Willsden branch"], 3, 4, 5, 6, [7, "Duchy of Rivers branch"], 18, 19, [46, "Willheim branch"], 62, [63, "Yakutsk branch"]]
+                        "stations": [[36, "Yakutia branch"], 35, 22, [20, "Willsden branch"], 3, 4, 5, 6, [7, "Duchy of Rivers branch"], 18, 19, [46, "Willheim branch"], 62, [63, "Yakutsk branch"], 69]
                     },
                     "Yakutia branch": {
                         "vertices": [
@@ -949,9 +1001,9 @@
                         "vertices": [
                             [27518, 38],
                             [27518, -316],
-                            [27936, -316]
+                            [28317, -316]
                         ],
-                        "stations": [23, 24, 25]
+                        "stations": [23, 24, 25, 70]
                     }
                 }
             },
