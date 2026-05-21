@@ -152,7 +152,7 @@
             }
         },
         {
-            "name": "Yamada Point | Interchange",
+            "name": "Yamada – Siberia | Interchange",
             "id": 13,
             "x": 5546.5,
             "z": -2216.5,
@@ -166,7 +166,7 @@
             }
         },
         {
-            "name": "-2419 JCT",
+            "name": "Yamada -2419 JCT",
             "id": 14,
             "type": "jct",
             "x": 5546.5,
@@ -244,7 +244,7 @@
             }
         },
         {
-            "name": "Shimeji - Ice-Rail JCT",
+            "name": "Shimeji – Ice-Rail JCT",
             "type": "jct",
             "id": 21,
             "x": 5628.5,
@@ -269,7 +269,7 @@
             }
         },
         {
-            "name": "Perturbator Point Interchange",
+            "name": "Perturbator – Siberia | Interchange",
             "id": 23,
             "x": 4300,
             "z": -2216.5,
@@ -327,7 +327,7 @@
             }
         },
         {
-            "name": "Perturbator - Novyi Chitostan | Interchange",
+            "name": "Perturbator – Novyi Chitostan | Interchange",
             "id": 28,
             "x": 4125,
             "z": -2197,
@@ -338,7 +338,7 @@
             }
         },
         {
-            "name": "Perturbator - Bondrewd Interchange",
+            "name": "Perturbator – Bondrewd Interchange",
             "id": 29,
             "x": 4200,
             "z": -2197,
@@ -367,6 +367,41 @@
             "lines": {
                 "Intercontinental": {
                     "Perturbator": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Edoras – Siberia JCT",
+            "id": 32,
+            "type": "jct",
+            "x": 1811.5,
+            "z": -2216.5,
+            "lines": {
+                "TNIH": {
+                    "Nether Siberia": ["", "Main Line"],
+                    "Edoras": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Edoras",
+            "id": 33,
+            "x": 1811.5,
+            "z": -1179,
+            "lines": {
+                "TNIH": {
+                    "Edoras": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Severgrad",
+            "id": 34,
+            "x": 1811.5,
+            "z": -2381.5,
+            "lines": {
+                "TNIH": {
+                    "Edoras": ["", "Main Line"]
                 }
             }
         }
@@ -404,9 +439,24 @@
                     "Main Line": {
                         "vertices": [
                             [6455.5, -2216.5],
-                            [2257.5, -2216.5]
+                            [1811.5, -2216.5]
                         ],
-                        "stations": [23, 13, 0]
+                        "stations": [32, 23, 13, 0]
+                    }
+                }
+            },
+            "Edoras": {
+                "prefix": "",
+                "code": "ED",
+                "color": "4D82FF",
+                "y": 120,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [1811.5, -2381.5],
+                            [1811.5, -1072.5]
+                        ],
+                        "stations": [34, 32, 33]
                     }
                 }
             }
