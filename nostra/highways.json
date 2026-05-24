@@ -880,7 +880,7 @@
             "name": "Smallwater Bay",
             "id": 76,
             "x": 58428.5,
-            "z": -17434.5,
+            "z": -17439.5,
             "lines": {
                 "TNIH": {
                     "Kamchatka Main Y=10": ["", "Leshnybor branch"]
@@ -890,31 +890,31 @@
         {
             "name": "Maldives",
             "id": 77,
-            "x": 26402,
+            "x": 26400,
             "z": 4398,
             "lines": {
                 "TNIH": {
-                    "Malabar": ["", "Main Line"]
+                    "Malabar": ["", "Maldives branch"]
                 }
             }
         },
         {
-            "name": "Mangalore JCT",
+            "name": "Maldives JCT",
             "id": 78,
             "type": "jct",
-            "x": 27187,
+            "x": 27315,
             "z": 4398,
             "lines": {
                 "TNIH": {
-                    "Malabar": ["", "Main Line to Mangalore branch"]
+                    "Malabar": ["", "Main Line to Maldives branch"]
                 }
             }
         },
         {
             "name": "Selvarin",
             "id": 79,
-            "x": 27446,
-            "z": 4604,
+            "x": 27451,
+            "z": 4605,
             "lines": {
                 "TNIH": {
                     "Malabar": ["", "Main Line"]
@@ -924,8 +924,8 @@
         {
             "name": "Ceylon",
             "id": 80,
-            "x": 28698,
-            "z": 4830,
+            "x": 28704,
+            "z": 4831,
             "lines": {
                 "TNIH": {
                     "Malabar": ["", "Main Line"]
@@ -935,11 +935,11 @@
         {
             "name": "Mangalore",
             "id": 81,
-            "x": 27187,
+            "x": 27190,
             "z": 3987,
             "lines": {
                 "TNIH": {
-                    "Malabar": ["", "Mangalore branch"]
+                    "Malabar": ["", "Main Line"]
                 }
             }
         },
@@ -1186,26 +1186,29 @@
             },
             "Malabar": {
                 "prefix": "",
-                "code": "MB",
-                "color": "F08080",
+                "code": "ML",
+                "color": "6D2E32",
                 "y": 10,
                 "branches": {
                     "Main Line": {
                         "vertices": [
-                            [28698, 4830],
-                            [28698, 4604],
-                            [27446, 4604],
-                            [27446, 4398],
-                            [26402, 4398]
+                            [27190, 3987],
+                            [27190, 4122],
+                            [27315, 4122],
+                            [27315, 4398],
+                            [27451, 4398],
+                            [27451, 4605],
+                            [28704, 4605],
+                            [28704, 4831]
                         ],
-                        "stations": [77, [78, "Mangalore branch"], 79, 80]
+                        "stations": [81, [78, "Mangalore branch"], 79, 80]
                     },
-                    "Mangalore branch": {
+                    "Maldives branch": {
                         "vertices": [
-                            [27187, 4398],
-                            [27187, 3987]
+                            [27315, 4398],
+                            [26400, 4398]
                         ],
-                        "stations": [[78, "Main Line"], 81]
+                        "stations": [[78, "Main Line"], 77]
                     }
                 }
             }
