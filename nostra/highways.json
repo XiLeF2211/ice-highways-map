@@ -607,7 +607,7 @@
             "y2": 10,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (South)"],
+                    "Kamchatka Main Y=10": ["", "Main Line (East)"],
                     "Kamchatka Main Y=-5": ["", "Main line"]
                 }
             }
@@ -619,7 +619,7 @@
             "z": -12693.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (South)"]
+                    "Kamchatka Main Y=10": ["", "Main Line (East)"]
                 }
             }
         },
@@ -664,7 +664,7 @@
             "z": -14007.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (South)"]
+                    "Kamchatka Main Y=10": ["", "Main Line (East)"]
                 }
             }
         },
@@ -675,7 +675,7 @@
             "z": -13056.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (South) to Petropavlosk branch"]
+                    "Kamchatka Main Y=10": ["", "Main Line (East) to Petropavlosk branch"]
                 }
             }
         },
@@ -698,7 +698,7 @@
             "z": -12919.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (South) to Rekinikki branch"]
+                    "Kamchatka Main Y=10": ["", "Main Line (East) to Rekinikki branch"]
                 }
             }
         },
@@ -850,6 +850,96 @@
             "lines": {
                 "TNIH": {
                     "Hooman": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Leshnybor JCT",
+            "type": "jct",
+            "id": 74,
+            "x": 56419.5,
+            "z": -15203.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main Y=10": ["", "Main Line (East) to Leshnybor branch"]
+                }
+            }
+        },
+        {
+            "name": "Leshnybor",
+            "id": 75,
+            "x": 56648.5,
+            "z": -15203.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main Y=10": ["", "Leshnybor branch"]
+                }
+            }
+        },
+        {
+            "name": "Smallwater Bay",
+            "id": 76,
+            "x": 58428.5,
+            "z": -17434.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main Y=10": ["", "Leshnybor branch"]
+                }
+            }
+        },
+        {
+            "name": "Maldives",
+            "id": 77,
+            "x": 26402,
+            "z": 4398,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Mangalore JCT",
+            "id": 78,
+            "type": "jct",
+            "x": 27187,
+            "z": 4398,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main Line to Mangalore branch"]
+                }
+            }
+        },
+        {
+            "name": "Selvarin",
+            "id": 79,
+            "x": 27446,
+            "z": 4604,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Ceylon",
+            "id": 80,
+            "x": 28698,
+            "z": 4830,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Mangalore",
+            "id": 81,
+            "x": 27187,
+            "z": 3987,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Mangalore branch"]
                 }
             }
         },
@@ -1007,29 +1097,37 @@
                         ],
                         "stations": [3, 9, 10, 50, 51]
                     },
-                    "Main line (South)": {
+                    "Main Line (East)": {
                         "vertices": [
                             [56419.5, -15972.5],
                             [56419.5, -13056.5],
                             [56099.5, -13056.5],
                             [56099.5, -12691]
                         ],
-                        "stations": [52, 57, [58, "Petropavlosk branch"], [60, "Rekinikki branch"], 53]
+                        "stations": [52, [74, "Leshnybor branch"], 57, [58, "Petropavlosk branch"], [60, "Rekinikki branch"], 53]
                     },
                     "Petropavlosk branch": {
                         "vertices": [
                             [56419.5, -13056.5],
                             [56829, -13056.5]
                         ],
-                        "stations": [[58, "Main line (South)"], 59]
+                        "stations": [[58, "Main Line (East)"], 59]
                     },
                     "Rekinikki branch": {
                         "vertices": [
                             [56099.5, -12919.5],
                             [56027, -12919.5]
                         ],
-                        "stations": [[60, "Main line (South)"], 61]
-                    }
+                        "stations": [[60, "Main Line (East)"], 61]
+                    },
+					"Leshnybor branch": {
+						"vertices": [
+                            [56419.5, -15203.5],
+                            [58428.5, -15203.5],
+                            [58428.5, -17434.5]
+                        ],
+                        "stations": [[74, "Main Line (East)"], 75, 76]
+					}
                 }
             },
             "Kamchatka Main Y=-5": {
@@ -1083,6 +1181,31 @@
                             [-590, -11403]
                         ],
                         "stations": [[66, "Main line"], 67]
+                    }
+                }
+            },
+            "Malabar": {
+                "prefix": "",
+                "code": "MB",
+                "color": "F08080",
+                "y": 10,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [28698, 4830],
+                            [28698, 4604],
+                            [27446, 4604],
+                            [27446, 4398],
+                            [26402, 4398]
+                        ],
+                        "stations": [77, [78, "Mangalore branch"], 79, 80]
+                    },
+                    "Mangalore branch": {
+                        "vertices": [
+                            [27187, 4398],
+                            [27187, 3987]
+                        ],
+                        "stations": [[78, "Main Line"], 81]
                     }
                 }
             }
