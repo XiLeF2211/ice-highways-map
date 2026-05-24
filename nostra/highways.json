@@ -556,7 +556,7 @@
             "z": -9258,
             "lines": {
                 "Intercontinental": {
-                    "Trans-Gobi": ["", ""]
+                    "Gobi Transport": ["", "Main line"]
                 }
             }
         },
@@ -567,7 +567,7 @@
             "z": -6933,
             "lines": {
                 "Intercontinental": {
-                    "Trans-Gobi": ["", ""]
+                    "Gobi Transport": ["", "Main line"]
                 }
             }
         },
@@ -850,6 +850,40 @@
             "lines": {
                 "TNIH": {
                     "Hooman": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Gobi JCT",
+            "type": "jct",
+            "id": 82,
+            "x": 35355,
+            "z": -9213,
+            "lines": {
+                "Intercontinental": {
+                    "Gobi Transport": ["", "Main line to Shinsyu branch"]
+                }
+            }
+        },
+        {
+            "name": "Gobi East",
+            "id": 83,
+            "x": 35367,
+            "z": -9213,
+            "lines": {
+                "Intercontinental": {
+                    "Gobi Transport": ["", "Shinsyu branch"]
+                }
+            }
+        },
+        {
+            "name": "Shinsyu-Nishiguchi",
+            "id": 84,
+            "x": 36174,
+            "z": -9213,
+            "lines": {
+                "Intercontinental": {
+                    "Gobi Transport": ["", "Shinsyu branch"]
                 }
             }
         }
@@ -1186,18 +1220,25 @@
             }
         },
         "Intercontinental": {
-            "Trans-Gobi": {
+            "Gobi Transport": {
                 "prefix": "",
-                "code": "TG",
+                "code": "GT",
                 "color": "FFFF00",
                 "y": 110,
                 "branches": {
-                    "": {
+                    "Main line": {
                         "vertices": [
                             [35355, -9258],
                             [35355, -6933]
                         ],
-                        "stations": [48, 49]
+                        "stations": [48, [74, "Shinsyu branch"], 49]
+                    },
+                    "Shinsyu branch": {
+                        "vertices": [
+                            [35355, -9213],
+                            [36174, -9213]
+                        ],
+                        "stations": [[82, "Main line"], 83, 84]
                     }
                 }
             }
