@@ -976,6 +976,18 @@
                     "Gobi Transport": ["", "Shinsyu branch"]
                 }
             }
+        },
+        {
+            "name": "Mirny Mineshaft",
+            "type": "semi1",
+            "id": 85,
+            "x": 43026,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -1035,14 +1047,14 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [46330, -17732],
+                            [42769, -17732],
                             [52340, -17732],
                             [52340, -21475.5],
                             [52960.5, -21474.5],
                             [52960.5, -23834.5],
                             [52171, -23834.5]
                         ],
-                        "stations": [[36, "Yakutia branch"], 35, 22, [20, "Willsden branch"], 3, 4, 5, 6, [7, "Duchy of Rivers branch"], 18, 19, [46, "Willheim branch"], 62, [63, "Yakutsk branch"], 69]
+                        "stations": [85, [36, "Yakutia branch"], 35, 22, [20, "Willsden branch"], 3, 4, 5, 6, [7, "Duchy of Rivers branch"], 18, 19, [46, "Willheim branch"], 62, [63, "Yakutsk branch"], 69]
                     },
                     "Yakutia branch": {
                         "vertices": [
