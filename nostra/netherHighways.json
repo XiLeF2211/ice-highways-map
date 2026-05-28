@@ -338,7 +338,7 @@
             }
         },
         {
-            "name": "Perturbator – Bondrewd Interchange",
+            "name": "Perturbator – Bondrewd | Interchange",
             "id": 29,
             "x": 4200,
             "z": -2197,
@@ -404,6 +404,33 @@
                     "Edoras": ["", "Main Line"]
                 }
             }
+        },
+        {
+            "name": "Narmada – Siberia JCT",
+            "type": "jct",
+            "id": 35,
+            "x": 3485.5,
+            "z": -2216.5,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main Line"],
+                    "Nether Siberia": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Narmada – Perturbator | Interchange",
+            "id": 36,
+            "x": 3485.5,
+            "z": -2197,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main Line"]
+                },
+                "Intercontinental": {
+                    "Perturbator": ["", "Main Line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -441,7 +468,7 @@
                             [6455.5, -2216.5],
                             [1811.5, -2216.5]
                         ],
-                        "stations": [32, 23, 13, 0]
+                        "stations": [32, 35, 23, 13, 0]
                     }
                 }
             },
@@ -457,6 +484,21 @@
                             [1811.5, -1072.5]
                         ],
                         "stations": [34, 32, 33]
+                    }
+                }
+            },
+            "Narmada": {
+                "prefix": "",
+                "code": "NR",
+                "color": "7D32FF",
+                "y": 120,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [3485.5, -2216.5],
+                            [3485.5, -1968.5]
+                        ],
+                        "stations": [35, 36]
                     }
                 }
             }
@@ -520,7 +562,7 @@
                             [4300, -2197],
                             [3350, -2197]
                         ],
-                        "stations": [24, 25, 26, 27, 28, 29, 30, 23, 31]
+                        "stations": [24, 36, 25, 26, 27, 28, 29, 30, 23, 31]
                     }
                 }
             }
