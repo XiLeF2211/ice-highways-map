@@ -988,6 +988,28 @@
                     "Siberia Main": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Kashgar",
+            "id": 86,
+            "x": 27072,
+            "z": -6949,
+            "lines": {
+                "Intercontinental": {
+                    "Kashgar-Yeken": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Yeken",
+            "id": 87,
+            "x": 27293,
+            "z": -6173,
+            "lines": {
+                "Intercontinental": {
+                    "Kashgar-Yeken": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -1377,6 +1399,22 @@
                             [36174, -9213]
                         ],
                         "stations": [[82, "Main line"], 83, 84]
+                    }
+                }
+            },
+            "Kashgar-Yeken": {
+                "prefix": "",
+                "code": "KGR-YKN",
+                "color": "A0A0A0",
+                "y": 10,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [27072, -6949],
+                            [27072, -6173],
+                            [27293, -6173]
+                        ],
+                        "stations": [86, 87]
                     }
                 }
             }
