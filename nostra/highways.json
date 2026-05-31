@@ -978,7 +978,7 @@
             }
         },
         {
-            "name": "Mirny Mineshaft",
+            "name": "Suntar Mineshaft",
             "type": "semi1",
             "id": 85,
             "x": 43026,
@@ -992,22 +992,80 @@
         {
             "name": "Kashgar",
             "id": 86,
-            "x": 27072,
-            "z": -6949,
+            "x": 27072.5,
+            "z": -6948.5,
             "lines": {
                 "Intercontinental": {
-                    "Kashgar-Yeken": ["", ""]
+                    "Kashgar-Yeken": ["", "Main line"]
                 }
             }
         },
         {
             "name": "Yeken",
             "id": 87,
-            "x": 27293,
-            "z": -6173,
+            "x": 27293.5,
+            "z": -6172.5,
             "lines": {
                 "Intercontinental": {
-                    "Kashgar-Yeken": ["", ""]
+                    "Kashgar-Yeken": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yeken JCT",
+            "type": "jct",
+            "id": 88,
+            "x": 27072.5,
+            "z": -6172.5,
+            "lines": {
+                "Intercontinental": {
+                    "Kashgar-Yeken": ["", "Main line to Kabul branch"]
+                }
+            }
+        },
+        {
+            "name": "Kabul",
+            "id": 89,
+            "x": 24774.5,
+            "z": -4785.5,
+            "lines": {
+                "Intercontinental": {
+                    "Kashgar-Yeken": ["", "Main line to Kabul branch"]
+                }
+            }
+        },
+        {
+            "name": "Mirny JCT",
+            "type": "jct",
+            "id": 90,
+            "x": 41900,
+            "z": -17726,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Riverwood branch"]
+                }
+            }
+        },
+        {
+            "name": "Mirny Mine",
+            "type": "semi2",
+            "id": 91,
+            "x": 41900,
+            "z": -17692,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Riverwood branch"]
+                }
+            }
+        },
+        {
+            "name": "Riverwood",
+            "id": 92,
+            "x": 41900,
+            "z": -16870,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Riverwood branch"]
                 }
             }
         }
@@ -1069,14 +1127,21 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [42769, -17732],
+                            [41000, -17732],
                             [52340, -17732],
                             [52340, -21475.5],
                             [52960.5, -21474.5],
                             [52960.5, -23834.5],
                             [52171, -23834.5]
                         ],
-                        "stations": [85, [36, "Yakutia branch"], 35, 22, [20, "Willsden branch"], 3, 4, 5, 6, [7, "Duchy of Rivers branch"], 18, 19, [46, "Willheim branch"], 62, [63, "Yakutsk branch"], 69]
+                        "stations": [[90, "Riverwood branch"], 85, [36, "Yakutia branch"], 35, 22, [20, "Willsden branch"], 3, 4, 5, 6, [7, "Duchy of Rivers branch"], 18, 19, [46, "Willheim branch"], 62, [63, "Yakutsk branch"], 69]
+                    },
+                    "Riverwood branch": {
+                        "vertices": [
+                            [41900, -17726],
+                            [41900, -16830]
+                        ],
+                        "stations": [[90, "Main line"], 91, 92]
                     },
                     "Yakutia branch": {
                         "vertices": [
@@ -1408,13 +1473,21 @@
                 "color": "A0A0A0",
                 "y": 10,
                 "branches": {
-                    "": {
+                    "Main line": {
                         "vertices": [
-                            [27072, -6949],
-                            [27072, -6173],
-                            [27293, -6173]
+                            [27072.5, -6948.5],
+                            [27072.5, -6172.5],
+                            [27293.5, -6172.5]
                         ],
-                        "stations": [86, 87]
+                        "stations": [86, [88, "Kabul branch"], 87]
+                    },
+                    "Kabul branch": {
+                        "vertices": [
+                            [27072.5, -6172.5],
+                            [24774.5, -6172.5],
+                            [24774.5, -4785.5]
+                        ],
+                        "stations": [[88, "Main line"], 89]
                     }
                 }
             }
