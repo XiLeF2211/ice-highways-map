@@ -1121,7 +1121,7 @@
             "x": 46685,
             "z": -4311,
             "lines": {
-                "Kyushu Ice Highways": {
+                "Kyushu": {
                     "Nagasaki-Jeju-Kuchinoerabusima": ["", "Main line"],
                     "Nagasaki-Yamaguchi Y=70": ["", "Main line"]
                 }
@@ -1137,7 +1137,7 @@
             "x": 46667,
             "z": -4203,
             "lines": {
-                "Kyushu Ice Highways": {
+                "Kyushu": {
                     "Nagasaki-Jeju-Kuchinoerabusima": ["", "Main line to Jeju branch"]
                 }
             }
@@ -1148,7 +1148,7 @@
             "x": 46367,
             "z": -4333,
             "lines": {
-                "Kyushu Ice Highways": {
+                "Kyushu": {
                     "Nagasaki-Jeju-Kuchinoerabusima": ["", "Jeju branch"]
                 }
             }
@@ -1159,7 +1159,7 @@
             "x": 45389,
             "z": -4310,
             "lines": {
-                "Kyushu Ice Highways": {
+                "Kyushu": {
                     "Nagasaki-Jeju-Kuchinoerabusima": ["", "Jeju branch"]
                 }
             }
@@ -1170,7 +1170,7 @@
             "x": 46761,
             "z": -4114.5,
             "lines": {
-                "Kyushu Ice Highways": {
+                "Kyushu": {
                     "Nagasaki-Jeju-Kuchinoerabusima": ["", "Main line"]
                 }
             },
@@ -1184,7 +1184,7 @@
             "x": 46760,
             "z": -3993,
             "lines": {
-                "Kyushu Ice Highways": {
+                "Kyushu": {
                     "Nagasaki-Jeju-Kuchinoerabusima": ["", "Main line"]
                 }
             }
@@ -1195,7 +1195,7 @@
             "x": 46641,
             "z": -3926,
             "lines": {
-                "Kyushu Ice Highways": {
+                "Kyushu": {
                     "Nagasaki-Jeju-Kuchinoerabusima": ["", "Main line"]
                 }
             }
@@ -1206,7 +1206,7 @@
             "x": 46670,
             "z": -3286,
             "lines": {
-                "Kyushu Ice Highways": {
+                "Kyushu": {
                     "Nagasaki-Jeju-Kuchinoerabusima": ["", "Main line"]
                 }
             }
@@ -1217,8 +1217,10 @@
             "id": 105,
             "x": 46761,
             "z": -4262,
+            "y1": 70,
+            "y2": 88,
             "lines": {
-                "Kyushu Ice Highways": {
+                "Kyushu": {
                     "Nagasaki-Yamaguchi Y=70": ["", "Main line"],
                     "Nagasaki-Yamaguchi Y=88": ["", "Main line"]
                 }
@@ -1231,7 +1233,7 @@
             "x": 47198,
             "z": -4262,
             "lines": {
-                "Kyushu Ice Highways": {
+                "Kyushu": {
                     "Nagasaki-Yamaguchi Y=88": ["", "Main line to Saiki branch"]
                 }
             }
@@ -1242,7 +1244,7 @@
             "x": 47266,
             "z": -4262,
             "lines": {
-                "Kyushu Ice Highways": {
+                "Kyushu": {
                     "Nagasaki-Yamaguchi Y=88": ["", "Saiki branch"]
                 }
             }
@@ -1253,7 +1255,7 @@
             "x": 47198,
             "z": -4358,
             "lines": {
-                "Kyushu Ice Highways": {
+                "Kyushu": {
                     "Nagasaki-Yamaguchi Y=88": ["", "Main line"]
                 }
             }
@@ -1264,8 +1266,87 @@
             "x": 47135,
             "z": -4676,
             "lines": {
-                "Kyushu Ice Highways": {
+                "Kyushu": {
                     "Nagasaki-Yamaguchi Y=88": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sisian",
+            "id": 110,
+            "x": 15809.5,
+            "z": -7469.5,
+            "lines": {
+                "Armenia": {
+                    "M-1": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Gyumri",
+            "id": 111,
+            "x": 15686.5,
+            "z": -7356.5,
+            "lines": {
+                "Armenia": {
+                    "M-1": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Yerevan",
+            "id": 112,
+            "x": 15862.5,
+            "z": -7224,
+            "lines": {
+                "Armenia": {
+                    "M-1": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Armenia",
+            "id": 113,
+            "x": 16068,
+            "z": -7016.5,
+            "lines": {
+                "Armenia": {
+                    "M-1": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Vayots Dzor JCT",
+            "type": "jct",
+            "id": 114,
+            "x": 16221.5,
+            "z": -7016.5,
+            "lines": {
+                "Armenia": {
+                    "M-1": ["", ""],
+                    "M-2": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Vardenis",
+            "id": 115,
+            "x": 16221.5,
+            "z": -7271,
+            "lines": {
+                "Armenia": {
+                    "M-2": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Vayots Dzor",
+            "id": 116,
+            "x": 16236.5,
+            "z": -7016.5,
+            "lines": {
+                "Armenia": {
+                    "M-1": ["", ""]
                 }
             }
         }
@@ -1648,7 +1729,7 @@
                 }
             }
         },
-        "Kyushu Ice Highways": {
+        "Kyushu": {
             "Nagasaki-Jeju-Kuchinoerabusima": {
                 "prefix": "",
                 "code": "長済口",
@@ -1724,6 +1805,54 @@
                             [47266, -4263]
                         ],
                         "stations": [[106, "Main line"], 107]
+                    }
+                }
+            }
+        },
+        "Armenia": {
+            "M-1": {
+                "prefix": "",
+                "code": "M-1",
+                "color": "009dff",
+                "y": 100,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [15811, -7469.5],
+                            [15691.5, -7469.5],
+                            [15691.5, -7378.5],
+                            [15686.5, -7378.5],
+                            [15686.5, -7243.5],
+                            [15862.5, -7243.5],
+                            [15862.5, -7161.5],
+                            [16007.5, -7161.5],
+                            [16007.5, -7059.5],
+                            [16060.5, -7059.5],
+                            [16060.5, -7016.5],
+                            [16236.5, -7016.5],
+                            [16236.5, -6802.5],
+                            [16392.5, -6802.5],
+                            [16392.5, -6728.5],
+                            [16415.5, -6728.5],
+                            [16415.5, -6696.5],
+                            [16512, -6697.5]
+                        ],
+                        "stations": [97, [98, "Jeju branch"], 101, 102, 103, 104]
+                    }
+                }
+            },
+            "M-2": {
+                "prefix": "",
+                "code": "M-2",
+                "color": "0ecc00",
+                "y": 100,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [16221.5, -7016.5],
+                            [16221.5, -7271]
+                        ],
+                        "stations": []
                     }
                 }
             }
