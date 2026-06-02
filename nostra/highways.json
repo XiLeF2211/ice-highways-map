@@ -1114,6 +1114,101 @@
                     "Deccan": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Nagasaki",
+            "id": 97,
+            "x": 46685,
+            "z": -4315,
+            "lines": {
+                "Kyushu Ice Highways": {
+                    "Nagasaki-Jeju-Kuchinoerabusima": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[46672, -4320], [46717, -4302]]
+            ]
+        },
+        {
+            "name": "Isahaya JCT",
+            "type": "jct",
+            "id": 98,
+            "x": 46667,
+            "z": -4203,
+            "lines": {
+                "Kyushu Ice Highways": {
+                    "Nagasaki-Jeju-Kuchinoerabusima": ["", "Main line to Jeju branch"]
+                }
+            }
+        },
+        {
+            "name": "Hirado",
+            "id": 99,
+            "x": 46367,
+            "z": -4333,
+            "lines": {
+                "Kyushu Ice Highways": {
+                    "Nagasaki-Jeju-Kuchinoerabusima": ["", "Jeju branch"]
+                }
+            }
+        },
+        {
+            "name": "Jeju",
+            "id": 100,
+            "x": 45389,
+            "z": -4310,
+            "lines": {
+                "Kyushu Ice Highways": {
+                    "Nagasaki-Jeju-Kuchinoerabusima": ["", "Jeju branch"]
+                }
+            }
+        },
+        {
+            "name": "Kumamoto",
+            "id": 101,
+            "x": 46761,
+            "z": -4114.5,
+            "lines": {
+                "Kyushu Ice Highways": {
+                    "Nagasaki-Jeju-Kuchinoerabusima": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[46758, -4123], [46764, -4106]]
+            ]
+        },
+        {
+            "name": "Oates",
+            "id": 102,
+            "x": 46760,
+            "z": -3993,
+            "lines": {
+                "Kyushu Ice Highways": {
+                    "Nagasaki-Jeju-Kuchinoerabusima": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Shimoshima-Satsuma",
+            "id": 103,
+            "x": 46641,
+            "z": -3926,
+            "lines": {
+                "Kyushu Ice Highways": {
+                    "Nagasaki-Jeju-Kuchinoerabusima": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kuchinoerabusima",
+            "id": 104,
+            "x": 46670,
+            "z": -3286,
+            "lines": {
+                "Kyushu Ice Highways": {
+                    "Nagasaki-Jeju-Kuchinoerabusima": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -1465,7 +1560,7 @@
                             [11261, -3331],
                             [11261, -3304],
                             [11264, -3301],
-                            [11361, -3301]
+                            [11533, -3301]
                         ],
                         "stations": []
                     }
@@ -1490,6 +1585,45 @@
                             [44360, 20526]
                         ],
                         "stations": [40, 41, 42]
+                    }
+                }
+            }
+        },
+        "Kyushu Ice Highways": {
+            "Nagasaki-Jeju-Kuchinoerabusima": {
+                "prefix": "",
+                "code": "長済口",
+                "color": "de80a0",
+                "y": 70,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [46685, -4315],
+                            [46667, -4315],
+                            [46667, -4203],
+                            [46761, -4203],
+                            [46761, -4001],
+                            [46760, -3997],
+                            [46760, -3926],
+                            [46623, -3926],
+                            [46623, -3286],
+                            [46672, -3286]
+                        ],
+                        "stations": [97, [98, "Jeju branch"], 101, 102, 103, 104]
+                    },
+                    "Jeju branch": {
+                        "vertices": [
+                            [46667, -4203],
+                            [46667, -4098],
+                            [46637, -4098],
+                            [46637, -4094],
+                            [46367, -4094],
+                            [46367, -4333],
+                            [45479, -4333],
+                            [45479, -4310],
+                            [45389, -4310]
+                        ],
+                        "stations": [[98, "Main line"], 99, 100]
                     }
                 }
             }
