@@ -1119,10 +1119,11 @@
             "name": "Nagasaki",
             "id": 97,
             "x": 46685,
-            "z": -4315,
+            "z": -4311,
             "lines": {
                 "Kyushu Ice Highways": {
-                    "Nagasaki-Jeju-Kuchinoerabusima": ["", "Main line"]
+                    "Nagasaki-Jeju-Kuchinoerabusima": ["", "Main line"],
+                    "Nagasaki-Yamaguchi Y=70": ["", "Main line"]
                 }
             },
             "areas": [
@@ -1207,6 +1208,64 @@
             "lines": {
                 "Kyushu Ice Highways": {
                     "Nagasaki-Jeju-Kuchinoerabusima": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Green City Elevator",
+            "type": "elev-ew",
+            "id": 105,
+            "x": 46761,
+            "z": -4262,
+            "lines": {
+                "Kyushu Ice Highways": {
+                    "Nagasaki-Yamaguchi Y=70": ["", "Main line"],
+                    "Nagasaki-Yamaguchi Y=88": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Saiki JCT",
+            "type": "jct",
+            "id": 106,
+            "x": 47198,
+            "z": -4262,
+            "lines": {
+                "Kyushu Ice Highways": {
+                    "Nagasaki-Yamaguchi Y=88": ["", "Main line to Saiki branch"]
+                }
+            }
+        },
+        {
+            "name": "Saiki",
+            "id": 107,
+            "x": 47266,
+            "z": -4262,
+            "lines": {
+                "Kyushu Ice Highways": {
+                    "Nagasaki-Yamaguchi Y=88": ["", "Saiki branch"]
+                }
+            }
+        },
+        {
+            "name": "Shinosawa",
+            "id": 108,
+            "x": 47198,
+            "z": -4358,
+            "lines": {
+                "Kyushu Ice Highways": {
+                    "Nagasaki-Yamaguchi Y=88": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yamaguchi",
+            "id": 109,
+            "x": 47135,
+            "z": -4676,
+            "lines": {
+                "Kyushu Ice Highways": {
+                    "Nagasaki-Yamaguchi Y=88": ["", "Main line"]
                 }
             }
         }
@@ -1624,6 +1683,47 @@
                             [45389, -4310]
                         ],
                         "stations": [[98, "Main line"], 99, 100]
+                    }
+                }
+            },
+            "Nagasaki-Yamaguchi Y=70": {
+                "prefix": "",
+                "code": "長崎山口",
+                "color": "ad2d3e",
+                "y": 70,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [46685, -4307],
+                            [46670, -4307],
+                            [46670, -4262],
+                            [46761, -4262]
+                        ],
+                        "stations": [97, 105]
+                    }
+                }
+            },
+            "Nagasaki-Yamaguchi Y=88": {
+                "prefix": "",
+                "code": "長崎山口",
+                "color": "ad2d3e",
+                "y": 88,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [46761, -4262],
+                            [47198, -4262],
+                            [47198, -4676],
+                            [47135, -4676]
+                        ],
+                        "stations": [105, [106, "Saiki branch"], 108, 109]
+                    },
+                    "Saiki branch": {
+                        "vertices": [
+                            [47198, -4262],
+                            [47266, -4263]
+                        ],
+                        "stations": [[106, "Main line"], 107]
                     }
                 }
             }
