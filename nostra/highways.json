@@ -269,7 +269,7 @@
             "z": -168,
             "lines": {
                 "TNIH": {
-                    "Narmada": ["", ""]
+                    "Narmada": ["", "Main line"]
                 }
             }
         },
@@ -281,7 +281,7 @@
             "z": -316,
             "lines": {
                 "TNIH": {
-                    "Narmada": ["", ""]
+                    "Narmada": ["", "Main line"]
                 }
             }
         },
@@ -292,7 +292,7 @@
             "z": -316,
             "lines": {
                 "TNIH": {
-                    "Narmada": ["", ""]
+                    "Narmada": ["", "Main line"]
                 }
             }
         },
@@ -812,7 +812,7 @@
             "z": -316,
             "lines": {
                 "TNIH": {
-                    "Narmada": ["", ""],
+                    "Narmada": ["", "Main line"],
                     "Deccan": ["", "Main line"],
                     "Hooman": ["", ""]
                 }
@@ -1349,6 +1349,119 @@
                     "M-1": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Surat Bay",
+            "id": 117,
+            "x": 26030,
+            "z": 100,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Adila",
+            "id": 118,
+            "x": 26279,
+            "z": 100,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bhramani Mineshaft",
+            "type": "semi3",
+            "id": 119,
+            "x": 30274,
+            "z": -316,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ram Bhumi",
+            "id": 120,
+            "x": 31133,
+            "z": -316,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kolkata JCT",
+            "type": "jct",
+            "id": 121,
+            "x": 31698.5,
+            "z": -316,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line to Kolkata branch"]
+                }
+            }
+        },
+        {
+            "name": "Kolkata",
+            "id": 122,
+            "x": 31698.5,
+            "z": -254,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Kolkata branch"]
+                }
+            }
+        },
+        {
+            "name": "Khulna",
+            "id": 123,
+            "x": 31910.5,
+            "z": -383.5,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Magura JCT",
+            "type": "jct",
+            "id": 124,
+            "x": 31910.5,
+            "z": -551.5,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line to Sylhet branch"]
+                }
+            }
+        },
+        {
+            "name": "Sylhet",
+            "id": 125,
+            "x": 32458.5,
+            "z": -1315,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Sylhet branch"]
+                }
+            }
+        },
+        {
+            "name": "Dhaka",
+            "id": 126,
+            "x": 31926,
+            "z": -818.5,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -1409,7 +1522,7 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [41000, -17732],
+                            [38718, -17732],
                             [52340, -17732],
                             [52340, -21475.5],
                             [52960.5, -21474.5],
@@ -1533,13 +1646,33 @@
                 "color": "561574",
                 "y": 10,
                 "branches": {
-                    "": {
+                    "Main line": {
                         "vertices": [
-                            [27518, 38],
+                            [25717, 66],
+                            [26030, 66],
+                            [26030, 100],
+                            [27518, 100],
                             [27518, -316],
-                            [28317, -316]
+                            [31910.5, -316],
+                            [31910.5, -818.5],
+                            [31926, -818.5]
                         ],
-                        "stations": [23, 24, 25, 70]
+                        "stations": [117, 118, 23, 24, 25, 70, 119, 120, [121, "Kolkata branch"], 123, [124, "Sylhet branch"], 126]
+                    },
+                    "Kolkata branch": {
+                        "vertices": [
+                            [31698.5, -316],
+                            [31698.5, -254]
+                        ],
+                        "stations": [[121, "Main line"], 122]
+                    },
+                    "Sylhet branch": {
+                        "vertices": [
+                            [31910.5, -551.5],
+                            [32458.5, -551.5],
+                            [32458.5, -1315]
+                        ],
+                        "stations": [[124, "Main line"], 125]
                     }
                 }
             },
