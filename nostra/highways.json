@@ -1462,6 +1462,51 @@
                     "Narmada": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Dwarka-Venture",
+            "id": 127,
+            "x": 24835,
+            "z": -15,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Animalshop",
+            "id": 128,
+            "x": 24980,
+            "z": 66,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Dwarfdom JCT",
+            "type": "jct",
+            "id": 129,
+            "x": 25420,
+            "z": 66,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line to Dwarfdom branch"]
+                }
+            }
+        },
+        {
+            "name": "Dwarfdom",
+            "id": 130,
+            "x": 25420,
+            "z": 457,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Dwarfdom branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -1648,7 +1693,8 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [25717, 66],
+                            [24835, -15],
+                            [24835, 66],
                             [26030, 66],
                             [26030, 100],
                             [27518, 100],
@@ -1657,7 +1703,14 @@
                             [31910.5, -818.5],
                             [31926, -818.5]
                         ],
-                        "stations": [117, 118, 23, 24, 25, 70, 119, 120, [121, "Kolkata branch"], 123, [124, "Sylhet branch"], 126]
+                        "stations": [127, 128, [129, "Dwarfdom branch"], 117, 118, 23, 24, 25, 70, 119, 120, [121, "Kolkata branch"], 123, [124, "Sylhet branch"], 126]
+                    },
+                    "Dwarfdom branch": {
+                        "vertices": [
+                            [25420, 66],
+                            [25420, 457]
+                        ],
+                        "stations": [[129, "Main line"], 130]
                     },
                     "Kolkata branch": {
                         "vertices": [
