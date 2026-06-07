@@ -749,7 +749,7 @@
             }
         },
         {
-            "name": "Havant",
+            "name": "Havant International",
             "id": 65,
             "x": -352,
             "z": -11938,
@@ -1515,7 +1515,7 @@
             "z": -12917,
             "lines": {
                 "Intercontinental": {
-                    "Sheffield-Havant": ["", "Main line"]
+                    "Havantian": ["", "Main line"]
                 }
             }
         },
@@ -1527,29 +1527,29 @@
             "z": -12340,
             "lines": {
                 "Intercontinental": {
-                    "Sheffield-Havant": ["", "Main line to Oxford branch"]
+                    "Havantian": ["", "Main line to Oxford branch"]
                 }
             }
         },
         {
-            "name": "Henley",
+            "name": "Henley Interchange",
             "id": 133,
             "x": -312,
             "z": -12272,
             "lines": {
                 "Intercontinental": {
-                    "Sheffield-Havant": ["", "Main line"]
+                    "Havantian": ["", "Main line"]
                 }
             }
         },
         {
-            "name": "Havant-2",
+            "name": "Havant Town",
             "id": 134,
             "x": -343,
             "z": -11957,
             "lines": {
                 "Intercontinental": {
-                    "Sheffield-Havant": ["", "Main line"]
+                    "Havantian": ["", "Main line"]
                 }
             }
         },
@@ -1560,7 +1560,7 @@
             "z": -12340,
             "lines": {
                 "Intercontinental": {
-                    "Sheffield-Havant": ["", "Oxford branch"]
+                    "Havantian": ["", "Oxford branch"]
                 }
             }
         },
@@ -2199,10 +2199,10 @@
                     }
                 }
             },
-            "Sheffield-Havant": {
+            "Havantian": {
                 "prefix": "",
-                "code": "SHD-HVT",
-                "color": "A0A0A0",
+                "code": "HVT",
+                "color": "00008B",
                 "y": -61,
                 "branches": {
                     "Main line": {
