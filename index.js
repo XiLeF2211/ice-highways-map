@@ -3,8 +3,10 @@ const projection = 64; // for Aurora 16.
 
 const proxyURL = 'https://api.codetabs.com/v1/proxy/?quest='
 const mapURL = 'https://map.earthmc.net/tiles'
-const highwaysURL = 'https://raw.githubusercontent.com/XiLeF2211/ice-highways-map/refs/heads/main/' + mapName + '/highways.json'
-const netherHighwaysURL = 'https://raw.githubusercontent.com/XiLeF2211/ice-highways-map/refs/heads/main/' + mapName + '/netherHighways.json'
+const repositoryPath = 'https://raw.githubusercontent.com/XiLeF2211/ice-highways-map/refs/heads/main/'
+const highwaysURL = repositoryPath + mapName + '/highways.json'
+const netherHighwaysURL = repositoryPath + mapName + '/netherHighways.json'
+const markersURL = repositoryPath + mapName + '/markers.json'
 
 let highwayData;
 let netherHighwayData;
@@ -102,6 +104,9 @@ async function init() {
 
     highwayData = await fetchJSON(highwaysURL);
     netherHighwayData = await fetchJSON(netherHighwaysURL);
+
+    // highwayData = await fetchJSON('nostra/highways.json'); // for local test
+    // netherHighwayData = await fetchJSON('nostra/netherHighways.json'); // for local test
     if (!highwayData || !netherHighwayData) {
         console.log('debug: There was a problem with getting station and line data')
     }
@@ -146,7 +151,8 @@ for (let element of document.querySelectorAll("#settings input")) {
 
 async function renderTowns() {
     const startTownRender = new Date();
-    const data = await fetchJSON(proxyURL + mapURL + '/minecraft_overworld/markers.json')
+    //const data = await fetchJSON(proxyURL + mapURL + '/minecraft_overworld/markers.json')
+    const data = await fetchJSON(markersURL) // temp solution to show towns
     if (!data || data[0].markers.length == 0) {
         console.log('debug: There was a problem with getting towns data')
         return
