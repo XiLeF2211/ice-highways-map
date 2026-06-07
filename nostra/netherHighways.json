@@ -7,8 +7,8 @@
             "z": -2216,
             "lines": {
                 "TNIH": {
-                    "Far East Ice Mining Outpost": ["", "Main Line"],
-                    "Nether Siberia": ["", "Main Line"]
+                    "Far East Ice Mining Outpost": ["", "Main line"],
+                    "Nether Siberia": ["", "Main line"]
                 }
             }
         },
@@ -20,7 +20,7 @@
             "z": -2606,
             "lines": {
                 "TNIH": {
-                    "Far East Ice Mining Outpost": ["", "Main Line to Far East Capital branch"]
+                    "Far East Ice Mining Outpost": ["", "Main line to Far East Capital branch"]
                 }
             }
         },
@@ -42,7 +42,7 @@
             "z": -3403,
             "lines": {
                 "TNIH": {
-                    "Far East Ice Mining Outpost": ["", "Main Line"]
+                    "Far East Ice Mining Outpost": ["", "Main line"]
                 }
             }
         },
@@ -76,8 +76,8 @@
             "z": -841.5,
             "lines": {
                 "Intercontinental": {
-                    "Yamada": ["", "Main Line"],
-                    "Shimeji": ["", "Main Line"]
+                    "Yamada": ["", "Main line"],
+                    "Shimeji": ["", "Main line"]
                 }
             }
         },
@@ -89,8 +89,8 @@
             "z": -871.5,
             "lines": {
                 "Intercontinental": {
-                    "Yamada": ["", "Main Line"],
-                    "Ice Rail": ["", "Main Line"]
+                    "Yamada": ["", "Main line"],
+                    "Ice Rail": ["", "Main line"]
                 }
             }
         },
@@ -102,7 +102,7 @@
             "z": -897.5,
             "lines": {
                 "Intercontinental": {
-                    "Yamada": ["", "Main Line"]
+                    "Yamada": ["", "Main line"]
                 }
             }
         },
@@ -114,7 +114,7 @@
             "z": -1020.5,
             "lines": {
                 "Intercontinental": {
-                    "Yamada": ["", "Main Line"]
+                    "Yamada": ["", "Main line"]
                 }
             }
         },
@@ -125,7 +125,7 @@
             "z": -1149.5,
             "lines": {
                 "Intercontinental": {
-                    "Yamada": ["", "Main Line"]
+                    "Yamada": ["", "Main line"]
                 }
             }
         },
@@ -136,7 +136,7 @@
             "z": -1600.5,
             "lines": {
                 "Intercontinental": {
-                    "Yamada": ["", "Main Line"]
+                    "Yamada": ["", "Main line"]
                 }
             }
         },
@@ -147,7 +147,7 @@
             "z": -1902.5,
             "lines": {
                 "Intercontinental": {
-                    "Yamada": ["", "Main Line"]
+                    "Yamada": ["", "Main line"]
                 }
             }
         },
@@ -158,22 +158,22 @@
             "z": -2216.5,
             "lines": {
                 "TNIH": {
-                    "Nether Siberia": ["", "Main Line"]
+                    "Nether Siberia": ["", "Main line"]
                 },
                 "Intercontinental": {
-                    "Yamada": ["", "Main Line"]
+                    "Yamada": ["", "Main line"]
                 }
             }
         },
         {
-            "name": "Yamada -2419 JCT",
+            "name": "Yamada – Nijika JCT",
             "id": 14,
             "type": "jct",
             "x": 5546.5,
-            "z": -2419.5,
+            "z": -2419,
             "lines": {
                 "Intercontinental": {
-                    "Yamada": ["", "Main Line"]
+                    "Yamada": ["", "Main line"]
                 }
             }
         },
@@ -184,7 +184,7 @@
             "z": -2610.5,
             "lines": {
                 "Intercontinental": {
-                    "Yamada": ["", "Main Line"]
+                    "Yamada": ["", "Main line"]
                 }
             }
         },
@@ -195,7 +195,7 @@
             "z": -3184.5,
             "lines": {
                 "Intercontinental": {
-                    "Yamada": ["", "Main Line"]
+                    "Yamada": ["", "Main line"]
                 }
             }
         },
@@ -206,7 +206,7 @@
             "z": -871.5,
             "lines": {
                 "Intercontinental": {
-                    "Ice Rail": ["", "Main Line"]
+                    "Ice Rail": ["", "Main line"]
                 }
             }
         },
@@ -217,7 +217,7 @@
             "z": -871.5,
             "lines": {
                 "Intercontinental": {
-                    "Ice Rail": ["", "Main Line"]
+                    "Ice Rail": ["", "Main line"]
                 }
             }
         },
@@ -228,7 +228,7 @@
             "z": -841.5,
             "lines": {
                 "Intercontinental": {
-                    "Shimeji": ["", "Main Line"]
+                    "Shimeji": ["", "Main line"]
                 }
             }
         },
@@ -239,7 +239,7 @@
             "z": -841.5,
             "lines": {
                 "Intercontinental": {
-                    "Shimeji": ["", "Main Line"]
+                    "Shimeji": ["", "Main line"]
                 }
             }
         },
@@ -251,8 +251,8 @@
             "z": -871.5,
             "lines": {
                 "Intercontinental": {
-                    "Shimeji": ["", "Main Line"],
-                    "Ice Rail": ["", "Main Line"]
+                    "Shimeji": ["", "Main line"],
+                    "Ice Rail": ["", "Main line"]
                 }
             }
         },
@@ -264,7 +264,7 @@
             "z": -1020.5,
             "lines": {
                 "Intercontinental": {
-                    "Shimeji": ["", "Main Line"]
+                    "Shimeji": ["", "Main line"]
                 }
             }
         },
@@ -275,10 +275,10 @@
             "z": -2216.5,
             "lines": {
                 "TNIH": {
-                    "Nether Siberia": ["", "Main Line"]
+                    "Nether Siberia": ["", "Main line"]
                 },
                 "Intercontinental": {
-                    "Perturbator": ["", "Main Line"]
+                    "Perturbator": ["", "Main line"]
                 }
             }
         },
@@ -289,7 +289,7 @@
             "z": -2197,
             "lines": {
                 "Intercontinental": {
-                    "Perturbator": ["", "Main Line"]
+                    "Perturbator": ["", "Main line"]
                 }
             }
         },
@@ -300,7 +300,7 @@
             "z": -2197,
             "lines": {
                 "Intercontinental": {
-                    "Perturbator": ["", "Main Line"]
+                    "Perturbator": ["", "Main line"]
                 }
             }
         },
@@ -311,7 +311,7 @@
             "z": -2197,
             "lines": {
                 "Intercontinental": {
-                    "Perturbator": ["", "Main Line"]
+                    "Perturbator": ["", "Main line"]
                 }
             }
         },
@@ -322,7 +322,7 @@
             "z": -2197,
             "lines": {
                 "Intercontinental": {
-                    "Perturbator": ["", "Main Line"]
+                    "Perturbator": ["", "Main line"]
                 }
             }
         },
@@ -333,18 +333,19 @@
             "z": -2197,
             "lines": {
                 "Intercontinental": {
-                    "Perturbator": ["", "Main Line"]
+                    "Perturbator": ["", "Main line"]
                 }
             }
         },
         {
-            "name": "Perturbator – Bondrewd | Interchange",
+            "name": "Perturbator – Nijika | Interchange",
             "id": 29,
             "x": 4200,
             "z": -2197,
             "lines": {
                 "Intercontinental": {
-                    "Perturbator": ["", "Main Line"]
+                    "Perturbator": ["", "Main line"],
+                    "Nijika": ["", "Main line"]
                 }
             }
         },
@@ -355,7 +356,7 @@
             "z": -2197,
             "lines": {
                 "Intercontinental": {
-                    "Perturbator": ["", "Main Line"]
+                    "Perturbator": ["", "Main line"]
                 }
             }
         },
@@ -366,7 +367,7 @@
             "z": -2706,
             "lines": {
                 "Intercontinental": {
-                    "Perturbator": ["", "Main Line"]
+                    "Perturbator": ["", "Main line"]
                 }
             }
         },
@@ -378,8 +379,8 @@
             "z": -2216.5,
             "lines": {
                 "TNIH": {
-                    "Nether Siberia": ["", "Main Line"],
-                    "Edoras": ["", "Main Line"]
+                    "Nether Siberia": ["", "Main line"],
+                    "Edoras": ["", "Main line"]
                 }
             }
         },
@@ -390,7 +391,7 @@
             "z": -1179,
             "lines": {
                 "TNIH": {
-                    "Edoras": ["", "Main Line"]
+                    "Edoras": ["", "Main line"]
                 }
             }
         },
@@ -401,7 +402,7 @@
             "z": -2381.5,
             "lines": {
                 "TNIH": {
-                    "Edoras": ["", "Main Line"]
+                    "Edoras": ["", "Main line"]
                 }
             }
         },
@@ -413,8 +414,8 @@
             "z": -2216.5,
             "lines": {
                 "TNIH": {
-                    "Narmada": ["", "Main Line"],
-                    "Nether Siberia": ["", "Main Line"]
+                    "Narmada": ["", "Main line"],
+                    "Nether Siberia": ["", "Main line"]
                 }
             }
         },
@@ -425,13 +426,139 @@
             "z": -2197,
             "lines": {
                 "TNIH": {
-                    "Narmada": ["", "Main Line"]
+                    "Narmada": ["", "Main line"]
                 },
                 "Intercontinental": {
-                    "Perturbator": ["", "Main Line"]
+                    "Perturbator": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nijika 6001 JCT",
+            "type": "jct",
+            "id": 37,
+            "x": 6001,
+            "z": -2419,
+            "lines": {
+                "Intercontinental": {
+                    "Nijika": ["", "Far East branch"]
+                }
+            }
+        },
+        {
+            "name": "Nijika 5672 JCT",
+            "type": "jct",
+            "id": 38,
+            "x": 5672,
+            "z": -2419,
+            "lines": {
+                "Intercontinental": {
+                    "Nijika": ["", "Far East branch"]
+                }
+            }
+        },
+        {
+            "name": "Nijika (Rail pathway)",
+            "id": 39,
+            "x": 4906,
+            "z": -2419,
+            "lines": {
+                "Intercontinental": {
+                    "Nijika": ["", "Far East branch"]
+                }
+            }
+        },
+        {
+            "name": "Nijika – Perturbator | Interchange",
+            "id": 40,
+            "x": 4300,
+            "z": -2418,
+            "lines": {
+                "Intercontinental": {
+                    "Nijika": ["", "Far East branch"]
+                }
+            }
+        },
+        {
+            "name": "Far East branch JCT (Y=124 line Interchange)",
+            "type": "jct",
+            "id": 41,
+            "x": 4200,
+            "z": -2418,
+            "lines": {
+                "Intercontinental": {
+                    "Nijika": ["", "Main line to Far East branch"]
+                }
+            }
+        },
+        {
+            "name": "Nijika – Far East Ice Mining Outpost | Interchange",
+            "id": 42,
+            "x": 6407,
+            "z": -2418,
+            "lines": {
+                "Intercontinental": {
+                    "Nijika": ["", "Far East branch"]
+                }
+            }
+        },
+        {
+            "name": "Portal -2440",
+            "id": 43,
+            "x": 4200,
+            "z": -2440,
+            "lines": {
+                "Intercontinental": {
+                    "Nijika": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nijika – Y=124 | Interchange",
+            "id": 44,
+            "x": 3346,
+            "z": -1896,
+            "lines": {
+                "Intercontinental": {
+                    "Nijika": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nijika – X=1621 JCT",
+            "type": "jct",
+            "id": 45,
+            "x": 1621,
+            "z": -1896,
+            "lines": {
+                "Intercontinental": {
+                    "Nijika": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nijika – Y=124 | 1st Interchange",
+            "id": 46,
+            "x": 1107,
+            "z": -1896,
+            "lines": {
+                "Intercontinental": {
+                    "Nijika": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nijika – Y=124 | 2nd Interchange",
+            "id": 47,
+            "x": 966,
+            "z": -1896,
+            "lines": {
+                "Intercontinental": {
+                    "Nijika": ["", "Main line"]
                 }
             }
         }
+
     ],
     "lines": {
         "TNIH": {
@@ -441,7 +568,7 @@
                 "color": "FED83D",
                 "y": 120,
                 "branches": {
-                    "Main Line": {
+                    "Main line": {
                         "vertices": [
                             [6407, -2216],
                             [6407, -3403]
@@ -453,7 +580,7 @@
                             [6407, -2606],
                             [6518, -2606]
                         ],
-                        "stations": [[1, "Main Line"], 2]
+                        "stations": [[1, "Main line"], 2]
                     }
                 }
             },
@@ -463,7 +590,7 @@
                 "color": "0233A0",
                 "y": 120,
                 "branches": {
-                    "Main Line": {
+                    "Main line": {
                         "vertices": [
                             [6455.5, -2216.5],
                             [1811.5, -2216.5]
@@ -478,7 +605,7 @@
                 "color": "4D82FF",
                 "y": 120,
                 "branches": {
-                    "Main Line": {
+                    "Main line": {
                         "vertices": [
                             [1811.5, -2381.5],
                             [1811.5, -1072.5]
@@ -493,7 +620,7 @@
                 "color": "7D32FF",
                 "y": 120,
                 "branches": {
-                    "Main Line": {
+                    "Main line": {
                         "vertices": [
                             [3485.5, -2216.5],
                             [3485.5, -1968.5]
@@ -510,7 +637,7 @@
                 "color": "FFEEDD",
                 "y": 125,
                 "branches": {
-                    "Main Line": {
+                    "Main line": {
                         "vertices": [
                             [5546.5, -841.5],
                             [5546.5, -3184.5]
@@ -525,7 +652,7 @@
                 "color": "EA00FB",
                 "y": 125,
                 "branches": {
-                    "Main Line": {
+                    "Main line": {
                         "vertices": [
                             [5672.5, -871.5],
                             [4597.5, -871.5]
@@ -540,7 +667,7 @@
                 "color": "AF0000",
                 "y": 125,
                 "branches": {
-                    "Main Line": {
+                    "Main line": {
                         "vertices": [
                             [5628.5, -1051.5],
                             [5628.5, -841.5],
@@ -556,13 +683,38 @@
                 "color": "FF0010",
                 "y": 123,
                 "branches": {
-                    "Main Line": {
+                    "Main line": {
                         "vertices": [
                             [4300, -2706],
                             [4300, -2197],
                             [3350, -2197]
                         ],
                         "stations": [24, 36, 25, 26, 27, 28, 29, 30, 23, 31]
+                    }
+                }
+            },
+            "Nijika": {
+                "prefix": "",
+                "code": "NJ",
+                "color": "00FF10",
+                "y": 125,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [4200, -2442],
+                            [4200, -1896],
+                            [808, -1896]
+                        ],
+                        "stations": [47, 46, 45, 44, 29, 43, [41, "Far East branch"]]
+                    },
+                    "Far East branch": {
+                        "vertices": [
+                            [6407, -2419],
+                            [4320, -2419],
+                            [4320, -2418],
+                            [4200, -2418]
+                        ],
+                        "stations": [[41, "Main line"], 40, 39, 38, 37, 42]
                     }
                 }
             }

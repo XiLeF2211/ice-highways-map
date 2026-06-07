@@ -1039,7 +1039,7 @@
             "type": "jct",
             "id": 90,
             "x": 41900,
-            "z": -17726,
+            "z": -17732,
             "lines": {
                 "TNIH": {
                     "Siberia Main": ["", "Main line to Riverwood branch"]
@@ -1507,6 +1507,62 @@
                     "Narmada": ["", "Dwarfdom branch"]
                 }
             }
+        },
+        {
+            "name": "Sheffield",
+            "id": 131,
+            "x": -474,
+            "z": -12917,
+            "lines": {
+                "Intercontinental": {
+                    "Sheffield-Havant": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Oxford JCT",
+            "type": "jct",
+            "id": 132,
+            "x": -312,
+            "z": -12340,
+            "lines": {
+                "Intercontinental": {
+                    "Sheffield-Havant": ["", "Main line to Oxford branch"]
+                }
+            }
+        },
+        {
+            "name": "Henley",
+            "id": 133,
+            "x": -312,
+            "z": -12272,
+            "lines": {
+                "Intercontinental": {
+                    "Sheffield-Havant": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Havant-2",
+            "id": 134,
+            "x": -343,
+            "z": -11957,
+            "lines": {
+                "Intercontinental": {
+                    "Sheffield-Havant": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Oxford",
+            "id": 135,
+            "x": -492,
+            "z": -12340,
+            "lines": {
+                "Intercontinental": {
+                    "Sheffield-Havant": ["", "Oxford branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -1578,7 +1634,7 @@
                     },
                     "Riverwood branch": {
                         "vertices": [
-                            [41900, -17726],
+                            [41900, -17732],
                             [41900, -16830]
                         ],
                         "stations": [[90, "Main line"], 91, 92]
@@ -2087,6 +2143,31 @@
                             [24774.5, -4785.5]
                         ],
                         "stations": [[88, "Main line"], 89]
+                    }
+                }
+            },
+            "Sheffield-Havant": {
+                "prefix": "",
+                "code": "SHD-HVT",
+                "color": "A0A0A0",
+                "y": -61,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-474, -12917],
+                            [-312, -12917],
+                            [-312, -12272],
+                            [-343, -12272],
+                            [-343, -11957]
+                        ],
+                        "stations": [131, [132, "Oxford branch"], 133, 134]
+                    },
+                    "Oxford branch": {
+                        "vertices": [
+                            [-492, -12340],
+                            [-312, -12340]
+                        ],
+                        "stations": [135, [132, "Main line"]]
                     }
                 }
             }
