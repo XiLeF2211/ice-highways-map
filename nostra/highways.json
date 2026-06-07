@@ -1591,8 +1591,8 @@
         {
             "name": "Chittagong",
             "id": 138,
-            "x": 32590.5,
-            "z": -319.5,
+            "x": 32867.5,
+            "z": -228,
             "lines": {
                 "TNIH": {
                     "Bangla": ["", "Main line"]
