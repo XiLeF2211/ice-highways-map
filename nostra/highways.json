@@ -1563,6 +1563,41 @@
                     "Sheffield-Havant": ["", "Oxford branch"]
                 }
             }
+        },
+        {
+            "name": "Meghna JCT",
+            "type": "jct",
+            "id": 136,
+            "x": 32458.5,
+            "z": -551.5,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Sylhet branch"],
+                    "Bangla": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ambassia",
+            "id": 137,
+            "x": 32590.5,
+            "z": -319.5,
+            "lines": {
+                "TNIH": {
+                    "Bangla": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Chittagong",
+            "id": 138,
+            "x": 32590.5,
+            "z": -319.5,
+            "lines": {
+                "TNIH": {
+                    "Bangla": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -1781,7 +1816,7 @@
                             [32458.5, -551.5],
                             [32458.5, -1315]
                         ],
-                        "stations": [[124, "Main line"], 125]
+                        "stations": [[124, "Main line"], 136, 125]
                     }
                 }
             },
@@ -1835,6 +1870,24 @@
                             [25825, 4006]
                         ],
                         "stations": [[78, "Main line"], 77, 95]
+                    }
+                }
+            },
+            "Bangla": {
+                "prefix": "",
+                "code": "BD",
+                "color": "FF0000",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [32458.5, -551.5],
+                            [32590.5, -551.5],
+                            [32590.5, -319.5],
+                            [32867.5, -319.5],
+                            [32867.5, -228]
+                        ],
+                        "stations": [136, 137, 138]
                     }
                 }
             }
