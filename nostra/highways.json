@@ -1520,7 +1520,7 @@
             }
         },
         {
-            "name": "Oxford JCT",
+            "name": "Oxford Junction",
             "type": "jct",
             "id": 132,
             "x": -312,
@@ -1596,6 +1596,41 @@
             "lines": {
                 "TNIH": {
                     "Bangla": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Clacton-On-Sea",
+            "id": 139,
+            "x": 396,
+            "z": -12430,
+            "lines": {
+                "Intercontinental": {
+                    "Anglo-Wales": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Milton Keynes Junction",
+            "type": "jct",
+            "id": 140,
+            "x": -312,
+            "z": -12557,
+            "lines": {
+                "Intercontinental": {
+                    "Anglo-Wales": ["", "Main line"],
+                    "Havantian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Milton Keynes",
+            "id": 141,
+            "x": -378,
+            "z": -12557,
+            "lines": {
+                "Intercontinental": {
+                    "Anglo-Wales": ["", "Main line"]
                 }
             }
         }
@@ -2213,7 +2248,7 @@
                             [-343, -12272],
                             [-343, -11957]
                         ],
-                        "stations": [131, [132, "Oxford branch"], 133, 134]
+                        "stations": [131, 140, [132, "Oxford branch"], 133, 134]
                     },
                     "Oxford branch": {
                         "vertices": [
@@ -2221,6 +2256,22 @@
                             [-312, -12340]
                         ],
                         "stations": [135, [132, "Main line"]]
+                    }
+                }
+            },
+            "Anglo-Wales": {
+                "prefix": "",
+                "code": "",
+                "color": "00008B",
+                "y": -61,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [396, -12430],
+                            [396, -12557],
+                            [-378, -12557]
+                        ],
+                        "stations": [141, 140, 139]
                     }
                 }
             }
