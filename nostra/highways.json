@@ -434,6 +434,10 @@
             "lines": {
                 "TNIH": {
                     "Sakha": ["", ""]
+                },
+                "Yakutia Metro": {
+                    "Industrial": ["", ""],
+                    "Trial Chamber": ["", ""]
                 }
             },
             "areas": [
@@ -1706,6 +1710,9 @@
             "lines": {
                 "TNIH": {
                     "Siberia Main": ["", "Yakutia Industrial branch"]
+                },
+                "Yakutia Metro": {
+                    "Industrial": ["", ""]
                 }
             },
             "areas": [
@@ -1813,6 +1820,17 @@
             "lines": {
                 "TNIH": {
                     "Bangla": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yakutia Trial Chamber",
+            "id": 157,
+            "x": 46355,
+            "z": -17668,
+            "lines": {
+                "Yakutia Metro": {
+                    "Trial Chamber": ["", ""]
                 }
             }
         }
@@ -2424,6 +2442,40 @@
                             [16221.5, -7271]
                         ],
                         "stations": [114, 115]
+                    }
+                }
+            }
+        },
+        "Yakutia Metro": {
+            "Industrial": {
+                "prefix": "",
+                "code": "Idt",
+                "color": "A0A0A0",
+                "y": 10,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [46140, -17791],
+                            [46350, -17791],
+                            [46350, -17812],
+                            [46355, -17812]
+                        ],
+                        "stations": [147, 37]
+                    }
+                }
+            },
+            "Trial Chamber": {
+                "prefix": "",
+                "code": "Trc",
+                "color": "D27859",
+                "y": 6,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [46355, -17812],
+                            [46355, -17668]
+                        ],
+                        "stations": [37, 157]
                     }
                 }
             }
