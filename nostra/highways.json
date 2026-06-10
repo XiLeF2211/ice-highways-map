@@ -1598,7 +1598,7 @@
             "name": "Chittagong",
             "id": 138,
             "x": 32867.5,
-            "z": -228,
+            "z": -228.5,
             "lines": {
                 "TNIH": {
                     "Bangla": ["", "Main line"]
@@ -1648,7 +1648,7 @@
             "z": -15203.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Rekinikki branch to Koleso branch"]
+                    "Kamchatka Main Y=10": ["", "Leshnybor branch to Koleso branch"]
                 }
             }
         },
@@ -1759,6 +1759,62 @@
                     "Baikal": ["", ""]
                 }
             }
+        },
+        {
+            "name": "New Xenia JCT",
+            "type": "jct",
+            "id": 152,
+            "x": 52339.5,
+            "z": -20091.5,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to New Xenia branch"]
+                }
+            }
+        },
+        {
+            "name": "New Xenia",
+            "id": 153,
+            "x": 51660,
+            "z": -20091.5,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "New Xenia branch"]
+                }
+            }
+        },
+        {
+            "name": "Solapur",
+            "id": 154,
+            "x": 33037,
+            "z": -146,
+            "lines": {
+                "TNIH": {
+                    "Bangla": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Arakan",
+            "id": 155,
+            "x": 33101,
+            "z": 427,
+            "lines": {
+                "TNIH": {
+                    "Bangla": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Fort Wonder",
+            "id": 156,
+            "x": 33531,
+            "z": 930,
+            "lines": {
+                "TNIH": {
+                    "Bangla": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -1826,7 +1882,7 @@
                             [52960.5, -23834.5],
                             [52171, -23834.5]
                         ],
-                        "stations": [150, [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, 35, 22, [20, "Willsden branch"], 3, 4, 5, 6, [7, "Duchy of Rivers branch"], 18, 19, [46, "Willheim branch"], 62, [63, "Yakutsk branch"], 69]
+                        "stations": [150, [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, 35, 22, [20, "Willsden branch"], 3, 4, 5, 6, [152, "New Xenia branch"], [7, "Duchy of Rivers branch"], 18, 19, [46, "Willheim branch"], 62, [63, "Yakutsk branch"], 69]
                     },
                     "Riverwood branch": {
                         "vertices": [
@@ -1848,6 +1904,13 @@
                             [50270, -17976]
                         ],
                         "stations": [[20, "Main line"], 21]
+                    },
+                    "New Xenia branch": {
+                        "vertices": [
+                            [52339.5, -20091.5],
+                            [51660, -20091.5]
+                        ],
+                        "stations": [[152, "Main line"], 153]
                     },
                     "Duchy of Rivers branch": {
                         "vertices": [
@@ -2093,9 +2156,14 @@
                             [32590.5, -551.5],
                             [32590.5, -319.5],
                             [32867.5, -319.5],
-                            [32867.5, -228]
+                            [32867.5, -225],
+                            [33037, -225],
+                            [33037, -75],
+                            [33101, -75],
+                            [33101, 930],
+                            [34191, 930]
                         ],
-                        "stations": [136, 137, 138]
+                        "stations": [136, 137, 138, 154, 155, 156]
                     }
                 }
             }
