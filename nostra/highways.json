@@ -421,20 +421,26 @@
             "z": -17732,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line to Yakutia branch"]
+                    "Siberia Main": ["", "Main line"],
+                    "Sakha": ["", ""]
                 }
             }
         },
         {
             "name": "Yakutia",
             "id": 37,
-            "x": 46360,
-            "z": -17815,
+            "x": 46368,
+            "z": -17822,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Yakutia branch"]
+                    "Sakha": ["", ""]
                 }
-            }
+            },
+            "areas": [
+                [[46352, -17823], [46364, -17811]],
+                [[46348, -17815], [46370, -17807]],
+                [[46360, -17826], [46370, -17807]]
+            ]
         },
         {
             "name": "Dragonfall JCT",
@@ -1633,6 +1639,126 @@
                     "Anglo-Wales": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Koleso JCT",
+            "type": "jct",
+            "id": 142,
+            "x": 57297.5,
+            "z": -15203.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main Y=10": ["", "Rekinikki branch to Koleso branch"]
+                }
+            }
+        },
+        {
+            "name": "Koleso",
+            "id": 143,
+            "x": 57297.5,
+            "z": -15106,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main Y=10": ["", "Koleso branch"]
+                }
+            }
+        },
+        {
+            "name": "Kitahakonihon JCT",
+            "type": "jct",
+            "id": 144,
+            "x": 56419.5,
+            "z": -13907.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main Y=10": ["", "Main line (East) to Kitahakonihon branch"]
+                }
+            }
+        },
+        {
+            "name": "Kitahakonihon",
+            "id": 145,
+            "x": 58185.5,
+            "z": -13907.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main Y=10": ["", "Kitahakonihon branch"]
+                }
+            }
+        },
+        {
+            "name": "Yakutia West JCT",
+            "type": "jct",
+            "id": 146,
+            "x": 46130,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Yakutia Industrial branch"]
+                }
+            }
+        },
+        {
+            "name": "Yakutia Industrial",
+            "id": 147,
+            "x": 46130,
+            "z": -17798,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Yakutia Industrial branch"]
+                }
+            },
+            "areas": [
+                [[46129, -17813], [46141, -17792]],
+                [[46135, -17797], [46144, -17790]],
+                [[46128, -17799], [46131, -17792]]
+            ]
+        },
+        {
+            "name": "Fort Lena",
+            "id": 148,
+            "x": 46368,
+            "z": -18532,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Kustur",
+            "id": 149,
+            "x": 46483,
+            "z": -20364,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Angara JCT",
+            "type": "jct",
+            "id": 150,
+            "x": 39121.5,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"],
+                    "Baikal": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Minerva (Temporary)",
+            "id": 151,
+            "x": 39121.5,
+            "z": -17368,
+            "lines": {
+                "TNIH": {
+                    "Baikal": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -1693,14 +1819,14 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [38718, -17732],
+                            [38598, -17732],
                             [52340, -17732],
                             [52340, -21475.5],
                             [52960.5, -21474.5],
                             [52960.5, -23834.5],
                             [52171, -23834.5]
                         ],
-                        "stations": [[90, "Riverwood branch"], 85, [36, "Yakutia branch"], 35, 22, [20, "Willsden branch"], 3, 4, 5, 6, [7, "Duchy of Rivers branch"], 18, 19, [46, "Willheim branch"], 62, [63, "Yakutsk branch"], 69]
+                        "stations": [150, [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, 35, 22, [20, "Willsden branch"], 3, 4, 5, 6, [7, "Duchy of Rivers branch"], 18, 19, [46, "Willheim branch"], 62, [63, "Yakutsk branch"], 69]
                     },
                     "Riverwood branch": {
                         "vertices": [
@@ -1709,12 +1835,12 @@
                         ],
                         "stations": [[90, "Main line"], 91, 92]
                     },
-                    "Yakutia branch": {
+                    "Yakutia Industrial branch": {
                         "vertices": [
-                            [46360, -17732],
-                            [46360, -17815]
+                            [46130, -17732],
+                            [46130, -17798]
                         ],
-                        "stations": [[36, "Main line"], 37]
+                        "stations": [[146, "Main line"], 147]
                     },
                     "Willsden branch": {
                         "vertices": [
@@ -1769,7 +1895,7 @@
                             [56099.5, -13056.5],
                             [56099.5, -12691]
                         ],
-                        "stations": [52, [74, "Leshnybor branch"], 57, [58, "Petropavlosk branch"], [60, "Rekinikki branch"], 53]
+                        "stations": [52, [74, "Leshnybor branch"], 57, [144, "Kitahakonihon branch"], [58, "Petropavlosk branch"], [60, "Rekinikki branch"], 53]
                     },
                     "Petropavlosk branch": {
                         "vertices": [
@@ -1791,7 +1917,21 @@
                             [58428.5, -15203.5],
                             [58428.5, -17434.5]
                         ],
-                        "stations": [[74, "Main line (East)"], 75, 76]
+                        "stations": [[74, "Main line (East)"], 75, [142, "Koleso branch"], 76]
+					},
+					"Koleso branch": {
+						"vertices": [
+                            [57297.5, -15203.5],
+                            [57297.5, -15106]
+                        ],
+                        "stations": [[142, "Leshnybor branch"], 143]
+					},
+					"Kitahakonihon branch": {
+						"vertices": [
+                            [56419.5, -13907.5],
+                            [58185.5, -13907.5]
+                        ],
+                        "stations": [[144, "Main line (East)"], 145]
 					}
                 }
             },
@@ -1808,6 +1948,39 @@
                             [56419.5, -15972.5]
                         ],
                         "stations": [51, 52]
+                    }
+                }
+            },
+            "Sakha": {
+                "prefix": "",
+                "code": "SK",
+                "color": "089AFF",
+                "y": 10,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [46360, -17732],
+                            [46360, -17801],
+                            [46368, -17801],
+                            [46368, -20364],
+                            [46488, -20364]
+                        ],
+                        "stations": [36, 37, 148, 149]
+                    }
+                }
+            },
+            "Baikal": {
+                "prefix": "",
+                "code": "BK",
+                "color": "00a56a",
+                "y": 10,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [39121.5, -17732],
+                            [39121.5, -17368]
+                        ],
+                        "stations": [150, 151]
                     }
                 }
             },
