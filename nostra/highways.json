@@ -1480,7 +1480,7 @@
             "z": -15,
             "lines": {
                 "TNIH": {
-                    "Narmada": ["", "Main line"]
+                    "Narmada": ["", "Dwarka branch"]
                 }
             }
         },
@@ -1833,6 +1833,29 @@
                     "Trial Chamber": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Dwarka-Animalshop JCT",
+            "type": "jct",
+            "id": 158,
+            "x": 24835,
+            "z": 66,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line to Dwarka branch"]
+                }
+            }
+        },
+        {
+            "name": "Karachi",
+            "id": 159,
+            "x": 24160,
+            "z": -832,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -2073,8 +2096,8 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [24835, -15],
-                            [24835, 66],
+                            [24160, -832],
+                            [24160, 66],
                             [26030, 66],
                             [26030, 100],
                             [27518, 100],
@@ -2083,7 +2106,14 @@
                             [31910.5, -818.5],
                             [31926, -818.5]
                         ],
-                        "stations": [127, 128, [129, "Dwarfdom branch"], 117, 118, 23, 24, 25, 70, 119, 120, [121, "Kolkata branch"], 123, [124, "Sylhet branch"], 126]
+                        "stations": [159, [158, "Dwarka branch"], 128, [129, "Dwarfdom branch"], 117, 118, 23, 24, 25, 70, 119, 120, [121, "Kolkata branch"], 123, [124, "Sylhet branch"], 126]
+                    },
+                    "Dwarka branch": {
+                        "vertices": [
+                            [24835, -15],
+                            [24835, 66]
+                        ],
+                        "stations": [[158, "Main line"], 127]
                     },
                     "Dwarfdom branch": {
                         "vertices": [
