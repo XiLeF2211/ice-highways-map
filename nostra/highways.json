@@ -1867,6 +1867,139 @@
                     "Bangla": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Mid Wales",
+            "id": 161,
+            "x": -1408,
+            "z": -12557,
+            "lines": {
+                "Intercontinental": {
+                    "Anglo-Wales": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Banff Junction",
+            "type": "jct",
+            "id": 162,
+            "x": -41809,
+            "z": -12209,
+            "lines": {
+                "Canadian Ice Rail": {
+                    "Trans-Canada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Banff",
+            "id": 163,
+            "x": -41643,
+            "z": -12200,
+            "lines": {
+                "Canadian Ice Rail": {
+                    "Trans-Canada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Fairmont",
+            "id": 164,
+            "x": -41477,
+            "z": -12105,
+            "lines": {
+                "Canadian Ice Rail": {
+                    "Trans-Canada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cochrane",
+            "id": 165,
+            "x": -40923,
+            "z": -12071,
+            "lines": {
+                "Canadian Ice Rail": {
+                    "Trans-Canada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Calgary",
+            "id": 166,
+            "x": -40486,
+            "z": -12071,
+            "lines": {
+                "Canadian Ice Rail": {
+                    "Trans-Canada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Darrhea City",
+            "id": 167,
+            "x": -39847,
+            "z": -12062,
+            "lines": {
+                "Canadian Ice Rail": {
+                    "Trans-Canada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Swift Current",
+            "id": 168,
+            "x": -39116,
+            "z": -11716,
+            "lines": {
+                "Canadian Ice Rail": {
+                    "Trans-Canada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Saskatchewan",
+            "id": 169,
+            "x": -38446,
+            "z": -11712,
+            "lines": {
+                "Canadian Ice Rail": {
+                    "Trans-Canada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Regina",
+            "id": 170,
+            "x": -37697,
+            "z": -11271,
+            "lines": {
+                "Canadian Ice Rail": {
+                    "Trans-Canada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Dakota",
+            "id": 171,
+            "x": -37258,
+            "z": -10845,
+            "lines": {
+                "Canadian Ice Rail": {
+                    "Trans-Canada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Wisteria",
+            "id": 172,
+            "x": -35855,
+            "z": -11177,
+            "lines": {
+                "Canadian Ice Rail": {
+                    "Trans-Canada": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -2523,6 +2656,31 @@
                 }
             }
         },
+        "Canadian Ice Rail": {
+            "Trans-Canada": {
+                "prefix": "",
+                "code": "TC",
+                "color": "FF0000",
+                "y": 80,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-41809, -12209],
+                            [-41643, -12200],
+                            [-41477, -12105],
+                            [-40923, -12071],
+                            [-39847, -12062],
+                            [-39116, -11716],
+                            [-38486, -11712],
+                            [-37697, -11271],
+                            [-37258, -10845],
+                            [-35855, -11177]
+                        ],
+                        "stations": [162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172]
+                    }
+                }
+            }
+        },
         "Intercontinental": {
             "Gobi Transport": {
                 "prefix": "",
@@ -2605,9 +2763,9 @@
                         "vertices": [
                             [396, -12430],
                             [396, -12557],
-                            [-378, -12557]
+                            [-1408, -12557]
                         ],
-                        "stations": [141, 140, 139]
+                        "stations": [161, 141, 140, 139]
                     }
                 }
             }
