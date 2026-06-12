@@ -2035,6 +2035,29 @@
                     "Siberia Main": ["", "Kortemark branch"]
                 }
             }
+        },
+        {
+            "name": "Taynaya JCT",
+            "type": "jct",
+            "id": 176,
+            "x": 53410,
+            "z": -16182.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main Y=10": ["", "Main line (West) to Taynaya branch"]
+                }
+            }
+        },
+        {
+            "name": "Taynaya",
+            "id": 177,
+            "x": 53410,
+            "z": -16407,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main Y=10": ["", "Taynaya branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -2176,7 +2199,7 @@
                             [52271.5, -16182.5],
                             [56023.5, -16182.5]
                         ],
-                        "stations": [3, 9, 10, 50, 51]
+                        "stations": [3, 9, 10, 50, [176, "Taynaya branch"], 51]
                     },
                     "Main line (East)": {
                         "vertices": [
@@ -2186,6 +2209,13 @@
                             [56099.5, -12691]
                         ],
                         "stations": [52, [74, "Leshnybor branch"], 57, [144, "Kitahakonihon branch"], [58, "Petropavlosk branch"], [60, "Rekinikki branch"], 53]
+                    },
+                    "Taynaya branch": {
+                        "vertices": [
+                            [53410, -16182.5],
+                            [53410, -16407]
+                        ],
+                        "stations": [[176, "Main line (West)"], 177]
                     },
                     "Petropavlosk branch": {
                         "vertices": [
