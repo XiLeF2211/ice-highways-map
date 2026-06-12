@@ -2000,6 +2000,41 @@
                     "Trans-Canada": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Utaya JCT",
+            "type": "jct",
+            "id": 173,
+            "x": 52339.5,
+            "z": -20540,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Kortemark branch"]
+                }
+            }
+        },
+        {
+            "name": "Utaya Mine",
+            "type": "semi3",
+            "id": 174,
+            "x": 52593,
+            "z": -20540,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Kortemark branch"]
+                }
+            }
+        },
+        {
+            "name": "Kortemark",
+            "id": 175,
+            "x": 52863,
+            "z": -20540,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Kortemark branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -2067,7 +2102,7 @@
                             [52960.5, -23834.5],
                             [52171, -23834.5]
                         ],
-                        "stations": [150, [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, 35, 22, [20, "Willsden branch"], 3, 4, 5, 6, [152, "New Xenia branch"], [7, "Duchy of Rivers branch"], 18, 19, [46, "Willheim branch"], 62, [63, "Yakutsk branch"], 69]
+                        "stations": [150, [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, 35, 22, [20, "Willsden branch"], 3, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], [7, "Duchy of Rivers branch"], 18, 19, [46, "Willheim branch"], 62, [63, "Yakutsk branch"], 69]
                     },
                     "Riverwood branch": {
                         "vertices": [
@@ -2096,6 +2131,13 @@
                             [51660, -20091.5]
                         ],
                         "stations": [[152, "Main line"], 153]
+                    },
+                    "Kortemark branch": {
+                        "vertices": [
+                            [52339.5, -20540],
+                            [52863, -20540]
+                        ],
+                        "stations": [[173, "Main line"], 174, 175]
                     },
                     "Duchy of Rivers branch": {
                         "vertices": [
