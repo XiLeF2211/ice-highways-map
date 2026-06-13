@@ -2058,6 +2058,78 @@
                     "Kamchatka Main Y=10": ["", "Taynaya branch"]
                 }
             }
+        },
+        {
+            "name": "Suzuman JCT",
+            "type": "jct",
+            "id": 178,
+            "x": 52340,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"],
+                    "Magadan": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Yagoni Mine",
+            "type": "semi1",
+            "id": 179,
+            "x": 52963,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Magadan": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Ishgard Trial Chamber",
+            "type": "semi4",
+            "id": 180,
+            "x": 54008,
+            "z": -17331,
+            "lines": {
+                "TNIH": {
+                    "Magadan": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Ishgard",
+            "id": 181,
+            "x": 54008,
+            "z": -17222,
+            "lines": {
+                "TNIH": {
+                    "Magadan": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Magadan",
+            "id": 182,
+            "x": 54008,
+            "z": -16344,
+            "lines": {
+                "TNIH": {
+                    "Magadan": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Magadan JCT",
+            "type": "jct",
+            "id": 183,
+            "x": 54008,
+            "z": -16182.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main Y=10": ["", "Main line (West)"],
+                    "Magadan": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -2125,7 +2197,7 @@
                             [52960.5, -23834.5],
                             [52171, -23834.5]
                         ],
-                        "stations": [150, [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, 35, 22, [20, "Willsden branch"], 3, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], [7, "Duchy of Rivers branch"], 18, 19, [46, "Willheim branch"], 62, [63, "Yakutsk branch"], 69]
+                        "stations": [150, [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, 35, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], [7, "Duchy of Rivers branch"], 18, 19, [46, "Willheim branch"], 62, [63, "Yakutsk branch"], 69]
                     },
                     "Riverwood branch": {
                         "vertices": [
@@ -2199,7 +2271,7 @@
                             [52271.5, -16182.5],
                             [56023.5, -16182.5]
                         ],
-                        "stations": [3, 9, 10, 50, [176, "Taynaya branch"], 51]
+                        "stations": [3, 9, 10, 50, [176, "Taynaya branch"], 183, 51]
                     },
                     "Main line (East)": {
                         "vertices": [
@@ -2430,6 +2502,22 @@
                             [34460, 680]
                         ],
                         "stations": [136, 137, 138, 154, 155, 156, 160]
+                    }
+                }
+            },
+            "Magadan": {
+                "prefix": "",
+                "code": "MG",
+                "color": "810020",
+                "y": 10,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [52340, -17732],
+                            [54008, -17732],
+                            [54008, -16182.5]
+                        ],
+                        "stations": [178, 179, 180, 181, 182, 183]
                     }
                 }
             }
