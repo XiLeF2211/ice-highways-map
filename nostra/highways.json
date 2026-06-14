@@ -824,7 +824,7 @@
                 "TNIH": {
                     "Narmada": ["", "Main line"],
                     "Deccan": ["", "Main line"],
-                    "Hooman": ["", ""]
+                    "Hooman": ["", "Main line"]
                 }
             }
         },
@@ -836,7 +836,7 @@
             "z": -643,
             "lines": {
                 "TNIH": {
-                    "Hooman": ["", ""]
+                    "Hooman": ["", "Main line"]
                 }
             }
         },
@@ -848,7 +848,7 @@
             "z": -1546,
             "lines": {
                 "TNIH": {
-                    "Hooman": ["", ""]
+                    "Hooman": ["", "Main line"]
                 }
             }
         },
@@ -859,7 +859,7 @@
             "z": -1865,
             "lines": {
                 "TNIH": {
-                    "Hooman": ["", ""]
+                    "Hooman": ["", "Main line"]
                 }
             }
         },
@@ -1448,7 +1448,8 @@
             "z": -551.5,
             "lines": {
                 "TNIH": {
-                    "Narmada": ["", "Main line to Syphon branch"]
+                    "Narmada": ["", "Main line"],
+                    "Bangla": ["", "Main line"]
                 }
             }
         },
@@ -1459,7 +1460,7 @@
             "z": -1314,
             "lines": {
                 "TNIH": {
-                    "Narmada": ["", "Syphon branch"]
+                    "Himalayas": ["", "Main line"]
                 }
             }
         },
@@ -1583,7 +1584,7 @@
             "z": -551.5,
             "lines": {
                 "TNIH": {
-                    "Narmada": ["", "Syphon branch"],
+                    "Himalayas": ["", "Main line"],
                     "Bangla": ["", "Main line"]
                 }
             }
@@ -2139,7 +2140,7 @@
             "z": -2030,
             "lines": {
                 "TNIH": {
-                    "Narmada": ["", "Syphon branch"]
+                    "Himalayas": ["", "Main line"]
                 }
             }
         },
@@ -2188,6 +2189,85 @@
                     "Bangla": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Pachaas JCT",
+            "type": "jct",
+            "id": 189,
+            "x": 28505,
+            "z": -2434,
+            "lines": {
+                "TNIH": {
+                    "Hooman": ["", "Main line to Pachaas branch"]
+                }
+            }
+        },
+        {
+            "name": "Pachaas",
+            "id": 190,
+            "x": 28505,
+            "z": -2434,
+            "lines": {
+                "TNIH": {
+                    "Hooman": ["", "Pachaas branch"]
+                }
+            }
+        },
+        {
+            "name": "Tibet JCT",
+            "type": "jct",
+            "id": 191,
+            "x": 31501,
+            "z": -2950,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Main line to Tibet branch"]
+                }
+            }
+        },
+        {
+            "name": "Tibet",
+            "id": 192,
+            "x": 31501,
+            "z": -2672,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Tibet branch"]
+                }
+            }
+        },
+        {
+            "name": "Everest",
+            "id": 193,
+            "x": 30993,
+            "z": -2596,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mellune JCT",
+            "id": 194,
+            "x": 30549,
+            "z": -2636,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Main line to Mellune branch"]
+                }
+            }
+        },
+        {
+            "name": "Mellune",
+            "id": 195,
+            "x": 30549,
+            "z": -2113,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Mellune branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -2231,12 +2311,19 @@
                 "color": "169C9C",
                 "y": 10,
                 "branches": {
-                    "": {
+                    "Main line": {
                         "vertices": [
                             [28317, -316],
-                            [28317, -1865]
+                            [28317, -2657]
                         ],
-                        "stations": [70, 71, 72, 73]
+                        "stations": [70, 71, 72, 73, [189, "Pachaas branch"]]
+                    },
+                    "Pachaas branch": {
+                        "vertices": [
+                            [28317, -2434],
+                            [28821, -2434]
+                        ],
+                        "stations": [[189, "Main line"], 190]
                     }
                 }
             },
@@ -2452,7 +2539,7 @@
                             [31910.5, -818.5],
                             [31926, -818.5]
                         ],
-                        "stations": [159, [158, "Dwarka branch"], 128, [129, "Dwarfdom branch"], 117, 118, 23, 24, 25, 70, 119, 120, [121, "Kolkata branch"], 123, [124, "Syphon branch"], 126]
+                        "stations": [159, [158, "Dwarka branch"], 128, [129, "Dwarfdom branch"], 117, 118, 23, 24, 25, 70, 119, 120, [121, "Kolkata branch"], 123, 124, 126]
                     },
                     "Dwarka branch": {
                         "vertices": [
@@ -2474,16 +2561,45 @@
                             [31698.5, -254]
                         ],
                         "stations": [[121, "Main line"], 122]
-                    },
-                    "Syphon branch": {
+                    }
+                }
+            },
+            "Himalayas": {
+                "prefix": "",
+                "code": "ML",
+                "color": "8EC5F2",
+                "y": 10,
+                "branches": {
+                    "Main line": {
                         "vertices": [
-                            [31910.5, -551.5],
                             [32458.5, -551.5],
                             [32458.5, -1314],
                             [31705, -1314],
-                            [31705, -2032]
+                            [31705, -2031],
+                            [31501, -2031],
+                            [31501, -2590],
+                            [30993, -2590],
+                            [30993, -2596],
+                            [30990, -2596],
+                            [30990, -2636],
+                            [30549, -2636]
                         ],
-                        "stations": [[124, "Main line"], 136, 125, 184]
+                        "stations": [136, 125, 184, [191, "Tibet branch"], 193, [194, "Mellune branch"]]
+                    },
+                    "Tibet branch": {
+                        "vertices": [
+                            [31501, -2590],
+                            [31501, -2672]
+                        ],
+                        "stations": [[191, "Main line"], 192]
+                    },
+                    "Mellune branch": {
+                        "vertices": [
+                            [30549, -2636],
+                            [30549, -2113],
+                            [30472, -2113]
+                        ],
+                        "stations": [[194, "Main line"], 195]
                     }
                 }
             },
@@ -2565,7 +2681,7 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [32458.5, -551.5],
+                            [31910.5, -551.5],
                             [32590.5, -551.5],
                             [32590.5, -319.5],
                             [32867.5, -319.5],
@@ -2577,7 +2693,7 @@
                             [34450.5, 930],
                             [34450.5, 2078.5]
                         ],
-                        "stations": [136, 137, 138, 154, 155, 156, [187, "Naypyidaw branch"], 188]
+                        "stations": [124, 136, 137, 138, 154, 155, 156, [187, "Naypyidaw branch"], 188]
                     },
                     "Naypyidaw branch": {
                         "vertices": [
