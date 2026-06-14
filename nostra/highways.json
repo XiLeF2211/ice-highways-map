@@ -904,7 +904,7 @@
             "z": 4398,
             "lines": {
                 "TNIH": {
-                    "Malabar": ["", "Maldives-Agatti branch"]
+                    "Maldives": ["", "Main line"]
                 }
             }
         },
@@ -916,7 +916,8 @@
             "z": 4398,
             "lines": {
                 "TNIH": {
-                    "Malabar": ["", "Main line to Maldives-Agatti branch"]
+                    "Malabar": ["", "Main line"],
+                    "Maldives": ["", "Main line"]
                 }
             }
         },
@@ -1110,7 +1111,7 @@
             "z": 4006,
             "lines": {
                 "TNIH": {
-                    "Malabar": ["", "Maldives-Agatti branch"]
+                    "Maldives": ["", "Agatti branch"]
                 }
             }
         },
@@ -1447,7 +1448,7 @@
             "z": -551.5,
             "lines": {
                 "TNIH": {
-                    "Narmada": ["", "Main line to Sylhet branch"]
+                    "Narmada": ["", "Main line to Syphon branch"]
                 }
             }
         },
@@ -1455,10 +1456,10 @@
             "name": "Sylhet",
             "id": 125,
             "x": 32458.5,
-            "z": -1315,
+            "z": -1314,
             "lines": {
                 "TNIH": {
-                    "Narmada": ["", "Sylhet branch"]
+                    "Narmada": ["", "Syphon branch"]
                 }
             }
         },
@@ -1582,7 +1583,7 @@
             "z": -551.5,
             "lines": {
                 "TNIH": {
-                    "Narmada": ["", "Sylhet branch"],
+                    "Narmada": ["", "Syphon branch"],
                     "Bangla": ["", "Main line"]
                 }
             }
@@ -1864,7 +1865,7 @@
             "z": 680,
             "lines": {
                 "TNIH": {
-                    "Bangla": ["", "Main line"]
+                    "Bangla": ["", "Naypyidaw branch"]
                 }
             }
         },
@@ -2128,6 +2129,63 @@
                 "TNIH": {
                     "Kamchatka Main Y=10": ["", "Main line (West)"],
                     "Magadan": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Syphon",
+            "id": 184,
+            "x": 31705,
+            "z": -2030,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Syphon branch"]
+                }
+            }
+        },
+        {
+            "name": "Agatti JCT",
+            "type": "jct",
+            "id": 185,
+            "x": 25843,
+            "z": 4006,
+            "lines": {
+                "TNIH": {
+                    "Maldives": ["", "Agatti branch"]
+                }
+            }
+        },
+        {
+            "name": "Sundara",
+            "id": 186,
+            "x": 25748,
+            "z": 3759,
+            "lines": {
+                "TNIH": {
+                    "Maldives": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Naypyidaw JCT",
+            "type": "jct",
+            "id": 187,
+            "x": 34450.5,
+            "z": 930,
+            "lines": {
+                "TNIH": {
+                    "Bangla": ["", "Main line to Naypyidaw branch"]
+                }
+            }
+        },
+        {
+            "name": "Yangon",
+            "id": 188,
+            "x": 34450.5,
+            "z": 2078.5,
+            "lines": {
+                "TNIH": {
+                    "Bangla": ["", "Main line"]
                 }
             }
         }
@@ -2394,7 +2452,7 @@
                             [31910.5, -818.5],
                             [31926, -818.5]
                         ],
-                        "stations": [159, [158, "Dwarka branch"], 128, [129, "Dwarfdom branch"], 117, 118, 23, 24, 25, 70, 119, 120, [121, "Kolkata branch"], 123, [124, "Sylhet branch"], 126]
+                        "stations": [159, [158, "Dwarka branch"], 128, [129, "Dwarfdom branch"], 117, 118, 23, 24, 25, 70, 119, 120, [121, "Kolkata branch"], 123, [124, "Syphon branch"], 126]
                     },
                     "Dwarka branch": {
                         "vertices": [
@@ -2417,13 +2475,15 @@
                         ],
                         "stations": [[121, "Main line"], 122]
                     },
-                    "Sylhet branch": {
+                    "Syphon branch": {
                         "vertices": [
                             [31910.5, -551.5],
                             [32458.5, -551.5],
-                            [32458.5, -1315]
+                            [32458.5, -1314],
+                            [31705, -1314],
+                            [31705, -2032]
                         ],
-                        "stations": [[124, "Main line"], 136, 125]
+                        "stations": [[124, "Main line"], 136, 125, 184]
                     }
                 }
             },
@@ -2465,18 +2525,35 @@
                             [27451, 4605],
                             [28704, 4605]
                         ],
-                        "stations": [81, [78, "Mangalore branch"], 79, 94]
-                    },
-                    "Maldives-Agatti branch": {
+                        "stations": [81, 78, 79, 94]
+                    }
+                }
+            },
+            "Maldives": {
+                "prefix": "",
+                "code": "ML",
+                "color": "E3C9AB",
+                "y": 10,
+                "branches": {
+                    "Main line": {
                         "vertices": [
                             [27315, 4398],
                             [26400, 4398],
                             [26402, 4394],
                             [26407, 4394],
                             [26408, 4006],
-                            [25825, 4006]
+                            [25843, 4006],
+                            [25843, 3759],
+                            [25748, 3759]
                         ],
-                        "stations": [[78, "Main line"], 77, 95]
+                        "stations": [78, 77, [185, "Agatti branch"], 186]
+                    },
+                    "Agatti branch": {
+                        "vertices": [
+                            [25843, 4006],
+                            [25829, 4006]
+                        ],
+                        "stations": [[185, "Main line"], 95]
                     }
                 }
             },
@@ -2498,10 +2575,17 @@
                             [33101, -75],
                             [33101, 930],
                             [34450.5, 930],
+                            [34450.5, 2078.5]
+                        ],
+                        "stations": [136, 137, 138, 154, 155, 156, [187, "Naypyidaw branch"], 188]
+                    },
+                    "Naypyidaw branch": {
+                        "vertices": [
+                            [34450.5, 930],
                             [34450.5, 680],
                             [34460, 680]
                         ],
-                        "stations": [136, 137, 138, 154, 155, 156, 160]
+                        "stations": [[187, "Main line"], 160]
                     }
                 }
             },
