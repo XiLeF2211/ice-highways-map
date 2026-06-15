@@ -2399,6 +2399,39 @@
                     "Tibet": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Ptolemais",
+            "id": 207,
+            "x": 7060,
+            "z": -3225,
+            "lines": {
+                "Intercontinental": {
+                    "Sicilian North Africa": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cyrene",
+            "id": 208,
+            "x": 6375,
+            "z": -3380,
+            "lines": {
+                "Intercontinental": {
+                    "Sicilian North Africa": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Djerba",
+            "id": 209,
+            "x": 3921,
+            "z": -4529,
+            "lines": {
+                "Intercontinental": {
+                    "Sicilian North Africa": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -2910,7 +2943,7 @@
                             [32458, -2999],
                             [32668, -2999]
                         ],
-                        "stations": [[204, "Main line"], 2205]
+                        "stations": [[203, "Main line"], 204]
                     }
                 }
             }
@@ -3317,6 +3350,27 @@
                             [396, -12430],
                             [396, -12557],
                             [-1408, -12557]
+                        ],
+                        "stations": [161, 141, 140, 139]
+                    }
+                }
+            },
+            "Sicilian North Africa": {
+                "prefix": "",
+                "code": "SNA",
+                "color": "00FF00",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [7060, -3225],
+                            [6375, -3225],
+                            [6375, -4053],
+                            [5137, -4053],
+                            [5137, -4577],
+                            [4817, -4577],
+                            [4817, -4529],
+                            [3921, -4529]
                         ],
                         "stations": [161, 141, 140, 139]
                     }
