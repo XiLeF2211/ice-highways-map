@@ -2304,7 +2304,7 @@
             "z": -2113,
             "lines": {
                 "TNIH": {
-                    "Ganga": ["", "Main line"]
+                    "Ganga": ["", "Main line to Patliputra branch"]
                 }
             }
         },
@@ -2315,7 +2315,7 @@
             "z": -1436,
             "lines": {
                 "TNIH": {
-                    "Ganga": ["", "Main line"]
+                    "Ganga": ["", "Patliputra branch"]
                 }
             }
         },
