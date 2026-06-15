@@ -1454,13 +1454,14 @@
             }
         },
         {
-            "name": "Sylhet",
+            "name": "Sylhet (JCT)",
             "id": 125,
             "x": 32458.5,
             "z": -1314,
             "lines": {
                 "TNIH": {
-                    "Himalayas": ["", "Main line"]
+                    "Himalayas": ["", "Main line"],
+                    "Tibet": ["", "Main line"]
                 }
             }
         },
@@ -1849,13 +1850,13 @@
             }
         },
         {
-            "name": "Karachi",
+            "name": "Karachi Farm District (JCT)",
             "id": 159,
             "x": 24160,
-            "z": -832,
+            "z": -828,
             "lines": {
                 "TNIH": {
-                    "Narmada": ["", "Main line"]
+                    "Narmada": ["", "Main line to Weenie Hut Jr branch"]
                 }
             }
         },
@@ -2254,7 +2255,8 @@
             "z": -2636,
             "lines": {
                 "TNIH": {
-                    "Himalayas": ["", "Main line to Mellune branch"]
+                    "Himalayas": ["", "Main line"],
+                    "Ganga": ["", "Main line"]
                 }
             }
         },
@@ -2265,7 +2267,136 @@
             "z": -2113,
             "lines": {
                 "TNIH": {
-                    "Himalayas": ["", "Mellune branch"]
+                    "Ganga": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Karachi",
+            "id": 196,
+            "x": 24106,
+            "z": -948,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[24100, -956], [24110, -940]]
+            ]
+        },
+        {
+            "name": "Weenie Hut Jr",
+            "id": 197,
+            "x": 24400,
+            "z": -1437,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Weenie Hut Jr branch"]
+                }
+            }
+        },
+        {
+            "name": "Gandak JCT",
+            "type": "jct",
+            "id": 198,
+            "x": 30134,
+            "z": -2113,
+            "lines": {
+                "TNIH": {
+                    "Ganga": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Patliputra",
+            "id": 199,
+            "x": 30383,
+            "z": -1436,
+            "lines": {
+                "TNIH": {
+                    "Ganga": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kathmandu",
+            "id": 200,
+            "x": 30030,
+            "z": -2082,
+            "lines": {
+                "TNIH": {
+                    "Ganga": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Guwahati JCT",
+            "type": "jct",
+            "id": 201,
+            "x": 32458,
+            "z": -1986,
+            "lines": {
+                "TNIH": {
+                    "Tibet": ["", "Main line to Syphon branch"]
+                }
+            }
+        },
+        {
+            "name": "Syphon JCT",
+            "type": "jct",
+            "id": 202,
+            "x": 32458,
+            "z": -1986,
+            "lines": {
+                "TNIH": {
+                    "Tibet": ["", "Syphon branch"],
+                    "Himalayas": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Lhasa JCT",
+            "type": "jct",
+            "id": 203,
+            "x": 32458,
+            "z": -2999,
+            "lines": {
+                "TNIH": {
+                    "Tibet": ["", "Main line to Lhasa branch"]
+                }
+            }
+        },
+        {
+            "name": "Lhasa",
+            "id": 204,
+            "x": 32668,
+            "z": -2999,
+            "lines": {
+                "TNIH": {
+                    "Tibet": ["", "Lhasa branch"]
+                }
+            }
+        },
+        {
+            "name": "Shambhala",
+            "id": 205,
+            "x": 32603,
+            "z": -3499,
+            "lines": {
+                "TNIH": {
+                    "Tibet": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nagqu South",
+            "id": 206,
+            "x": 32632,
+            "z": -3810,
+            "lines": {
+                "TNIH": {
+                    "Tibet": ["", "Main line"]
                 }
             }
         }
@@ -2529,7 +2660,8 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [24160, -832],
+                            [24106, -948],
+                            [24160, -948],
                             [24160, 66],
                             [26030, 66],
                             [26030, 100],
@@ -2539,7 +2671,17 @@
                             [31910.5, -818.5],
                             [31926, -818.5]
                         ],
-                        "stations": [159, [158, "Dwarka branch"], 128, [129, "Dwarfdom branch"], 117, 118, 23, 24, 25, 70, 119, 120, [121, "Kolkata branch"], 123, 124, 126]
+                        "stations": [196, 159, [158, "Dwarka branch"], 128, [129, "Dwarfdom branch"], 117, 118, 23, 24, 25, 70, 119, 120, [121, "Kolkata branch"], 123, 124, 126]
+                    },
+                    "Weenie Hut Jr branch": {
+                        "vertices": [
+                            [24160, -828],
+                            [24163, -828],
+                            [24163, -824],
+                            [24400, -824],
+                            [24400, -1437]
+                        ],
+                        "stations": [[158, "Main line"], 127]
                     },
                     "Dwarka branch": {
                         "vertices": [
@@ -2584,7 +2726,7 @@
                             [30990, -2636],
                             [30549, -2636]
                         ],
-                        "stations": [136, 125, 184, [191, "Tibet branch"], 193, [194, "Mellune branch"]]
+                        "stations": [136, 125, 184, [191, "Tibet branch"], 193, 194]
                     },
                     "Tibet branch": {
                         "vertices": [
@@ -2592,14 +2734,32 @@
                             [31501, -2672]
                         ],
                         "stations": [[191, "Main line"], 192]
-                    },
-                    "Mellune branch": {
+                    }
+                }
+            },
+            "Ganga": {
+                "prefix": "",
+                "code": "GN",
+                "color": "D3B686",
+                "y": 10,
+                "branches": {
+                    "Main line": {
                         "vertices": [
                             [30549, -2636],
                             [30549, -2113],
-                            [30472, -2113]
+                            [30472, -2113],
+                            [30030, -2113],
+                            [30030, -2082]
                         ],
-                        "stations": [[194, "Main line"], 195]
+                        "stations": [194, 195, [198, "Patliputra branch"], 200]
+                    },
+                    "Patliputra branch": {
+                        "vertices": [
+                            [30134, -2113],
+                            [30134, -1436],
+                            [30383, -1436]
+                        ],
+                        "stations": [[198, "Main line"], 199]
                     }
                 }
             },
@@ -2718,6 +2878,39 @@
                             [54008, -16182.5]
                         ],
                         "stations": [178, 179, 180, 181, 182, 183]
+                    }
+                }
+            },
+            "Tibet": {
+                "prefix": "",
+                "code": "TB",
+                "color": "00FF00",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [32458.5, -1314],
+                            [32458, -1314],
+                            [32458, -3499],
+                            [32603, -3499],
+                            [32603, -3810],
+                            [32733, -3810]
+                        ],
+                        "stations": [125, [201, "Syphon branch"], [203, "Lhasa branch"], 205, 206]
+                    },
+                    "Syphon branch": {
+                        "vertices": [
+                            [32458, -1986],
+                            [31705, -1986]
+                        ],
+                        "stations": [[201, "Main line"], 202]
+                    },
+                    "Lhasa branch": {
+                        "vertices": [
+                            [32458, -2999],
+                            [32668, -2999]
+                        ],
+                        "stations": [[204, "Main line"], 2205]
                     }
                 }
             }
