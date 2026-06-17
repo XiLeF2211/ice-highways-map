@@ -2771,6 +2771,28 @@
                     "Vancouver Island": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Porto Dos Casais",
+            "id": 239,
+            "x": -18298.5,
+            "z": 19120.5,
+            "lines": {
+                "Intercontinental": {
+                    "Garibaldi": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Champa",
+            "id": 240,
+            "x": -18951.5,
+            "z": 19967,
+            "lines": {
+                "Intercontinental": {
+                    "Garibaldi": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -3671,7 +3693,7 @@
                             [-45674, -10863],
                             [-42168, -10863]
                         ],
-                        "stations": [224, [225, "Anakt branch"], [227, "Cape Flattery branch"], 229, 230, [227, "Whatcom branch"], 223, [233, "Pend Oreille branch"]]
+                        "stations": [224, [225, "Anakt branch"], [227, "Cape Flattery branch"], 229, 230, [231, "Whatcom branch"], 223, [233, "Pend Oreille branch"]]
                     },
                     "Anakt branch": {
                         "vertices": [
@@ -3827,7 +3849,7 @@
             },
             "Anglo-Wales": {
                 "prefix": "",
-                "code": "",
+                "code": "AG-CY",
                 "color": "00008B",
                 "y": -61,
                 "branches": {
@@ -3866,6 +3888,24 @@
                             [3969, -5091]
                         ],
                         "stations": [[210, "Main line"], 211]
+                    }
+                }
+            },
+            "Garibaldi": {
+                "prefix": "",
+                "code": "Gbd",
+                "color": "111184",
+                "y": 64,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-18298, 19121],
+                            [-18278, 19121],
+                            [-18278, 19143.5],
+                            [-18950.5, 19143.5],
+                            [-18950.5, 19967]
+                        ],
+                        "stations": [239, 240]
                     }
                 }
             }
