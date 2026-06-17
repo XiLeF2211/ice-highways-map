@@ -3469,7 +3469,7 @@
                             [24774.5, -6172.5],
                             [24774.5, -4785.5]
                         ],
-                        "stations": [86, [88, "Kabul branch"], 89]
+                        "stations": [86, [88, "Kabul branch"], [218, "Afyun Dara branch"], [220, "Peridesh branch"], 89]
                     },
                     "Yeken branch": {
                         "vertices": [
