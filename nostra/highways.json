@@ -1891,7 +1891,8 @@
             "z": -12209,
             "lines": {
                 "Canarail": {
-                    "Trans-Canada": ["", "Main line"]
+                    "Trans-Canada": ["", "Main line"],
+                    "Trans Canadian Ice Rail": ["", ""]
                 }
             }
         },
@@ -2571,6 +2572,30 @@
             "lines": {
                 "Intercontinental": {
                     "Afghan": ["", "Peridesh branch"]
+                }
+            }
+        },
+        {
+            "name": "South Astoria",
+            "id": 222,
+            "x": -42380,
+            "z": -12209,
+            "lines": {
+                "Canarail": {
+                    "Trans Canadian Ice Rail": ["", ""],
+                    "Spokane": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Spokane Junction",
+            "type": "jct",
+            "id": 223,
+            "x": -42380,
+            "z": -10863,
+            "lines": {
+                "Canarail": {
+                    "Spokane": ["", ""]
                 }
             }
         }
@@ -3429,6 +3454,36 @@
                             [-35855, -11177]
                         ],
                         "stations": [162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172]
+                    }
+                }
+            },
+            "Trans Canadian Ice Rail": {
+                "prefix": "",
+                "code": "TCIR",
+                "color": "950606",
+                "y": 1,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-41809, -12209],
+                            [-42380, -12209]
+                        ],
+                        "stations": [162, 222]
+                    }
+                }
+            },
+            "Spokane": {
+                "prefix": "",
+                "code": "Spk",
+                "color": "0BDA51",
+                "y": 8,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-42380, -12209],
+                            [-42380, -10863]
+                        ],
+                        "stations": [222, 223]
                     }
                 }
             }
