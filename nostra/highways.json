@@ -2595,7 +2595,180 @@
             "z": -10863,
             "lines": {
                 "Canarail": {
-                    "Spokane": ["", ""]
+                    "Spokane": ["", ""],
+                    "Cascadia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Pacific Spire",
+            "id": 224,
+            "x": -45674,
+            "z": -10863,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Anakt Junction",
+            "type": "jct",
+            "id": 225,
+            "x": -44648,
+            "z": -10863,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Main line to Anakt branch"]
+                }
+            }
+        },
+        {
+            "name": "Anakt",
+            "id": 226,
+            "x": -44648,
+            "z": -11256,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Anakt branch"]
+                }
+            }
+        },
+        {
+            "name": "Cape Flattery Junction",
+            "type": "jct",
+            "id": 227,
+            "x": -44633,
+            "z": -10863,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Main line to Cape Flattery branch"]
+                }
+            }
+        },
+        {
+            "name": "Cape Flattery",
+            "id": 228,
+            "x": -44645,
+            "z": -10791,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Cape Flattery branch"]
+                }
+            }
+        },
+        {
+            "name": "Victoria",
+            "id": 229,
+            "x": -44290,
+            "z": -10863,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Vancouver Junction",
+            "type": "jct",
+            "id": 230,
+            "x": -44163,
+            "z": -10863,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Main line"],
+                    "Vancouver": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Whatcom Junction",
+            "type": "jct",
+            "id": 231,
+            "x": -43899,
+            "z": -10863,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Main line to Whatcom branch"]
+                }
+            }
+        },
+        {
+            "name": "Whatcom",
+            "id": 232,
+            "x": -43899,
+            "z": -11009,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Whatcom branch"]
+                }
+            }
+        },
+        {
+            "name": "Pend Oreille Junction",
+            "type": "jct",
+            "id": 233,
+            "x": -42168,
+            "z": -10863,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Main line to Pend Oreille branch"]
+                }
+            }
+        },
+        {
+            "name": "Pend Oreille",
+            "id": 234,
+            "x": -42168,
+            "z": -11065,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Pend Oreille branch"]
+                }
+            }
+        },
+        {
+            "name": "Vancouver",
+            "id": 235,
+            "x": -44163,
+            "z": -11291,
+            "lines": {
+                "Canarail": {
+                    "Vancouver": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "North Vancouver",
+            "id": 236,
+            "x": -44163,
+            "z": -11516,
+            "lines": {
+                "Canarail": {
+                    "Vancouver": ["", ""],
+                    "Vancouver Island": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Earl's Cove",
+            "id": 237,
+            "x": -44464,
+            "z": -11461,
+            "lines": {
+                "Canarail": {
+                    "Vancouver Island": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Texada-Lasqueti",
+            "id": 238,
+            "x": -44550,
+            "z": -11327,
+            "lines": {
+                "Canarail": {
+                    "Vancouver Island": ["", ""]
                 }
             }
         }
@@ -3484,6 +3657,83 @@
                             [-42380, -10863]
                         ],
                         "stations": [222, 223]
+                    }
+                }
+            },
+            "Cascadia Main": {
+                "prefix": "",
+                "code": "Csc",
+                "color": "088F8F",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-45674, -10863],
+                            [-42168, -10863]
+                        ],
+                        "stations": [224, [225, "Anakt branch"], [227, "Cape Flattery branch"], 229, 230, [227, "Whatcom branch"], 223, [233, "Pend Oreille branch"]]
+                    },
+                    "Anakt branch": {
+                        "vertices": [
+                            [-44648, -10863],
+                            [-44648, -11256]
+                        ],
+                        "stations": [[225, "Main line"], 226]
+                    },
+                    "Cape Flattery branch": {
+                        "vertices": [
+                            [-44633, -10863],
+                            [-44633, -10791],
+                            [-44645, -10791]
+                        ],
+                        "stations": [[227, "Main line"], 228]
+                    },
+                    "Whatcom branch": {
+                        "vertices": [
+                            [-43899, -10863],
+                            [-43899, -11009]
+                        ],
+                        "stations": [[231, "Main line"], 232]
+                    },
+                    "Pend Oreille branch": {
+                        "vertices": [
+                            [-42168, -10863],
+                            [-42168, -11065]
+                        ],
+                        "stations": [[233, "Main line"], 234]
+                    }
+                }
+            },
+            "Vancouver": {
+                "prefix": "",
+                "code": "Vcr",
+                "color": "9D00FF",
+                "y": 9,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-44163, -10863],
+                            [-44163, -11516]
+                        ],
+                        "stations": [230, 235, 236]
+                    }
+                }
+            },
+            "Vancouver Island": {
+                "prefix": "",
+                "code": "Vcr",
+                "color": "66FF00",
+                "y": 72,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-44163, -11516],
+                            [-44245, -11516],
+                            [-44245, -11461],
+                            [-44550, -11461],
+                            [-44550, -11327]
+                        ],
+                        "stations": [236, 237, 238]
                     }
                 }
             }
