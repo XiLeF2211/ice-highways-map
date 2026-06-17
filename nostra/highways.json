@@ -1890,7 +1890,7 @@
             "x": -41809,
             "z": -12209,
             "lines": {
-                "Canadian Ice Rail": {
+                "Canarail": {
                     "Trans-Canada": ["", "Main line"]
                 }
             }
@@ -1901,7 +1901,7 @@
             "x": -41643,
             "z": -12200,
             "lines": {
-                "Canadian Ice Rail": {
+                "Canarail": {
                     "Trans-Canada": ["", "Main line"]
                 }
             }
@@ -1912,7 +1912,7 @@
             "x": -41477,
             "z": -12105,
             "lines": {
-                "Canadian Ice Rail": {
+                "Canarail": {
                     "Trans-Canada": ["", "Main line"]
                 }
             }
@@ -1923,7 +1923,7 @@
             "x": -40923,
             "z": -12071,
             "lines": {
-                "Canadian Ice Rail": {
+                "Canarail": {
                     "Trans-Canada": ["", "Main line"]
                 }
             }
@@ -1934,7 +1934,7 @@
             "x": -40486,
             "z": -12071,
             "lines": {
-                "Canadian Ice Rail": {
+                "Canarail": {
                     "Trans-Canada": ["", "Main line"]
                 }
             }
@@ -1945,7 +1945,7 @@
             "x": -39847,
             "z": -12062,
             "lines": {
-                "Canadian Ice Rail": {
+                "Canarail": {
                     "Trans-Canada": ["", "Main line"]
                 }
             }
@@ -1956,7 +1956,7 @@
             "x": -39116,
             "z": -11716,
             "lines": {
-                "Canadian Ice Rail": {
+                "Canarail": {
                     "Trans-Canada": ["", "Main line"]
                 }
             }
@@ -1967,7 +1967,7 @@
             "x": -38446,
             "z": -11712,
             "lines": {
-                "Canadian Ice Rail": {
+                "Canarail": {
                     "Trans-Canada": ["", "Main line"]
                 }
             }
@@ -1978,7 +1978,7 @@
             "x": -37697,
             "z": -11271,
             "lines": {
-                "Canadian Ice Rail": {
+                "Canarail": {
                     "Trans-Canada": ["", "Main line"]
                 }
             }
@@ -1989,7 +1989,7 @@
             "x": -37258,
             "z": -10845,
             "lines": {
-                "Canadian Ice Rail": {
+                "Canarail": {
                     "Trans-Canada": ["", "Main line"]
                 }
             }
@@ -2000,7 +2000,7 @@
             "x": -35855,
             "z": -11177,
             "lines": {
-                "Canadian Ice Rail": {
+                "Canarail": {
                     "Trans-Canada": ["", "Main line"]
                 }
             }
@@ -3408,7 +3408,7 @@
                 }
             }
         },
-        "Canadian Ice Rail": {
+        "Canarail": {
             "Trans-Canada": {
                 "prefix": "",
                 "code": "TC",
