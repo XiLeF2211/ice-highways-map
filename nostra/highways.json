@@ -1008,7 +1008,7 @@
             "z": -6948.5,
             "lines": {
                 "Intercontinental": {
-                    "Kashgar-Yeken": ["", "Main line"]
+                    "Afghan": ["", "Main line"]
                 }
             }
         },
@@ -1019,7 +1019,7 @@
             "z": -6172.5,
             "lines": {
                 "Intercontinental": {
-                    "Kashgar-Yeken": ["", "Main line"]
+                    "Afghan": ["", "Yeken branch"]
                 }
             }
         },
@@ -1031,7 +1031,7 @@
             "z": -6172.5,
             "lines": {
                 "Intercontinental": {
-                    "Kashgar-Yeken": ["", "Main line to Kabul branch"]
+                    "Afghan": ["", "Main line to Yeken branch"]
                 }
             }
         },
@@ -1042,7 +1042,7 @@
             "z": -4785.5,
             "lines": {
                 "Intercontinental": {
-                    "Kashgar-Yeken": ["", "Kabul branch"]
+                    "Afghan": ["", "Main line"]
                 }
             }
         },
@@ -2527,6 +2527,52 @@
                     "Heartnorth": ["", "Sanctum Logorum branch"]
                 }
             }
+        },
+        {
+            "name": "Afyun Dara JCT",
+            "type": "jct",
+            "id": 218,
+            "x": 25667.5,
+            "z": -6172.5,
+            "lines": {
+                "Intercontinental": {
+                    "Afghan": ["", "Main line to Afyun Dara branch"]
+                }
+            }
+        },
+        {
+            "name": "Afyun Dara",
+            "id": 219,
+            "x": 25667.5,
+            "z": -5787.5,
+            "lines": {
+                "Intercontinental": {
+                    "Afghan": ["", "Afyun Dara branch"]
+                }
+            }
+        },
+        {
+            "name": "Peridesh JCT",
+            "type": "jct",
+            "id": 220,
+            "x": 24774.5,
+            "z": -5006.5,
+            "lines": {
+                "Intercontinental": {
+                    "Afghan": ["", "Main line to Peridesh branch"]
+                }
+            }
+        },
+        {
+            "name": "Peridesh",
+            "id": 221,
+            "x": 26130.5,
+            "z": -5006.5,
+            "lines": {
+                "Intercontinental": {
+                    "Afghan": ["", "Peridesh branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -3410,7 +3456,7 @@
                     }
                 }
             },
-            "Kashgar-Yeken": {
+            "Afghan": {
                 "prefix": "",
                 "code": "KGR-YKN",
                 "color": "A0A0A0",
@@ -3420,17 +3466,32 @@
                         "vertices": [
                             [27072.5, -6948.5],
                             [27072.5, -6172.5],
-                            [27293.5, -6172.5]
-                        ],
-                        "stations": [86, [88, "Kabul branch"], 87]
-                    },
-                    "Kabul branch": {
-                        "vertices": [
-                            [27072.5, -6172.5],
                             [24774.5, -6172.5],
                             [24774.5, -4785.5]
                         ],
-                        "stations": [[88, "Main line"], 89]
+                        "stations": [86, [88, "Kabul branch"], 89]
+                    },
+                    "Yeken branch": {
+                        "vertices": [
+                            [27072.5, -6172.5],
+                            [27072.5, -6172.5],
+                            [27293.5, -6172.5]
+                        ],
+                        "stations": [[88, "Main line"], 87]
+                    },
+                    "Afyun Dara branch": {
+                        "vertices": [
+                            [25667.5, -6172.5],
+                            [25667.5, -5787.5]
+                        ],
+                        "stations": [[218, "Main line"], 219]
+                    },
+                    "Peridesh branch": {
+                        "vertices": [
+                            [24774.5, -5006.5],
+                            [26130.5, -5006.5]
+                        ],
+                        "stations": [[220, "Main line"], 221]
                     }
                 }
             },
