@@ -541,10 +541,11 @@
             "type": "jct",
             "id": 46,
             "x": 52960.5,
-            "z": -21953,
+            "z": -21954,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line to Willheim branch"]
+                    "Siberia Main": ["", "Main line"],
+                    "Heartnorth": ["", "Main line"]
                 }
             }
         },
@@ -552,10 +553,10 @@
             "name": "Willheim",
             "id": 47,
             "x": 53220,
-            "z": -21953,
+            "z": -21954,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Willheim branch"]
+                    "Heartnorth": ["", "Main line"]
                 }
             }
         },
@@ -2432,6 +2433,100 @@
                     "Sicilian North Africa": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Djerba JCT",
+            "type": "jct",
+            "id": 210,
+            "x": 3969,
+            "z": -4529,
+            "lines": {
+                "Intercontinental": {
+                    "Sicilian North Africa": ["", "Main line to Tunis branch"]
+                }
+            }
+        },
+        {
+            "name": "Tunis",
+            "id": 211,
+            "x": 3969,
+            "z": -5091,
+            "lines": {
+                "Intercontinental": {
+                    "Sicilian North Africa": ["", "Tunis branch"]
+                }
+            }
+        },
+        {
+            "name": "Nagqu North Elevator",
+            "type": "elev-we",
+            "id": 212,
+            "x": 32594,
+            "z": -4001,
+            "y1": 10,
+            "y2": 110,
+            "lines": {
+                "TNIH": {
+                    "Tibet": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tapagonia JCT",
+            "type": "jct",
+            "id": 213,
+            "x": 41614,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Tapagonia branch"]
+                }
+            }
+        },
+        {
+            "name": "Tapagonia",
+            "id": 214,
+            "x": 41614,
+            "z": -17808,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Tapagonia branch"]
+                }
+            }
+        },
+        {
+            "name": "Billtopia",
+            "id": 215,
+            "x": 52459,
+            "z": -21954,
+            "lines": {
+                "TNIH": {
+                    "Heartnorth": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sanctum Logorum JCT",
+            "type": "jct",
+            "id": 216,
+            "x": 52771,
+            "z": -21954,
+            "lines": {
+                "TNIH": {
+                    "Heartnorth": ["", "Main line to Sanctum Logorum branch"]
+                }
+            }
+        },
+        {
+            "name": "Sanctum Logorum",
+            "id": 217,
+            "x": 52771,
+            "z": -21883,
+            "lines": {
+                "TNIH": {
+                    "Heartnorth": ["", "Sanctum Logorum branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -2506,7 +2601,14 @@
                             [52960.5, -23834.5],
                             [52171, -23834.5]
                         ],
-                        "stations": [150, [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, 35, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], [7, "Duchy of Rivers branch"], 18, 19, [46, "Willheim branch"], 62, [63, "Yakutsk branch"], 69]
+                        "stations": [150, [213, "Riverwood branch"], [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, 35, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], [7, "Duchy of Rivers branch"], 18, 19, 46, 62, [63, "Yakutsk branch"], 69]
+                    },
+                    "Tapagonia branch": {
+                        "vertices": [
+                            [41614, -17732],
+                            [41614, -17808]
+                        ],
+                        "stations": [[213, "Main line"], 214]
                     },
                     "Riverwood branch": {
                         "vertices": [
@@ -2549,13 +2651,6 @@
                             [51751, -21052]
                         ],
                         "stations": [[7, "Main line"], 8]
-                    },
-                    "Willheim branch": {
-                        "vertices": [
-                            [52960.5, -21953],
-                            [53220, -21953]
-                        ],
-                        "stations": [[46, "Main line"], 47]
                     },
                     "Yakutsk branch": {
                         "vertices": [
@@ -2714,7 +2809,7 @@
                             [24400, -824],
                             [24400, -1437]
                         ],
-                        "stations": [[158, "Main line"], 127]
+                        "stations": [[159, "Main line"], 197]
                     },
                     "Dwarka branch": {
                         "vertices": [
@@ -2927,9 +3022,12 @@
                             [32458, -3499],
                             [32603, -3499],
                             [32603, -3810],
-                            [32733, -3810]
+                            [32733, -3810],
+                            [32733, -4004],
+                            [32594, -4004],
+                            [32594, -4001]
                         ],
-                        "stations": [125, [201, "Syphon branch"], [203, "Lhasa branch"], 205, 206]
+                        "stations": [125, [201, "Syphon branch"], [203, "Lhasa branch"], 205, 206, 212]
                     },
                     "Syphon branch": {
                         "vertices": [
@@ -2944,6 +3042,28 @@
                             [32668, -2999]
                         ],
                         "stations": [[203, "Main line"], 204]
+                    }
+                }
+            },
+            "Heartnorth": {
+                "prefix": "",
+                "code": "HN",
+                "color": "FF94BD",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [52459, -21954],
+                            [53220, -21954]
+                        ],
+                        "stations": [215, [216, "Sanctum Logorum branch"], 46, 47]
+                    },
+                    "Sanctum Logorum branch": {
+                        "vertices": [
+                            [52771, -21954],
+                            [52771, -21883]
+                        ],
+                        "stations": [[216, "Main line"], 217]
                     }
                 }
             }
@@ -3372,7 +3492,14 @@
                             [4817, -4529],
                             [3921, -4529]
                         ],
-                        "stations": [207, 208, 209]
+                        "stations": [207, 208, [210, "Tunis branch"], 209]
+                    },
+                    "Tunis branch": {
+                        "vertices": [
+                            [3969, -4529],
+                            [3969, -5091]
+                        ],
+                        "stations": [[210, "Main line"], 211]
                     }
                 }
             }
