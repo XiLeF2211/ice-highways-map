@@ -2827,6 +2827,159 @@
                     "Makran": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Bay of Plenty",
+            "id": "a1",
+            "x": 63141,
+            "z": 22216,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North–South Main (Y7)": ["", "Bay of Plenty branch"]
+                }
+            }
+        },
+        {
+            "name": "Napier",
+            "id": "a2",
+            "x": 63400,
+            "z": 22590,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "Napier": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Whitewater",
+            "id": "a3",
+            "x": 63033,
+            "z": 22590,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "Napier": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Whitewater West",
+            "id": "a4",
+            "x": 62800,
+            "z": 22669,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North–South Main (Y7)": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Whitewater West Junction",
+            "type": "jct",
+            "id": "a5",
+            "x": 62800,
+            "z": 22590,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North–South Main (Y7)": ["", "Main Line"],
+                    "Napier": ["", "Main Line"],
+                    "Trans-Tasman Link": ["", "Y 8 Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Burhaniye North Junction",
+            "type": "jct",
+            "id": "a6",
+            "x": 62800,
+            "z": 22216,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North–South Main (Y7)": ["", "Main Line"],
+                    "Napier": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Auckland South Junction",
+            "type": "jct",
+            "id": "a7",
+            "x": 62800,
+            "z": 22100,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North–South Main (Y7)": ["", "Main Line"],
+                    "Napier": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Burhaniye–Bastion_Stove",
+            "id": "a8",
+            "x": 62800,
+            "z": 22409,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North–South Main (Y7)": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Wanganui",
+            "id": "a9",
+            "x": 62800,
+            "z": 23061,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North–South Main (Y7)": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Wellington",
+            "id": "a10",
+            "x": 62800,
+            "z": 23722,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North–South Main (Y7)": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Christchurch Elevator",
+            "type": "jct",
+            "id": "a11",
+            "x": 62178,
+            "z": 24605,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North–South Main (Y7)": ["", "Main Line"],
+                    "NZ North–South Main (Y-62)": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "Christchurch",
+            "id": "a12",
+            "x": 61877,
+            "z": 24605,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North–South Main (Y-62)": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "New Plymouth",
+            "id": "a13",
+            "x": 62450,
+            "z": 22650,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "Trans-Tasman Link (Y7)": ["", "Main Line"],
+                    "Trans-Tasman Link (Y-62)": ["", "Main Line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -3966,6 +4119,93 @@
                             [28038, -8194]
                         ],
                         "stations": [241, 242]
+                    }
+                }
+            }
+        },
+        "NZ Ministry of Infrastructure": {
+            "NZ North–South Main (Y7)": {
+                "prefix": "",
+                "code": "NZML",
+                "color": "9AC0CD",
+                "y": 7,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [62800, 22100],
+                            [62800, 24605],
+                            [62178, 24605]
+                        ],
+                        "stations": ["a7", "a6", "a8", "a5", "a9", "a10", "a11"]
+                    },
+                    "Bay of Plenty branch": {
+                        "vertices": [
+                            [62800, 22216],
+                            [63141, 22216]
+                        ],
+                        "stations": ["a6", "a1"]
+                    }
+                }
+            },
+            "NZ North–South Main (Y-62)": {
+                "prefix": "",
+                "code": "NZML",
+                "color": "9AC0CD",
+                "y": -62,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [61877, 24605],
+                            [62178, 24605]
+                        ],
+                        "stations": ["a11", "a12"]
+                    }
+                }
+            },
+            "Napier": {
+                "prefix": "",
+                "code": "NL",
+                "color": "FF681F",
+                "y": 7,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [62800, 22590],
+                            [63400, 22590]
+                        ],
+                        "stations": ["a4", "a3", "a2"]
+                    }
+                }
+            },
+            "Trans-Tasman Link (Y7)": {
+                "prefix": "",
+                "code": "TTL",
+                "color": "E9F60F",
+                "y": 7,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [62800, 22590],
+                            [62758, 22590],
+                            [62758, 22650],
+                            [62450, 22650]
+                        ],
+                        "stations": ["a4", "a13"]
+                    }
+                }
+            },
+            "Trans-Tasman Link (Y-62)": {
+                "prefix": "",
+                "code": "TTL",
+                "color": "E9F60F",
+                "y": -62,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [62450, 22650],
+                            [62129, 22650]
+                        ],
+                        "stations": ["a13"]
                     }
                 }
             }
