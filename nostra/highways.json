@@ -1857,7 +1857,8 @@
             "z": -828,
             "lines": {
                 "TNIH": {
-                    "Narmada": ["", "Main line to Weenie Hut Jr branch"]
+                    "Narmada": ["", "Main line"],
+                    "Makran": ["", "Main line"]
                 }
             }
         },
@@ -2294,7 +2295,7 @@
             "z": -1437,
             "lines": {
                 "TNIH": {
-                    "Narmada": ["", "Weenie Hut Jr branch"]
+                    "Makran": ["", "Main line"]
                 }
             }
         },
@@ -2815,6 +2816,17 @@
                     "Pishpek": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Jiwani",
+            "id": 243,
+            "x": 22071,
+            "z": -1239,
+            "lines": {
+                "TNIH": {
+                    "Makran": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -3089,16 +3101,6 @@
                         ],
                         "stations": [196, 159, [158, "Dwarka branch"], 128, [129, "Dwarfdom branch"], 117, 118, 23, 24, 25, 70, 119, 120, [121, "Kolkata branch"], 123, 124, 126]
                     },
-                    "Weenie Hut Jr branch": {
-                        "vertices": [
-                            [24160, -828],
-                            [24163, -828],
-                            [24163, -824],
-                            [24400, -824],
-                            [24400, -1437]
-                        ],
-                        "stations": [[159, "Main line"], 197]
-                    },
                     "Dwarka branch": {
                         "vertices": [
                             [24835, -15],
@@ -3176,6 +3178,26 @@
                             [30383, -1436]
                         ],
                         "stations": [[198, "Main line"], 199]
+                    }
+                }
+            },
+            "Makran": {
+                "prefix": "",
+                "code": "MR",
+                "color": "CDAA6D",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [22071, -1239],
+                            [22663, -1239],
+                            [22663, -827],
+                            [24163, -827],
+                            [24163, -824],
+                            [24400, -824],
+                            [24400, -1437]
+                        ],
+                        "stations": [243, 159, 197]
                     }
                 }
             },
