@@ -2830,7 +2830,7 @@
         },
         {
             "name": "Bay of Plenty",
-            "id": "a1",
+            "id": 244,
             "x": 63141,
             "z": 22216,
             "lines": {
@@ -2841,7 +2841,7 @@
         },
         {
             "name": "Napier",
-            "id": "a2",
+            "id": 245,
             "x": 63400,
             "z": 22590,
             "lines": {
@@ -2852,7 +2852,7 @@
         },
         {
             "name": "Whitewater",
-            "id": "a3",
+            "id": 246,
             "x": 63033,
             "z": 22590,
             "lines": {
@@ -2863,24 +2863,24 @@
         },
         {
             "name": "Whitewater West",
-            "id": "a4",
+            "id": 247,
             "x": 62800,
             "z": 22669,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North–South Main (Y7)": ["", "Main Line"]
+                    "NZ North-South Main (Y7)": ["", "Main Line"]
                 }
             }
         },
         {
             "name": "Whitewater West Junction",
             "type": "jct",
-            "id": "a5",
+            "id": 248,
             "x": 62800,
             "z": 22590,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North–South Main (Y7)": ["", "Main Line"],
+                    "NZ North-South Main (Y7)": ["", "Main Line"],
                     "Napier": ["", "Main Line"],
                     "Trans-Tasman Link (Y7)": ["", "Main Line"]
                 }
@@ -2889,12 +2889,12 @@
         {
             "name": "Burhaniye North Junction",
             "type": "jct",
-            "id": "a6",
+            "id": 249,
             "x": 62800,
             "z": 22216,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North–South Main (Y7)": ["", "Main Line"],
+                    "NZ North-South Main (Y7)": ["", "Main Line"],
                     "Bay of Plenty": ["", "Main Line"]
                 }
             }
@@ -2902,75 +2902,77 @@
         {
             "name": "Auckland South Junction",
             "type": "jct",
-            "id": "a7",
+            "id": 250,
             "x": 62800,
             "z": 22100,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North–South Main (Y7)": ["", "Main Line"]
+                    "NZ North-South Main (Y7)": ["", "Main Line"]
                 }
             }
         },
         {
             "name": "Burhaniye–Bastion_Stove",
-            "id": "a8",
+            "id": 251,
             "x": 62800,
             "z": 22409,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North–South Main (Y7)": ["", "Main Line"]
+                    "NZ North-South Main (Y7)": ["", "Main Line"]
                 }
             }
         },
         {
             "name": "Wanganui",
-            "id": "a9",
+            "id": 252,
             "x": 62800,
             "z": 23061,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North–South Main (Y7)": ["", "Main Line"]
+                    "NZ North-South Main (Y7)": ["", "Main Line"]
                 }
             }
         },
         {
             "name": "Wellington",
-            "id": "a10",
+            "id": 253,
             "x": 62800,
             "z": 23722,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North–South Main (Y7)": ["", "Main Line"]
+                    "NZ North-South Main (Y7)": ["", "Main Line"]
                 }
             }
         },
         {
             "name": "Christchurch Elevator",
-            "type": "jct",
-            "id": "a11",
+            "type": "elev-ew",
+            "y1": -63,
+            "y2": 7,
+            "id": 254,
             "x": 62178,
             "z": 24605,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North–South Main (Y7)": ["", "Main Line"],
-                    "NZ North–South Main (Y-62)": ["", "Main Line"]
+                    "NZ North-South Main (Y7)": ["", "Main Line"],
+                    "NZ North-South Main (Y-62)": ["", "Main Line"]
                 }
             }
         },
         {
             "name": "Christchurch",
-            "id": "a12",
+            "id": 255,
             "x": 61877,
             "z": 24605,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North–South Main (Y-62)": ["", "Main Line"]
+                    "NZ North-South Main (Y-62)": ["", "Main Line"]
                 }
             }
         },
         {
             "name": "New Plymouth",
-            "id": "a13",
+            "id": 256,
             "x": 62450,
             "z": 22650,
             "lines": {
@@ -2982,7 +2984,7 @@
         },
         {
             "name": "The Rig",
-            "id": "a14",
+            "id": 257,
             "x": 63302,
             "z": 21520,
             "lines": {
@@ -4134,7 +4136,7 @@
             }
         },
         "NZ Ministry of Infrastructure": {
-            "NZ North–South Main (Y7)": {
+            "NZ North-South Main (Y7)": {
                 "prefix": "",
                 "code": "NZML",
                 "color": "9AC0CD",
@@ -4146,11 +4148,11 @@
                             [62800, 24605],
                             [62178, 24605]
                         ],
-                        "stations": ["a7", "a6", "a8", "a5", "a9", "a10", "a11"]
+                        "stations": [250, 249, 251, 248, 247, 252, 253, 254]
                     }
                 }
             },
-            "NZ North–South Main (Y-62)": {
+            "NZ North-South Main (Y-62)": {
                 "prefix": "",
                 "code": "NZML",
                 "color": "9AC0CD",
@@ -4161,7 +4163,7 @@
                             [61877, 24605],
                             [62178, 24605]
                         ],
-                        "stations": ["a11", "a12"]
+                        "stations": [254, 255]
                     }
                 }
             },
@@ -4176,7 +4178,7 @@
                             [62800, 22590],
                             [63400, 22590]
                         ],
-                        "stations": ["a4", "a3", "a2"]
+                        "stations": [248, 246, 245]
                     }
                 }
             },
@@ -4193,7 +4195,7 @@
                             [62758, 22650],
                             [62450, 22650]
                         ],
-                        "stations": ["a4", "a13"]
+                        "stations": [248, 256]
                     }
                 }
             },
@@ -4208,7 +4210,7 @@
                             [62450, 22650],
                             [62129, 22650]
                         ],
-                        "stations": ["a13"]
+                        "stations": [256]
                     }
                 }
             },
@@ -4224,7 +4226,7 @@
                             [63302, 22216],
                             [63302, 21520]
                         ],
-                        "stations": ["a6", "a1", "a14"]
+                        "stations": [249, 244, 257]
                     }
                 }
             }
