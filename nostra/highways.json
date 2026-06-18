@@ -2835,7 +2835,7 @@
             "z": 22216,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North–South Main (Y7)": ["", "Bay of Plenty branch"]
+                    "Bay of Plenty": ["", "Main Line"]
                 }
             }
         },
@@ -2895,7 +2895,7 @@
             "lines": {
                 "NZ Ministry of Infrastructure": {
                     "NZ North–South Main (Y7)": ["", "Main Line"],
-                    "Napier": ["", "Main Line"]
+                    "Bay of Plenty": ["", "Main Line"]
                 }
             }
         },
@@ -2978,6 +2978,17 @@
                 "NZ Ministry of Infrastructure": {
                     "Trans-Tasman Link (Y7)": ["", "Main Line"],
                     "Trans-Tasman Link (Y-62)": ["", "Main Line"]
+                }
+            }
+        },
+        {
+            "name": "The Rig",
+            "id": "a14",
+            "x": 63302,
+            "z": 21520,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "Bay of Plenty": ["", "Main Line"]
                 }
             }
         }
@@ -4137,13 +4148,6 @@
                             [62178, 24605]
                         ],
                         "stations": ["a7", "a6", "a8", "a5", "a9", "a10", "a11"]
-                    },
-                    "Bay of Plenty branch": {
-                        "vertices": [
-                            [62800, 22216],
-                            [63141, 22216]
-                        ],
-                        "stations": ["a6", "a1"]
                     }
                 }
             },
@@ -4206,6 +4210,22 @@
                             [62129, 22650]
                         ],
                         "stations": ["a13"]
+                    }
+                }
+            },
+            "Bay of Plenty": {
+                "prefix": "",
+                "code": "BoP",
+                "color": "D935F9",
+                "y": 7,
+                "branches": {
+                    "Main Line": {
+                        "vertices": [
+                            [62800, 22216],
+                            [63302, 22216],
+                            [63302, 21520]
+                        ],
+                        "stations": ["a6", "a1", "a14"]
                     }
                 }
             }
