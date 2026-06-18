@@ -2793,6 +2793,28 @@
                     "Garibaldi": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Pishpek",
+            "id": 241,
+            "x": 26807,
+            "z": -8323,
+            "lines": {
+                "Intercontinental": {
+                    "Pishpek": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Karakol",
+            "id": 242,
+            "x": 28038,
+            "z": -8194,
+            "lines": {
+                "Intercontinental": {
+                    "Pishpek": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -3906,6 +3928,21 @@
                             [-18950.5, 19967]
                         ],
                         "stations": [239, 240]
+                    }
+                }
+            },
+            "Pishpek": {
+                "prefix": "",
+                "code": "Psp",
+                "color": "0000ff",
+                "y": 62,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [26807, -8323],
+                            [28038, -8194]
+                        ],
+                        "stations": [241, 242]
                     }
                 }
             }
