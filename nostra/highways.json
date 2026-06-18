@@ -2882,7 +2882,7 @@
                 "NZ Ministry of Infrastructure": {
                     "NZ North–South Main (Y7)": ["", "Main Line"],
                     "Napier": ["", "Main Line"],
-                    "Trans-Tasman Link": ["", "Y 8 Main Line"]
+                    "Trans-Tasman Link (Y7)": ["", "Main Line"]
                 }
             }
         },
@@ -2907,8 +2907,7 @@
             "z": 22100,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North–South Main (Y7)": ["", "Main Line"],
-                    "Napier": ["", "Main Line"]
+                    "NZ North–South Main (Y7)": ["", "Main Line"]
                 }
             }
         },
