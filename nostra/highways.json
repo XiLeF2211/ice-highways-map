@@ -402,7 +402,7 @@
             }
         },
         {
-            "name": "Churachinki Mine",
+            "name": "Kuroshiki",
             "type": "semi3",
             "id": 35,
             "x": 48140,
@@ -1854,7 +1854,7 @@
             "name": "Karachi Farm District (JCT)",
             "id": 159,
             "x": 24160,
-            "z": -828,
+            "z": -827,
             "lines": {
                 "TNIH": {
                     "Narmada": ["", "Main line"],
@@ -2202,7 +2202,7 @@
             "z": -2434,
             "lines": {
                 "TNIH": {
-                    "Hooman": ["", "Main line to Pachaas branch"]
+                    "Hooman": ["", "Main line to Himalayas branch"]
                 }
             }
         },
@@ -2213,7 +2213,7 @@
             "z": -2434,
             "lines": {
                 "TNIH": {
-                    "Hooman": ["", "Pachaas branch"]
+                    "Hooman": ["", "Himalayas branch"]
                 }
             }
         },
@@ -2992,6 +2992,95 @@
                     "Bay of Plenty": ["", "Main Line"]
                 }
             }
+        },
+        {
+            "name": "Hormuz",
+            "id": 258,
+            "x": 19832,
+            "z": -1980,
+            "lines": {
+                "TNIH": {
+                    "Makran": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tree Park",
+            "id": 259,
+            "x": 20510,
+            "z": -1634,
+            "lines": {
+                "TNIH": {
+                    "Makran": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Makran",
+            "id": 260,
+            "x": 21154,
+            "z": -1374,
+            "lines": {
+                "TNIH": {
+                    "Makran": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kathora JCT",
+            "type": "jct",
+            "id": 261,
+            "x": 27051,
+            "z": 100,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line to Delhi branch"]
+                }
+            }
+        },
+        {
+            "name": "Delhi",
+            "id": 262,
+            "x": 27051,
+            "z": -1084,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Delhi branch"]
+                }
+            }
+        },
+        {
+            "name": "Himalayas",
+            "id": 263,
+            "x": 29200,
+            "z": -2556,
+            "lines": {
+                "TNIH": {
+                    "Hooman": ["", "Himalayas branch"]
+                }
+            }
+        },
+        {
+            "name": "Egghead",
+            "id": 264,
+            "x": 29068,
+            "z": 4863,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nepal",
+            "id": 265,
+            "x": 30267,
+            "z": -2640,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -3009,9 +3098,12 @@
                             [28534, 770],
                             [28534, 4011],
                             [28704, 4011],
-                            [28704, 4831]
+                            [28704, 4831],
+                            [29018, 4831],
+                            [29018, 4863],
+                            [29068, 4863]
                         ],
-                        "stations": [70, 56, 55, 54, [43, "Timmuh Town branch"], 96, [38, "Dragonfall branch"], 2, 0, 1, 93, 94, 80]
+                        "stations": [70, 56, 55, 54, [43, "Timmuh Town branch"], 96, [38, "Dragonfall branch"], 2, 0, 1, 93, 94, 80, 264]
                     },
                     "Dragonfall branch": {
                         "vertices": [
@@ -3040,14 +3132,15 @@
                             [28317, -316],
                             [28317, -2657]
                         ],
-                        "stations": [70, 71, 72, 73, [189, "Pachaas branch"]]
+                        "stations": [70, 71, 72, 73, [189, "Himalayas branch"]]
                     },
-                    "Pachaas branch": {
+                    "Himalayas branch": {
                         "vertices": [
                             [28317, -2434],
-                            [28821, -2434]
+                            [29200, -2434],
+                            [29200, -2556]
                         ],
-                        "stations": [[189, "Main line"], 190]
+                        "stations": [[189, "Main line"], 190, 263]
                     }
                 }
             },
@@ -3264,7 +3357,7 @@
                             [31910.5, -818.5],
                             [31926, -818.5]
                         ],
-                        "stations": [196, 159, [158, "Dwarka branch"], 128, [129, "Dwarfdom branch"], 117, 118, 23, 24, 25, 70, 119, 120, [121, "Kolkata branch"], 123, 124, 126]
+                        "stations": [196, 159, [158, "Dwarka branch"], 128, [129, "Dwarfdom branch"], 117, 118, [261, "Delhi branch"], 23, 24, 25, 70, 119, 120, [121, "Kolkata branch"], 123, 124, 126]
                     },
                     "Dwarka branch": {
                         "vertices": [
@@ -3275,10 +3368,17 @@
                     },
                     "Dwarfdom branch": {
                         "vertices": [
-                            [25420, 66],
-                            [25420, 457]
+                            [27051, 100],
+                            [27051, -1084]
                         ],
-                        "stations": [[129, "Main line"], 130]
+                        "stations": [[261, "Main line"], 262]
+                    },
+                    "Delhi branch": {
+                        "vertices": [
+                            [24835, -15],
+                            [24835, 66]
+                        ],
+                        "stations": [[158, "Main line"], 127]
                     },
                     "Kolkata branch": {
                         "vertices": [
@@ -3307,9 +3407,11 @@
                             [30993, -2596],
                             [30990, -2596],
                             [30990, -2636],
-                            [30549, -2636]
+                            [30318, -2636],
+                            [30318, -2640],
+                            [30267, -2640]
                         ],
-                        "stations": [136, 125, 202, 184, [191, "Tibet branch"], 193, 194]
+                        "stations": [136, 125, 202, 184, [191, "Tibet branch"], 193, 194, 265]
                     },
                     "Tibet branch": {
                         "vertices": [
@@ -3354,7 +3456,11 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [22071, -1239],
+                            [19832, -1980],
+                            [20510, -1980],
+                            [20510, -1374],
+                            [22065, -1374],
+                            [22065, -1239],
                             [22663, -1239],
                             [22663, -827],
                             [24163, -827],
@@ -3362,7 +3468,7 @@
                             [24400, -824],
                             [24400, -1437]
                         ],
-                        "stations": [243, 159, 197]
+                        "stations": [258, 259, 260, 243, 159, 197]
                     }
                 }
             },
