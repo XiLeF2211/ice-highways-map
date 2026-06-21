@@ -402,14 +402,13 @@
             }
         },
         {
-            "name": "Kuroshiki",
-            "type": "semi3",
+            "name": "Kuroshiki (JCT)",
             "id": 35,
             "x": 48140,
             "z": -17732,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line"]
+                    "Siberia Main": ["", "Main line to New Farstead branch"]
                 }
             }
         },
@@ -3081,6 +3080,17 @@
                     "Himalayas": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "New Farstead",
+            "id": 266,
+            "x": 48140,
+            "z": -19033,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "New Farstead branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -3159,7 +3169,7 @@
                             [52960.5, -23834.5],
                             [52171, -23834.5]
                         ],
-                        "stations": [150, [213, "Riverwood branch"], [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, 35, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], [7, "Duchy of Rivers branch"], 18, 19, 46, 62, [63, "Yakutsk branch"], 69]
+                        "stations": [150, [213, "Riverwood branch"], [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], [7, "Duchy of Rivers branch"], 18, 19, 46, 62, [63, "Yakutsk branch"], 69]
                     },
                     "Tapagonia branch": {
                         "vertices": [
@@ -3182,10 +3192,17 @@
                         ],
                         "stations": [[146, "Main line"], 147]
                     },
-                    "Willsden branch": {
+                    "New Farstead branch": {
                         "vertices": [
                             [50270, -17732],
                             [50270, -17976]
+                        ],
+                        "stations": [[35, "Main line"], 266]
+                    },
+                    "Willsden branch": {
+                        "vertices": [
+                            [48140, -17732],
+                            [48140, -19033]
                         ],
                         "stations": [[20, "Main line"], 21]
                     },
@@ -3368,17 +3385,17 @@
                     },
                     "Dwarfdom branch": {
                         "vertices": [
+                            [25420, 66],
+                            [25420, 457]
+                        ],
+                        "stations": [[158, "Main line"], 127]
+                    },
+                    "Delhi branch": {
+                        "vertices": [
                             [27051, 100],
                             [27051, -1084]
                         ],
                         "stations": [[261, "Main line"], 262]
-                    },
-                    "Delhi branch": {
-                        "vertices": [
-                            [24835, -15],
-                            [24835, 66]
-                        ],
-                        "stations": [[158, "Main line"], 127]
                     },
                     "Kolkata branch": {
                         "vertices": [
