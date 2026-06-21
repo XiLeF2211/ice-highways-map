@@ -2454,7 +2454,8 @@
             "z": -5091,
             "lines": {
                 "Intercontinental": {
-                    "Sicilian North Africa": ["", "Tunis branch"]
+                    "Sicilian North Africa": ["", "Tunis branch"],
+                    "Sicilian Pantellerian": ["", ""]
                 }
             }
         },
@@ -3091,6 +3092,17 @@
                     "Siberia Main": ["", "New Farstead branch"]
                 }
             }
+        },
+        {
+            "name": "Eremo Perfetto",
+            "id": 267,
+            "x": 4264,
+            "z": -5790,
+            "lines": {
+                "Intercontinental": {
+                    "Sicilian Pantellerian": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -3388,7 +3400,7 @@
                             [25420, 66],
                             [25420, 457]
                         ],
-                        "stations": [[158, "Main line"], 127]
+                        "stations": [[129, "Main line"], 130]
                     },
                     "Delhi branch": {
                         "vertices": [
@@ -4220,6 +4232,22 @@
                             [3969, -5091]
                         ],
                         "stations": [[210, "Main line"], 211]
+                    }
+                }
+            },
+            "Sicilian Pantellerian": {
+                "prefix": "",
+                "code": "SP",
+                "color": "90D5FF",
+                "y": 9,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [3969, -5091],
+                            [3969, -5790],
+                            [4264, -5790]
+                        ],
+                        "stations": [211, 267]
                     }
                 }
             },
