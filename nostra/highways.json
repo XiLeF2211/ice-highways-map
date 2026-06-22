@@ -3103,6 +3103,58 @@
                     "Sicilian Pantellerian": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Guiyang",
+            "id": 268,
+            "x": 38331,
+            "z": -1787,
+            "lines": {
+                "Intercontinental": {
+                    "Guiyang-Hunan Upper": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Guiyang East Elevator",
+            "type": "elev-we",
+            "id": 269,
+            "y1": 84,
+            "y2": 76,
+            "x": 38479,
+            "z": -1790,
+            "lines": {
+                "Intercontinental": {
+                    "Guiyang-Hunan Upper": ["", ""],
+                    "Guiyang-Hunan Main": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Guiyang East Elevator",
+            "type": "elev-we",
+            "id": 270,
+            "y1": 76,
+            "y2": 68,
+            "x": 38648,
+            "z": -1814,
+            "lines": {
+                "Intercontinental": {
+                    "Guiyang-Hunan Lower": ["", ""],
+                    "Guiyang-Hunan Main": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Hunan",
+            "id": 271,
+            "x": 39272,
+            "z": -1863,
+            "lines": {
+                "Intercontinental": {
+                    "Guiyang-Hunan Lower": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -4282,6 +4334,57 @@
                             [28038, -8194]
                         ],
                         "stations": [241, 242]
+                    }
+                }
+            },
+            "Guiyang-Hunan Upper": {
+                "prefix": "",
+                "code": "GUI-HUN up",
+                "color": "0000ff",
+                "y": 84,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [38331, -1787, "NOTE: Check coords"],
+                            [38406, -1787],
+                            [38409, -1790],
+                            [38479, -1790]
+                        ],
+                        "stations": [268, 269]
+                    }
+                }
+            },
+            "Guiyang-Hunan Main": {
+                "prefix": "",
+                "code": "GUI-HUN",
+                "color": "0000ff",
+                "y": 84,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [38479, -1790],
+                            [38607, -1790],
+                            [38607, -1814],
+                            [38648, -1814]
+                        ],
+                        "stations": [269, 270]
+                    }
+                }
+            },
+            "Guiyang-Hunan Lower": {
+                "prefix": "",
+                "code": "GUI-HUN",
+                "color": "0000ff",
+                "y": 68,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [38648, -1814],
+                            [38845, -1814],
+                            [38845, -1863],
+                            [39272, -1863]
+                        ],
+                        "stations": [270, 271]
                     }
                 }
             }
