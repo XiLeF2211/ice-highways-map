@@ -565,8 +565,8 @@
             "x": 35355,
             "z": -9258,
             "lines": {
-                "Intercontinental": {
-                    "Gobi Transport": ["", "Main line"]
+                "Gobi Transport": {
+                    "Gobi 1st": ["", "Main line"]
                 }
             }
         },
@@ -576,8 +576,8 @@
             "x": 35355,
             "z": -6933,
             "lines": {
-                "Intercontinental": {
-                    "Gobi Transport": ["", "Main line"]
+                "Gobi Transport": {
+                    "Gobi 1st": ["", "Main line"]
                 }
             }
         },
@@ -961,8 +961,8 @@
             "x": 35355,
             "z": -9213,
             "lines": {
-                "Intercontinental": {
-                    "Gobi Transport": ["", "Main line to Shinsyu branch"]
+                "Gobi Transport": {
+                    "Gobi 1st": ["", "Main line to Shinsyu branch"]
                 }
             }
         },
@@ -972,8 +972,8 @@
             "x": 35367,
             "z": -9213,
             "lines": {
-                "Intercontinental": {
-                    "Gobi Transport": ["", "Shinsyu branch"]
+                "Gobi Transport": {
+                    "Gobi 1st": ["", "Shinsyu branch"]
                 }
             }
         },
@@ -983,8 +983,8 @@
             "x": 36174,
             "z": -9213,
             "lines": {
-                "Intercontinental": {
-                    "Gobi Transport": ["", "Shinsyu branch"]
+                "Gobi Transport": {
+                    "Gobi 1st": ["", "Shinsyu branch"]
                 }
             }
         },
@@ -2197,7 +2197,7 @@
             "name": "Pachaas JCT",
             "type": "jct",
             "id": 189,
-            "x": 28505,
+            "x": 28316,
             "z": -2434,
             "lines": {
                 "TNIH": {
@@ -2470,6 +2470,9 @@
             "lines": {
                 "TNIH": {
                     "Tibet": ["", "Main line"]
+                },
+                "Gobi Transport": {
+                    "Gobi 1st": ["", "Main line"]
                 }
             }
         },
@@ -3153,6 +3156,86 @@
             "lines": {
                 "Intercontinental": {
                     "Guiyang-Hunan Lower": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Buha River",
+            "id": 272,
+            "x": 34938,
+            "z": -6692,
+            "lines": {
+                "Gobi Transport": {
+                    "Gobi 1st": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kingdomstan",
+            "id": 273,
+            "x": 34938,
+            "z": -5089,
+            "lines": {
+                "Gobi Transport": {
+                    "Gobi 1st": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mongolia JCT",
+            "type": "jct",
+            "id": 274,
+            "x": 33734,
+            "z": -5089,
+            "lines": {
+                "Gobi Transport": {
+                    "Gobi 1st": ["", "Main line to Mongolia branch"]
+                }
+            }
+        },
+        {
+            "name": "Quemo Co JCT",
+            "type": "jct",
+            "id": 275,
+            "x": 32592,
+            "z": -4591,
+            "lines": {
+                "Gobi Transport": {
+                    "Gobi 1st": ["", "Main line to Quemo branch"]
+                }
+            }
+        },
+        {
+            "name": "Nagqu North",
+            "type": "jct",
+            "id": 276,
+            "x": 32592,
+            "z": -4005,
+            "lines": {
+                "Gobi Transport": {
+                    "Gobi 1st": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mongolia",
+            "id": 277,
+            "x": 33734,
+            "z": -5165,
+            "lines": {
+                "Gobi Transport": {
+                    "Gobi 1st": ["", "Mongolia branch"]
+                }
+            }
+        },
+        {
+            "name": "Quemo",
+            "id": 278,
+            "x": 32683,
+            "z": -4591,
+            "lines": {
+                "Gobi Transport": {
+                    "Gobi 1st": ["", "Quemo branch"]
                 }
             }
         }
@@ -4156,8 +4239,8 @@
                 }
             }
         },
-        "Intercontinental": {
-            "Gobi Transport": {
+        "Gobi Transport": {
+            "Gobi 1st": {
                 "prefix": "",
                 "code": "GT",
                 "color": "FFFF00",
@@ -4166,9 +4249,14 @@
                     "Main line": {
                         "vertices": [
                             [35355, -9258],
-                            [35355, -6933]
+                            [35355, -6933],
+                            [34938, -6933],
+                            [34938, -5089],
+                            [32592, -5089],
+                            [32592, -4001],
+                            [32594, -4001]
                         ],
-                        "stations": [48, [82, "Shinsyu branch"], 49]
+                        "stations": [48, [82, "Shinsyu branch"], 49, 272, 273, [274, "Mongolia branch"], [275, ""], 276, 212]
                     },
                     "Shinsyu branch": {
                         "vertices": [
@@ -4176,9 +4264,25 @@
                             [36174, -9213]
                         ],
                         "stations": [[82, "Main line"], 83, 84]
+                    },
+                    "Mongolia branch": {
+                        "vertices": [
+                            [33734, -5089],
+                            [33734, -5165]
+                        ],
+                        "stations": [[274, "Main line"], 277]
+                    },
+                    "Quemo branch": {
+                        "vertices": [
+                            [32592, -4591],
+                            [32683, -4591]
+                        ],
+                        "stations": [[275, "Main line"], 278]
                     }
                 }
-            },
+            }
+        },
+        "Intercontinental": {
             "Afghan": {
                 "prefix": "",
                 "code": "KGR-YKN",
