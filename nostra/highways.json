@@ -421,7 +421,7 @@
             "lines": {
                 "TNIH": {
                     "Siberia Main": ["", "Main line"],
-                    "Sakha": ["", ""]
+                    "Sakha": ["", "Main line"]
                 }
             }
         },
@@ -432,7 +432,7 @@
             "z": -17822,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", ""]
+                    "Sakha": ["", "Main line"]
                 },
                 "Yakutia Metro": {
                     "Industrial": ["", ""],
@@ -1731,7 +1731,7 @@
             "z": -18532,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", ""]
+                    "Sakha": ["", "Main line"]
                 }
             }
         },
@@ -1742,7 +1742,7 @@
             "z": -20364,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", ""]
+                    "Sakha": ["", "Main line"]
                 }
             }
         },
@@ -2838,7 +2838,7 @@
             "z": 22216,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "Bay of Plenty": ["", "Main Line"]
+                    "Bay of Plenty": ["", "Main line"]
                 }
             }
         },
@@ -2849,7 +2849,7 @@
             "z": 22590,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "Napier": ["", "Main Line"]
+                    "Napier": ["", "Main line"]
                 }
             }
         },
@@ -2860,7 +2860,7 @@
             "z": 22590,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "Napier": ["", "Main Line"]
+                    "Napier": ["", "Main line"]
                 }
             }
         },
@@ -2871,7 +2871,7 @@
             "z": 22669,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North-South Main (Y7)": ["", "Main Line"]
+                    "NZ North-South Main (Y7)": ["", "Main line"]
                 }
             }
         },
@@ -2883,9 +2883,9 @@
             "z": 22590,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North-South Main (Y7)": ["", "Main Line"],
-                    "Napier": ["", "Main Line"],
-                    "Trans-Tasman Link (Y7)": ["", "Main Line"]
+                    "NZ North-South Main (Y7)": ["", "Main line"],
+                    "Napier": ["", "Main line"],
+                    "Trans-Tasman Link (Y7)": ["", "Main line"]
                 }
             }
         },
@@ -2897,8 +2897,8 @@
             "z": 22216,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North-South Main (Y7)": ["", "Main Line"],
-                    "Bay of Plenty": ["", "Main Line"]
+                    "NZ North-South Main (Y7)": ["", "Main line"],
+                    "Bay of Plenty": ["", "Main line"]
                 }
             }
         },
@@ -2910,7 +2910,7 @@
             "z": 22100,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North-South Main (Y7)": ["", "Main Line"]
+                    "NZ North-South Main (Y7)": ["", "Main line"]
                 }
             }
         },
@@ -2921,7 +2921,7 @@
             "z": 22409,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North-South Main (Y7)": ["", "Main Line"]
+                    "NZ North-South Main (Y7)": ["", "Main line"]
                 }
             }
         },
@@ -2932,7 +2932,7 @@
             "z": 23061,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North-South Main (Y7)": ["", "Main Line"]
+                    "NZ North-South Main (Y7)": ["", "Main line"]
                 }
             }
         },
@@ -2943,7 +2943,7 @@
             "z": 23722,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North-South Main (Y7)": ["", "Main Line"]
+                    "NZ North-South Main (Y7)": ["", "Main line"]
                 }
             }
         },
@@ -2957,8 +2957,8 @@
             "z": 24605,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North-South Main (Y7)": ["", "Main Line"],
-                    "NZ North-South Main (Y-62)": ["", "Main Line"]
+                    "NZ North-South Main (Y7)": ["", "Main line"],
+                    "NZ North-South Main (Y-62)": ["", "Main line"]
                 }
             }
         },
@@ -2969,7 +2969,7 @@
             "z": 24605,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North-South Main (Y-62)": ["", "Main Line"]
+                    "NZ North-South Main (Y-62)": ["", "Main line"]
                 }
             }
         },
@@ -2980,8 +2980,8 @@
             "z": 22650,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "Trans-Tasman Link (Y7)": ["", "Main Line"],
-                    "Trans-Tasman Link (Y-62)": ["", "Main Line"]
+                    "Trans-Tasman Link (Y7)": ["", "Main line"],
+                    "Trans-Tasman Link (Y-62)": ["", "Main line"]
                 }
             }
         },
@@ -2992,7 +2992,7 @@
             "z": 21520,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "Bay of Plenty": ["", "Main Line"]
+                    "Bay of Plenty": ["", "Main line"]
                 }
             }
         },
@@ -3238,6 +3238,40 @@
                     "Gobi 1st": ["", "Quemo branch"]
                 }
             }
+        },
+        {
+            "name": "Kobyasky JCT",
+            "type": "jct",
+            "id": 279,
+            "x": 46368,
+            "z": -18889,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line to Yarika branch"]
+                }
+            }
+        },
+        {
+            "name": "Yarika",
+            "id": 280,
+            "x": 45205,
+            "z": -18889,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Yarika branch"]
+                }
+            }
+        },
+        {
+            "name": "Copper St.",
+            "id": 281,
+            "x": 46258,
+            "z": -17791,
+            "lines": {
+                "Yakutia Metro": {
+                    "Industrial": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -3475,7 +3509,7 @@
                 "color": "089AFF",
                 "y": 10,
                 "branches": {
-                    "": {
+                    "Main line": {
                         "vertices": [
                             [46360, -17732],
                             [46360, -17801],
@@ -3483,7 +3517,14 @@
                             [46368, -20364],
                             [46488, -20364]
                         ],
-                        "stations": [36, 37, 148, 149]
+                        "stations": [36, 37, 148, [279, "Yarika branch"], 149]
+                    },
+                    "Yarika branch": {
+                        "vertices": [
+                            [46368, -18889],
+                            [45205, -18889]
+                        ],
+                        "stations": [[279, "Main line"], 280]
                     }
                 }
             },
@@ -4087,7 +4128,7 @@
                             [46350, -17812],
                             [46355, -17812]
                         ],
-                        "stations": [147, 37]
+                        "stations": [147, 281, 37]
                     }
                 }
             },
@@ -4500,7 +4541,7 @@
                 "color": "9AC0CD",
                 "y": 7,
                 "branches": {
-                    "Main Line": {
+                    "Main line": {
                         "vertices": [
                             [62800, 22100],
                             [62800, 24605],
@@ -4516,7 +4557,7 @@
                 "color": "9AC0CD",
                 "y": -62,
                 "branches": {
-                    "Main Line": {
+                    "Main line": {
                         "vertices": [
                             [61877, 24605],
                             [62178, 24605]
@@ -4531,7 +4572,7 @@
                 "color": "FF681F",
                 "y": 7,
                 "branches": {
-                    "Main Line": {
+                    "Main line": {
                         "vertices": [
                             [62800, 22590],
                             [63400, 22590]
@@ -4546,7 +4587,7 @@
                 "color": "E9F60F",
                 "y": 7,
                 "branches": {
-                    "Main Line": {
+                    "Main line": {
                         "vertices": [
                             [62800, 22590],
                             [62758, 22590],
@@ -4563,7 +4604,7 @@
                 "color": "E9F60F",
                 "y": -62,
                 "branches": {
-                    "Main Line": {
+                    "Main line": {
                         "vertices": [
                             [62450, 22650],
                             [62129, 22650]
@@ -4578,7 +4619,7 @@
                 "color": "D935F9",
                 "y": 7,
                 "branches": {
-                    "Main Line": {
+                    "Main line": {
                         "vertices": [
                             [62800, 22216],
                             [63302, 22216],
