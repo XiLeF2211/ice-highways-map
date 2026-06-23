@@ -2928,11 +2928,11 @@
         {
             "name": "Wanganui",
             "id": 252,
-            "x": 62800,
-            "z": 23061,
+            "x": 62727,
+            "z": 23007,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North-South Main (Y7)": ["", "Main line"]
+                    "NZ North-South Main (Y7)": ["", "Wanganui ramp"]
                 }
             }
         },
@@ -2974,7 +2974,7 @@
             }
         },
         {
-            "name": "New Plymouth",
+            "name": "New Plymouth International",
             "id": 256,
             "x": 62450,
             "z": 22650,
@@ -3270,6 +3270,63 @@
             "lines": {
                 "Yakutia Metro": {
                     "Industrial": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Wanganui North Junction",
+            "type": "jct",
+            "id": 282,
+            "x": 62800,
+            "z": 22985,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y7)": ["", "Main line", "Napier branch", "Wanganui ramp"]
+                }
+            }
+        },
+        {
+            "name": "Napier South",
+            "id": 283,
+            "x": 63370,
+            "z": 22961,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y7)": ["", "Napier branch"]
+                }
+            }
+        },
+        {
+            "name": "New Plymouth",
+            "id": 284,
+            "x": 62442,
+            "z": 22785,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y7)": ["", "New Plymouth branch"]
+                }
+            }
+        },
+        {
+            "name": "New Plymouth East Junction",
+            "type": "jct",
+            "id": 285,
+            "x": 62800,
+            "z": 22785,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y7)": ["", "Main line", "New Plymouth branch"]
+                }
+            }
+        },
+        {
+            "name": "NZ",
+            "id": 286,
+            "x": 60043,
+            "z": 25437,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y-62)": ["", "Main line"]
                 }
             }
         }
@@ -4547,7 +4604,28 @@
                             [62800, 24605],
                             [62178, 24605]
                         ],
-                        "stations": [250, 249, 251, 248, 247, 252, 253, 254]
+                        "stations": [250, 249, 251, 248, 247, 252, 253, 254, 286]
+                    },
+                    "Napier branch": {
+                        "vertices": [
+                            [62800, 22961],
+                            [63370, 22961]
+                        ],
+                        "stations": [282, 283]
+                    },
+                    "Wanganui ramp": {
+                        "vertices": [
+                            [62800, 23007],
+                            [62727, 23007]
+                        ],
+                        "stations": [282, 252]
+                    },
+                    "New Plymouth branch": {
+                        "vertices": [
+                            [62800, 22785],
+                            [62442, 22785]
+                        ],
+                        "stations": [285, 284]
                     }
                 }
             },
@@ -4559,8 +4637,10 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [61877, 24605],
-                            [62178, 24605]
+                            [62178, 24605],
+                            [61352, 24605],
+                            [60521, 25437],
+                            [60043, 25437]
                         ],
                         "stations": [254, 255]
                     }
@@ -4592,7 +4672,7 @@
                             [62800, 22590],
                             [62758, 22590],
                             [62758, 22650],
-                            [62450, 22650]
+                            [61554, 22650]
                         ],
                         "stations": [248, 256]
                     }
