@@ -2876,7 +2876,7 @@
             }
         },
         {
-            "name": "Whitewater West Junction",
+            "name": "<3> Whitewater West Junction",
             "type": "jct",
             "id": 248,
             "x": 62800,
@@ -2890,7 +2890,7 @@
             }
         },
         {
-            "name": "Burhaniye North Junction",
+            "name": "<2> Burhaniye North Junction",
             "type": "jct",
             "id": 249,
             "x": 62800,
@@ -2903,7 +2903,7 @@
             }
         },
         {
-            "name": "Auckland South Junction",
+            "name": "<1> Auckland South Junction",
             "type": "jct",
             "id": 250,
             "x": 62800,
@@ -3274,7 +3274,7 @@
             }
         },
         {
-            "name": "Wanganui North Junction",
+            "name": "<5> Wanganui North Junction",
             "type": "jct",
             "id": 282,
             "x": 62800,
@@ -3308,7 +3308,7 @@
             }
         },
         {
-            "name": "New Plymouth East Junction",
+            "name": "<4> New Plymouth East Junction",
             "type": "jct",
             "id": 285,
             "x": 62800,
