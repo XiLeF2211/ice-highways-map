@@ -4611,21 +4611,21 @@
                             [62800, 22961],
                             [63370, 22961]
                         ],
-                        "stations": [282, 283]
+                        "stations": [[282, "Main line"], 283]
                     },
                     "Wanganui ramp": {
                         "vertices": [
                             [62800, 23007],
                             [62727, 23007]
                         ],
-                        "stations": [282, 252]
+                        "stations": [[282, "Main line"], 252]
                     },
                     "New Plymouth branch": {
                         "vertices": [
                             [62800, 22785],
                             [62442, 22785]
                         ],
-                        "stations": [285, 284]
+                        "stations": [[285, "Main line"], 284]
                     }
                 }
             },
