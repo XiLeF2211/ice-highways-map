@@ -560,7 +560,7 @@
             }
         },
         {
-            "name": "Gobi",
+            "name": "Gobi Central",
             "id": 48,
             "x": 35355,
             "z": -9258,
@@ -3207,7 +3207,6 @@
         },
         {
             "name": "Nagqu North",
-            "type": "jct",
             "id": 276,
             "x": 32592,
             "z": -4005,
@@ -3327,6 +3326,124 @@
             "lines": {
                 "NZ Ministry of Infrastructure": {
                     "NZ North-South Main (Y-62)": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Gobi 2nd JCT",
+            "type": "jct",
+            "id": 287,
+            "x": 35355,
+            "z": -9162,
+            "lines": {
+                "Gobi Transport": {
+                    "Gobi 1st": ["", "Main line"],
+                    "NRI": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Gobi West",
+            "id": 288,
+            "x": 35343,
+            "z": -9231,
+            "lines": {
+                "Gobi Transport": {
+                    "NRI": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Buuntsagaan JCT",
+            "type": "jct",
+            "id": 289,
+            "x": 34863,
+            "z": -9441,
+            "lines": {
+                "Gobi Transport": {
+                    "NRI": ["", "Main line to Buuntsagaan branch"]
+                }
+            }
+        },
+        {
+            "name": "NRI-East",
+            "id": 290,
+            "x": 34784,
+            "z": -9441,
+            "lines": {
+                "Gobi Transport": {
+                    "NRI": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Buuntsagaan",
+            "id": 291,
+            "x": 34863,
+            "z": -9733,
+            "lines": {
+                "Gobi Transport": {
+                    "NRI": ["", "Buuntsagaan branch"]
+                }
+            }
+        },
+        {
+            "name": "Gobi Xinjiang Elevator",
+            "type": "elev-ew",
+            "y1": 110,
+            "y2": 50,
+            "id": 292,
+            "x": 35355,
+            "z": -8814,
+            "lines": {
+                "Gobi Transport": {
+                    "Xinjiang": ["", "Main line"],
+                    "Gobi 1st": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Urumqi",
+            "id": 293,
+            "x": 31427,
+            "z": -8814,
+            "lines": {
+                "Gobi Transport": {
+                    "Xinjiang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Anxi JCT",
+            "type": "jct",
+            "id": 294,
+            "x": 29444,
+            "z": -8814,
+            "lines": {
+                "Gobi Transport": {
+                    "Xinjiang": ["", "Main line to Anxi branch"]
+                }
+            }
+        },
+        {
+            "name": "Saray-East",
+            "id": 295,
+            "x": 28851,
+            "z": -8814,
+            "lines": {
+                "Gobi Transport": {
+                    "Xinjiang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Anxi North",
+            "id": 296,
+            "x": 29444,
+            "z": -7892,
+            "lines": {
+                "Gobi Transport": {
+                    "Xinjiang": ["", "Anxi branch"]
                 }
             }
         }
@@ -4354,7 +4471,7 @@
                             [32592, -4001],
                             [32594, -4001]
                         ],
-                        "stations": [48, [82, "Shinsyu branch"], 49, 272, 273, [274, "Mongolia branch"], [275, ""], 276, 212]
+                        "stations": [48, [82, "Shinsyu branch"], 287, 292, 49, 272, 273, [274, "Mongolia branch"], [275, ""], 276, 212]
                     },
                     "Shinsyu branch": {
                         "vertices": [
@@ -4376,6 +4493,54 @@
                             [32683, -4591]
                         ],
                         "stations": [[275, "Main line"], 278]
+                    }
+                }
+            },
+            "NRI": {
+                "prefix": "",
+                "code": "",
+                "color": "87CEFA",
+                "y": 110,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [35355, -9162],
+                            [35349, -9167],
+                            [35349, -9231],
+                            [35326, -9231],
+                            [35326, -9441],
+                            [34784, -9441]
+                        ],
+                        "stations": [287, 288, [289, "Buuntsagaan branch"], 290]
+                    },
+                    "Buuntsagaan branch": {
+                        "vertices": [
+                            [34863, -9733],
+                            [34863, -9441]
+                        ],
+                        "stations": [[289, "Main line"], 291]
+                    }
+                }
+            },
+            "Xinjiang": {
+                "prefix": "",
+                "code": "XIN",
+                "color": "EF161E",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [35355, -8814],
+                            [28851, -8814]
+                        ],
+                        "stations": [292, 293, [294, "Anxi branch"], 295]
+                    },
+                    "Anxi branch": {
+                        "vertices": [
+                            [29444, -8814],
+                            [29444, -7892]
+                        ],
+                        "stations": [[294, "Main line"], 296]
                     }
                 }
             }
