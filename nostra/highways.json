@@ -4604,7 +4604,7 @@
                             [62800, 24605],
                             [62178, 24605]
                         ],
-                        "stations": [250, 249, 251, 248, 247, 285, 282, 253, 254]
+                        "stations": [250, 249, 251, 248, 247, [285, "New Plymouth branch"], [282, "Napier branch", "Wanganui ramp"] , 253, 254]
                     },
                     "Napier branch": {
                         "vertices": [
