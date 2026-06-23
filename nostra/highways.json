@@ -4604,28 +4604,28 @@
                             [62800, 24605],
                             [62178, 24605]
                         ],
-                        "stations": [250, 249, 251, 248, 247, 252, 253, 254, 286]
+                        "stations": [250, 249, 251, 248, 247, [285, "New Plymouth branch"], [282, "Napier branch", "Wanganui ramp"] , 253, 254]
                     },
                     "Napier branch": {
                         "vertices": [
                             [62800, 22961],
                             [63370, 22961]
                         ],
-                        "stations": [282, 283]
+                        "stations": [[282, "Main line"], 283]
                     },
                     "Wanganui ramp": {
                         "vertices": [
                             [62800, 23007],
                             [62727, 23007]
                         ],
-                        "stations": [282, 252]
+                        "stations": [[282, "Main line"], 252]
                     },
                     "New Plymouth branch": {
                         "vertices": [
                             [62800, 22785],
                             [62442, 22785]
                         ],
-                        "stations": [285, 284]
+                        "stations": [[285, "Main line"], 284]
                     }
                 }
             },
@@ -4642,7 +4642,7 @@
                             [60521, 25437],
                             [60043, 25437]
                         ],
-                        "stations": [254, 255]
+                        "stations": [254, 255, 286]
                     }
                 }
             },
