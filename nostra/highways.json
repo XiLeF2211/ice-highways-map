@@ -3724,14 +3724,14 @@
                             [47540, -20364],
                             [47540, -21525]
                         ],
-                        "stations": [[279, "Main line"], 280]
+                        "stations": [[297, "Main line"], 298]
                     },
                     "Yarika branch": {
                         "vertices": [
                             [46368, -18889],
                             [45205, -18889]
                         ],
-                        "stations": [[297, "Main line"], 298]
+                        "stations": [[279, "Main line"], 280]
                     }
                 }
             },
