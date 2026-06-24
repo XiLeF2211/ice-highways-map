@@ -3446,6 +3446,29 @@
                     "Xinjiang": ["", "Anxi branch"]
                 }
             }
+        },
+        {
+            "name": "Kustur JCT",
+            "type": "jct",
+            "id": 297,
+            "x": 46368,
+            "z": -20349,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line to Northern extension"]
+                }
+            }
+        },
+        {
+            "name": "Republic of SPC",
+            "id": 298,
+            "x": 47540,
+            "z": -20872,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Northern extension"]
+                }
+            }
         }
     ],
     "lines": {
@@ -3691,14 +3714,24 @@
                             [46368, -20364],
                             [46488, -20364]
                         ],
-                        "stations": [36, 37, 148, [279, "Yarika branch"], 149]
+                        "stations": [36, 37, 148, [279, "Yarika branch"], [297, "Northern extension"], 149]
+                    },
+                    "Northern extension": {
+                        "vertices": [
+                            [46368, -20349],
+                            [46536, -20349],
+                            [46536, -20364],
+                            [47540, -20364],
+                            [47540, -21525]
+                        ],
+                        "stations": [[279, "Main line"], 280]
                     },
                     "Yarika branch": {
                         "vertices": [
                             [46368, -18889],
                             [45205, -18889]
                         ],
-                        "stations": [[279, "Main line"], 280]
+                        "stations": [[297, "Main line"], 298]
                     }
                 }
             },
