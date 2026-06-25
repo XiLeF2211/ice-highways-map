@@ -481,7 +481,7 @@
             }
         },
         {
-            "name": "Esperance",
+            "name": "Esperance (Underground platform 1)",
             "id": 41,
             "x": 43276,
             "z": 20539,
@@ -3469,6 +3469,39 @@
                     "Sakha": ["", "Northern extension"]
                 }
             }
+        },
+        {
+            "name": "Esperance (Underground Platform 2)",
+            "id": 299,
+            "x": 43276,
+            "z": 20521,
+            "lines": {
+                "PTA": {
+                    "Esperance Link": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Westralia North",
+            "id": 300,
+            "x": 41993,
+            "z": 20241,
+            "lines": {
+                "PTA": {
+                    "Esperance Link": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Perth (Platform 2)",
+            "id": 301,
+            "x": 41531,
+            "z": 19936,
+            "lines": {
+                "PTA": {
+                    "Esperance Link": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -4189,6 +4222,27 @@
                             [44360, 20526]
                         ],
                         "stations": [40, 41, 42]
+                    }
+                }
+            },
+            "Esperance Link": {
+                "prefix": "",
+                "code": "ESL",
+                "color": "FF6A00",
+                "y": 48,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [43276, 20521],
+                            [42989, 20521],
+                            [42850, 20381],
+                            [42784, 20381],
+                            [42645, 20241],
+                            [41800, 20241],
+                            [41531, 19972],
+                            [41531, 19936]
+                        ],
+                        "stations": [301, 300, 299]
                     }
                 }
             }
