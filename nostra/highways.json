@@ -3469,6 +3469,29 @@
                     "Sakha": ["", "Northern extension"]
                 }
             }
+        },
+        {
+            "name": "Baniachong JCT",
+            "type": "jct",
+            "id": 302,
+            "x": 32458.5,
+            "z": -1027,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Main line to Baniachong branch"]
+                }
+            }
+        },
+        {
+            "name": "Baniachong",
+            "id": 303,
+            "x": 32809,
+            "z": -1027,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Baniachong branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -3823,7 +3846,14 @@
                             [30318, -2640],
                             [30267, -2640]
                         ],
-                        "stations": [136, 125, 202, 184, [191, "Tibet branch"], 193, 194, 265]
+                        "stations": [136, [299, "Baniachong"], 125, 202, 184, [191, "Tibet branch"], 193, 194, 265]
+                    },
+                    "Baniachong branch": {
+                        "vertices": [
+                            [32458.5, -1027],
+                            [32809, -1027]
+                        ],
+                        "stations": [[302, "Main line"], 303]
                     },
                     "Tibet branch": {
                         "vertices": [
