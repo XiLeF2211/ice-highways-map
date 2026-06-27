@@ -1895,7 +1895,7 @@
             "z": -12209,
             "lines": {
                 "Canarail": {
-                    "Trans-Canada": ["", "Main line"],
+                    "Trans-Canada Rail": ["", "Main line"],
                     "Trans Canadian Ice Rail": ["", ""]
                 }
             }
@@ -1907,7 +1907,7 @@
             "z": -12200,
             "lines": {
                 "Canarail": {
-                    "Trans-Canada": ["", "Main line"]
+                    "Trans-Canada Rail": ["", "Main line"]
                 }
             }
         },
@@ -1918,7 +1918,7 @@
             "z": -12105,
             "lines": {
                 "Canarail": {
-                    "Trans-Canada": ["", "Main line"]
+                    "Trans-Canada Rail": ["", "Main line"]
                 }
             }
         },
@@ -1929,7 +1929,7 @@
             "z": -12071,
             "lines": {
                 "Canarail": {
-                    "Trans-Canada": ["", "Main line"]
+                    "Trans-Canada Rail": ["", "Main line"]
                 }
             }
         },
@@ -1940,7 +1940,7 @@
             "z": -12071,
             "lines": {
                 "Canarail": {
-                    "Trans-Canada": ["", "Main line"]
+                    "Trans-Canada Rail": ["", "Main line"]
                 }
             }
         },
@@ -1951,7 +1951,7 @@
             "z": -12062,
             "lines": {
                 "Canarail": {
-                    "Trans-Canada": ["", "Main line"]
+                    "Trans-Canada Rail": ["", "Main line"]
                 }
             }
         },
@@ -1962,7 +1962,7 @@
             "z": -11716,
             "lines": {
                 "Canarail": {
-                    "Trans-Canada": ["", "Main line"]
+                    "Trans-Canada Rail": ["", "Main line"]
                 }
             }
         },
@@ -1973,7 +1973,7 @@
             "z": -11712,
             "lines": {
                 "Canarail": {
-                    "Trans-Canada": ["", "Main line"]
+                    "Trans-Canada Rail": ["", "Main line"]
                 }
             }
         },
@@ -1984,7 +1984,7 @@
             "z": -11271,
             "lines": {
                 "Canarail": {
-                    "Trans-Canada": ["", "Main line"]
+                    "Trans-Canada Rail": ["", "Main line"]
                 }
             }
         },
@@ -1995,7 +1995,7 @@
             "z": -10845,
             "lines": {
                 "Canarail": {
-                    "Trans-Canada": ["", "Main line"]
+                    "Trans-Canada Rail": ["", "Main line"]
                 }
             }
         },
@@ -2006,7 +2006,7 @@
             "z": -11177,
             "lines": {
                 "Canarail": {
-                    "Trans-Canada": ["", "Main line"]
+                    "Trans-Canada Rail": ["", "Main line"]
                 }
             }
         },
@@ -3701,6 +3701,28 @@
                     "Trans-Tasman Link (Y-62)": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "LR Khuntien (Rail station)",
+            "id": 319,
+            "x": 39207,
+            "z": 8025,
+            "lines": {
+                "STA Railways": {
+                    "LR King-nan Rail": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Shibamata (Rail station)",
+            "id": 320,
+            "x": 39500,
+            "z": 8224,
+            "lines": {
+                "STA Railways": {
+                    "LR King-nan Rail": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -4658,8 +4680,8 @@
             }
         },
         "Canarail": {
-            "Trans-Canada": {
-                "prefix": "",
+            "Trans-Canada Rail": {
+                "prefix": "[Rail] ",
                 "code": "TC",
                 "color": "FF0000",
                 "y": 80,
@@ -4785,6 +4807,25 @@
                             [-44550, -11327]
                         ],
                         "stations": [236, 237, 238]
+                    }
+                }
+            }
+        },
+        "STA Railways": {
+            "LR King-nan Rail": {
+                "prefix": "[Rail] ",
+                "code": "GT",
+                "color": "FFFF00",
+                "y": 80,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [39207, 8025],
+                            [39329, 8025],
+                            [39482, 8060],
+                            [39500, 8224]
+                        ],
+                        "stations": [319, 320]
                     }
                 }
             }
