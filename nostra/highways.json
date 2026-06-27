@@ -134,7 +134,7 @@
             "z": -1765,
             "lines": {
                 "Florida": {
-                    "Miami-Saint Pete": ["", "Main line"]
+                    "Miami-Jacksonville": ["", "Main line"]
                 }
             }
         },
@@ -146,7 +146,7 @@
             "z": -1765,
             "lines": {
                 "Florida": {
-                    "Miami-Saint Pete": ["", "Main line to Fort Myers branch"]
+                    "Miami-Jacksonville": ["", "Main line to Fort Myers branch"]
                 }
             }
         },
@@ -157,7 +157,7 @@
             "z": -1765,
             "lines": {
                 "Florida": {
-                    "Miami-Saint Pete": ["", "Fort Myers branch"]
+                    "Miami-Jacksonville": ["", "Fort Myers branch"]
                 }
             }
         },
@@ -165,12 +165,16 @@
             "name": "Saint Pete",
             "id": 14,
             "x": -29641,
-            "z": -2243,
+            "z": -2238,
             "lines": {
                 "Florida": {
-                    "Miami-Saint Pete": ["", "Main line"]
+                    "Miami-Jacksonville": ["", "Main line"]
                 }
-            }
+            },
+            "areas": [
+                [[-29645, -2246], [-29636, -2239]],
+                [[-29643, -2244], [-29638, -2236]]
+            ]
         },
         {
             "name": "Guantanamo Bay",
@@ -3525,6 +3529,155 @@
                     "Himalayas": ["", "Baniachong branch"]
                 }
             }
+        },
+        {
+            "name": "Tampa",
+            "id": 304,
+            "x": -29637,
+            "z": -2386,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tampa",
+            "id": 305,
+            "x": -29637,
+            "z": -2465,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tampa",
+            "id": 306,
+            "x": -29637,
+            "z": -2696,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "CedarKey JCT",
+            "type": "jct",
+            "id": 307,
+            "x": -29637,
+            "z": -2800,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Main line"],
+                    "CedarKey-Cape Canaveral": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Bayou JCT",
+            "type": "jct",
+            "id": 308,
+            "x": -29637,
+            "z": -3047,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Main line to Tallahassee branch"]
+                }
+            }
+        },
+        {
+            "name": "Tallahassee branch",
+            "id": 309,
+            "x": -30235.5,
+            "z": -3446,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Tallahassee branch"]
+                }
+            }
+        },
+        {
+            "name": "Gainesville North JCT",
+            "type": "jct",
+            "id": 310,
+            "x": -29389,
+            "z": -3047,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Main line to Gainesville branch"]
+                }
+            }
+        },
+        {
+            "name": "Gainesville",
+            "id": 311,
+            "x": -29392,
+            "z": -2928.5,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Gainesville branch"]
+                }
+            }
+        },
+        {
+            "name": "Gainesville South JCT",
+            "type": "jct",
+            "id": 312,
+            "x": -29401,
+            "z": -2799,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Gainesville branch"],
+                    "CedarKey-Cape Canaveral": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Jacksonville",
+            "id": 313,
+            "x": -29166,
+            "z": -3047,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "CedarKey",
+            "id": 314,
+            "x": -29748,
+            "z": -2800,
+            "lines": {
+                "Florida": {
+                    "CedarKey-Cape Canaveral": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Gainesville West",
+            "id": 315,
+            "x": -29474,
+            "z": -2800,
+            "lines": {
+                "Florida": {
+                    "CedarKey-Cape Canaveral": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Cape Canaveral",
+            "id": 316,
+            "x": -29203,
+            "z": -2799,
+            "lines": {
+                "Florida": {
+                    "CedarKey-Cape Canaveral": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -4125,7 +4278,7 @@
             }
         },
         "Florida": {
-            "Miami-Saint Pete": {
+            "Miami-Jacksonville": {
                 "prefix": "",
                 "code": "M-SP",
                 "color": "FF0000",
@@ -4137,9 +4290,12 @@
                             [-29326, -1765],
                             [-29326, -1954],
                             [-29641, -1954],
-                            [-29641, -2243]
+                            [-29641, -2238],
+                            [-29637, -2238],
+                            [-29637, -3047],
+                            [-29166, -3047]
                         ],
-                        "stations": [11, [12, "Fort Myers branch"], 14]
+                        "stations": [11, [12, "Fort Myers branch"], 14, 304, 305, 306, 307, [308, "Tallahassee branch"], [310, "Gainesville branch"], 313]
                     },
                     "Fort Myers branch": {
                         "vertices": [
@@ -4147,6 +4303,28 @@
                             [-29355, -1765]
                         ],
                         "stations": [[12, "Main line"], 13]
+                    },
+                    "Tallahassee branch": {
+                        "vertices": [
+                            [-29637, -3047],
+                            [-29637, -3360],
+                            [-30146, -3360],
+                            [-30146, -3438],
+                            [-30235.5, -3438],
+                            [-30235.5, -3446]
+                        ],
+                        "stations": [[308, "Main line"], 309]
+                    },
+                    "Gainesville branch": {
+                        "vertices": [
+                            [-29389, -3047],
+                            [-29389, -2928.5],
+                            [-29392, -2928.5],
+                            [-29392, -2917],
+                            [-29401, -2917],
+                            [-29401, -2799]
+                        ],
+                        "stations": [[310, "Main line"], 311, 312]
                     }
                 }
             },
@@ -4209,6 +4387,23 @@
                             [-27903, 1330]
                         ],
                         "stations": [[32, "Main line"], 33]
+                    }
+                }
+            },
+            "CedarKey-Cape Canaveral": {
+                "prefix": "",
+                "code": "CK-CC",
+                "color": "9e5e28",
+                "y": 40,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-29748, -2800],
+                            [-29474, -2800],
+                            [-29473, -2799],
+                            [-29203, -2799]
+                        ],
+                        "stations": [314, 307, 315, 312, 316]
                     }
                 }
             }
