@@ -3329,7 +3329,8 @@
             "z": 25437,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North-South Main (Y-62)": ["", "Main line"]
+                    "NZ North-South Main (Y-62)": ["", "Main line"],
+                    "World Border": ["", "Main line"]
                 }
             }
         },
@@ -3676,6 +3677,28 @@
             "lines": {
                 "Florida": {
                     "CedarKey-Cape Canaveral": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Boundary Checkpoint [km 8,151]",
+            "id": 317,
+            "x": 54710,
+            "z": 22650,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "Trans-Tasman Link (Y-62)": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "South Coast",
+            "id": 318,
+            "x": 53773,
+            "z": 21380,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "Trans-Tasman Link (Y-62)": ["", "Main line"]
                 }
             }
         }
@@ -5149,7 +5172,7 @@
                             [62800, 22590],
                             [62758, 22590],
                             [62758, 22650],
-                            [61554, 22650]
+                            [62450, 22650]
                         ],
                         "stations": [248, 256]
                     }
@@ -5164,9 +5187,11 @@
                     "Main line": {
                         "vertices": [
                             [62450, 22650],
-                            [62129, 22650]
+                            [54583, 22650],
+                            [53773, 21840],
+                            [53773, 21380]
                         ],
-                        "stations": [256]
+                        "stations": [256, 317, 318]
                     }
                 }
             },
@@ -5183,6 +5208,22 @@
                             [63302, 21520]
                         ],
                         "stations": [249, 244, 257]
+                    }
+                }
+            },
+            "World Border": {
+                "prefix": "",
+                "code": "WB",
+                "color": "111111",
+                "y": -62,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [60043, 25437],
+                            [60024, 25437],
+                            [60024, 27567]
+                        ],
+                        "stations": [286]
                     }
                 }
             }
