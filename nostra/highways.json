@@ -954,7 +954,7 @@
             "z": 3987,
             "lines": {
                 "TNIH": {
-                    "Malabar": ["", "Main line"]
+                    "Malabar": ["", "Mangalore branch"]
                 }
             }
         },
@@ -3723,6 +3723,18 @@
                     "LR King-nan Rail": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Mangalore JCT",
+            "type": "jct",
+            "id": 321,
+            "x": 27190,
+            "z": 4036,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main line to Mangalore branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -4175,7 +4187,9 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [27190, 3987],
+                            [26888, 3461],
+                            [26888, 4036],
+                            [27190, 4036],
                             [27190, 4122],
                             [27315, 4122],
                             [27315, 4398],
@@ -4183,7 +4197,14 @@
                             [27451, 4605],
                             [28704, 4605]
                         ],
-                        "stations": [81, 78, 79, 94]
+                        "stations": [[321, "Mangalore branch"], 78, 79, 94]
+                    },
+                    "Mangalore branch": {
+                        "vertices": [
+                            [27190, 3987],
+                            [27190, 4036]
+                        ],
+                        "stations": [[321, "Main line"], 81]
                     }
                 }
             },
