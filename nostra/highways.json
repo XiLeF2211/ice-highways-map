@@ -3706,7 +3706,7 @@
             }
         },
         {
-            "name": "LR Khuntien (Rail station)",
+            "name": "LR Khuntien (Railway station)",
             "id": 319,
             "x": 39207,
             "z": 8025,
@@ -3717,7 +3717,7 @@
             }
         },
         {
-            "name": "Shibamata (Rail station)",
+            "name": "Shibamata (Railway station)",
             "id": 320,
             "x": 39500,
             "z": 8224,
@@ -3860,6 +3860,50 @@
             "lines": {
                 "TNIH": {
                     "Kolyma": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bunbury",
+            "id": 333,
+            "x": 41469,
+            "z": 20499,
+            "lines": {
+                "PTA": {
+                    "Westralia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Perth (Platform 1)",
+            "id": 334,
+            "x": 41529,
+            "z": 19936,
+            "lines": {
+                "PTA": {
+                    "Westralia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sannomiya (Railway station)",
+            "id": 335,
+            "x": 48461,
+            "z": -4960.5,
+            "lines": {
+                "Intercontinental": {
+                    "Kobe": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Edo (Railway station)",
+            "id": 336,
+            "x": 48606,
+            "z": -4977.5,
+            "lines": {
+                "Intercontinental": {
+                    "Kobe": ["", ""]
                 }
             }
         }
@@ -4676,7 +4720,11 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [42207, 21108],
+                            [41529, 19936],
+                            [41529, 20381],
+                            [41469, 20499],
+                            [41469, 20636],
+                            [41941, 21108],
                             [42421, 21108],
                             [42989, 20539],
                             [44303, 20539],
@@ -4684,7 +4732,7 @@
                             [44333, 20526, "Elevator from Y=48 to Y=49"],
                             [44360, 20526]
                         ],
-                        "stations": [40, 41, 42]
+                        "stations": [333, 334, 40, 41, 42]
                     }
                 }
             },
@@ -5117,7 +5165,7 @@
         "Intercontinental": {
             "Afghan": {
                 "prefix": "",
-                "code": "KGR-YKN",
+                "code": "AF",
                 "color": "A0A0A0",
                 "y": 10,
                 "branches": {
@@ -5314,6 +5362,23 @@
                             [39272, -1863]
                         ],
                         "stations": [270, 271]
+                    }
+                }
+            },
+            "Kobe": {
+                "prefix": "",
+                "code": "神戸",
+                "color": "0071BE",
+                "y": 64,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [48461, -4960.5],
+                            [48558.5, -4960.5],
+                            [48558.5, -4977.5],
+                            [48606, -4977.5]
+                        ],
+                        "stations": [335, 336]
                     }
                 }
             }
