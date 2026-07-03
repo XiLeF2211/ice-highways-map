@@ -3729,10 +3729,77 @@
             "type": "jct",
             "id": 321,
             "x": 27190,
-            "z": 4036,
+            "z": 4037,
             "lines": {
                 "TNIH": {
                     "Malabar": ["", "Main line to Mangalore branch"]
+                }
+            }
+        },
+        {
+            "name": "Othium City",
+            "id": 322,
+            "x": 26889,
+            "z": 3460,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Greater Goa",
+            "id": 323,
+            "x": 26716,
+            "z": 2932,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "SollanEmpire",
+            "id": 324,
+            "x": 55464.5,
+            "z": -16182.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main Y=10": ["", "Main line (West)"]
+                }
+            }
+        },
+        {
+            "name": "Delhi JCT",
+            "type": "jct",
+            "id": 325,
+            "x": 27051,
+            "z": -1039,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Delhi branch to Ajaymeru branch"]
+                }
+            }
+        },
+        {
+            "name": "Ajaymeru",
+            "id": 326,
+            "x": 26181,
+            "z": -1358,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Ajaymeru branch"]
+                }
+            }
+        },
+        {
+            "name": "Monumenta",
+            "id": 327,
+            "x": 47770,
+            "z": -21310,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Northern extension"]
                 }
             }
         }
@@ -3894,7 +3961,7 @@
                             [52271.5, -16182.5],
                             [56023.5, -16182.5]
                         ],
-                        "stations": [3, 9, 10, 50, [176, "Taynaya branch"], 183, 51]
+                        "stations": [3, 9, 10, 50, [176, "Taynaya branch"], 183, 324, 51]
                     },
                     "Main line (East)": {
                         "vertices": [
@@ -3988,9 +4055,10 @@
                             [46536, -20349],
                             [46536, -20364],
                             [47540, -20364],
-                            [47540, -21525]
+                            [47540, -21310],
+                            [47825, -21310]
                         ],
-                        "stations": [[297, "Main line"], 298]
+                        "stations": [[297, "Main line"], 298, 327]
                     },
                     "Yarika branch": {
                         "vertices": [
@@ -4056,7 +4124,15 @@
                             [27051, 100],
                             [27051, -1084]
                         ],
-                        "stations": [[261, "Main line"], 262]
+                        "stations": [[261, "Main line"], [325, "Ajaymeru branch"], 262]
+                    },
+                    "Ajaymeru branch": {
+                        "vertices": [
+                            [27051, -1039],
+                            [26181, -1039],
+                            [26181, -1358]
+                        ],
+                        "stations": [[325, "Delhi branch"], 326]
                     },
                     "Kolkata branch": {
                         "vertices": [
@@ -4187,9 +4263,11 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [26888, 3461],
-                            [26888, 4036],
-                            [27190, 4036],
+                            [26716, 2932],
+                            [26716, 3460],
+                            [26889, 3460],
+                            [26889, 4037],
+                            [27190, 4037],
                             [27190, 4122],
                             [27315, 4122],
                             [27315, 4398],
@@ -4197,12 +4275,12 @@
                             [27451, 4605],
                             [28704, 4605]
                         ],
-                        "stations": [[321, "Mangalore branch"], 78, 79, 94]
+                        "stations": [323, 322, [321, "Mangalore branch"], 78, 79, 94]
                     },
                     "Mangalore branch": {
                         "vertices": [
-                            [27190, 3987],
-                            [27190, 4036]
+                            [27190, 4037],
+                            [27190, 3987]
                         ],
                         "stations": [[321, "Main line"], 81]
                     }
