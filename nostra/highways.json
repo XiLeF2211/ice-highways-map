@@ -3451,7 +3451,8 @@
             "z": -7892,
             "lines": {
                 "Gobi Transport": {
-                    "Xinjiang": ["", "Anxi branch"]
+                    "Xinjiang": ["", "Anxi branch"],
+                    "Kashgar": ["", "Main line"]
                 }
             }
         },
@@ -3904,6 +3905,46 @@
             "lines": {
                 "Intercontinental": {
                     "Kobe": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Kashgar JCT",
+            "type": "jct",
+            "id": 337,
+            "x": 27072.5,
+            "z": -6862,
+            "lines": {
+                "Intercontinental": {
+                    "Afghan": ["", "Main line"]
+                },
+                "Gobi Transport": {
+                    "Kashgar": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Frunze Entrance",
+            "id": 338,
+            "x": 27320,
+            "z": -7892,
+            "lines": {
+                "Gobi Transport": {
+                    "Kashgar": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Anxi Elevator",
+            "type": "elev-ew",
+            "id": 339,
+            "x": 29443,
+            "z": -7892,
+            "y1": 10,
+            "y2": 50,
+            "lines": {
+                "Gobi Transport": {
+                    "Kashgar": ["", "Main line"]
                 }
             }
         }
@@ -5157,7 +5198,24 @@
                             [29444, -8814],
                             [29444, -7892]
                         ],
-                        "stations": [[294, "Main line"], 296]
+                        "stations": [[294, "Main line"], 340, 296]
+                    }
+                }
+            },
+            "Kashgar": {
+                "prefix": "",
+                "code": "KSG",
+                "color": "F9C2F8",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [27072.5, -6862],
+                            [27132, -6862],
+                            [27132, -7892],
+                            [29444, -7892]
+                        ],
+                        "stations": [337, 338, 339, 296]
                     }
                 }
             }
@@ -5176,7 +5234,7 @@
                             [24774.5, -6172.5],
                             [24774.5, -4785.5]
                         ],
-                        "stations": [86, [88, "Kabul branch"], [218, "Afyun Dara branch"], 220, 89]
+                        "stations": [86, 337, [88, "Kabul branch"], [218, "Afyun Dara branch"], 220, 89]
                     },
                     "Yeken branch": {
                         "vertices": [
