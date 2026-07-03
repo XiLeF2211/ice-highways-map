@@ -2561,25 +2561,28 @@
             }
         },
         {
-            "name": "Peridesh JCT",
+            "name": "Kabul JCT",
             "type": "jct",
             "id": 220,
             "x": 24774.5,
-            "z": -5006.5,
+            "z": -5006,
             "lines": {
                 "Intercontinental": {
-                    "Afghan": ["", "Main line to Peridesh branch"]
+                    "Afghan": ["", "Main line"]
+                },
+                "TNIH": {
+                    "Hooman": ["", "Main line"]
                 }
             }
         },
         {
             "name": "Peridesh",
             "id": 221,
-            "x": 26130.5,
-            "z": -5006.5,
+            "x": 26131,
+            "z": -5006,
             "lines": {
-                "Intercontinental": {
-                    "Afghan": ["", "Peridesh branch"]
+                "TNIH": {
+                    "Hooman": ["", "Main line"]
                 }
             }
         },
@@ -3802,6 +3805,63 @@
                     "Sakha": ["", "Northern extension"]
                 }
             }
+        },
+        {
+            "name": "Aldan JCT",
+            "type": "jct",
+            "id": 328,
+            "x": 48676,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"],
+                    "Calmania": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Calmania",
+            "id": 329,
+            "x": 48676,
+            "z": -16954,
+            "lines": {
+                "TNIH": {
+                    "Calmania": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "MukMuk",
+            "id": 330,
+            "x": 48378,
+            "z": -16670,
+            "lines": {
+                "TNIH": {
+                    "Calmania": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Winterfield",
+            "id": 331,
+            "x": 56586,
+            "z": -21460,
+            "lines": {
+                "TNIH": {
+                    "Kolyma": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Pine Haven",
+            "id": 332,
+            "x": 57117,
+            "z": -21591,
+            "lines": {
+                "TNIH": {
+                    "Kolyma": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -3851,9 +3911,10 @@
                     "Main line": {
                         "vertices": [
                             [28317, -316],
-                            [28317, -2657]
+                            [28317, -5006],
+                            [24774.5, -5006]
                         ],
-                        "stations": [70, 71, 72, 73, [189, "Himalayas branch"]]
+                        "stations": [70, 71, 72, 73, [189, "Himalayas branch"], 221, 220]
                     },
                     "Himalayas branch": {
                         "vertices": [
@@ -3880,7 +3941,7 @@
                             [52960.5, -23834.5],
                             [52171, -23834.5]
                         ],
-                        "stations": [150, [213, "Riverwood branch"], [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], [7, "Duchy of Rivers branch"], 18, 19, 46, 62, [63, "Yakutsk branch"], 69]
+                        "stations": [150, [213, "Riverwood branch"], [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], [7, "Duchy of Rivers branch"], 18, 19, 46, 62, [63, "Yakutsk branch"], 69]
                     },
                     "Tapagonia branch": {
                         "vertices": [
@@ -4417,6 +4478,39 @@
                             [52771, -21883]
                         ],
                         "stations": [[216, "Main line"], 217]
+                    }
+                }
+            },
+            "Calmania": {
+                "prefix": "",
+                "code": "CM",
+                "color": "72EFDD",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [48676, -17732],
+                            [48676, -16670],
+                            [48319, -16670]
+                        ],
+                        "stations": [328, 329, 330]
+                    }
+                }
+            },
+            "Kolyma": {
+                "prefix": "",
+                "code": "KY",
+                "color": "CC7722",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [56272, -21460],
+                            [57117, -21460],
+                            [57117, -21890],
+                            [57623, -21890]
+                        ],
+                        "stations": [331, 332]
                     }
                 }
             }
@@ -5034,7 +5128,7 @@
                             [24774.5, -6172.5],
                             [24774.5, -4785.5]
                         ],
-                        "stations": [86, [88, "Kabul branch"], [218, "Afyun Dara branch"], [220, "Peridesh branch"], 89]
+                        "stations": [86, [88, "Kabul branch"], [218, "Afyun Dara branch"], 220, 89]
                     },
                     "Yeken branch": {
                         "vertices": [
@@ -5050,13 +5144,6 @@
                             [25667.5, -5787.5]
                         ],
                         "stations": [[218, "Main line"], 219]
-                    },
-                    "Peridesh branch": {
-                        "vertices": [
-                            [24774.5, -5006.5],
-                            [26130.5, -5006.5]
-                        ],
-                        "stations": [[220, "Main line"], 221]
                     }
                 }
             },
