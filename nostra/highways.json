@@ -548,7 +548,7 @@
             "lines": {
                 "TNIH": {
                     "Siberia Main": ["", "Main line"],
-                    "Heartnorth": ["", "Main line"]
+                    "Heartnorth": ["", "Southern section"]
                 }
             }
         },
@@ -559,7 +559,7 @@
             "z": -21954,
             "lines": {
                 "TNIH": {
-                    "Heartnorth": ["", "Main line"]
+                    "Heartnorth": ["", "Southern section"]
                 }
             }
         },
@@ -2510,7 +2510,7 @@
             "z": -21954,
             "lines": {
                 "TNIH": {
-                    "Heartnorth": ["", "Main line"]
+                    "Heartnorth": ["", "Southern section"]
                 }
             }
         },
@@ -2522,7 +2522,7 @@
             "z": -21954,
             "lines": {
                 "TNIH": {
-                    "Heartnorth": ["", "Main line to Sanctum Logorum branch"]
+                    "Heartnorth": ["", "Southern section to Sanctum Logorum branch"]
                 }
             }
         },
@@ -3947,6 +3947,42 @@
                     "Kashgar": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Omulyakh JCT",
+            "type": "jct",
+            "id": 340,
+            "x": 51646,
+            "z": -23834.5,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"],
+                    "Heartnorth": ["", "Northern section"]
+                }
+            }
+        },
+        {
+            "name": "Nagareike Mine",
+            "type": "semi2",
+            "id": 341,
+            "x": 51646,
+            "z": -22970,
+            "lines": {
+                "TNIH": {
+                    "Heartnorth": ["", "Northern section"]
+                }
+            }
+        },
+        {
+            "name": "Ssecrettown",
+            "id": 342,
+            "x": 51646,
+            "z": -22777,
+            "lines": {
+                "TNIH": {
+                    "Heartnorth": ["", "Northern section"]
+                }
+            }
         }
     ],
     "lines": {
@@ -4024,7 +4060,7 @@
                             [52340, -21475.5],
                             [52960.5, -21474.5],
                             [52960.5, -23834.5],
-                            [52171, -23834.5]
+                            [51646, -23834.5]
                         ],
                         "stations": [150, [213, "Riverwood branch"], [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], [7, "Duchy of Rivers branch"], 18, 19, 46, 62, [63, "Yakutsk branch"], 69]
                     },
@@ -4550,7 +4586,14 @@
                 "color": "FF94BD",
                 "y": 10,
                 "branches": {
-                    "Main line": {
+                    "Northern section": {
+                        "vertices": [
+                            [51646, -23834.5],
+                            [51646, -22777]
+                        ],
+                        "stations": [340, 341, 342]
+                    },
+                    "Southern section": {
                         "vertices": [
                             [52459, -21954],
                             [53220, -21954]
@@ -4763,7 +4806,7 @@
                         "vertices": [
                             [41529, 19936],
                             [41529, 20381],
-                            [41469, 20499],
+                            [41469, 20440],
                             [41469, 20636],
                             [41941, 21108],
                             [42421, 21108],
@@ -4773,7 +4816,7 @@
                             [44333, 20526, "Elevator from Y=48 to Y=49"],
                             [44360, 20526]
                         ],
-                        "stations": [333, 334, 40, 41, 42]
+                        "stations": [334, 333, 40, 41, 42]
                     }
                 }
             },
