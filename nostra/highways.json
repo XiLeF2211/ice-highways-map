@@ -1464,7 +1464,7 @@
             "z": -1314,
             "lines": {
                 "TNIH": {
-                    "Himalayas": ["", "Main line"],
+                    "Syphon": ["", "Main line"],
                     "Tibet": ["", "Main line"]
                 }
             }
@@ -1589,7 +1589,7 @@
             "z": -551.5,
             "lines": {
                 "TNIH": {
-                    "Himalayas": ["", "Main line"],
+                    "Tibet": ["", "Main line"],
                     "Bangla": ["", "Main line"]
                 }
             }
@@ -2147,7 +2147,7 @@
             "z": -2030,
             "lines": {
                 "TNIH": {
-                    "Himalayas": ["", "Main line"]
+                    "Syphon": ["", "Main line"]
                 }
             }
         },
@@ -2228,7 +2228,8 @@
             "z": -2590,
             "lines": {
                 "TNIH": {
-                    "Himalayas": ["", "Main line to Tibet branch"]
+                    "Himalayas": ["", "Main line"],
+                    "Syphon": ["", "Main line"]
                 }
             }
         },
@@ -2239,7 +2240,7 @@
             "z": -2672,
             "lines": {
                 "TNIH": {
-                    "Himalayas": ["", "Tibet branch"]
+                    "Syphon": ["", "Main line"]
                 }
             }
         },
@@ -2352,12 +2353,12 @@
             "name": "Syphon JCT",
             "type": "jct",
             "id": 202,
-            "x": 32458,
+            "x": 31705,
             "z": -1986,
             "lines": {
                 "TNIH": {
                     "Tibet": ["", "Syphon branch"],
-                    "Himalayas": ["", "Main line"]
+                    "Syphon": ["", "Main line"]
                 }
             }
         },
@@ -2369,7 +2370,8 @@
             "z": -2999,
             "lines": {
                 "TNIH": {
-                    "Tibet": ["", "Main line to Lhasa branch"]
+                    "Tibet": ["", "Main line"],
+                    "Himalayas": ["", "Main line"]
                 }
             }
         },
@@ -2380,7 +2382,7 @@
             "z": -2999,
             "lines": {
                 "TNIH": {
-                    "Tibet": ["", "Lhasa branch"]
+                    "Himalayas": ["", "Main line"]
                 }
             }
         },
@@ -3520,18 +3522,18 @@
             "z": -1027,
             "lines": {
                 "TNIH": {
-                    "Himalayas": ["", "Main line to Baniachong branch"]
+                    "Tibet": ["", "Main line to Baniachong branch"]
                 }
             }
         },
         {
-            "name": "Baniachong",
+            "name": "Baniachong West",
             "id": 303,
             "x": 32809,
             "z": -1027,
             "lines": {
                 "TNIH": {
-                    "Himalayas": ["", "Baniachong branch"]
+                    "Tibet": ["", "Baniachong branch"]
                 }
             }
         },
@@ -3983,6 +3985,32 @@
                     "Heartnorth": ["", "Northern section"]
                 }
             }
+        },
+        {
+            "name": "Baniachong",
+            "id": 343,
+            "x": 32829,
+            "z": -1027,
+            "lines": {
+                "TNIH": {
+                    "Tibet": ["", "Baniachong branch"]
+                }
+            },
+            "areas": [
+                [[32825, -1031], [32833, -1024]],
+                [[32823, -1046], [32838, -1029]]
+            ]
+        },
+        {
+            "name": "Shigatse",
+            "id": 344,
+            "x": 31996,
+            "z": -2842,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -4333,12 +4361,9 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [32458.5, -551.5],
-                            [32458.5, -1314],
-                            [31705, -1314],
-                            [31705, -2031],
-                            [31501, -2031],
-                            [31501, -2590],
+                            [32668, -2999],
+                            [31996, -2999],
+                            [31996, -2590],
                             [30993, -2590],
                             [30993, -2596],
                             [30990, -2596],
@@ -4347,21 +4372,7 @@
                             [30318, -2640],
                             [30267, -2640]
                         ],
-                        "stations": [136, [302, "Baniachong"], 125, 202, 184, [191, "Tibet branch"], 193, 194, 265]
-                    },
-                    "Baniachong branch": {
-                        "vertices": [
-                            [32458.5, -1027],
-                            [32809, -1027]
-                        ],
-                        "stations": [[302, "Main line"], 303]
-                    },
-                    "Tibet branch": {
-                        "vertices": [
-                            [31501, -2590],
-                            [31501, -2672]
-                        ],
-                        "stations": [[191, "Main line"], 192]
+                        "stations": [204, 203, 344, 191, 193, 194, 265]
                     }
                 }
             },
@@ -4388,6 +4399,24 @@
                             [30383, -1436]
                         ],
                         "stations": [[198, "Main line"], 199]
+                    }
+                }
+            },
+            "Syphon": {
+                "prefix": "",
+                "code": "SP",
+                "color": "5aa02c",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [32458.5, -1314],
+                            [31705, -1314],
+                            [31705, -2031],
+                            [31501, -2031],
+                            [31501, -2672]
+                        ],
+                        "stations": [125, 202, 184, 191, 192]
                     }
                 }
             },
@@ -4552,7 +4581,7 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [32458.5, -1314],
+                            [32458.5, -551.5],
                             [32458, -1314],
                             [32458, -3499],
                             [32603, -3499],
@@ -4562,7 +4591,14 @@
                             [32594, -4004],
                             [32594, -4001]
                         ],
-                        "stations": [125, [201, "Syphon branch"], [203, "Lhasa branch"], 205, 206, 212]
+                        "stations": [136, [302, "Baniachong branch"], 125, [201, "Syphon branch"], 203, 205, 206, 212]
+                    },
+                    "Baniachong branch": {
+                        "vertices": [
+                            [32458.5, -1027],
+                            [32829, -1027]
+                        ],
+                        "stations": [[302, "Main line"], 303, 343]
                     },
                     "Syphon branch": {
                         "vertices": [
@@ -4570,13 +4606,6 @@
                             [31705, -1986]
                         ],
                         "stations": [[201, "Main line"], 202]
-                    },
-                    "Lhasa branch": {
-                        "vertices": [
-                            [32458, -2999],
-                            [32668, -2999]
-                        ],
-                        "stations": [[203, "Main line"], 204]
                     }
                 }
             },
