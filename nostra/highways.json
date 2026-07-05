@@ -3994,6 +3994,9 @@
             "lines": {
                 "TNIH": {
                     "Tibet": ["", "Baniachong branch"]
+                },
+                "Intercontinental": {
+                    "Average Trial Chambers Ice Highway": ["", "Central"]
                 }
             },
             "areas": [
@@ -4009,6 +4012,51 @@
             "lines": {
                 "TNIH": {
                     "Himalayas": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Baniachong East JCT",
+            "type": "jct",
+            "id": 345,
+            "x": 33455.5,
+            "z": -1038.5,
+            "lines": {
+                "Intercontinental": {
+                    "Average Trial Chambers Ice Highway": ["", "Central to North-South"]
+                }
+            }
+        },
+        {
+            "name": "Baniachong Northern Trial Chamber",
+            "id": 346,
+            "x": 33603.5,
+            "z": -2130.5,
+            "lines": {
+                "Intercontinental": {
+                    "Average Trial Chambers Ice Highway": ["", "North-South"]
+                }
+            }
+        },
+        {
+            "name": "Baniachong 2nd Trial Chamber",
+            "id": 347,
+            "x": 33455.5,
+            "z": -1298.5,
+            "lines": {
+                "Intercontinental": {
+                    "Average Trial Chambers Ice Highway": ["", "North-South"]
+                }
+            }
+        },
+        {
+            "name": "Baniachong Eastern Trial Chamber",
+            "id": 348,
+            "x": 33455.5,
+            "z": -984.5,
+            "lines": {
+                "Intercontinental": {
+                    "Average Trial Chambers Ice Highway": ["", "North-South"]
                 }
             }
         }
@@ -5509,6 +5557,30 @@
                             [48606, -4977.5]
                         ],
                         "stations": [335, 336]
+                    }
+                }
+            },
+            "Average Trial Chambers Ice Highway": {
+                "prefix": "",
+                "code": "ATC",
+                "color": "707070",
+                "y": 21,
+                "branches": {
+                    "Central": {
+                        "vertices": [
+                            [32823.5, -1038.5],
+                            [33468, -1038.5]
+                        ],
+                        "stations": [343, [345, "North-South"]]
+                    },
+                    "North-South": {
+                        "vertices": [
+                            [33611, -2130.5],
+                            [33455.5, -2130.5],
+                            [33455.5, -2143],
+                            [33455.5, -982]
+                        ],
+                        "stations": [346, 347, [345, "Central"], 348]
                     }
                 }
             }
