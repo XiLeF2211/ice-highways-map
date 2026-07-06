@@ -4059,6 +4059,30 @@
                     "Average Trial Chambers Ice Highway": ["", "North-South"]
                 }
             }
+        },
+        {
+            "name": "Velikiye Luki",
+            "id": 349,
+            "x": 11037.5,
+            "z": -14911.5,
+            "lines": {
+                "Russian Confederation": {
+                    "Velikiye Luki": ["", "Main line"]
+                }
+            },
+            "notes": "Entrance at x11040 y63 z-14908"
+        },
+        {
+            "name": "Zvenigorod (Temporal)",
+            "id": 350,
+            "x": 13101.5,
+            "z": -14397.5,
+            "lines": {
+                "Russian Confederation": {
+                    "Velikiye Luki": ["", "Main line"]
+                }
+            },
+            "notes": ""
         }
     ],
     "lines": {
@@ -5718,6 +5742,24 @@
                             [60024, 27567]
                         ],
                         "stations": [286]
+                    }
+                }
+            }
+        },
+        "Russian Confederation": {
+            "Velikiye Luki": {
+                "prefix": "",
+                "code": "VL",
+                "color": "FF0000",
+                "y": 20,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [11037.5, -14912],
+                            [11037.5, -14397.5],
+                            [13101.5, -14397.5]
+                        ],
+                        "stations": [350, 349]
                     }
                 }
             }
