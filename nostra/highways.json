@@ -4083,6 +4083,31 @@
                 }
             },
             "notes": ""
+        },
+        {
+            "name": "Allaikha Trial Chamber",
+            "type": "semi1",
+            "id": 351,
+            "x": 53540.5,
+            "z": -21460,
+            "lines": {
+                "TNIH": {
+                    "Kolyma": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Siberia-Kolyma JCT",
+            "type": "jct",
+            "id": 352,
+            "x": 52960.5,
+            "z": -21474.5,
+            "lines": {
+                "TNIH": {
+                    "Kolyma": ["", "Main line"],
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -4162,7 +4187,7 @@
                             [52960.5, -23834.5],
                             [51646, -23834.5]
                         ],
-                        "stations": [150, [213, "Riverwood branch"], [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], [7, "Duchy of Rivers branch"], 18, 19, 46, 62, [63, "Yakutsk branch"], 69, 340]
+                        "stations": [150, [213, "Riverwood branch"], [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], [7, "Duchy of Rivers branch"], 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340]
                     },
                     "Tapagonia branch": {
                         "vertices": [
@@ -4734,12 +4759,14 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
+                            [52960.5, -21474.5],
+                            [52960.5, -21460],
                             [56272, -21460],
                             [57117, -21460],
                             [57117, -21890],
                             [57623, -21890]
                         ],
-                        "stations": [331, 332]
+                        "stations": [352, 351, 331, 332]
                     }
                 }
             }
