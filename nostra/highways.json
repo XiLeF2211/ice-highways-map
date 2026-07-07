@@ -4426,7 +4426,7 @@
                             [46536, -20349],
                             [46536, -20364]
                         ],
-                        "stations": [354, [297, "Main line"], 298, 327]
+                        "stations": [[353, "Main line"], 354, [297, "Main line"], 298, 327]
                     },
                     "Selo branch": {
                         "vertices": [
