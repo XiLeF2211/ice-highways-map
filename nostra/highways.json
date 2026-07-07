@@ -3466,7 +3466,7 @@
             "z": -20349,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Main line to Northern extension"]
+                    "Sakha": ["", "Main line to Lensk branch"]
                 }
             }
         },
@@ -3477,7 +3477,7 @@
             "z": -20872,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Northern extension"]
+                    "Sakha": ["", "Main line"]
                 }
             }
         },
@@ -3805,7 +3805,7 @@
             "z": -21310,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Northern extension"]
+                    "Sakha": ["", "Main line"]
                 }
             }
         },
@@ -4097,7 +4097,7 @@
             }
         },
         {
-            "name": "Siberia-Kolyma JCT",
+            "name": "Cosmopol JCT",
             "type": "jct",
             "id": 352,
             "x": 52960.5,
@@ -4106,6 +4106,52 @@
                 "TNIH": {
                     "Kolyma": ["", "Main line"],
                     "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kustur East JCT",
+            "type": "jct",
+            "id": 353,
+            "x": 46536,
+            "z": -20364,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line to Lensk branch"]
+                }
+            }
+        },
+        {
+            "name": "Lensk",
+            "id": 354,
+            "x": 44066,
+            "z": -21064,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Lensk branch"]
+                }
+            }
+        },
+        {
+            "name": "Selo JCT",
+            "type": "jct",
+            "id": 355,
+            "x": 46368,
+            "z": -19163,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line to Selo branch"]
+                }
+            }
+        },
+        {
+            "name": "Selo",
+            "id": 356,
+            "x": 46256,
+            "z": -19163,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Selo branch"]
                 }
             }
         },
