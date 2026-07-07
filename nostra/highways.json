@@ -4108,6 +4108,41 @@
                     "Siberia Main": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Gobi (North JCT)",
+            "type": "jct",
+            "id": 353,
+            "x": 35326,
+            "z": -9441,
+            "lines": {
+                "Gobi Transport": {
+                    "Northern": ["", "Main line"],
+                    "NRI": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Marburg",
+            "id": 354,
+            "x": 35326,
+            "z": -11080,
+            "lines": {
+                "Gobi Transport": {
+                    "Northern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Frost East",
+            "id": 355,
+            "x": 35326,
+            "z": -11996,
+            "lines": {
+                "Gobi Transport": {
+                    "Northern": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -5340,7 +5375,7 @@
                             [35326, -9441],
                             [34784, -9441]
                         ],
-                        "stations": [287, 288, [289, "Buuntsagaan branch"], 290]
+                        "stations": [287, 288, 353, [289, "Buuntsagaan branch"], 290]
                     },
                     "Buuntsagaan branch": {
                         "vertices": [
@@ -5387,6 +5422,21 @@
                             [29444, -7892]
                         ],
                         "stations": [337, 338, 339, 296]
+                    }
+                }
+            },
+            "Northern": {
+                "prefix": "",
+                "code": "",
+                "color": "87CEFA",
+                "y": 110,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [35326, -9441],
+                            [35326, -12624]
+                        ],
+                        "stations": [355, 354, 353]
                     }
                 }
             }
