@@ -4125,17 +4125,6 @@
             "name": "Lensk",
             "id": 354,
             "x": 44066,
-            "z": -20349,
-            "lines": {
-                "TNIH": {
-                    "Sakha": ["", "Lensk branch"]
-                }
-            }
-        },
-        {
-            "name": "Lensk",
-            "id": 354,
-            "x": 44066,
             "z": -21064,
             "lines": {
                 "TNIH": {
