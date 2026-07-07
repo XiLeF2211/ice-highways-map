@@ -3466,7 +3466,7 @@
             "z": -20349,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Main line to Northern extension"]
+                    "Sakha": ["", "Main line to Lensk branch"]
                 }
             }
         },
@@ -3477,7 +3477,7 @@
             "z": -20872,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Northern extension"]
+                    "Sakha": ["", "Main line"]
                 }
             }
         },
@@ -3805,7 +3805,7 @@
             "z": -21310,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Northern extension"]
+                    "Sakha": ["", "Main line"]
                 }
             }
         },
@@ -4097,7 +4097,7 @@
             }
         },
         {
-            "name": "Siberia-Kolyma JCT",
+            "name": "Cosmopol JCT",
             "type": "jct",
             "id": 352,
             "x": 52960.5,
@@ -4106,6 +4106,63 @@
                 "TNIH": {
                     "Kolyma": ["", "Main line"],
                     "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kustur East JCT",
+            "type": "jct",
+            "id": 353,
+            "x": 46536,
+            "z": -20364,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line to Lensk branch"]
+                }
+            }
+        },
+        {
+            "name": "Lensk",
+            "id": 354,
+            "x": 44066,
+            "z": -20349,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Lensk branch"]
+                }
+            }
+        },
+        {
+            "name": "Lensk",
+            "id": 354,
+            "x": 44066,
+            "z": -21064,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Lensk branch"]
+                }
+            }
+        },
+        {
+            "name": "Selo JCT",
+            "type": "jct",
+            "id": 355,
+            "x": 46368,
+            "z": -19163,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line to Selo branch"]
+                }
+            }
+        },
+        {
+            "name": "Selo",
+            "id": 356,
+            "x": 46256,
+            "z": -19163,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Selo branch"]
                 }
             }
         }
@@ -4352,20 +4409,31 @@
                             [46360, -17801],
                             [46368, -17801],
                             [46368, -20364],
-                            [46488, -20364]
-                        ],
-                        "stations": [36, 37, 148, [279, "Yarika branch"], [297, "Northern extension"], 149]
-                    },
-                    "Northern extension": {
-                        "vertices": [
-                            [46368, -20349],
-                            [46536, -20349],
-                            [46536, -20364],
                             [47540, -20364],
                             [47540, -21310],
-                            [47825, -21310]
+                            [47900, -21310]
                         ],
-                        "stations": [[297, "Main line"], 298, 327]
+                        "stations": [36, 37, 148, [279, "Yarika branch"], [355, "Selo branch"], [297, "Lensk branch"], 149, [353, "Lensk branch"], 298, 327]
+                    },
+                    "Lensk branch": {
+                        "vertices": [
+                            [44066, -21064],
+                            [44062, -21064],
+                            [44062, -20348],
+                            [44337, -20348],
+                            [44338, -20349],
+                            [46368, -20349],
+                            [46536, -20349],
+                            [46536, -20364]
+                        ],
+                        "stations": [354, [297, "Main line"], 298, 327]
+                    },
+                    "Selo branch": {
+                        "vertices": [
+                            [46368, -19163],
+                            [46256, -19163]
+                        ],
+                        "stations": [[355, "Main line"], 356]
                     },
                     "Yarika branch": {
                         "vertices": [
