@@ -37,12 +37,12 @@
         {
             "name": "Kita (JCT)",
             "id": 3,
-            "x": 51179,
+            "x": 51178.5,
             "z": -17732,
             "lines": {
                 "TNIH": {
                     "Siberia Main": ["", "Main line"],
-                    "Kamchatka Main Y=10": ["", "Main line (West)"]
+                    "Sakhalin": ["", "Main line"]
                 }
             }
         },
@@ -105,25 +105,25 @@
             }
         },
         {
-            "name": "Anasushiki",
+            "name": "Anasushiki Mine",
             "id": 9,
             "type": "semi2",
-            "x": 51179,
+            "x": 51178.5,
             "z": -17121,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (West)"]
+                    "Sakhalin": ["", "Main line"]
                 }
             }
         },
         {
             "name": "Okota",
             "id": 10,
-            "x": 51179,
+            "x": 51178.5,
             "z": -16196,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (West)"]
+                    "Sakhalin": ["", "Main line"]
                 }
             }
         },
@@ -4189,6 +4189,31 @@
                     "Northern": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Okota JCT",
+            "type": "jct",
+            "id": 360,
+            "x": 51178.5,
+            "z": -16182.5,
+            "lines": {
+                "TNIH": {
+                    "Sakhalin": ["", "Main line"],
+                    "Kamchatka Main Y=10": ["", "Main line (West)"]
+                }
+            }
+        },
+        {
+            "name": "Kita Kita Tunnel (South side)",
+            "type": "semi2",
+            "id": 361,
+            "x": 51178.5,
+            "z": -14030,
+            "lines": {
+                "TNIH": {
+                    "Sakhalin": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -4343,13 +4368,12 @@
                 "branches": {
                     "Main line (West)": {
                         "vertices": [
-                            [51179, -17732],
-                            [51179, -16181.5],
+                            [51178.5, -16181.5],
                             [52263.5, -16181.5],
                             [52271.5, -16182.5],
                             [56023.5, -16182.5]
                         ],
-                        "stations": [3, 9, 10, 50, [176, "Taynaya branch"], 183, 324, 51]
+                        "stations": [360, 50, [176, "Taynaya branch"], 183, 324, 51]
                     },
                     "Main line (East)": {
                         "vertices": [
@@ -4480,6 +4504,21 @@
                             [39121.5, -17368]
                         ],
                         "stations": [150, 151]
+                    }
+                }
+            },
+            "Sakhalin": {
+                "prefix": "",
+                "code": "SH",
+                "color": "47a5ae",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [51178.5, -17732],
+                            [51178.5, -13952]
+                        ],
+                        "stations": [3, 9, 10, 360, 361]
                     }
                 }
             },
