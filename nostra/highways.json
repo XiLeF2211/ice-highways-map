@@ -5619,7 +5619,7 @@
             "Northern": {
                 "prefix": "",
                 "code": "",
-                "color": "87CEFA",
+                "color": "87cefa",
                 "y": 110,
                 "branches": {
                     "Main line": {
@@ -5628,6 +5628,80 @@
                             [35326, -12624]
                         ],
                         "stations": [359, 358, 357]
+                    }
+                }
+            }
+        },
+        "America": {
+            "Atlantic": {
+                "prefix": "",
+                "code": "AT",
+                "color": "87cefa",
+                "y": 8,
+                "branches": {
+                    "Westbound Tube": {
+                        "vertices": [
+                            [-28600, -7222],
+                            [-26400, -7222]
+                        ],
+                        "stations": []
+                    },
+                    "Eastbound Tube": {
+                        "vertices": [
+                            [-28600, -7210],
+                            [-26577, -7210]
+                        ],
+                        "stations": []
+                    }
+                }
+            },
+            "Capital Limited": {
+                "prefix": "",
+                "code": "CL",
+                "color": "00537e",
+                "y": 8,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-27326, -7210],
+                            [-27326, -7333],
+                            [-30202, -7333],
+                            [-30202, -7739],
+                            [-31391, -7739]
+                        ],
+                        "stations": []
+                    }
+                }
+            }
+        },
+        "Philadelphia Subway System": {
+            "L": {
+                "prefix": "",
+                "code": "",
+                "color": "a7a9ac",
+                "y": 60,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-26832, -7207],
+                            [-27258, -7207]
+                        ],
+                        "stations": []
+                    }
+                }
+            },
+            "B": {
+                "prefix": "",
+                "code": "",
+                "color": "ff6319",
+                "y": 60,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-27031, -7338],
+                            [-27031, -7100]
+                        ],
+                        "stations": []
                     }
                 }
             }
