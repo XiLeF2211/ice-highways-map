@@ -4204,7 +4204,7 @@
             }
         },
         {
-            "name": "Kita Kita Tunnel (South side)",
+            "name": "Kouga Tunnel (South side)",
             "type": "semi2",
             "id": 361,
             "x": 51178.5,
@@ -4212,6 +4212,84 @@
             "lines": {
                 "TNIH": {
                     "Sakhalin": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Evensk South",
+            "id": 362,
+            "x": 56100,
+            "z": -12602,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main Y=10": ["", "Main line (South)"]
+                }
+            }
+        },
+        {
+            "name": "Allburg JCT",
+            "type": "jct",
+            "id": 363,
+            "x": 56100,
+            "z": -12076,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main Y=10": ["", "Main line (South) to Allburg branch"]
+                }
+            }
+        },
+        {
+            "name": "Allburg",
+            "id": 364,
+            "x": 56190,
+            "z": -12076,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main Y=10": ["", "Allburg branch"]
+                }
+            }
+        },
+        {
+            "name": "Chishima",
+            "id": 365,
+            "x": 55932,
+            "z": -11826,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main Y=10": ["", "Main line (South)"]
+                }
+            }
+        },
+        {
+            "name": "Onekotan",
+            "id": 366,
+            "x": 55500,
+            "z": -11272,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main Y=10": ["", "Main line (South)"]
+                }
+            }
+        },
+        {
+            "name": "Mikhalkino (Temporary)",
+            "id": 367,
+            "x": 57707,
+            "z": -21890,
+            "lines": {
+                "TNIH": {
+                    "Kolyma": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ayon",
+            "id": 368,
+            "x": 60261,
+            "z": -22246,
+            "lines": {
+                "TNIH": {
+                    "Kolyma": ["", "Main line"]
                 }
             }
         }
@@ -4384,6 +4462,15 @@
                         ],
                         "stations": [52, [74, "Leshnybor branch"], 57, [144, "Kitahakonihon branch"], [58, "Petropavlosk branch"], [60, "Rekinikki branch"], 53]
                     },
+                    "Main line (South)": {
+                        "vertices": [
+                            [56100, -12608],
+                            [56100, -11826],
+                            [55500, -11826],
+                            [55500, -10964]
+                        ],
+                        "stations": [362, [363, "Allburg branch"], 365, 366]
+                    },
                     "Taynaya branch": {
                         "vertices": [
                             [53410, -16182.5],
@@ -4426,6 +4513,13 @@
                             [58085.5, -13907.5]
                         ],
                         "stations": [[144, "Main line (East)"], 145]
+					},
+					"Allburg branch": {
+						"vertices": [
+                            [56100, -12076],
+                            [56190, -12076]
+                        ],
+                        "stations": [[363, "Main line (South)"], 364]
 					}
                 }
             },
@@ -4510,7 +4604,7 @@
             "Sakhalin": {
                 "prefix": "",
                 "code": "SH",
-                "color": "47a5ae",
+                "color": "9D00FF",
                 "y": 10,
                 "branches": {
                     "Main line": {
@@ -4895,9 +4989,10 @@
                             [56272, -21460],
                             [57117, -21460],
                             [57117, -21890],
-                            [57623, -21890]
+                            [60261, -21890],
+                            [60261, -22246]
                         ],
-                        "stations": [352, 351, 331, 332]
+                        "stations": [352, 351, 331, 332, 367, 368]
                     }
                 }
             }
