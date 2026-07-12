@@ -4204,11 +4204,11 @@
             }
         },
         {
-            "name": "Kouga Tunnel (South side)",
+            "name": "Kouga Underwater Tunnel (South side)",
             "type": "semi2",
             "id": 361,
             "x": 51178.5,
-            "z": -14030,
+            "z": -14018,
             "lines": {
                 "TNIH": {
                     "Sakhalin": ["", "Main line"]
@@ -4292,7 +4292,252 @@
                     "Kolyma": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Pittsburgh",
+            "id": 369,
+            "x": -28600,
+            "z": -7216,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Westbound Tube to Eastbound Tube"]
+                }
+            },
+            "areas": [
+                [[-28599, -7222], [-28601, -7210]]
+            ]
+        },
+        {
+            "name": "Atlantic—Capital Limited JCT",
+            "type": "jct",
+            "id": 370,
+            "x": -27326,
+            "z": -7216,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Westbound Tube to Eastbound Tube"],
+                    "Capital Limited": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-27325, -7222], [-27327, -7210]]
+            ]
+        },
+        {
+            "name": "1st Atlantic ramp (WB side)",
+            "type": "elev-ew",
+            "id": 371,
+            "x": -27315,
+            "z": -7222,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Westbound Tube"]
+                }
+            }
+        },
+        {
+            "name": "2nd Atlantic ramp (WB side)",
+            "type": "elev-ew",
+            "id": 372,
+            "x": -27291,
+            "z": -7222,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Westbound Tube"]
+                }
+            }
+        },
+        {
+            "name": "3rd Atlantic ramp (WB side)",
+            "type": "elev-ew",
+            "id": 373,
+            "x": -27267,
+            "z": -7222,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Westbound Tube"]
+                }
+            }
+        },
+        {
+            "name": "Philadelphia (30th Street)",
+            "id": 374,
+            "x": -27133,
+            "z": -7216,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Westbound Tube to Eastbound Tube"]
+                },
+                "Philadelphia Subway System": {
+                    "L": ["", ""]
+                }
+            },
+            "areas": [
+                [[-27132, -7222], [-27134, -7210]],
+                [[-27080, -7215], [-27134, -7217]],
+                [[-27082, -7207], [-27080, -7217]]
+            ]
+        },
+        {
+            "name": "Citizen's Bank Park",
+            "id": 375,
+            "x": -27258,
+            "z": -7207,
+            "lines": {
+                "Philadelphia Subway System": {
+                    "L": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Art Museum",
+            "id": 376,
+            "x": -27031,
+            "z": -7338,
+            "lines": {
+                "Philadelphia Subway System": {
+                    "B": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "1st Atlantic ramp (EB side)",
+            "type": "elev-ew",
+            "id": 377,
+            "x": -27315,
+            "z": -7210,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Eastbound Tube"]
+                }
+            }
+        },
+        {
+            "name": "2nd Atlantic ramp (EB side)",
+            "type": "elev-ew",
+            "id": 378,
+            "x": -27291,
+            "z": -7210,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Eastbound Tube"]
+                }
+            }
+        },
+        {
+            "name": "3rd Atlantic ramp (EB side)",
+            "type": "elev-ew",
+            "id": 379,
+            "x": -27267,
+            "z": -7210,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Eastbound Tube"]
+                }
+            }
+        },
+        {
+            "name": "Chestnut St.",
+            "id": 380,
+            "x": -27031,
+            "z": -7112,
+            "lines": {
+                "Philadelphia Subway System": {
+                    "B": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "4th Atlantic ramp (EB side)",
+            "type": "elev-we",
+            "id": 381,
+            "x": -26675,
+            "z": -7210,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Eastbound Tube"]
+                }
+            }
+        },
+        {
+            "name": "East Market Street",
+            "id": 382,
+            "x": -26854,
+            "z": -7207,
+            "lines": {
+                "Philadelphia Subway System": {
+                    "L": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Independence Hall",
+            "id": 383,
+            "x": -26938,
+            "z": -7207,
+            "lines": {
+                "Philadelphia Subway System": {
+                    "L": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "City Hall",
+            "id": 384,
+            "x": -27031,
+            "z": -7207,
+            "lines": {
+                "Philadelphia Subway System": {
+                    "L": ["", ""],
+                    "B": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Pittsburgh (Old Platform)",
+            "id": 385,
+            "x": -28600,
+            "z": -7333,
+            "lines": {
+                "America": {
+                    "Capital Limited": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Fort Wayne",
+            "id": 386,
+            "x": -30202,
+            "z": -7433,
+            "lines": {
+                "America": {
+                    "Capital Limited": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "South Bend",
+            "id": 387,
+            "x": -30448,
+            "z": -7739,
+            "lines": {
+                "America": {
+                    "Capital Limited": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Chicago",
+            "id": 388,
+            "x": -31391,
+            "z": -7739,
+            "lines": {
+                "America": {
+                    "Capital Limited": ["", "Main line"]
+                }
+            }
         }
+
     ],
     "lines": {
         "TNIH": {
@@ -5644,14 +5889,14 @@
                             [-28600, -7222],
                             [-26400, -7222]
                         ],
-                        "stations": []
+                        "stations": [[369, "Eastbound Tube"], [370, "Eastbound Tube"], 371, 372, 373, [374, "Eastbound Tube"]]
                     },
                     "Eastbound Tube": {
                         "vertices": [
                             [-28600, -7210],
                             [-26577, -7210]
                         ],
-                        "stations": []
+                        "stations": [[369, "Westbound Tube"], [370, "Westbound Tube"], 377, 378, 379, [374, "Westbound Tube"], 381]
                     }
                 }
             },
@@ -5669,7 +5914,7 @@
                             [-30202, -7739],
                             [-31391, -7739]
                         ],
-                        "stations": []
+                        "stations": [388, 387, 386, 385, 370]
                     }
                 }
             }
@@ -5686,7 +5931,7 @@
                             [-26832, -7207],
                             [-27258, -7207]
                         ],
-                        "stations": []
+                        "stations": [375, 374, 384, 383, 382]
                     }
                 }
             },
@@ -5701,7 +5946,7 @@
                             [-27031, -7338],
                             [-27031, -7100]
                         ],
-                        "stations": []
+                        "stations": [376, 384, 380]
                     }
                 }
             }
