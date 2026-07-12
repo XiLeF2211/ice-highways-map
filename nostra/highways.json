@@ -4536,6 +4536,98 @@
                     "Capital Limited": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Goonerville",
+            "id": 389,
+            "x": -26600,
+            "z": 690,
+            "lines": {
+                "Florida": {
+                    "Guama-Cockburn Harbour": ["", "Goonerville branch"]
+                }
+            }
+        },
+        {
+            "name": "BlackBeard’s Cove",
+            "id": 390,
+            "x": -26219,
+            "z": 799,
+            "lines": {
+                "Florida": {
+                    "Guama-Cockburn Harbour": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "HuzzBear",
+            "id": 391,
+            "x": -27277,
+            "z": 327,
+            "lines": {
+                "Florida": {
+                    "Guama-Cockburn Harbour": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Goonerville JCT",
+            "type": "jct",
+            "id": 392,
+            "x": -26653,
+            "z": 799,
+            "lines": {
+                "Florida": {
+                    "Guama-Cockburn Harbour": ["", "Main line to Goonerville branch"]
+                }
+            }
+        },
+        {
+            "name": "Qikqtaaluk",
+            "id": 393,
+            "x": -28996,
+            "z": -26666,
+            "lines": {
+                "TNIH": {
+                    "Qikqtaaluk": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Greenland SCoast",
+            "id": 394,
+            "x": -16000,
+            "z": -25720,
+            "lines": {
+                "TNIH": {
+                    "Qikqtaaluk": ["", "Main line"],
+                    "Atlantic": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Greenland Snow Fields",
+            "id": 395,
+            "x": -16000,
+            "z": -16973,
+            "lines": {
+                "TNIH": {
+                    "Qikqtaaluk": ["", "Main line"],
+                    "Atlantic": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Transatlantic JCT",
+            "type": "jct",
+            "id": 396,
+            "x": -16000,
+            "z": -12508,
+            "lines": {
+                "TNIH": {
+                    "Atlantic": ["", "Main line"]
+                }
+            }
         }
 
     ],
@@ -5240,6 +5332,39 @@
                         "stations": [352, 351, 331, 332, 367, 368]
                     }
                 }
+            },
+            "Qikqtaaluk": {
+                "prefix": "",
+                "code": "QK",
+                "color": "CC7722",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-28996, -26666],
+                            [-24001, -26666],
+                            [-24001, -25720],
+                            [-16000, -25720],
+                            [-16000, -16973]
+                        ],
+                        "stations": [393, 394, 395]
+                    }
+                }
+            },
+            "Atlantic": {
+                "prefix": "",
+                "code": "AL",
+                "color": "001dff",
+                "y": -62,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-16000, -16973],
+                            [-16000, -12508]
+                        ],
+                        "stations": [395, 396]
+                    }
+                }
             }
         },
         "Florida": {
@@ -5305,7 +5430,7 @@
                             [-25681, 799],
                             [-25681, 93]
                         ],
-                        "stations": [29, [30, "Guantanamo Bay branch"], 26, 16, 17]
+                        "stations": [29, [30, "Guantanamo Bay branch"], [392, "Main line"], 390, 26, 16, 17]
                     },
                     "Guantanamo Bay branch": {
                         "vertices": [
@@ -5313,6 +5438,14 @@
                             [-26917, 799]
                         ],
                         "stations": [[30, "Main line"], 15]
+                    },
+                    "Goonerville branch": {
+                        "vertices": [
+                            [-26653, 799],
+                            [-26653, 690],
+                            [-26600, 690]
+                        ],
+                        "stations": [[392, "Main line"], 389]
                     }
                 }
             },
