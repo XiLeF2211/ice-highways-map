@@ -4308,7 +4308,7 @@
             ]
         },
         {
-            "name": "Atlantic—Capital Limited JCT",
+            "name": "Atlantic—Capitol Limited JCT",
             "type": "jct",
             "id": 370,
             "x": -27326,
@@ -4316,7 +4316,7 @@
             "lines": {
                 "America": {
                     "Atlantic": ["", "Westbound Tube to Eastbound Tube"],
-                    "Capital Limited": ["", "Main line"]
+                    "Capitol Limited": ["", "Main line"]
                 }
             },
             "areas": [
@@ -4500,7 +4500,7 @@
             "z": -7333,
             "lines": {
                 "America": {
-                    "Capital Limited": ["", "Main line"]
+                    "Capitol Limited": ["", "Main line"]
                 }
             }
         },
@@ -4511,7 +4511,7 @@
             "z": -7433,
             "lines": {
                 "America": {
-                    "Capital Limited": ["", "Main line"]
+                    "Capitol Limited": ["", "Main line"]
                 }
             }
         },
@@ -4522,7 +4522,7 @@
             "z": -7739,
             "lines": {
                 "America": {
-                    "Capital Limited": ["", "Main line"]
+                    "Capitol Limited": ["", "Main line"]
                 }
             }
         },
@@ -4533,7 +4533,7 @@
             "z": -7739,
             "lines": {
                 "America": {
-                    "Capital Limited": ["", "Main line"]
+                    "Capitol Limited": ["", "Main line"]
                 }
             }
         },
@@ -6003,7 +6003,7 @@
                     "Main line": {
                         "vertices": [
                             [35326, -9441],
-                            [35326, -12624]
+                            [35326, -13044]
                         ],
                         "stations": [359, 358, 357]
                     }
@@ -6033,7 +6033,7 @@
                     }
                 }
             },
-            "Capital Limited": {
+            "Capitol Limited": {
                 "prefix": "",
                 "code": "CL",
                 "color": "00537e",
@@ -6056,7 +6056,7 @@
             "L": {
                 "prefix": "",
                 "code": "",
-                "color": "a7a9ac",
+                "color": "1c9ad6",
                 "y": 60,
                 "branches": {
                     "": {
