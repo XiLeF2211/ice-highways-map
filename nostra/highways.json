@@ -4698,6 +4698,40 @@
                     "Sakhalin": ["", "Noto branch"]
                 }
             }
+        },
+        {
+            "name": "Baikal-Minerva JCT",
+            "type": "jct",
+            "id": 403,
+            "x": 39488,
+            "z": -16936,
+            "lines": {
+                "Intercontinental": {
+                    "Baikal Free Way": ["", "Main line to Minerva branch"]
+                }
+            }
+        },
+        {
+            "name": "Angoya",
+            "id": 404,
+            "x": 39488,
+            "z": -14322,
+            "lines": {
+                "Intercontinental": {
+                    "Baikal Free Way": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Freiburg",
+            "id": 405,
+            "x": 39488,
+            "z": -14034,
+            "lines": {
+                "Intercontinental": {
+                    "Baikal Free Way": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -4770,7 +4804,15 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [30668, -17732],
+                            [1400, -17732],
+                            [9662, -17732],
+                            [9662, -17778],
+                            [9761, -17778],
+                            [9761, -17732],
+                            [21326, -17732],
+                            [21326, -17777],
+                            [21376, -17777],
+                            [21376, -17732],
                             [52340, -17732],
                             [52340, -21475.5],
                             [52960.5, -21474.5],
@@ -6426,6 +6468,29 @@
                             [-22046, -9504]
                         ],
                         "stations": [398, 396]
+                    }
+                }
+            },
+            "Baikal Free Way": {
+                "prefix": "",
+                "code": "BFW",
+                "color": "00FFDF",
+                "y": 117,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [39488, -17207],
+                            [39488, -10801]
+                        ],
+                        "stations": [[403, "Minerva branch"], 404, 405]
+                    },
+                    "Minerva branch": {
+                        "vertices": [
+                            [39488, -16936],
+                            [39296, -16936],
+                            [39296, -17051]
+                        ],
+                        "stations": [[403, "Main line"]]
                     }
                 }
             }
