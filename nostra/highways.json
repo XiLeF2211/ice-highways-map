@@ -2398,13 +2398,13 @@
             }
         },
         {
-            "name": "Nagqu South",
+            "name": "Kita-Karafuto",
             "id": 206,
-            "x": 32632,
-            "z": -3810,
+            "x": 50855.5,
+            "z": -13079,
             "lines": {
                 "TNIH": {
-                    "Tibet": ["", "Main line"]
+                    "Sakhalin": ["", "Main line"]
                 }
             }
         },
@@ -4204,14 +4204,14 @@
             }
         },
         {
-            "name": "Kouga Underwater Tunnel (South side)",
-            "type": "semi2",
+            "name": "Noto JCT",
+            "type": "jct",
             "id": 361,
             "x": 51178.5,
-            "z": -14018,
+            "z": -13581.5,
             "lines": {
                 "TNIH": {
-                    "Sakhalin": ["", "Main line"]
+                    "Sakhalin": ["", "Main line to Noto branch"]
                 }
             }
         },
@@ -4600,8 +4600,7 @@
             "z": -25720,
             "lines": {
                 "TNIH": {
-                    "Qikqtaaluk": ["", "Main line"],
-                    "Atlantic": ["", "Main line"]
+                    "Qikqtaaluk": ["", "Main line"]
                 }
             }
         },
@@ -4675,6 +4674,28 @@
             "lines": {
                 "Intercontinental": {
                     "Transatlantic North": ["", "East segment"]
+                }
+            }
+        },
+        {
+            "name": "Noto",
+            "id": 401,
+            "x": 51087.5,
+            "z": -13581.5,
+            "lines": {
+                "TNIH": {
+                    "Sakhalin": ["", "Noto branch"]
+                }
+            }
+        },
+        {
+            "name": "Asuka",
+            "id": 402,
+            "x": 51034.5,
+            "z": -13124.5,
+            "lines": {
+                "TNIH": {
+                    "Sakhalin": ["", "Noto branch"]
                 }
             }
         }
@@ -4995,9 +5016,20 @@
                     "Main line": {
                         "vertices": [
                             [51178.5, -17732],
-                            [51178.5, -13952]
+                            [51178.5, -13124.5],
+                            [50855.5, -13124.5],
+                            [50855.5, -13079]
                         ],
-                        "stations": [3, 9, 10, 360, 361]
+                        "stations": [3, 9, 10, 360, [361, "Noto branch"], 402, 206]
+                    },
+                    "Noto branch": {
+                        "vertices": [
+                            [51178.5, -17732],
+                            [51178.5, -13124.5],
+                            [50855.5, -13124.5],
+                            [50855.5, -13079]
+                        ],
+                        "stations": [[361, "Main line"], 401]
                     }
                 }
             },
