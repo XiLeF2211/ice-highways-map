@@ -4732,6 +4732,18 @@
                     "Baikal Free Way": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Izayoi Trial Chamber",
+            "id": 406,
+            "x": 31667.5,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            },
+            "notes": "Interchange to Nether Siberia line at x=31667 y=10 z=-17739"
         }
     ],
     "lines": {

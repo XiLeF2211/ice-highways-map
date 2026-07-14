@@ -557,6 +557,18 @@
                     "Nijika": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Izayoi Trial Chamber",
+            "id": 48,
+            "x": 3958.5,
+            "z": -2216,
+            "lines": {
+                "TNIH": {
+                    "Nether Siberia": ["", "Main line"]
+                }
+            },
+            "notes": "exit to Trial Chamber at x=3958, y120, z-2219"
         }
 
     ],
