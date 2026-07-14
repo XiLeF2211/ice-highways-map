@@ -4626,10 +4626,58 @@
             "lines": {
                 "TNIH": {
                     "Atlantic": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "Transatlantic North": ["", "West segment"]
+                }
+            }
+        },
+        {
+            "name": "Cambridge",
+            "id": 397,
+            "x": 55,
+            "z": -12508,
+            "lines": {
+                "Intercontinental": {
+                    "Transatlantic North": ["", "East segment"]
+                }
+            }
+        },
+        {
+            "name": "Oceanic Plate Emergency Exit",
+            "id": 398,
+            "x": -6508,
+            "z": -12508,
+            "lines": {
+                "Intercontinental": {
+                    "Transatlantic North": ["", "West segment"]
+                }
+            }
+        },
+        {
+            "name": "Cambridge JCT",
+            "type": "jct",
+            "id": 399,
+            "x": -312,
+            "z": -12508,
+            "lines": {
+                "Intercontinental": {
+                    "Havantian": ["", "Main line"],
+                    "Transatlantic North": ["", "East segment"]
+                }
+            }
+        },
+        {
+            "name": "Tralee",
+            "id": 400,
+            "x": -3444,
+            "z": -12508,
+            "lines": {
+                "Intercontinental": {
+                    "Transatlantic North": ["", "East segment"]
                 }
             }
         }
-
     ],
     "lines": {
         "TNIH": {
@@ -6131,7 +6179,7 @@
                             [-343, -12272],
                             [-343, -11957]
                         ],
-                        "stations": [131, 140, [132, "Oxford branch"], 133, 134]
+                        "stations": [131, 140, 399, [132, "Oxford branch"], 133, 134]
                     },
                     "Oxford branch": {
                         "vertices": [
@@ -6325,6 +6373,29 @@
                             [33455.5, -982]
                         ],
                         "stations": [346, 347, [345, "Central"], 348]
+                    }
+                }
+            },
+            "Transatlantic North": {
+                "prefix": "",
+                "code": "TA-N",
+                "color": "00B997",
+                "y": -63,
+                "branches": {
+                    "East segment": {
+                        "vertices": [
+                            [55, -12508],
+                            [-3550, -12508]
+                        ],
+                        "stations": [397, 399, 400]
+                    },
+                    "West segment": {
+                        "vertices": [
+                            [-3649, -12508],
+                            [-22046, -12508],
+                            [-22046, -9504]
+                        ],
+                        "stations": [398, 396]
                     }
                 }
             }
