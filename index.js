@@ -151,8 +151,8 @@ for (let element of document.querySelectorAll("#settings input")) {
 
 async function renderTowns() {
     const startTownRender = new Date();
-    const data = await fetchJSON(proxyURL + mapURL + '/minecraft_overworld/markers.json')
-    //const data = await fetchJSON(markersURL) // use this if above doesn't wprk
+    //const data = await fetchJSON(proxyURL + mapURL + '/minecraft_overworld/markers.json')
+    const data = await fetchJSON(markersURL) // use this if above doesn't wprk
     if (!data || data[0].markers.length == 0) {
         console.log('debug: There was a problem with getting towns data')
         return
