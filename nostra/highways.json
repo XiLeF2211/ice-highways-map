@@ -982,7 +982,7 @@
             }
         },
         {
-            "name": "Shinsyu-Nishiguchi",
+            "name": "Shinsyu West",
             "id": 84,
             "x": 36174,
             "z": -9213,
@@ -3180,13 +3180,14 @@
             }
         },
         {
-            "name": "Kingdomstan",
+            "name": "Kingdomstan (JCT)",
             "id": 273,
             "x": 34938,
             "z": -5089,
             "lines": {
                 "Gobi Transport": {
-                    "Gobi 1st": ["", "Main line"]
+                    "Gobi 1st": ["", "Main line"],
+                    "Northern": ["", "Main line"]
                 }
             }
         },
@@ -4565,9 +4566,6 @@
             "x": -27277,
             "z": 327,
             "lines": {
-                "Florida": {
-                    "Guama-Cockburn Harbour": ["", "Main line"]
-                }
             }
         },
         {
@@ -4744,6 +4742,50 @@
                 }
             },
             "notes": "Interchange to Nether Siberia line at x=31667 y=10 z=-17739"
+        },
+        {
+            "name": "Apex",
+            "id": 407,
+            "x": 35377,
+            "z": -5089,
+            "lines": {
+                "Gobi Transport": {
+                    "Northern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yellow River",
+            "id": 408,
+            "x": 35921,
+            "z": -5089,
+            "lines": {
+                "Gobi Transport": {
+                    "Northern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Singapore",
+            "id": 409,
+            "x": 36140,
+            "z": -5089,
+            "lines": {
+                "Gobi Transport": {
+                    "Northern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Krown-Citadel",
+            "id": 410,
+            "x": 37410,
+            "z": -5834,
+            "lines": {
+                "Gobi Transport": {
+                    "Northern": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -6128,7 +6170,7 @@
             },
             "Northern": {
                 "prefix": "",
-                "code": "",
+                "code": "北方",
                 "color": "87cefa",
                 "y": 110,
                 "branches": {
@@ -6136,6 +6178,22 @@
                         "vertices": [
                             [35326, -9441],
                             [35326, -13044]
+                        ],
+                        "stations": [273, 407, 408, 409, 410]
+                    }
+                }
+            },
+            "Eastern": {
+                "prefix": "",
+                "code": "東方",
+                "color": "79A4A2",
+                "y": 110,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [34938, -5089],
+                            [37410, -5089],
+                            [37410, -5834]
                         ],
                         "stations": [359, 358, 357]
                     }
