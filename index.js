@@ -1,7 +1,7 @@
 const mapName = 'nostra';
 const projection = 64; // for Aurora 16.
 
-const proxyURL = 'https://api.codetabs.com/v1/proxy/?quest='
+const proxyURL = 'https://feur.hainaut.xyz/proxy?url='
 const mapURL = 'https://map.earthmc.net/tiles'
 const repositoryPath = 'https://raw.githubusercontent.com/XiLeF2211/ice-highways-map/refs/heads/main/'
 const highwaysURL = repositoryPath + mapName + '/highways.json'
@@ -151,8 +151,8 @@ for (let element of document.querySelectorAll("#settings input")) {
 
 async function renderTowns() {
     const startTownRender = new Date();
-    //const data = await fetchJSON(proxyURL + mapURL + '/minecraft_overworld/markers.json')
-    const data = await fetchJSON(markersURL) // temp solution to show towns
+    const data = await fetchJSON(proxyURL + mapURL + '/minecraft_overworld/markers.json')
+    //const data = await fetchJSON(markersURL) // use this if above doesn't wprk
     if (!data || data[0].markers.length == 0) {
         console.log('debug: There was a problem with getting towns data')
         return
