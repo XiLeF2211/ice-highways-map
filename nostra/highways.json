@@ -4847,6 +4847,653 @@
                     "M-1": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Oslo Trial Chambers",
+            "id": 416,
+            "x": 3533,
+            "z": -16572,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Little line"]
+                }
+            }
+        },
+        {
+            "name": "Oslo Underground",
+            "id": 417,
+            "x": 3729,
+            "z": -16537,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Little line"]
+                }
+            }
+        },
+        {
+            "name": "LatviaWalkers",
+            "id": 418,
+            "x": 3662,
+            "z": -16361,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "LatviaWalkers branch"]
+                }
+            }
+        },
+        {
+            "name": "Skien",
+            "id": 419,
+            "x": 3404,
+            "z": -16122,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Great line to Little line"]
+                }
+            },
+            "areas": [
+                [[3409, -16123], [3403, -16117]],
+                [[3403, -16119], [3394, -16118]],
+                [[3394, -16121], [3386, -16112]]
+            ]
+        },
+        {
+            "name": "Sandefjord South",
+            "id": 420,
+            "x": 3585,
+            "z": -16101,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Little line"]
+                }
+            }
+        },
+        {
+            "name": "Fløibanen (Bergen)",
+            "id": 421,
+            "x": 1968,
+            "z": -16839,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Great line"]
+                }
+            }
+        },
+        {
+            "name": "Fronningen",
+            "id": 422,
+            "x": 2523,
+            "z": -17156,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Great line"]
+                }
+            }
+        },
+        {
+            "name": "West Adger",
+            "id": 423,
+            "x": 2680,
+            "z": -15587,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "West Agder branch"]
+                }
+            }
+        },
+        {
+            "name": "Geilo Lower",
+            "id": 424,
+            "x": 2920,
+            "z": -16839,
+            "notes": "Abandoned",
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Great line"]
+                }
+            }
+        },
+        {
+            "name": "Finse",
+            "id": 425,
+            "x": 2683,
+            "z": -16908,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Main line to Finse station platforms"]
+                }
+            }
+        },
+        {
+            "name": "Geilo Upper",
+            "id": 426,
+            "x": 2933,
+            "z": -16855,
+            "notes": "Abandoned",
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Drangedal",
+            "id": 427,
+            "x": 3031,
+            "z": -16117,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Great line"]
+                }
+            }
+        },
+        {
+            "name": "Kristiansand",
+            "id": 428,
+            "x": 2900,
+            "z": -15636,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Great line"]
+                }
+            }
+        },
+        {
+            "name": "Central East down elevator",
+            "id": 429,
+            "type": "elev-ew",
+            "x": 3347,
+            "z": -16228,
+            "y1": 75,
+            "y2": -63,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Connector branch"],
+                    "Upper Central": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Central East up elevator",
+            "id": 430,
+            "type": "elev-ew",
+            "x": 3347,
+            "z": -16232,
+            "y1": -63,
+            "y2": 75,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Connector branch"],
+                    "Upper Central": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Central West down elevator",
+            "id": 431,
+            "type": "elev-we",
+            "x": 2216,
+            "z": -15738,
+            "y1": 75,
+            "y2": -63,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Great line"],
+                    "Upper Central": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Central West up elevator",
+            "id": 432,
+            "type": "elev-we",
+            "x": 2216,
+            "z": -15734,
+            "y1": -63,
+            "y2": 75,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Great line"],
+                    "Upper Central": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "West Adger JCT",
+            "id": 433,
+            "type": "jct",
+            "x": 2680,
+            "z": -15640,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Great line to West Agder branch"]
+                }
+            }
+        },
+        {
+            "name": "LatviaWakers JCT",
+            "id": 434,
+            "type": "jct",
+            "x": 3662,
+            "z": -16477,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Little line to LatviaWalkers branch"]
+                }
+            }
+        },
+        {
+            "name": "Skien og Sandefjord",
+            "id": 435,
+            "x": 3375,
+            "z": -16233,
+            "areas": [
+                [[3361, -16225], [3399, -16241]]
+            ],
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Main line to Skien og Sandefjord station platforms"]
+                }
+            }
+        },
+        {
+            "name": "Drammen",
+            "id": 436,
+            "x": 3643,
+            "z": -16424,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Oslo branch"]
+                }
+            }
+        },
+        {
+            "name": "Lower Central connector JCT",
+            "id": 437,
+            "type": "jct",
+            "x": 3333,
+            "z": -16113,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Great line to Connector branch"]
+                }
+            }
+        },
+        {
+            "name": "Sarpsborg",
+            "id": 438,
+            "x": 4028,
+            "z": -16171,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "South": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Brookieston JCT",
+            "id": 439,
+            "type": "jct",
+            "x": 3976.5,
+            "z": -16904,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Trondheim": ["", "Main line"],
+                    "Lower North": ["", "Main line to Brookieston branch"]
+                }
+            }
+        },
+        {
+            "name": "Brookieston",
+            "id": 440,
+            "x": 3873,
+            "z": -16904,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower North": ["", "Brookieston branch"]
+                }
+            }
+        },
+        {
+            "name": "Bergen",
+            "id": 441,
+            "x": 2000,
+            "z": -16775,
+            "areas": [
+                [[1976, -16787], [1982, -16757]],
+                [[1982, -16787], [2004, -16754]],
+                [[2004, -16786], [2005, -16754]],
+                [[2005, -16785], [2007, -16754]],
+                [[2007, -16784], [2008, -16754]],
+                [[2008, -16783], [2009, -16754]],
+                [[2009, -16782], [2010, -16754]],
+                [[2010, -16781], [2011, -16754]],
+                [[2011, -16780], [2012, -16754]],
+                [[2012, -16779], [2014, -16754]]
+            ],
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Bergen branch"]
+                }
+            }
+        },
+        {
+            "name": "Stavanger East",
+            "id": 442,
+            "x": 2216,
+            "z": -15997,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Trondheim",
+            "id": 443,
+            "x": 3747,
+            "z": -18451,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Trondheim": ["", "Main line to Trondheim station platforms"],
+                    "Middle North": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[3733, -18464], [3757, -18433]],
+                [[3740, -18433], [3757, -18424]]
+            ]
+        },
+        {
+            "name": "Bermof",
+            "id": 444,
+            "x": 3478,
+            "z": -18503,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Trondheim": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hitra",
+            "id": 445,
+            "x": 3250,
+            "z": -18569,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Trondheim": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Straumen",
+            "id": 446,
+            "x": 5636,
+            "z": -20663,
+            "areas": [
+                [[5605, -20672], [5630, -20656]],
+                [[5620, -20669], [5647, -20647]]
+            ],
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper North": ["", "Main line to Straumen station platforms"]
+                }
+            }
+        },
+        {
+            "name": "Narvik",
+            "id": 447,
+            "x": 6273,
+            "z": -21286,
+            "areas": [
+                [[6240, -21296], [6273, -21274]],
+                [[6273, -21293], [6278, -21274]]
+            ],
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper North": ["", "Main line to Narvik station platforms"]
+                }
+            }
+        },
+        {
+            "name": "Oslo",
+            "id": 448,
+            "x": 3805,
+            "z": -16604,
+            "areas": [
+                [[3774, -16624], [3840, -16577]]
+            ],
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Trondheim": ["", "Main line to Oslo station platforms"],
+                    "Lower North": ["", "Main line"],
+                    "South": ["", "Main line to Oslo station platforms"]
+                }
+            }
+        },
+        {
+            "name": "Bergen JCT",
+            "id": 449,
+            "type": "jct",
+            "x": 2212,
+            "z": -16775,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Main line to Bergen branch"]
+                }
+            }
+        },
+        {
+            "name": "Oslo Trondheim line up elevator",
+            "id": 450,
+            "type": "elev-ew",
+            "x": 3772,
+            "z": -16607,
+            "y1": 51,
+            "y2": 64,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Oslo branch"],
+                    "Lower Trondheim": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Oslo North line down elevator",
+            "id": 451,
+            "type": "elev-ew",
+            "x": 3772,
+            "z": -16603,
+            "y1": 64,
+            "y2": 51,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Oslo branch"],
+                    "Lower North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Oslo North line up elevator",
+            "id": 452,
+            "type": "elev-ew",
+            "x": 3772,
+            "z": -16598,
+            "y1": 51,
+            "y2": 64,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Oslo branch"],
+                    "Lower North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Oslo South line down elevator",
+            "id": 453,
+            "type": "elev-ew",
+            "x": 3772,
+            "z": -16594,
+            "y1": 64,
+            "y2": 51,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Oslo branch"],
+                    "South": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Trondheim line south elevator",
+            "id": 454,
+            "type": "elev-ew",
+            "x": 3973,
+            "z": -17240,
+            "y1": 64,
+            "y2": 71,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Trondheim": ["", "Main line"],
+                    "Upper Trondheim": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "North line south elevator",
+            "id": 455,
+            "type": "elev-ew",
+            "x": 3977,
+            "z": -17240,
+            "y1": 64,
+            "y2": 71,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower North": ["", "Main line"],
+                    "Middle North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "North line middle down elevator",
+            "id": 456,
+            "type": "elev-ew",
+            "x": 4021,
+            "z": -18861,
+            "y1": 71,
+            "y2": 66,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Middle North": ["", "Main line"],
+                    "Upper North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "North line middle up elevator",
+            "id": 457,
+            "type": "elev-ew",
+            "x": 4025,
+            "z": -18861,
+            "y1": 66,
+            "y2": 71,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Middle North": ["", "Main line"],
+                    "Upper North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "North line north up elevator",
+            "id": 458,
+            "type": "elev-ew",
+            "x": 4541,
+            "z": -19370,
+            "y1": 64,
+            "y2": 71,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "North line north down elevator",
+            "id": 459,
+            "type": "elev-ew",
+            "x": 4541,
+            "z": -19366,
+            "y1": 71,
+            "y2": 64,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bo",
+            "id": 460,
+            "x": 3281,
+            "z": -16425,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Oslo branch"]
+                }
+            }
+        },
+        {
+            "name": "Bo JCT",
+            "id": 461,
+            "type": "jct",
+            "x": 3444,
+            "z": -16424,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Main line to Oslo branch"]
+                }
+            }
+        },
+        {
+            "name": "Oslo JCT",
+            "id": 462,
+            "type": "jct",
+            "x": 3444,
+            "z": -16633,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Main line to Oslo branch"]
+                }
+            }
+        },
+        {
+            "name": "Oslo branch down elevator",
+            "id": 463,
+            "type": "elev-we",
+            "x": 3672,
+            "z": -16636,
+            "y1": 75,
+            "y2": 51,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Oslo branch"]
+                }
+            }
+        },
+        {
+            "name": "Oslo branch up elevator",
+            "id": 464,
+            "type": "elev-we",
+            "x": 3672,
+            "z": -16633,
+            "y1": 51,
+            "y2": 75,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Oslo branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -6814,6 +7461,585 @@
                     }
                 }
             }
+        },
+        "Norwegian Ice Boat Highway System": {
+            "Lower Central": {
+                "prefix": "",
+                "code": "L-CT",
+                "color": "cc008b",
+                "y": -63,
+                "branches": {
+                    "Little line": {
+                        "vertices": [
+                            [3533, -16572],
+                            [3729, -16572],
+                            [3729, -16537],
+                            [3709, -16537],
+                            [3709, -16477],
+                            [3404, -16477],
+                            [3404, -16122],
+                            [3585, -16122],
+                            [3585, -16101]
+                        ],
+                        "stations": [420, [419, "Great line"], [434, "LatviaWalkers branch"], 417, 416]
+                    },
+                    "LatviaWalkers branch": {
+                        "vertices": [
+                            [3662, -16477],
+                            [3662, -16361]
+                        ],
+                        "stations": [[434, "Little line"], 418]
+                    },
+                    "Connector branch": {
+                        "vertices": [
+                            [3347, -16228],
+                            [3333, -16228],
+                            [3333, -16113],
+                            [2900, -16113],
+                            [2900, -15665],
+                            [2896, -15665],
+                            [2896, -16117],
+                            [3329, -16117],
+                            [3329, -16232],
+                            [3347, -16232]
+                        ],
+                        "stations": [[437, "Great line"], 429, 430]
+                    },
+                    "Great line": {
+                        "vertices": [
+                            [2216, -15734],
+                            [2479, -15734],
+                            [2479, -15636],
+                            [2863, -15636],
+                            [2863, -15640],
+                            [2483, -15640],
+                            [2483, -15738],
+                            [2216, -15738],
+                            [2483, -15738],
+                            [2483, -15640],
+                            [2863, -15640],
+                            [2863, -15636],
+                            [2900, -15636],
+                            [2900, -16113],
+                            [3387, -16113],
+                            [3387, -17799],
+                            [2562, -17799],
+                            [3387, -17799],
+                            [3387, -16839],
+                            [2523, -16839],
+                            [2523, -17156],
+                            [2523, -16839],
+                            [1968, -16839]
+                        ],
+                        "stations": [421, 422, 424, [419, "Little line"], [437, "Connector branch"], 427, 428, [433, "West Agder branch"], 431, 432]
+                    },
+                    "West Agder branch": {
+                        "vertices": [
+                            [2680, -15640],
+                            [2680, -15587]
+                        ],
+                        "stations": [[433, "Great line"], 423]
+                    }
+                }
+            },
+            "Upper Central": {
+                "prefix": "",
+                "code": "U-CT",
+                "color": "007ecc",
+                "y": 75,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [2216, -15734],
+                            [2213, -15734],
+                            [2213, -15744],
+                            [2214, -15744],
+                            [2214, -16930],
+                            [2581, -16930],
+                            [2603, -16908],
+                            [2890, -16908],
+                            [2890, -16859],
+                            [3446, -16859],
+                            [3446, -16344],
+                            [3403, -16344],
+                            [3403, -16226],
+                            [3399, -16226],
+                            [3399, -16348],
+                            [3442, -16348],
+                            [3442, -16855],
+                            [2886, -16855],
+                            [2886, -16904],
+                            [2604, -16904],
+                            [2582, -16926],
+                            [2218, -16926],
+                            [2218, -15742],
+                            [2215, -15742],
+                            [2215, -15738],
+                            [2216, -15738]
+                        ],
+                        "stations": [431, 432, [435, "Skien og Sandefjord station platforms"], [461, "Oslo branch"], [462, "Oslo branch"], 426, [425, "Finse station platforms"], [449, "Bergen branch"], 442, 429, 430]
+                    },
+                    "Finse station platforms": {
+                        "vertices": [
+                            [2653, -16904],
+                            [2657, -16908],
+                            [2660, -16908],
+                            [2660, -16910],
+                            [2683, -16910],
+                            [2683, -16904],
+                            [2683, -16910],
+                            [2713, -16910],
+                            [2713, -16908],
+                            [2716, -16908],
+                            [2720, -16904]
+                        ],
+                        "stations": [[425, "Main line"]]
+                    },
+                    "Skien og Sandefjord station platforms": {
+                        "vertices": [
+                            [3403, -16226],
+                            [3361, -16226],
+                            [3359, -16228],
+                            [3347, -16228],
+                            [3359, -16228],
+                            [3361, -16226],
+                            [3403, -16226],
+                            [3403, -16232],
+                            [3347, -16232],
+                            [3362, -16232],
+                            [3364, -16234],
+                            [3403, -16234],
+                            [3403, -16240],
+                            [3370, -16240],
+                            [3364, -16234],
+                            [3399, -16234]
+                        ],
+                        "stations": [[435, "Main line"]]
+                    },
+                    "Bergen branch": {
+                        "vertices": [
+                            [2014, -16757],
+                            [1977, -16757],
+                            [1997, -16757],
+                            [2004, -16764],
+                            [2014, -16764],
+                            [1977, -16764],
+                            [2004, -16764],
+                            [2006, -16766],
+                            [1977, -16766],
+                            [2006, -16766],
+                            [2011, -16771],
+                            [2041, -16771],
+                            [2011, -16771],
+                            [2013, -16773],
+                            [1977, -16773],
+                            [2218, -16773],
+                            [2214, -16773],
+                            [2214, -16777],
+                            [2023, -16777],
+                            [2027, -16773],
+                            [2023, -16773],
+                            [2027, -16777],
+                            [1998, -16777],
+                            [2002, -16773],
+                            [1998, -16773],
+                            [2002, -16777],
+                            [1977, -16777],
+                            [2013, -16777],
+                            [2006, -16784],
+                            [1977, -16784],
+                            [2006, -16784],
+                            [2004, -16786],
+                            [1977, -16786]
+                        ],
+                        "stations": [[449, "Main line"], 441]
+                    },
+                    "Oslo branch": {
+                        "vertices": [
+                            [3281, -16425],
+                            [3320, -16425],
+                            [3320, -16422],
+                            [3340, -16422],
+                            [3340, -16425],
+                            [3320, -16425],
+                            [3340, -16425],
+                            [3340, -16422],
+                            [3426, -16422],
+                            [3430, -16426],
+                            [3674, -16426],
+                            [3674, -16598],
+                            [3772, -16598],
+                            [3674, -16598],
+                            [3674, -16603],
+                            [3772, -16603],
+                            [3674, -16603],
+                            [3674, -16628],
+                            [3676, -16630],
+                            [3676, -16633],
+                            [3442, -16633],
+                            [3634, -16633],
+                            [3634, -16635],
+                            [3670, -16635],
+                            [3671, -16636],
+                            [3678, -16636],
+                            [3678, -16607],
+                            [3772, -16607],
+                            [3678, -16607],
+                            [3678, -16594],
+                            [3772, -16594],
+                            [3678, -16594],
+                            [3678, -16422],
+                            [3658, -16422],
+                            [3658, -16426],
+                            [3658, -16422],
+                            [3426, -16422]
+                        ],
+                        "stations": [460, [461, "Main line"], 436, 450, 451, 452, 453, 463, 464, [462, "Main line"]]
+                    }
+                }
+            },
+            "Lower Trondheim": {
+                "prefix": "",
+                "code": "L-TH",
+                "color": "bb0000",
+                "y": 64,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [3772, -16607],
+                            [3849, -16607],
+                            [3852, -16604],
+                            [3973, -16604],
+                            [3973, -17240],
+                            [3973, -17146],
+                            [3969, -17142],
+                            [3969, -16607],
+                            [3872, -16607],
+                            [3872, -16604],
+                            [3872, -16607],
+                            [3849, -16607],
+                            [3854, -16607],
+                            [3854, -16609],
+                            [3804, -16609],
+                            [3802, -16607],
+                            [3804, -16609],
+                            [3802, -16609],
+                            [3804, -16607],
+                            [3802, -16609],
+                            [3779, -16609],
+                            [3777, -16607]
+                        ],
+                        "stations": [450, [448, "Oslo station platforms"], 439, 454]
+                    },
+                    "Oslo station platforms": {
+                        "vertices": [
+                            [3772, -16620],
+                            [3786, -16620],
+                            [3788, -16618],
+                            [3847, -16618],
+                            [3849, -16616],
+                            [3851, -16616],
+                            [3851, -16609],
+                            [3851, -16616],
+                            [3795, -16616],
+                            [3788, -16609],
+                            [3797, -16618],
+                            [3772, -16618]
+                        ],
+                        "stations": [[448, "Main line"]]
+                    }
+                }
+            },
+            "Upper Trondheim": {
+                "prefix": "",
+                "code": "U-TH",
+                "color": "cc0000",
+                "y": 71,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [3973, -17240],
+                            [3973, -18263],
+                            [3977, -18263],
+                            [3746, -18263],
+                            [3746, -18417],
+                            [3750, -18421],
+                            [3746, -18417],
+                            [3746, -18435],
+                            [3743, -18438],
+                            [3743, -18507],
+                            [3482, -18507],
+                            [3482, -18571],
+                            [3250, -18571],
+                            [3264, -18571],
+                            [3270, -18567],
+                            [3250, -18567],
+                            [3264, -18567],
+                            [3270, -18571],
+                            [3264, -18567],
+                            [3478, -18567],
+                            [3478, -18503],
+                            [3741, -18503],
+                            [3741, -18485],
+                            [3743, -18485],
+                            [3741, -18485],
+                            [3741, -18440],
+                            [3743, -18438]
+                        ],
+                        "stations": [454, [443, "Trondheim station platforms"], 444, 445]
+                    },
+                    "Trondheim station platforms": {
+                        "vertices": [
+                            [3744, -18437],
+                            [3734, -18437],
+                            [3734, -18466],
+                            [3743, -18466]
+                        ],
+                        "stations": [[443, "Main line"]]
+                    }
+                }
+            },
+            "Lower North": {
+                "prefix": "",
+                "code": "L-N",
+                "color": "cc6300",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [3772, -16603],
+                            [3795, -16603],
+                            [3798, -16600],
+                            [3863, -16600],
+                            [3863, -16604],
+                            [3863, -16600],
+                            [3881, -16600],
+                            [3881, -16604],
+                            [3881, -16600],
+                            [3978, -16600],
+                            [3978, -17139],
+                            [3977, -17140],
+                            [3977, -17240],
+                            [3977, -17148],
+                            [3982, -17148],
+                            [3982, -16598],
+                            [3887, -16598],
+                            [3889, -16600],
+                            [3887, -16600],
+                            [3889, -16598],
+                            [3857, -16598],
+                            [3859, -16600],
+                            [3857, -16600],
+                            [3859, -16598],
+                            [3772, -16598]
+                        ],
+                        "stations": [451, 452, 448, [439, "Brookieston branch"], 455]
+                    },
+                    "Brookieston branch": {
+                        "vertices": [
+                            [3982, -16904],
+                            [3873, -16904]
+                        ],
+                        "stations": [[439, "Main line"], 440]
+                    }
+                }
+            },
+            "Middle North": {
+                "prefix": "",
+                "code": "M-N",
+                "color": "e66f00",
+                "y": 71,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [3977, -17240],
+                            [3977, -18267],
+                            [3750, -18267],
+                            [3750, -18417],
+                            [3746, -18421],
+                            [3750, -18417],
+                            [3750, -18467],
+                            [3743, -18467],
+                            [3750, -18467],
+                            [3750, -18472],
+                            [3743, -18472],
+                            [3750, -18472],
+                            [3750, -18748],
+                            [4021, -18748],
+                            [4021, -18865],
+                            [4025, -18865],
+                            [4025, -18744],
+                            [3752, -18744],
+                            [3752, -18485],
+                            [3750, -18485],
+                            [3752, -18485],
+                            [3752, -18466],
+                            [3750, -18466],
+                            [3752, -18466],
+                            [3752, -18427],
+                            [3750, -18425]
+                        ],
+                        "stations": [455, 443, 456, 457]
+                    }
+                }
+            },
+            "Upper North": {
+                "prefix": "",
+                "code": "U-N",
+                "color": "ff7b00",
+                "y": "66, 75",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [6273, -21292],
+                            [5861, -21292],
+                            [5861, -20887],
+                            [5812, -20887],
+                            [5812, -20795],
+                            [5748, -20795],
+                            [5748, -20667],
+                            [5603, -20667],
+                            [5603, -20553],
+                            [5171, -20553],
+                            [5171, -20093],
+                            [5175, -20098],
+                            [5175, -20093],
+                            [5171, -20098],
+                            [5171, -19690],
+                            [4836, -19690],
+                            [4836, -19370],
+                            [4545, -19370],
+                            [4545, -19366],
+                            [4545, -19370],
+                            [4405, -19370],
+                            [4405, -19002],
+                            [4021, -19002],
+                            [4021, -18861],
+                            [4021, -18865],
+                            [4025, -18865],
+                            [4025, -18861],
+                            [4025, -18998],
+                            [4409, -18998],
+                            [4409, -19366],
+                            [4840, -19366],
+                            [4840, -19686],
+                            [5175, -19686],
+                            [5175, -20549],
+                            [5607, -20549],
+                            [5607, -20663],
+                            [5752, -20663],
+                            [5752, -20791],
+                            [5816, -20791],
+                            [5816, -20883],
+                            [5865, -20883],
+                            [5865, -21288],
+                            [6273, -21288]
+                        ],
+                        "stations": [456, 457, 458, 459, [446, "Straumen station platforms"], [447, "Narvik station platforms"]]
+                    },
+                    "Narvik station platforms": {
+                        "vertices": [
+                            [6212, -21288],
+                            [6212, -21281],
+                            [6273, -21281],
+                            [6221, -21281],
+                            [6221, -21279],
+                            [6273, -21279],
+                            [6207, -21279],
+                            [6207, -21282],
+                            [6170, -21282],
+                            [6170, -21292],
+                            [6170, -21286],
+                            [6172, -21286],
+                            [6172, -21292],
+                            [6172, -21286],
+                            [6273, -21286]
+                        ],
+                        "stations": [[447, "Main line"]]
+                    },
+                    "Straumen station platforms": {
+                        "vertices": [
+                            [5621, -20663],
+                            [5621, -20652],
+                            [5651, -20652],
+                            [5651, -20663],
+                            [5651, -20656],
+                            [5621, -20656]
+                        ],
+                        "stations": [[446, "Main line"]]
+                    }
+                }
+            },
+            "South": {
+                "prefix": "",
+                "code": "S",
+                "color": "11ff00",
+                "y": 64,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [4089, -16088],
+                            [4089, -16171],
+                            [3947, -16171],
+                            [3947, -16248],
+                            [3865, -16248],
+                            [3865, -16393],
+                            [3930, -16393],
+                            [3930, -16591],
+                            [3846, -16591],
+                            [3846, -16598],
+                            [3846, -16591],
+                            [3795, -16591],
+                            [3792, -16594],
+                            [3772, -16594],
+                            [3792, -16594],
+                            [3795, -16591],
+                            [3797, -16589],
+                            [3840, -16589],
+                            [3840, -16586],
+                            [3896, -16586],
+                            [3896, -16598],
+                            [3896, -16586],
+                            [3930, -16586],
+                            [3926, -16586],
+                            [3926, -16397],
+                            [3861, -16397],
+                            [3861, -16244],
+                            [3943, -16244],
+                            [3943, -16167],
+                            [4085, -16167],
+                            [4085, -16088]
+                        ],
+                        "stations": [453, [448, "Oslo station platforms"], 438]
+                    },
+                    "Oslo station platforms": {
+                        "vertices": [
+                            [3777, -16589],
+                            [3843, -16589],
+                            [3841, -16591],
+                            [3843, -16591],
+                            [3841, -16589],
+                            [3930, -16589],
+                            [3840, -16589],
+                            [3840, -16584],
+                            [3846, -16584],
+                            [3850, -16580],
+                            [3907, -16580],
+                            [3909, -16582],
+                            [3911, -16582],
+                            [3913, -16584],
+                            [3911, -16582],
+                            [3848, -16582],
+                            [3846, -16584],
+                            [3914, -16584],
+                            [3914, -16586],
+                            [3914, -16584],
+                            [3918, -16584],
+                            [3918, -16586]
+                        ],
+                        "stations": [[448, "Main line"]]
+                    }
+                }
+            }   
         }
     }
 }
