@@ -2205,7 +2205,8 @@
             "z": -2434,
             "lines": {
                 "TNIH": {
-                    "Hooman": ["", "Main line to Himalayas branch"]
+                    "Hooman": ["", "Main line"],
+                    "Himalayas": ["", "Main line"]
                 }
             }
         },
@@ -2216,7 +2217,7 @@
             "z": -2434,
             "lines": {
                 "TNIH": {
-                    "Hooman": ["", "Himalayas branch"]
+                    "Himalayas": ["", "Main line"]
                 }
             }
         },
@@ -3065,10 +3066,10 @@
             "name": "Himalayas",
             "id": 263,
             "x": 29200,
-            "z": -2556,
+            "z": -2555,
             "lines": {
                 "TNIH": {
-                    "Hooman": ["", "Himalayas branch"]
+                    "Himalayas": ["", "Main line"]
                 }
             }
         },
@@ -3086,7 +3087,7 @@
         {
             "name": "Nepal",
             "id": 265,
-            "x": 30267,
+            "x": 30270,
             "z": -2640,
             "lines": {
                 "TNIH": {
@@ -5549,6 +5550,76 @@
                     "Metz-Paris": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Lmporter",
+            "id": 470,
+            "x": 31705,
+            "z": -1770,
+            "lines": {
+                "TNIH": {
+                    "Syphon": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nepal JCT",
+            "type": "jct",
+            "id": 471,
+            "x": 30111,
+            "z": -2640,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Main line to Dao Monastery branch"]
+                }
+            }
+        },
+        {
+            "name": "Dao Monastery",
+            "id": 472,
+            "x": 30138,
+            "z": -2770,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Dao Monastery branch"]
+                }
+            }
+        },
+        {
+            "name": "Marin Mineshaft",
+            "type": "semi1",
+            "id": 473,
+            "x": 29940,
+            "z": -2559,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Dhorpatan Mineshaft",
+            "type": "semi1",
+            "id": 474,
+            "x": 29772,
+            "z": -2559,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Salma Mineshaft",
+            "type": "semi1",
+            "id": 475,
+            "x": 29421,
+            "z": -2559,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -5601,15 +5672,7 @@
                             [28317, -5006],
                             [24774.5, -5006]
                         ],
-                        "stations": [70, 71, 72, 73, [189, "Himalayas branch"], 221, 220]
-                    },
-                    "Himalayas branch": {
-                        "vertices": [
-                            [28317, -2434],
-                            [29200, -2434],
-                            [29200, -2556]
-                        ],
-                        "stations": [[189, "Main line"], 190, 263]
+                        "stations": [70, 71, 72, 73, 189, 221, 220]
                     }
                 }
             },
@@ -5966,9 +6029,21 @@
                             [30990, -2636],
                             [30318, -2636],
                             [30318, -2640],
-                            [30267, -2640]
+                            [30111, -2640],
+                            [30111, -2559],
+                            [29200, -2559],
+                            [29200, -2434],
+                            [28317, -2434]
                         ],
-                        "stations": [204, 203, 344, 191, 193, 194, 265]
+                        "stations": [204, 203, 344, 191, 193, 194, 265, [471, "Dao Monastery branch"], 473, 474, 475, 263, 190, 189]
+                    },
+                    "Dao Monastery branch": {
+                        "vertices": [
+                            [30111, -2640],
+                            [30111, -2770],
+                            [30138, -2770]
+                        ],
+                        "stations": [[471, "Main line"], 472]
                     }
                 }
             },
@@ -6012,7 +6087,7 @@
                             [31501, -2031],
                             [31501, -2672]
                         ],
-                        "stations": [125, 202, 184, 191, 192]
+                        "stations": [125, 470, 202, 184, 191, 192]
                     }
                 }
             },
