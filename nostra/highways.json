@@ -5494,6 +5494,61 @@
                     "Upper Central": ["", "Oslo branch"]
                 }
             }
+        },
+        {
+            "name": "Strasbourg East",
+            "id": 465,
+            "x": 2765,
+            "z": -10968,
+            "lines": {
+                "French Intercity Highway": {
+                    "Strasbourg-Metz": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Strasbourg West",
+            "id": 466,
+            "x": 2691,
+            "z": -10970,
+            "lines": {
+                "French Intercity Highway": {
+                    "Strasbourg-Metz": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Metz East",
+            "id": 467,
+            "x": 2353,
+            "z": -11008,
+            "lines": {
+                "French Intercity Highway": {
+                    "Strasbourg-Metz": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Metz West",
+            "id": 468,
+            "x": 2159,
+            "z": -11008,
+            "lines": {
+                "French Intercity Highway": {
+                    "Metz-Paris": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Paris",
+            "id": 469,
+            "x": 933,
+            "z": -11007,
+            "lines": {
+                "French Intercity Highway": {
+                    "Metz-Paris": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -8040,6 +8095,46 @@
                     }
                 }
             }   
+        },
+        "French Intercity Highway": {
+            "Strasbourg-Metz": {
+                "prefix": "",
+                "code": "Str-Met",
+                "color": "ffffff",
+                "y": 50,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [2765, -10968],
+                            [2696, -10968],
+                            [2696, -10970],
+                            [2686, -10970],
+                            [2686, -10968],
+                            [2629, -10968],
+                            [2629, -11008],
+                            [2353, -11008]
+                        ],
+                        "stations": [465, 466, 467]
+                    }
+                }
+            },
+            "Metz-Paris": {
+                "prefix": "",
+                "code": "Met-Par",
+                "color": "ffffff",
+                "y": 50,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [2159, -11008],
+                            [978, -11008],
+                            [977, -11007],
+                            [933, -11007]
+                        ],
+                        "stations": [468, 469]
+                    }
+                }
+            }
         }
     }
 }
