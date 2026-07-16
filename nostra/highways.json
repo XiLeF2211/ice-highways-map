@@ -3187,7 +3187,7 @@
             "lines": {
                 "Gobi Transport": {
                     "Gobi 1st": ["", "Main line"],
-                    "Northern": ["", "Main line"]
+                    "Eastern": ["", "Main line"]
                 }
             }
         },
@@ -4750,7 +4750,7 @@
             "z": -5089,
             "lines": {
                 "Gobi Transport": {
-                    "Northern": ["", "Main line"]
+                    "Eastern": ["", "Main line"]
                 }
             }
         },
@@ -4761,7 +4761,7 @@
             "z": -5089,
             "lines": {
                 "Gobi Transport": {
-                    "Northern": ["", "Main line"]
+                    "Eastern": ["", "Main line"]
                 }
             }
         },
@@ -4772,7 +4772,7 @@
             "z": -5089,
             "lines": {
                 "Gobi Transport": {
-                    "Northern": ["", "Main line"]
+                    "Eastern": ["", "Main line"]
                 }
             }
         },
@@ -4783,7 +4783,7 @@
             "z": -5834,
             "lines": {
                 "Gobi Transport": {
-                    "Northern": ["", "Main line"]
+                    "Eastern": ["", "Main line"]
                 }
             }
         },
@@ -4833,7 +4833,7 @@
             "lines": {
                 "Armenia": {
                     "H-1": ["", ""],
-                    "M-4": ["", ""]
+                    "M-1": ["", ""]
                 }
             }
         },
@@ -6976,7 +6976,7 @@
                             [35326, -9441],
                             [35326, -13044]
                         ],
-                        "stations": [273, 407, 408, 409, 410]
+                        "stations": [359, 358, 357]
                     }
                 }
             },
@@ -6992,7 +6992,7 @@
                             [37410, -5089],
                             [37410, -5834]
                         ],
-                        "stations": [359, 358, 357]
+                        "stations": [273, 407, 408, 409, 410]
                     }
                 }
             }
