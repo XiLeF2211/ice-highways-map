@@ -2917,10 +2917,11 @@
             "type": "jct",
             "id": 250,
             "x": 62800,
-            "z": 22100,
+            "z": 22097,
             "lines": {
                 "NZ Ministry of Infrastructure": {
-                    "NZ North-South Main (Y7)": ["", "Main line"]
+                    "NZ North-South Main (Y7)": ["", "Main line"],
+                    "Fiji Link": ["", "Main line"]
                 }
             }
         },
@@ -5620,6 +5621,74 @@
                     "Himalayas": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Lasev's Basement",
+            "type": "semi4",
+            "id": 476,
+            "x": 60024,
+            "z": 25629,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "World Border": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "NZ Megashop",
+            "id": 477,
+            "x": 60024,
+            "z": 25704,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "World Border": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Rakiura",
+            "id": 478,
+            "x": 60024,
+            "z": 26314,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "World Border": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "<2> Auckland View East",
+            "type": "jct",
+            "id": 479,
+            "x": 60024,
+            "z": 28080,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "World Border": ["", "Main line", "Auckland View ramp"]
+                }
+            }
+        },
+        {
+            "name": "Auckland View",
+            "id": 480,
+            "x": 59555,
+            "z": 27876,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "World Border": ["", "Auckland View ramp"]
+                }
+            }
+        },
+        {
+            "name": "New Zealand South World Border",
+            "id": 481,
+            "x": 60024,
+            "z": 32252,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "World Border": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -7446,7 +7515,7 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [62800, 22100],
+                            [62800, 22097],
                             [62800, 24605],
                             [62178, 24605]
                         ],
@@ -7560,16 +7629,43 @@
             "World Border": {
                 "prefix": "",
                 "code": "WB",
-                "color": "111111",
+                "color": "080808",
                 "y": -62,
                 "branches": {
                     "Main line": {
                         "vertices": [
                             [60043, 25437],
                             [60024, 25437],
-                            [60024, 27567]
+                            [60024, 32252]
                         ],
-                        "stations": [286]
+                        "stations": [286, 476, 477, 478, [479, "Auckland View ramp"], 481]
+                    },
+                    "Auckland View ramp": {
+                        "vertices": [
+                            [60024, 28080],
+                            [59530, 28080],
+                            [59530, 27876],
+                            [59555, 27876]
+                        ],
+                        "stations": [[479, "Main line"], 480]
+                    }
+                }
+            },
+            "Fiji Link": {
+                "prefix": "",
+                "code": "FJL",
+                "color": "F163AA",
+                "y": 7,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [62800, 22097],
+                            [62887, 22097],
+                            [62887, 21729],
+                            [62695, 21729],
+                            [62695, 21525]
+                        ],
+                        "stations": [250]
                     }
                 }
             }
