@@ -6124,6 +6124,113 @@
                     "North-South": ["", "BRC branch"]
                 }
             }
+        },
+        {
+            "name": "Fiche",
+            "id": 519,
+            "x": 13396,
+            "z": 4426.5,
+            "lines": {
+                "Ethiopia": {
+                    "Fiche-Trial-Adama": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Pringleville",
+            "id": 520,
+            "x": 13414,
+            "z": 4712,
+            "lines": {
+                "Ethiopia": {
+                    "Fiche-Trial-Adama": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Steel Ball Casino",
+            "id": 521,
+            "x": 13256,
+            "z": 4900,
+            "lines": {
+                "Ethiopia": {
+                    "Fiche-Trial-Adama": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Elysium",
+            "id": 522,
+            "x": 13256,
+            "z": 5000,
+            "lines": {
+                "Ethiopia": {
+                    "Fiche-Trial-Adama": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[13246, 4988], [13265, 5020]],
+                [[13263, 4993], [13270, 5007]]
+            ]
+        },
+        {
+            "name": "Asgori",
+            "id": 523,
+            "x": 13256,
+            "z": 5270,
+            "lines": {
+                "Ethiopia": {
+                    "Fiche-Trial-Adama": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[13247, 5263], [13265, 5281]]
+            ]
+        },
+        {
+            "name": "Sherbrooke JCT",
+            "type": "jct",
+            "id": 524,
+            "x": 13256,
+            "z": 5666,
+            "lines": {
+                "Ethiopia": {
+                    "Fiche-Trial-Adama": ["", "Main line to Adama branch"]
+                }
+            }
+        },
+        {
+            "name": "Sherbrooke",
+            "id": 525,
+            "x": 13344,
+            "z": 5666,
+            "lines": {
+                "Ethiopia": {
+                    "Fiche-Trial-Adama": ["", "Adama branch"]
+                }
+            }
+        },
+        {
+            "name": "Adama",
+            "id": 526,
+            "x": 13503,
+            "z": 6258,
+            "lines": {
+                "Ethiopia": {
+                    "Fiche-Trial-Adama": ["", "Adama branch"]
+                }
+            }
+        },
+        {
+            "name": "Trial",
+            "id": 527,
+            "x": 13270,
+            "z": 6135.5,
+            "lines": {
+                "Ethiopia": {
+                    "Fiche-Trial-Adama": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -7777,6 +7884,37 @@
                             [39464.5, -14317.5]
                         ],
                         "stations": [[515, "Main line"], 516]
+                    }
+                }
+            }
+        },
+        "Ethiopia": {
+            "Fiche-Trial-Adama": {
+                "prefix": "",
+                "code": "",
+                "color": "fcdd09",
+                "y": 41,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [13396, 4422],
+                            [13396, 4533],
+                            [13414, 4533],
+                            [13414, 4721],
+                            [13256, 4721],
+                            [13256, 5763],
+                            [13270, 5763],
+                            [13270, 6143]
+                        ],
+                        "stations": [519, 520, 521, 522, 523, [524, "Adama branch"], 527]
+                    },
+                    "Adama branch": {
+                        "vertices": [
+                            [13256, 5666],
+                            [13503, 5666],
+                            [13503, 6258]
+                        ],
+                        "stations": [[524, "Main line"], 525, 526]
                     }
                 }
             }
