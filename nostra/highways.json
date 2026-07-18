@@ -1325,9 +1325,6 @@
             "x": 16068,
             "z": -7016.5,
             "lines": {
-                "Armenia": {
-                    "M-1": ["", ""]
-                }
             }
         },
         {
@@ -1758,19 +1755,21 @@
             "z": -17732,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line"],
-                    "Baikal": ["", ""]
+                    "Siberia Main": ["", "Main line"]
+                },
+                "BRC": {
+                    "North-South": ["", "Main line"]
                 }
             }
         },
         {
-            "name": "Minerva (Temporary)",
+            "name": "Minerva North",
             "id": 151,
             "x": 39121.5,
             "z": -17368,
             "lines": {
-                "TNIH": {
-                    "Baikal": ["", ""]
+                "BRC": {
+                    "North-South": ["", "Main line"]
                 }
             }
         },
@@ -6055,6 +6054,76 @@
                     "Siberia Main": ["", "New Alteria branch"]
                 }
             }
+        },
+        {
+            "name": "Kustural",
+            "id": 513,
+            "x": 46518,
+            "z": -17876,
+            "lines": {
+                "Yakutia Metro": {
+                    "Industrial": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Angoya West JCT",
+            "type": "jct",
+            "id": 514,
+            "x": 39121.5,
+            "z": -14216.5,
+            "lines": {
+                "BRC": {
+                    "North-South": ["", "Main line"],
+                    "Angoya": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Angoya JCT",
+            "type": "jct",
+            "id": 515,
+            "x": 39464.5,
+            "z": -14216.5,
+            "lines": {
+                "BRC": {
+                    "Angoya": ["", "Main line to Angoya branch"]
+                }
+            }
+        },
+        {
+            "name": "Angoya (BRC)",
+            "id": 516,
+            "x": 39464.5,
+            "z": -14317.5,
+            "lines": {
+                "BRC": {
+                    "Angoya": ["", "Angoya branch"]
+                }
+            }
+        },
+        {
+            "name": "BRC (town) JCT",
+            "type": "jct",
+            "id": 517,
+            "x": 39121.5,
+            "z": -13529.5,
+            "lines": {
+                "BRC": {
+                    "North-South": ["", "Main line to BRC branch"]
+                }
+            }
+        },
+        {
+            "name": "BRC (town)",
+            "id": 518,
+            "x": 38826.5,
+            "z": -13529.5,
+            "lines": {
+                "BRC": {
+                    "North-South": ["", "BRC branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -6391,21 +6460,6 @@
                             [45205, -18889]
                         ],
                         "stations": [[279, "Main line"], 280]
-                    }
-                }
-            },
-            "Baikal": {
-                "prefix": "",
-                "code": "BK",
-                "color": "00a56a",
-                "y": 10,
-                "branches": {
-                    "": {
-                        "vertices": [
-                            [39121.5, -17732],
-                            [39121.5, -17368]
-                        ],
-                        "stations": [150, 151]
                     }
                 }
             },
@@ -7293,9 +7347,11 @@
                             [46140, -17791],
                             [46350, -17791],
                             [46350, -17812],
-                            [46355, -17812]
+                            [46350, -17825],
+                            [46397, -17876],
+                            [46524, -17876]
                         ],
-                        "stations": [147, 281, 37]
+                        "stations": [147, 281, 37, 513]
                     }
                 }
             },
@@ -7675,6 +7731,52 @@
                             [-27031, -7100]
                         ],
                         "stations": [376, 384, 380]
+                    }
+                }
+            }
+        },
+        "BRC": {
+            "North-South": {
+                "prefix": "",
+                "code": "N-S",
+                "color": "00a56a",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [39121.5, -17732],
+                            [39121.5, -12952]
+                        ],
+                        "stations": [150, 151, 514, [517, "BRC branch"]]
+                    },
+                    "BRC branch": {
+                        "vertices": [
+                            [39121.5, -13529.5],
+                            [38826, -13529.5]
+                        ],
+                        "stations": [[517, "Main line"], 518]
+                    }
+                }
+            },
+            "Angoya": {
+                "prefix": "",
+                "code": "Agy",
+                "color": "bb11ff",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [39121.5, -14216.5],
+                            [40664.5, -14216.5]
+                        ],
+                        "stations": [514, [515, "Angoya branch"]]
+                    },
+                    "Angoya branch": {
+                        "vertices": [
+                            [39464.5, -14216.5],
+                            [39464.5, -14317.5]
+                        ],
+                        "stations": [[515, "Main line"], 516]
                     }
                 }
             }
