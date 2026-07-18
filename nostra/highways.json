@@ -5784,7 +5784,7 @@
             }
         },
         {
-            "name": " JCT",
+            "name": "Artashat North JCT",
             "type": "jct",
             "id": 489,
             "x": 16006.5,
@@ -5829,8 +5829,233 @@
                     "M-1": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Alesund Mine",
+            "id": 493,
+            "x": 2437,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kristinestad",
+            "id": 494,
+            "x": 7646,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Finlandia JCT",
+            "type": "jct",
+            "id": 495,
+            "x": 8050,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Finlandia branch"]
+                }
+            }
+        },
+        {
+            "name": "Finlandia",
+            "id": 496,
+            "x": 8050,
+            "z": -16890,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Finlandia branch"]
+                }
+            }
+        },
+        {
+            "name": "Kuorevesi North (JCT)",
+            "id": 497,
+            "x": 8802,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Kuorevesi branch"]
+                }
+            }
+        },
+        {
+            "name": "Kuorevesi Gate",
+            "id": 498,
+            "x": 8802,
+            "z": -17661,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Kuorevesi branch"]
+                }
+            }
+        },
+        {
+            "name": "Kuorevesi",
+            "id": 499,
+            "x": 8783,
+            "z": -17647.5,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Kuorevesi branch"]
+                }
+            }
+        },
+        {
+            "name": "Portos Mine",
+            "type": "semi1",
+            "id": 500,
+            "x": 10349,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Portos JCT",
+            "type": "jct",
+            "id": 501,
+            "x": 10181,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Lappeenranta branch"]
+                }
+            }
+        },
+        {
+            "name": "Lappeenranta",
+            "id": 502,
+            "x": 10181,
+            "z": -17154,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Lappeenranta branch"]
+                }
+            }
+        },
+        {
+            "name": "Yaroslavl",
+            "id": 503,
+            "x": 14528,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Wolfenstein",
+            "id": 504,
+            "x": 21320,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Numidia Trial Chambers (JCT)",
+            "id": 505,
+            "x": 25840,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Poikovskii branch"]
+                }
+            }
+        },
+        {
+            "name": "A Numidia",
+            "id": 506,
+            "x": 25840,
+            "z": -17365,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Poikovskii branch"]
+                }
+            }
+        },
+        {
+            "name": "Poikovskii",
+            "id": 507,
+            "x": 25809,
+            "z": -17213,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Poikovskii branch"]
+                }
+            }
+        },
+        {
+            "name": "Izayoi Forest Emegency Exit",
+            "type": "semi1",
+            "id": 508,
+            "x": 37602,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Armas Y Libertad JCT",
+            "type": "jct",
+            "id": 509,
+            "x": 37666.5,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Armas Y Libertad branch"]
+                }
+            }
+        },
+        {
+            "name": "Armas Y Libertad",
+            "id": 510,
+            "x": 37666.5,
+            "z": -17594,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Armas Y Libertad branch"]
+                }
+            }
+        },
+        {
+            "name": "New Alteria JCT",
+            "type": "jct",
+            "id": 511,
+            "x": 38876,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to New Alteria branch"]
+                }
+            }
+        },
+        {
+            "name": "New Alteria",
+            "id": 512,
+            "x": 38876,
+            "z": -18094,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "New Alteria branch"]
+                }
+            }
         }
-
     ],
     "lines": {
         "TNIH": {
@@ -5894,7 +6119,7 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [1400, -17732],
+                            [1378, -17732],
                             [9662, -17732],
                             [9662, -17778],
                             [9761, -17778],
@@ -5909,7 +6134,52 @@
                             [52960.5, -23834.5],
                             [51646, -23834.5]
                         ],
-                        "stations": [406, 150, [213, "Riverwood branch"], [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], [7, "Duchy of Rivers branch"], 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340]
+                        "stations": [493, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], 500, [501, "Lappeenranta branch"], 503, 504, [505, "Poikovskii branch"], 406, 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, [213, "Riverwood branch"], [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], [7, "Duchy of Rivers branch"], 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340]
+                    },
+                    "Finlandia branch": {
+                        "vertices": [
+                            [8050, -17732],
+                            [8050, -16890]
+                        ],
+                        "stations": [[495, "Main line"], 496]
+                    },
+                    "Kuorevesi branch": {
+                        "vertices": [
+                            [8802, -17732],
+                            [8802, -17647.5],
+                            [8783, -17647.5]
+                        ],
+                        "stations": [[497, "Main line"], 498, 499]
+                    },
+                    "Lappeenranta branch": {
+                        "vertices": [
+                            [10181, -17732],
+                            [10181, -17154]
+                        ],
+                        "stations": [[501, "Main line"], 502]
+                    },
+                    "Poikovskii branch": {
+                        "vertices": [
+                            [25840, -17732],
+                            [25840, -17213],
+                            [25809, -17213]
+                        ],
+                        "stations": [[505, "Main line"], 506, 507]
+                    },
+                    "Armas Y Libertad branch": {
+                        "vertices": [
+                            [37666.5, -17732],
+                            [37666.5, -17594]
+                        ],
+                        "stations": [[509, "Main line"], 510]
+                    },
+                    "New Alteria branch": {
+                        "vertices": [
+                            [38876, -17732],
+                            [38876, -18094],
+                            [38860, -18094]
+                        ],
+                        "stations": [[511, "Main line"], 512]
                     },
                     "Tapagonia branch": {
                         "vertices": [
@@ -6903,7 +7173,7 @@
                             [16415.5, -6696.5],
                             [16512, -6696.5]
                         ],
-                        "stations": [482, 483, 111, 411, 414, 484, 112, 415, 114, 116, 491, 492]
+                        "stations": [482, 483, 111, 411, 414, 484, 112, 485, 415, 114, 116, 491, 492]
                     }
                 }
             },
