@@ -6231,6 +6231,40 @@
                     "Fiche-Trial-Adama": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Bandar Abbas JCT",
+            "type": "jct",
+            "id": 528,
+            "x": 20125,
+            "z": -1980,
+            "lines": {
+                "TNIH": {
+                    "Makran": ["", "Main line to Bandar Abbas branch"]
+                }
+            }
+        },
+        {
+            "name": "Bandar Abbas",
+            "id": 529,
+            "x": 20125,
+            "z": -2245,
+            "lines": {
+                "TNIH": {
+                    "Makran": ["", "Bandar Abbas branch"]
+                }
+            }
+        },
+        {
+            "name": "Parthia",
+            "id": 530,
+            "x": 18972,
+            "z": -2011,
+            "lines": {
+                "TNIH": {
+                    "Makran": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -6740,7 +6774,8 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [19832, -1980],
+                            [18972, -2072],
+                            [18972, -1980],
                             [20510, -1980],
                             [20510, -1374],
                             [22065, -1374],
@@ -6752,7 +6787,14 @@
                             [24400, -824],
                             [24400, -1437]
                         ],
-                        "stations": [258, 259, 260, 243, 159, 197]
+                        "stations": [530, 258, [528, "Bandar Abbas branch"], 259, 260, 243, 159, 197]
+                    },
+                    "Bandar Abbas branch": {
+                        "vertices": [
+                            [20125, -1980],
+                            [20125, -2258]
+                        ],
+                        "stations": [[528, "Main line"], 529]
                     }
                 }
             },
