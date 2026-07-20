@@ -1363,13 +1363,14 @@
             }
         },
         {
-            "name": "Surat Bay",
+            "name": "Surat Bay (JCT)",
             "id": 117,
             "x": 26030,
             "z": 100,
             "lines": {
                 "TNIH": {
-                    "Narmada": ["", "Main line"]
+                    "Narmada": ["", "Main line"],
+                    "Malabar": ["", "Main line"]
                 }
             }
         },
@@ -3759,7 +3760,7 @@
             "name": "Greater Goa",
             "id": 323,
             "x": 26716,
-            "z": 2932,
+            "z": 2930,
             "lines": {
                 "TNIH": {
                     "Malabar": ["", "Main line"]
@@ -6265,6 +6266,73 @@
                     "Makran": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "ISC",
+            "id": 531,
+            "x": 26068,
+            "z": 672,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mumbai",
+            "id": 532,
+            "x": 26175,
+            "z": 1077,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Dapoli",
+            "id": 533,
+            "x": 26279,
+            "z": 1905,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "East India Co",
+            "id": 534,
+            "x": 26460,
+            "z": 2248,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Loulan JCT",
+            "type": "jct",
+            "id": 535,
+            "x": 32314,
+            "z": -8814,
+            "lines": {
+                "Gobi Transport": {
+                    "Xinjiang": ["", "Main line to Loulan branch"]
+                }
+            }
+        },
+        {
+            "name": "Loulan",
+            "id": 536,
+            "x": 32314,
+            "z": -7308,
+            "lines": {
+                "Gobi Transport": {
+                    "Xinjiang": ["", "Loulan branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -6828,7 +6896,13 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [26716, 2932],
+                            [26030, 100],
+                            [26030, 672],
+                            [26175, 672],
+                            [26175, 1905],
+                            [26460, 1905],
+                            [26460, 2930],
+                            [26716, 2930],
                             [26716, 3460],
                             [26889, 3460],
                             [26889, 4037],
@@ -6840,7 +6914,7 @@
                             [27451, 4605],
                             [28704, 4605]
                         ],
-                        "stations": [323, 322, [321, "Mangalore branch"], 78, 79, 94]
+                        "stations": [117, 531, 532, 533, 534, 323, 322, [321, "Mangalore branch"], 78, 79, 94]
                     },
                     "Mangalore branch": {
                         "vertices": [
@@ -7750,7 +7824,14 @@
                             [35355, -8814],
                             [28851, -8814]
                         ],
-                        "stations": [292, 293, [294, "Anxi branch"], 295]
+                        "stations": [292, 293, [535, "Loulan branch"], [294, "Anxi branch"], 295]
+                    },
+                    "Loulan branch": {
+                        "vertices": [
+                            [32314, -8814],
+                            [32314, -7308]
+                        ],
+                        "stations": [[535, "Main line"], 536]
                     },
                     "Anxi branch": {
                         "vertices": [
