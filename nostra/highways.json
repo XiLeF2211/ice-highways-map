@@ -6333,6 +6333,52 @@
                     "Xinjiang": ["", "Loulan branch"]
                 }
             }
+        },
+        {
+            "name": "Kanyakumari JCT",
+            "type": "jct",
+            "id": 537,
+            "x": 27838,
+            "z": 4605,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main line to Kanyakumari branch"]
+                }
+            }
+        },
+        {
+            "name": "Kanyakumari",
+            "id": 538,
+            "x": 27838,
+            "z": 5054,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Kanyakumari branch"]
+                }
+            }
+        },
+        {
+            "name": "Kustur North JCT",
+            "type": "jct",
+            "id": 539,
+            "x": 46368,
+            "z": -20364,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main line to Lena-Bulunsky branch"]
+                }
+            }
+        },
+        {
+            "name": "Lena-Bulunsky",
+            "id": 540,
+            "x": 46368,
+            "z": -23215,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Lena-Bulunsky branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -6641,7 +6687,14 @@
                             [47540, -21310],
                             [47900, -21310]
                         ],
-                        "stations": [36, 37, 148, [279, "Yarika branch"], [355, "Selo branch"], [297, "Lensk branch"], 149, [353, "Lensk branch"], 298, 327]
+                        "stations": [36, 37, 148, [279, "Yarika branch"], [355, "Selo branch"], [297, "Lensk branch"], [539, "Lena-Bulunsky branch"], 149, [353, "Lensk branch"], 298, 327]
+                    },
+                    "Lena-Bulunsky branch": {
+                        "vertices": [
+                            [46368, -20364],
+                            [46368, -23215]
+                        ],
+                        "stations": [[539, "Main line"], 540]
                     },
                     "Lensk branch": {
                         "vertices": [
@@ -6914,7 +6967,7 @@
                             [27451, 4605],
                             [28704, 4605]
                         ],
-                        "stations": [117, 531, 532, 533, 534, 323, 322, [321, "Mangalore branch"], 78, 79, 94]
+                        "stations": [117, 531, 532, 533, 534, 323, 322, [321, "Mangalore branch"], 78, 79, [357, "Kanyakumari branch"], 94]
                     },
                     "Mangalore branch": {
                         "vertices": [
@@ -6922,6 +6975,13 @@
                             [27190, 3987]
                         ],
                         "stations": [[321, "Main line"], 81]
+                    },
+                    "Kanyakumari branch": {
+                        "vertices": [
+                            [27838, 4605],
+                            [27838, 5054]
+                        ],
+                        "stations": [[357, "Main line"], 358]
                     }
                 }
             },
