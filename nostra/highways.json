@@ -6365,7 +6365,7 @@
             "z": -20364,
             "lines": {
                 "TNIH": {
-                    "Malabar": ["", "Main line to Lena-Bulunsky branch"]
+                    "Sakha": ["", "Main line to Lena-Bulunsky branch"]
                 }
             }
         },
@@ -6376,7 +6376,7 @@
             "z": -23215,
             "lines": {
                 "TNIH": {
-                    "Malabar": ["", "Lena-Bulunsky branch"]
+                    "Sakha": ["", "Lena-Bulunsky branch"]
                 }
             }
         }
