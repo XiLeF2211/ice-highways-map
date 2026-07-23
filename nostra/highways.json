@@ -6379,6 +6379,72 @@
                     "Sakha": ["", "Lena-Bulunsky branch"]
                 }
             }
+        },
+        {
+            "name": "Nantong",
+            "id": 541,
+            "x": 43221,
+            "z": -4056,
+            "lines": {
+                "Subway": {
+                    "Nantong-Suzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nantong Western Core Area",
+            "id": 542,
+            "x": 43221,
+            "z": -3976,
+            "lines": {
+                "Subway": {
+                    "Nantong-Suzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Suzhou Spawn",
+            "id": 543,
+            "x": 43221,
+            "z": -3661,
+            "lines": {
+                "Subway": {
+                    "Nantong-Suzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Suzhou Ruins Memorial Hall",
+            "id": 544,
+            "x": 43221,
+            "z": -3604,
+            "lines": {
+                "Subway": {
+                    "Nantong-Suzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "YWMG_1llusioN's Plot",
+            "id": 545,
+            "x": 43221,
+            "z": -3597,
+            "lines": {
+                "Subway": {
+                    "Nantong-Suzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Taihu East",
+            "id": 546,
+            "x": 43221,
+            "z": -3555,
+            "lines": {
+                "Subway": {
+                    "Nantong-Suzhou": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -6967,7 +7033,7 @@
                             [27451, 4605],
                             [28704, 4605]
                         ],
-                        "stations": [117, 531, 532, 533, 534, 323, 322, [321, "Mangalore branch"], 78, 79, [357, "Kanyakumari branch"], 94]
+                        "stations": [117, 531, 532, 533, 534, 323, 322, [321, "Mangalore branch"], 78, 79, [537, "Kanyakumari branch"], 94]
                     },
                     "Mangalore branch": {
                         "vertices": [
@@ -6981,7 +7047,7 @@
                             [27838, 4605],
                             [27838, 5054]
                         ],
-                        "stations": [[537, "Main line"], 538]
+                        "stations": [[536, "Main line"], 537]
                     }
                 }
             },
@@ -8389,6 +8455,23 @@
                             [39296, -17051]
                         ],
                         "stations": [[403, "Main line"]]
+                    }
+                }
+            }
+        },
+        "Subway": {
+            "Nantong-Suzhou": {
+                "prefix": "",
+                "code": "南通苏州",
+                "color": "DEA193",
+                "y": 54,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [43221, -4138],
+                            [43221, -3555]
+                        ],
+                        "stations": [541, 542, 543, 544, 545, 546]
                     }
                 }
             }
