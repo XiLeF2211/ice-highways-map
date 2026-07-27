@@ -689,18 +689,18 @@
             "z": -13056.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (East) to Petropavlosk branch"]
+                    "Kamchatka Main Y=10": ["", "Main line (East) to Salatavia branch"]
                 }
             }
         },
         {
             "name": "Petropavlosk",
             "id": 59,
-            "x": 56825,
+            "x": 56825.5,
             "z": -13056.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Petropavlosk branch"]
+                    "Kamchatka Main Y=10": ["", "Salatavia branch"]
                 }
             }
         },
@@ -6445,6 +6445,50 @@
                     "Nantong-Suzhou": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Pickle City",
+            "id": 547,
+            "x": 19131,
+            "z": -1980,
+            "lines": {
+                "TNIH": {
+                    "Makran": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Aldan",
+            "id": 548,
+            "x": 46352,
+            "z": -17000,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Chumikan",
+            "id": 549,
+            "x": 48406,
+            "z": -13833,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Salatavia",
+            "id": 550,
+            "x": 57431.5,
+            "z": -13056.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main Y=10": ["", "Salatavia branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -6658,7 +6702,7 @@
                             [56099.5, -13056.5],
                             [56099.5, -12691]
                         ],
-                        "stations": [52, [74, "Leshnybor branch"], 57, [144, "Kitahakonihon branch"], [58, "Petropavlosk branch"], [60, "Rekinikki branch"], 53]
+                        "stations": [52, [74, "Leshnybor branch"], 57, [144, "Kitahakonihon branch"], [58, "Salatavia branch"], [60, "Rekinikki branch"], 53]
                     },
                     "Main line (South)": {
                         "vertices": [
@@ -6676,12 +6720,12 @@
                         ],
                         "stations": [[176, "Main line (West)"], 177]
                     },
-                    "Petropavlosk branch": {
+                    "Salatavia branch": {
                         "vertices": [
                             [56419.5, -13056.5],
-                            [56829, -13056.5]
+                            [57431.5, -13056.5]
                         ],
-                        "stations": [[58, "Main line (East)"], 59]
+                        "stations": [[58, "Main line (East)"], 59, 550]
                     },
                     "Rekinikki branch": {
                         "vertices": [
@@ -6745,7 +6789,11 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [46360, -17732],
+                            [48406, -13830],
+                            [48406, -13899],
+                            [46352, -13899],
+                            [46352, -17672],
+                            [46360, -17672],
                             [46360, -17801],
                             [46368, -17801],
                             [46368, -20364],
@@ -6753,7 +6801,7 @@
                             [47540, -21310],
                             [47900, -21310]
                         ],
-                        "stations": [36, 37, 148, [279, "Yarika branch"], [355, "Selo branch"], [297, "Lensk branch"], [539, "Lena-Bulunsky branch"], 149, [353, "Lensk branch"], 298, 327]
+                        "stations": [549, 548, 36, 37, 148, [279, "Yarika branch"], [355, "Selo branch"], [297, "Lensk branch"], [539, "Lena-Bulunsky branch"], 149, [353, "Lensk branch"], 298, 327]
                     },
                     "Lena-Bulunsky branch": {
                         "vertices": [
@@ -6974,7 +7022,7 @@
                             [24400, -824],
                             [24400, -1437]
                         ],
-                        "stations": [530, 258, [528, "Bandar Abbas branch"], 259, 260, 243, 159, 197]
+                        "stations": [530, 547, 258, [528, "Bandar Abbas branch"], 259, 260, 243, 159, 197]
                     },
                     "Bandar Abbas branch": {
                         "vertices": [
