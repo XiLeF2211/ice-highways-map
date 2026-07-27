@@ -6133,7 +6133,7 @@
             "z": 4426.5,
             "lines": {
                 "Ethiopia": {
-                    "Fiche-Trial-Adama": ["", "Main line"]
+                    "AshBorn-Trial-Adama": ["", "Main line"]
                 }
             }
         },
@@ -6144,7 +6144,7 @@
             "z": 4712,
             "lines": {
                 "Ethiopia": {
-                    "Fiche-Trial-Adama": ["", "Main line"]
+                    "AshBorn-Trial-Adama": ["", "Main line"]
                 }
             }
         },
@@ -6155,7 +6155,7 @@
             "z": 4900,
             "lines": {
                 "Ethiopia": {
-                    "Fiche-Trial-Adama": ["", "Main line"]
+                    "AshBorn-Trial-Adama": ["", "Main line"]
                 }
             }
         },
@@ -6166,7 +6166,7 @@
             "z": 5000,
             "lines": {
                 "Ethiopia": {
-                    "Fiche-Trial-Adama": ["", "Main line"]
+                    "AshBorn-Trial-Adama": ["", "Main line"]
                 }
             },
             "areas": [
@@ -6181,7 +6181,7 @@
             "z": 5270,
             "lines": {
                 "Ethiopia": {
-                    "Fiche-Trial-Adama": ["", "Main line"]
+                    "AshBorn-Trial-Adama": ["", "Main line"]
                 }
             },
             "areas": [
@@ -6196,7 +6196,7 @@
             "z": 5666,
             "lines": {
                 "Ethiopia": {
-                    "Fiche-Trial-Adama": ["", "Main line to Adama branch"]
+                    "AshBorn-Trial-Adama": ["", "Main line to Adama branch"]
                 }
             }
         },
@@ -6207,7 +6207,7 @@
             "z": 5666,
             "lines": {
                 "Ethiopia": {
-                    "Fiche-Trial-Adama": ["", "Adama branch"]
+                    "AshBorn-Trial-Adama": ["", "Adama branch"]
                 }
             }
         },
@@ -6218,7 +6218,7 @@
             "z": 6258,
             "lines": {
                 "Ethiopia": {
-                    "Fiche-Trial-Adama": ["", "Adama branch"]
+                    "AshBorn-Trial-Adama": ["", "Adama branch"]
                 }
             }
         },
@@ -6229,7 +6229,7 @@
             "z": 6135.5,
             "lines": {
                 "Ethiopia": {
-                    "Fiche-Trial-Adama": ["", "Main line"]
+                    "AshBorn-Trial-Adama": ["", "Main line"]
                 }
             }
         },
@@ -6489,6 +6489,96 @@
                     "Kamchatka Main Y=10": ["", "Salatavia branch"]
                 }
             }
+        },
+        {
+            "name": "AshBorn",
+            "id": 551,
+            "x": 13545,
+            "z": 4259,
+            "lines": {
+                "Ethiopia": {
+                    "AshBorn-Trial-Adama": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tarcha JCT",
+            "type": "jct",
+            "id": 552,
+            "x": 13256,
+            "z": 5468,
+            "lines": {
+                "Ethiopia": {
+                    "AshBorn-Trial-Adama": ["", "Main line"],
+                    "Tarcha-Gode": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Oromia (JCT)",
+            "id": 553,
+            "x": 14077,
+            "z": 5468,
+            "lines": {
+                "Ethiopia": {
+                    "Tarcha-Gode": ["", "Main line"],
+                    "Oromia-Pemba Island": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Gode",
+            "id": 554,
+            "x": 15160,
+            "z": 5417,
+            "lines": {
+                "Ethiopia": {
+                    "Tarcha-Gode": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Reji JCT",
+            "id": 555,
+            "x": 14090,
+            "z": 5865,
+            "lines": {
+                "Ethiopia": {
+                    "Oromia-Pemba Island": ["", "Main line to Reji branch"]
+                }
+            }
+        },
+        {
+            "name": "Reji",
+            "id": 556,
+            "x": 13968,
+            "z": 5865,
+            "lines": {
+                "Ethiopia": {
+                    "Oromia-Pemba Island": ["", "Reji branch"]
+                }
+            },
+            "areas": [
+                [[13953, 5857], [13965, 5872]],
+                [[13963, 5863], [13970, 5873]],
+                [[13961, 5863], [13972, 5876]],
+                [[13959, 5860], [13980, 5878]],
+                [[13967, 5855], [13980, 5878]]
+            ]
+        },
+        {
+            "name": "Pemba Island",
+            "id": 557,
+            "x": 14233,
+            "z": 9905,
+            "lines": {
+                "Ethiopia": {
+                    "Oromia-Pemba Island": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[14218, 9898], [14271, 9920]]
+            ]
         }
     ],
     "lines": {
@@ -6553,7 +6643,7 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [1378, -17732],
+                            [0, -17732],
                             [9662, -17732],
                             [9662, -17778],
                             [9761, -17778],
@@ -7744,8 +7834,7 @@
                             [46140, -17791],
                             [46350, -17791],
                             [46350, -17812],
-                            [46350, -17825],
-                            [46397, -17876],
+                            [46350, -17876],
                             [46524, -17876]
                         ],
                         "stations": [147, 281, 37, 513]
@@ -8186,15 +8275,16 @@
             }
         },
         "Ethiopia": {
-            "Fiche-Trial-Adama": {
+            "AshBorn-Trial-Adama": {
                 "prefix": "",
-                "code": "",
+                "code": "ATA",
                 "color": "fcdd09",
                 "y": 41,
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [13396, 4422],
+                            [13550, 4259],
+                            [13396, 4259],
                             [13396, 4533],
                             [13414, 4533],
                             [13414, 4721],
@@ -8203,7 +8293,7 @@
                             [13270, 5763],
                             [13270, 6143]
                         ],
-                        "stations": [519, 520, 521, 522, 523, [524, "Adama branch"], 527]
+                        "stations": [519, 520, 521, 522, 523, 552, [524, "Adama branch"], 527]
                     },
                     "Adama branch": {
                         "vertices": [
@@ -8212,6 +8302,51 @@
                             [13503, 6258]
                         ],
                         "stations": [[524, "Main line"], 525, 526]
+                    }
+                }
+            },
+            "Tarcha-Gode": {
+                "prefix": "",
+                "code": "TG",
+                "color": "F3791B",
+                "y": 41,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [13256, 5468],
+                            [14077, 5468],
+                            [14077, 5463],
+                            [15160, 5463],
+                            [15160, 5409]
+                        ],
+                        "stations": [552, 553, 554]
+                    }
+                }
+            },
+            "Oromia-Pemba Island": {
+                "prefix": "",
+                "code": "OPi",
+                "color": "DA121A",
+                "y": 41,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [14077, 5468],
+                            [14077, 5472],
+                            [14090, 5472],
+                            [14090, 8355],
+                            [14017, 8355],
+                            [14017, 9905],
+                            [14283, 9905]
+                        ],
+                        "stations": [553, [555, "Reji branch"], 557]
+                    },
+                    "Reji branch": {
+                        "vertices": [
+                            [14090, 5865],
+                            [13968, 5865]
+                        ],
+                        "stations": [[555, "Main line"], 556]
                     }
                 }
             }
