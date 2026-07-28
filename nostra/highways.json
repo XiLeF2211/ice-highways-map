@@ -190,13 +190,14 @@
         {
             "name": "Pirate Bay",
             "id": 16,
-            "x": -25681,
-            "z": 799,
+            "x": -25680,
+            "z": 791,
             "lines": {
                 "Florida": {
                     "Guama-Cockburn Harbour": ["", "Main line"]
                 }
-            }
+            },
+            "notes": "Entrance at x=-25680, y=63, z=799"
         },
         {
             "name": "Cockburn Harbour",
@@ -592,39 +593,33 @@
             "z": -16182.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (West)"]
+                    "Kamchatka Main": ["", "Main line (North)"]
                 }
             }
         },
         {
-            "name": "Shelikhov West Elevator",
+            "name": "Ochotsk JCT",
             "id": 51,
-            "type": "elev-we",
-            "x": 56023.5,
-            "z": -16182.5,
-            "y1": 10,
-            "y2": -5,
+            "type": "jct",
+            "x": 51500,
+            "z": -16181.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (West)"],
-                    "Kamchatka Main Y=-5": ["", "Main line"]
+                    "Kamchatka Main": ["", "Main line (North) to Ochotsk branch"]
                 }
             }
         },
         {
-            "name": "Shelikhov South Elevator",
+            "name": "Ochotsk",
             "id": 52,
-            "type": "elev-ew",
-            "x": 56419.5,
-            "z": -15972.5,
-            "y1": -5,
-            "y2": 10,
+            "x": 51500,
+            "z": -16265.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (East)"],
-                    "Kamchatka Main Y=-5": ["", "Main line"]
+                    "Kamchatka Main": ["", "Ochotsk branch"]
                 }
-            }
+            },
+            "notes": "Entrance at x=51493 y=63 z=-16265"
         },
         {
             "name": "Evensk",
@@ -633,7 +628,7 @@
             "z": -12693.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (East)"]
+                    "Kamchatka Main": ["", "Main line (North)"]
                 }
             }
         },
@@ -678,7 +673,7 @@
             "z": -14007.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (East)"]
+                    "Kamchatka Main": ["", "Main line (North)"]
                 }
             }
         },
@@ -689,7 +684,7 @@
             "z": -13056.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (East) to Salatavia branch"]
+                    "Kamchatka Main": ["", "Main line (North) to Salatavia branch"]
                 }
             }
         },
@@ -700,7 +695,7 @@
             "z": -13056.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Salatavia branch"]
+                    "Kamchatka Main": ["", "Salatavia branch"]
                 }
             }
         },
@@ -712,7 +707,7 @@
             "z": -12919.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (East) to Rekinikki branch"]
+                    "Kamchatka Main": ["", "Main line (North) to Rekinikki branch"]
                 }
             }
         },
@@ -723,7 +718,7 @@
             "z": -12919.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Rekinikki branch"]
+                    "Kamchatka Main": ["", "Rekinikki branch"]
                 }
             }
         },
@@ -875,7 +870,7 @@
             "z": -15203.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (East) to Leshnybor branch"]
+                    "Kamchatka Main": ["", "Main line (North) to Leshnybor branch"]
                 }
             }
         },
@@ -886,7 +881,7 @@
             "z": -15203.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Leshnybor branch"]
+                    "Kamchatka Main": ["", "Leshnybor branch"]
                 }
             }
         },
@@ -897,7 +892,7 @@
             "z": -17439.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Leshnybor branch"]
+                    "Kamchatka Main": ["", "Leshnybor branch"]
                 }
             }
         },
@@ -1657,7 +1652,7 @@
             "z": -15203.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Leshnybor branch to Koleso branch"]
+                    "Kamchatka Main": ["", "Leshnybor branch to Koleso branch"]
                 }
             }
         },
@@ -1668,7 +1663,7 @@
             "z": -15106,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Koleso branch"]
+                    "Kamchatka Main": ["", "Koleso branch"]
                 }
             }
         },
@@ -1680,7 +1675,7 @@
             "z": -13907.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (East) to Kitahakonihon branch"]
+                    "Kamchatka Main": ["", "Main line (North) to Kitahakonihon branch"]
                 }
             }
         },
@@ -1691,7 +1686,7 @@
             "z": -13907.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Kitahakonihon branch"]
+                    "Kamchatka Main": ["", "Kitahakonihon branch"]
                 }
             }
         },
@@ -2053,7 +2048,7 @@
             "z": -16182.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (West) to Taynaya branch"]
+                    "Kamchatka Main": ["", "Main line (North) to Taynaya branch"]
                 }
             }
         },
@@ -2064,7 +2059,7 @@
             "z": -16407,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Taynaya branch"]
+                    "Kamchatka Main": ["", "Taynaya branch"]
                 }
             }
         },
@@ -2135,7 +2130,7 @@
             "z": -16182.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (West)"],
+                    "Kamchatka Main": ["", "Main line (North)"],
                     "Magadan": ["", ""]
                 }
             }
@@ -3774,7 +3769,7 @@
             "z": -16182.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (West)"]
+                    "Kamchatka Main": ["", "Main line (North)"]
                 }
             }
         },
@@ -4202,7 +4197,7 @@
             "lines": {
                 "TNIH": {
                     "Sakhalin": ["", "Main line"],
-                    "Kamchatka Main Y=10": ["", "Main line (West)"]
+                    "Kamchatka Main": ["", "Main line (North)"]
                 }
             }
         },
@@ -4225,7 +4220,7 @@
             "z": -12602,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (South)"]
+                    "Kamchatka Main": ["", "Main line (South)"]
                 }
             }
         },
@@ -4237,7 +4232,7 @@
             "z": -12076,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (South) to Allburg branch"]
+                    "Kamchatka Main": ["", "Main line (South) to Allburg branch"]
                 }
             }
         },
@@ -4248,7 +4243,7 @@
             "z": -12076,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Allburg branch"]
+                    "Kamchatka Main": ["", "Allburg branch"]
                 }
             }
         },
@@ -4259,7 +4254,7 @@
             "z": -11826,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (South)"]
+                    "Kamchatka Main": ["", "Main line (South)"]
                 }
             }
         },
@@ -4270,7 +4265,7 @@
             "z": -11272,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Main line (South)"]
+                    "Kamchatka Main": ["", "Main line (South)"]
                 }
             }
         },
@@ -5944,7 +5939,7 @@
             }
         },
         {
-            "name": "Yaroslavl",
+            "name": "Chitovskaya",
             "id": 503,
             "x": 14528,
             "z": -17732,
@@ -5999,7 +5994,7 @@
             }
         },
         {
-            "name": "Izayoi Forest Emegency Exit",
+            "name": "Hakurei Forest Emegency Exit",
             "type": "semi1",
             "id": 508,
             "x": 37602,
@@ -6486,7 +6481,7 @@
             "z": -13056.5,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main Y=10": ["", "Salatavia branch"]
+                    "Kamchatka Main": ["", "Salatavia branch"]
                 }
             }
         },
@@ -6590,6 +6585,27 @@
                     "Dessie-Trial-Adama": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "TNIH – Norvegian Elevator",
+            "id": 559,
+            "type": "elev-we",
+            "x": 3975,
+            "z": -17735,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                },
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Trondheim": ["", "Main line"],
+                    "Middle North": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[3982, -17736], [3969, -17734]],
+                [[3982, -17734], [3980, -17731]],
+                [[3969, -17734], [3971, -17731]]
+            ]
         }
     ],
     "lines": {
@@ -6669,7 +6685,7 @@
                             [52960.5, -23834.5],
                             [51646, -23834.5]
                         ],
-                        "stations": [493, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], 500, [501, "Lappeenranta branch"], 503, 504, [505, "Poikovskii branch"], 406, 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, [213, "Riverwood branch"], [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], [7, "Duchy of Rivers branch"], 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340]
+                        "stations": [493, 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], 500, [501, "Lappeenranta branch"], 503, 504, [505, "Poikovskii branch"], 406, 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, [213, "Riverwood branch"], [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], [7, "Duchy of Rivers branch"], 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340]
                     },
                     "Finlandia branch": {
                         "vertices": [
@@ -6781,30 +6797,25 @@
                     }
                 }
             },
-            "Kamchatka Main Y=10": {
+            "Kamchatka Main": {
                 "prefix": "",
-                "code": "KC Y10",
+                "code": "KC",
                 "color": "FFD800",
                 "y": 10,
                 "branches": {
-                    "Main line (West)": {
+                    "Main line (North)": {
                         "vertices": [
                             [51178.5, -16181.5],
                             [52263.5, -16181.5],
                             [52271.5, -16182.5],
-                            [56023.5, -16182.5]
-                        ],
-                        "stations": [360, 50, [176, "Taynaya branch"], 183, 324, 51]
-                    },
-                    "Main line (East)": {
-                        "vertices": [
-                            [56419.5, -15972.5],
+                            [56419.5, -16182.5],
                             [56419.5, -13056.5],
                             [56099.5, -13056.5],
                             [56099.5, -12691]
                         ],
-                        "stations": [52, [74, "Leshnybor branch"], 57, [144, "Kitahakonihon branch"], [58, "Salatavia branch"], [60, "Rekinikki branch"], 53]
+                        "stations": [360, [51, "Ochotsk branch"], 50, [176, "Taynaya branch"], 183, 324, [74, "Leshnybor branch"], 57, [144, "Kitahakonihon branch"], [58, "Salatavia branch"], [60, "Rekinikki branch"], 53]
                     },
+
                     "Main line (South)": {
                         "vertices": [
                             [56100, -12608],
@@ -6819,21 +6830,21 @@
                             [53410, -16182.5],
                             [53410, -16407]
                         ],
-                        "stations": [[176, "Main line (West)"], 177]
+                        "stations": [[176, "Main line (North)"], 177]
                     },
                     "Salatavia branch": {
                         "vertices": [
                             [56419.5, -13056.5],
                             [57431.5, -13056.5]
                         ],
-                        "stations": [[58, "Main line (East)"], 59, 550]
+                        "stations": [[58, "Main line (North)"], 59, 550]
                     },
                     "Rekinikki branch": {
                         "vertices": [
                             [56099.5, -12919.5],
                             [56027, -12919.5]
                         ],
-                        "stations": [[60, "Main line (East)"], 61]
+                        "stations": [[60, "Main line (North)"], 61]
                     },
 					"Leshnybor branch": {
 						"vertices": [
@@ -6841,7 +6852,7 @@
                             [58428.5, -15203.5],
                             [58428.5, -17434.5]
                         ],
-                        "stations": [[74, "Main line (East)"], 75, [142, "Koleso branch"], 76]
+                        "stations": [[74, "Main line (North)"], 75, [142, "Koleso branch"], 76]
 					},
 					"Koleso branch": {
 						"vertices": [
@@ -6855,7 +6866,7 @@
                             [56419.5, -13907.5],
                             [58085.5, -13907.5]
                         ],
-                        "stations": [[144, "Main line (East)"], 145]
+                        "stations": [[144, "Main line (North)"], 145]
 					},
 					"Allburg branch": {
 						"vertices": [
@@ -6863,22 +6874,13 @@
                             [56190, -12076]
                         ],
                         "stations": [[363, "Main line (South)"], 364]
-					}
-                }
-            },
-            "Kamchatka Main Y=-5": {
-                "prefix": "",
-                "code": "KC Y-5",
-                "color": "FFD800",
-                "y": -5,
-                "branches": {
-                    "Main line": {
+					},
+                    "Ochotsk branch": {
                         "vertices": [
-                            [56023.5, -16182.5],
-                            [56419.5, -16182.5],
-                            [56419.5, -15972.5]
+                            [51500, -16181.5],
+                            [51500, -16269.5]
                         ],
-                        "stations": [51, 52]
+                        "stations": [[51, "Main line (North)"], 52]
                     }
                 }
             },
@@ -9178,7 +9180,7 @@
                             [3741, -18440],
                             [3743, -18438]
                         ],
-                        "stations": [454, [443, "Trondheim station platforms"], 444, 445]
+                        "stations": [454, 559, [443, "Trondheim station platforms"], 444, 445]
                     },
                     "Trondheim station platforms": {
                         "vertices": [
@@ -9270,7 +9272,7 @@
                             [3752, -18427],
                             [3750, -18425]
                         ],
-                        "stations": [455, 443, 456, 457]
+                        "stations": [455, 559, 443, 456, 457]
                     }
                 }
             },
