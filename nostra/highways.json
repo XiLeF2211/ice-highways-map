@@ -6133,7 +6133,7 @@
             "z": 4426.5,
             "lines": {
                 "Ethiopia": {
-                    "AshBorn-Trial-Adama": ["", "Main line"]
+                    "Dessie-Trial-Adama": ["", "Main line"]
                 }
             }
         },
@@ -6144,7 +6144,7 @@
             "z": 4712,
             "lines": {
                 "Ethiopia": {
-                    "AshBorn-Trial-Adama": ["", "Main line"]
+                    "Dessie-Trial-Adama": ["", "Main line"]
                 }
             }
         },
@@ -6155,7 +6155,7 @@
             "z": 4900,
             "lines": {
                 "Ethiopia": {
-                    "AshBorn-Trial-Adama": ["", "Main line"]
+                    "Dessie-Trial-Adama": ["", "Main line"]
                 }
             }
         },
@@ -6166,7 +6166,7 @@
             "z": 5000,
             "lines": {
                 "Ethiopia": {
-                    "AshBorn-Trial-Adama": ["", "Main line"]
+                    "Dessie-Trial-Adama": ["", "Main line"]
                 }
             },
             "areas": [
@@ -6181,7 +6181,7 @@
             "z": 5270,
             "lines": {
                 "Ethiopia": {
-                    "AshBorn-Trial-Adama": ["", "Main line"]
+                    "Dessie-Trial-Adama": ["", "Main line"]
                 }
             },
             "areas": [
@@ -6196,7 +6196,7 @@
             "z": 5666,
             "lines": {
                 "Ethiopia": {
-                    "AshBorn-Trial-Adama": ["", "Main line to Adama branch"]
+                    "Dessie-Trial-Adama": ["", "Main line to Adama branch"]
                 }
             }
         },
@@ -6207,7 +6207,7 @@
             "z": 5666,
             "lines": {
                 "Ethiopia": {
-                    "AshBorn-Trial-Adama": ["", "Adama branch"]
+                    "Dessie-Trial-Adama": ["", "Adama branch"]
                 }
             }
         },
@@ -6218,7 +6218,7 @@
             "z": 6258,
             "lines": {
                 "Ethiopia": {
-                    "AshBorn-Trial-Adama": ["", "Adama branch"]
+                    "Dessie-Trial-Adama": ["", "Adama branch"]
                 }
             }
         },
@@ -6229,7 +6229,7 @@
             "z": 6135.5,
             "lines": {
                 "Ethiopia": {
-                    "AshBorn-Trial-Adama": ["", "Main line"]
+                    "Dessie-Trial-Adama": ["", "Main line"]
                 }
             }
         },
@@ -6497,7 +6497,7 @@
             "z": 4259,
             "lines": {
                 "Ethiopia": {
-                    "AshBorn-Trial-Adama": ["", "Main line"]
+                    "Dessie-Trial-Adama": ["", "Main line"]
                 }
             }
         },
@@ -6509,7 +6509,7 @@
             "z": 5468,
             "lines": {
                 "Ethiopia": {
-                    "AshBorn-Trial-Adama": ["", "Main line"],
+                    "Dessie-Trial-Adama": ["", "Main line"],
                     "Tarcha-Gode": ["", "Main line"]
                 }
             }
@@ -6579,6 +6579,17 @@
             "areas": [
                 [[14218, 9898], [14271, 9920]]
             ]
+        },
+        {
+            "name": "Dessie",
+            "id": 558,
+            "x": 13861,
+            "z": 4176,
+            "lines": {
+                "Ethiopia": {
+                    "Dessie-Trial-Adama": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -8275,7 +8286,7 @@
             }
         },
         "Ethiopia": {
-            "AshBorn-Trial-Adama": {
+            "Dessie-Trial-Adama": {
                 "prefix": "",
                 "code": "ATA",
                 "color": "fcdd09",
@@ -8283,7 +8294,9 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [13550, 4259],
+                            [13877, 4176],
+                            [13781, 4176],
+                            [13781, 4259],
                             [13396, 4259],
                             [13396, 4533],
                             [13414, 4533],
@@ -8293,7 +8306,7 @@
                             [13270, 5763],
                             [13270, 6143]
                         ],
-                        "stations": [551, 519, 520, 521, 522, 523, 552, [524, "Adama branch"], 527]
+                        "stations": [558, 551, 519, 520, 521, 522, 523, 552, [524, "Adama branch"], 527]
                     },
                     "Adama branch": {
                         "vertices": [
