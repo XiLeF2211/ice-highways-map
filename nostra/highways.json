@@ -6393,9 +6393,15 @@
             "z": -3976,
             "lines": {
                 "Subway": {
-                    "Nantong-Suzhou": ["", "Main line"]
+                    "Nantong-Suzhou": ["", "Main line"],
+                    "Nantong-Chongming Island": ["", "Main line"]
                 }
-            }
+            },
+            "areas": [
+              [[43219, -3980], [43226, -3969]],
+              [[43221, -3971], [43228, -3964]],
+              [[43228, -3983], [43232, -3967]]
+            ]
         },
         {
             "name": "Suzhou Spawn",
@@ -6606,6 +6612,119 @@
                 [[3982, -17734], [3980, -17731]],
                 [[3969, -17734], [3971, -17731]]
             ]
+        },
+        {
+            "name": "Parthia JCT",
+            "type": "jct",
+            "id": 560,
+            "x": 18972,
+            "z": -1980,
+            "lines": {
+                "TNIH": {
+                    "Makran": ["", "Main line"],
+                    "Arabia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bahrain JCT",
+            "type": "jct",
+            "id": 561,
+            "x": 18340,
+            "z": -1580,
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Main line to Bahrain branch"]
+                }
+            }
+        },
+        {
+            "name": "Bahrain",
+            "id": 562,
+            "x": 18122,
+            "z": -1580,
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Bahrain branch"]
+                }
+            }
+        },
+        {
+            "name": "Qatar",
+            "id": 563,
+            "x": 18340,
+            "z": -1256,
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Qatar",
+            "id": 564,
+            "x": 18340,
+            "z": -1070,
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Al-Qassim",
+            "id": 565,
+            "x": 16606,
+            "z": -634,
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Riyad",
+            "id": 566,
+            "x": 16308,
+            "z": -159,
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nantong Eastern Core Area",
+            "id": 567,
+            "x": 43303,
+            "z": -3966,
+            "lines": {
+                "Subway": {
+                    "Nantong-Chongming Island": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nantong Smeltery",
+            "id": 568,
+            "x": 43311,
+            "z": -3931,
+            "lines": {
+                "Subway": {
+                    "Nantong-Chongming Island": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nantong Iron Farm",
+            "id": 569,
+            "x": 43391,
+            "z": -3931,
+            "lines": {
+                "Subway": {
+                    "Nantong-Chongming Island": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -7125,7 +7244,7 @@
                             [24400, -824],
                             [24400, -1437]
                         ],
-                        "stations": [530, 547, 258, [528, "Bandar Abbas branch"], 259, 260, 243, 159, 197]
+                        "stations": [530, 560, 547, 258, [528, "Bandar Abbas branch"], 259, 260, 243, 159, 197]
                     },
                     "Bandar Abbas branch": {
                         "vertices": [
@@ -7133,6 +7252,32 @@
                             [20125, -2258]
                         ],
                         "stations": [[528, "Main line"], 529]
+                    }
+                }
+            },
+            "Arabia": {
+                "prefix": "",
+                "code": "AR",
+                "color": "c04657",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [18972, -1980],
+                            [18340, -1980],
+                            [18340, -1070],
+                            [16606, -1070],
+                            [16606, -159],
+                            [15763, -159]
+                        ],
+                        "stations": [560, [561, "Bahrain branch"], 563, 564, 565, 566]
+                    },
+                    "Bahrain branch": {
+                        "vertices": [
+                            [18340, -1580],
+                            [17930, -1580]
+                        ],
+                        "stations": [[561, "Main line"], 562]
                     }
                 }
             },
@@ -8672,6 +8817,24 @@
                         "stations": [541, 542, 543, 544, 545, 546]
                     }
                 }
+            },
+            "Nantong-Chongming Island": {
+                "prefix": "",
+                "code": "南通崇明岛",
+                "color": "F5DEB3",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [43222, -3966],
+                            [43303, -3966],
+                            [43303, -3931],
+                            [43495, -3931],
+                            [43495, -3911]
+                        ],
+                        "stations": [542, 567, 568, 569]
+                    }
+                }
             }
         },
         "NZ Ministry of Infrastructure": {
@@ -9433,7 +9596,7 @@
                         "stations": [[448, "Main line"]]
                     }
                 }
-            }   
+            }
         },
         "French Intercity Highway": {
             "Strasbourg-Metz": {
