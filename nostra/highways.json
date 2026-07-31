@@ -1722,7 +1722,7 @@
             ]
         },
         {
-            "name": "Fort Lena",
+            "name": "Fort Caracal",
             "id": 148,
             "x": 46368,
             "z": -18532,
@@ -4138,18 +4138,18 @@
             "z": -19163,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Main line to Selo branch"]
+                    "Sakha": ["", "Main line to Bestyakh branch"]
                 }
             }
         },
         {
             "name": "Selo",
             "id": 356,
-            "x": 46256,
+            "x": 46260,
             "z": -19163,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Selo branch"]
+                    "Sakha": ["", "Bestyakh branch"]
                 }
             }
         },
@@ -6725,6 +6725,28 @@
                     "Nantong-Chongming Island": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Novy Krakow",
+            "id": 570,
+            "x": 51296.5,
+            "z": -16181.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (North)"]
+                }
+            }
+        },
+        {
+            "name": "Bestyakh",
+            "id": 571,
+            "x": 45021,
+            "z": -19177,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Bestyakh branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -6932,7 +6954,7 @@
                             [56099.5, -13056.5],
                             [56099.5, -12691]
                         ],
-                        "stations": [360, [51, "Ochotsk branch"], 50, [176, "Taynaya branch"], 183, 324, [74, "Leshnybor branch"], 57, [144, "Kitahakonihon branch"], [58, "Salatavia branch"], [60, "Rekinikki branch"], 53]
+                        "stations": [360, 570, [51, "Ochotsk branch"], 50, [176, "Taynaya branch"], 183, 324, [74, "Leshnybor branch"], 57, [144, "Kitahakonihon branch"], [58, "Salatavia branch"], [60, "Rekinikki branch"], 53]
                     },
 
                     "Main line (South)": {
@@ -7023,7 +7045,7 @@
                             [47540, -21310],
                             [47900, -21310]
                         ],
-                        "stations": [549, 548, 36, 37, 148, [279, "Yarika branch"], [355, "Selo branch"], [297, "Lensk branch"], [539, "Lena-Bulunsky branch"], 149, [353, "Lensk branch"], 298, 327]
+                        "stations": [549, 548, 36, 37, 148, [279, "Yarika branch"], [355, "Bestyakh branch"], [297, "Lensk branch"], [539, "Lena-Bulunsky branch"], 149, [353, "Lensk branch"], 298, 327]
                     },
                     "Lena-Bulunsky branch": {
                         "vertices": [
@@ -7045,12 +7067,14 @@
                         ],
                         "stations": [[353, "Main line"], 354, [297, "Main line"], 298, 327]
                     },
-                    "Selo branch": {
+                    "Bestyakh branch": {
                         "vertices": [
                             [46368, -19163],
-                            [46256, -19163]
+                            [45027, -19170],
+                            [45027, -19177],
+                            [45017, -19177]
                         ],
-                        "stations": [[355, "Main line"], 356]
+                        "stations": [[355, "Main line"], 356, 571]
                     },
                     "Yarika branch": {
                         "vertices": [
