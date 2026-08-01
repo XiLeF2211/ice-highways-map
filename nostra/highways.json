@@ -6747,6 +6747,166 @@
                     "Sakha": ["", "Bestyakh branch"]
                 }
             }
+        },
+        {
+            "name": "Oulu",
+            "id": 572,
+            "x": 9144,
+            "z": -19509,
+            "areas": [
+                [[9135, -19511], [9158, -19488]]
+            ],
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Main line"],
+                    "Line 2": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Stonehedge",
+            "id": 573,
+            "x": 9348,
+            "z": -19396,
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kajaani Downwards Elevator",
+            "type": "elev-we",
+            "id": 574,
+            "x": 9348,
+            "z": -19072,
+            "y1": 69,
+            "y2": 53,
+            "areas": [
+                [[9346, -19116], [9350, -19028]]
+            ],
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kajaani 1nd Upwards Elevator",
+            "type": "elev-ew",
+            "id": 575,
+            "x": 9348,
+            "z": -17908,
+            "y1": 53,
+            "y2": 58,
+            "areas": [
+                [[9346, -17921], [9350, -17895]]
+            ],
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kajaani 2nd Upwards Elevator",
+            "type": "elev-ew",
+            "id": 576,
+            "x": 9348,
+            "z": -17816,
+            "y1": 58,
+            "y2": 69,
+            "areas": [
+                [[9346, -17844], [9350, -17788]]
+            ],
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "St Michael Upwards Elevator",
+            "type": "elev-ew",
+            "id": 577,
+            "x": 9442.5,
+            "z": -17784,
+            "y1": 69,
+            "y2": 71,
+            "areas": [
+                [[9434, -17786], [9451, -17782]]
+            ],
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "St Michael",
+            "id": 578,
+            "x": 9702,
+            "z": -17784,
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "St Michael Downwards Elevator",
+            "type": "elev-we",
+            "id": 579,
+            "x": 9913.5,
+            "z": -17741,
+            "y1": 69,
+            "y2": 71,
+            "areas": [
+                [[9868, -17743], [9959, -17739]]
+            ],
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kitee",
+            "id": 580,
+            "x": 10751,
+            "z": -17741,
+            "areas": [
+                [[10742, -17742], [10758, -17731]],
+                [[10732, -17740], [10743, -17733]],
+                [[10739, -17740], [10758, -17731]]
+            ],
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Rovaniemi",
+            "id": 581,
+            "x": 9204,
+            "z": -20357,
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 2": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Akira",
+            "id": 582,
+            "x": 9604,
+            "z": -20229,
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 2": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -8535,6 +8695,80 @@
                 }
             }
         },
+        "Subway": {
+            "Nantong-Suzhou": {
+                "prefix": "",
+                "code": "南通苏州",
+                "color": "DEA193",
+                "y": 54,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [43221, -4138],
+                            [43221, -3555]
+                        ],
+                        "stations": [541, 542, 543, 544, 545, 546]
+                    }
+                }
+            },
+            "Nantong-Chongming Island": {
+                "prefix": "",
+                "code": "南通崇明岛",
+                "color": "F5DEB3",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [43222, -3966],
+                            [43303, -3966],
+                            [43303, -3931],
+                            [43495, -3931],
+                            [43495, -3911]
+                        ],
+                        "stations": [542, 567, 568, 569]
+                    }
+                }
+            }
+        },
+        "Finland Public Ice Highway": {
+            "Line 1": {
+                "prefix": "",
+                "code": "L1",
+                "color": "00B8CD",
+                "y": "69, 53, 58, 71",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [9136, -19509],
+                            [9348, -19508],
+                            [9348, -17784],
+                            [9764, -17784],
+                            [9764, -17741],
+                            [10751, -17741]
+                        ],
+                        "stations": [572, 573, 574, 575, 576, 577, 578, 579, 580]
+                    }
+                }
+            },
+            "Line 2": {
+                "prefix": "",
+                "code": "L2",
+                "color": "14B250",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [9144, -19490],
+                            [9144, -20357],
+                            [9289, -20357],
+                            [9289, -20229],
+                            [9609, -20229]
+                        ],
+                        "stations": [572, 581, 582]
+                    }
+                }
+            }
+        },
         "Intercontinental": {
             "Afghan": {
                 "prefix": "",
@@ -8822,41 +9056,6 @@
                             [39296, -17051]
                         ],
                         "stations": [[403, "Main line"]]
-                    }
-                }
-            }
-        },
-        "Subway": {
-            "Nantong-Suzhou": {
-                "prefix": "",
-                "code": "南通苏州",
-                "color": "DEA193",
-                "y": 54,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [43221, -4138],
-                            [43221, -3555]
-                        ],
-                        "stations": [541, 542, 543, 544, 545, 546]
-                    }
-                }
-            },
-            "Nantong-Chongming Island": {
-                "prefix": "",
-                "code": "南通崇明岛",
-                "color": "F5DEB3",
-                "y": 50,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [43222, -3966],
-                            [43303, -3966],
-                            [43303, -3931],
-                            [43495, -3931],
-                            [43495, -3911]
-                        ],
-                        "stations": [542, 567, 568, 569]
                     }
                 }
             }
