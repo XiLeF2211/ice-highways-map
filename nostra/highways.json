@@ -6878,11 +6878,15 @@
             "areas": [
                 [[10742, -17742], [10758, -17731]],
                 [[10732, -17740], [10743, -17733]],
-                [[10739, -17740], [10758, -17731]]
+                [[10739, -17740], [10758, -17731]],
+                [[10722, -17739], [10731, -17730]]
             ],
             "lines": {
                 "Finland Public Ice Highway": {
                     "Line 1": ["", "Main line"]
+                },
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
                 }
             }
         },
@@ -7153,7 +7157,7 @@
                             [52960.5, -23834.5],
                             [51646, -23834.5]
                         ],
-                        "stations": [493, 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], 500, [501, "Lappeenranta branch"], 503, 504, [505, "Poikovskii branch"], 406, 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, [213, "Riverwood branch"], [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], [7, "Duchy of Rivers branch"], 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340]
+                        "stations": [493, 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, [213, "Riverwood branch"], [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], [7, "Duchy of Rivers branch"], 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340]
                     },
                     "Finlandia branch": {
                         "vertices": [
