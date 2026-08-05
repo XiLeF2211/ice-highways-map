@@ -7092,6 +7092,17 @@
                     "Yusha": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Magos",
+            "id": 596,
+            "x": 48565,
+            "z": -22557,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -7388,9 +7399,10 @@
                             [46368, -20364],
                             [47540, -20364],
                             [47540, -21310],
-                            [47900, -21310]
+                            [48565, -21310],
+                            [48565, -22641]
                         ],
-                        "stations": [549, 548, 36, 37, 148, [279, "Yarika branch"], [355, "Bestyakh branch"], [297, "Lensk branch"], [539, "Lena-Bulunsky branch"], 149, [353, "Lensk branch"], 298, 327]
+                        "stations": [549, 548, 36, 37, 148, [279, "Yarika branch"], [355, "Bestyakh branch"], [297, "Lensk branch"], [539, "Lena-Bulunsky branch"], 149, [353, "Lensk branch"], 298, 327, 596]
                     },
                     "Lena-Bulunsky branch": {
                         "vertices": [
