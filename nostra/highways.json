@@ -7103,6 +7103,56 @@
                     "Sakha": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Al-Mahani Mineshaft",
+            "type": "semi3",
+            "id": 597,
+            "x": 14474,
+            "z": -159,
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Thuwal JCT",
+            "type": "jct",
+            "id": 598,
+            "x": 14139,
+            "z": -159,
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Main line to Thuwal branch"]
+                }
+            }
+        },
+        {
+            "name": "Thuwal",
+            "id": 599,
+            "x": 14139,
+            "z": -151,
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Thuwal branch"]
+                }
+            }
+        },
+        {
+            "name": "Yanbu",
+            "id": 600,
+            "x": 14069,
+            "z": -242,
+            "areas": [
+                [[14065, -245], [14073, -235]],
+                [[14051, -240], [14077, -234]]
+            ],
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -7649,9 +7699,11 @@
                             [18340, -1070],
                             [16606, -1070],
                             [16606, -159],
-                            [15763, -159]
+                            [14139, -159],
+                            [14139, -242],
+                            [14066, -242]
                         ],
-                        "stations": [560, [561, "Bahrain branch"], 563, 564, 565, 566]
+                        "stations": [560, [561, "Bahrain branch"], 563, 564, 565, 566, 597, [598, "Thuwal branch"], 600]
                     },
                     "Bahrain branch": {
                         "vertices": [
@@ -7659,6 +7711,13 @@
                             [17930, -1580]
                         ],
                         "stations": [[561, "Main line"], 562]
+                    },
+                    "Thuwal branch": {
+                        "vertices": [
+                            [14139, -159],
+                            [14139, -151]
+                        ],
+                        "stations": [[598, "Main line"], 599]
                     }
                 }
             },
