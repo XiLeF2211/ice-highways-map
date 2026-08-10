@@ -7153,6 +7153,29 @@
                     "Arabia": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Al-Hawiyah JCT",
+            "type": "jct",
+            "id": 601,
+            "x": 15470,
+            "z": -159,
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Main line to Al-Hawiyah branch"]
+                }
+            }
+        },
+        {
+            "name": "Al-Hawiyah",
+            "id": 602,
+            "x": 15470,
+            "z": 310,
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Al-Hawiyah branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -7703,7 +7726,7 @@
                             [14139, -242],
                             [14066, -242]
                         ],
-                        "stations": [560, [561, "Bahrain branch"], 563, 564, 565, 566, 597, [598, "Thuwal branch"], 600]
+                        "stations": [560, [561, "Bahrain branch"], 563, 564, 565, 566, [601, "Thuwal branch"], 597, [598, "Thuwal branch"], 600]
                     },
                     "Bahrain branch": {
                         "vertices": [
@@ -7711,6 +7734,13 @@
                             [17930, -1580]
                         ],
                         "stations": [[561, "Main line"], 562]
+                    },
+                    "Al-Hawiyah branch": {
+                        "vertices": [
+                            [15470, -159],
+                            [15470, 733]
+                        ],
+                        "stations": [[601, "Main line"], 602]
                     },
                     "Thuwal branch": {
                         "vertices": [
