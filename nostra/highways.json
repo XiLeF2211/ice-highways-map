@@ -7176,6 +7176,29 @@
                     "Arabia": ["", "Al-Hawiyah branch"]
                 }
             }
+        },
+        {
+            "name": "Zeya JCT",
+            "type": "jct",
+            "id": 603,
+            "x": 46352,
+            "z": -13899,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line to Berkakit branch"]
+                }
+            }
+        },
+        {
+            "name": "Berkakit",
+            "id": 604,
+            "x": 45947,
+            "z": -13844,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Berkakit branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -7475,7 +7498,15 @@
                             [48565, -21310],
                             [48565, -22641]
                         ],
-                        "stations": [549, 548, 36, 37, 148, [279, "Yarika branch"], [355, "Bestyakh branch"], [297, "Lensk branch"], [539, "Lena-Bulunsky branch"], 149, [353, "Lensk branch"], 298, 327, 596]
+                        "stations": [549, [603, "Berkakit branch"], 548, 36, 37, 148, [279, "Yarika branch"], [355, "Bestyakh branch"], [297, "Lensk branch"], [539, "Lena-Bulunsky branch"], 149, [353, "Lensk branch"], 298, 327, 596]
+                    },
+                    "Berkakit branch": {
+                        "vertices": [
+                            [46352, -13899],
+                            [45947, -13899],
+                            [45947, -13841]
+                        ],
+                        "stations": [[603, "Main line"], 604]
                     },
                     "Lena-Bulunsky branch": {
                         "vertices": [
