@@ -7222,6 +7222,100 @@
                     "Sakha": ["", "USG branch"]
                 }
             }
+        },
+        {
+            "name": "Spokane",
+            "id": 607,
+            "x": -42380,
+            "z": -10546,
+            "lines": {
+                "Canarail": {
+                    "Spokane": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Farallon",
+            "id": 608,
+            "x": -42990,
+            "z": -10703,
+            "lines": {
+                "Canarail": {
+                    "Farallon": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Farallon JCT",
+            "type": "jct",
+            "id": 609,
+            "x": -42990,
+            "z": -10863,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Main line"],
+                    "Farallon": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Coquitlam Junction",
+            "type": "jct",
+            "id": 610,
+            "x": -42990,
+            "z": -11108,
+            "lines": {
+                "Canarail": {
+                    "Farallon": ["", "Main line to Coquitlam branch"]
+                }
+            }
+        },
+        {
+            "name": "Coquitlam",
+            "id": 611,
+            "x": -43190,
+            "z": -11108,
+            "lines": {
+                "Canarail": {
+                    "Farallon": ["", "Coquitlam branch"]
+                }
+            }
+        },
+        {
+            "name": "Duck Town Junction",
+            "type": "jct",
+            "id": 612,
+            "x": -42099,
+            "z": -12347,
+            "lines": {
+                "Canarail": {
+                    "Farallon": ["", "Main line to Trans Canadian Ice Rail connector"]
+                }
+            }
+        },
+        {
+            "name": "Northern Canada Junction",
+            "type": "jct",
+            "id": 613,
+            "x": -42099,
+            "z": -12209,
+            "lines": {
+                "Canarail": {
+                    "Trans Canadian Ice Rail": ["", ""],
+                    "Farallon": ["", "Trans Canadian Ice Rail connector"]
+                }
+            }
+        },
+        {
+            "name": "Duck Town",
+            "id": 614,
+            "x": -42085,
+            "z": -12347,
+            "lines": {
+                "Canarail": {
+                    "Farallon": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -7521,7 +7615,7 @@
                             [48565, -21310],
                             [48565, -22641]
                         ],
-                        "stations": [549, [603, "Berkakit branch"], 548, 36, 37, 148, [279, "Yarika branch"], [355, "Bestyakh branch"], [297, "Lensk branch"], [539, "Lena-Bulunsky branch"], 149, [353, "Lensk branch"], 298, 327, 596]
+                        "stations": [549, [605, "USG branch"], [603, "Berkakit branch"], 548, 36, 37, 148, [279, "Yarika branch"], [355, "Bestyakh branch"], [297, "Lensk branch"], [539, "Lena-Bulunsky branch"], 149, [353, "Lensk branch"], 298, 327, 596]
                     },
                     "USG branch": {
                         "vertices": [
@@ -8597,7 +8691,7 @@
                             [-41809, -12209],
                             [-42380, -12209]
                         ],
-                        "stations": [162, 222]
+                        "stations": [162, 613, 222]
                     }
                 }
             },
@@ -8610,9 +8704,9 @@
                     "": {
                         "vertices": [
                             [-42380, -12209],
-                            [-42380, -10863]
+                            [-42380, -10546]
                         ],
-                        "stations": [222, 223]
+                        "stations": [222, 223, 607]
                     }
                 }
             },
@@ -8625,9 +8719,9 @@
                     "Main line": {
                         "vertices": [
                             [-45674, -10863],
-                            [-42168, -10863]
+                            [-40222, -10863]
                         ],
-                        "stations": [224, [225, "Anakt branch"], [227, "Cape Flattery branch"], 229, 230, [231, "Whatcom branch"], 223, [233, "Pend Oreille branch"]]
+                        "stations": [224, [225, "Anakt branch"], [227, "Cape Flattery branch"], 229, 230, [231, "Whatcom branch"], 609, 223, [233, "Pend Oreille branch"]]
                     },
                     "Anakt branch": {
                         "vertices": [
@@ -8690,6 +8784,36 @@
                             [-44550, -11327]
                         ],
                         "stations": [236, 237, 238]
+                    }
+                }
+            },
+            "Farallon": {
+                "prefix": "",
+                "code": "Frl",
+                "color": "CB6CE6",
+                "y": "??",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-42990, -10703],
+                            [-42990, -12347],
+                            [-42085, -12347]
+                        ],
+                        "stations": [608, 609, [610, "Coquitlam branch"], [612, "Trans Canadian Ice Rail connector"], 614]
+                    },
+                    "Coquitlam branch": {
+                        "vertices": [
+                            [-42990, -11108],
+                            [-43190, -11108]
+                        ],
+                        "stations": [[610, "Main line"], 611]
+                    },
+                    "Trans Canadian Ice Rail connector": {
+                        "vertices": [
+                            [-42099, -12347],
+                            [-42099, -12209]
+                        ],
+                        "stations": [[612, "Main line"], 613]
                     }
                 }
             }
