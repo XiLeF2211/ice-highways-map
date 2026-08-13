@@ -7199,6 +7199,29 @@
                     "Sakha": ["", "Berkakit branch"]
                 }
             }
+        },
+        {
+            "name": "USG JCT",
+            "type": "jct",
+            "id": 605,
+            "x": 47358,
+            "z": -13899,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line to USG branch"]
+                }
+            }
+        },
+        {
+            "name": "USG",
+            "id": 606,
+            "x": 47358,
+            "z": -13558,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "USG branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -7499,6 +7522,13 @@
                             [48565, -22641]
                         ],
                         "stations": [549, [603, "Berkakit branch"], 548, 36, 37, 148, [279, "Yarika branch"], [355, "Bestyakh branch"], [297, "Lensk branch"], [539, "Lena-Bulunsky branch"], 149, [353, "Lensk branch"], 298, 327, 596]
+                    },
+                    "USG branch": {
+                        "vertices": [
+                            [47358, -13899],
+                            [47358, -13558]
+                        ],
+                        "stations": [[605, "Main line"], 606]
                     },
                     "Berkakit branch": {
                         "vertices": [
