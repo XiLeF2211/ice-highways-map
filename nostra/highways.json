@@ -7503,6 +7503,29 @@
                     "Yellow": ["Y05", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Fort St Svetlana JCT",
+            "type": "jct",
+            "id": 629,
+            "x": 44062,
+            "z": -20649,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Lensk branch to Fort St Svetlana branch"]
+                }
+            }
+        },
+        {
+            "name": "Fort St Svetlana",
+            "id": 630,
+            "x": 44298.5,
+            "z": -20681,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Fort St Svetlana branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -7837,7 +7860,15 @@
                             [46536, -20349],
                             [46536, -20364]
                         ],
-                        "stations": [[353, "Main line"], 354, [297, "Main line"], 298, 327]
+                        "stations": [[353, "Main line"], 354, [297, "Main line"], 298, [629, "Fort St Svetlana branch"], 327]
+                    },
+                    "Fort St Svetlana branch": {
+                        "vertices": [
+                            [44062, -20649],
+                            [44298.5, -20649],
+                            [44298.5, -20685]
+                        ],
+                        "stations": [[629, "Lensk branch"], 630]
                     },
                     "Bestyakh branch": {
                         "vertices": [
