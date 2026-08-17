@@ -3328,7 +3328,7 @@
             }
         },
         {
-            "name": "NZ",
+            "name": "NZ City North",
             "id": 286,
             "x": 60043,
             "z": 25437,
@@ -5632,7 +5632,7 @@
             }
         },
         {
-            "name": "NZ Megashop",
+            "name": "NZ City South",
             "id": 477,
             "x": 60024,
             "z": 25704,
@@ -7566,6 +7566,55 @@
                 }
             }
         },
+        {
+            "name": "<6> Zealandia Junction",
+            "type": "jct",
+            "id": 634,
+            "x": 62800,
+            "z": 24605,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y7)": ["", "Main line"],
+                    "NZ Highway 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "<7> Horsely West",
+            "type": "jct",
+            "id": 635,
+            "x": 60521,
+            "z": 25437,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y7)": ["", "Main line"],
+                    "NZ Highway 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "<3> Matauri Bay",
+            "type": "jct",
+            "id": 636,
+            "x": 62320,
+            "z": 21100,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "South Pacific Link": ["", "Main line", "Yordle Land Ramp"]
+                }
+            }
+        },
+        {
+            "name": "Yordle Land",
+            "id": 637,
+            "x": 62118,
+            "z": 21100,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "South Pacific Link": ["", "Yordle Land Ramp"]
+                }
+            }
+        }
     ],
     "lines": {
         "TNIH": {
@@ -9981,7 +10030,7 @@
                             [62800, 24605],
                             [62178, 24605]
                         ],
-                        "stations": [250, 249, 251, 248, 247, [285, "New Plymouth branch"], [282, "Napier branch", "Wanganui ramp"] , 253, 254]
+                        "stations": [250, 249, 251, 248, 247, [285, "New Plymouth branch"], [282, "Napier branch", "Wanganui ramp"] , 253, 634, 254]
                     },
                     "Napier branch": {
                         "vertices": [
@@ -10019,7 +10068,7 @@
                             [60521, 25437],
                             [60043, 25437]
                         ],
-                        "stations": [254, 255, 286]
+                        "stations": [254, 255, 635, 286]
                     }
                 }
             },
@@ -10162,9 +10211,32 @@
                     "Main line": {
                         "vertices": [
                             [62320, 21729],
-                            [62320, 21500]
+                            [62320, 21093]
                         ],
-                        "stations": [548]
+                        "stations": [632, [636, "Yordle Land Ramp"]]
+                    },
+                    "Yordle Land Ramp": {
+                        "vertices": [
+                            [62320, 21100],
+                            [62118, 21100]
+                        ],
+                        "stations": [[636, "Main line"], 637]
+                    }
+                }
+            },
+            "NZ Highway 1": {
+                "prefix": "",
+                "code": "1",
+                "color": "CC0000",
+                "y": -62,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [62800, 24605],
+                            [62800, 25437],
+                            [60521, 25437]
+                        ],
+                        "stations": [634, 635]
                     }
                 }
             }
