@@ -2921,7 +2921,7 @@
             "lines": {
                 "NZ Ministry of Infrastructure": {
                     "NZ North-South Main (Y7)": ["", "Main line"],
-                    "Fiji Link": ["", "Main line"]
+                    "Auckland Circle": ["", "Main line"]
                 }
             }
         },
@@ -6445,6 +6445,45 @@
                     "Nantong-Suzhou": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "<2> Blazerwood South Junction",
+            "type": "jct",
+            "id": 547,
+            "x": 62695,
+            "z": 22097,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "Auckland Circle": ["", "Main line"],
+                    "Blazerwood": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "<3> South Kaipara Head Junction",
+            "type": "jct",
+            "id": 548,
+            "x": 62320,
+            "z": 21729,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "Auckland Circle": ["", "Main line"],
+                    "South Pacific Link": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "<4> Hauraki Gulf Junction",
+            "type": "jct",
+            "id": 549,
+            "x": 62695,
+            "z": 21729,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "Auckland Circle": ["", "Main line", "Octogon ramp"],
+                    "Blazerwood": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -8621,21 +8660,58 @@
                     }
                 }
             },
-            "Fiji Link": {
+            "Auckland Circle": {
                 "prefix": "",
-                "code": "FJL",
+                "code": "ACL",
                 "color": "F163AA",
                 "y": 7,
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [62800, 22097],
                             [62887, 22097],
                             [62887, 21729],
+                            [62320, 21729],
+                            [62320, 22097],
+                            [62887, 22097]
+                        ],
+                        "stations": [250, 547, 548, [549, "Octogon ramp"], 250]
+                    },
+                    "Octogon ramp": {
+                        "vertices": [
                             [62695, 21729],
                             [62695, 21525]
                         ],
-                        "stations": [250]
+                        "stations": [[549, "Main line"]]
+                    }
+                }
+            },
+            "Blazerwood": {
+                "prefix": "",
+                "code": "BZL",
+                "color": "E9F60F",
+                "y": 7,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [62695, 21729],
+                            [62695, 22097]
+                        ],
+                        "stations": [549, 547]
+                    }
+                }
+            },
+            "South Pacific Link": {
+                "prefix": "",
+                "code": "SPL",
+                "color": "F0CA00",
+                "y": 7,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [62320, 21729],
+                            [62320, 21500]
+                        ],
+                        "stations": [548]
                     }
                 }
             }
