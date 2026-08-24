@@ -211,7 +211,7 @@
             }
         },
         {
-            "name": "Omars",
+            "name": "Cosmopol",
             "id": 18,
             "x": 52474.5,
             "z": -21475.5,
@@ -2918,7 +2918,7 @@
             "lines": {
                 "NZ Ministry of Infrastructure": {
                     "NZ North-South Main (Y7)": ["", "Main line"],
-                    "Fiji Link": ["", "Main line"]
+                    "Auckland Circle": ["", "Main line"]
                 }
             }
         },
@@ -3328,7 +3328,7 @@
             }
         },
         {
-            "name": "NZ",
+            "name": "NZ City North",
             "id": 286,
             "x": 60043,
             "z": 25437,
@@ -5632,7 +5632,7 @@
             }
         },
         {
-            "name": "NZ Megashop",
+            "name": "NZ City South",
             "id": 477,
             "x": 60024,
             "z": 25704,
@@ -7528,8 +7528,96 @@
             }
         },
         {
-            "name": "TownyMcTownFace JCT",
+            "name": "<2> Blazerwood South Junction",
+            "type": "jct",
             "id": 631,
+            "x": 62695,
+            "z": 22097,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "Auckland Circle": ["", "Main line"],
+                    "Blazerwood": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "<3> South Kaipara Head Junction",
+            "type": "jct",
+            "id": 632,
+            "x": 62320,
+            "z": 21729,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "Auckland Circle": ["", "Main line"],
+                    "South Pacific Link": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "<4> Hauraki Gulf Junction",
+            "type": "jct",
+            "id": 633,
+            "x": 62695,
+            "z": 21729,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "Auckland Circle": ["", "Main line", "Octogon ramp"],
+                    "Blazerwood": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "<6> Zealandia Junction",
+            "type": "jct",
+            "id": 634,
+            "x": 62800,
+            "z": 24605,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y7)": ["", "Main line"],
+                    "NZ Highway 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "<7> Horsely West",
+            "type": "jct",
+            "id": 635,
+            "x": 60521,
+            "z": 25437,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y-62)": ["", "Main line"],
+                    "NZ Highway 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "<3> Matauri Bay",
+            "type": "jct",
+            "id": 636,
+            "x": 62320,
+            "z": 21100,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "South Pacific Link": ["", "Main line", "Yordle Land Ramp"]
+                }
+            }
+        },
+        {
+            "name": "Yordle Land",
+            "id": 637,
+            "x": 62118,
+            "z": 21100,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "South Pacific Link": ["", "Yordle Land Ramp"]
+                }
+            }
+        },
+        {
+            "name": "TownyMcTownFace JCT",
+            "id": 638,
             "x": 55500,
             "z": -11500,
             "lines": {
@@ -7540,7 +7628,7 @@
         },
         {
             "name": "TownyMcTownFace",
-            "id": 632,
+            "id": 639,
             "x": 55252,
             "z": -11500,
             "lines": {
@@ -7552,7 +7640,7 @@
         {
             "name": "Rashowakai Mineshaft",
             "type": "semi1",
-            "id": 633,
+            "id": 640,
             "x": 55109,
             "z": -10550,
             "lines": {
@@ -7563,7 +7651,7 @@
         },
         {
             "name": "Rashowa",
-            "id": 634,
+            "id": 641,
             "x": 54840,
             "z": -10550,
             "lines": {
@@ -7574,7 +7662,7 @@
         },
         {
             "name": "Simushir",
-            "id": 635,
+            "id": 642,
             "x": 54354,
             "z": -10123,
             "lines": {
@@ -7585,7 +7673,7 @@
         },
         {
             "name": "Vulkan Chernogo",
-            "id": 636,
+            "id": 643,
             "x": 54023,
             "z": -10096,
             "lines": {
@@ -7596,7 +7684,7 @@
         },
         {
             "name": "Tolbuhin-Onigashima",
-            "id": 637,
+            "id": 644,
             "x": 53729,
             "z": -9687,
             "lines": {
@@ -7813,7 +7901,6 @@
                         ],
                         "stations": [360, 570, [51, "Ochotsk branch"], 50, [176, "Taynaya branch"], 183, 324, [74, "Leshnybor branch"], 57, [144, "Kitahakonihon branch"], [58, "Salatavia branch"], [60, "Rekinikki branch"], 53]
                     },
-
                     "Main line (South)": {
                         "vertices": [
                             [56100, -12608],
@@ -7825,7 +7912,7 @@
                             [53729, -10096],
                             [53729, -9581]
                         ],
-                        "stations": [362, [363, "Allburg branch"], 365, [631, "TownyMcTownFace branch"], 366, 633, 634, 635, 636, 637]
+                        "stations": [362, [363, "Allburg branch"], 365, [637, "TownyMcTownFace branch"], 366, 639, 640, 641, 642, 643]
                     },
                     "Ochotsk branch": {
                         "vertices": [
@@ -7889,7 +7976,7 @@
                             [55500, -11500],
                             [55252, -11500]
                         ],
-                        "stations": [[631, "Main line (South)"], 632]
+                        "stations": [[637, "Main line (South)"], 638]
                     }
                 }
             },
@@ -10031,7 +10118,7 @@
                             [62800, 24605],
                             [62178, 24605]
                         ],
-                        "stations": [250, 249, 251, 248, 247, [285, "New Plymouth branch"], [282, "Napier branch", "Wanganui ramp"] , 253, 254]
+                        "stations": [250, 249, 251, 248, 247, [285, "New Plymouth branch"], [282, "Napier branch", "Wanganui ramp"] , 253, 634, 254]
                     },
                     "Napier branch": {
                         "vertices": [
@@ -10069,7 +10156,7 @@
                             [60521, 25437],
                             [60043, 25437]
                         ],
-                        "stations": [254, 255, 286]
+                        "stations": [254, 255, 635, 286]
                     }
                 }
             },
@@ -10163,21 +10250,81 @@
                     }
                 }
             },
-            "Fiji Link": {
+            "Auckland Circle": {
                 "prefix": "",
-                "code": "FJL",
+                "code": "ACL",
                 "color": "F163AA",
                 "y": 7,
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [62800, 22097],
                             [62887, 22097],
                             [62887, 21729],
+                            [62320, 21729],
+                            [62320, 22097],
+                            [62887, 22097]
+                        ],
+                        "stations": [250, 631, 632, [633, "Octogon ramp"], 250]
+                    },
+                    "Octogon ramp": {
+                        "vertices": [
                             [62695, 21729],
                             [62695, 21525]
                         ],
-                        "stations": [250]
+                        "stations": [[633, "Main line"]]
+                    }
+                }
+            },
+            "Blazerwood": {
+                "prefix": "",
+                "code": "BZL",
+                "color": "E9F60F",
+                "y": 7,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [62695, 21729],
+                            [62695, 22097]
+                        ],
+                        "stations": [631, 633]
+                    }
+                }
+            },
+            "South Pacific Link": {
+                "prefix": "",
+                "code": "SPL",
+                "color": "F0CA00",
+                "y": 7,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [62320, 21729],
+                            [62320, 21093]
+                        ],
+                        "stations": [632, [636, "Yordle Land Ramp"]]
+                    },
+                    "Yordle Land Ramp": {
+                        "vertices": [
+                            [62320, 21100],
+                            [62118, 21100]
+                        ],
+                        "stations": [[636, "Main line"], 637]
+                    }
+                }
+            },
+            "NZ Highway 1": {
+                "prefix": "",
+                "code": "1",
+                "color": "CC0000",
+                "y": -62,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [62800, 24605],
+                            [62800, 25437],
+                            [60521, 25437]
+                        ],
+                        "stations": [634, 635]
                     }
                 }
             }
