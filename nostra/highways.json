@@ -211,7 +211,7 @@
             }
         },
         {
-            "name": "Omars",
+            "name": "Cosmopol",
             "id": 18,
             "x": 52474.5,
             "z": -21475.5,
@@ -7614,6 +7614,84 @@
                     "South Pacific Link": ["", "Yordle Land Ramp"]
                 }
             }
+        },
+        {
+            "name": "TownyMcTownFace JCT",
+            "id": 638,
+            "x": 55500,
+            "z": -11500,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (South) to TownyMcTownFace branch"]
+                }
+            }
+        },
+        {
+            "name": "TownyMcTownFace",
+            "id": 639,
+            "x": 55252,
+            "z": -11500,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "TownyMcTownFace branch"]
+                }
+            }
+        },
+        {
+            "name": "Rashowakai Mineshaft",
+            "type": "semi1",
+            "id": 640,
+            "x": 55109,
+            "z": -10550,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (South)"]
+                }
+            }
+        },
+        {
+            "name": "Rashowa",
+            "id": 641,
+            "x": 54840,
+            "z": -10550,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (South)"]
+                }
+            }
+        },
+        {
+            "name": "Simushir",
+            "id": 642,
+            "x": 54354,
+            "z": -10123,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (South)"]
+                }
+            }
+        },
+        {
+            "name": "Vulkan Chernogo",
+            "id": 643,
+            "x": 54023,
+            "z": -10096,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (South)"]
+                }
+            }
+        },
+        {
+            "name": "Tolbuhin-Onigashima",
+            "id": 644,
+            "x": 53729,
+            "z": -9687,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (South)"]
+                }
+            }
         }
     ],
     "lines": {
@@ -7823,15 +7901,25 @@
                         ],
                         "stations": [360, 570, [51, "Ochotsk branch"], 50, [176, "Taynaya branch"], 183, 324, [74, "Leshnybor branch"], 57, [144, "Kitahakonihon branch"], [58, "Salatavia branch"], [60, "Rekinikki branch"], 53]
                     },
-
                     "Main line (South)": {
                         "vertices": [
                             [56100, -12608],
                             [56100, -11826],
                             [55500, -11826],
-                            [55500, -10964]
+                            [55500, -10550],
+                            [54354, -10550],
+                            [54354, -10096],
+                            [53729, -10096],
+                            [53729, -9581]
                         ],
-                        "stations": [362, [363, "Allburg branch"], 365, 366]
+                        "stations": [362, [363, "Allburg branch"], 365, [637, "TownyMcTownFace branch"], 366, 639, 640, 641, 642, 643]
+                    },
+                    "Ochotsk branch": {
+                        "vertices": [
+                            [51500, -16181.5],
+                            [51500, -16269.5]
+                        ],
+                        "stations": [[51, "Main line (North)"], 52]
                     },
                     "Taynaya branch": {
                         "vertices": [
@@ -7883,12 +7971,12 @@
                         ],
                         "stations": [[363, "Main line (South)"], 364]
 					},
-                    "Ochotsk branch": {
+                    "TownyMcTownFace branch": {
                         "vertices": [
-                            [51500, -16181.5],
-                            [51500, -16269.5]
+                            [55500, -11500],
+                            [55252, -11500]
                         ],
-                        "stations": [[51, "Main line (North)"], 52]
+                        "stations": [[637, "Main line (South)"], 638]
                     }
                 }
             },
