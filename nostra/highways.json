@@ -571,7 +571,7 @@
             "z": -9258,
             "lines": {
                 "Gobi Transport": {
-                    "Gobi 1st": ["", "Main line"]
+                    "North-South Main": ["", "Main line"]
                 }
             }
         },
@@ -582,7 +582,7 @@
             "z": -6933,
             "lines": {
                 "Gobi Transport": {
-                    "Gobi 1st": ["", "Main line"]
+                    "North-South Main": ["", "Main line"]
                 }
             }
         },
@@ -961,7 +961,7 @@
             "z": -9213,
             "lines": {
                 "Gobi Transport": {
-                    "Gobi 1st": ["", "Main line to Shinsyu branch"]
+                    "North-South Main": ["", "Main line to Shinsyu branch"]
                 }
             }
         },
@@ -972,7 +972,7 @@
             "z": -9213,
             "lines": {
                 "Gobi Transport": {
-                    "Gobi 1st": ["", "Shinsyu branch"]
+                    "North-South Main": ["", "Shinsyu branch"]
                 }
             }
         },
@@ -983,7 +983,7 @@
             "z": -9213,
             "lines": {
                 "Gobi Transport": {
-                    "Gobi 1st": ["", "Shinsyu branch"]
+                    "North-South Main": ["", "Shinsyu branch"]
                 }
             }
         },
@@ -2476,7 +2476,7 @@
                     "Tibet": ["", "Main line"]
                 },
                 "Gobi Transport": {
-                    "Gobi 1st": ["", "Main line"]
+                    "North-South Main": ["", "Main line"]
                 }
             }
         },
@@ -3174,7 +3174,7 @@
             "z": -6692,
             "lines": {
                 "Gobi Transport": {
-                    "Gobi 1st": ["", "Main line"]
+                    "North-South Main": ["", "Main line"]
                 }
             }
         },
@@ -3185,7 +3185,7 @@
             "z": -5089,
             "lines": {
                 "Gobi Transport": {
-                    "Gobi 1st": ["", "Main line"],
+                    "North-South Main": ["", "Main line"],
                     "Eastern": ["", "Main line"]
                 }
             }
@@ -3198,7 +3198,7 @@
             "z": -5089,
             "lines": {
                 "Gobi Transport": {
-                    "Gobi 1st": ["", "Main line to Mongolia branch"]
+                    "North-South Main": ["", "Main line to Mongolia branch"]
                 }
             }
         },
@@ -3210,7 +3210,7 @@
             "z": -4591,
             "lines": {
                 "Gobi Transport": {
-                    "Gobi 1st": ["", "Main line to Quemo branch"]
+                    "North-South Main": ["", "Main line to Quemo branch"]
                 }
             }
         },
@@ -3221,7 +3221,7 @@
             "z": -4005,
             "lines": {
                 "Gobi Transport": {
-                    "Gobi 1st": ["", "Main line"]
+                    "North-South Main": ["", "Main line"]
                 }
             }
         },
@@ -3232,7 +3232,7 @@
             "z": -5165,
             "lines": {
                 "Gobi Transport": {
-                    "Gobi 1st": ["", "Mongolia branch"]
+                    "North-South Main": ["", "Mongolia branch"]
                 }
             }
         },
@@ -3243,7 +3243,7 @@
             "z": -4591,
             "lines": {
                 "Gobi Transport": {
-                    "Gobi 1st": ["", "Quemo branch"]
+                    "North-South Main": ["", "Quemo branch"]
                 }
             }
         },
@@ -3347,7 +3347,7 @@
             "z": -9162,
             "lines": {
                 "Gobi Transport": {
-                    "Gobi 1st": ["", "Main line"],
+                    "North-South Main": ["", "Main line"],
                     "NRI": ["", "Main line"]
                 }
             }
@@ -3408,7 +3408,7 @@
             "lines": {
                 "Gobi Transport": {
                     "Xinjiang": ["", "Main line"],
-                    "Gobi 1st": ["", "Main line"]
+                    "North-South Main": ["", "Main line"]
                 }
             }
         },
@@ -6309,10 +6309,10 @@
             }
         },
         {
-            "name": "Loulan JCT",
+            "name": "Loulan North JCT",
             "type": "jct",
             "id": 535,
-            "x": 32314,
+            "x": 32314.5,
             "z": -8814,
             "lines": {
                 "Gobi Transport": {
@@ -6323,7 +6323,7 @@
         {
             "name": "Loulan",
             "id": 536,
-            "x": 32314,
+            "x": 32314.5,
             "z": -7308,
             "lines": {
                 "Gobi Transport": {
@@ -7692,6 +7692,155 @@
             "lines": {
                 "TNIH": {
                     "Kamchatka Main": ["", "Main line (South)"]
+                }
+            }
+        },
+        {
+            "name": "Loulan Elevator",
+            "type": "elev-we",
+            "id": 645,
+            "x": 32314.5,
+            "z": -8808,
+            "y1": 50,
+            "y2": 10,
+            "lines": {
+                "Gobi Transport": {
+                    "Xinjiang": ["", "Loulan branch"]
+                }
+            }
+        },
+        {
+            "name": "Loulan JCT",
+            "type": "jct",
+            "id": 646,
+            "x": 32314.5,
+            "z": -7358,
+            "lines": {
+                "Gobi Transport": {
+                    "Xinjiang": ["", "Loulan branch to Loulan South branch"]
+                }
+            }
+        },
+        {
+            "name": "Buha Elevator",
+            "type": "elev-ew",
+            "id": 647,
+            "x": 32397,
+            "z": -5090,
+            "lines": {
+                "Gobi Transport": {
+                    "Xinjiang": ["", "Loulan South branch"],
+                    "North-South Main": ["", "Loulan South branch"]
+                }
+            }
+        },
+        {
+            "name": "Buha JCT",
+            "type": "jct",
+            "id": 648,
+            "x": 32593,
+            "z": -5090,
+            "lines": {
+                "Gobi Transport": {
+                    "North-South Main": ["", "Main line to Loulan South branch"]
+                }
+            }
+        },
+        {
+            "name": "Heiyan",
+            "id": 649,
+            "x": 36038,
+            "z": -5880,
+            "lines": {
+                "China": {
+                    "Heiyan-Junzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Singapore Underground JCT",
+            "type": "jct",
+            "id": 650,
+            "x": 36044,
+            "z": -5094,
+            "lines": {
+                "China": {
+                    "Heiyan-Junzhou": ["", "Main line to Gobi Transport connector"]
+                }
+            }
+        },
+        {
+            "name": "New Singapore Elevator",
+            "type": "elev-ew",
+            "id": 651,
+            "x": 36039,
+            "z": -5094,
+            "y1": 47,
+            "y2": 110,
+            "lines": {
+                "China": {
+                    "Heiyan-Junzhou": ["", "Gobi Transport connector"]
+                }
+            }
+        },
+        {
+            "name": "New Singapore Overground JCT",
+            "type": "jct",
+            "id": 652,
+            "x": 36039,
+            "z": -5090,
+            "lines": {
+                "China": {
+                    "Heiyan-Junzhou": ["", "Gobi Transport connector"]
+                },
+                "Gobi Transport": {
+                    "Eastern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Chengdu",
+            "id": 653,
+            "x": 37538,
+            "z": -3544,
+            "lines": {
+                "China": {
+                    "Heiyan-Junzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Deyang",
+            "id": 654,
+            "x": 37704,
+            "z": -3544,
+            "lines": {
+                "China": {
+                    "Heiyan-Junzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Junzhou West JCT",
+            "type": "jct",
+            "id": 655,
+            "x": 38494,
+            "z": -3544,
+            "lines": {
+                "China": {
+                    "Heiyan-Junzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Junzhou East JCT",
+            "type": "jct",
+            "id": 656,
+            "x": 38825,
+            "z": -3544,
+            "lines": {
+                "China": {
+                    "Heiyan-Junzhou": ["", "Main line"]
                 }
             }
         }
@@ -9322,11 +9471,11 @@
             }
         },
         "Gobi Transport": {
-            "Gobi 1st": {
+            "North-South Main": {
                 "prefix": "",
                 "code": "GT",
                 "color": "FFFF00",
-                "y": 110,
+                "y": "110 (except Loulan South branch: 10)",
                 "branches": {
                     "Main line": {
                         "vertices": [
@@ -9338,7 +9487,7 @@
                             [32592, -4001],
                             [32594, -4001]
                         ],
-                        "stations": [48, [82, "Shinsyu branch"], 287, 292, 49, 272, 273, [274, "Mongolia branch"], [275, ""], 276, 212]
+                        "stations": [48, [82, "Shinsyu branch"], 287, 292, 49, 272, [648, "Loulan South branch"], 273, [274, "Mongolia branch"], [275, ""], 276, 212]
                     },
                     "Shinsyu branch": {
                         "vertices": [
@@ -9346,6 +9495,13 @@
                             [36174, -9213]
                         ],
                         "stations": [[82, "Main line"], 83, 84]
+                    },
+                    "Loulan South branch": {
+                        "vertices": [
+                            [32593, -5090],
+                            [32396, -5090]
+                        ],
+                        "stations": [647, [648, "Main line"]]
                     },
                     "Mongolia branch": {
                         "vertices": [
@@ -9393,7 +9549,7 @@
                 "prefix": "",
                 "code": "XIN",
                 "color": "EF161E",
-                "y": 50,
+                "y": "50 (except lines near Loulan: 10)",
                 "branches": {
                     "Main line": {
                         "vertices": [
@@ -9404,10 +9560,18 @@
                     },
                     "Loulan branch": {
                         "vertices": [
-                            [32314, -8814],
-                            [32314, -7308]
+                            [32314.5, -8814],
+                            [32314.5, -7308]
                         ],
-                        "stations": [[535, "Main line"], 536]
+                        "stations": [[535, "Main line"], 645, [646, "Loulan South branch"], 536]
+                    },
+                    "Loulan South branch": {
+                        "vertices": [
+                            [32314.5, -7358],
+                            [32397, -7358],
+                            [32397, -5090]
+                        ],
+                        "stations": [[646, "Loulan branch"], 647]
                     },
                     "Anxi branch": {
                         "vertices": [
@@ -9462,7 +9626,7 @@
                             [37410, -5089],
                             [37410, -5834]
                         ],
-                        "stations": [273, 407, 408, 409, 410]
+                        "stations": [273, 407, 408, 652, 409, 410]
                     }
                 }
             }
@@ -9736,6 +9900,33 @@
                             [9609, -20229]
                         ],
                         "stations": [572, 581, 582]
+                    }
+                }
+            }
+        },
+        "China": {
+            "Heiyan-Junzhou": {
+                "prefix": "",
+                "code": "海燕均州",
+                "color": "FFA500",
+                "y": 47,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [36023, -5880],
+                            [36044, -5880],
+                            [36044, -3544],
+                            [38825, -3544]
+                        ],
+                        "stations": [649, [650, "Gobi Transport connector"], 653, 654, 655, 656]
+                    },
+                    "Gobi Transport connector": {
+                        "vertices": [
+                            [36044, -5094],
+                            [36039, -5094],
+                            [36039, -5090]
+                        ],
+                        "stations": [[650, "Main line"], 651, 652]
                     }
                 }
             }
