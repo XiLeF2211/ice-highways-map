@@ -6598,6 +6598,8 @@
             "name": "TNIH – Norvegian Elevator",
             "id": 559,
             "type": "elev-we",
+            "y1": 10,
+            "y2": 71,
             "x": 3975,
             "z": -17735,
             "lines": {
@@ -7912,7 +7914,7 @@
                             [53729, -10096],
                             [53729, -9581]
                         ],
-                        "stations": [362, [363, "Allburg branch"], 365, [637, "TownyMcTownFace branch"], 366, 639, 640, 641, 642, 643]
+                        "stations": [362, [363, "Allburg branch"], 365, [638, "TownyMcTownFace branch"], 366, 639, 640, 641, 642, 643]
                     },
                     "Ochotsk branch": {
                         "vertices": [
@@ -7976,7 +7978,7 @@
                             [55500, -11500],
                             [55252, -11500]
                         ],
-                        "stations": [[637, "Main line (South)"], 638]
+                        "stations": [[638, "Main line (South)"], 639]
                     }
                 }
             },
