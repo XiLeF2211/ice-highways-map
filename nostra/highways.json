@@ -2191,6 +2191,9 @@
             "lines": {
                 "TNIH": {
                     "Bangla": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "Thailand": ["", "Yangon branch"]
                 }
             }
         },
@@ -7828,7 +7831,8 @@
             "z": -3544,
             "lines": {
                 "China": {
-                    "Heiyan-Junzhou": ["", "Main line"]
+                    "Heiyan-Junzhou": ["", "Main line"],
+                    "Baoji-Guiyang": ["", "Main line"]
                 }
             }
         },
@@ -7840,7 +7844,8 @@
             "z": -3544,
             "lines": {
                 "China": {
-                    "Heiyan-Junzhou": ["", "Main line"]
+                    "Heiyan-Junzhou": ["", "Main line"],
+                    "Junzhou-Beibuwan": ["", "Main line"]
                 }
             }
         },
@@ -7927,6 +7932,338 @@
                 "TNIH": {
                     "Narmada": ["", "Main line"],
                     "Ganga": ["", "Patliputra-Sita connector"]
+                }
+            }
+        },
+        {
+            "name": "Ayanka",
+            "id": 664,
+            "x": 59967,
+            "z": -18765,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Leshnybor branch"]
+                }
+            }
+        },
+        {
+            "name": "Chiang Mai",
+            "id": 665,
+            "x": 36050.5,
+            "z": 755.5,
+            "lines": {
+                "Intercontinental": {
+                    "Thailand": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yangon JCT",
+            "type": "jct",
+            "id": 666,
+            "x": 36050.5,
+            "z": 2078.5,
+            "lines": {
+                "Intercontinental": {
+                    "Thailand": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bangkok",
+            "id": 667,
+            "x": 36045.5,
+            "z": 3030.5,
+            "lines": {
+                "Intercontinental": {
+                    "Thailand": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Baoji",
+            "id": 668,
+            "x": 38353,
+            "z": -4903,
+            "areas": [
+                [[38347, -4912], [38371, -4881]]
+            ],
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hanzhong JCT",
+            "type": "jct",
+            "id": 669,
+            "x": 38854,
+            "z": -4455,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hanzhong",
+            "id": 670,
+            "x": 38948,
+            "z": -4455,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hanzhong Elevator",
+            "type": "elev-we",
+            "id": 671,
+            "x": 39005,
+            "z": -4450,
+            "y1": 69,
+            "y2": 47,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Junzhou North JCT",
+            "type": "jct",
+            "id": 672,
+            "x": 38825,
+            "z": -3822,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"],
+                    "Junzhou-Beibuwan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Gucheng",
+            "id": 673,
+            "x": 38494,
+            "z": -3417,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Blw JCT",
+            "type": "jct",
+            "id": 674,
+            "x": 38494,
+            "z": -3073,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line to Blw branch"]
+                }
+            }
+        },
+        {
+            "name": "Blw",
+            "id": 675,
+            "x": 38527,
+            "z": -3073,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Blw branch"]
+                }
+            }
+        },
+        {
+            "name": "Fxa Elevator",
+            "type": "elev-ew",
+            "id": 676,
+            "x": 38433,
+            "z": -3073,
+            "y1": 47,
+            "y2": 61,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Fxa JCT",
+            "type": "jct",
+            "id": 677,
+            "x": 38431,
+            "z": -2913,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line to Fxa branch"]
+                }
+            }
+        },
+        {
+            "name": "Fxa",
+            "id": 678,
+            "x": 38462,
+            "z": -2913,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Fxa branch"]
+                }
+            }
+        },
+        {
+            "name": "Chongqing JCT",
+            "type": "jct",
+            "id": 679,
+            "x": 38431,
+            "z": -2739,
+            "areas": [
+                [[38426, -2743], [38436, -2734]]
+            ],
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line to Chongqing branch"]
+                }
+            }
+        },
+        {
+            "name": "Chongqing",
+            "id": 680,
+            "x": 38230,
+            "z": -2739,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Chongqing branch"]
+                }
+            }
+        },
+        {
+            "name": "Zunyi JCT",
+            "type": "jct",
+            "id": 681,
+            "x": 38356,
+            "z": -2276,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line to Zunyi branch"]
+                }
+            }
+        },
+        {
+            "name": "Zunyi",
+            "id": 682,
+            "x": 38250,
+            "z": -2276,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Zunyi branch"]
+                }
+            }
+        },
+        {
+            "name": "Guiyang 1st Elevator",
+            "type": "elev-we",
+            "id": 683,
+            "x": 38355,
+            "z": -2017,
+            "y1": 61,
+            "y2": 76,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Guiyang 2nd Elevator",
+            "type": "elev-we",
+            "id": 684,
+            "x": 38355,
+            "z": -1916,
+            "y1": 76,
+            "y2": 84,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Guiyang JCT",
+            "type": "jct",
+            "id": 685,
+            "x": 38360,
+            "z": -1880,
+            "areas": [
+                [[38352, -1888], [38367, -1873]]
+            ],
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "2nd Guiyang East JCT",
+            "type": "jct",
+            "id": 686,
+            "x": 38825,
+            "z": -1783,
+            "lines": {
+                "China": {
+                    "Junzhou-Beibuwan": ["", "Main line to Guiyang East Elevator"]
+                }
+            }
+        },
+        {
+            "name": "Guiyang East Elevator",
+            "type": "elev-we",
+            "id": 687,
+            "x": 38845,
+            "z": -1801,
+            "y1": 47,
+            "y2": 69,
+            "lines": {
+                "China": {
+                    "Junzhou-Beibuwan": ["", "Guiyang East Elevator"]
+                }
+            }
+        },
+        {
+            "name": "1st Guiyang East JCT",
+            "type": "jct",
+            "id": 688,
+            "x": 38845,
+            "z": -1815,
+            "lines": {
+                "China": {
+                    "Junzhou-Beibuwan": ["", "Guiyang East Elevator"]
+                }
+            }
+        },
+        {
+            "name": "Nanning City",
+            "id": 689,
+            "x": 38825,
+            "z": -369,
+            "lines": {
+                "China": {
+                    "Junzhou-Beibuwan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Beibuwan",
+            "id": 690,
+            "x": 38721,
+            "z": 174,
+            "lines": {
+                "China": {
+                    "Junzhou-Beibuwan": ["", "Main line"]
                 }
             }
         }
@@ -8183,9 +8520,10 @@
 						"vertices": [
                             [56419.5, -15203.5],
                             [58428.5, -15203.5],
-                            [58428.5, -17434.5]
+                            [58428.5, -18765],
+                            [59967, -18765]
                         ],
-                        "stations": [[74, "Main line (North)"], 75, [142, "Koleso branch"], 76]
+                        "stations": [[74, "Main line (North)"], 75, [142, "Koleso branch"], 76, 664]
 					},
 					"Koleso branch": {
 						"vertices": [
@@ -10051,6 +10389,98 @@
                         "stations": [[650, "Main line"], 651, 652]
                     }
                 }
+            },
+            "Baoji-Guiyang": {
+                "prefix": "",
+                "code": "宝鸡贵阳",
+                "color": "259b24",
+                "y": "69, 47, 61, 76, 84",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [38353, -4903],
+                            [38353, -4455],
+                            [39005, -4455],
+                            [39005, -3822],
+                            [38494, -3822],
+                            [38494, -3073],
+                            [38431, -3073],
+                            [38431, -2741],
+                            [38428, -2741],
+                            [38431, -2741],
+                            [38434, -2741],
+                            [38434, -2736],
+                            [38431, -2736],
+                            [38428, -2736],
+                            [38431, -2736],
+                            [38431, -2282],
+                            [38363, -2282],
+                            [38357, -2276],
+                            [38356, -2276],
+                            [38356, -2239],
+                            [38355, -2238],
+                            [38355, -1875],
+                            [38365, -1875],
+                            [38365, -1885],
+                            [38355, -1885]
+                        ],
+                        "stations": [668, 669, 670, 671, 672, 655, 673, [674, "Blw branch"], 676, [677, "Fxa branch"], [679, "Chongqing branch"], [681, "Zunyi branch"], 683, 684, 685]
+                    },
+                    "Blw branch": {
+                        "vertices": [
+                            [38494, -3073],
+                            [38527, -3073]
+                        ],
+                        "stations": [[674, "Main line"], 675]
+                    },
+                    "Fxa branch": {
+                        "vertices": [
+                            [38431, -2913],
+                            [38462, -2913]
+                        ],
+                        "stations": [[677, "Main line"], 678]
+                    },
+                    "Chongqing branch": {
+                        "vertices": [
+                            [38428, -2741],
+                            [38428, -2736],
+                            [38428, -2739],
+                            [38240, -2739]
+                        ],
+                        "stations": [[679, "Main line"], 680]
+                    },
+                    "Zunyi branch": {
+                        "vertices": [
+                            [38356, -2276],
+                            [38250, -2276]
+                        ],
+                        "stations": [[681, "Main line"], 682]
+                    }
+                }
+            },
+            "Junzhou-Beibuwan": {
+                "prefix": "",
+                "code": "均州北部湾",
+                "color": "982484",
+                "y": 47,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [38825, -3822],
+                            [38825, 174],
+                            [38721, 174]
+                        ],
+                        "stations": [672, 656, [686, "Gobi Transport connector"], 689, 690]
+                    },
+                    "Guiyang East Elevator": {
+                        "vertices": [
+                            [38825, -1783],
+                            [38845, -1783],
+                            [38845, -1815]
+                        ],
+                        "stations": [[686, "Main line"], 687, 688]
+                    }
+                }
             }
         },
         "Sweden": {
@@ -10416,6 +10846,30 @@
                             [39296, -17051]
                         ],
                         "stations": [[403, "Main line"]]
+                    }
+                }
+            },
+            "Thailand": {
+                "prefix": "",
+                "code": "TH",
+                "color": "A51931",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [36050.5, 754],
+                            [36050.5, 3000.5],
+                            [36045.5, 3000.5],
+                            [36045.5, 3030.5]
+                        ],
+                        "stations": [665, [666, "Yangon branch"], 667]
+                    },
+                    "Yangon branch": {
+                        "vertices": [
+                            [36050.5, 2078.5],
+                            [34450.5, 2078.5]
+                        ],
+                        "stations": [[666, "Main line"], 188]
                     }
                 }
             }
