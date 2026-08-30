@@ -86,10 +86,11 @@
             "name": "Far East Capital (JCT)",
             "id": 7,
             "x": 52340,
-            "z": -21052,
+            "z": -21051,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line to Duchy of Rivers branch"]
+                    "Siberia Main": ["", "Main line"],
+                    "Azur": ["", "Main line"]
                 }
             }
         },
@@ -97,10 +98,10 @@
             "name": "Duchy of Rivers",
             "id": 8,
             "x": 51754,
-            "z": -21052,
+            "z": -21051,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Duchy of Rivers branch"]
+                    "Azur": ["", "Main line"]
                 }
             }
         },
@@ -8267,6 +8268,17 @@
                     "Junzhou-Beibuwan": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Squishygrad",
+            "id": 691,
+            "x": 51032,
+            "z": -21051,
+            "lines": {
+                "TNIH": {
+                    "Azur": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -8350,7 +8362,7 @@
                             [52960.5, -23834.5],
                             [51646, -23834.5]
                         ],
-                        "stations": [493, 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, [213, "Riverwood branch"], [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], [7, "Duchy of Rivers branch"], 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340]
+                        "stations": [493, 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, [213, "Riverwood branch"], [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340]
                     },
                     "Finlandia branch": {
                         "vertices": [
@@ -8445,13 +8457,6 @@
                             [52863, -20540]
                         ],
                         "stations": [[173, "Main line"], 174, 175]
-                    },
-                    "Duchy of Rivers branch": {
-                        "vertices": [
-                            [52340, -21052],
-                            [51751, -21052]
-                        ],
-                        "stations": [[7, "Main line"], 8]
                     },
                     "Yakutsk branch": {
                         "vertices": [
@@ -9153,9 +9158,9 @@
                             [48565, -21310],
                             [49220, -21310],
                             [49220, -21051],
-                            [50607, -21051]
+                            [52339.5, -21051]
                         ],
-                        "stations": [657, 658, 659]
+                        "stations": [657, 658, 659, 691, 8, 7]
                     }
                 }
             },
