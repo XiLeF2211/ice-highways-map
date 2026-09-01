@@ -5272,7 +5272,8 @@
                 "Norwegian Ice Boat Highway System": {
                     "Lower Trondheim": ["", "Main line to Oslo station platforms"],
                     "Lower North": ["", "Main line"],
-                    "South": ["", "Main line to Oslo station platforms"]
+                    "South": ["", "Main line to Oslo station platforms"],
+                    "Sweden": ["", "Main line"]
                 }
             }
         },
@@ -6936,6 +6937,9 @@
             "lines": {
                 "Sweden": {
                     "Red": ["", "Main line"]
+                },
+                "Norwegian Ice Boat Highway System": {
+                    "Sweden": ["", "Main line"]
                 }
             }
         },
@@ -8577,6 +8581,120 @@
             "lines": {
                 "Norwegian Ice Boat Highway System": {
                     "Upper North": ["", "Asgard branch"]
+                }
+            }
+        },
+        {
+            "name": "Oslo Flyover West Elevator",
+            "type": "elev-ew",
+            "id": 717,
+            "x": 3860,
+            "z": -16617,
+            "y1": 65,
+            "y2": 73,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Sweden": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Oslo Flyover East Elevator",
+            "type": "elev-we",
+            "id": 718,
+            "x": 3860,
+            "z": -16618,
+            "y1": 73,
+            "y2": 65,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Sweden": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kongsberg",
+            "id": 719,
+            "x": 4280,
+            "z": -16618,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Sweden": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Skotterud",
+            "id": 720,
+            "x": 4408,
+            "z": -16568,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Sweden": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Karlstad Bridge West Elevator",
+            "type": "elev-ew",
+            "id": 721,
+            "x": 4812,
+            "z": -16311,
+            "y1": 65,
+            "y2": 69,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Sweden": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Karlstad Bridge East Elevator",
+            "type": "elev-we",
+            "id": 722,
+            "x": 4864,
+            "z": -16311,
+            "y1": 69,
+            "y2": 65,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Sweden": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Karlstad",
+            "id": 723,
+            "x": 4907,
+            "z": -16311,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Sweden": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Stockholm West Elevator",
+            "type": "elev-we",
+            "id": 724,
+            "x": 5867,
+            "z": -16311,
+            "y1": 65,
+            "y2": 9,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Sweden": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Stockholm International",
+            "id": 725,
+            "x": 6432,
+            "z": -16249,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Sweden": ["", "Main line"]
                 }
             }
         }
@@ -12020,7 +12138,7 @@
                 "prefix": "",
                 "code": "Sv",
                 "color": "FF9533",
-                "y": "-63, 70",
+                "y": "75, 65, -62, 70",
                 "branches": {
                     "Main line": {
                         "vertices": [
@@ -12119,7 +12237,7 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [3847, -16618],
+                            [3797, -16618],
                             [3864, -16618],
                             [3864, -16620],
                             [4410, -16620],
@@ -12137,12 +12255,12 @@
                             [5880, -16309],
                             [4406, -16309],
                             [4406, -16616],
-                            [3847, -16616],
+                            [3795, -16616],
                             [4014, -16616],
                             [4014, -16598],
                             [3982, -16598]
                         ],
-                        "stations": []
+                        "stations": [448, 717, 718, 719, 720, 721, 722, 723, 724, 725, 583]
                     },
                     "Gothenburg line": {
                         "vertices": [
