@@ -7069,6 +7069,9 @@
             "lines": {
                 "Sweden": {
                     "Purple": ["", "Main line"]
+                },
+                "Norwegian Ice Boat Highway System": {
+                    "Sweden": ["", "Gothenburg line"]
                 }
             }
         },
