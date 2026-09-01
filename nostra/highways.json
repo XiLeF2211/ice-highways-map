@@ -5129,7 +5129,8 @@
             "z": -16171,
             "lines": {
                 "Norwegian Ice Boat Highway System": {
-                    "South": ["", "Main line"]
+                    "South": ["", "Main line"],
+                    "Sweden": ["", "Gothenburg line"]
                 }
             }
         },
@@ -8697,6 +8698,162 @@
                     "Sweden": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Aland",
+            "id": 726,
+            "x": 4087,
+            "z": -16121,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Sweden": ["", "Gothenburg line"]
+                }
+            }
+        },
+        {
+            "name": "Fredikstad",
+            "id": 727,
+            "x": 3945,
+            "z": -16217,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "South": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Moss",
+            "id": 728,
+            "x": 3863,
+            "z": -16297,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "South": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ed",
+            "id": 729,
+            "x": 4254,
+            "z": -15966,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Sweden": ["", "Gothenburg line"]
+                }
+            }
+        },
+        {
+            "name": "Alesund",
+            "id": 730,
+            "x": 2459,
+            "z": -17832,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Vestnes Kommune branch"]
+                }
+            }
+        },
+        {
+            "name": "Nordvail",
+            "id": 731,
+            "x": 4023,
+            "z": -18979,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Korsgard",
+            "id": 732,
+            "x": 4488,
+            "z": -19368,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Rana",
+            "id": 733,
+            "x": 5173,
+            "z": -20146,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Korsgard",
+            "id": 734,
+            "x": 5863,
+            "z": -21082,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Wandenreich",
+            "id": 735,
+            "x": 3001,
+            "z": -17324,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Valle branch"]
+                }
+            }
+        },
+        {
+            "name": "Makfrost",
+            "id": 736,
+            "x": 2216,
+            "z": -16381,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Stavanger International",
+            "id": 737,
+            "x": 2250,
+            "z": -15736,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Great line"],
+                    "Norway-Netherlands": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mapplatform JCT",
+            "type": "jct",
+            "id": 738,
+            "x": 1895,
+            "z": -14649,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Norway-Netherlands": ["", "Main line to Mapplatform branch"]
+                }
+            }
+        },
+        {
+            "name": "Mapplatform",
+            "id": 739,
+            "x": 1217,
+            "z": -14652,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Norway-Netherlands": ["", "Mapplatform branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -11613,7 +11770,7 @@
                             [2523, -16839],
                             [1968, -16839]
                         ],
-                        "stations": [421, 422, 424, [419, "Little line"], [437, "Connector branch"], 427, 428, [433, "West Agder branch"], 431, 432]
+                        "stations": [421, 422, 424, [419, "Little line"], [437, "Connector branch"], 427, 428, [433, "West Agder branch"], 737, 431, 432]
                     },
                     "West Agder branch": {
                         "vertices": [
@@ -11659,7 +11816,7 @@
                             [2215, -15738],
                             [2216, -15738]
                         ],
-                        "stations": [[429, 430, 435, "Skien og Sandefjord station platforms"], [461, "Oslo branch"], [462, "Oslo branch"], [692, "Northern Route"], 426, [425, "Finse station platforms, Vestnes Kommune branch"], [699, "Northern Route"], [449, "Bergen branch"], 442, 431, 432]
+                        "stations": [[429, 430, 435, "Skien og Sandefjord station platforms"], [461, "Oslo branch"], [462, "Oslo branch"], [692, "Northern Route"], 426, [425, "Finse station platforms, Vestnes Kommune branch"], [699, "Northern Route"], [449, "Bergen branch"], 736, 442, 431, 432]
                     },
                     "Northern Route": {
                         "vertices": [
@@ -11813,7 +11970,7 @@
                             [3001, -16912],
                             [3001, -17324]
                         ],
-                        "stations": [[425, "Main line, Finse station platforms"], 701]
+                        "stations": [[425, "Main line, Finse station platforms"], 735, 701]
                     },
                     "Vestnes Kommune branch": {
                         "vertices": [
@@ -11823,7 +11980,7 @@
                             [2459, -17944],
                             [2540, -17944]
                         ],
-                        "stations": [[695, "Northern Route"], 700]
+                        "stations": [[695, "Northern Route"], 730, 700]
                     }
                 }
             },
@@ -12083,7 +12240,7 @@
                             [6774, -21288],
                             [6774, -21339]
                         ],
-                        "stations": [456, 457, 458, 459, [446, "Straumen station platforms"], 709, [447, "Narvik station platforms"], [706, "Stuor Muorkke branch"], 707]
+                        "stations": [456, 457, 731, 732, 458, 459, 733, [446, "Straumen station platforms"], 734, [715, "Asgard branch"], 709, [447, "Narvik station platforms"], [706, "Stuor Muorkke branch"], 707]
                     },
                     "Narvik station platforms": {
                         "vertices": [
@@ -12198,7 +12355,7 @@
                             [4085, -16167],
                             [4085, -16088]
                         ],
-                        "stations": [453, [448, "Oslo station platforms"], 438]
+                        "stations": [453, [448, "Oslo station platforms"], 728, 727, 438]
                     },
                     "Oslo station platforms": {
                         "vertices": [
@@ -12233,7 +12390,7 @@
                 "prefix": "",
                 "code": "Sw",
                 "color": "0A9900",
-                "y": "65, 73, 64",
+                "y": "65, 73, 64, 69, 9",
                 "branches": {
                     "Main line": {
                         "vertices": [
@@ -12260,7 +12417,7 @@
                             [4014, -16598],
                             [3982, -16598]
                         ],
-                        "stations": [448, 717, 718, 719, 720, 721, 722, 723, 724, 725, 583]
+                        "stations": [[448, "Oslo-Ed Bypass"], 717, 718, 719, 720, 721, 722, 723, 724, 725, 583]
                     },
                     "Gothenburg line": {
                         "vertices": [
@@ -12269,7 +12426,11 @@
                             [4123, -16044],
                             [4123, -16092],
                             [4085, -16092],
-                            [4085, -16088],
+                            [4085, -16167],
+                            [4028, -16167],
+                            [4028, -16171],
+                            [4089, -16171],
+                            [4089, -16088],
                             [4119, -16088],
                             [4119, -16040],
                             [4152, -16040],
@@ -12280,7 +12441,7 @@
                             [4281, -15381],
                             [4322, -15381]
                         ],
-                        "stations": []
+                        "stations": [438, [729, "Oslo-Ed Bypass"], 592]
                     },
                     "Oslo-Ed Bypass": {
                         "vertices": [
@@ -12297,7 +12458,7 @@
                             [4281, -15975],
                             [4281, -15971]
                         ],
-                        "stations": []
+                        "stations": [[448, "Main line"], [729, "Gothenburg line"]]
                     }
                 }
             },
