@@ -8854,6 +8854,116 @@
                     "Norway-Netherlands": ["", "Mapplatform branch"]
                 }
             }
+        },
+        {
+            "name": "Aubin",
+            "id": 740,
+            "x": 45905,
+            "z": 13346,
+            "lines": {
+                "Intercontinental": {
+                    "Aubin-Wyndham": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Downing River (Y=70)",
+            "id": 741,
+            "x": 45905,
+            "z": 13471,
+            "lines": {
+                "Intercontinental": {
+                    "Aubin-Wyndham": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Wyndham (Y=70)",
+            "id": 742,
+            "x": 46040,
+            "z": 13529,
+            "lines": {
+                "Intercontinental": {
+                    "Aubin-Wyndham": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Downing River (Y=63)",
+            "id": 743,
+            "x": 45902,
+            "z": 13473,
+            "lines": {
+                "Intercontinental": {
+                    "Downing River-Condingup": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Palmerston",
+            "id": 744,
+            "x": 45721,
+            "z": 13473,
+            "lines": {
+                "Intercontinental": {
+                    "Downing River-Condingup": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Heidelberg",
+            "id": 745,
+            "x": 45721,
+            "z": 14271,
+            "lines": {
+                "Intercontinental": {
+                    "Downing River-Condingup": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Sanctuary",
+            "id": 746,
+            "x": 45713,
+            "z": 16079,
+            "lines": {
+                "Intercontinental": {
+                    "Downing River-Condingup": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Kgari",
+            "id": 747,
+            "x": 45041,
+            "z": 17439,
+            "lines": {
+                "Intercontinental": {
+                    "Downing River-Condingup": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Laverton",
+            "id": 748,
+            "x": 44026,
+            "z": 18719,
+            "lines": {
+                "Intercontinental": {
+                    "Downing River-Condingup": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Condingup (South Coast)",
+            "id": 749,
+            "x": 44025,
+            "z": 20642,
+            "lines": {
+                "Intercontinental": {
+                    "Downing River-Condingup": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -11457,6 +11567,52 @@
                         "stations": [[666, "Main line"], 188]
                     }
                 }
+            },
+            "Aubin-Wyndham": {
+                "prefix": "",
+                "code": "A-W",
+                "color": "A0A0A0",
+                "y": 70,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [46160, 13346],
+                            [45905, 13346],
+                            [45905, 13471],
+                            [46040, 13471],
+                            [46040, 13529]
+                        ],
+                        "stations": [740, 741, 742]
+                    }
+                }
+            },
+            "Downing River-Condingup": {
+                "prefix": "",
+                "code": "DR-C",
+                "color": "00BFFF",
+                "y": 63,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [45902, 13473],
+                            [45721, 13473],
+                            [45721, 14271],
+                            [45713, 14271],
+                            [45713, 16079],
+                            [45697, 16079],
+                            [45697, 17439],
+                            [45041, 17439],
+                            [45041, 17473],
+                            [44026, 17473],
+                            [44026, 18719],
+                            [44027, 18719],
+                            [44027, 18722],
+                            [44025, 18722],
+                            [44025, 20642]
+                        ],
+                        "stations": [743, 744, 745, 746, 747, 748, 749]
+                    }
+                }
             }
         },
         "NZ Ministry of Infrastructure": {
@@ -12441,7 +12597,7 @@
                             [4281, -15381],
                             [4322, -15381]
                         ],
-                        "stations": [438, [729, "Oslo-Ed Bypass"], 592]
+                        "stations": [438, 726, [729, "Oslo-Ed Bypass"], 592]
                     },
                     "Oslo-Ed Bypass": {
                         "vertices": [
