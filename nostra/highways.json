@@ -4963,7 +4963,7 @@
             "z": -16908,
             "lines": {
                 "Norwegian Ice Boat Highway System": {
-                    "Upper Central": ["", "Main line to Finse station platforms"]
+                    "Upper Central": ["", "Main line to Finse station platforms to Valle branch"]
                 }
             }
         },
@@ -8279,6 +8279,120 @@
                     "Azur": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Raufoss JCT",
+            "type": "jct",
+            "id": 692,
+            "x": 3444,
+            "z": -16857,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Main line to Northern Route"]
+                }
+            }
+        },
+        {
+            "name": "Kvam",
+            "id": 693,
+            "x": 3444,
+            "z": -17537,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Northern Route"]
+                }
+            }
+        },
+        {
+            "name": "Kvam JCT",
+            "type": "jct",
+            "id": 694,
+            "x": 3194,
+            "z": -17659,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Northern Route to Trondheim branch"]
+                }
+            }
+        },
+        {
+            "name": "Alesund South JCT",
+            "type": "jct",
+            "id": 695,
+            "x": 2433,
+            "z": -17659,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Northern Route to Vestnes Kommune branch"]
+                }
+            }
+        },
+        {
+            "name": "Folk",
+            "id": 696,
+            "x": 2216,
+            "z": -17481,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Northern Route"]
+                }
+            }
+        },
+        {
+            "name": "Ravnfjord",
+            "id": 697,
+            "x": 2216,
+            "z": -17336,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Northern Route"]
+                }
+            }
+        },
+        {
+            "name": "Baden",
+            "id": 698,
+            "x": 2216,
+            "z": -17242,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Northern Route"]
+                }
+            }
+        },
+        {
+            "name": "Baden JCT",
+            "type": "jct",
+            "id": 699,
+            "x": 2216,
+            "z": -16928,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Main line to Northern Route"]
+                }
+            }
+        },
+        {
+            "name": "Vestnes Kommune",
+            "id": 700,
+            "x": 2534,
+            "z": -17944,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Vestnes Kommune branch"]
+                }
+            }
+        },
+        {
+            "name": "Valle",
+            "id": 701,
+            "x": 3001,
+            "z": -17324,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper Central": ["", "Valle branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -11241,21 +11355,21 @@
                             [2215, -15738],
                             [2216, -15738]
                         ],
-                        "stations": [431, 432, [435, "Skien og Sandefjord station platforms"], [461, "Oslo branch"], [462, "Oslo branch"], 426, [425, "Finse station platforms"], [449, "Bergen branch"], 442, 429, 430]
+                        "stations": [[429, 430, 435, "Skien og Sandefjord station platforms"], [461, "Oslo branch"], [462, "Oslo branch"], [692, "Northern Route"], 426, [425, "Finse station platforms, Vestnes Kommune branch"], [699, "Northern Route"], [449, "Bergen branch"], 442, 431, 432]
                     },
-                    "North Bypass": {
+                    "Northern Route": {
                         "vertices": [
                             [2214, -16929],
                             [2214, -17661],
                             [3446, -17661],
-                            [3446, -16859],
-                            [3442, -16859],
+                            [3446, -16855],
+                            [3442, -16855],
                             [3442, -17657],
                             [2218, -17657],
                             [2218, -16926],
                             [2214, -16926]
                         ],
-                        "stations": []
+                        "stations": [[692, "Main line"], 693, 694, [695, "Vestnes Kommune branch"], 696, 697, 698, [699, "Main line"]]
                     },
                     "Finse station platforms": {
                         "vertices": [
@@ -11271,7 +11385,7 @@
                             [2716, -16908],
                             [2720, -16904]
                         ],
-                        "stations": [[425, "Main line"]]
+                        "stations": [[425, "Main line, Vestnes Kommune branch"]]
                     },
                     "Skien og Sandefjord station platforms": {
                         "vertices": [
@@ -11380,8 +11494,8 @@
                             [3742, -18435],
                             [3742, -18263],
                             [3196, -18263],
-                            [3196, -17661],
-                            [3192, -17661],
+                            [3196, -17657],
+                            [3192, -17657],
                             [3192, -18267],
                             [3738, -18267],
                             [3738, -18435]
@@ -11413,7 +11527,7 @@
                             [3001, -16912],
                             [3001, -17324]
                         ],
-                        "stations": []
+                        "stations": [[425, "Main line, Finse station platforms"], 701]
                     },
                     "Vestnes Kommune branch": {
                         "vertices": [
@@ -11423,7 +11537,7 @@
                             [2459, -17944],
                             [2540, -17944]
                         ],
-                        "stations": []
+                        "stations": [[695, "Northern Route"], 700]
                     }
                 }
             },
