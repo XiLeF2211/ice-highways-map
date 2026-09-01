@@ -12479,7 +12479,7 @@
                             [1897, -15727],
                             [1897, -13505]
                         ],
-                        "stations": []
+                        "stations": [737, [738, "Mapplatform branch"]]
                     },
                     "Mapplatform branch": {
                         "vertices": [
@@ -12490,7 +12490,7 @@
                             [1444, -14652],
                             [1217, -14652]
                         ],
-                        "stations": []
+                        "stations": [[738, "Main line"], 739]
                     }
                 }
             }
