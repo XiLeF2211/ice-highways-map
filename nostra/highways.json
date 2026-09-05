@@ -9101,6 +9101,191 @@
                     "Yellow": ["", "Wyndham elevator"]
                 }
             }
+        },
+        {
+            "name": "Yinghai JCT",
+            "id": 759,
+            "type": "jct",
+            "x": 42565.5,
+            "z": -4166.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yinghai": ["", "Main line"],
+                    "Yingguang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Haizhou JCT",
+            "id": 760,
+            "type": "jct",
+            "x": 42565.5,
+            "z": -4855.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yinghai": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Haizhou",
+            "id": 761,
+            "x": 42752.5,
+            "z": -4855.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yinghai": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tongling-Maanshan",
+            "id": 762,
+            "x": 42225.5,
+            "z": -3399.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yingguang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Anqingfu",
+            "id": 763,
+            "x": 41863.5,
+            "z": -3399.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yingguang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Xunyang JCT",
+            "id": 764,
+            "type": "jct",
+            "x": 41335.5,
+            "z": -2919.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yingguang": ["", "Main line to Wuchang branch"]
+                }
+            }
+        },
+        {
+            "name": "Ruijin",
+            "id": 765,
+            "x": 41335.5,
+            "z": -2481.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yingguang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nanchang",
+            "id": 766,
+            "x": 41335.5,
+            "z": -2298.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yingguang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Wuchang",
+            "id": 767,
+            "x": 41168.5,
+            "z": -2919.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yingguang": ["", "Main line to Wuchang branch"]
+                }
+            }
+        },
+        {
+            "name": "Yingtianfu",
+            "id": 768,
+            "x": 42596.5,
+            "z": -4166.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yingguang": ["", "Main line"],
+                    "Yingmeng": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yingmeng JCT",
+            "id": 769,
+            "type": "jct",
+            "x": 42895.5,
+            "z": -4059.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yingmeng": ["", "Main line"],
+                    "Yangtze River Delta East Loop": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Suzhou",
+            "id": 770,
+            "x": 43205.5,
+            "z": -3684.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yangtze River Delta East Loop": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Wuxi",
+            "id": 771,
+            "x": 42985.5,
+            "z": -3684.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yangtze River Delta East Loop": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Xihang JCT",
+            "id": 772,
+            "type": "jct",
+            "x": 42895.5,
+            "z": -3684.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yangtze River Delta East Loop": ["", "Main line"],
+                    "Xihang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nantong (YRD Loop)",
+            "id": 773,
+            "x": 43211.5,
+            "z": -4046.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yangtze River Delta East Loop": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hangzhou",
+            "id": 774,
+            "x": 43126.5,
+            "z": -3103.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Xihang": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -11481,6 +11666,121 @@
                             [4885.5, -15047]
                         ],
                         "stations": [590, 589, 594]
+                    }
+                }
+            }
+        },
+        "Ming Underground Ice Rail System": {
+            "Yinghai": {
+                "prefix": "",
+                "code": "扬海",
+                "color": "55ffff",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [42227.5, -4858.5],
+                            [42765.5, -4858.5],
+                            [42752.5, -4858.5],
+                            [42752.5, -4852.5],
+                            [42765.5, -4852.5],
+                            [42752.5, -4852.5],
+                            [42227.5, -4852.5],
+                            [42562.5, -4852.5],
+                            [42562.5, -4163.5],
+                            [42562.5, -4858.5],
+                            [42568.5, -4858.5],
+                            [42568.5, -4163.5]
+                        ],
+                        "stations": [759, 760, 761]
+                    }
+                }
+            },
+            "Yingguang": {
+                "prefix": "",
+                "code": "扬广",
+                "color": "ff5555",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [42596.5, -4163.5],
+                            [42313.5, -4163.5],
+                            [42313.5, -3396.5],
+                            [41338.5, -3396.5],
+                            [41338.5, -2128.5],
+                            [41332.5, -2128.5],
+                            [41332.5, -3402.5],
+                            [42307.5, -3402.5],
+                            [42307.5, -4169.5],
+                            [42596.5, -4169.5]
+                        ],
+                        "stations": [768, 759, 762, 763, [764, "Wuchang branch"], 765, 766]
+                    },
+                    "Wuchang branch": {
+                        "vertices": [
+                            [41169.5, -2922.5],
+                            [41338.5, -2922.5],
+                            [41338.5, -2916.5],
+                            [41169.5, -2916.5]
+                        ],
+                        "stations": [[764, "Main line"], 767]
+                    }
+                }
+            },
+            "Yangtze River Delta East Loop": {
+                "prefix": "",
+                "code": "长三角環狀",
+                "color": "ffff55",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [43216.5, -4039.5],
+                            [43216.5, -4062.5],
+                            [42898.5, -4062.5],
+                            [42898.5, -3681.5],
+                            [42892.5, -3681.5],
+                            [42892.5, -3687.5],
+                            [43205.5, -3687.5],
+                            [43205.5, -4056.5],
+                            [42892.5, -4056.5],
+                            [42892.5, -4062.5],
+                            [42898.5, -4062.5],
+                            [42898.5, -4056.5],
+                            [42892.5, -4056.5],
+                            [42892.5, -3681.5],
+                            [43209.5, -3681.5],
+                            [43209.5, -3697.5]
+                        ],
+                        "stations": [773, 769, 772, 771, 770]
+                    }
+                }
+            },
+            "Xihang": {
+                "prefix": "",
+                "code": "锡杭",
+                "color": "55ff55",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [43456, -3100.5],
+                            [43118.5, -3100.5],
+                            [43118.5, -3245.5],
+                            [42709.5, -3245.5],
+                            [42709.5, -3578.5],
+                            [42892.5, -3578.5],
+                            [42892.5, -3687.5],
+                            [42898.5, -3687.5],
+                            [42898.5, -3572.5],
+                            [42715.5, -3572.5],
+                            [42715.5, -3251.5],
+                            [43124.5, -3251.5],
+                            [43124.5, -3106.5],
+                            [43456, -3106.5]
+                        ],
+                        "stations": [772, 774]
                     }
                 }
             }
