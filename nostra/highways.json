@@ -9201,7 +9201,7 @@
             "z": -2919.5,
             "lines": {
                 "Ming Underground Ice Rail System": {
-                    "Yingguang": ["", "Main line to Wuchang branch"]
+                    "Yingguang": ["", "Wuchang branch"]
                 }
             }
         },
@@ -11725,6 +11725,27 @@
                             [41169.5, -2916.5]
                         ],
                         "stations": [[764, "Main line"], 767]
+                    }
+                }
+            },
+            "Yingmeng": {
+                "prefix": "",
+                "code": "应孟",
+                "color": "ff55dd",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [42596.5, -4163.5],
+                            [42734.5, -4163.5],
+                            [42734.5, -4056.5],
+                            [42898.5, -4056.5],
+                            [42898.5, -4062.5],
+                            [42740.5, -4062.5],
+                            [42740.5, -4169.5],
+                            [42596.5, -4169.5]
+                        ],
+                        "stations": [768, 769]
                     }
                 }
             },
