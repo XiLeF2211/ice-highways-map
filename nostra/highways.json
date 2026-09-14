@@ -583,8 +583,7 @@
             "z": -6933,
             "lines": {
                 "Gobi Transport": {
-                    "North-South Main": ["", "Main line"],
-                    "Eastern": ["", "Liangzhou branch"]
+                    "North-South Main": ["", "Main line"]
                 }
             }
         },
@@ -4781,7 +4780,7 @@
             }
         },
         {
-            "name": "Krowntown Citadel",
+            "name": "Krown-Citadel",
             "id": 410,
             "x": 37410,
             "z": -5834,
@@ -8229,8 +8228,7 @@
             ],
             "lines": {
                 "China": {
-                    "Baoji-Guiyang": ["", "Main line"],
-                    "Lijiang Guilin Line": ["", "Main line"]
+                    "Baoji-Guiyang": ["", "Main line"]
                 }
             }
         },
@@ -9462,7 +9460,7 @@
             }
         },
         {
-            "name": "Krowntown Citadel JCT",
+            "name": "Krown-Citadel JCT",
             "type": "jct",
             "id": 789,
             "x": 37410,
@@ -9487,255 +9485,6 @@
             "lines": {
                 "China": {
                     "Baoji-Zhumadian Ice Highway": ["", "Krown-Citadel Branch"]
-                }
-            }
-        },
-        {
-            "name": "Krowntown Citadel Elevator",
-            "type": "elev-we",
-            "id": 791,
-            "x": 37410,
-            "z": -5987,
-            "y1": 110,
-            "y2": 90,
-            "lines": {
-                "Gobi Transport": {
-                    "Eastern": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Liangzhou",
-            "id": 792,
-            "x": 37608,
-            "z": -6082,
-            "lines": {
-                "Gobi Transport": {
-                    "Eastern": ["", "Main line to Liangzhou branch"]
-                }
-            }
-        },
-        {
-            "name": "Liangzhou East",
-            "id": 793,
-            "x": 37726,
-            "z": -6082,
-            "lines": {
-                "Gobi Transport": {
-                    "Eastern": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Shizuishan",
-            "id": 794,
-            "x": 38245,
-            "z": -6629,
-            "lines": {
-                "Gobi Transport": {
-                    "Eastern": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Liangzhou Elevator",
-            "type": "elev-we",
-            "id": 795,
-            "x": 37608,
-            "z": -6104,
-            "y1": 90,
-            "y2": 98,
-            "lines": {
-                "Gobi Transport": {
-                    "Eastern": ["", "Liangzhou branch"]
-                }
-            }
-        },
-        {
-            "name": "Anshun",
-            "id": 796,
-            "x": 38193,
-            "z": -1645,
-            "lines": {
-                "China": {
-                    "Guiyang Anshun Line": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Guilin West",
-            "id": 797,
-            "x": 39361,
-            "z": -1297,
-            "lines": {
-                "China": {
-                    "Hunan Guilin Line": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Hunan South",
-            "id": 798,
-            "x": 39335,
-            "z": -1864,
-            "lines": {
-                "China": {
-                    "Hunan Guilin Line": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Guilin North",
-            "id": 799,
-            "x": 39535,
-            "z": -1430,
-            "lines": {
-                "China": {
-                    "Guilin Huzhou Ice & Rail Line": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Huzhou Elevator",
-            "type": "elev-we",
-            "id": 800,
-            "x": 40740,
-            "z": -1430,
-            "y1": 105,
-            "y2": 87,
-            "lines": {
-                "China": {
-                    "Guilin Huzhou Ice & Rail Line": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Shuixi",
-            "id": 801,
-            "x": 41319,
-            "z": -1430,
-            "lines": {
-                "China": {
-                    "Guilin Huzhou Ice & Rail Line": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Rail Station",
-            "id": 802,
-            "x": 41766,
-            "z": -1430,
-            "lines": {
-                "China": {
-                    "Guilin Huzhou Ice & Rail Line": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Lijiang",
-            "id": 803,
-            "x": 35831,
-            "z": -2017,
-            "lines": {
-                "China": {
-                    "Lijiang Guilin Line": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Wumengfu",
-            "id": 804,
-            "x": 36907,
-            "z": -2017,
-            "lines": {
-                "China": {
-                    "Lijiang Guilin Line": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Jinan West",
-            "id": 806,
-            "x": 41953,
-            "z": -6021,
-            "lines": {
-                "China": {
-                    "Jinan-Xinhua Line": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Mao Statue",
-            "id": 807,
-            "x": 41202,
-            "z": -6021,
-            "lines": {
-                "China": {
-                    "Jinan-Xinhua Line": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Mao Statue Elevator",
-            "type": "elev-we",
-            "id": 808,
-            "x": 41013,
-            "z": -6021,
-            "y1": 96,
-            "y2": 71,
-            "lines": {
-                "China": {
-                    "Jinan-Xinhua Line": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Jiyuan Elevator",
-            "type": "elev-we",
-            "id": 809,
-            "x": 40225,
-            "z": -6021,
-            "y1": 71,
-            "y2": 72,
-            "lines": {
-                "China": {
-                    "Jinan-Xinhua Line": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Xinhua Elevator",
-            "type": "elev-we",
-            "id": 810,
-            "x": 39746,
-            "z": -6021,
-            "y1": 72,
-            "y2": 73,
-            "lines": {
-                "China": {
-                    "Jinan-Xinhua Line": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Xinhua Bookstore",
-            "id": 811,
-            "x": 39656,
-            "z": -6021,
-            "lines": {
-                "China": {
-                    "Jinan-Xinhua Line": ["", "Main line"]
-                }
-            }
-        },
-        {
-            "name": "Guiyang South",
-            "id": 812,
-            "x": 38280,
-            "z": -1802,
-            "lines": {
-                "China": {
-                    "Guiyang Anshun Line": ["", "Main line"]
                 }
             }
         }
@@ -11134,202 +10883,28 @@
         },
         "Canarail": {
             "Trans-Canada Rail": {
-                "prefix": "",
-                "code": "",
-                "color": "ff1f1f",
-                "y": 64,
+                "prefix": "[Rail] ",
+                "code": "TC",
+                "color": "FF0000",
+                "y": 80,
                 "branches": {
-                    "Main": {
+                    "Main line": {
                         "vertices": [
-                            [-39779.5, -12063.5],
-                            [-39751.5, -12063.5],
-                            [-39742.5, -12055.5],
-                            [-39542.5, -12054.5],
-                            [-39203.5, -11715.5],
-                            [-38614.5, -11715.5],
-                            [-38604.5, -11724.5],
-                            [-38515.5, -11724.5],
-                            [-38501.5, -11710.5],
-                            [-38279.5, -11710.5],
-                            [-38250.5, -11681.5],
-                            [-38122.5, -11681.5],
-                            [-37845.5, -11404.5],
-                            [-37845.5, -11402.5],
-                            [-37830.5, -11402.5],
-                            [-37830.5, -11404.5],
-                            [-37830.5, -11406.5],
-                            [-37845.5, -11406.5],
-                            [-37845.5, -11404.5]
+                            [-41809, -12209],
+                            [-41643, -12200],
+                            [-41477, -12105],
+                            [-40923, -12071],
+                            [-39847, -12062],
+                            [-39116, -11716],
+                            [-38486, -11712],
+                            [-37697, -11271],
+                            [-37258, -10845],
+                            [-35855, -11177]
                         ],
-                        "stations": [
-                            0,
-                            1,
-                            2,
-                            3,
-                            4,
-                            5,
-                            6,
-                            7,
-                            8,
-                            9,
-                            10
-                        ]
-                    },
-                    "Main Line 2": {
-                        "vertices": [
-                            [-41808.5, -12209.5],
-                            [-41652.5, -12209.5],
-                            [-41646.5, -12204.5],
-                            [-41637.5, -12186.5],
-                            [-41632.5, -12181.5],
-                            [-41479.5, -12104.5],
-                            [-41475.5, -12104.5],
-                            [-41414.5, -12073.5],
-                            [-40489.5, -12073.5],
-                            [-40489.5, -12075.5],
-                            [-40452.5, -12075.5],
-                            [-40452.5, -12073.5],
-                            [-40452.5, -12071.5],
-                            [-40489.5, -12071.5],
-                            [-40489.5, -12073.5]
-                        ],
-                        "stations": []
-                    },
-                    "Main Line 3": {
-                        "vertices": [
-                            [-37599.5, -11128.5],
-                            [-37599.5, -11131.5],
-                            [-37599.5, -11174.5],
-                            [-37601.5, -11174.5],
-                            [-37603.5, -11174.5],
-                            [-37603.5, -11131.5],
-                            [-37603.5, -11128.5],
-                            [-37599.5, -11128.5],
-                            [-37316.5, -10845.5],
-                            [-37316.5, -10842.5],
-                            [-37194.5, -10842.5],
-                            [-37194.5, -10845.5],
-                            [-37194.5, -10847.5],
-                            [-37316.5, -10847.5],
-                            [-37316.5, -10845.5]
-                        ],
-                        "stations": []
-                    },
-                    "Main Line 4": {
-                        "vertices": [
-                            [-35835.5, -11179.5],
-                            [-36113.5, -11176.5],
-                            [-36124.5, -11166.5],
-                            [-36423.5, -11166.5],
-                            [-36561.5, -11029.5],
-                            [-36987.5, -11029.5],
-                            [-37075.5, -10942.5],
-                            [-37075.5, -10920.5],
-                            [-37113.5, -10882.5],
-                            [-37157.5, -10882.5],
-                            [-37194.5, -10845.5]
-                        ],
-                        "stations": []
-                    },
-                    "Main Line 5": {
-                        "vertices": [
-                            [-40452.5, -12073.5],
-                            [-40231.5, -12073.5],
-                            [-40221.5, -12063.5],
-                            [-39887.5, -12064.5],
-                            [-39887.5, -12066.5],
-                            [-39779.5, -12066.5],
-                            [-39779.5, -12063.5],
-                            [-39779.5, -12062.5],
-                            [-39887.5, -12062.5],
-                            [-39887.5, -12064.5]
-                        ],
-                        "stations": []
-                    },
-                    "Main Line 6": {
-                        "vertices": [
-                            [-37599.5, -11131.5],
-                            [-37601.5, -11131.5],
-                            [-37603.5, -11131.5]
-                        ],
-                        "stations": []
-                    },
-                    "Main Line 7": {
-                        "vertices": [
-                            [-37830.5, -11404.5],
-                            [-37601.5, -11174.5]
-                        ],
-                        "stations": []
-                    },
-                    "Main Line 8": {
-                        "vertices": [
-                            [-40630.5, -12031.5]
-                        ],
-                        "stations": []
-                    },
-                    "Main Line 9": {
-                        "vertices": [
-                            [-40396.5, -12013.5]
-                        ],
-                        "stations": []
-                    },
-                    "Main Line 10": {
-                        "vertices": [
-                            [-38325.5, -11251.5]
-                        ],
-                        "stations": []
-                    },
-                    "Main Line 11": {
-                        "vertices": [
-                            [-38315.5, -11191.5]
-                        ],
-                        "stations": []
-                    },
-                    "Main Line 12": {
-                        "vertices": [
-                            [-45024.5, -11580.5]
-                        ],
-                        "stations": []
-                    },
-                    "Main Line 13": {
-                        "vertices": [
-                            [-43841.5, -11666.5]
-                        ],
-                        "stations": []
-                    },
-                    "Main Line 14": {
-                        "vertices": [
-                            [-39070.5, -11683.5]
-                        ],
-                        "stations": []
-                    },
-                    "Main Line 15": {
-                        "vertices": [
-                            [-39846.5, -12064.5]
-                        ],
-                        "stations": []
-                    },
-                    "Main Line 16": {
-                        "vertices": [
-                            [-39853.5, -12057.5]
-                        ],
-                        "stations": []
-                    },
-                    "Main Line 17": {
-                        "vertices": [
-                            [-44073.5, -11781.5]
-                        ],
-                        "stations": []
-                    },
-                    "Main Line 18": {
-                        "vertices": [
-                            [-41703.5, -12010.5]
-                        ],
-                        "stations": []
+                        "stations": [162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172]
                     }
                 }
             },
-        
             "Trans Canadian Ice Rail": {
                 "prefix": "",
                 "code": "TCIR",
@@ -11762,26 +11337,15 @@
                 "prefix": "",
                 "code": "東方",
                 "color": "79A4A2",
-                "y": "110, 90",
+                "y": 110,
                 "branches": {
                     "Main line": {
                         "vertices": [
                             [34938, -5089],
                             [37410, -5089],
-                            [37410, -6082],
-                            [38245, -6082],
-                            [38245, -6629]
+                            [37410, -5834]
                         ],
-                        "stations": [273, 407, 408, 652, 409, 789, 410, 791, [792, "Liangzhou branch"], 793, 794]
-                    },
-                    "Liangzhou branch": {
-                        "vertices": [
-                            [37608, -6082],
-                            [37608, -6104],
-                            [37608, -6933],
-                            [35355, -6933]
-                        ],
-                        "stations": [[792, "Main line"], 795, 49]
+                        "stations": [273, 407, 408, 652, 409, 789, 410]
                     }
                 }
             }
@@ -12062,85 +11626,6 @@
             }
         },
         "China": {
-            "Guiyang Anshun Line": {
-                "prefix": "",
-                "code": "贵阳安顺",
-                "color": "D2CE49",
-                "y": 72,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [38193, -1645],
-                            [38280, -1645],
-                            [38280, -1802]
-                        ],
-                        "stations": [796, 812]
-                    }
-                }
-            },
-            "Hunan Guilin Line": {
-                "prefix": "",
-                "code": "湖南桂林",
-                "color": "3857AF",
-                "y": 54,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [39335, -1864],
-                            [39335, -1297],
-                            [39361, -1297]
-                        ],
-                        "stations": [798, 797]
-                    }
-                }
-            },
-            "Guilin Huzhou Ice & Rail Line": {
-                "prefix": "",
-                "code": "",
-                "color": "954346",
-                "y": "105, 87",
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [39535, -1430],
-                            [41766, -1430]
-                        ],
-                        "stations": [799, 800, 801, 802]
-                    }
-                }
-            },
-            "Lijiang Guilin Line": {
-                "prefix": "",
-                "code": "丽江桂林",
-                "color": "9BB637",
-                "y": 84,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [35831, -2017],
-                            [36907, -2017],
-                            [36907, -1880],
-                            [38360, -1880]
-                        ],
-                        "stations": [803, 804, 685]
-                    }
-                }
-            },
-            "Jinan-Xinhua Line": {
-                "prefix": "",
-                "code": "JC",
-                "color": "4F4F4F",
-                "y": "96, 71, 72, 73",
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [41953, -6021],
-                            [39656, -6021]
-                        ],
-                        "stations": [806, 807, 808, 809, 810, 811]
-                    }
-                }
-            },
             "Heiyan-Junzhou": {
                 "prefix": "",
                 "code": "海燕均州",
@@ -13895,111 +13380,71 @@
                 "prefix": "",
                 "code": "NN",
                 "color": "994A00",
-                "y": -62,
+                "y": "???",
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [1893.5, -12904.5],
-                            [1893.5, -12946.5],
-                            [1893.5, -12954.5],
-                            [1893.5, -13505.5],
-                            [1893.5, -15744.5],
-                            [2241.5, -15744.5],
-                            [2241.5, -15726.5],
-                            [1897.5, -15726.5],
-                            [1897.5, -13505.5],
-                            [1897.5, -12954.5],
-                            [1897.5, -12946.5],
-                            [1897.5, -12904.5]
+                            [1893, -13505],
+                            [1893, -15745],
+                            [2255, -15745],
+                            [2241, -15745],
+                            [2241, -15727],
+                            [2255, -15727],
+                            [1897, -15727],
+                            [1897, -13505]
                         ],
                         "stations": [737, [738, "Mapplatform branch"]]
                     },
-                    "Stavanger north spur": {
-                        "vertices": [
-                            [2255.5, -15744.5],
-                            [2241.5, -15744.5]
-                        ],
-                        "stations": []
-                    },
-                    "Stavanger south spur": {
-                        "vertices": [
-                            [2241.5, -15726.5],
-                            [2255.5, -15726.5]
-                        ],
-                        "stations": []
-                    },
-                    "Crossover 1": {
-                        "vertices": [
-                            [1897.5, -12946.5],
-                            [1893.5, -12954.5]
-                        ],
-                        "stations": []
-                    },
-                    "Crossover 2": {
-                        "vertices": [
-                            [1893.5, -12946.5],
-                            [1897.5, -12954.5]
-                        ],
-                        "stations": []
-                    },
-                    "West outer track": {
-                        "vertices": [
-                            [1893.5, -12938.5],
-                            [1885.5, -12938.5],
-                            [1881.5, -12938.5],
-                            [1880.5, -12938.5],
-                            [1874.5, -12932.5],
-                            [1874.5, -12904.5]
-                        ],
-                        "stations": []
-                    },
-                    "West middle track": {
-                        "vertices": [
-                            [1881.5, -12938.5],
-                            [1881.5, -12904.5]
-                        ],
-                        "stations": []
-                    },
-                    "West inner track": {
-                        "vertices": [
-                            [1885.5, -12938.5],
-                            [1885.5, -12904.5]
-                        ],
-                        "stations": []
-                    },
-                    "East inner track": {
-                        "vertices": [
-                            [1905.5, -12941.5],
-                            [1905.5, -12904.5]
-                        ],
-                        "stations": []
-                    },
-                    "East middle track": {
-                        "vertices": [
-                            [1909.5, -12940.5],
-                            [1909.5, -12904.5]
-                        ],
-                        "stations": []
-                    },
-                    "East outer track": {
-                        "vertices": [
-                            [1917.5, -12904.5],
-                            [1917.5, -12932.5],
-                            [1908.5, -12941.5],
-                            [1897.5, -12941.5]
-                        ],
-                        "stations": []
-                    },
                     "Mapplatform branch": {
                         "vertices": [
-                            [1897.5, -14648.5],
-                            [1478.5, -14648.5],
-                            [1478.5, -14668.5],
-                            [1444.5, -14668.5],
-                            [1444.5, -14651.5],
-                            [1217.5, -14651.5]
+                            [1897, -14649],
+                            [1478, -14649],
+                            [1478, -14669],
+                            [1444, -14669],
+                            [1444, -14652],
+                            [1217, -14652]
                         ],
                         "stations": [[738, "Main line"], 739]
+                    }
+                }
+            }
+        },
+        "French Intercity Highway": {
+            "Strasbourg-Metz": {
+                "prefix": "",
+                "code": "Str-Met",
+                "color": "ffffff",
+                "y": 50,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [2765, -10968],
+                            [2696, -10968],
+                            [2696, -10970],
+                            [2686, -10970],
+                            [2686, -10968],
+                            [2629, -10968],
+                            [2629, -11008],
+                            [2353, -11008]
+                        ],
+                        "stations": [465, 466, 467]
+                    }
+                }
+            },
+            "Metz-Paris": {
+                "prefix": "",
+                "code": "Met-Par",
+                "color": "ffffff",
+                "y": 50,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [2159, -11008],
+                            [978, -11008],
+                            [977, -11007],
+                            [933, -11007]
+                        ],
+                        "stations": [468, 469]
                     }
                 }
             }
