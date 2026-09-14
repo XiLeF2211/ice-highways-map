@@ -1,0 +1,244 @@
+"Norway-Netherlands": {
+    "prefix": "",
+    "code": "NN",
+    "color": "994A00",
+    "y": -62,
+    "branches": {
+        "Main line": {
+            "vertices": [
+                [1893.5, -13505.5],
+                [1893.5, -15744.5]
+            ],
+            "stations": [
+                737,
+                [
+                    738,
+                    "Mapplatform branch"
+                ]
+            ]
+        },
+        "Main line Line 2": {
+            "vertices": [
+                [2255.5, -15744.5],
+                [2241.5, -15744.5],
+                [2241.5, -15726.5],
+                [2255.5, -15726.5]
+            ],
+            "stations": []
+        },
+        "Main line Line 3": {
+            "vertices": [
+                [1897.5, -15726.5],
+                [1897.5, -13505.5]
+            ],
+            "stations": []
+        },
+        "Main line Line 4": {
+            "vertices": [
+                [1897.5, -12904.5]
+            ],
+            "stations": []
+        },
+        "Main line Line 5": {
+            "vertices": [
+                [1893.5, -12904.5]
+            ],
+            "stations": []
+        },
+        "Main line Line 6": {
+            "vertices": [
+                [1897.5, -12954.5]
+            ],
+            "stations": []
+        },
+        "Main line Line 7": {
+            "vertices": [
+                [1893.5, -12954.5]
+            ],
+            "stations": []
+        },
+        "Main line Line 8": {
+            "vertices": [
+                [1893.5, -12946.5]
+            ],
+            "stations": []
+        },
+        "Main line Line 9": {
+            "vertices": [
+                [1897.5, -12946.5]
+            ],
+            "stations": []
+        },
+        "Main line Line 10": {
+            "vertices": [
+                [1893.5, -12938.5],
+                [1885.5, -12938.5],
+                [1881.5, -12938.5],
+                [1880.5, -12938.5],
+                [1874.5, -12932.5],
+                [1874.5, -12904.5]
+            ],
+            "stations": []
+        },
+        "Main line Line 11": {
+            "vertices": [
+                [1881.5, -12904.5]
+            ],
+            "stations": []
+        },
+        "Main line Line 12": {
+            "vertices": [
+                [1885.5, -12904.5]
+            ],
+            "stations": []
+        },
+        "Main line Line 13": {
+            "vertices": [
+                [1905.5, -12904.5]
+            ],
+            "stations": []
+        },
+        "Main line Line 14": {
+            "vertices": [
+                [1909.5, -12904.5]
+            ],
+            "stations": []
+        },
+        "Main line Line 15": {
+            "vertices": [
+                [1917.5, -12904.5],
+                [1917.5, -12932.5],
+                [1908.5, -12941.5],
+                [1897.5, -12941.5]
+            ],
+            "stations": []
+        },
+        "Main line Line 16": {
+            "vertices": [
+                [1909.5, -12940.5]
+            ],
+            "stations": []
+        },
+        "Main line Line 17": {
+            "vertices": [
+                [1905.5, -12941.5]
+            ],
+            "stations": []
+        },
+        "Main line Connection 1": {
+            "vertices": [
+                [1897.5, -12946.5],
+                [1893.5, -12954.5]
+            ],
+            "stations": []
+        },
+        "Main line Connection 2": {
+            "vertices": [
+                [1893.5, -12946.5],
+                [1897.5, -12954.5]
+            ],
+            "stations": []
+        },
+        "Main line Connection 3": {
+            "vertices": [
+                [1897.5, -12954.5],
+                [1897.5, -13505.5]
+            ],
+            "stations": []
+        },
+        "Main line Connection 4": {
+            "vertices": [
+                [1893.5, -13505.5],
+                [1893.5, -12954.5]
+            ],
+            "stations": []
+        },
+        "Main line Connection 5": {
+            "vertices": [
+                [1893.5, -12954.5],
+                [1893.5, -12946.5]
+            ],
+            "stations": []
+        },
+        "Main line Connection 6": {
+            "vertices": [
+                [1893.5, -12946.5],
+                [1893.5, -12904.5]
+            ],
+            "stations": []
+        },
+        "Main line Connection 7": {
+            "vertices": [
+                [1897.5, -12954.5],
+                [1897.5, -12946.5]
+            ],
+            "stations": []
+        },
+        "Main line Connection 8": {
+            "vertices": [
+                [1897.5, -12946.5],
+                [1897.5, -12904.5]
+            ],
+            "stations": []
+        },
+        "Main line Connection 9": {
+            "vertices": [
+                [1905.5, -12941.5],
+                [1905.5, -12904.5]
+            ],
+            "stations": []
+        },
+        "Main line Connection 10": {
+            "vertices": [
+                [1909.5, -12940.5],
+                [1909.5, -12904.5]
+            ],
+            "stations": []
+        },
+        "Main line Connection 11": {
+            "vertices": [
+                [1885.5, -12938.5],
+                [1885.5, -12904.5]
+            ],
+            "stations": []
+        },
+        "Main line Connection 12": {
+            "vertices": [
+                [1881.5, -12938.5],
+                [1881.5, -12904.5]
+            ],
+            "stations": []
+        },
+        "Main line Connection 13": {
+            "vertices": [
+                [2241.5, -15726.5],
+                [1897.5, -15726.5]
+            ],
+            "stations": []
+        },
+        "Main line Connection 14": {
+            "vertices": [
+                [2241.5, -15744.5],
+                [1893.5, -15744.5]
+            ],
+            "stations": []
+        },
+        "Mapplatform branch": {
+            "vertices": [
+                [1897.5, -14648.5],
+                [1478.5, -14648.5],
+                [1478.5, -14668.5],
+                [1444.5, -14668.5],
+                [1444.5, -14651.5],
+                [1217.5, -14651.5]
+            ],
+            "stations": [
+                [
+                    738,
+                    "Main line"
+                ],
+                739
+            ]
+        }
+    }
+}
