@@ -8013,7 +8013,8 @@
             ],
             "lines": {
                 "China": {
-                    "Baoji-Guiyang": ["", "Main line"]
+                    "Baoji-Guiyang": ["", "Main line"],
+                    "Baoji-Zhumadian Ice Highway": ["", "Main line"]
                 }
             }
         },
@@ -8025,7 +8026,8 @@
             "z": -4455,
             "lines": {
                 "China": {
-                    "Baoji-Guiyang": ["", "Main line"]
+                    "Baoji-Guiyang": ["", "Main line"],
+                    "Baoji-Zhumadian Ice Highway": ["", "Xianyang Metro Branch"]
                 }
             }
         },
@@ -9284,6 +9286,176 @@
             "lines": {
                 "Ming Underground Ice Rail System": {
                     "Xihang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Baoji JCT",
+            "type": "jct",
+            "id": 775,
+            "x": 38341,
+            "z": -5050,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian Ice Highway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Jingyang",
+            "id": 776,
+            "x": 38757,
+            "z": -5050,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian Ice Highway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Xianyang JCT",
+            "type": "jct",
+            "id": 777,
+            "x": 38853,
+            "z": -5050,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian Ice Highway": ["", "Main line to Xianyang Metro Branch"]
+                }
+            }
+        },
+        {
+            "name": "XiAn",
+            "id": 778,
+            "x": 38966,
+            "z": -5050,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian Ice Highway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Zhumadian JCT",
+            "type": "jct",
+            "id": 779,
+            "x": 39127,
+            "z": -5050,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian Ice Highway": ["", "Main line to Bilibili Branch to Changan Branch"]
+                }
+            }
+        },
+        {
+            "name": "Zhumadian City JCT",
+            "type": "jct",
+            "id": 780,
+            "x": 39205,
+            "z": -5050,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian Ice Highway": ["", "Main line to Zhumadian Branch"]
+                }
+            }
+        },
+        {
+            "name": "Hanguguan",
+            "id": 781,
+            "x": 39567,
+            "z": -5050,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian Ice Highway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Xianyang Elevator",
+            "type": "elev-we",
+            "id": 782,
+            "x": 38853,
+            "z": -4978,
+            "y1": 86,
+            "y2": 66,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian Ice Highway": ["", "Xianyang Metro Branch"]
+                }
+            }
+        },
+        {
+            "name": "Xianyang",
+            "id": 783,
+            "x": 38853,
+            "z": -4901,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian Ice Highway": ["", "Xianyang Metro Branch"]
+                }
+            }
+        },
+        {
+            "name": "Weiyang",
+            "id": 784,
+            "x": 38853,
+            "z": -4758,
+            "areas": [
+                [[38843, -4833], [38874, -4753]]
+            ],
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian Ice Highway": ["", "Xianyang Metro Branch"]
+                }
+            }
+        },
+        {
+            "name": "Bilibili",
+            "id": 785,
+            "x": 39127,
+            "z": -5213,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian Ice Highway": ["", "Bilibili Branch"]
+                }
+            }
+        },
+        {
+            "name": "Bilibili Elevator",
+            "type": "elev-we",
+            "id": 786,
+            "x": 39127,
+            "z": -5329,
+            "y1": 86,
+            "y2": 80,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian Ice Highway": ["", "Bilibili Branch"]
+                }
+            }
+        },
+        {
+            "name": "Changan",
+            "id": 787,
+            "x": 39127,
+            "z": -4945,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian Ice Highway": ["", "Changan Branch"]
+                }
+            }
+        },
+        {
+            "name": "Zhumadian",
+            "id": 788,
+            "x": 39205,
+            "z": -4955,
+            "areas": [
+                [[39199, -5029], [39235, -4953]]
+            ],
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian Ice Highway": ["", "Zhumadian Branch"]
                 }
             }
         }
@@ -11447,6 +11619,52 @@
                             [36039, -5090]
                         ],
                         "stations": [[650, "Main line"], 651, 652]
+                    }
+                }
+            },
+            "Baoji-Zhumadian Ice Highway": {
+                "prefix": "",
+                "code": "黄河",
+                "color": "a0a0fe",
+                "y": 86,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [38353, -4903],
+                            [38341, -4903],
+                            [38341, -5050],
+                            [39567, -5050]
+                        ],
+                        "stations": [668, 775, 776, [777, "Xianyang Metro Branch"], 778, [779, "Bilibili Branch", "Changan Branch"], [780, "Zhumadian Branch"], 781]
+                    },
+                    "Xianyang Metro Branch": {
+                        "vertices": [
+                            [38853, -5050],
+                            [38853, -4455],
+                            [38854, -4455]
+                        ],
+                        "stations": [[777, "Main line"], 782, 783, 784, 669]
+                    },
+                    "Bilibili Branch": {
+                        "vertices": [
+                            [39127, -5050],
+                            [39127, -5329]
+                        ],
+                        "stations": [[779, "Main line", "Changan Branch"], 785, 786]
+                    },
+                    "Changan Branch": {
+                        "vertices": [
+                            [39127, -5050],
+                            [39127, -4945]
+                        ],
+                        "stations": [[779, "Main line", "Bilibili Branch"], 787]
+                    },
+                    "Zhumadian Branch": {
+                        "vertices": [
+                            [39205, -5050],
+                            [39205, -4955]
+                        ],
+                        "stations": [[780, "Main line"], 788]
                     }
                 }
             },
