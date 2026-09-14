@@ -9297,7 +9297,7 @@
             "z": -5050,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian Ice Highway": ["", "Main line"]
+                    "Baoji-Zhumadian Ice Highway": ["", "Main line to Krown-Citadel Branch"]
                 }
             }
         },
@@ -9456,6 +9456,35 @@
             "lines": {
                 "China": {
                     "Baoji-Zhumadian Ice Highway": ["", "Zhumadian Branch"]
+                }
+            }
+        },
+        {
+            "name": "Krown-Citadel JCT",
+            "type": "jct",
+            "id": 789,
+            "x": 37410,
+            "z": -5089,
+            "lines": {
+                "Gobi Transport": {
+                    "Eastern": ["", "Main line"]
+                },
+                "China": {
+                    "Baoji-Zhumadian Ice Highway": ["", "Krown-Citadel Branch"]
+                }
+            }
+        },
+        {
+            "name": "Wild Elevator",
+            "type": "elev-we",
+            "id": 790,
+            "x": 37778,
+            "z": -5050,
+            "y1": 86,
+            "y2": 110,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian Ice Highway": ["", "Krown-Citadel Branch"]
                 }
             }
         }
@@ -11316,7 +11345,7 @@
                             [37410, -5089],
                             [37410, -5834]
                         ],
-                        "stations": [273, 407, 408, 652, 409, 410]
+                        "stations": [273, 407, 408, 652, 409, 789, 410]
                     }
                 }
             }
@@ -11626,7 +11655,7 @@
                 "prefix": "",
                 "code": "黄河",
                 "color": "a0a0fe",
-                "y": 86,
+                "y": "86, 110",
                 "branches": {
                     "Main line": {
                         "vertices": [
@@ -11635,7 +11664,7 @@
                             [38341, -5050],
                             [39567, -5050]
                         ],
-                        "stations": [668, 775, 776, [777, "Xianyang Metro Branch"], 778, [779, "Bilibili Branch", "Changan Branch"], [780, "Zhumadian Branch"], 781]
+                        "stations": [668, [775, "Krown-Citadel Branch"], 776, [777, "Xianyang Metro Branch"], 778, [779, "Bilibili Branch", "Changan Branch"], [780, "Zhumadian Branch"], 781]
                     },
                     "Xianyang Metro Branch": {
                         "vertices": [
@@ -11658,6 +11687,14 @@
                             [39127, -4945]
                         ],
                         "stations": [[779, "Main line", "Bilibili Branch"], 787]
+                    },
+                    "Krown-Citadel Branch": {
+                        "vertices": [
+                            [38341, -5050],
+                            [37410, -5050],
+                            [37410, -5089]
+                        ],
+                        "stations": [[775, "Main line"], 790, 789]
                     },
                     "Zhumadian Branch": {
                         "vertices": [
