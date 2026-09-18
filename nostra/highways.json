@@ -4932,7 +4932,7 @@
             "z": -17156,
             "lines": {
                 "Norwegian Ice Boat Highway System": {
-                    "Lower Central": ["", "Great line"]
+                    "Lower Central": ["", "Fronningen branch"]
                 }
             }
         },
@@ -9926,6 +9926,63 @@
                     "Denmark": ["", "Gothenburg branch"]
                 }
             }
+        },
+        {
+            "name": "Finse JCT",
+            "type": "jct",
+            "id": 828,
+            "x": 2523,
+            "z": -16839,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Great line to Fronningen branch"]
+                }
+            }
+        },
+        {
+            "name": "Finse (Great line)",
+            "id": 829,
+            "x": 2633,
+            "z": -16839,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Great line"]
+                }
+            }
+        },
+        {
+            "name": "Bergen South",
+            "id": 830,
+            "x": 1944,
+            "z": -16524,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Great line"]
+                }
+            }
+        },
+        {
+            "name": "Makfrost",
+            "id": 831,
+            "x": 1944,
+            "z": -16286,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Great line"]
+                }
+            }
+        },
+        {
+            "name": "Drangedal JCT",
+            "type": "jct",
+            "id": 832,
+            "x": 2896,
+            "z": -16114,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Great line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -13241,14 +13298,13 @@
                             [2425, -17799],
                             [3387, -17799],
                             [3387, -16839],
-                            [2523, -16839],
-                            [2523, -17156],
-                            [2523, -16839],
                             [1968, -16839],
                             [1968, -16763],
-                            [1944, -16763]
+                            [1944, -16763],
+                            [1944, -16114],
+                            [2896, -16114]
                         ],
-                        "stations": [421, 422, 424, [419, "Little line"], [437, "Connector branch"], 427, 428, [433, "West Agder branch"], 737, 431, 432]
+                        "stations": [832, 831, 830, 421, [828, "Fronningen branch"], 829, 424, [419, "Little line"], [437, "Connector branch"], 427, 428, [433, "West Agder branch"], 737, 431, 432]
                     },
                     "West Agder branch": {
                         "vertices": [
@@ -13256,6 +13312,13 @@
                             [2680, -15587]
                         ],
                         "stations": [[433, "Great line"], 423]
+                    },
+                    "Fronningen branch": {
+                        "vertices": [
+                            [2523, -16839],
+                            [2523, -17156]
+                        ],
+                        "stations": [[828, "Great line"], 422]
                     }
                 }
             },
