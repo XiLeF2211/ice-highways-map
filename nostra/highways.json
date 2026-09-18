@@ -1054,7 +1054,8 @@
             "z": -17732,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line to Riverwood branch"]
+                    "Siberia Main": ["", "Main line"],
+                    "Lena": ["", "Main line"]
                 }
             }
         },
@@ -1066,7 +1067,7 @@
             "z": -17692,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Riverwood branch"]
+                    "Lena": ["", "Main line"]
                 }
             }
         },
@@ -1077,7 +1078,7 @@
             "z": -16870,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Riverwood branch"]
+                    "Lena": ["", "Main line"]
                 }
             }
         },
@@ -2493,7 +2494,8 @@
             "z": -17732,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line to Tapagonia branch"]
+                    "Siberia Main": ["", "Main line"],
+                    "Lena": ["", "Main line"]
                 }
             }
         },
@@ -2504,7 +2506,7 @@
             "z": -17808,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Tapagonia branch"]
+                    "Lena": ["", "Main line"]
                 }
             }
         },
@@ -9738,6 +9740,52 @@
                     "Guiyang-Anshun": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Lenavoz",
+            "id": 812,
+            "x": 41480,
+            "z": -16495,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Twisted Halls",
+            "id": 813,
+            "x": 41381,
+            "z": -16188,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kurogane Mine",
+            "type": "semi4",
+            "id": 814,
+            "x": 41381,
+            "z": -15605,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Uchisato Mine",
+            "type": "semi4",
+            "id": 815,
+            "x": 41381,
+            "z": -14525,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -9821,7 +9869,13 @@
                             [52960.5, -23834.5],
                             [51646, -23834.5]
                         ],
-                        "stations": [753, 493, 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, [213, "Riverwood branch"], [90, "Riverwood branch"], 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340]
+                        "stations": [753, 493, 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340],
+                        "concurrencies": {
+                            "TNIH.Siberia Main": [
+                                [41614, -17732],
+                                [41900, -17732]
+                            ]
+                        }
                     },
                     "Finlandia branch": {
                         "vertices": [
@@ -9867,20 +9921,6 @@
                             [38860, -18094]
                         ],
                         "stations": [[511, "Main line"], 512]
-                    },
-                    "Tapagonia branch": {
-                        "vertices": [
-                            [41614, -17732],
-                            [41614, -17808]
-                        ],
-                        "stations": [[213, "Main line"], 214]
-                    },
-                    "Riverwood branch": {
-                        "vertices": [
-                            [41900, -17732],
-                            [41900, -16830]
-                        ],
-                        "stations": [[90, "Main line"], 91, 92]
                     },
                     "Yakutia Industrial branch": {
                         "vertices": [
@@ -10622,6 +10662,31 @@
                             [52339.5, -21051]
                         ],
                         "stations": [657, 658, 659, 691, 8, 7]
+                    }
+                }
+            },
+            "Lena": {
+                "prefix": "",
+                "code": "LN",
+                "color": "f492a9",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [41614, -17808],
+                            [41614, -17732],
+                            [41900, -17732],
+                            [41900, -16495],
+                            [41381, -16495],
+                            [41381, -14525]
+                        ],
+                        "stations": [214, 213, 90, 91, 92],
+                        "concurrencies": {
+                            "TNIH.Siberia Main": [
+                                [41614, -17732],
+                                [41900, -17732]
+                            ]
+                        }
                     }
                 }
             },
