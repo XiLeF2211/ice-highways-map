@@ -577,7 +577,7 @@
             }
         },
         {
-            "name": "Jiayuguan Entrance",
+            "name": "Jiayuguan Entrance (JCT)",
             "id": 49,
             "x": 35355,
             "z": -6933,
@@ -8230,7 +8230,7 @@
             "lines": {
                 "China": {
                     "Baoji-Guiyang": ["", "Main line"],
-                    "Lijiang Guilin Line": ["", "Main line"]
+                    "Lijang-Guilin": ["", "Main line"]
                 }
             }
         },
@@ -9558,7 +9558,7 @@
             "z": -1645,
             "lines": {
                 "China": {
-                    "Guiyang Anshun Line": ["", "Main line"]
+                    "Guiyang-Anshun": ["", "Main line"]
                 }
             }
         },
@@ -9638,7 +9638,7 @@
             "z": -2017,
             "lines": {
                 "China": {
-                    "Lijiang Guilin Line": ["", "Main line"]
+                    "Lijang-Guilin": ["", "Main line"]
                 }
             }
         },
@@ -9649,7 +9649,7 @@
             "z": -2017,
             "lines": {
                 "China": {
-                    "Lijiang Guilin Line": ["", "Main line"]
+                    "Lijang-Guilin": ["", "Main line"]
                 }
             }
         },
@@ -9660,7 +9660,7 @@
             "z": -6021,
             "lines": {
                 "China": {
-                    "Jinan-Xinhua Line": ["", "Main line"]
+                    "Jinan-Xinhua": ["", "Main line"]
                 }
             }
         },
@@ -9671,7 +9671,7 @@
             "z": -6021,
             "lines": {
                 "China": {
-                    "Jinan-Xinhua Line": ["", "Main line"]
+                    "Jinan-Xinhua": ["", "Main line"]
                 }
             }
         },
@@ -9685,7 +9685,7 @@
             "y2": 71,
             "lines": {
                 "China": {
-                    "Jinan-Xinhua Line": ["", "Main line"]
+                    "Jinan-Xinhua": ["", "Main line"]
                 }
             }
         },
@@ -9699,7 +9699,7 @@
             "y2": 72,
             "lines": {
                 "China": {
-                    "Jinan-Xinhua Line": ["", "Main line"]
+                    "Jinan-Xinhua": ["", "Main line"]
                 }
             }
         },
@@ -9713,7 +9713,7 @@
             "y2": 73,
             "lines": {
                 "China": {
-                    "Jinan-Xinhua Line": ["", "Main line"]
+                    "Jinan-Xinhua": ["", "Main line"]
                 }
             }
         },
@@ -9724,7 +9724,7 @@
             "z": -6021,
             "lines": {
                 "China": {
-                    "Jinan-Xinhua Line": ["", "Main line"]
+                    "Jinan-Xinhua": ["", "Main line"]
                 }
             }
         },
@@ -9735,7 +9735,7 @@
             "z": -1802,
             "lines": {
                 "China": {
-                    "Guiyang Anshun Line": ["", "Main line"]
+                    "Guiyang-Anshun": ["", "Main line"]
                 }
             }
         }
@@ -11888,7 +11888,7 @@
             }
         },
         "China": {
-            "Guiyang Anshun Line": {
+            "Guiyang-Anshun": {
                 "prefix": "",
                 "code": "贵阳安顺",
                 "color": "D2CE49",
@@ -11900,7 +11900,7 @@
                             [38280, -1645],
                             [38280, -1802]
                         ],
-                        "stations": [796, 812]
+                        "stations": [812, 796]
                     }
                 }
             },
@@ -11935,7 +11935,7 @@
                     }
                 }
             },
-            "Lijiang Guilin Line": {
+            "Lijang-Guilin": {
                 "prefix": "",
                 "code": "丽江桂林",
                 "color": "9BB637",
@@ -11952,9 +11952,9 @@
                     }
                 }
             },
-            "Jinan-Xinhua Line": {
+            "Jinan-Xinhua": {
                 "prefix": "",
-                "code": "JC",
+                "code": "济华",
                 "color": "4F4F4F",
                 "y": "96, 71, 72, 73",
                 "branches": {
