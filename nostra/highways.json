@@ -5114,14 +5114,15 @@
             }
         },
         {
-            "name": "Lower Central connector JCT",
-            "id": 437,
+            "name": "Skien JCT",
             "type": "jct",
-            "x": 3333,
-            "z": -16113,
+            "id": 437,
+            "x": 3331,
+            "z": -16115,
             "lines": {
                 "Norwegian Ice Boat Highway System": {
-                    "Lower Central": ["", "Great line to Connector branch"]
+                    "Lower Central": ["", "Great line to Connector branch"],
+                    "Denmark": ["", "Main line"]
                 }
             }
         },
@@ -9867,6 +9868,64 @@
                     "Norway-Netherlands": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "North Denmark",
+            "id": 823,
+            "x": 3521,
+            "z": -15238,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Denmark": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "North Denmark JCT",
+            "type": "jct",
+            "id": 824,
+            "x": 4183,
+            "z": -15238,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Denmark": ["", "Gothenburg branch"]
+                }
+            }
+        },
+        {
+            "name": "Anholt",
+            "id": 825,
+            "x": 4230,
+            "z": -14849,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Denmark": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Copenhagen",
+            "id": 826,
+            "x": 4230,
+            "z": -14364,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Denmark": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Gothenburg JCT",
+            "type": "jct",
+            "id": 827,
+            "x": 4281,
+            "z": -15433,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Sweden": ["", "Gothenburg line"],
+                    "Denmark": ["", "Gothenburg branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -13858,7 +13917,7 @@
                             [4281, -15381],
                             [4322, -15381]
                         ],
-                        "stations": [438, 726, [729, "Oslo-Ed Bypass"], 592]
+                        "stations": [438, 726, [729, "Oslo-Ed Bypass"], 827, 592]
                     },
                     "Oslo-Ed Bypass": {
                         "vertices": [
@@ -13967,6 +14026,56 @@
                             [2226, -14958]
                         ],
                         "stations": [737]
+                    }
+                }
+            },
+            "Denmark": {
+                "prefix": "",
+                "code": "DK",
+                "color": "D21034",
+                "y": "64",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [4237, -14354],
+                            [4237, -14778],
+                            [4233, -14778],
+                            [4233, -14386],
+                            [4233, -14778],
+                            [4232, -14778],
+                            [4232, -15240],
+                            [3427, -15240],
+                            [3427, -16021],
+                            [3392, -16021],
+                            [3392, -16023],
+                            [3333, -16023],
+                            [3333, -16117],
+                            [3329, -16117],
+                            [3329, -16019],
+                            [3373, -16019],
+                            [3373, -16017],
+                            [3423, -16017],
+                            [3423, -15236],
+                            [4228, -15236],
+                            [4229, -14478],
+                            [4229, -14354]
+                        ],
+                        "stations": [419, 823, [824, "Gothenburg branch"], 825, 826]
+                    },
+                    "Gothenburg branch": {
+                        "vertices": [
+                            [4181, -15236],
+                            [4181, -15435],
+                            [4277, -15435],
+                            [4277, -15433],
+                            [4281, -15433],
+                            [4277, -15433],
+                            [4277, -15431],
+                            [4185, -15431],
+                            [4185, -15431],
+                            [4185, -15236]
+                        ],
+                        "stations": [[824, "Main line"], 827]
                     }
                 }
             }
