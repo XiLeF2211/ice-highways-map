@@ -9786,6 +9786,19 @@
                     "Lena": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Nijisai JCT",
+            "type": "jct",
+            "id": 816,
+            "x": -16000,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Qikqtaaluk": ["", "Main line"],
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -9850,7 +9863,7 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [-7820, -17732],
+                            [-16000, -17732],
                             [-2594, -17732],
                             [-2594, -17794],
                             [-2495, -17794],
@@ -9869,7 +9882,7 @@
                             [52960.5, -23834.5],
                             [51646, -23834.5]
                         ],
-                        "stations": [753, 493, 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340],
+                        "stations": [816, 753, 493, 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340],
                         "concurrencies": {
                             "TNIH.Siberia Main": [
                                 [41614, -17732],
@@ -10704,7 +10717,7 @@
                             [-16000, -25720],
                             [-16000, -16973]
                         ],
-                        "stations": [393, 394, 395]
+                        "stations": [393, 394, 816, 395]
                     }
                 }
             },
