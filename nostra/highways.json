@@ -8845,12 +8845,13 @@
         {
             "name": "Stavanger International",
             "id": 737,
-            "x": 2250,
-            "z": -15736,
+            "x": 2216,
+            "z": -15758,
             "lines": {
                 "Norwegian Ice Boat Highway System": {
                     "Lower Central": ["", "Great line"],
-                    "Norway-Netherlands": ["", "Main line"]
+                    "Norway-Netherlands": ["", "Main line"],
+                    "Norway-Germany": ["", "Main line"]
                 }
             }
         },
@@ -9797,6 +9798,73 @@
                 "TNIH": {
                     "Qikqtaaluk": ["", "Main line"],
                     "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "SubZero Market",
+            "id": 817,
+            "x": 60058.5,
+            "z": -23840,
+            "lines": {
+                "Intercontinental": {
+                    "SubZero Market-Ayon": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Ayon (SubZero)",
+            "id": 818,
+            "x": 60174,
+            "z": -22370.5,
+            "lines": {
+                "Intercontinental": {
+                    "SubZero Market-Ayon": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Mapplatform JCT",
+            "type": "jct",
+            "id": 819,
+            "x": 1895,
+            "z": -15481,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Norway-Netherlands": ["", "Main line to The Golden Dunegon branch"]
+                }
+            }
+        },
+        {
+            "name": "The Golden Dunegon",
+            "id": 820,
+            "x": 1218,
+            "z": -15481,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Norway-Netherlands": ["", "The Golden Dunegon branch"]
+                }
+            }
+        },
+        {
+            "name": "Wadden Island",
+            "id": 821,
+            "x": 1895,
+            "z": -13188,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Norway-Netherlands": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Amsterdam",
+            "id": 822,
+            "x": 1895,
+            "z": -12920,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Norway-Netherlands": ["", "Main line"]
                 }
             }
         }
@@ -12790,6 +12858,22 @@
                         "stations": [743, 744, 745, 746, 747, 748, 749]
                     }
                 }
+            },
+            "SubZero Market-Ayon": {
+                "prefix": "",
+                "code": "SzM-A",
+                "color": "2084DB",
+                "y": 63,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [60058.5, -23840],
+                            [60058.5, -22370.5],
+                            [60174, -22370.5]
+                        ],
+                        "stations": [817, 818]
+                    }
+                }
             }
         },
         "NZ Ministry of Infrastructure": {
@@ -13799,20 +13883,44 @@
                 "prefix": "",
                 "code": "NN",
                 "color": "994A00",
-                "y": "???",
+                "y": "-62",
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [1893, -13505],
+                            [1874, -12905],
+                            [1874, -12933],
+                            [1881, -12939],
+                            [1881, -12905],
+                            [1881, -12939],
+                            [1885, -12939],
+                            [1885, -12905],
+                            [1885, -12939],
+                            [1893, -12939],
+                            [1893, -12905],
+                            [1893, -12954],
+                            [1897, -12946],
+                            [1893, -12954],
                             [1893, -15745],
                             [2255, -15745],
                             [2241, -15745],
                             [2241, -15727],
                             [2255, -15727],
                             [1897, -15727],
-                            [1897, -13505]
+                            [1897, -12954],
+                            [1893, -12946],
+                            [1897, -12954],
+                            [1897, -12905],
+                            [1897, -12942],
+                            [1905, -12942],
+                            [1905, -12905],
+                            [1905, -12942],
+                            [1909, -12942],
+                            [1909, -12905],
+                            [1909, -12942],
+                            [1917, -12933],
+                            [1917, -12905]
                         ],
-                        "stations": [737, [738, "Mapplatform branch"]]
+                        "stations": [737, [819, "The Golden Dunegon branch"], [738, "Mapplatform branch"], 821, 822]
                     },
                     "Mapplatform branch": {
                         "vertices": [
@@ -13824,6 +13932,41 @@
                             [1217, -14652]
                         ],
                         "stations": [[738, "Main line"], 739]
+                    },
+                    "The Golden Dunegon branch": {
+                        "vertices": [
+                            [1897, -15481],
+                            [1218, -15481]
+                        ],
+                        "stations": [[819, "Main line"], 820]
+                    }
+                }
+            },
+            "Norway-Germany": {
+                "prefix": "",
+                "code": "NG",
+                "color": "FFCE00",
+                "y": "76",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [2226, -15722],
+                            [2230, -15726],
+                            [2230, -15730],
+                            [2238, -15738],
+                            [2238, -16063],
+                            [2214, -16063],
+                            [2218, -16063],
+                            [2218, -15816],
+                            [2230, -15788],
+                            [2230, -14958],
+                            [2230, -15788],
+                            [2218, -15816],
+                            [2218, -15796],
+                            [2226, -15783],
+                            [2226, -14958]
+                        ],
+                        "stations": [737]
                     }
                 }
             }
@@ -13844,6 +13987,7 @@
                             [2686, -10968],
                             [2629, -10968],
                             [2629, -11008],
+                            [2353, -11008],
                             [2353, -11008]
                         ],
                         "stations": [465, 466, 467]
