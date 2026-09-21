@@ -9362,9 +9362,9 @@
             }
         },
         {
-            "name": "Hanguguan",
+            "name": "Zhumadian East",
             "id": 781,
-            "x": 39567,
+            "x": 39503,
             "z": -5050,
             "lines": {
                 "China": {
@@ -9736,6 +9736,28 @@
             "lines": {
                 "China": {
                     "Guiyang Anshun Line": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hanguguan",
+            "id": 813,
+            "x": 39590,
+            "z": -5050,
+            "lines": {
+                "China": {
+                    "Xinhua-Hangu Line": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "South Xinhua Bookstore",
+            "id": 814,
+            "x": 39590,
+            "z": -5884,
+            "lines": {
+                "China": {
+                    "Xinhua-Hangu Line": ["", "Main line"]
                 }
             }
         }
@@ -11888,6 +11910,21 @@
             }
         },
         "China": {
+            "Xinhua-Hangu Line": {
+                "prefix": "",
+                "code": "新华函谷",
+                "color": "D5C98C",
+                "y": 95,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [39590, -5050],
+                            [39590, -5884]
+                        ],
+                        "stations": [813, 814]
+                    }
+                }
+            },
             "Guiyang Anshun Line": {
                 "prefix": "",
                 "code": "贵阳安顺",
@@ -12003,7 +12040,7 @@
                             [38353, -4903],
                             [38341, -4903],
                             [38341, -5050],
-                            [39567, -5050]
+                            [39503, -5050]
                         ],
                         "stations": [668, [775, "Krown-Citadel Branch"], 776, [777, "Xianyang Metro Branch"], 778, [779, "Bilibili Branch", "Changan Branch"], [780, "Zhumadian Branch"], 781]
                     },
