@@ -9640,7 +9640,7 @@
             "z": -2017,
             "lines": {
                 "China": {
-                    "Lijiang Guilin Line": ["", "Main line"]
+                    "Lijiang-Wumengfu": ["", "Main line"]
                 }
             }
         },
@@ -11302,7 +11302,7 @@
 
                             [15649.5, -7426.5]
                         ],
-                        "stations": [483, 488, 486, 487, 489, 485]
+                        "stations": [483, 110, 488, 486, 487, 489, 485]
                     }
                 }
             },
