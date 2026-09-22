@@ -4794,15 +4794,13 @@
             }
         },
         {
-            "name": "[REUSE THIS ID]",
-            "type": "jct",
+            "name": "Hanguguan",
             "id": 411,
-            "x": 15686.5,
-            "z": -7243.5,
+            "x": 39590,
+            "z": -5050,
             "lines": {
-                "Armenia": {
-                    "M-1": ["", ""],
-                    "M-4": ["", ""]
+                "China": {
+                    "Xinhua-Hangu": ["", "Main line"]
                 }
             }
         },
@@ -8233,8 +8231,7 @@
             ],
             "lines": {
                 "China": {
-                    "Baoji-Guiyang": ["", "Main line"],
-                    "Lijang-Guilin": ["", "Main line"]
+                    "Baoji-Guiyang": ["", "Main line"]
                 }
             }
         },
@@ -9367,9 +9364,9 @@
             }
         },
         {
-            "name": "Hanguguan",
+            "name": "Zhumadian East",
             "id": 781,
-            "x": 39567,
+            "x": 39503,
             "z": -5050,
             "lines": {
                 "China": {
@@ -9643,7 +9640,7 @@
             "z": -2017,
             "lines": {
                 "China": {
-                    "Lijang-Guilin": ["", "Main line"]
+                    "Lijiang Guilin Line": ["", "Main line"]
                 }
             }
         },
@@ -9654,7 +9651,7 @@
             "z": -2017,
             "lines": {
                 "China": {
-                    "Lijang-Guilin": ["", "Main line"]
+                    "Lijiang-Wumengfu": ["", "Main line"]
                 }
             }
         },
@@ -9982,6 +9979,17 @@
             "lines": {
                 "Norwegian Ice Boat Highway System": {
                     "Lower Central": ["", "Great line"]
+                }
+            }
+        },
+        {
+            "name": "South Xinhua Bookstore",
+            "id": 833,
+            "x": 39590,
+            "z": -5884,
+            "lines": {
+                "China": {
+                    "Xinhua-Hangu": ["", "Main line"]
                 }
             }
         }
@@ -11242,7 +11250,7 @@
                             [16415.5, -6696.5],
                             [16512, -6696.5]
                         ],
-                        "stations": [482, 483, 111, 414, 484, 112, 485, 415, 114, 116, 491, 492]
+                        "stations": [482, 483, 111, 412, 414, 484, 112, 485, 415, 114, 116, 491, 492]
                     }
                 }
             },
@@ -11894,7 +11902,11 @@
                             [34938, -5089],
                             [37410, -5089],
                             [37410, -6082],
-                            [38245, -6082],
+                            [37953, -6082],
+                            [37953, -6167],
+                            [38306, -6167],
+                            [38306, -6349],
+                            [38245, -6349],
                             [38245, -6629]
                         ],
                         "stations": [273, 407, 408, 652, 409, 789, 410, 791, [792, "Liangzhou branch"], 793, 794]
@@ -12234,20 +12246,18 @@
                     }
                 }
             },
-            "Lijang-Guilin": {
+            "Lijiang-Wumengfu": {
                 "prefix": "",
                 "code": "丽江桂林",
                 "color": "9BB637",
-                "y": 84,
+                "y": 126,
                 "branches": {
                     "Main line": {
                         "vertices": [
                             [35831, -2017],
-                            [36907, -2017],
-                            [36907, -1880],
-                            [38360, -1880]
+                            [36907, -2017]
                         ],
-                        "stations": [803, 804, 685]
+                        "stations": [803, 804]
                     }
                 }
             },
@@ -12302,7 +12312,7 @@
                             [38353, -4903],
                             [38341, -4903],
                             [38341, -5050],
-                            [39567, -5050]
+                            [39503, -5050]
                         ],
                         "stations": [668, [775, "Krown-Citadel Branch"], 776, [777, "Xianyang Metro Branch"], 778, [779, "Bilibili Branch", "Changan Branch"], [780, "Zhumadian Branch"], 781]
                     },
@@ -12485,6 +12495,21 @@
                             [39272, -1863]
                         ],
                         "stations": [270, 688, 271]
+                    }
+                }
+            },
+            "Xinhua-Hangu": {
+                "prefix": "",
+                "code": "新华函谷",
+                "color": "D5C98C",
+                "y": 95,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [39590, -5050],
+                            [39590, -5884]
+                        ],
+                        "stations": [411, 833]
                     }
                 }
             }
