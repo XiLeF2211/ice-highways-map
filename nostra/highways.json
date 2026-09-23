@@ -6763,17 +6763,23 @@
             }
         },
         {
-            "name": "Oulu",
+            "name": "Oulu (Finland International)",
             "id": 572,
             "x": 9144,
             "z": -19509,
             "areas": [
-                [[9135, -19511], [9158, -19488]]
+                [[9135, -19511], [9158, -19488]],
+                [[9109, -19504], [9147, -19488]],
+                [[9147, -19494], [9152, -19477]],
+                [[9134, -19483], [9151, -19476]]
             ],
             "lines": {
                 "Finland Public Ice Highway": {
                     "Line 1": ["", "Main line"],
                     "Line 2": ["", "Main line"]
+                },
+                "Norwegian Ice Boat Highway System": {
+                    "Finland": ["", "Main line"]
                 }
             }
         },
@@ -9990,6 +9996,30 @@
             "lines": {
                 "China": {
                     "Xinhua-Hangu": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Horizon",
+            "id": 834,
+            "x": 8100,
+            "z": -22153,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Finland": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Newer Friendland JCT",
+            "type": "jct",
+            "id": 835,
+            "x": 6070,
+            "z": -21784,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Svalbard": ["", "Main line"],
+                    "Finland": ["", "Main line"]
                 }
             }
         }
@@ -14203,6 +14233,40 @@
                             [4185, -15236]
                         ],
                         "stations": [[824, "Main line"], 827]
+                    }
+                }
+            },
+            "Finland": {
+                "prefix": "",
+                "code": "FI",
+                "color": "F3F6FB",
+                "y": "89",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [9114, -19551],
+                            [9114, -19491],
+                            [9114, -19513],
+                            [9118, -19518],
+                            [9118, -19520],
+                            [9118, -19520],
+                            [9125, -19527],
+                            [9125, -19491],
+                            [9125, -22151],
+                            [6969, -22151],
+                            [6969, -21782],
+                            [6068, -21782],
+                            [6068, -21786],
+                            [6965, -21786],
+                            [6965, -22155],
+                            [9129, -22155],
+                            [9129, -19491],
+                            [9129, -19522],
+                            [9118, -19511],
+                            [9118, -19491],
+                            [9118, -19551]
+                        ],
+                        "stations": [572, 834, 835]
                     }
                 }
             }
