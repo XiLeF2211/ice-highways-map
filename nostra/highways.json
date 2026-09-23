@@ -10105,7 +10105,7 @@
             "lines": {
                 "PTA": {
                     "Inner Victoria": ["", "Main line"],
-                    "Tasman": ["", "Main line"]
+                    "South Coast": ["", "Main line"]
                 }
             }
         },
@@ -10116,7 +10116,9 @@
             "z": 21374,
             "lines": {
                 "PTA": {
-                    "South Coast": ["", "Main line"]
+                    "South Coast": ["", "Main line"],
+                    "Waratah": ["", "Main line"],
+                    "Central": ["", "Main line"]
                 }
             }
         },
@@ -10132,7 +10134,7 @@
             }
         },
         {
-            "name": "Shibuya",
+            "name": "New Shibuya",
             "id": 845,
             "x": 53439,
             "z": 18891,
@@ -10161,8 +10163,7 @@
             "lines": {
                 "PTA": {
                     "Regional NSW": ["", "Main line"],
-                    "Waratah": ["", "Main line"],
-                    "Sydney City Circle": ["", "Main line"]
+                    "Waratah": ["", "Main line"]
                 }
             }
         },
@@ -10173,7 +10174,7 @@
             "z": 21203,
             "lines": {
                 "PTA": {
-                    "Canberra": ["", "Main line"]
+                    "South Coast": ["", "Main line"]
                 }
             }
         },
@@ -10195,7 +10196,7 @@
             "z": 20551,
             "lines": {
                 "PTA": {
-                    "Sydney City Circle": ["", "Main line"]
+                    "Waratah": ["", "Main line"]
                 }
             }
         },
@@ -10206,7 +10207,7 @@
             "z": 20236,
             "lines": {
                 "PTA": {
-                    "Sydney City Circle": ["", "Main line"]
+                    "Waratah": ["", "Main line"]
                 }
             }
         },
@@ -11460,7 +11461,7 @@
                             [51910, 22178],
                             [51910, 21580]
                         ],
-                        "stations": [840, 841, 842]
+                        "stations": [840, 841, 842, 844]
                     }
                 }
             },
@@ -11475,7 +11476,7 @@
                             [54788, 17890],
                             [54788, 18350]
                         ],
-                        "stations": [853, 854, 855, 856]
+                        "stations": [853, 854]
                     }
                 }
             },
@@ -11498,7 +11499,7 @@
                             [53625, 20551],
                             [53880, 20551]
                         ],
-                        "stations": [845, 846, 847, 856]
+                        "stations": [845, 846, 847]
                     }
                 }
             },
@@ -11526,7 +11527,7 @@
                             [54134, 20751],
                             [54134, 20551]
                         ],
-                        "stations": [849, 847, 747, 852]
+                        "stations": [843, 852, 855, 850, 851, 847, 849, 843]
                     }
                 }
             },
@@ -11543,7 +11544,7 @@
                             [53851, 21363],
                             [53851, 21386]
                         ],
-                        "stations": [844, 731]
+                        "stations": [843]
                     }
                 }
             },
@@ -11564,7 +11565,7 @@
                             [53595, 21203],
                             [53465, 21203]
                         ],
-                        "stations": [843]
+                        "stations": [848, 843, 842]
                     }
                 }
             },
