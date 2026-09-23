@@ -3721,7 +3721,7 @@
             "x": 39207,
             "z": 8025,
             "lines": {
-                "STA Railways": {
+                "LR Railways": {
                     "LR King-nan Rail": ["", "Main line"]
                 }
             }
@@ -3732,7 +3732,7 @@
             "x": 39500,
             "z": 8224,
             "lines": {
-                "STA Railways": {
+                "LR Railways": {
                     "LR King-nan Rail": ["", "Main line"]
                 }
             }
@@ -8702,7 +8702,7 @@
             }
         },
         {
-            "name": "Stockholm West Elevator",
+            "name": "Kolbeck West Elevator",
             "type": "elev-we",
             "id": 724,
             "x": 5867,
@@ -10045,6 +10045,35 @@
                     "Upper North": ["", "Bodo branch"]
                 }
             }
+        },
+        {
+            "name": "Drottningstad JCT",
+            "type": "jct",
+            "id": 838,
+            "x": 5894,
+            "z": -16249,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Sweden": ["", "Main line to Drottningstad branch"]
+                }
+            }
+        },
+        {
+            "name": "Drottningstad",
+            "id": 839,
+            "x": 5626,
+            "z": -16249,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Sweden": ["", "Drottningstad branch"]
+                }
+            },
+            "areas": [
+                [[5619, -16253], [5635, -16240]],
+                [[5627, -16257], [5635, -16249]],
+                [[5623, -16242], [5630, -16217]],
+                [[5624, -16218], [5629, -16205]]
+            ]
         }
     ],
     "lines": {
@@ -10126,7 +10155,7 @@
                             [52340, -21475.5],
                             [52960.5, -21474.5],
                             [52960.5, -23834.5],
-                            [51646, -23834.5]
+                            [50681, -23834.5]
                         ],
                         "stations": [816, 753, 493, 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340],
                         "concurrencies": {
@@ -11658,7 +11687,7 @@
                 }
             }
         },
-        "STA Railways": {
+        "LR Railways": {
             "LR King-nan Rail": {
                 "prefix": "[Rail] ",
                 "code": "GT",
@@ -14084,7 +14113,7 @@
                             [4014, -16598],
                             [3982, -16598]
                         ],
-                        "stations": [[448, "Oslo-Ed Bypass"], 717, 718, 719, 720, 721, 722, 723, 724, 725, 583]
+                        "stations": [[448, "Oslo-Ed Bypass"], 717, 718, 719, 720, 721, 722, 723, 724, [838, "Drottningstad branch"], 725, 583]
                     },
                     "Gothenburg line": {
                         "vertices": [
@@ -14126,6 +14155,16 @@
                             [4281, -15971]
                         ],
                         "stations": [[448, "Main line"], [729, "Gothenburg line"]]
+                    },
+                    "Drottningstad branch": {
+                        "vertices": [
+                            [5619, -16251],
+                            [5898, -16251],
+                            [5894, -16251],
+                            [5894, -16247],
+                            [5619, -16247]
+                        ],
+                        "stations": [[838, "Main line"], 839]
                     }
                 }
             },
