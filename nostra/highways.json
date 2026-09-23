@@ -8837,7 +8837,7 @@
             }
         },
         {
-            "name": "Makfrost",
+            "name": "Makfrost East",
             "id": 736,
             "x": 2216,
             "z": -16381,
@@ -9966,7 +9966,7 @@
             }
         },
         {
-            "name": "Makfrost",
+            "name": "Makfrost Central",
             "id": 831,
             "x": 1944,
             "z": -16286,
@@ -10020,6 +10020,29 @@
                 "Norwegian Ice Boat Highway System": {
                     "Svalbard": ["", "Main line"],
                     "Finland": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bodo JCT",
+            "type": "jct",
+            "id": 836,
+            "x": 5173,
+            "z": -20551,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper North": ["", "Main line to Bodo branch"]
+                }
+            }
+        },
+        {
+            "name": "Bodo",
+            "id": 837,
+            "x": 5171,
+            "z": -20678,
+            "lines": {
+                "Norwegian Ice Boat Highway System": {
+                    "Upper North": ["", "Bodo branch"]
                 }
             }
         }
@@ -13873,7 +13896,7 @@
                             [6774, -21288],
                             [6774, -21339]
                         ],
-                        "stations": [456, 457, 731, 732, 458, 459, 733, [446, "Straumen station platforms"], 734, [715, "Asgard branch"], 709, [447, "Narvik station platforms"], [706, "Stuor Muorkke branch"], 707]
+                        "stations": [456, 457, 731, 732, 458, 459, 733, [836, "Bodo branch"], [446, "Straumen station platforms"], 734, [715, "Asgard branch"], 709, [447, "Narvik station platforms"], [706, "Stuor Muorkke branch"], 707]
                     },
                     "Narvik station platforms": {
                         "vertices": [
@@ -13921,6 +13944,17 @@
                             [6567, -20878]
                         ],
                         "stations": [[706, "Main line"], 708]
+                    },
+                    "Bodo branch": {
+                        "vertices": [
+                            [5171, -20678],
+                            [5171, -20553],
+                            [5171, -20562],
+                            [5175, -20562],
+                            [5175, -20549],
+                            [5171, -20549]
+                        ],
+                        "stations": [[836, "Main line"], 837]
                     }
                 }
             },
