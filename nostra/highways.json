@@ -3705,7 +3705,7 @@
             }
         },
         {
-            "name": "South Coast",
+            "name": "South Coast (NZ MoI)",
             "id": 318,
             "x": 53773,
             "z": 21380,
@@ -10074,6 +10074,229 @@
                 [[5623, -16242], [5630, -16217]],
                 [[5624, -16218], [5629, -16205]]
             ]
+        },
+        {
+            "name": "Port Fairy",
+            "id": 840,
+            "x": 50950,
+            "z": 22392,
+            "lines": {
+                "PTA": {
+                    "Inner Victoria": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Geelong",
+            "id": 841,
+            "x": 51680,
+            "z": 22392,
+            "lines": {
+                "PTA": {
+                    "Inner Victoria": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Melbourne",
+            "id": 842,
+            "x": 52020,
+            "z": 22187,
+            "lines": {
+                "PTA": {
+                    "Inner Victoria": ["", "Main line"],
+                    "Tasman": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "South Coast (PTA)",
+            "id": 843,
+            "x": 53755,
+            "z": 21374,
+            "lines": {
+                "PTA": {
+                    "South Coast": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Belfast",
+            "id": 844,
+            "x": 51909,
+            "z": 21580,
+            "lines": {
+                "PTA": {
+                    "Inner Victoria": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Shibuya",
+            "id": 845,
+            "x": 53439,
+            "z": 18891,
+            "lines": {
+                "PTA": {
+                    "Regional NSW": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Parkes",
+            "id": 846,
+            "x": 53575,
+            "z": 19257,
+            "lines": {
+                "PTA": {
+                    "Regional NSW": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Katoomba",
+            "id": 847,
+            "x": 53880,
+            "z": 20551,
+            "lines": {
+                "PTA": {
+                    "Regional NSW": ["", "Main line"],
+                    "Waratah": ["", "Main line"],
+                    "Sydney City Circle": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Canberra",
+            "id": 848,
+            "x": 53465,
+            "z": 21203,
+            "lines": {
+                "PTA": {
+                    "Canberra": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yass",
+            "id": 849,
+            "x": 53416,
+            "z": 21016,
+            "lines": {
+                "PTA": {
+                    "Waratah": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sydney",
+            "id": 850,
+            "x": 54134,
+            "z": 20551,
+            "lines": {
+                "PTA": {
+                    "Sydney City Circle": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Newcastle",
+            "id": 851,
+            "x": 54334,
+            "z": 20236,
+            "lines": {
+                "PTA": {
+                    "Sydney City Circle": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Wollongong",
+            "id": 852,
+            "x": 53996,
+            "z": 20903,
+            "lines": {
+                "PTA": {
+                    "Waratah": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mettsbane",
+            "id": 853,
+            "x": 54788,
+            "z": 17913,
+            "lines": {
+                "PTA": {
+                    "Sunshine Coast": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Brisbane",
+            "id": 854,
+            "x": 54788,
+            "z": 18055,
+            "lines": {
+                "PTA": {
+                    "Sunshine Coast": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sutherland",
+            "id": 855,
+            "x": 54134,
+            "z": 20690,
+            "lines": {
+                "PTA": {
+                    "Waratah": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "(North) Gold Coast",
+            "id": 856,
+            "x": 54985,
+            "z": 18380,
+            "lines": {
+                "PTA": {
+                    "Regional NSW End": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "(South) Gold Coast",
+            "id": 857,
+            "x": 55007,
+            "z": 18488,
+            "lines": {
+                "PTA": {
+                    "Regional NSW End": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Williamstown",
+            "id": 858,
+            "x": 51428,
+            "z": 22650,
+            "lines": {
+            "PTA": {
+                    "Fairy Metro": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Albury",
+            "id": 859,
+            "x": 52360,
+            "z": 21417,
+            "lines": {
+                "PTA": {
+                    "Wagga Metro": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -11215,6 +11438,185 @@
                             [41531, 19936]
                         ],
                         "stations": [301, 300, 299]
+                    }
+                }
+            },
+            "Inner Victoria": {
+                "prefix": "",
+                "code": "VIC",
+                "color": "3F3FFF",
+                "y": 48,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [50950, 22392],
+                            [51700, 22392],
+                            [51717, 22375],
+                            [51717, 22232],
+                            [51942, 22232],
+                            [51942, 22197],
+                            [52020, 22197],
+                            [52020, 22178],
+                            [51910, 22178],
+                            [51910, 21580]
+                        ],
+                        "stations": [840, 841, 842]
+                    }
+                }
+            },
+            "Sunshine Coast": {
+                "prefix": "",
+                "code": "QLD",
+                "color": "842243",
+                "y": 48,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [54788, 17890],
+                            [54788, 18350]
+                        ],
+                        "stations": [853, 854, 855, 856]
+                    }
+                }
+            },
+            "Regional NSW": {
+                "prefix": "",
+                "code": "NSW",
+                "color": "2BEA74",
+                "y": 48,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [53633, 18830],
+                            [53450, 18830],
+                            [53439, 18841],
+                            [53439, 18891],
+                            [53439, 19059],
+                            [53575, 19194],
+                            [53575, 19310],
+                            [53575, 20501],
+                            [53625, 20551],
+                            [53880, 20551]
+                        ],
+                        "stations": [845, 846, 847, 856]
+                    }
+                }
+            },
+            "Waratah": {
+                "prefix": "",
+                "code": "SYD",
+                "color": "7FC9FF",
+                "y": 48,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [53880, 20551],
+                            [54334, 20551],
+                            [54334, 20099],
+                            [54332, 20099],
+                            [53880, 20551],
+                            [53880, 20551],
+                            [53417, 21014],
+                            [53417, 21017],
+                            [53764, 21363],
+                            [53764, 21370],
+                            [53773, 21370],
+                            [53996, 21140],
+                            [53996, 20890],
+                            [54134, 20751],
+                            [54134, 20551]
+                        ],
+                        "stations": [849, 847, 747, 852]
+                    }
+                }
+            },
+            "Central": {
+                "prefix": "",
+                "code": "CTL",
+                "color": "3F3FFF",
+                "y": 48,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [52494, 21336],
+                            [53719, 21336],
+                            [53851, 21363],
+                            [53851, 21386]
+                        ],
+                        "stations": [844, 731]
+                    }
+                }
+            },
+            "South Coast": {
+                "prefix": "",
+                "code": "SOU",
+                "color": "BF2F2F",
+                "y": 48,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [52020, 22178],
+                            [52969, 22178],
+                            [53755, 21392],
+                            [53755, 21386],
+                            [53755, 21370],
+                            [53755, 21363],
+                            [53595, 21203],
+                            [53465, 21203]
+                        ],
+                        "stations": [843]
+                    }
+                }
+            },
+            "Regional NSW End": {
+                "prefix": "",
+                "code": "RNE",
+                "color": "2BEA74",
+                "y": 63,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [55007, 18527],
+                            [55007, 18414],
+                            [54997, 18389],
+                            [54985, 18389],
+                            [54985, 18368]
+                        ],
+                        "stations": [856, 857]
+                    }
+                }
+            },
+            "Fairy Metro": {
+                "prefix": "",
+                "code": "PFM",
+                "color": "FFFFFF",
+                "y": 71,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [51428, 22650],
+                            [51451, 22650],
+                            [51451, 22642],
+                            [51437, 22642],
+                            [51437, 22544]
+                        ],
+                        "stations": [858]
+                    }
+                }
+            },
+            "Wagga Metro": {
+                "prefix": "",
+                "code": "WWM",
+                "color": "3F3FFF",
+                "y": 71,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [52360, 21462],
+                            [52360, 21334],
+                            [51674, 21334]
+                        ],
+                        "stations": [859]
                     }
                 }
             }
