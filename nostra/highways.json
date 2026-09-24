@@ -5838,13 +5838,13 @@
             }
         },
         {
-            "name": "Alesund Mine",
+            "name": "Alesund Mine (JCT)",
             "id": 493,
-            "x": 2437,
+            "x": 2440,
             "z": -17732,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line"]
+                    "Siberia Main": ["", "Main line to Poice branch"]
                 }
             }
         },
@@ -10298,6 +10298,17 @@
                     "Wagga Metro": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Poice",
+            "id": 860,
+            "x": 2440,
+            "z": -20500,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Poice branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -10381,13 +10392,20 @@
                             [52960.5, -23834.5],
                             [50681, -23834.5]
                         ],
-                        "stations": [816, 753, 493, 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340],
+                        "stations": [816, 753, [493, "Poice branch"], 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340],
                         "concurrencies": {
                             "TNIH.Siberia Main": [
                                 [41614, -17732],
                                 [41900, -17732]
                             ]
                         }
+                    },
+                    "Poice branch": {
+                        "vertices": [
+                            [2440, -17732],
+                            [2440, -20500]
+                        ],
+                        "stations": [[493, "Main line"], 860]
                     },
                     "Finlandia branch": {
                         "vertices": [
@@ -14593,10 +14611,16 @@
                             [1897, -12946],
                             [1893, -12954],
                             [1893, -15745],
-                            [2255, -15745],
-                            [2241, -15745],
-                            [2241, -15727],
-                            [2255, -15727],
+                            [2157, -15745],
+                            [2157, -15731],
+                            [2202, -15731],
+                            [2202, -15790],
+                            [2211, -15803],
+                            [2211, -15813],
+                            [2214, -15818],
+                            [2214, -15797],
+                            [2206, -15788],
+                            [2206, -15727],
                             [1897, -15727],
                             [1897, -12954],
                             [1893, -12946],
