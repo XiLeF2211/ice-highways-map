@@ -4617,6 +4617,9 @@
                 "TNIH": {
                     "Qikqtaaluk": ["", "Main line"],
                     "Atlantic": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "South Greenland Connect": ["", "Main line"]
                 }
             }
         },
@@ -10479,8 +10482,35 @@
             "x": 3651,
             "z": -16334,
             "lines": {
-                "SNCF": {
-                    "Netherlands-France": ["", "Main line"]
+                "Norwegian Ice Boat Highway System": {
+                    "Lower Central": ["", "Honefoss branch"]
+                }
+            }
+        },
+        {
+            "name": "South Greenland Connect JCT",
+            "type": "jct",
+            "id": 875,
+            "x": -15596,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "South Greenland Connect": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "South Greenland Connect Central JCT",
+            "type": "jct",
+            "id": 876,
+            "x": -15596,
+            "z": -16972,
+            "lines": {
+                "Intercontinental": {
+                    "South Greenland Connect": ["", "Main line"]
                 }
             }
         }
@@ -10566,7 +10596,7 @@
                             [52960.5, -23834.5],
                             [50681, -23834.5]
                         ],
-                        "stations": [816, 753, [493, "Poice branch"], 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340],
+                        "stations": [816, 875, 753, [493, "Poice branch"], 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340],
                         "concurrencies": {
                             "TNIH.Siberia Main": [
                                 [41614, -17732],
@@ -13779,6 +13809,23 @@
                             [60174, -22370.5]
                         ],
                         "stations": [817, 818]
+                    }
+                }
+            },
+            "South Greenland Connect": {
+                "prefix": "",
+                "code": "SGC",
+                "color": "8888ff",
+                "y": 75,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-15596, -17732],
+                            [-15596, -16532],
+                            [-15596, -16972],
+                            [-16000, -16972]
+                        ],
+                        "stations": [875, 876, 395]
                     }
                 }
             }
