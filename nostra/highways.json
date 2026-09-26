@@ -3158,19 +3158,20 @@
             "z": -1815,
             "lines": {
                 "China": {
-                    "Guiyang-Hunan Lower": ["", ""],
+                    "Guiyang-Guilin Lower Line": ["", "Main line"],
                     "Guiyang-Hunan Main": ["", ""]
                 }
             }
         },
         {
-            "name": "Hunan",
+            "name": "1st Hunan JCT",
+            "type": "jct",
             "id": 271,
             "x": 39272,
             "z": -1863,
             "lines": {
                 "China": {
-                    "Guiyang-Hunan Lower": ["", ""]
+                    "Guiyang-Guilin Lower Line": ["", "Main line to hunan express branch"]
                 }
             }
         },
@@ -4803,7 +4804,7 @@
             "z": -5050,
             "lines": {
                 "China": {
-                    "Xinhua-Hangu": ["", "Main line"]
+                    "Hangu-Jinan": ["", "Main line"]
                 }
             }
         },
@@ -4883,7 +4884,6 @@
             "id": 418,
             "x": 3662,
             "z": -16361,
-            "notes": "Abandoned",
             "lines": {
                 "Norwegian Ice Boat Highway System (Vy)": {
                     "Lower Central": ["", "Honefoss branch"]
@@ -8027,7 +8027,7 @@
             "lines": {
                 "China": {
                     "Baoji-Guiyang": ["", "Main line"],
-                    "Baoji-Zhumadian Ice Highway": ["", "Main line"]
+                    "Baoji-Zhumadian Ice Highway": ["", "Main line to South Baoji branch"]
                 }
             }
         },
@@ -8279,7 +8279,7 @@
             "z": -1815,
             "lines": {
                 "China": {
-                    "Guiyang-Hunan Lower": ["", ""],
+                    "Guiyang-Guilin Lower Line": ["", "Main line"],
                     "Junzhou-Beibuwan": ["", "Guiyang East Elevator"]
                 }
             }
@@ -9374,17 +9374,6 @@
             }
         },
         {
-            "name": "Zhumadian East",
-            "id": 781,
-            "x": 39503,
-            "z": -5050,
-            "lines": {
-                "China": {
-                    "Baoji-Zhumadian Ice Highway": ["", "Main line"]
-                }
-            }
-        },
-        {
             "name": "Xianyang Elevator",
             "type": "elev-we",
             "id": 782,
@@ -9541,8 +9530,11 @@
         {
             "name": "Shizuishan",
             "id": 794,
-            "x": 38245,
-            "z": -6629,
+            "x": 38344,
+            "z": -6696,
+            "areas": [
+                [[38319, -6704], [38369, -6690]]
+            ],
             "lines": {
                 "Gobi Transport": {
                     "Eastern": ["", "Main line"]
@@ -9581,18 +9573,18 @@
             "z": -1297,
             "lines": {
                 "China": {
-                    "Hunan Guilin Line": ["", "Main line"]
+                    "Guiyang-Guilin Lower Line": ["", "Main line"]
                 }
             }
         },
         {
-            "name": "Hunan South",
+            "name": "Hunan south line 2",
             "id": 798,
             "x": 39335,
             "z": -1864,
             "lines": {
                 "China": {
-                    "Hunan Guilin Line": ["", "Main line"]
+                    "Guiyang-Guilin Lower Line": ["", "Main line to Changsha transfer branch"]
                 }
             }
         },
@@ -9672,7 +9664,7 @@
             "z": -6021,
             "lines": {
                 "China": {
-                    "Jinan-Xinhua": ["", "Main line"]
+                    "Hangu-Jinan": ["", "Main line"]
                 }
             }
         },
@@ -9683,7 +9675,7 @@
             "z": -6021,
             "lines": {
                 "China": {
-                    "Jinan-Xinhua": ["", "Main line"]
+                    "Hangu-Jinan": ["", "Main line"]
                 }
             }
         },
@@ -9697,7 +9689,7 @@
             "y2": 71,
             "lines": {
                 "China": {
-                    "Jinan-Xinhua": ["", "Main line"]
+                    "Hangu-Jinan": ["", "Main line"]
                 }
             }
         },
@@ -9711,7 +9703,7 @@
             "y2": 72,
             "lines": {
                 "China": {
-                    "Jinan-Xinhua": ["", "Main line"]
+                    "Hangu-Jinan": ["", "Main line"]
                 }
             }
         },
@@ -9725,7 +9717,7 @@
             "y2": 73,
             "lines": {
                 "China": {
-                    "Jinan-Xinhua": ["", "Main line"]
+                    "Hangu-Jinan": ["", "Main line"]
                 }
             }
         },
@@ -9736,7 +9728,7 @@
             "z": -6021,
             "lines": {
                 "China": {
-                    "Jinan-Xinhua": ["", "Main line"]
+                    "Hangu-Jinan": ["", "Xinhua Branch"]
                 }
             }
         },
@@ -10002,7 +9994,7 @@
             "z": -5884,
             "lines": {
                 "China": {
-                    "Xinhua-Hangu": ["", "Main line"]
+                    "Hangu-Jinan": ["", "Main line"]
                 }
             }
         },
@@ -10515,8 +10507,176 @@
             }
         },
         {
-            "name": "Kunashiri-Hayvenhurst",
+            "name": "South Baoji JCT",
+            "type": "jct",
             "id": 877,
+            "x": 38352,
+            "z": -4756,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"],
+                    "Baoji-Zhumadian Ice Highway": ["", "South Baoji branch"]
+                }
+            }
+        },
+        {
+            "name": "Baoji Express JCT",
+            "type": "jct",
+            "id": 878,
+            "x": 38353,
+            "z": -4455,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line to Baoji-Guchen express branch"]
+                }
+            }
+        },
+        {
+            "name": "Guchen Express JCT",
+            "type": "jct",
+            "id": 879,
+            "x": 38494,
+            "z": -3822,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line to Baoji-Guchen express branch"]
+                }
+            }
+        },
+        {
+            "name": "Hanguguan Elevator",
+            "type": "elev-we",
+            "id": 880,
+            "x": 39551,
+            "z": -5076,
+            "y1": 86,
+            "y2": 95,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian Ice Highway": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hanguguan JCT",
+            "type": "jct",
+            "id": 881,
+            "x": 39590,
+            "z": -5076,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian Ice Highway": ["", "Main line"],
+                    "Hangu-Jinan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "South Xinhua Elevator",
+            "type": "elev-we",
+            "id": 882,
+            "x": 39598,
+            "z": -5884,
+            "y1": 95,
+            "y2": 76,
+            "lines": {
+                "China": {
+                    "Hangu-Jinan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "East Xinhua Elevator",
+            "type": "elev-we",
+            "id": 883,
+            "x": 39678,
+            "z": -6021,
+            "y1": 76,
+            "y2": 73,
+            "lines": {
+                "China": {
+                    "Hangu-Jinan": ["", "Main line to Xinhua Branch"]
+                }
+            }
+        },
+        {
+            "name": "Shoten",
+            "id": 884,
+            "x": 38306,
+            "z": -6442,
+            "lines": {
+                "Gobi Transport": {
+                    "Eastern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "1st Hunan Elevator",
+            "type": "elev-we",
+            "id": 885,
+            "x": 39272,
+            "z": -1867,
+            "y1": 86,
+            "y2": 56,
+            "lines": {
+                "China": {
+                    "Guiyang-Guilin Lower Line": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hunan Express Elevator",
+            "type": "elev-we",
+            "id": 886,
+            "x": 39272,
+            "z": -1860,
+            "y1": 86,
+            "y2": 53,
+            "lines": {
+                "China": {
+                    "Guiyang-Guilin Lower Line": ["", "hunan express branch"]
+                }
+            }
+        },
+        {
+            "name": "2st Hunan Elevator",
+            "type": "elev-we",
+            "id": 887,
+            "x": 39335,
+            "z": -1812,
+            "y1": 56,
+            "y2": 53,
+            "lines": {
+                "China": {
+                    "Guiyang-Guilin Lower Line": ["", "Main line to hunan express branch"]
+                }
+            }
+        },
+        {
+            "name": "Hunan south line 1",
+            "id": 888,
+            "x": 39366,
+            "z": -1864,
+            "lines": {
+                "China": {
+                    "Guiyang-Guilin Lower Line": ["", "Changsha transfer branch"],
+                    "Hunan-Changsha": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Changsha",
+            "id": 889,
+            "x": 40430,
+            "z": -2420,
+            "lines": {
+                "China": {
+                    "Hunan-Changsha": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kunashiri-Hayvenhurst",
+            "id": 890,
             "x": 52146,
             "z": -8821,
             "lines": {
@@ -10528,7 +10688,7 @@
         {
             "name": "Iceland JCT",
             "type": "jct",
-            "id": 878,
+            "id": 891,
             "x": -7026,
             "z": -17732,
             "lines": {
@@ -10539,7 +10699,7 @@
         },
         {
             "name": "Iceland",
-            "id": 879,
+            "id": 892,
             "x": -7026,
             "z": -19094,
             "lines": {
@@ -10550,7 +10710,7 @@
         },
         {
             "name": "Hønefoss",
-            "id": 880,
+            "id": 893,
             "x": 3651,
             "z": -16634,
             "lines": {
@@ -10641,7 +10801,7 @@
                             [52960.5, -23834.5],
                             [50681, -23834.5]
                         ],
-                        "stations": [816, 875, [878, "Iceland branch"], 753, [493, "Poice branch"], 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340],
+                        "stations": [816, 875, [891, "Iceland branch"], 753, [493, "Poice branch"], 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340],
                         "concurrencies": {
                             "TNIH.Siberia Main": [
                                 [41614, -17732],
@@ -10654,7 +10814,7 @@
                             [-7026, -17732],
                             [-7026, -19094]
                         ],
-                        "stations": [[878, "Main line"], 879]
+                        "stations": [[891, "Main line"], 892]
                     },
                     "Poice branch": {
                         "vertices": [
@@ -10781,11 +10941,9 @@
                             [53729, -10096],
                             [53729, -9405],
                             [52750, -9405],
-                            [52750, -9214],
-                            [52146, -9214],
-                            [52146, -8821]
+                            [52750, -9214]
                         ],
-                        "stations": [362, [363, "Allburg branch"], 365, [638, "TownyMcTownFace branch"], 366, 640, 641, 642, 643, 644, 751, 752, 877]
+                        "stations": [362, [363, "Allburg branch"], 365, [638, "TownyMcTownFace branch"], 366, 640, 641, 642, 643, 644, 751, 752, 890]
                     },
                     "Ochotsk branch": {
                         "vertices": [
@@ -12591,6 +12749,7 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
+                            [36115, -8814],
                             [35355, -8814],
                             [28851, -8814]
                         ],
@@ -12666,11 +12825,10 @@
                             [37953, -6082],
                             [37953, -6167],
                             [38306, -6167],
-                            [38306, -6349],
-                            [38245, -6349],
-                            [38245, -6629]
+                            [38306, -6696],
+                            [38344, -6696]
                         ],
-                        "stations": [273, 407, 408, 652, 409, 789, 410, 791, [792, "Liangzhou branch"], 793, 794]
+                        "stations": [273, 407, 408, 652, 409, 789, 410, 791, [792, "Liangzhou branch"], 793, 884, 794]
                     },
                     "Liangzhou branch": {
                         "vertices": [
@@ -12976,22 +13134,6 @@
                     }
                 }
             },
-            "Hunan Guilin Line": {
-                "prefix": "",
-                "code": "湖南桂林",
-                "color": "3857AF",
-                "y": 54,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [39335, -1864],
-                            [39335, -1297],
-                            [39361, -1297]
-                        ],
-                        "stations": [798, 797]
-                    }
-                }
-            },
             "Guilin Huzhou Ice & Rail Line": {
                 "prefix": "",
                 "code": "",
@@ -13019,21 +13161,6 @@
                             [36907, -2017]
                         ],
                         "stations": [803, 804]
-                    }
-                }
-            },
-            "Jinan-Xinhua": {
-                "prefix": "",
-                "code": "济华",
-                "color": "4F4F4F",
-                "y": "96, 71, 72, 73",
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [41953, -6021],
-                            [39656, -6021]
-                        ],
-                        "stations": [805, 806, 807, 808, 809, 810]
                     }
                 }
             },
@@ -13066,16 +13193,29 @@
                 "prefix": "",
                 "code": "黄河",
                 "color": "a0a0fe",
-                "y": "86, 110",
+                "y": "86, 110, 95",
                 "branches": {
                     "Main line": {
                         "vertices": [
                             [38353, -4903],
                             [38341, -4903],
                             [38341, -5050],
-                            [39503, -5050]
+                            [39499, -5050],
+                            [39499, -5076],
+                            [39590, -5076]
                         ],
-                        "stations": [668, [775, "Krown-Citadel Branch"], 776, [777, "Xianyang Metro Branch"], 778, [779, "Bilibili Branch", "Changan Branch"], [780, "Zhumadian Branch"], 781]
+                        "stations": [[668, "South Baoji branch"], [775, "Krown-Citadel Branch"], 776, [777, "Xianyang Metro Branch"], 778, [779, "Bilibili Branch", "Changan Branch"], [780, "Zhumadian Branch"], 880, 881]
+                    },
+                    "South Baoji branch": {
+                        "vertices": [
+                            [38353, -4903],
+                            [38341, -4903],
+                            [38341, -4870],
+                            [38316, -4870],
+                            [38316, -4756],
+                            [38352, -4756]
+                        ],
+                        "stations": [[668, "Main line"], 877]
                     },
                     "Xianyang Metro Branch": {
                         "vertices": [
@@ -13150,7 +13290,15 @@
                             [38365, -1885],
                             [38355, -1885]
                         ],
-                        "stations": [668, 669, 670, 671, 672, 655, 673, [674, "Blw branch"], 676, [677, "Fxa branch"], [679, "Chongqing branch"], [681, "Zunyi branch"], 683, 684, 685]
+                        "stations": [668, 877, [878, "Baoji-Guchen express branch"], 669, 670, 671, 672, [879, "Baoji-Guchen express branch"], 655, 673, [674, "Blw branch"], 676, [677, "Fxa branch"], [679, "Chongqing branch"], [681, "Zunyi branch"], 683, 684, 685]
+                    },
+                    "Baoji-Guchen express branch": {
+                        "vertices": [
+                            [38353, -4455],
+                            [38353, -3822],
+                            [38494, -3822]
+                        ],
+                        "stations": [[878, "Main line"], [879, "Main line"]]
                     },
                     "Blw branch": {
                         "vertices": [
@@ -13242,35 +13390,85 @@
                     }
                 }
             },
-            "Guiyang-Hunan Lower": {
+            "Guiyang-Guilin Lower Line": {
                 "prefix": "",
-                "code": "GUI-HUN",
+                "code": "双贵",
                 "color": "0000ff",
-                "y": 68,
+                "y": "68, 56, 53",
                 "branches": {
-                    "": {
+                    "Main line": {
                         "vertices": [
                             [38648, -1815],
                             [38845, -1815],
                             [38845, -1863],
-                            [39272, -1863]
+                            [39272, -1863],
+                            [39272, -1891],
+                            [39335, -1891],
+                            [39335, -1812],
+                            [39361, -1812],
+                            [39361, -1297]
                         ],
-                        "stations": [270, 688, 271]
+                        "stations": [270, 688, [271, "hunan express branch"], 885, [798, "Changsha transfer branch"], [887, "hunan express branch"], 797]
+                    },
+                    "hunan express branch": {
+                        "vertices": [
+                            [39272, -1863],
+                            [39272, -1860],
+                            [39272, -1812],
+                            [39335, -1812]
+                        ],
+                        "stations": [[271, "Main line"], 886, [887, "Main line"]]
+                    },
+                    "Changsha transfer branch": {
+                        "vertices": [
+                            [39335, -1864],
+                            [39366, -1864]
+                        ],
+                        "stations": [[798, "Main line"], 888]
                     }
                 }
             },
-            "Xinhua-Hangu": {
+            "Hunan-Changsha": {
                 "prefix": "",
-                "code": "新华函谷",
-                "color": "D5C98C",
-                "y": 95,
+                "code": "湖长",
+                "color": "B52324",
+                "y": 56,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [39366, -1864],
+                            [39366, -2398],
+                            [40142, -2398],
+                            [40142, -2420],
+                            [40430, -2420]
+                        ],
+                        "stations": [888, 889]
+                    }
+                }
+            },
+            "Hangu-Jinan": {
+                "prefix": "",
+                "code": "函谷济南",
+                "color": "4F4F4F",
+                "y": "95, 76, 73, 72, 71, 96",
                 "branches": {
                     "Main line": {
                         "vertices": [
                             [39590, -5050],
-                            [39590, -5884]
+                            [39590, -5884],
+                            [39598, -5884],
+                            [39678, -5884],
+                            [39678, -6021],
+                            [41953, -6021]
                         ],
-                        "stations": [411, 833]
+                        "stations": [411, 881, 833, 882, [883, "Xinhua Branch"], 809, 808, 807, 806, 805]
+                    },
+                    "Xinhua Branch": {
+                        "vertices": [
+                            [39678, -6021],
+                            [39656, -6021]
+                        ],
+                        "stations": [[883, "Main line"], 810]
                     }
                 }
             }
@@ -14401,7 +14599,7 @@
                             [3658, -16422],
                             [3426, -16422]
                         ],
-                        "stations": [460, [461, "Main line"], 436, 450, 451, 452, 453, 880, 463, 464, [462, "Main line"]]
+                        "stations": [460, [461, "Main line"], 436, 450, 451, 452, 453, 893, 463, 464, [462, "Main line"]]
                     },
                     "Trondheim branch": {
                         "vertices": [
@@ -14410,15 +14608,6 @@
                             [3734, -18437],
                             [3743, -18437],
                             [3742, -18437],
-                            [3742, -18391],
-                            [3738, -18395],
-                            [3742, -18391],
-                            [3742, -18377],
-                            [3744, -18375],
-                            [3742, -18373],
-                            [3742, -18361],
-                            [3738, -18365],
-                            [3742, -18361],
                             [3742, -18435],
                             [3742, -18263],
                             [3196, -18263],
@@ -14426,12 +14615,6 @@
                             [3192, -17657],
                             [3192, -18267],
                             [3738, -18267],
-                            [3738, -18361],
-                            [3742, -18365],
-                            [3738, -18361],
-                            [3738, -18391],
-                            [3742, -18395],
-                            [3738, -18391],
                             [3738, -18437]
                         ],
                         "stations": [[694, "Northern Route"], 702, 703, 443]
@@ -14521,14 +14704,8 @@
                             [3973, -18263],
                             [3977, -18263],
                             [3746, -18263],
-                            [3746, -18365],
-                            [3748, -18363],
-                            [3746, -18361],
-                            [3746, -18377],
-                            [3744, -18375],
-                            [3746, -18373],
-                            [3746, -18421],
-                            [3748, -18419],
+                            [3746, -18417],
+                            [3750, -18421],
                             [3746, -18417],
                             [3746, -18431],
                             [3750, -18431],
@@ -14554,13 +14731,7 @@
                             [3741, -18437],
                             [3741, -18438]
                         ],
-                        "stations": [454, 559, [443, "Trondheim station platforms"], 444, 445]
-                    },
-                    "Trondheim station platforms": {
-                        "vertices": [
-                            
-                        ],
-                        "stations": [[443, "Main line"]]
+                        "stations": [454, 559, 443, 444, 445]
                     }
                 }
             },
@@ -14625,10 +14796,6 @@
                             [3750, -18421],
                             [3748, -18419],
                             [3750, -18417],
-                            [3750, -18427],
-                            [3752, -18427],
-                            [3752, -18466],
-                            [3750, -18466],
                             [3750, -18467],
                             [3743, -18467],
                             [3750, -18467],
@@ -14648,7 +14815,7 @@
                             [3750, -18466],
                             [3752, -18466],
                             [3752, -18427],
-                            [3750, -18427]
+                            [3750, -18425]
                         ],
                         "stations": [455, 559, [443, "Östersund branch"], [704, "Östersund branch"], 456, 457]
                     },
@@ -15086,15 +15253,14 @@
                             [3392, -16021],
                             [3392, -16023],
                             [3333, -16023],
-                            [3333, -16133],
-                            [3329, -16133],
+                            [3333, -16117],
+                            [3329, -16117],
                             [3329, -16019],
                             [3373, -16019],
                             [3373, -16017],
                             [3423, -16017],
                             [3423, -15236],
                             [4228, -15236],
-                            [4228, -14478],
                             [4229, -14478],
                             [4229, -14354]
                         ],
