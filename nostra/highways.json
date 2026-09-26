@@ -13409,7 +13409,7 @@
                             [39361, -1812],
                             [39361, -1297]
                         ],
-                        "stations": [270, 688, [271, "Hunan Express branch"], 885, [798, "Changsha transfer branch"], [887, "Hunan Express branch"]]
+                        "stations": [270, 688, [271, "Hunan Express branch"], 885, [798, "Changsha transfer branch"], [887, "Hunan Express branch"], 797]
                     },
                     "Hunan Express branch": {
                         "vertices": [
@@ -13418,7 +13418,7 @@
                             [39272, -1812],
                             [39335, -1812]
                         ],
-                        "stations": [[271, "Main line"], 886, [887, "Main line"], 797]
+                        "stations": [[271, "Main line"], 886, [887, "Main line"]]
                     },
                     "Changsha transfer branch": {
                         "vertices": [
