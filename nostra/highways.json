@@ -3158,7 +3158,7 @@
             "z": -1815,
             "lines": {
                 "China": {
-                    "Guiyang-Guilin Lower Line": ["", "Main line"],
+                    "Guiyang-Guilin Lower": ["", "Main line"],
                     "Guiyang-Hunan Main": ["", ""]
                 }
             }
@@ -3171,7 +3171,7 @@
             "z": -1863,
             "lines": {
                 "China": {
-                    "Guiyang-Guilin Lower Line": ["", "Main line to hunan express branch"]
+                    "Guiyang-Guilin Lower": ["", "Main line to Hunan Express branch"]
                 }
             }
         },
@@ -8279,7 +8279,7 @@
             "z": -1815,
             "lines": {
                 "China": {
-                    "Guiyang-Guilin Lower Line": ["", "Main line"],
+                    "Guiyang-Guilin Lower": ["", "Main line"],
                     "Junzhou-Beibuwan": ["", "Guiyang East Elevator"]
                 }
             }
@@ -9573,7 +9573,7 @@
             "z": -1297,
             "lines": {
                 "China": {
-                    "Guiyang-Guilin Lower Line": ["", "Main line"]
+                    "Guiyang-Guilin Lower": ["", "Main line"]
                 }
             }
         },
@@ -9584,7 +9584,7 @@
             "z": -1864,
             "lines": {
                 "China": {
-                    "Guiyang-Guilin Lower Line": ["", "Main line to Changsha transfer branch"]
+                    "Guiyang-Guilin Lower": ["", "Main line to Changsha transfer branch"]
                 }
             }
         },
@@ -9595,7 +9595,7 @@
             "z": -1430,
             "lines": {
                 "China": {
-                    "Guilin Huzhou Ice & Rail Line": ["", "Main line"]
+                    "Guilin Huzhou Ice+Rail": ["", "Main line"]
                 }
             }
         },
@@ -9609,7 +9609,7 @@
             "y2": 87,
             "lines": {
                 "China": {
-                    "Guilin Huzhou Ice & Rail Line": ["", "Main line"]
+                    "Guilin Huzhou Ice+Rail": ["", "Main line"]
                 }
             }
         },
@@ -9620,7 +9620,7 @@
             "z": -1430,
             "lines": {
                 "China": {
-                    "Guilin Huzhou Ice & Rail Line": ["", "Main line"]
+                    "Guilin Huzhou Ice+Rail": ["", "Main line"]
                 }
             }
         },
@@ -9631,7 +9631,7 @@
             "z": -1430,
             "lines": {
                 "China": {
-                    "Guilin Huzhou Ice & Rail Line": ["", "Main line"]
+                    "Guilin Huzhou Ice+Rail": ["", "Main line"]
                 }
             }
         },
@@ -10619,7 +10619,7 @@
             "y2": 56,
             "lines": {
                 "China": {
-                    "Guiyang-Guilin Lower Line": ["", "Main line"]
+                    "Guiyang-Guilin Lower": ["", "Main line"]
                 }
             }
         },
@@ -10633,7 +10633,7 @@
             "y2": 53,
             "lines": {
                 "China": {
-                    "Guiyang-Guilin Lower Line": ["", "hunan express branch"]
+                    "Guiyang-Guilin Lower": ["", "Hunan Express branch"]
                 }
             }
         },
@@ -10647,18 +10647,19 @@
             "y2": 53,
             "lines": {
                 "China": {
-                    "Guiyang-Guilin Lower Line": ["", "Main line to hunan express branch"]
+                    "Guiyang-Guilin Lower": ["", "Main line to Hunan Express branch"]
                 }
             }
         },
         {
-            "name": "Hunan south line 1",
+            "name": "Hunan East JCT",
+            "type": "jct",
             "id": 888,
             "x": 39366,
             "z": -1864,
             "lines": {
                 "China": {
-                    "Guiyang-Guilin Lower Line": ["", "Changsha transfer branch"],
+                    "Guiyang-Guilin Lower": ["", "Changsha transfer branch"],
                     "Hunan-Changsha": ["", "Main line"]
                 }
             }
@@ -13134,7 +13135,7 @@
                     }
                 }
             },
-            "Guilin Huzhou Ice & Rail Line": {
+            "Guilin Huzhou Ice+Rail": {
                 "prefix": "",
                 "code": "",
                 "color": "954346",
@@ -13390,7 +13391,7 @@
                     }
                 }
             },
-            "Guiyang-Guilin Lower Line": {
+            "Guiyang-Guilin Lower": {
                 "prefix": "",
                 "code": "双贵",
                 "color": "0000ff",
@@ -13408,16 +13409,16 @@
                             [39361, -1812],
                             [39361, -1297]
                         ],
-                        "stations": [270, 688, [271, "hunan express branch"], 885, [798, "Changsha transfer branch"], [887, "hunan express branch"], 797]
+                        "stations": [270, 688, [271, "Hunan Express branch"], 885, [798, "Changsha transfer branch"], [887, "Hunan Express branch"]]
                     },
-                    "hunan express branch": {
+                    "Hunan Express branch": {
                         "vertices": [
                             [39272, -1863],
                             [39272, -1860],
                             [39272, -1812],
                             [39335, -1812]
                         ],
-                        "stations": [[271, "Main line"], 886, [887, "Main line"]]
+                        "stations": [[271, "Main line"], 886, [887, "Main line"], 797]
                     },
                     "Changsha transfer branch": {
                         "vertices": [
