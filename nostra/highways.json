@@ -10558,6 +10558,42 @@
                     "Upper Central": ["", "Oslo branch"]
                 }
             }
+        },
+        {
+            "name": "Glungustopia West Side",
+            "id": 881,
+            "x": 54158,
+            "z": -16081,
+            "lines": {
+                "TNIH": {
+                    "Magadan": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Glungustopia JCT",
+            "id": 882,
+            "type": "jct",
+            "x": 54276.5,
+            "z": -16081,
+            "lines": {
+                "TNIH": {
+                    "Magadan": ["", ""],
+                    "Kamchatka Main": ["", "Glungustopia branch"]
+                }
+            }
+        },
+        {
+            "name": "Glungustopia Central",
+            "id": 882,
+            "x": 54276.5,
+            "z": -16065.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Glungustopia branch"]
+                }
+            },
+            "notes": "Entrance at X=54266 Y=70 Z=-16064"
         }
     ],
     "lines": {
@@ -10851,6 +10887,13 @@
                             [55252, -11500]
                         ],
                         "stations": [[638, "Main line (South)"], 639]
+                    },
+                    "Glungustopia branch": {
+                        "vertices": [
+                            [54276.5, -16182.5],
+                            [54276.5, -16048.5]
+                        ],
+                        "stations": []
                     }
                 }
             },
@@ -11329,7 +11372,8 @@
                         "vertices": [
                             [52340, -17732],
                             [54008, -17732],
-                            [54008, -16088]
+                            [54008, -16081],
+                            [54276.5, -16081]
                         ],
                         "stations": [178, 179, 180, 181, 182, 183, 861]
                     }
@@ -12704,6 +12748,28 @@
                             [-26577, -7210]
                         ],
                         "stations": [[369, "Westbound Tube"], [370, "Westbound Tube"], 377, 378, 379, [374, "Westbound Tube"], 381]
+                    }
+                }
+            },
+            "City of New Orleans": {
+                "prefix": "",
+                "code": "",
+                "color": "87cefa",
+                "y": 8,
+                "branches": {
+                    "Southbound Tube": {
+                        "vertices": [
+                            [-31669, -8132],
+                            [-31669, -7210]
+                        ],
+                        "stations": []
+                    },
+                    "Northbound Tube": {
+                        "vertices": [
+                            [-28600, -7210],
+                            [-26577, -7210]
+                        ],
+                        "stations": []
                     }
                 }
             },
