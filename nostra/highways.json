@@ -9541,8 +9541,11 @@
         {
             "name": "Shizuishan",
             "id": 794,
-            "x": 38245,
-            "z": -6629,
+            "x": 38344,
+            "z": -6696,
+            "areas": [
+                [[38319, -6704], [38369, -6690]]
+            ],
             "lines": {
                 "Gobi Transport": {
                     "Eastern": ["", "Main line"]
@@ -10658,6 +10661,30 @@
             "lines": {
                 "China": {
                     "Hunan-Changsha": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Shoten",
+            "id": 889,
+            "x": 38306,
+            "z": -6442,
+            "lines": {
+                "Gobi Transport": {
+                    "Eastern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "South Baoji JCT",
+            "type": "jct",
+            "id": 890,
+            "x": 38352,
+            "z": -4756,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"],
+                    "Baoji-Zhumadian Ice Highway": ["", "South Baoji branch"]
                 }
             }
         }
@@ -12779,7 +12806,7 @@
                             [38306, -6696],
                             [38344, -6696]
                         ],
-                        "stations": [273, 407, 408, 652, 409, 789, 410, 791, [792, "Liangzhou branch"], 793, 794]
+                        "stations": [273, 407, 408, 652, 409, 789, 410, 791, [792, "Liangzhou branch"], 793, 889, 794]
                     },
                     "Liangzhou branch": {
                         "vertices": [
@@ -13190,7 +13217,18 @@
                             [38341, -5050],
                             [39503, -5050]
                         ],
-                        "stations": [668, [775, "Krown-Citadel Branch"], 776, [777, "Xianyang Metro Branch"], 778, [779, "Bilibili Branch", "Changan Branch"], [780, "Zhumadian Branch"], 781]
+                        "stations": [[668, "South Baoji branch"], [775, "Krown-Citadel Branch"], 776, [777, "Xianyang Metro Branch"], 778, [779, "Bilibili Branch", "Changan Branch"], [780, "Zhumadian Branch"], 781]
+                    },
+                    "South Baoji branch": {
+                        "vertices": [
+                            [38353, -4903],
+                            [38341, -4903],
+                            [38341, -4870],
+                            [38316, -4870],
+                            [38316, -4756],
+                            [38352, -4756]
+                        ],
+                        "stations": [[668, "Main line"], 890]
                     },
                     "Xianyang Metro Branch": {
                         "vertices": [
@@ -13265,7 +13303,7 @@
                             [38365, -1885],
                             [38355, -1885]
                         ],
-                        "stations": [668, 669, 670, 671, 672, 655, 673, [674, "Blw branch"], 676, [677, "Fxa branch"], [679, "Chongqing branch"], [681, "Zunyi branch"], 683, 684, 685]
+                        "stations": [668, 890, 669, 670, 671, 672, 655, 673, [674, "Blw branch"], 676, [677, "Fxa branch"], [679, "Chongqing branch"], [681, "Zunyi branch"], 683, 684, 685]
                     },
                     "Blw branch": {
                         "vertices": [
