@@ -3129,7 +3129,7 @@
             "z": -1787,
             "lines": {
                 "China": {
-                    "Guiyang-Hunan Upper": ["", ""]
+                    "Guiyang-Guilin Upper": ["", ""]
                 }
             }
         },
@@ -3143,8 +3143,8 @@
             "z": -1790,
             "lines": {
                 "China": {
-                    "Guiyang-Hunan Upper": ["", ""],
-                    "Guiyang-Hunan Main": ["", ""]
+                    "Guiyang-Guilin Upper": ["", ""],
+                    "Guiyang-Guilin Main": ["", ""]
                 }
             }
         },
@@ -3158,8 +3158,8 @@
             "z": -1815,
             "lines": {
                 "China": {
-                    "Guiyang-Hunan Lower": ["", ""],
-                    "Guiyang-Hunan Main": ["", ""]
+                    "Guiyang-Guilin Lower": ["", "Main line"],
+                    "Guiyang-Guilin Main": ["", ""]
                 }
             }
         },
@@ -3170,7 +3170,7 @@
             "z": -1863,
             "lines": {
                 "China": {
-                    "Guiyang-Hunan Lower": ["", ""]
+                    "Guiyang-Guilin Lower": ["", "Main line"]
                 }
             }
         },
@@ -8279,7 +8279,7 @@
             "z": -1815,
             "lines": {
                 "China": {
-                    "Guiyang-Hunan Lower": ["", ""],
+                    "Guiyang-Guilin Lower": ["", "Main line"],
                     "Junzhou-Beibuwan": ["", "Guiyang East Elevator"]
                 }
             }
@@ -9581,7 +9581,7 @@
             "z": -1297,
             "lines": {
                 "China": {
-                    "Hunan Guilin Line": ["", "Main line"]
+                    "Guiyang-Guilin Lower": ["", "Main line"]
                 }
             }
         },
@@ -9592,7 +9592,7 @@
             "z": -1864,
             "lines": {
                 "China": {
-                    "Hunan Guilin Line": ["", "Main line"]
+                    "Guiyang-Guilin Lower": ["", "Main line"]
                 }
             }
         },
@@ -9603,7 +9603,7 @@
             "z": -1430,
             "lines": {
                 "China": {
-                    "Guilin Huzhou Ice & Rail Line": ["", "Main line"]
+                    "Guilin-Huzhou Ice & Rail": ["", "Main line"]
                 }
             }
         },
@@ -9617,7 +9617,7 @@
             "y2": 87,
             "lines": {
                 "China": {
-                    "Guilin Huzhou Ice & Rail Line": ["", "Main line"]
+                    "Guilin-Huzhou Ice & Rail": ["", "Main line"]
                 }
             }
         },
@@ -9628,7 +9628,7 @@
             "z": -1430,
             "lines": {
                 "China": {
-                    "Guilin Huzhou Ice & Rail Line": ["", "Main line"]
+                    "Guilin-Huzhou Ice & Rail": ["", "Main line"]
                 }
             }
         },
@@ -9639,7 +9639,7 @@
             "z": -1430,
             "lines": {
                 "China": {
-                    "Guilin Huzhou Ice & Rail Line": ["", "Main line"]
+                    "Guilin-Huzhou Ice & Rail": ["", "Main line"]
                 }
             }
         },
@@ -10606,6 +10606,48 @@
                 }
             },
             "notes": "Entrance at X=54266 Y=70 Z=-16064"
+        },
+        {
+            "name": "1st Hunan Elevator",
+            "type": "elev-we",
+            "id": 885,
+            "x": 39272,
+            "z": -1867,
+            "y1": 86,
+            "y2": 56,
+            "lines": {
+                "China": {
+                    "Guiyang-Guilin Lower": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hunan Express Elevator",
+            "type": "elev-we",
+            "id": 886,
+            "x": 39272,
+            "z": -1860,
+            "y1": 86,
+            "y2": 53,
+            "lines": {
+                "China": {
+                    "Guiyang-Guilin Lower": ["", "Hunan Bypass"]
+                }
+            }
+        },
+        {
+            "name": "2nd Hunan Elevator",
+            "type": "elev-we",
+            "id": 887,
+            "x": 39335,
+            "z": -1812,
+            "y1": 56,
+            "y2": 53,
+            "lines": {
+                "China": {
+                    "Guiyang-Guilin Lower": ["", "Main line to Hunan Bypass"]
+                }
+            }
         }
     ],
     "lines": {
@@ -13054,25 +13096,9 @@
                     }
                 }
             },
-            "Hunan Guilin Line": {
+            "Guilin-Huzhou Ice & Rail": {
                 "prefix": "",
-                "code": "湖南桂林",
-                "color": "3857AF",
-                "y": 54,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [39335, -1864],
-                            [39335, -1297],
-                            [39361, -1297]
-                        ],
-                        "stations": [798, 797]
-                    }
-                }
-            },
-            "Guilin Huzhou Ice & Rail Line": {
-                "prefix": "",
-                "code": "",
+                "code": "湖州桂林",
                 "color": "954346",
                 "y": "105, 87",
                 "branches": {
@@ -13286,9 +13312,9 @@
                     }
                 }
             },
-            "Guiyang-Hunan Upper": {
+            "Guiyang-Guilin Upper": {
                 "prefix": "",
-                "code": "GUI-HUN up",
+                "code": "贵阳桂林上",
                 "color": "0000ff",
                 "y": 84,
                 "branches": {
@@ -13303,9 +13329,9 @@
                     }
                 }
             },
-            "Guiyang-Hunan Main": {
+            "Guiyang-Guilin Main": {
                 "prefix": "",
-                "code": "GUI-HUN",
+                "code": "贵阳桂林中",
                 "color": "0000ff",
                 "y": 84,
                 "branches": {
@@ -13320,20 +13346,34 @@
                     }
                 }
             },
-            "Guiyang-Hunan Lower": {
+            "Guiyang-Guilin Lower": {
                 "prefix": "",
-                "code": "GUI-HUN",
+                "code": "贵阳桂林下",
                 "color": "0000ff",
                 "y": 68,
                 "branches": {
-                    "": {
+                    "Main line": {
                         "vertices": [
                             [38648, -1815],
                             [38845, -1815],
                             [38845, -1863],
-                            [39272, -1863]
+                            [39272, -1863],
+                            [39272, -1891],
+                            [39335, -1891],
+                            [39335, -1812],
+                            [39361, -1812],
+                            [39361, -1297]
                         ],
-                        "stations": [270, 688, 271]
+                        "stations": [270, 688, [271, "Hunan Bypass"], 885, 798, [887, "Hunan Bypass"], 797]
+                    },
+                    "Hunan Bypass": {
+                        "vertices": [
+                            [39272, -1863],
+                            [39272, -1860],
+                            [39272, -1812],
+                            [39335, -1812]
+                        ],
+                        "stations": [[271, "Main line"], 886, [887, "Main line"]]
                     }
                 }
             },
