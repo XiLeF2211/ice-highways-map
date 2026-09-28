@@ -10578,8 +10578,7 @@
             "z": -16182.5,
             "lines": {
                 "TNIH": {
-                    "Magadan": ["", ""],
-                    "Kamchatka Main": ["", "Glungustopia branch"]
+                    "Kamchatka Main": ["", "Main line (North) to Glungustopia branch"]
                 }
             }
         },
@@ -10591,7 +10590,8 @@
             "z": -16081,
             "lines": {
                 "TNIH": {
-                    "Kamchatka Main": ["", "Main line (North) to Glungustopia branch"]
+                    "Magadan": ["", ""],
+                    "Kamchatka Main": ["", "Glungustopia branch"]
                 }
             }
         },
