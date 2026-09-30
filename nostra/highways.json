@@ -1756,10 +1756,8 @@
             "z": -17732,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line"]
-                },
-                "BRC": {
-                    "North-South": ["", "Main line"]
+                    "Siberia Main": ["", "Main line"],
+                    "Baikal": ["", "Main line"]
                 }
             }
         },
@@ -1769,8 +1767,8 @@
             "x": 39121.5,
             "z": -17368,
             "lines": {
-                "BRC": {
-                    "North-South": ["", "Main line"]
+                "TNIH": {
+                    "Baikal": ["", "Main line"]
                 }
             }
         },
@@ -6085,9 +6083,9 @@
             "x": 39121.5,
             "z": -14216.5,
             "lines": {
-                "BRC": {
-                    "North-South": ["", "Main line"],
-                    "Angoya": ["", "Main line"]
+                "TNIH": {
+                    "Baikal": ["", "Main line"],
+                    "Lena": ["", "Main line"]
                 }
             }
         },
@@ -6098,42 +6096,42 @@
             "x": 39464.5,
             "z": -14216.5,
             "lines": {
-                "BRC": {
-                    "Angoya": ["", "Main line to Angoya branch"]
+                "TNIH": {
+                    "Lena": ["", "Main line to Angoya branch"]
                 }
             }
         },
         {
-            "name": "Angoya (BRC)",
+            "name": "Baikal-Angoya",
             "id": 516,
             "x": 39464.5,
             "z": -14317.5,
             "lines": {
-                "BRC": {
-                    "Angoya": ["", "Angoya branch"]
+                "TNIH": {
+                    "Lena": ["", "Angoya branch"]
                 }
             }
         },
         {
-            "name": "BRC (town) JCT",
+            "name": "BRC JCT",
             "type": "jct",
             "id": 517,
             "x": 39121.5,
             "z": -13529.5,
             "lines": {
-                "BRC": {
-                    "North-South": ["", "Main line to BRC branch"]
+                "TNIH": {
+                    "Baikal": ["", "Main line to BRC branch"]
                 }
             }
         },
         {
-            "name": "BRC (town)",
+            "name": "BRC (Bei Hai)",
             "id": 518,
             "x": 38826.5,
             "z": -13529.5,
             "lines": {
-                "BRC": {
-                    "North-South": ["", "BRC branch"]
+                "TNIH": {
+                    "Baikal": ["", "BRC branch"]
                 }
             }
         },
@@ -10687,6 +10685,40 @@
                     "Baoji-Zhumadian Ice Highway": ["", "South Baoji branch"]
                 }
             }
+        },
+        {
+            "name": "SwizzerLand",
+            "id": 891,
+            "x": 40807,
+            "z": -14509,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Freiburg JCT",
+            "type": "jct",
+            "id": 892,
+            "x": 39686.5,
+            "z": -14216.5,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line to Freiburg branch"]
+                }
+            }
+        },
+        {
+            "name": "Freiburg Central",
+            "id": 893,
+            "x": 39686.5,
+            "z": -14063,
+            "lines": {
+                "Intercontinental": {
+                    "Baikal Free Way": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -11590,6 +11622,28 @@
                     }
                 }
             },
+            "Baikal": {
+                "prefix": "",
+                "code": "BK",
+                "color": "00a56a",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [39121.5, -17732],
+                            [39121.5, -12952]
+                        ],
+                        "stations": [150, 151, 514, [517, "BRC branch"]]
+                    },
+                    "BRC branch": {
+                        "vertices": [
+                            [39121.5, -13529.5],
+                            [38826, -13529.5]
+                        ],
+                        "stations": [[517, "Main line"], 518]
+                    }
+                }
+            },
             "Lena": {
                 "prefix": "",
                 "code": "LN",
@@ -11603,15 +11657,32 @@
                             [41900, -17732],
                             [41900, -16495],
                             [41381, -16495],
-                            [41381, -14525]
+                            [41381, -14509],
+                            [40667, -14509],
+                            [40667, -14216.5],
+                            [39121.5, -14216.5]
                         ],
-                        "stations": [214, 213, 90, 91, 92, 812, 813, 814, 815],
+                        "stations": [214, 213, 90, 91, 92, 812, 813, 814, 815, 891, [892, "Freiburg branch"], [515, "Angoya branch"], 514],
                         "concurrencies": {
                             "TNIH.Siberia Main": [
                                 [41614, -17732],
                                 [41900, -17732]
                             ]
                         }
+                    },
+                    "Freiburg branch": {
+                        "vertices": [
+                            [39686.5, -14216.5],
+                            [39686.5, -14061]
+                        ],
+                        "stations": [[892, "Main line"], 893]
+                    },
+                    "Angoya branch": {
+                        "vertices": [
+                            [39464.5, -14216.5],
+                            [39464.5, -14317.5]
+                        ],
+                        "stations": [[515, "Main line"], 516]
                     }
                 }
             },
@@ -12912,52 +12983,6 @@
                             [-27031, -7100]
                         ],
                         "stations": [376, 384, 380]
-                    }
-                }
-            }
-        },
-        "BRC": {
-            "North-South": {
-                "prefix": "",
-                "code": "N-S",
-                "color": "00a56a",
-                "y": 10,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [39121.5, -17732],
-                            [39121.5, -12952]
-                        ],
-                        "stations": [150, 151, 514, [517, "BRC branch"]]
-                    },
-                    "BRC branch": {
-                        "vertices": [
-                            [39121.5, -13529.5],
-                            [38826, -13529.5]
-                        ],
-                        "stations": [[517, "Main line"], 518]
-                    }
-                }
-            },
-            "Angoya": {
-                "prefix": "",
-                "code": "Agy",
-                "color": "bb11ff",
-                "y": 10,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [39121.5, -14216.5],
-                            [40664.5, -14216.5]
-                        ],
-                        "stations": [514, [515, "Angoya branch"]]
-                    },
-                    "Angoya branch": {
-                        "vertices": [
-                            [39464.5, -14216.5],
-                            [39464.5, -14317.5]
-                        ],
-                        "stations": [[515, "Main line"], 516]
                     }
                 }
             }
