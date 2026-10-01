@@ -7363,7 +7363,7 @@
                     "Yellow": ["Y06", "Main line"]
                 },
                 "Intercontinental": {
-                    "Aubin-Wyndham": ["", ""]
+                    "Twi Islands-Wyndham": ["", ""]
                 }
             }
         },
@@ -8892,7 +8892,7 @@
             "z": 13346,
             "lines": {
                 "Intercontinental": {
-                    "Aubin-Wyndham": ["", ""]
+                    "Twi Islands-Wyndham": ["", ""]
                 }
             }
         },
@@ -8903,7 +8903,7 @@
             "z": 13471,
             "lines": {
                 "Intercontinental": {
-                    "Aubin-Wyndham": ["", ""]
+                    "Twi Islands-Wyndham": ["", ""]
                 }
             }
         },
@@ -10958,6 +10958,31 @@
             "lines": {
                 "Gobi Transport": {
                     "Eastern": ["", "Liangzhou branch"]
+                }
+            }
+        },
+        {
+            "name": "Townsville",
+            "id": 911,
+            "x": 46510,
+            "z": 12979.5,
+            "lines": {
+                "Intercontinental": {
+                    "Twi Islands-Wyndham": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Tiwi Islands Elevator",
+            "type": "elev-we",
+            "id": 912,
+            "x": 46877,
+            "z": 12255,
+            "y1": 9,
+            "y2": 70,
+            "lines": {
+                "Intercontinental": {
+                    "Twi Islands-Wyndham": ["", ""]
                 }
             }
         }
@@ -14313,7 +14338,7 @@
                     }
                 }
             },
-            "Aubin-Wyndham": {
+            "Twi Islands-Wyndham": {
                 "prefix": "",
                 "code": "A-W",
                 "color": "A0A0A0",
@@ -14321,7 +14346,9 @@
                 "branches": {
                     "": {
                         "vertices": [
-                            [46510, 13152],
+                            [46877, 12255],
+                            [46877, 12290],
+                            [46510, 12290],
                             [46510, 13344],
                             [46508, 13346],
                             [45905, 13346],
@@ -14329,7 +14356,7 @@
                             [46040, 13471],
                             [46040, 13529]
                         ],
-                        "stations": [740, 741, 615]
+                        "stations": [912, 911, 740, 741, 615]
                     }
                 }
             },
