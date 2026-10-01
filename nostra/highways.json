@@ -10998,6 +10998,7 @@
         },
         {
             "name": "Yibin JCT",
+            "type": "jct",
             "id": 914,
             "x": 38431,
             "z": -2608,
@@ -13680,7 +13681,7 @@
                             [38365, -1885],
                             [38355, -1885]
                         ],
-                        "stations": [668, 890, [905, "Baoji-Gucheng Bypass"], 669, 670, 671, 672, [906, "Baoji-Gucheng Bypass"], 655, 673, [674, "Blw branch"], 676, [677, "Fxa branch"], [679, "Chongqing branch"], [681, "Zunyi branch"], 683, 684, 685]
+                        "stations": [668, 890, [905, "Baoji-Gucheng Bypass"], 669, 670, 671, 672, [906, "Baoji-Gucheng Bypass"], 655, 673, [674, "Blw branch"], 676, [677, "Fxa branch"], [679, "Chongqing branch"], [914, "Yibin branch"], [681, "Zunyi branch"], 683, 684, 685]
                     },
                     "Baoji-Gucheng Bypass": {
                         "vertices": [
