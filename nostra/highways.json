@@ -4801,7 +4801,7 @@
             "z": -5050,
             "lines": {
                 "China": {
-                    "Xinhua-Hangu": ["", "Main line"]
+                    "Hanguguan-Jinan": ["", "Main line"]
                 }
             }
         },
@@ -8025,7 +8025,7 @@
             "lines": {
                 "China": {
                     "Baoji-Guiyang": ["", "Main line"],
-                    "Baoji-Zhumadian Ice Highway": ["", "Main line"]
+                    "Baoji-Zhumadian": ["", "Main line"]
                 }
             }
         },
@@ -8038,7 +8038,7 @@
             "lines": {
                 "China": {
                     "Baoji-Guiyang": ["", "Main line"],
-                    "Baoji-Zhumadian Ice Highway": ["", "Xianyang Metro Branch"]
+                    "Baoji-Zhumadian": ["", "Xianyang Metro Branch"]
                 }
             }
         },
@@ -8068,7 +8068,7 @@
             }
         },
         {
-            "name": "Junzhou North JCT",
+            "name": "Junzhou Northeast JCT",
             "type": "jct",
             "id": 672,
             "x": 38825,
@@ -9309,7 +9309,7 @@
             "z": -5050,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian Ice Highway": ["", "Main line to Krown-Citadel Branch"]
+                    "Baoji-Zhumadian": ["", "Main line to Krown-Citadel Branch"]
                 }
             }
         },
@@ -9320,7 +9320,7 @@
             "z": -5050,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian Ice Highway": ["", "Main line"]
+                    "Baoji-Zhumadian": ["", "Main line"]
                 }
             }
         },
@@ -9332,7 +9332,7 @@
             "z": -5050,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian Ice Highway": ["", "Main line to Xianyang Metro Branch"]
+                    "Baoji-Zhumadian": ["", "Main line to Xianyang Metro Branch"]
                 }
             }
         },
@@ -9343,7 +9343,7 @@
             "z": -5050,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian Ice Highway": ["", "Main line"]
+                    "Baoji-Zhumadian": ["", "Main line"]
                 }
             }
         },
@@ -9355,7 +9355,7 @@
             "z": -5050,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian Ice Highway": ["", "Main line to Bilibili Branch to Changan Branch"]
+                    "Baoji-Zhumadian": ["", "Main line to Bilibili Branch to Changan Branch"]
                 }
             }
         },
@@ -9367,18 +9367,22 @@
             "z": -5050,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian Ice Highway": ["", "Main line to Zhumadian Branch"]
+                    "Baoji-Zhumadian": ["", "Main line to Zhumadian Branch"]
                 }
             }
         },
         {
-            "name": "Zhumadian East",
+            "name": "Hanguguan Elevator",
+            "type": "elev-we",
             "id": 781,
-            "x": 39503,
-            "z": -5050,
+            "x": 39551,
+            "z": -5076,
+            "y1": 86,
+            "y2": 95,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian Ice Highway": ["", "Main line"]
+                    "Baoji-Zhumadian": ["", "Main line"],
+                    "Hanguguan-Jinan": ["", "Main line"]
                 }
             }
         },
@@ -9392,7 +9396,7 @@
             "y2": 66,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian Ice Highway": ["", "Xianyang Metro Branch"]
+                    "Baoji-Zhumadian": ["", "Xianyang Metro Branch"]
                 }
             }
         },
@@ -9403,7 +9407,7 @@
             "z": -4901,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian Ice Highway": ["", "Xianyang Metro Branch"]
+                    "Baoji-Zhumadian": ["", "Xianyang Metro Branch"]
                 }
             }
         },
@@ -9417,7 +9421,7 @@
             ],
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian Ice Highway": ["", "Xianyang Metro Branch"]
+                    "Baoji-Zhumadian": ["", "Xianyang Metro Branch"]
                 }
             }
         },
@@ -9428,7 +9432,7 @@
             "z": -5213,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian Ice Highway": ["", "Bilibili Branch"]
+                    "Baoji-Zhumadian": ["", "Bilibili Branch"]
                 }
             }
         },
@@ -9442,7 +9446,7 @@
             "y2": 80,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian Ice Highway": ["", "Bilibili Branch"]
+                    "Baoji-Zhumadian": ["", "Bilibili Branch"]
                 }
             }
         },
@@ -9453,7 +9457,7 @@
             "z": -4945,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian Ice Highway": ["", "Changan Branch"]
+                    "Baoji-Zhumadian": ["", "Changan Branch"]
                 }
             }
         },
@@ -9467,7 +9471,7 @@
             ],
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian Ice Highway": ["", "Zhumadian Branch"]
+                    "Baoji-Zhumadian": ["", "Zhumadian Branch"]
                 }
             }
         },
@@ -9482,7 +9486,7 @@
                     "Eastern": ["", "Main line"]
                 },
                 "China": {
-                    "Baoji-Zhumadian Ice Highway": ["", "Krown-Citadel Branch"]
+                    "Baoji-Zhumadian": ["", "Krown-Citadel Branch"]
                 }
             }
         },
@@ -9496,7 +9500,7 @@
             "y2": 110,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian Ice Highway": ["", "Krown-Citadel Branch"]
+                    "Baoji-Zhumadian": ["", "Krown-Citadel Branch"]
                 }
             }
         },
@@ -9674,7 +9678,7 @@
             "z": -6021,
             "lines": {
                 "China": {
-                    "Jinan-Xinhua": ["", "Main line"]
+                    "Hanguguan-Jinan": ["", "Main line"]
                 }
             }
         },
@@ -9685,7 +9689,7 @@
             "z": -6021,
             "lines": {
                 "China": {
-                    "Jinan-Xinhua": ["", "Main line"]
+                    "Hanguguan-Jinan": ["", "Main line"]
                 }
             }
         },
@@ -9699,7 +9703,7 @@
             "y2": 71,
             "lines": {
                 "China": {
-                    "Jinan-Xinhua": ["", "Main line"]
+                    "Hanguguan-Jinan": ["", "Main line"]
                 }
             }
         },
@@ -9713,7 +9717,7 @@
             "y2": 72,
             "lines": {
                 "China": {
-                    "Jinan-Xinhua": ["", "Main line"]
+                    "Hanguguan-Jinan": ["", "Main line"]
                 }
             }
         },
@@ -9727,7 +9731,7 @@
             "y2": 73,
             "lines": {
                 "China": {
-                    "Jinan-Xinhua": ["", "Main line"]
+                    "Hanguguan-Jinan": ["", "Main line"]
                 }
             }
         },
@@ -9738,7 +9742,7 @@
             "z": -6021,
             "lines": {
                 "China": {
-                    "Jinan-Xinhua": ["", "Main line"]
+                    "Hanguguan-Jinan": ["", "Main line to Xinhua branch"]
                 }
             }
         },
@@ -10004,7 +10008,7 @@
             "z": -5884,
             "lines": {
                 "China": {
-                    "Xinhua-Hangu": ["", "Main line"]
+                    "Hanguguan-Jinan": ["", "Main line"]
                 }
             }
         },
@@ -10682,7 +10686,7 @@
             "lines": {
                 "China": {
                     "Baoji-Guiyang": ["", "Main line"],
-                    "Baoji-Zhumadian Ice Highway": ["", "South Baoji branch"]
+                    "Baoji-Zhumadian": ["", "South Baoji branch"]
                 }
             }
         },
@@ -10754,9 +10758,6 @@
             "x": -31698,
             "z": -7948,
             "lines": {
-                "America": {
-                    "City of New Orleans":  ["", "Southbound Tube to Northbound Tube"]
-                }
             }
         },
         {
@@ -10872,6 +10873,56 @@
             "lines": {
                 "America": {
                     "Capitol Limited": ["", "Main line to Cincinnati branch"]
+                }
+            }
+        },
+        {
+            "name": "Baoji Express JCT",
+            "type": "jct",
+            "id": 905,
+            "x": 38353,
+            "z": -4455,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line to Baoji-Gucheng Bypass"]
+                }
+            }
+        },
+        {
+            "name": "Junzhou Northwest JCT",
+            "type": "jct",
+            "id": 906,
+            "x": 38494,
+            "z": -3822,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line to Baoji-Gucheng Bypass"]
+                }
+            }
+        },
+        {
+            "name": "Hanguguan JCT",
+            "type": "jct",
+            "id": 907,
+            "x": 39590,
+            "z": -5076,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "East Xinhua Elevator",
+            "type": "elev-we",
+            "id": 908,
+            "x": 39678,
+            "z": -6021,
+            "y1": 76,
+            "y2": 73,
+            "lines": {
+                "China": {
+                    "Hanguguan-Jinan": ["", "Main line to Xinhua branch"]
                 }
             }
         }
@@ -13384,18 +13435,29 @@
                     }
                 }
             },
-            "Jinan-Xinhua": {
+            "Hanguguan-Jinan": {
                 "prefix": "",
-                "code": "济华",
+                "code": "函谷济南",
                 "color": "4F4F4F",
-                "y": "96, 71, 72, 73",
+                "y": "95, 96, 71, 72, 73",
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [41953, -6021],
+                            [39590, -5050],
+                            [39590, -5884],
+                            [39598, -5884],
+                            [39678, -5884],
+                            [39678, -6021],
+                            [41953, -6021]
+                        ],
+                        "stations": [411, 907, 833, [908, "Xinhua branch"], 809, 808, 807, 806, 805]
+                    },
+                    "Xinhua branch": {
+                        "vertices": [
+                            [39678, -6021],
                             [39656, -6021]
                         ],
-                        "stations": [805, 806, 807, 808, 809, 810]
+                        "stations": [[908, "Main line"], 810]
                     }
                 }
             },
@@ -13424,7 +13486,7 @@
                     }
                 }
             },
-            "Baoji-Zhumadian Ice Highway": {
+            "Baoji-Zhumadian": {
                 "prefix": "",
                 "code": "黄河",
                 "color": "a0a0fe",
@@ -13435,7 +13497,9 @@
                             [38353, -4903],
                             [38341, -4903],
                             [38341, -5050],
-                            [39503, -5050]
+                            [39499, -5050],
+                            [39499, -5076],
+                            [39590, -5076]
                         ],
                         "stations": [[668, "South Baoji branch"], [775, "Krown-Citadel Branch"], 776, [777, "Xianyang Metro Branch"], 778, [779, "Bilibili Branch", "Changan Branch"], [780, "Zhumadian Branch"], 781]
                     },
@@ -13523,7 +13587,15 @@
                             [38365, -1885],
                             [38355, -1885]
                         ],
-                        "stations": [668, 890, 669, 670, 671, 672, 655, 673, [674, "Blw branch"], 676, [677, "Fxa branch"], [679, "Chongqing branch"], [681, "Zunyi branch"], 683, 684, 685]
+                        "stations": [668, 890, [905, "Baoji-Gucheng Bypass"], 669, 670, 671, 672, [905, "Baoji-Gucheng Bypass"], 655, 673, [674, "Blw branch"], 676, [677, "Fxa branch"], [679, "Chongqing branch"], [681, "Zunyi branch"], 683, 684, 685]
+                    },
+                    "Baoji-Gucheng Bypass": {
+                        "vertices": [
+                            [38353, -4455],
+                            [38353, -3822],
+                            [38494, -3822]
+                        ],
+                        "stations": [[905, "Main line"], [906, "Main line"]]
                     },
                     "Blw branch": {
                         "vertices": [
@@ -13643,21 +13715,6 @@
                             [39335, -1812]
                         ],
                         "stations": [[271, "Main line"], 886, [887, "Main line"]]
-                    }
-                }
-            },
-            "Xinhua-Hangu": {
-                "prefix": "",
-                "code": "新华函谷",
-                "color": "D5C98C",
-                "y": 95,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [39590, -5050],
-                            [39590, -5884]
-                        ],
-                        "stations": [411, 833]
                     }
                 }
             },
