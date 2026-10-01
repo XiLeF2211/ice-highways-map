@@ -583,8 +583,7 @@
             "z": -6933,
             "lines": {
                 "Gobi Transport": {
-                    "North-South Main": ["", "Main line"],
-                    "Eastern": ["", "Liangzhou branch"]
+                    "North-South Main": ["", "Main line"]
                 }
             }
         },
