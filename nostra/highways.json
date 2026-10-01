@@ -10984,6 +10984,28 @@
                     "Twi Islands-Wyndham": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Yibin",
+            "id": 913,
+            "x": 37580,
+            "z": -2622,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Yibin branch"]
+                }
+            }
+        },
+        {
+            "name": "Yibin JCT",
+            "id": 914,
+            "x": 38431,
+            "z": -2608,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line to Yibin branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -13697,6 +13719,17 @@
                             [38250, -2276]
                         ],
                         "stations": [[681, "Main line"], 682]
+                    },
+                    "Yibin branch": {
+                        "vertices": [
+                            [38431, -2608],
+                            [38136, -2608],
+                            [38136, -2659],
+                            [38044, -2659],
+                            [38044, -2622],
+                            [37580, -2622]
+                        ],
+                        "stations": [[914, "Main line"], 913]
                     }
                 }
             },
