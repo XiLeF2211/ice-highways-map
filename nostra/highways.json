@@ -9381,8 +9381,7 @@
             "y2": 95,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian": ["", "Main line"],
-                    "Hanguguan-Jinan": ["", "Main line"]
+                    "Baoji-Zhumadian": ["", "Main line"]
                 }
             }
         },
@@ -13573,7 +13572,7 @@
                             [39499, -5076],
                             [39590, -5076]
                         ],
-                        "stations": [[668, "South Baoji branch"], [775, "Krown-Citadel Branch"], 776, [777, "Xianyang Metro Branch"], 778, [779, "Bilibili Branch", "Changan Branch"], [780, "Zhumadian Branch"], 781]
+                        "stations": [[668, "South Baoji branch"], [775, "Krown-Citadel Branch"], 776, [777, "Xianyang Metro Branch"], 778, [779, "Bilibili Branch", "Changan Branch"], [780, "Zhumadian Branch"], 781, 907]
                     },
                     "South Baoji branch": {
                         "vertices": [
