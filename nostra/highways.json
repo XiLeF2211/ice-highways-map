@@ -577,7 +577,7 @@
             }
         },
         {
-            "name": "Jiayuguan Entrance (JCT)",
+            "name": "Jiayuguan Entrance",
             "id": 49,
             "x": 35355,
             "z": -6933,
@@ -4787,7 +4787,7 @@
             "name": "Krowntown Citadel",
             "id": 410,
             "x": 37410,
-            "z": -5834,
+            "z": -5836,
             "lines": {
                 "Gobi Transport": {
                     "Eastern": ["", "Main line"]
@@ -9508,15 +9508,18 @@
             "name": "Krowntown Citadel Elevator",
             "type": "elev-we",
             "id": 791,
-            "x": 37410,
-            "z": -5987,
+            "x": 37434,
+            "z": -5988,
             "y1": 110,
             "y2": 90,
             "lines": {
                 "Gobi Transport": {
                     "Eastern": ["", "Main line"]
                 }
-            }
+            },
+            "areas": [
+                [[37429, -5993], [37436, -5986]]
+            ]
         },
         {
             "name": "Liangzhou",
@@ -9527,7 +9530,11 @@
                 "Gobi Transport": {
                     "Eastern": ["", "Main line to Liangzhou branch"]
                 }
-            }
+            },
+            "areas": [
+                [[37600, -6095], [37616, -6081]],
+                [[37611, -6108], [37616, -6081]]
+            ]
         },
         {
             "name": "Liangzhou East",
@@ -9555,13 +9562,13 @@
             }
         },
         {
-            "name": "Liangzhou Elevator",
+            "name": "Liangzhou Staircase",
             "type": "elev-we",
             "id": 795,
-            "x": 37608,
+            "x": 37613,
             "z": -6104,
             "y1": 90,
-            "y2": 98,
+            "y2": 99,
             "lines": {
                 "Gobi Transport": {
                     "Eastern": ["", "Liangzhou branch"]
@@ -10924,6 +10931,33 @@
             "lines": {
                 "China": {
                     "Hanguguan-Jinan": ["", "Main line to Xinhua branch"]
+                }
+            }
+        },
+        {
+            "name": "Jiayuguan JCT",
+            "type": "jct",
+            "id": 909,
+            "x": 35355,
+            "z": -6954,
+            "lines": {
+                "Gobi Transport": {
+                    "North-South Main": ["", "Main line"],
+                    "Eastern": ["", "Liangzhou branch"]
+                }
+            }
+        },
+        {
+            "name": "Jiayuguan Elevator",
+            "type": "elev-we",
+            "id": 910,
+            "x": 35357,
+            "z": -6954,
+            "y1": 99,
+            "y2": 111,
+            "lines": {
+                "Gobi Transport": {
+                    "Eastern": ["", "Liangzhou branch"]
                 }
             }
         }
@@ -12940,7 +12974,7 @@
                             [32592, -4001],
                             [32594, -4001]
                         ],
-                        "stations": [48, [82, "Shinsyu branch"], 287, 292, 49, 272, [648, "Loulan South branch"], 273, [274, "Mongolia branch"], [275, ""], 276, 212]
+                        "stations": [48, [82, "Shinsyu branch"], 287, 292, 49, 909, 272, [648, "Loulan South branch"], 273, [274, "Mongolia branch"], [275, ""], 276, 212]
                     },
                     "Shinsyu branch": {
                         "vertices": [
@@ -13077,8 +13111,12 @@
                         "vertices": [
                             [34938, -5089],
                             [37410, -5089],
-                            [37410, -6082],
-                            [37953, -6082],
+                            [37410, -5836],
+                            [37390, -5836],
+                            [37390, -5988],
+                            [37437, -5988],
+                            [37437, -6081],
+                            [37953, -6081],
                             [37953, -6167],
                             [38306, -6167],
                             [38306, -6696],
@@ -13089,11 +13127,19 @@
                     "Liangzhou branch": {
                         "vertices": [
                             [37608, -6082],
-                            [37608, -6104],
-                            [37608, -6933],
-                            [35355, -6933]
+                            [37608, -6094],
+                            [37613, -6094],
+                            [37613, -6860],
+                            [35614, -6860],
+                            [35614, -6944],
+                            [35493, -6944],
+                            [35489, -6947],
+                            [35436, -6947],
+                            [35434, -6948],
+                            [35428, -6954],
+                            [35355, -6954]
                         ],
-                        "stations": [[792, "Main line"], 795, 49]
+                        "stations": [[792, "Main line"], 795, 910, 909]
                     }
                 }
             }
