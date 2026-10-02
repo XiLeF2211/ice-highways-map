@@ -11006,6 +11006,89 @@
                     "Baoji-Guiyang": ["", "Main line to Yibin branch"]
                 }
             }
+        },
+        {
+            "name": "Wolverine and Capitol Limited JCT",
+            "id": 915,
+            "type": "jct",
+            "x": -29720,
+            "z": -7333,
+            "lines": {
+                "America": {
+                    "Capitol Limited": ["", "Main line"],
+                    "Wolverine": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "East Glass City JCT",
+            "id": 916,
+            "type": "jct",
+            "x": -29720,
+            "z": -7739,
+            "lines": {
+                "America": {
+                    "Wolverine": ["", "Main line to Chicago branch"]
+                }
+            }
+        },
+        {
+            "name": "Detroit",
+            "id": 917,
+            "x": -29720,
+            "z": -8203,
+            "lines": {
+                "America": {
+                    "Wolverine": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Blue Water JCT",
+            "id": 918,
+            "type": "jct",
+            "x": -29720,
+            "z": -8461,
+            "lines": {
+                "America": {
+                    "Wolverine": ["", "Main line to Flint branch"]
+                }
+            }
+        },
+        {
+            "name": "Blue Water",
+            "id": 919,
+            "x": -29720,
+            "z": -8480,
+            "lines": {
+                "America": {
+                    "Wolverine": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Flint",
+            "id": 920,
+            "x": -29949,
+            "z": -8461,
+            "lines": {
+                "America": {
+                    "Wolverine": ["", "Flint branch"]
+                }
+            }
+        },
+        {
+            "name": "JCT",
+            "id": 921,
+            "type": "jct",
+            "x": -30202,
+            "z": -7739,
+            "lines": {
+                "America": {
+                    "Wolverine": ["", "Chicago branch"],
+                    "Capitol Limited": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -13288,7 +13371,21 @@
                             [-29720, -8480],
                             [-29720 , -7210]
                         ],
-                        "stations": [900]
+                        "stations": [919, [918, "Flint branch"], 917, [916, "Chicago branch"], 915, 900]
+                    },
+                    "Chicago branch": {
+                        "vertices": [
+                            [-29720, -7739],
+                            [-30202, -7739]
+                        ],
+                        "stations": [921, [916, "Main line"]]
+                    },
+                    "Flint branch": {
+                        "vertices": [
+                            [-29720, -8461],
+                            [-29949, -8461]
+                        ],
+                        "stations": [920, [918, "Main line"]]
                     }
 
                 }
