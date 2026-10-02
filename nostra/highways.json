@@ -4364,7 +4364,7 @@
             }
         },
         {
-            "name": "Philadelphia (30th Street)",
+            "name": "Philadelphia (30th Street Station)",
             "id": 374,
             "x": -27133,
             "z": -7216,
@@ -4372,37 +4372,11 @@
                 "America": {
                     "Atlantic": ["", "Westbound Tube to Eastbound Tube"]
                 },
-                "Philadelphia Subway System": {
-                    "L": ["", ""]
-                }
             },
             "areas": [
-                [[-27132, -7222], [-27134, -7210]],
-                [[-27080, -7215], [-27134, -7217]],
-                [[-27082, -7207], [-27080, -7217]]
+                [[-27212, -7209], [-27090, -7223]],
+				[[-27108 , -7202]], [[-27139 , -7230]]
             ]
-        },
-        {
-            "name": "Citizen's Bank Park",
-            "id": 375,
-            "x": -27258,
-            "z": -7207,
-            "lines": {
-                "Philadelphia Subway System": {
-                    "L": ["", ""]
-                }
-            }
-        },
-        {
-            "name": "Art Museum",
-            "id": 376,
-            "x": -27031,
-            "z": -7338,
-            "lines": {
-                "Philadelphia Subway System": {
-                    "B": ["", ""]
-                }
-            }
         },
         {
             "name": "1st Atlantic ramp (EB side)",
@@ -4441,17 +4415,6 @@
             }
         },
         {
-            "name": "Chestnut St.",
-            "id": 380,
-            "x": -27031,
-            "z": -7112,
-            "lines": {
-                "Philadelphia Subway System": {
-                    "B": ["", ""]
-                }
-            }
-        },
-        {
             "name": "4th Atlantic ramp (EB side)",
             "type": "elev-we",
             "id": 381,
@@ -4460,40 +4423,6 @@
             "lines": {
                 "America": {
                     "Atlantic": ["", "Eastbound Tube"]
-                }
-            }
-        },
-        {
-            "name": "East Market Street",
-            "id": 382,
-            "x": -26854,
-            "z": -7207,
-            "lines": {
-                "Philadelphia Subway System": {
-                    "L": ["", ""]
-                }
-            }
-        },
-        {
-            "name": "Independence Hall",
-            "id": 383,
-            "x": -26938,
-            "z": -7207,
-            "lines": {
-                "Philadelphia Subway System": {
-                    "L": ["", ""]
-                }
-            }
-        },
-        {
-            "name": "City Hall",
-            "id": 384,
-            "x": -27031,
-            "z": -7207,
-            "lines": {
-                "Philadelphia Subway System": {
-                    "L": ["", ""],
-                    "B": ["", ""]
                 }
             }
         },
@@ -11089,6 +11018,230 @@
                     "Capitol Limited": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Girard / 69th St.",
+            "id": 933,
+            "x": -27257,
+            "z": -7337,
+            "lines": {
+                "SEPTA": {
+                    "G": ["", ""],
+                    "D": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Girard / 30th St.",
+            "id": 934,
+            "x": -27129,
+            "z": -7337,
+            "lines": {
+                "SEPTA": {
+                    "G": ["", ""],
+                    "T": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Art Museum",
+            "id": 935,
+            "x": -27033,
+            "z": -7337,
+            "lines": {
+                "SEPTA": {
+                    "G": ["", ""],
+                    "B": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Girard / 5th St.",
+            "id": 936,
+            "x": -26952,
+            "z": -7337,
+            "lines": {
+                "SEPTA": {
+                    "G": ["", ""]
+                }
+            }
+        },
+		
+        {
+            "name": "Vine St.",
+            "id": 941,
+            "x": -27257,
+            "z": -7272,
+            "lines": {
+                "SEPTA": {
+                    "D": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Vine St.",
+            "id": 942,
+            "x": -27129,
+            "z": -7272,
+            "lines": {
+                "SEPTA": {
+                    "T": ["", ""]
+                }
+            }
+        },
+		
+        {
+            "name": "Market / 69th St.",
+            "id": 953,
+            "x": -27257,
+            "z": -7209,
+            "lines": {
+                "SEPTA": {
+                    "L": ["", ""],
+                    "D": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Market / 30th St.",
+            "id": 954,
+            "x": -27129,
+            "z": -7209,
+            "lines": {
+                "SEPTA": {
+                    "L": ["", ""],
+                    "T": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "City Hall",
+            "id": 955,
+            "x": -27033,
+            "z": -7209,
+            "lines": {
+                "SEPTA": {
+                    "L": ["", ""],
+                    "B": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "5th St / Independence Hall",
+            "id": 956,
+            "x": -26938,
+            "z": -7209,
+            "lines": {
+                "SEPTA": {
+                    "L": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Market East",
+            "id": 957,
+            "x": -26854,
+            "z": -7209,
+            "lines": {
+                "SEPTA": {
+                    "L": ["", ""]
+                }
+            }
+        },
+
+        {
+            "name": "Chestnut St.",
+            "id": 961,
+            "x": -27257,
+            "z": -7112,
+            "lines": {
+                "SEPTA": {
+                    "D": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Chestnut St.",
+            "id": 962,
+            "x": -27129,
+            "z": -7112,
+            "lines": {
+                "SEPTA": {
+                    "T": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Chestnut St.",
+            "id": 963,
+            "x": -27033,
+            "z": -7112,
+            "lines": {
+                "SEPTA": {
+                    "B": ["", ""]
+                }
+            }
+        },
+		
+        {
+            "name": "Walnut St. / 69th",
+            "id": 971,
+            "x": -27257,
+            "z": -7049,
+            "lines": {
+                "SEPTA": {
+                    "D": ["", ""],
+                    "Pa": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Walnut St. / 30th",
+            "id": 972,
+            "x": -27129,
+            "z": -7049,
+            "lines": {
+                "SEPTA": {
+                    "T": ["", ""],
+                    "Pa": ["", ""]
+                }
+            }
+        },
+		
+        {
+            "name": "Locust St. / 69th",
+            "id": 980,
+            "x": -27257,
+            "z": -6985,
+            "lines": {
+                "SEPTA": {
+                    "D": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Locust St. / 30th",
+            "id": 981,
+            "x": -27129,
+            "z": -6985,
+            "lines": {
+                "SEPTA": {
+                    "D": ["", ""],
+                    "T": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Delaware Memorial Bridge",
+            "id": 989,
+            "x": -27129,
+            "z": -6929,
+            "lines": {
+                "SEPTA": {
+                    "D": ["", ""],
+                    "T": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -13363,7 +13516,7 @@
             "Wolverine": {
                 "prefix": "",
                 "code": "WV",
-                "color": "c300a2",
+                "color": "00537e",
                 "y": 8,
                 "branches": {
                     "Main line": {
@@ -13391,38 +13544,99 @@
                 }
             }
         },
-        "Philadelphia Subway System": {
+        "SEPTA": {
             "L": {
                 "prefix": "",
                 "code": "",
-                "color": "1c9ad6",
+                "color": "0099d6",
                 "y": 60,
                 "branches": {
                     "": {
                         "vertices": [
-                            [-26832, -7207],
-                            [-27258, -7207]
+                            [-26832, -7209],
+                            [-27266, -7209]
                         ],
-                        "stations": [375, 374, 384, 383, 382]
+                        "stations": [953, 954, 955, 956, 957]
                     }
                 }
             },
             "B": {
                 "prefix": "",
                 "code": "",
-                "color": "ff6319",
+                "color": "f26929",
                 "y": 60,
                 "branches": {
                     "": {
                         "vertices": [
-                            [-27031, -7338],
-                            [-27031, -7100]
+                            [-27033, -7337],
+                            [-27033, -7049]
                         ],
-                        "stations": [376, 384, 380]
+                        "stations": [935, 955, 963]
+                    }
+                }
+            },
+            "T": {
+                "prefix": "",
+                "code": "",
+                "color": "61A744",
+                "y": 60,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-27129, -7337],
+                            [-27129, -6914]
+                        ],
+                        "stations": [934, 942, 954, 962, 972, 981, 989]
+                    }
+                }
+            },
+            "G": {
+                "prefix": "",
+                "code": "",
+                "color": "FDD800",
+                "y": 60,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-27279, -7337],
+                            [-26924, -7337]
+                        ],
+                        "stations": [933, 934, 935, 936]
+                    }
+                }
+            },
+            "D": {
+                "prefix": "",
+                "code": "",
+                "color": "E5417A",
+                "y": 60,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-27257, -7337],
+                            [-27257, -6985],
+							[-27129, -6985]
+                        ],
+                        "stations": [933, 941, 953, 961, 971, 980, 981]
+                    }
+                }
+            },
+            "Pa": {
+                "prefix": "",
+                "code": "",
+                "color": "C5203F",
+                "y": 60,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-27295, -7049],
+                            [-27033, -7049]
+                        ],
+                        "stations": [971, 972]
                     }
                 }
             }
-        },
+        }
         "Ethiopia": {
             "Dessie-Trial-Adama": {
                 "prefix": "",
