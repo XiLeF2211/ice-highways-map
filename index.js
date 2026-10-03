@@ -105,7 +105,7 @@ async function init() {
     highwayData = await fetchJSON(highwaysURL);
     netherHighwayData = await fetchJSON(netherHighwaysURL);
 
-    // highwayData = await fetchJSON('nostra/highways.json'); // for local test
+    // highwayData = await fetchJSON('nostra/highways.json'); // for pathfinder = new Pathfinder(currentData);
     // netherHighwayData = await fetchJSON('nostra/netherHighways.json'); // for local test
     if (!highwayData || !netherHighwayData) {
         console.log('debug: There was a problem with getting station and line data')
@@ -113,6 +113,7 @@ async function init() {
     currentData = highwayData;
 
     pathfinder = new Pathfinder(currentData);
+    // use "//" for local test
 
     const params = new URLSearchParams(window.location.search);
     if (params.has('line')) {
