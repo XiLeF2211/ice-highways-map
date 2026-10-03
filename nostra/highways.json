@@ -4416,14 +4416,7 @@
                 }
             }
         },
-        {
-            "name": "Yamada Ryo ID for Sale",
-            "id": 380,
-            "x": 1000000,
-            "z": 1000000,
-            "lines": {
-            }
-        },
+        { "id": 380 },
         {
             "name": "??? Elevator",
             "type": "elev-we",
@@ -4436,6 +4429,7 @@
                 }
             }
         },
+        { "id": 382 }, { "id": 383 }, { "id": 384 },
         {
             "name": "Pittsburgh (Old Platform)",
             "id": 385,
