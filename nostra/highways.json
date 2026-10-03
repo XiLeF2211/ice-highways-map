@@ -6965,7 +6965,8 @@
             ],
             "lines": {
                 "Sweden": {
-                    "Red": ["", "Main line"]
+                    "Red": ["", "Main line"],
+                    "North": ["", "Main line"]
                 }
             }
         },
@@ -11078,7 +11079,7 @@
             }
         },
         {
-            "name": "??? JCT",
+            "name": "Kendallville JCT",
             "id": 921,
             "type": "jct",
             "x": -30202,
@@ -11090,7 +11091,40 @@
                 }
             }
         },
-        { "id": 922 }, { "id": 923 }, { "id": 924 }, { "id": 925 }, { "id": 926 }, { "id": 927 }, { "id": 928 }, { "id": 929 }, { "id": 930 }, { "id": 931 }, { "id": 932 },
+        {
+            "name": "Katrineholm",
+            "id": 922,
+            "x": 5474.5,
+            "z": -15939,
+            "lines": {
+                "Sweden": {
+                    "North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mora",
+            "id": 923,
+            "x": 5501,
+            "z": -16857.5,
+            "lines": {
+                "Sweden": {
+                    "North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tamil Nadu",
+            "id": 924,
+            "x": 6117.5,
+            "z": -16802,
+            "lines": {
+                "Sweden": {
+                    "North": ["", "Main line"]
+                }
+            }
+        },
+        { "id": 925 }, { "id": 926 }, { "id": 927 }, { "id": 928 }, { "id": 929 }, { "id": 930 }, { "id": 931 }, { "id": 932 },
         {
             "name": "Girard / 69th St.",
             "id": 933,
@@ -13591,7 +13625,7 @@
                             [-30202, -7739],
                             [-31391, -7739]
                         ],
-                        "stations": [388, 387, 386, [904, "Cincinnati branch"], 385, 370]
+                        "stations": [388, 387, 921, 386, [904, "Cincinnati branch"], 385, 370]
                     },
                     "Cincinnati branch": {
                         "vertices": [
@@ -14315,6 +14349,24 @@
                             [4885.5, -15047]
                         ],
                         "stations": [590, 589, 594]
+                    }
+                }
+            },
+            "North": {
+                "prefix": "",
+                "code": "N",
+                "color": "33B1FF",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [5689, -15815.5],
+                            [5474.5, -15815.5],
+                            [5474.5, -16857.5],
+                            [6117.5, -16857.5],
+                            [6117.5, -16802]
+                        ],
+                        "stations": [584, 922, 923, 924]
                     }
                 }
             }
