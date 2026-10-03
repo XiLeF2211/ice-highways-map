@@ -4328,7 +4328,7 @@
             ]
         },
         {
-            "name": "1st Atlantic ramp (WB side)",
+            "name": "",
             "type": "elev-ew",
             "id": 371,
             "x": -27315,
@@ -4340,7 +4340,7 @@
             }
         },
         {
-            "name": "2nd Atlantic ramp (WB side)",
+            "name": "",
             "type": "elev-ew",
             "id": 372,
             "x": -27291,
@@ -4352,7 +4352,7 @@
             }
         },
         {
-            "name": "3rd Atlantic ramp (WB side)",
+            "name": "",
             "type": "elev-ew",
             "id": 373,
             "x": -27267,
@@ -4364,22 +4364,23 @@
             }
         },
         {
-            "name": "Philadelphia (30th Street Station)",
+            "name": "Philadelphia (30th Street)",
             "id": 374,
             "x": -27133,
             "z": -7216,
             "lines": {
                 "America": {
                     "Atlantic": ["", "Westbound Tube to Eastbound Tube"]
-                },
+                }
             },
             "areas": [
-                [[-27212, -7209], [-27090, -7223]],
-				[[-27108 , -7202]], [[-27139 , -7230]]
+                [[-27132, -7222], [-27134, -7210]],
+                [[-27080, -7215], [-27134, -7217]],
+                [[-27082, -7207], [-27080, -7217]]
             ]
         },
         {
-            "name": "1st Atlantic ramp (EB side)",
+            "name": "",
             "type": "elev-ew",
             "id": 377,
             "x": -27315,
@@ -4391,7 +4392,7 @@
             }
         },
         {
-            "name": "2nd Atlantic ramp (EB side)",
+            "name": "",
             "type": "elev-ew",
             "id": 378,
             "x": -27291,
@@ -4403,7 +4404,7 @@
             }
         },
         {
-            "name": "3rd Atlantic ramp (EB side)",
+            "name": "",
             "type": "elev-ew",
             "id": 379,
             "x": -27267,
@@ -4415,7 +4416,7 @@
             }
         },
         {
-            "name": "4th Atlantic ramp (EB side)",
+            "name": "",
             "type": "elev-we",
             "id": 381,
             "x": -26675,
@@ -11182,7 +11183,7 @@
                 }
             }
         },
-		
+
         {
             "name": "Walnut St. / 69th",
             "id": 971,
@@ -13636,7 +13637,7 @@
                     }
                 }
             }
-        }
+        },
         "Ethiopia": {
             "Dessie-Trial-Adama": {
                 "prefix": "",
