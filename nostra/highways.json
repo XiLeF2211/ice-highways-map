@@ -4379,7 +4379,30 @@
                 [[-27082, -7207], [-27080, -7217]]
             ]
         },
-        { "id": 375 }, { "id": 376 },
+        {
+            "name": "Baylon JCT",
+            "type": "jct",
+            "id": 375,
+            "x": 51896,
+            "z": -23834.5,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"],
+                    "Heartnorth": ["", "Future City branch"]
+                }
+            }
+        },
+        {
+            "name": "Future City",
+            "id": 376,
+            "x": 51896,
+            "z": -23175,
+            "lines": {
+                "TNIH": {
+                    "Heartnorth": ["", "Future City branch"]
+                }
+            }
+        },
         {
             "name": "1st Atlantic ramp (WB side)",
             "type": "elev-ew",
@@ -4416,7 +4439,18 @@
                 }
             }
         },
-        { "id": 380 },
+        {
+            "name": "Future City JCT",
+            "type": "jct",
+            "id": 380,
+            "x": 51646,
+            "z": -23181,
+            "lines": {
+                "TNIH": {
+                    "Heartnorth": ["", "Northern section to Future City branch"]
+                }
+            }
+        },
         {
             "name": "??? Elevator",
             "type": "elev-we",
@@ -4429,7 +4463,40 @@
                 }
             }
         },
-        { "id": 382 }, { "id": 383 }, { "id": 384 },
+        {
+            "name": "Uchami JCT",
+            "type": "jct",
+            "id": 382,
+            "x": 34050,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Campfine branch"]
+                }
+            }
+        },
+        {
+            "name": "Campfine",
+            "id": 383,
+            "x": 34050,
+            "z": -18860,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Campfine branch"]
+                }
+            }
+        },
+        {
+            "name": "Nordhavean",
+            "id": 384,
+            "x": 3781,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
         {
             "name": "Pittsburgh (Old Platform)",
             "id": 385,
@@ -11070,7 +11137,7 @@
                 }
             }
         },
-		
+
         {
             "name": "Vine St.",
             "id": 941,
@@ -11093,7 +11160,7 @@
                 }
             }
         },
-		
+
         {
             "name": "Market / 69th St.",
             "id": 953,
@@ -11211,7 +11278,7 @@
                 }
             }
         },
-		
+
         {
             "name": "Locust St. / 69th",
             "id": 980,
@@ -11329,7 +11396,7 @@
                             [52960.5, -23834.5],
                             [50681, -23834.5]
                         ],
-                        "stations": [816, 875, [878, "Iceland branch"], 753, [493, "Poice branch"], 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340],
+                        "stations": [816, 875, [878, "Iceland branch"], 753, [493, "Poice branch"], 384, 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [382, "Campfine branch"], [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 375, 340],
                         "concurrencies": {
                             "TNIH.Siberia Main": [
                                 [41614, -17732],
@@ -11380,6 +11447,13 @@
                             [25809, -17213]
                         ],
                         "stations": [[505, "Main line"], 506, 507]
+                    },
+                    "Campfine branch": {
+                        "vertices": [
+                            [34050, -17732],
+                            [34050, -18942]
+                        ],
+                        "stations": [[382, "Main line"], 383]
                     },
                     "Armas Y Libertad branch": {
                         "vertices": [
@@ -12078,7 +12152,7 @@
                             [51646, -23834.5],
                             [51646, -22777]
                         ],
-                        "stations": [340, 341, 342]
+                        "stations": [340, [380, "Future City branch"], 341, 342]
                     },
                     "Southern section": {
                         "vertices": [
@@ -12086,6 +12160,15 @@
                             [53220, -21954]
                         ],
                         "stations": [215, [216, "Sanctum Logorum branch"], 46, 47]
+                    },
+                    "Future City branch": {
+                        "vertices": [
+                            [51896, -23834.5],
+                            [51896, -23175],
+                            [51896, -23181],
+                            [51646, -23181]
+                        ],
+                        "stations": [375, 376, [380, "Main line"]]
                     },
                     "Sanctum Logorum branch": {
                         "vertices": [
@@ -15443,7 +15526,7 @@
                     },
                     "Trondheim station platforms": {
                         "vertices": [
-                            
+
                         ],
                         "stations": [[443, "Main line"]]
                     }
