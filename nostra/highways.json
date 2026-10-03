@@ -4379,22 +4379,7 @@
                 [[-27082, -7207], [-27080, -7217]]
             ]
         },
-        {
-            "name": "Gotou Hitori ID for Sale",
-            "id": 375,
-            "x": 1000000,
-            "z": 1000000,
-            "lines": {
-            }
-        },
-        {
-            "name": "Ijichi Nijika ID for Sale",
-            "id": 376,
-            "x": 1000000,
-            "z": 1000000,
-            "lines": {
-            }
-        },
+        { "id": 375 }, { "id": 376 },
         {
             "name": "1st Atlantic ramp (WB side)",
             "type": "elev-ew",
@@ -4449,30 +4434,6 @@
                 "America": {
                     "Atlantic": ["", "Eastbound Tube"]
                 }
-            }
-        },
-        {
-            "name": "Kita Ikuyo ID for Sale",
-            "id": 382,
-            "x": 1000000,
-            "z": 1000000,
-            "lines": {
-            }
-        },
-        {
-            "name": "Ijichi Seika ID for Sale",
-            "id": 383,
-            "x": 1000000,
-            "z": 1000000,
-            "lines": {
-            }
-        },
-        {
-            "name": "Hiroi Kikuri ID for Sale",
-            "id": 384,
-            "x": 1000000,
-            "z": 1000000,
-            "lines": {
             }
         },
         {
