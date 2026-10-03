@@ -309,6 +309,7 @@ async function renderStations(dataset, mod) {
 
     stationsLayer.clearLayers();
     for (const station of dataset.stations) {
+        if (!Object.hasOwn(station, "name")) continue;
         let container = document.createElement('div');
         let stationName = document.createElement('a')
         stationName.innerHTML = station.name
@@ -521,7 +522,8 @@ function listLine() {
 
 function listStation() {
     document.getElementById('station-list').replaceChildren()
-    for (const station of currentData.stations) {
+  for (const station of currentData.stations) {
+        if (!Object.hasOwn(station, "name")) continue;
         if (station.name.toUpperCase().indexOf(stationFilters.contains) < 0) continue
         if (!stationFilters.type.includes(station.type == undefined ? 'station' : station.type.replace(/[0-9]/g, ''))) continue
 
