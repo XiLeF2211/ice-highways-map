@@ -4328,7 +4328,7 @@
             ]
         },
         {
-            "name": "",
+            "name": "1st Atlantic ramp (EB side)",
             "type": "elev-ew",
             "id": 371,
             "x": -27315,
@@ -4340,7 +4340,7 @@
             }
         },
         {
-            "name": "",
+            "name": "2nd Atlantic ramp (EB side)",
             "type": "elev-ew",
             "id": 372,
             "x": -27291,
@@ -4352,7 +4352,7 @@
             }
         },
         {
-            "name": "",
+            "name": "3rd Atlantic ramp (EB side)",
             "type": "elev-ew",
             "id": 373,
             "x": -27267,
@@ -4380,7 +4380,23 @@
             ]
         },
         {
-            "name": "",
+            "name": "Gotou Hitori ID for Sale",
+            "id": 375,
+            "x": 1000000,
+            "z": 1000000,
+            "lines": {
+            }
+        },
+        {
+            "name": "Ijichi Nijika ID for Sale",
+            "id": 376,
+            "x": 1000000,
+            "z": 1000000,
+            "lines": {
+            }
+        },
+        {
+            "name": "1st Atlantic ramp (WB side)",
             "type": "elev-ew",
             "id": 377,
             "x": -27315,
@@ -4392,7 +4408,7 @@
             }
         },
         {
-            "name": "",
+            "name": "2nd Atlantic ramp (WB side)",
             "type": "elev-ew",
             "id": 378,
             "x": -27291,
@@ -4404,7 +4420,7 @@
             }
         },
         {
-            "name": "",
+            "name": "3rd Atlantic ramp (WB side)",
             "type": "elev-ew",
             "id": 379,
             "x": -27267,
@@ -4416,7 +4432,15 @@
             }
         },
         {
-            "name": "",
+            "name": "Yamada Ryo ID for Sale",
+            "id": 380,
+            "x": 1000000,
+            "z": 1000000,
+            "lines": {
+            }
+        },
+        {
+            "name": "??? Elevator",
             "type": "elev-we",
             "id": 381,
             "x": -26675,
@@ -4425,6 +4449,30 @@
                 "America": {
                     "Atlantic": ["", "Eastbound Tube"]
                 }
+            }
+        },
+        {
+            "name": "Kita Ikuyo ID for Sale",
+            "id": 382,
+            "x": 1000000,
+            "z": 1000000,
+            "lines": {
+            }
+        },
+        {
+            "name": "Ijichi Seika ID for Sale",
+            "id": 383,
+            "x": 1000000,
+            "z": 1000000,
+            "lines": {
+            }
+        },
+        {
+            "name": "Hiroi Kikuri ID for Sale",
+            "id": 384,
+            "x": 1000000,
+            "z": 1000000,
+            "lines": {
             }
         },
         {
