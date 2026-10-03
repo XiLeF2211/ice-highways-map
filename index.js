@@ -105,14 +105,16118 @@ async function init() {
     highwayData = await fetchJSON(highwaysURL);
     netherHighwayData = await fetchJSON(netherHighwaysURL);
 
-    // highwayData = await fetchJSON('nostra/highways.json'); // for local test
+    highwayData = JSON.parse(`{
+    "stations": [
+        {
+            "name": "Fih",
+            "id": 0,
+            "x": 28534,
+            "z": 3863,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Asia",
+            "id": 1,
+            "x": 28605,
+            "z": 4011,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Vandavasi Mine",
+            "id": 2,
+            "type": "semi4",
+            "x": 28534,
+            "z": 3569,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kita (JCT)",
+            "id": 3,
+            "x": 51178.5,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"],
+                    "Sakhalin": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Suzuman Mine",
+            "id": 4,
+            "type": "semi4",
+            "x": 52340,
+            "z": -18248,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hokushin-Mombetsu Mine",
+            "id": 5,
+            "type": "semi4",
+            "x": 52340,
+            "z": -18894,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Moma",
+            "id": 6,
+            "type": "semi4",
+            "x": 52340,
+            "z": -19868,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Far East Capital (JCT)",
+            "id": 7,
+            "x": 52340,
+            "z": -21051,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"],
+                    "Azur": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Duchy of Rivers",
+            "id": 8,
+            "x": 51754,
+            "z": -21051,
+            "lines": {
+                "TNIH": {
+                    "Azur": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Anasushiki Mine",
+            "id": 9,
+            "type": "semi2",
+            "x": 51178.5,
+            "z": -17121,
+            "lines": {
+                "TNIH": {
+                    "Sakhalin": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Okota",
+            "id": 10,
+            "x": 51178.5,
+            "z": -16196,
+            "lines": {
+                "TNIH": {
+                    "Sakhalin": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Miami",
+            "id": 11,
+            "x": -28742,
+            "z": -1765,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Fort Myers JCT",
+            "type": "jct",
+            "id": 12,
+            "x": -29326,
+            "z": -1765,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Main line to Fort Myers branch"]
+                }
+            }
+        },
+        {
+            "name": "Fort Myers",
+            "id": 13,
+            "x": -29355,
+            "z": -1765,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Fort Myers branch"]
+                }
+            }
+        },
+        {
+            "name": "Saint Pete",
+            "id": 14,
+            "x": -29641,
+            "z": -2238,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-29645, -2246], [-29636, -2239]],
+                [[-29643, -2244], [-29638, -2236]]
+            ]
+        },
+        {
+            "name": "Guantanamo Bay",
+            "id": 15,
+            "x": -26917,
+            "z": 763,
+            "lines": {
+                "Florida": {
+                    "Guama-Cockburn Harbour": ["", "Guantanamo Bay branch"]
+                }
+            }
+        },
+        {
+            "name": "Pirate Bay",
+            "id": 16,
+            "x": -25680,
+            "z": 791,
+            "lines": {
+                "Florida": {
+                    "Guama-Cockburn Harbour": ["", "Main line"]
+                }
+            },
+            "notes": "Entrance at x=-25680, y=63, z=799"
+        },
+        {
+            "name": "Cockburn Harbour",
+            "id": 17,
+            "x": -25681,
+            "z": 93,
+            "lines": {
+                "Florida": {
+                    "Guama-Cockburn Harbour": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cosmopol",
+            "id": 18,
+            "x": 52474.5,
+            "z": -21475.5,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Skaldrin",
+            "id": 19,
+            "x": 52960.5,
+            "z": -21893.5,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Maisuki JCT",
+            "type": "jct",
+            "id": 20,
+            "x": 50270,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Willsden branch"]
+                }
+            }
+        },
+        {
+            "name": "Willsden",
+            "id": 21,
+            "x": 50270,
+            "z": -17976,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Willsden branch"]
+                }
+            }
+        },
+        {
+            "name": "Maisuki Mine",
+            "type": "semi3",
+            "id": 22,
+            "x": 50026,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kaurora",
+            "id": 23,
+            "x": 27518,
+            "z": -168,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Narmadapuram Mineshaft",
+            "type": "semi3",
+            "id": 24,
+            "x": 27599,
+            "z": -316,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sita",
+            "id": 25,
+            "x": 27911,
+            "z": -316,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Pirate Bay JCT",
+            "type": "jct",
+            "id": 26,
+            "x": -25857,
+            "z": 799,
+            "lines": {
+                "Florida": {
+                    "Guama-Cockburn Harbour": ["", "Main line"],
+                    "Pirate Bay-Tiburon": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Port-au-Prince",
+            "id": 27,
+            "x": -25857,
+            "z": 1258,
+            "lines": {
+                "Florida": {
+                    "Pirate Bay-Tiburon": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Tiburon",
+            "id": 28,
+            "x": -25999,
+            "z": 1329,
+            "lines": {
+                "Florida": {
+                    "Pirate Bay-Tiburon": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Guama JCT",
+            "type": "jct",
+            "id": 29,
+            "x": -27569,
+            "z": 799,
+            "lines": {
+                "Florida": {
+                    "Guama-Cockburn Harbour": ["", "Main line"],
+                    "Camaguey-Jamaica-Montego Bay": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Guantanamo Bay JCT",
+            "type": "jct",
+            "id": 30,
+            "x": -26917,
+            "z": 799,
+            "lines": {
+                "Florida": {
+                    "Guama-Cockburn Harbour": ["", "Main line to Guantanamo Bay branch"]
+                }
+            }
+        },
+        {
+            "name": "Camaguey",
+            "id": 31,
+            "x": -27536,
+            "z": 373,
+            "lines": {
+                "Florida": {
+                    "Camaguey-Jamaica-Montego Bay": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Jamaica JCT",
+            "type": "jct",
+            "id": 32,
+            "x": -27569,
+            "z": 1330,
+            "lines": {
+                "Florida": {
+                    "Camaguey-Jamaica-Montego Bay": ["", "Main line to Jamaica branch"]
+                }
+            }
+        },
+        {
+            "name": "Jamaica",
+            "id": 33,
+            "x": -27903,
+            "z": 1330,
+            "lines": {
+                "Florida": {
+                    "Camaguey-Jamaica-Montego Bay": ["", "Jamaica branch"]
+                }
+            }
+        },
+        {
+            "name": "Montego Bay",
+            "id": 34,
+            "x": -27569,
+            "z": 1454,
+            "lines": {
+                "Florida": {
+                    "Camaguey-Jamaica-Montego Bay": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kuroshiki (JCT)",
+            "id": 35,
+            "x": 48140,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to New Farstead branch"]
+                }
+            }
+        },
+        {
+            "name": "Yakutia JCT",
+            "type": "jct",
+            "id": 36,
+            "x": 46360,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"],
+                    "Sakha": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yakutia",
+            "id": 37,
+            "x": 46368,
+            "z": -17822,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line"]
+                },
+                "Yakutia Metro": {
+                    "Industrial": ["", ""],
+                    "Trial Chamber": ["", ""]
+                }
+            },
+            "areas": [
+                [[46352, -17823], [46364, -17811]],
+                [[46348, -17815], [46370, -17807]],
+                [[46360, -17826], [46370, -17807]]
+            ]
+        },
+        {
+            "name": "Dragonfall JCT",
+            "id": 38,
+            "type": "jct",
+            "x": 28534,
+            "z": 2089,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Main line to Dragonfall branch"]
+                }
+            }
+        },
+        {
+            "name": "Dragonfall West Mine",
+            "id": 39,
+            "type": "semi1",
+            "x": 29160,
+            "z": 2089,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Dragonfall branch"]
+                }
+            }
+        },
+        {
+            "name": "Bremer Bay",
+            "id": 40,
+            "x": 42207,
+            "z": 21108,
+            "lines": {
+                "PTA": {
+                    "Westralia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Esperance (Underground platform 1)",
+            "id": 41,
+            "x": 43276,
+            "z": 20539,
+            "lines": {
+                "PTA": {
+                    "Westralia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mandurah",
+            "id": 42,
+            "x": 44360,
+            "z": 20526,
+            "lines": {
+                "PTA": {
+                    "Westralia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mahadevur Mine (JCT)",
+            "id": 43,
+            "x": 28534,
+            "z": 1209,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Main line to Timmuh Town branch"]
+                }
+            }
+        },
+        {
+            "name": "San Sitee",
+            "id": 44,
+            "x": 28614,
+            "z": 1209,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Timmuh Town branch"]
+                }
+            }
+        },
+        {
+            "name": "Timmuh Town",
+            "id": 45,
+            "x": 28807,
+            "z": 1209,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Timmuh Town branch"]
+                }
+            }
+        },
+        {
+            "name": "Skaldrin JCT",
+            "type": "jct",
+            "id": 46,
+            "x": 52960.5,
+            "z": -21954,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"],
+                    "Heartnorth": ["", "Southern section"]
+                }
+            }
+        },
+        {
+            "name": "Willheim",
+            "id": 47,
+            "x": 53220,
+            "z": -21954,
+            "lines": {
+                "TNIH": {
+                    "Heartnorth": ["", "Southern section"]
+                }
+            }
+        },
+        {
+            "name": "Gobi Central",
+            "id": 48,
+            "x": 35355,
+            "z": -9258,
+            "lines": {
+                "Gobi Transport": {
+                    "North-South Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Jiayuguan Entrance",
+            "id": 49,
+            "x": 35355,
+            "z": -6933,
+            "lines": {
+                "Gobi Transport": {
+                    "North-South Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Inskoe",
+            "id": 50,
+            "x": 52321.5,
+            "z": -16182.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (North)"]
+                }
+            }
+        },
+        {
+            "name": "Ochotsk JCT",
+            "id": 51,
+            "type": "jct",
+            "x": 51500,
+            "z": -16181.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (North) to Ochotsk branch"]
+                }
+            }
+        },
+        {
+            "name": "Ochotsk",
+            "id": 52,
+            "x": 51500,
+            "z": -16265.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Ochotsk branch"]
+                }
+            },
+            "notes": "Entrance at x=51493 y=63 z=-16265"
+        },
+        {
+            "name": "Evensk",
+            "id": 53,
+            "x": 56099.5,
+            "z": -12693.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (North)"]
+                }
+            }
+        },
+        {
+            "name": "Kol Sentar",
+            "id": 54,
+            "x": 28393,
+            "z": 770,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Valmora",
+            "id": 55,
+            "x": 28317,
+            "z": 201,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nagpur Mine",
+            "type": "semi4",
+            "id": 56,
+            "x": 28317,
+            "z": -41,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Velikaya Artel",
+            "id": 57,
+            "x": 56419.5,
+            "z": -14007.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (North)"]
+                }
+            }
+        },
+        {
+            "name": "Rykovskiy (JCT)",
+            "id": 58,
+            "x": 56419.5,
+            "z": -13056.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (North) to Salatavia branch"]
+                }
+            }
+        },
+        {
+            "name": "Petropavlosk",
+            "id": 59,
+            "x": 56825.5,
+            "z": -13056.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Salatavia branch"]
+                }
+            }
+        },
+        {
+            "name": "Rekinikki JCT",
+            "type": "jct",
+            "id": 60,
+            "x": 56099.5,
+            "z": -12919.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (North) to Rekinikki branch"]
+                }
+            }
+        },
+        {
+            "name": "Rekinikki",
+            "id": 61,
+            "x": 56027,
+            "z": -12919.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Rekinikki branch"]
+                }
+            }
+        },
+        {
+            "name": "Akagane Trial Chambers",
+            "id": 62,
+            "type": "semi4",
+            "x": 52960.5,
+            "z": -22476,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yakutsk JCT",
+            "id": 63,
+            "type": "jct",
+            "x": 52960.5,
+            "z": -22675,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Yakutsk branch"]
+                }
+            }
+        },
+        {
+            "name": "Yakutsk",
+            "id": 64,
+            "x": 53065,
+            "z": -22675,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Yakutsk branch"]
+                }
+            }
+        },
+        {
+            "name": "Havant International",
+            "id": 65,
+            "x": -352,
+            "z": -11938,
+            "lines": {
+                "TNIH": {
+                    "Channel (Friendship)": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cherbourg JCT",
+            "type": "jct",
+            "id": 66,
+            "x": -352,
+            "z": -11403,
+            "lines": {
+                "TNIH": {
+                    "Channel (Friendship)": ["", "Main line to Cherbourg branch"]
+                }
+            }
+        },
+        {
+            "name": "Cherbourg",
+            "id": 67,
+            "x": -590,
+            "z": -11403,
+            "lines": {
+                "TNIH": {
+                    "Channel (Friendship)": ["", "Cherbourg branch"]
+                }
+            }
+        },
+        {
+            "name": "Omaha Beach",
+            "id": 68,
+            "x": -352,
+            "z": -11209,
+            "lines": {
+                "TNIH": {
+                    "Channel (Friendship)": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Baylon",
+            "id": 69,
+            "x": 52171,
+            "z": -23834.5,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sita JCT",
+            "type": "jct",
+            "id": 70,
+            "x": 28317,
+            "z": -316,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"],
+                    "Deccan": ["", "Main line"],
+                    "Hooman": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Berkheri Mine",
+            "type": "semi4",
+            "id": 71,
+            "x": 28317,
+            "z": -643,
+            "lines": {
+                "TNIH": {
+                    "Hooman": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hooman Mine",
+            "type": "semi4",
+            "id": 72,
+            "x": 28317,
+            "z": -1546,
+            "lines": {
+                "TNIH": {
+                    "Hooman": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hooman City",
+            "id": 73,
+            "x": 28317,
+            "z": -1865,
+            "lines": {
+                "TNIH": {
+                    "Hooman": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Leshnybor JCT",
+            "type": "jct",
+            "id": 74,
+            "x": 56419.5,
+            "z": -15203.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (North) to Leshnybor branch"]
+                }
+            }
+        },
+        {
+            "name": "Leshnybor",
+            "id": 75,
+            "x": 56648.5,
+            "z": -15203.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Leshnybor branch"]
+                }
+            }
+        },
+        {
+            "name": "Smallwater Bay",
+            "id": 76,
+            "x": 58428.5,
+            "z": -17439.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Leshnybor branch"]
+                }
+            }
+        },
+        {
+            "name": "Maldives",
+            "id": 77,
+            "x": 26400,
+            "z": 4398,
+            "lines": {
+                "TNIH": {
+                    "Maldives": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Maldives JCT",
+            "id": 78,
+            "type": "jct",
+            "x": 27315,
+            "z": 4398,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main line"],
+                    "Maldives": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Selvarin",
+            "id": 79,
+            "x": 27451,
+            "z": 4605,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ceylon",
+            "id": 80,
+            "x": 28704,
+            "z": 4831,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mangalore",
+            "id": 81,
+            "x": 27190,
+            "z": 3987,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Mangalore branch"]
+                }
+            }
+        },
+        {
+            "name": "Gobi JCT",
+            "type": "jct",
+            "id": 82,
+            "x": 35355,
+            "z": -9213,
+            "lines": {
+                "Gobi Transport": {
+                    "North-South Main": ["", "Main line to Shinsyu branch"]
+                }
+            }
+        },
+        {
+            "name": "Gobi East",
+            "id": 83,
+            "x": 35367,
+            "z": -9213,
+            "lines": {
+                "Gobi Transport": {
+                    "North-South Main": ["", "Shinsyu branch"]
+                }
+            }
+        },
+        {
+            "name": "Shinsyu West",
+            "id": 84,
+            "x": 36174,
+            "z": -9213,
+            "lines": {
+                "Gobi Transport": {
+                    "North-South Main": ["", "Shinsyu branch"]
+                }
+            }
+        },
+        {
+            "name": "Suntar Mineshaft",
+            "type": "semi1",
+            "id": 85,
+            "x": 43026,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kashgar",
+            "id": 86,
+            "x": 27072.5,
+            "z": -6948.5,
+            "lines": {
+                "Intercontinental": {
+                    "Afghan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yeken",
+            "id": 87,
+            "x": 27293.5,
+            "z": -6172.5,
+            "lines": {
+                "Intercontinental": {
+                    "Afghan": ["", "Yeken branch"]
+                }
+            }
+        },
+        {
+            "name": "Yeken JCT",
+            "type": "jct",
+            "id": 88,
+            "x": 27072.5,
+            "z": -6172.5,
+            "lines": {
+                "Intercontinental": {
+                    "Afghan": ["", "Main line to Yeken branch"]
+                }
+            }
+        },
+        {
+            "name": "Kabul",
+            "id": 89,
+            "x": 24774.5,
+            "z": -4785.5,
+            "lines": {
+                "Intercontinental": {
+                    "Afghan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mirny JCT",
+            "type": "jct",
+            "id": 90,
+            "x": 41900,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"],
+                    "Lena": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mirny Mine",
+            "type": "semi2",
+            "id": 91,
+            "x": 41900,
+            "z": -17692,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Riverwood",
+            "id": 92,
+            "x": 41900,
+            "z": -16870,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Jaffna",
+            "id": 93,
+            "x": 28704,
+            "z": 4533,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ceylon JCT",
+            "type": "jct",
+            "id": 94,
+            "x": 28704,
+            "z": 4605,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Main line"],
+                    "Malabar": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Agatti",
+            "id": 95,
+            "x": 25829,
+            "z": 4006,
+            "lines": {
+                "TNIH": {
+                    "Maldives": ["", "Agatti branch"]
+                }
+            }
+        },
+        {
+            "name": "Golden State",
+            "id": 96,
+            "x": 28534,
+            "z": 1659,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nagasaki",
+            "id": 97,
+            "x": 46685,
+            "z": -4311,
+            "lines": {
+                "Kyushu": {
+                    "Nagasaki-Jeju-Kuchinoerabusima": ["", "Main line"],
+                    "Nagasaki-Yamaguchi Y=70": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[46672, -4320], [46717, -4302]]
+            ]
+        },
+        {
+            "name": "Isahaya JCT",
+            "type": "jct",
+            "id": 98,
+            "x": 46667,
+            "z": -4203,
+            "lines": {
+                "Kyushu": {
+                    "Nagasaki-Jeju-Kuchinoerabusima": ["", "Main line to Jeju branch"]
+                }
+            }
+        },
+        {
+            "name": "Hirado",
+            "id": 99,
+            "x": 46367,
+            "z": -4333,
+            "lines": {
+                "Kyushu": {
+                    "Nagasaki-Jeju-Kuchinoerabusima": ["", "Jeju branch"]
+                }
+            }
+        },
+        {
+            "name": "Jeju",
+            "id": 100,
+            "x": 45389,
+            "z": -4310,
+            "lines": {
+                "Kyushu": {
+                    "Nagasaki-Jeju-Kuchinoerabusima": ["", "Jeju branch"]
+                }
+            }
+        },
+        {
+            "name": "Kumamoto",
+            "id": 101,
+            "x": 46761,
+            "z": -4114.5,
+            "lines": {
+                "Kyushu": {
+                    "Nagasaki-Jeju-Kuchinoerabusima": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[46758, -4123], [46764, -4106]]
+            ]
+        },
+        {
+            "name": "Oates",
+            "id": 102,
+            "x": 46760,
+            "z": -3993,
+            "lines": {
+                "Kyushu": {
+                    "Nagasaki-Jeju-Kuchinoerabusima": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Shimoshima-Satsuma",
+            "id": 103,
+            "x": 46641,
+            "z": -3926,
+            "lines": {
+                "Kyushu": {
+                    "Nagasaki-Jeju-Kuchinoerabusima": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kuchinoerabusima",
+            "id": 104,
+            "x": 46670,
+            "z": -3286,
+            "lines": {
+                "Kyushu": {
+                    "Nagasaki-Jeju-Kuchinoerabusima": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Green City Elevator",
+            "type": "elev-ew",
+            "id": 105,
+            "x": 46761,
+            "z": -4262,
+            "y1": 70,
+            "y2": 88,
+            "lines": {
+                "Kyushu": {
+                    "Nagasaki-Yamaguchi Y=70": ["", "Main line"],
+                    "Nagasaki-Yamaguchi Y=88": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Saiki JCT",
+            "type": "jct",
+            "id": 106,
+            "x": 47198,
+            "z": -4262,
+            "lines": {
+                "Kyushu": {
+                    "Nagasaki-Yamaguchi Y=88": ["", "Main line to Saiki branch"]
+                }
+            }
+        },
+        {
+            "name": "Saiki",
+            "id": 107,
+            "x": 47266,
+            "z": -4262,
+            "lines": {
+                "Kyushu": {
+                    "Nagasaki-Yamaguchi Y=88": ["", "Saiki branch"]
+                }
+            }
+        },
+        {
+            "name": "Shinosawa",
+            "id": 108,
+            "x": 47198,
+            "z": -4358,
+            "lines": {
+                "Kyushu": {
+                    "Nagasaki-Yamaguchi Y=88": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yamaguchi",
+            "id": 109,
+            "x": 47135,
+            "z": -4676,
+            "lines": {
+                "Kyushu": {
+                    "Nagasaki-Yamaguchi Y=88": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sisian",
+            "id": 110,
+            "x": 15809.5,
+            "z": -7469.5,
+            "lines": {
+                "Armenia": {
+                    "M-3": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Gyumri",
+            "id": 111,
+            "x": 15686.5,
+            "z": -7356.5,
+            "lines": {
+                "Armenia": {
+                    "M-1": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Yerevan",
+            "id": 112,
+            "x": 15862.5,
+            "z": -7224,
+            "lines": {
+                "Armenia": {
+                    "M-1": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Armenia",
+            "id": 113,
+            "x": 16068,
+            "z": -7016.5,
+            "lines": {
+            }
+        },
+        {
+            "name": "Vayots Dzor JCT",
+            "type": "jct",
+            "id": 114,
+            "x": 16221.5,
+            "z": -7016.5,
+            "lines": {
+                "Armenia": {
+                    "M-1": ["", ""],
+                    "M-2": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Vardenis",
+            "id": 115,
+            "x": 16221.5,
+            "z": -7270.5,
+            "lines": {
+                "Armenia": {
+                    "M-2": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Vayots Dzor",
+            "id": 116,
+            "x": 16236.5,
+            "z": -7016.5,
+            "lines": {
+                "Armenia": {
+                    "M-1": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Surat Bay (JCT)",
+            "id": 117,
+            "x": 26030,
+            "z": 100,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"],
+                    "Malabar": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Adila",
+            "id": 118,
+            "x": 26279,
+            "z": 100,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bhramani Mineshaft",
+            "type": "semi3",
+            "id": 119,
+            "x": 30274,
+            "z": -316,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ram Bhumi",
+            "id": 120,
+            "x": 31133,
+            "z": -316,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kolkata JCT",
+            "type": "jct",
+            "id": 121,
+            "x": 31698.5,
+            "z": -316,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line to Kolkata branch"]
+                }
+            }
+        },
+        {
+            "name": "Kolkata",
+            "id": 122,
+            "x": 31698.5,
+            "z": -254,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Kolkata branch"]
+                }
+            }
+        },
+        {
+            "name": "Khulna",
+            "id": 123,
+            "x": 31910.5,
+            "z": -383.5,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Magura JCT",
+            "type": "jct",
+            "id": 124,
+            "x": 31910.5,
+            "z": -551.5,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"],
+                    "Bangla": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sylhet (JCT)",
+            "id": 125,
+            "x": 32458.5,
+            "z": -1314,
+            "lines": {
+                "TNIH": {
+                    "Syphon": ["", "Main line"],
+                    "Tibet": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Dhaka",
+            "id": 126,
+            "x": 31926,
+            "z": -818.5,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Dwarka-Venture",
+            "id": 127,
+            "x": 24835,
+            "z": -15,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Dwarka branch"]
+                }
+            }
+        },
+        {
+            "name": "Animalshop",
+            "id": 128,
+            "x": 24980,
+            "z": 66,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Dwarfdom JCT",
+            "type": "jct",
+            "id": 129,
+            "x": 25420,
+            "z": 66,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line to Dwarfdom branch"]
+                }
+            }
+        },
+        {
+            "name": "Dwarfdom",
+            "id": 130,
+            "x": 25420,
+            "z": 457,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Dwarfdom branch"]
+                }
+            }
+        },
+        {
+            "name": "Sheffield",
+            "id": 131,
+            "x": -474,
+            "z": -12917,
+            "lines": {
+                "Intercontinental": {
+                    "Havantian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Oxford Junction",
+            "type": "jct",
+            "id": 132,
+            "x": -312,
+            "z": -12340,
+            "lines": {
+                "Intercontinental": {
+                    "Havantian": ["", "Main line to Oxford branch"]
+                }
+            }
+        },
+        {
+            "name": "Henley Interchange",
+            "id": 133,
+            "x": -312,
+            "z": -12272,
+            "lines": {
+                "Intercontinental": {
+                    "Havantian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Havant Town",
+            "id": 134,
+            "x": -343,
+            "z": -11957,
+            "lines": {
+                "Intercontinental": {
+                    "Havantian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Oxford",
+            "id": 135,
+            "x": -492,
+            "z": -12340,
+            "lines": {
+                "Intercontinental": {
+                    "Havantian": ["", "Oxford branch"]
+                }
+            }
+        },
+        {
+            "name": "Meghna JCT",
+            "type": "jct",
+            "id": 136,
+            "x": 32458.5,
+            "z": -551.5,
+            "lines": {
+                "TNIH": {
+                    "Tibet": ["", "Main line"],
+                    "Bangla": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ambassia",
+            "id": 137,
+            "x": 32590.5,
+            "z": -319.5,
+            "lines": {
+                "TNIH": {
+                    "Bangla": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Chittagong",
+            "id": 138,
+            "x": 32867.5,
+            "z": -228.5,
+            "lines": {
+                "TNIH": {
+                    "Bangla": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Clacton-On-Sea",
+            "id": 139,
+            "x": 396,
+            "z": -12430,
+            "lines": {
+                "Intercontinental": {
+                    "Anglo-Wales": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Milton Keynes Junction",
+            "type": "jct",
+            "id": 140,
+            "x": -312,
+            "z": -12557,
+            "lines": {
+                "Intercontinental": {
+                    "Anglo-Wales": ["", "Main line"],
+                    "Havantian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Milton Keynes",
+            "id": 141,
+            "x": -378,
+            "z": -12557,
+            "lines": {
+                "Intercontinental": {
+                    "Anglo-Wales": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Koleso JCT",
+            "type": "jct",
+            "id": 142,
+            "x": 57297.5,
+            "z": -15203.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Leshnybor branch to Koleso branch"]
+                }
+            }
+        },
+        {
+            "name": "Koleso",
+            "id": 143,
+            "x": 57297.5,
+            "z": -15106,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Koleso branch"]
+                }
+            }
+        },
+        {
+            "name": "Kitahakonihon JCT",
+            "type": "jct",
+            "id": 144,
+            "x": 56419.5,
+            "z": -13907.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (North) to Kitahakonihon branch"]
+                }
+            }
+        },
+        {
+            "name": "Kitahakonihon",
+            "id": 145,
+            "x": 58085.5,
+            "z": -13907.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Kitahakonihon branch"]
+                }
+            }
+        },
+        {
+            "name": "Yakutia West JCT",
+            "type": "jct",
+            "id": 146,
+            "x": 46130,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Yakutia Industrial branch"]
+                }
+            }
+        },
+        {
+            "name": "Yakutia Industrial",
+            "id": 147,
+            "x": 46130,
+            "z": -17798,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Yakutia Industrial branch"]
+                },
+                "Yakutia Metro": {
+                    "Industrial": ["", ""],
+                    "Yusha": ["", ""]
+                }
+            },
+            "areas": [
+                [[46129, -17813], [46141, -17792]],
+                [[46135, -17797], [46144, -17790]],
+                [[46128, -17799], [46131, -17792]],
+                [[46128, -17806], [46133, -17802]]
+            ]
+        },
+        {
+            "name": "Fort Caracal",
+            "id": 148,
+            "x": 46368,
+            "z": -18532,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kustur",
+            "id": 149,
+            "x": 46483,
+            "z": -20364,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Angara JCT",
+            "type": "jct",
+            "id": 150,
+            "x": 39121.5,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"],
+                    "Baikal": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Minerva North",
+            "id": 151,
+            "x": 39121.5,
+            "z": -17368,
+            "lines": {
+                "TNIH": {
+                    "Baikal": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Xenia JCT",
+            "type": "jct",
+            "id": 152,
+            "x": 52339.5,
+            "z": -20091.5,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to New Xenia branch"]
+                }
+            }
+        },
+        {
+            "name": "New Xenia",
+            "id": 153,
+            "x": 51660,
+            "z": -20091.5,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "New Xenia branch"]
+                }
+            }
+        },
+        {
+            "name": "Solapur",
+            "id": 154,
+            "x": 33037,
+            "z": -146,
+            "lines": {
+                "TNIH": {
+                    "Bangla": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Arakan",
+            "id": 155,
+            "x": 33101,
+            "z": 427,
+            "lines": {
+                "TNIH": {
+                    "Bangla": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Fort Wonder",
+            "id": 156,
+            "x": 33531,
+            "z": 930,
+            "lines": {
+                "TNIH": {
+                    "Bangla": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yakutia Trial Chamber",
+            "id": 157,
+            "x": 46355,
+            "z": -17668,
+            "lines": {
+                "Yakutia Metro": {
+                    "Trial Chamber": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Dwarka-Animalshop JCT",
+            "type": "jct",
+            "id": 158,
+            "x": 24835,
+            "z": 66,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line to Dwarka branch"]
+                }
+            }
+        },
+        {
+            "name": "Karachi Farm District (JCT)",
+            "id": 159,
+            "x": 24160,
+            "z": -827,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"],
+                    "Makran": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Naypyidaw",
+            "id": 160,
+            "x": 34450.5,
+            "z": 680,
+            "lines": {
+                "TNIH": {
+                    "Bangla": ["", "Naypyidaw branch"]
+                }
+            }
+        },
+        {
+            "name": "Mid Wales",
+            "id": 161,
+            "x": -1408,
+            "z": -12557,
+            "lines": {
+                "Intercontinental": {
+                    "Anglo-Wales": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Banff Junction",
+            "type": "jct",
+            "id": 162,
+            "x": -41809,
+            "z": -12209,
+            "lines": {
+                "Canarail": {
+                    "Trans-Canada Rail": ["", ""],
+                    "Trans Canadian Ice Rail": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Banff",
+            "id": 163,
+            "x": -41644.5,
+            "z": -12201.5,
+            "lines": {
+                "Canarail": {
+                    "Trans-Canada Rail": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Fairmont",
+            "id": 164,
+            "x": -41479.5,
+            "z": -12104.5,
+            "lines": {
+                "Canarail": {
+                    "Trans-Canada Rail": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Cochrane",
+            "id": 165,
+            "x": -40922.5,
+            "z": -12073.5,
+            "lines": {
+                "Canarail": {
+                    "Trans-Canada Rail": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Calgary",
+            "id": 166,
+            "x": -40480.5,
+            "z": -12073.5,
+            "lines": {
+                "Canarail": {
+                    "Trans-Canada Rail": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Darrhea City",
+            "id": 167,
+            "x": -39846.5,
+            "z": -12064.5,
+            "lines": {
+                "Canarail": {
+                    "Trans-Canada Rail": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Swift Current",
+            "id": 168,
+            "x": -39110.5,
+            "z": -11715.5,
+            "lines": {
+                "Canarail": {
+                    "Trans-Canada Rail": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Saskatchewan",
+            "id": 169,
+            "x": -38446.5,
+            "z": -11710.5,
+            "lines": {
+                "Canarail": {
+                    "Trans-Canada Rail": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Regina",
+            "id": 170,
+            "x": -37696.5,
+            "z": -11270.5,
+            "lines": {
+                "Canarail": {
+                    "Trans-Canada Rail": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Dakota",
+            "id": 171,
+            "x": -37258.5,
+            "z": -10845.5,
+            "lines": {
+                "Canarail": {
+                    "Trans-Canada Rail": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Wisteria",
+            "id": 172,
+            "x": -35854.5,
+            "z": -11176.5,
+            "lines": {
+                "Canarail": {
+                    "Trans-Canada Rail": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Utaya JCT",
+            "type": "jct",
+            "id": 173,
+            "x": 52339.5,
+            "z": -20540,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Kortemark branch"]
+                }
+            }
+        },
+        {
+            "name": "Utaya Mine",
+            "type": "semi3",
+            "id": 174,
+            "x": 52593,
+            "z": -20540,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Kortemark branch"]
+                }
+            }
+        },
+        {
+            "name": "Kortemark",
+            "id": 175,
+            "x": 52863,
+            "z": -20540,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Kortemark branch"]
+                }
+            }
+        },
+        {
+            "name": "Taynaya JCT",
+            "type": "jct",
+            "id": 176,
+            "x": 53410,
+            "z": -16182.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (North) to Taynaya branch"]
+                }
+            }
+        },
+        {
+            "name": "Taynaya",
+            "id": 177,
+            "x": 53410,
+            "z": -16407,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Taynaya branch"]
+                }
+            }
+        },
+        {
+            "name": "Suzuman JCT",
+            "type": "jct",
+            "id": 178,
+            "x": 52340,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"],
+                    "Magadan": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Yagoni Mine",
+            "type": "semi1",
+            "id": 179,
+            "x": 52963,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Magadan": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Ishgard Trial Chamber",
+            "type": "semi4",
+            "id": 180,
+            "x": 54008,
+            "z": -17331,
+            "lines": {
+                "TNIH": {
+                    "Magadan": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Ishgard",
+            "id": 181,
+            "x": 54008,
+            "z": -17222,
+            "lines": {
+                "TNIH": {
+                    "Magadan": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Magadan",
+            "id": 182,
+            "x": 54008,
+            "z": -16344,
+            "lines": {
+                "TNIH": {
+                    "Magadan": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Magadan JCT",
+            "type": "jct",
+            "id": 183,
+            "x": 54008,
+            "z": -16182.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (North)"],
+                    "Magadan": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Syphon",
+            "id": 184,
+            "x": 31705,
+            "z": -2030,
+            "lines": {
+                "TNIH": {
+                    "Syphon": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Agatti JCT",
+            "type": "jct",
+            "id": 185,
+            "x": 25843,
+            "z": 4006,
+            "lines": {
+                "TNIH": {
+                    "Maldives": ["", "Agatti branch"]
+                }
+            }
+        },
+        {
+            "name": "Sundara",
+            "id": 186,
+            "x": 25748,
+            "z": 3759,
+            "lines": {
+                "TNIH": {
+                    "Maldives": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Naypyidaw JCT",
+            "type": "jct",
+            "id": 187,
+            "x": 34450.5,
+            "z": 930,
+            "lines": {
+                "TNIH": {
+                    "Bangla": ["", "Main line to Naypyidaw branch"]
+                }
+            }
+        },
+        {
+            "name": "Yangon",
+            "id": 188,
+            "x": 34450.5,
+            "z": 2078.5,
+            "lines": {
+                "TNIH": {
+                    "Bangla": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "Thailand": ["", "Yangon branch"]
+                }
+            }
+        },
+        {
+            "name": "Pachaas JCT",
+            "type": "jct",
+            "id": 189,
+            "x": 28316,
+            "z": -2434,
+            "lines": {
+                "TNIH": {
+                    "Hooman": ["", "Main line"],
+                    "Himalayas": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Pachaas",
+            "id": 190,
+            "x": 28505,
+            "z": -2434,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tibet JCT",
+            "type": "jct",
+            "id": 191,
+            "x": 31501,
+            "z": -2590,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Main line"],
+                    "Syphon": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tibet",
+            "id": 192,
+            "x": 31501,
+            "z": -2672,
+            "lines": {
+                "TNIH": {
+                    "Syphon": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Everest",
+            "id": 193,
+            "x": 30993,
+            "z": -2596,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mellune JCT",
+            "id": 194,
+            "x": 30549,
+            "z": -2636,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Main line"],
+                    "Ganga": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mellune",
+            "id": 195,
+            "x": 30549,
+            "z": -2113,
+            "lines": {
+                "TNIH": {
+                    "Ganga": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Karachi",
+            "id": 196,
+            "x": 24106,
+            "z": -948,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[24100, -956], [24110, -940]]
+            ]
+        },
+        {
+            "name": "Weenie Hut Jr",
+            "id": 197,
+            "x": 24400,
+            "z": -1437,
+            "lines": {
+                "TNIH": {
+                    "Makran": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Gandak JCT",
+            "type": "jct",
+            "id": 198,
+            "x": 30134,
+            "z": -2113,
+            "lines": {
+                "TNIH": {
+                    "Ganga": ["", "Main line to Patliputra branch"]
+                }
+            }
+        },
+        {
+            "name": "Patliputra",
+            "id": 199,
+            "x": 30383,
+            "z": -1436,
+            "lines": {
+                "TNIH": {
+                    "Ganga": ["", "Patliputra branch"]
+                }
+            }
+        },
+        {
+            "name": "Kathmandu",
+            "id": 200,
+            "x": 30030,
+            "z": -2082,
+            "lines": {
+                "TNIH": {
+                    "Ganga": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Guwahati JCT",
+            "type": "jct",
+            "id": 201,
+            "x": 32458,
+            "z": -1986,
+            "lines": {
+                "TNIH": {
+                    "Tibet": ["", "Main line to Syphon branch"]
+                }
+            }
+        },
+        {
+            "name": "Syphon JCT",
+            "type": "jct",
+            "id": 202,
+            "x": 31705,
+            "z": -1986,
+            "lines": {
+                "TNIH": {
+                    "Tibet": ["", "Syphon branch"],
+                    "Syphon": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Lhasa JCT",
+            "type": "jct",
+            "id": 203,
+            "x": 32458,
+            "z": -2999,
+            "lines": {
+                "TNIH": {
+                    "Tibet": ["", "Main line"],
+                    "Himalayas": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Lhasa",
+            "id": 204,
+            "x": 32668,
+            "z": -2999,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Shambhala",
+            "id": 205,
+            "x": 32603,
+            "z": -3499,
+            "lines": {
+                "TNIH": {
+                    "Tibet": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kita-Karafuto",
+            "id": 206,
+            "x": 50855.5,
+            "z": -13079,
+            "lines": {
+                "TNIH": {
+                    "Sakhalin": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ptolemais",
+            "id": 207,
+            "x": 7060,
+            "z": -3225,
+            "lines": {
+                "Intercontinental": {
+                    "Sicilian North Africa": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cyrene",
+            "id": 208,
+            "x": 6375,
+            "z": -3380,
+            "lines": {
+                "Intercontinental": {
+                    "Sicilian North Africa": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Djerba",
+            "id": 209,
+            "x": 3921,
+            "z": -4529,
+            "lines": {
+                "Intercontinental": {
+                    "Sicilian North Africa": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Djerba JCT",
+            "type": "jct",
+            "id": 210,
+            "x": 3969,
+            "z": -4529,
+            "lines": {
+                "Intercontinental": {
+                    "Sicilian North Africa": ["", "Main line to Tunis branch"]
+                }
+            }
+        },
+        {
+            "name": "Tunis",
+            "id": 211,
+            "x": 3969,
+            "z": -5091,
+            "lines": {
+                "Intercontinental": {
+                    "Sicilian North Africa": ["", "Tunis branch"],
+                    "Sicilian Pantellerian": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Nagqu North Elevator",
+            "type": "elev-we",
+            "id": 212,
+            "x": 32594,
+            "z": -4001,
+            "y1": 10,
+            "y2": 110,
+            "lines": {
+                "TNIH": {
+                    "Tibet": ["", "Main line"]
+                },
+                "Gobi Transport": {
+                    "North-South Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tapagonia JCT",
+            "type": "jct",
+            "id": 213,
+            "x": 41614,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"],
+                    "Lena": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tapagonia",
+            "id": 214,
+            "x": 41614,
+            "z": -17808,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Billtopia",
+            "id": 215,
+            "x": 52459,
+            "z": -21954,
+            "lines": {
+                "TNIH": {
+                    "Heartnorth": ["", "Southern section"]
+                }
+            }
+        },
+        {
+            "name": "Sanctum Logorum JCT",
+            "type": "jct",
+            "id": 216,
+            "x": 52771,
+            "z": -21954,
+            "lines": {
+                "TNIH": {
+                    "Heartnorth": ["", "Southern section to Sanctum Logorum branch"]
+                }
+            }
+        },
+        {
+            "name": "Sanctum Logorum",
+            "id": 217,
+            "x": 52771,
+            "z": -21883,
+            "lines": {
+                "TNIH": {
+                    "Heartnorth": ["", "Sanctum Logorum branch"]
+                }
+            }
+        },
+        {
+            "name": "Afyun Dara JCT",
+            "type": "jct",
+            "id": 218,
+            "x": 25667.5,
+            "z": -6172.5,
+            "lines": {
+                "Intercontinental": {
+                    "Afghan": ["", "Main line to Afyun Dara branch"]
+                }
+            }
+        },
+        {
+            "name": "Afyun Dara",
+            "id": 219,
+            "x": 25667.5,
+            "z": -5787.5,
+            "lines": {
+                "Intercontinental": {
+                    "Afghan": ["", "Afyun Dara branch"]
+                }
+            }
+        },
+        {
+            "name": "Kabul JCT",
+            "type": "jct",
+            "id": 220,
+            "x": 24774.5,
+            "z": -5006,
+            "lines": {
+                "Intercontinental": {
+                    "Afghan": ["", "Main line"]
+                },
+                "TNIH": {
+                    "Hooman": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Peridesh",
+            "id": 221,
+            "x": 26131,
+            "z": -5006,
+            "lines": {
+                "TNIH": {
+                    "Hooman": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "South Astoria",
+            "id": 222,
+            "x": -42380,
+            "z": -12209,
+            "lines": {
+                "Canarail": {
+                    "Trans Canadian Ice Rail": ["", ""],
+                    "Spokane": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Spokane Junction",
+            "type": "jct",
+            "id": 223,
+            "x": -42380,
+            "z": -10863,
+            "lines": {
+                "Canarail": {
+                    "Spokane": ["", ""],
+                    "Cascadia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Pacific Spire",
+            "id": 224,
+            "x": -45674,
+            "z": -10863,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Anakt Junction",
+            "type": "jct",
+            "id": 225,
+            "x": -44648,
+            "z": -10863,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Main line to Anakt branch"]
+                }
+            }
+        },
+        {
+            "name": "Anakt",
+            "id": 226,
+            "x": -44648,
+            "z": -11256,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Anakt branch"]
+                }
+            }
+        },
+        {
+            "name": "Cape Flattery Junction",
+            "type": "jct",
+            "id": 227,
+            "x": -44633,
+            "z": -10863,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Main line to Cape Flattery branch"]
+                }
+            }
+        },
+        {
+            "name": "Cape Flattery",
+            "id": 228,
+            "x": -44645,
+            "z": -10791,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Cape Flattery branch"]
+                }
+            }
+        },
+        {
+            "name": "Victoria",
+            "id": 229,
+            "x": -44290,
+            "z": -10863,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Vancouver Junction",
+            "type": "jct",
+            "id": 230,
+            "x": -44163,
+            "z": -10863,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Main line"],
+                    "Vancouver": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Whatcom Junction",
+            "type": "jct",
+            "id": 231,
+            "x": -43899,
+            "z": -10863,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Main line to Whatcom branch"]
+                }
+            }
+        },
+        {
+            "name": "Whatcom",
+            "id": 232,
+            "x": -43899,
+            "z": -11009,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Whatcom branch"]
+                }
+            }
+        },
+        {
+            "name": "Pend Oreille Junction",
+            "type": "jct",
+            "id": 233,
+            "x": -42168,
+            "z": -10863,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Main line to Pend Oreille branch"]
+                }
+            }
+        },
+        {
+            "name": "Pend Oreille",
+            "id": 234,
+            "x": -42168,
+            "z": -11065,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Pend Oreille branch"]
+                }
+            }
+        },
+        {
+            "name": "Vancouver",
+            "id": 235,
+            "x": -44163,
+            "z": -11291,
+            "lines": {
+                "Canarail": {
+                    "Vancouver": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "North Vancouver",
+            "id": 236,
+            "x": -44163,
+            "z": -11516,
+            "lines": {
+                "Canarail": {
+                    "Vancouver": ["", ""],
+                    "Vancouver Island": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Earl's Cove",
+            "id": 237,
+            "x": -44464,
+            "z": -11461,
+            "lines": {
+                "Canarail": {
+                    "Vancouver Island": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Texada-Lasqueti",
+            "id": 238,
+            "x": -44550,
+            "z": -11327,
+            "lines": {
+                "Canarail": {
+                    "Vancouver Island": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Porto Dos Casais",
+            "id": 239,
+            "x": -18298.5,
+            "z": 19120.5,
+            "lines": {
+                "Intercontinental": {
+                    "Garibaldi": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Champa",
+            "id": 240,
+            "x": -18951.5,
+            "z": 19967,
+            "lines": {
+                "Intercontinental": {
+                    "Garibaldi": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Pishpek",
+            "id": 241,
+            "x": 26807,
+            "z": -8323,
+            "lines": {
+                "Intercontinental": {
+                    "Pishpek": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Karakol",
+            "id": 242,
+            "x": 28038,
+            "z": -8194,
+            "lines": {
+                "Intercontinental": {
+                    "Pishpek": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Jiwani",
+            "id": 243,
+            "x": 22071,
+            "z": -1239,
+            "lines": {
+                "TNIH": {
+                    "Makran": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bay of Plenty",
+            "id": 244,
+            "x": 63141,
+            "z": 22216,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "Bay of Plenty": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Napier",
+            "id": 245,
+            "x": 63400,
+            "z": 22590,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "Napier": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Whitewater",
+            "id": 246,
+            "x": 63033,
+            "z": 22590,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "Napier": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Whitewater West",
+            "id": 247,
+            "x": 62800,
+            "z": 22669,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y7)": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "<3> Whitewater West Junction",
+            "type": "jct",
+            "id": 248,
+            "x": 62800,
+            "z": 22590,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y7)": ["", "Main line"],
+                    "Napier": ["", "Main line"],
+                    "Trans-Tasman Link (Y7)": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "<2> Burhaniye North Junction",
+            "type": "jct",
+            "id": 249,
+            "x": 62800,
+            "z": 22216,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y7)": ["", "Main line"],
+                    "Bay of Plenty": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "<1> Auckland South Junction",
+            "type": "jct",
+            "id": 250,
+            "x": 62800,
+            "z": 22097,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y7)": ["", "Main line"],
+                    "Auckland Circle": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Burhaniye–Bastion_Stove",
+            "id": 251,
+            "x": 62800,
+            "z": 22409,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y7)": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Wanganui",
+            "id": 252,
+            "x": 62727,
+            "z": 23007,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y7)": ["", "Wanganui ramp"]
+                }
+            }
+        },
+        {
+            "name": "Wellington",
+            "id": 253,
+            "x": 62800,
+            "z": 23722,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y7)": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Christchurch Elevator",
+            "type": "elev-ew",
+            "y1": -63,
+            "y2": 7,
+            "id": 254,
+            "x": 62178,
+            "z": 24605,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y7)": ["", "Main line"],
+                    "NZ North-South Main (Y-62)": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Christchurch",
+            "id": 255,
+            "x": 61877,
+            "z": 24605,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y-62)": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Plymouth International",
+            "id": 256,
+            "x": 62450,
+            "z": 22650,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "Trans-Tasman Link (Y7)": ["", "Main line"],
+                    "Trans-Tasman Link (Y-62)": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "The Rig",
+            "id": 257,
+            "x": 63302,
+            "z": 21520,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "Bay of Plenty": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hormuz",
+            "id": 258,
+            "x": 19832,
+            "z": -1980,
+            "lines": {
+                "TNIH": {
+                    "Makran": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tree Park",
+            "id": 259,
+            "x": 20510,
+            "z": -1634,
+            "lines": {
+                "TNIH": {
+                    "Makran": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Makran",
+            "id": 260,
+            "x": 21154,
+            "z": -1374,
+            "lines": {
+                "TNIH": {
+                    "Makran": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kathora JCT",
+            "type": "jct",
+            "id": 261,
+            "x": 27051,
+            "z": 100,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line to Delhi branch"]
+                }
+            }
+        },
+        {
+            "name": "Delhi",
+            "id": 262,
+            "x": 27051,
+            "z": -1084,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Delhi branch"]
+                }
+            }
+        },
+        {
+            "name": "Himalayas",
+            "id": 263,
+            "x": 29200,
+            "z": -2555,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Egghead",
+            "id": 264,
+            "x": 29068,
+            "z": 4863,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nepal",
+            "id": 265,
+            "x": 30270,
+            "z": -2640,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Farstead",
+            "id": 266,
+            "x": 48140,
+            "z": -19033,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "New Farstead branch"]
+                }
+            }
+        },
+        {
+            "name": "Eremo Perfetto",
+            "id": 267,
+            "x": 4264,
+            "z": -5790,
+            "lines": {
+                "Intercontinental": {
+                    "Sicilian Pantellerian": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Guiyang",
+            "id": 268,
+            "x": 38331,
+            "z": -1787,
+            "lines": {
+                "China": {
+                    "Guiyang-Guilin Upper": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Guiyang East Elevator",
+            "type": "elev-we",
+            "id": 269,
+            "y1": 84,
+            "y2": 76,
+            "x": 38479,
+            "z": -1790,
+            "lines": {
+                "China": {
+                    "Guiyang-Guilin Upper": ["", ""],
+                    "Guiyang-Guilin Main": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Guiyang East Elevator",
+            "type": "elev-we",
+            "id": 270,
+            "y1": 76,
+            "y2": 68,
+            "x": 38648,
+            "z": -1815,
+            "lines": {
+                "China": {
+                    "Guiyang-Guilin Lower": ["", "Main line"],
+                    "Guiyang-Guilin Main": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Hunan",
+            "id": 271,
+            "x": 39272,
+            "z": -1863,
+            "lines": {
+                "China": {
+                    "Guiyang-Guilin Lower": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Buha River",
+            "id": 272,
+            "x": 34938,
+            "z": -6692,
+            "lines": {
+                "Gobi Transport": {
+                    "North-South Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kingdomstan (JCT)",
+            "id": 273,
+            "x": 34938,
+            "z": -5089,
+            "lines": {
+                "Gobi Transport": {
+                    "North-South Main": ["", "Main line"],
+                    "Eastern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mongolia JCT",
+            "type": "jct",
+            "id": 274,
+            "x": 33734,
+            "z": -5089,
+            "lines": {
+                "Gobi Transport": {
+                    "North-South Main": ["", "Main line to Mongolia branch"]
+                }
+            }
+        },
+        {
+            "name": "Quemo Co JCT",
+            "type": "jct",
+            "id": 275,
+            "x": 32592,
+            "z": -4591,
+            "lines": {
+                "Gobi Transport": {
+                    "North-South Main": ["", "Main line to Quemo branch"]
+                }
+            }
+        },
+        {
+            "name": "Nagqu North",
+            "id": 276,
+            "x": 32592,
+            "z": -4005,
+            "lines": {
+                "Gobi Transport": {
+                    "North-South Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mongolia",
+            "id": 277,
+            "x": 33734,
+            "z": -5165,
+            "lines": {
+                "Gobi Transport": {
+                    "North-South Main": ["", "Mongolia branch"]
+                }
+            }
+        },
+        {
+            "name": "Quemo",
+            "id": 278,
+            "x": 32683,
+            "z": -4591,
+            "lines": {
+                "Gobi Transport": {
+                    "North-South Main": ["", "Quemo branch"]
+                }
+            }
+        },
+        {
+            "name": "Kobyasky JCT",
+            "type": "jct",
+            "id": 279,
+            "x": 46368,
+            "z": -18889,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line to Yarika branch"]
+                }
+            }
+        },
+        {
+            "name": "Yarika",
+            "id": 280,
+            "x": 45205,
+            "z": -18889,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Yarika branch"]
+                }
+            }
+        },
+        {
+            "name": "Copper St.",
+            "id": 281,
+            "x": 46258,
+            "z": -17791,
+            "lines": {
+                "Yakutia Metro": {
+                    "Industrial": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "<5> Wanganui North Junction",
+            "type": "jct",
+            "id": 282,
+            "x": 62800,
+            "z": 22985,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y7)": ["", "Main line", "Napier branch", "Wanganui ramp"]
+                }
+            }
+        },
+        {
+            "name": "Napier South",
+            "id": 283,
+            "x": 63370,
+            "z": 22961,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y7)": ["", "Napier branch"]
+                }
+            }
+        },
+        {
+            "name": "New Plymouth",
+            "id": 284,
+            "x": 62442,
+            "z": 22785,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y7)": ["", "New Plymouth branch"]
+                }
+            }
+        },
+        {
+            "name": "<4> New Plymouth East Junction",
+            "type": "jct",
+            "id": 285,
+            "x": 62800,
+            "z": 22785,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y7)": ["", "Main line", "New Plymouth branch"]
+                }
+            }
+        },
+        {
+            "name": "NZ City North",
+            "id": 286,
+            "x": 60043,
+            "z": 25437,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y-62)": ["", "Main line"],
+                    "World Border": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Gobi 2nd JCT",
+            "type": "jct",
+            "id": 287,
+            "x": 35355,
+            "z": -9162,
+            "lines": {
+                "Gobi Transport": {
+                    "North-South Main": ["", "Main line"],
+                    "NRI": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Gobi West",
+            "id": 288,
+            "x": 35343,
+            "z": -9231,
+            "lines": {
+                "Gobi Transport": {
+                    "NRI": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Buuntsagaan JCT",
+            "type": "jct",
+            "id": 289,
+            "x": 34863,
+            "z": -9441,
+            "lines": {
+                "Gobi Transport": {
+                    "NRI": ["", "Main line to Buuntsagaan branch"]
+                }
+            }
+        },
+        {
+            "name": "NRI-East",
+            "id": 290,
+            "x": 34784,
+            "z": -9441,
+            "lines": {
+                "Gobi Transport": {
+                    "NRI": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Buuntsagaan",
+            "id": 291,
+            "x": 34863,
+            "z": -9733,
+            "lines": {
+                "Gobi Transport": {
+                    "NRI": ["", "Buuntsagaan branch"]
+                }
+            }
+        },
+        {
+            "name": "Gobi Xinjiang Elevator",
+            "type": "elev-ew",
+            "y1": 110,
+            "y2": 50,
+            "id": 292,
+            "x": 35355,
+            "z": -8814,
+            "lines": {
+                "Gobi Transport": {
+                    "Xinjiang": ["", "Main line"],
+                    "North-South Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Urumqi",
+            "id": 293,
+            "x": 31427,
+            "z": -8814,
+            "lines": {
+                "Gobi Transport": {
+                    "Xinjiang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Anxi JCT",
+            "type": "jct",
+            "id": 294,
+            "x": 29444,
+            "z": -8814,
+            "lines": {
+                "Gobi Transport": {
+                    "Xinjiang": ["", "Main line to Anxi branch"]
+                }
+            }
+        },
+        {
+            "name": "Saray-East",
+            "id": 295,
+            "x": 28851,
+            "z": -8814,
+            "lines": {
+                "Gobi Transport": {
+                    "Xinjiang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Anxi North",
+            "id": 296,
+            "x": 29444,
+            "z": -7892,
+            "lines": {
+                "Gobi Transport": {
+                    "Xinjiang": ["", "Anxi branch"],
+                    "Kashgar": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kustur JCT",
+            "type": "jct",
+            "id": 297,
+            "x": 46368,
+            "z": -20349,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line to Lensk branch"]
+                }
+            }
+        },
+        {
+            "name": "Republic of SPC",
+            "id": 298,
+            "x": 47540,
+            "z": -20872,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Esperance (Underground Platform 2)",
+            "id": 299,
+            "x": 43276,
+            "z": 20521,
+            "lines": {
+                "PTA": {
+                    "Esperance Link": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Westralia North",
+            "id": 300,
+            "x": 41993,
+            "z": 20241,
+            "lines": {
+                "PTA": {
+                    "Esperance Link": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Perth (Platform 2)",
+            "id": 301,
+            "x": 41531,
+            "z": 19936,
+            "lines": {
+                "PTA": {
+                    "Esperance Link": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Baniachong JCT",
+            "type": "jct",
+            "id": 302,
+            "x": 32458.5,
+            "z": -1027,
+            "lines": {
+                "TNIH": {
+                    "Tibet": ["", "Main line to Baniachong branch"]
+                }
+            }
+        },
+        {
+            "name": "Baniachong West",
+            "id": 303,
+            "x": 32809,
+            "z": -1027,
+            "lines": {
+                "TNIH": {
+                    "Tibet": ["", "Baniachong branch"]
+                }
+            }
+        },
+        {
+            "name": "Tampa",
+            "id": 304,
+            "x": -29637,
+            "z": -2386,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tampa",
+            "id": 305,
+            "x": -29637,
+            "z": -2465,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tampa",
+            "id": 306,
+            "x": -29637,
+            "z": -2696,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "CedarKey JCT",
+            "type": "jct",
+            "id": 307,
+            "x": -29637,
+            "z": -2800,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Main line"],
+                    "CedarKey-Cape Canaveral": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Bayou JCT",
+            "type": "jct",
+            "id": 308,
+            "x": -29637,
+            "z": -3047,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Main line to Tallahassee branch"]
+                }
+            }
+        },
+        {
+            "name": "Tallahassee branch",
+            "id": 309,
+            "x": -30235.5,
+            "z": -3446,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Tallahassee branch"]
+                }
+            }
+        },
+        {
+            "name": "Gainesville North JCT",
+            "type": "jct",
+            "id": 310,
+            "x": -29389,
+            "z": -3047,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Main line to Gainesville branch"]
+                }
+            }
+        },
+        {
+            "name": "Gainesville",
+            "id": 311,
+            "x": -29392,
+            "z": -2928.5,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Gainesville branch"]
+                }
+            }
+        },
+        {
+            "name": "Gainesville South JCT",
+            "type": "jct",
+            "id": 312,
+            "x": -29401,
+            "z": -2799,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Gainesville branch"],
+                    "CedarKey-Cape Canaveral": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Jacksonville",
+            "id": 313,
+            "x": -29166,
+            "z": -3047,
+            "lines": {
+                "Florida": {
+                    "Miami-Jacksonville": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "CedarKey",
+            "id": 314,
+            "x": -29748,
+            "z": -2800,
+            "lines": {
+                "Florida": {
+                    "CedarKey-Cape Canaveral": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Gainesville West",
+            "id": 315,
+            "x": -29474,
+            "z": -2800,
+            "lines": {
+                "Florida": {
+                    "CedarKey-Cape Canaveral": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Cape Canaveral",
+            "id": 316,
+            "x": -29203,
+            "z": -2799,
+            "lines": {
+                "Florida": {
+                    "CedarKey-Cape Canaveral": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Boundary Checkpoint [km 8,151]",
+            "id": 317,
+            "x": 54710,
+            "z": 22650,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "Trans-Tasman Link (Y-62)": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "South Coast (NZ MoI)",
+            "id": 318,
+            "x": 53773,
+            "z": 21380,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "Trans-Tasman Link (Y-62)": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "LR Khuntien (Railway station)",
+            "id": 319,
+            "x": 39207,
+            "z": 8025,
+            "lines": {
+                "LR Railways": {
+                    "LR King-nan Rail": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Shibamata (Railway station)",
+            "id": 320,
+            "x": 39500,
+            "z": 8224,
+            "lines": {
+                "LR Railways": {
+                    "LR King-nan Rail": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mangalore JCT",
+            "type": "jct",
+            "id": 321,
+            "x": 27190,
+            "z": 4037,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main line to Mangalore branch"]
+                }
+            }
+        },
+        {
+            "name": "Othium City",
+            "id": 322,
+            "x": 26889,
+            "z": 3460,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Greater Goa",
+            "id": 323,
+            "x": 26716,
+            "z": 2930,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "SollanEmpire",
+            "id": 324,
+            "x": 55464.5,
+            "z": -16182.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (North)"]
+                }
+            }
+        },
+        {
+            "name": "Delhi JCT",
+            "type": "jct",
+            "id": 325,
+            "x": 27051,
+            "z": -1039,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Delhi branch to Ajaymeru branch"]
+                }
+            }
+        },
+        {
+            "name": "Ajaymeru",
+            "id": 326,
+            "x": 26181,
+            "z": -1358,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Ajaymeru branch"]
+                }
+            }
+        },
+        {
+            "name": "Monumenta",
+            "id": 327,
+            "x": 47770,
+            "z": -21310,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Aldan JCT",
+            "type": "jct",
+            "id": 328,
+            "x": 48676,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"],
+                    "Calmania": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Calmania",
+            "id": 329,
+            "x": 48676,
+            "z": -16954,
+            "lines": {
+                "TNIH": {
+                    "Calmania": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "MukMuk",
+            "id": 330,
+            "x": 48378,
+            "z": -16670,
+            "lines": {
+                "TNIH": {
+                    "Calmania": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Winterfield",
+            "id": 331,
+            "x": 56586,
+            "z": -21460,
+            "lines": {
+                "TNIH": {
+                    "Kolyma": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Pine Haven",
+            "id": 332,
+            "x": 57117,
+            "z": -21591,
+            "lines": {
+                "TNIH": {
+                    "Kolyma": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bunbury",
+            "id": 333,
+            "x": 41469,
+            "z": 20499,
+            "lines": {
+                "PTA": {
+                    "Westralia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Perth (Platform 1)",
+            "id": 334,
+            "x": 41529,
+            "z": 19936,
+            "lines": {
+                "PTA": {
+                    "Westralia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sannomiya (Railway station)",
+            "id": 335,
+            "x": 48461,
+            "z": -4960.5,
+            "lines": {
+                "Intercontinental": {
+                    "Kobe": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Edo (Railway station)",
+            "id": 336,
+            "x": 48606,
+            "z": -4977.5,
+            "lines": {
+                "Intercontinental": {
+                    "Kobe": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Kashgar JCT",
+            "type": "jct",
+            "id": 337,
+            "x": 27072.5,
+            "z": -6862,
+            "lines": {
+                "Intercontinental": {
+                    "Afghan": ["", "Main line"]
+                },
+                "Gobi Transport": {
+                    "Kashgar": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Frunze Entrance",
+            "id": 338,
+            "x": 27320,
+            "z": -7892,
+            "lines": {
+                "Gobi Transport": {
+                    "Kashgar": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Anxi Elevator",
+            "type": "elev-ew",
+            "id": 339,
+            "x": 29443,
+            "z": -7892,
+            "y1": 10,
+            "y2": 50,
+            "lines": {
+                "Gobi Transport": {
+                    "Kashgar": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Omulyakh JCT",
+            "type": "jct",
+            "id": 340,
+            "x": 51646,
+            "z": -23834.5,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"],
+                    "Heartnorth": ["", "Northern section"]
+                }
+            }
+        },
+        {
+            "name": "Nagareike Mine",
+            "type": "semi2",
+            "id": 341,
+            "x": 51646,
+            "z": -22970,
+            "lines": {
+                "TNIH": {
+                    "Heartnorth": ["", "Northern section"]
+                }
+            }
+        },
+        {
+            "name": "Ssecrettown",
+            "id": 342,
+            "x": 51646,
+            "z": -22777,
+            "lines": {
+                "TNIH": {
+                    "Heartnorth": ["", "Northern section"]
+                }
+            }
+        },
+        {
+            "name": "Baniachong",
+            "id": 343,
+            "x": 32829,
+            "z": -1027,
+            "lines": {
+                "TNIH": {
+                    "Tibet": ["", "Baniachong branch"]
+                },
+                "Intercontinental": {
+                    "Average Trial Chambers Ice Highway": ["", "Central"]
+                }
+            },
+            "areas": [
+                [[32825, -1031], [32833, -1024]],
+                [[32823, -1046], [32838, -1029]]
+            ]
+        },
+        {
+            "name": "Shigatse",
+            "id": 344,
+            "x": 31996,
+            "z": -2842,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Baniachong East JCT",
+            "type": "jct",
+            "id": 345,
+            "x": 33455.5,
+            "z": -1038.5,
+            "lines": {
+                "Intercontinental": {
+                    "Average Trial Chambers Ice Highway": ["", "Central to North-South"]
+                }
+            }
+        },
+        {
+            "name": "Baniachong Northern Trial Chamber",
+            "id": 346,
+            "x": 33603.5,
+            "z": -2130.5,
+            "lines": {
+                "Intercontinental": {
+                    "Average Trial Chambers Ice Highway": ["", "North-South"]
+                }
+            }
+        },
+        {
+            "name": "Baniachong 2nd Trial Chamber",
+            "id": 347,
+            "x": 33455.5,
+            "z": -1298.5,
+            "lines": {
+                "Intercontinental": {
+                    "Average Trial Chambers Ice Highway": ["", "North-South"]
+                }
+            }
+        },
+        {
+            "name": "Baniachong Eastern Trial Chamber",
+            "id": 348,
+            "x": 33455.5,
+            "z": -984.5,
+            "lines": {
+                "Intercontinental": {
+                    "Average Trial Chambers Ice Highway": ["", "North-South"]
+                }
+            }
+        },
+        {
+            "name": "Velikiye Luki",
+            "id": 349,
+            "x": 11037.5,
+            "z": -14911.5,
+            "lines": {
+                "Russian Confederation": {
+                    "Velikiye Luki": ["", "Main line"]
+                }
+            },
+            "notes": "Entrance at x11040 y63 z-14908"
+        },
+        {
+            "name": "Zvenigorod (Temporal)",
+            "id": 350,
+            "x": 13101.5,
+            "z": -14397.5,
+            "lines": {
+                "Russian Confederation": {
+                    "Velikiye Luki": ["", "Main line"]
+                }
+            },
+            "notes": ""
+        },
+        {
+            "name": "Allaikha Trial Chamber",
+            "type": "semi1",
+            "id": 351,
+            "x": 53540.5,
+            "z": -21460,
+            "lines": {
+                "TNIH": {
+                    "Kolyma": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cosmopol JCT",
+            "type": "jct",
+            "id": 352,
+            "x": 52960.5,
+            "z": -21474.5,
+            "lines": {
+                "TNIH": {
+                    "Kolyma": ["", "Main line"],
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kustur East JCT",
+            "type": "jct",
+            "id": 353,
+            "x": 46536,
+            "z": -20364,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line to Lensk branch"]
+                }
+            }
+        },
+        {
+            "name": "Lensk",
+            "id": 354,
+            "x": 44066,
+            "z": -21064,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Lensk branch"]
+                }
+            }
+        },
+        {
+            "name": "Selo JCT",
+            "type": "jct",
+            "id": 355,
+            "x": 46368,
+            "z": -19163,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line to Bestyakh branch"]
+                }
+            }
+        },
+        {
+            "name": "Selo",
+            "id": 356,
+            "x": 46260,
+            "z": -19163,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Bestyakh branch"]
+                }
+            }
+        },
+        {
+            "name": "Gobi (North JCT)",
+            "type": "jct",
+            "id": 357,
+            "x": 35326,
+            "z": -9441,
+            "lines": {
+                "Gobi Transport": {
+                    "Northern": ["", "Main line"],
+                    "NRI": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Marburg",
+            "id": 358,
+            "x": 35326,
+            "z": -11080,
+            "lines": {
+                "Gobi Transport": {
+                    "Northern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Frost East",
+            "id": 359,
+            "x": 35326,
+            "z": -11996,
+            "lines": {
+                "Gobi Transport": {
+                    "Northern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Okota JCT",
+            "type": "jct",
+            "id": 360,
+            "x": 51178.5,
+            "z": -16182.5,
+            "lines": {
+                "TNIH": {
+                    "Sakhalin": ["", "Main line"],
+                    "Kamchatka Main": ["", "Main line (North)"]
+                }
+            }
+        },
+        {
+            "name": "Noto JCT",
+            "type": "jct",
+            "id": 361,
+            "x": 51178.5,
+            "z": -13581.5,
+            "lines": {
+                "TNIH": {
+                    "Sakhalin": ["", "Main line to Noto branch"]
+                }
+            }
+        },
+        {
+            "name": "Evensk South",
+            "id": 362,
+            "x": 56100,
+            "z": -12602,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (South)"]
+                }
+            }
+        },
+        {
+            "name": "Allburg JCT",
+            "type": "jct",
+            "id": 363,
+            "x": 56100,
+            "z": -12076,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (South) to Allburg branch"]
+                }
+            }
+        },
+        {
+            "name": "Allburg",
+            "id": 364,
+            "x": 56190,
+            "z": -12076,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Allburg branch"]
+                }
+            }
+        },
+        {
+            "name": "Chishima",
+            "id": 365,
+            "x": 55932,
+            "z": -11826,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (South)"]
+                }
+            }
+        },
+        {
+            "name": "Onekotan",
+            "id": 366,
+            "x": 55500,
+            "z": -11272,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (South)"]
+                }
+            }
+        },
+        {
+            "name": "Mikhalkino (Temporary)",
+            "id": 367,
+            "x": 57707,
+            "z": -21890,
+            "lines": {
+                "TNIH": {
+                    "Kolyma": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ayon",
+            "id": 368,
+            "x": 60261,
+            "z": -22246,
+            "lines": {
+                "TNIH": {
+                    "Kolyma": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Pittsburgh",
+            "id": 369,
+            "x": -28600,
+            "z": -7216,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Westbound Tube to Eastbound Tube"]
+                }
+            },
+            "areas": [
+                [[-28599, -7222], [-28601, -7210]]
+            ]
+        },
+        {
+            "name": "Atlantic—Capitol Limited JCT",
+            "type": "jct",
+            "id": 370,
+            "x": -27326,
+            "z": -7216,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Westbound Tube to Eastbound Tube"],
+                    "Capitol Limited": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-27325, -7222], [-27327, -7210]]
+            ]
+        },
+        {
+            "name": "",
+            "type": "elev-ew",
+            "id": 371,
+            "x": -27315,
+            "z": -7222,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Westbound Tube"]
+                }
+            }
+        },
+        {
+            "name": "",
+            "type": "elev-ew",
+            "id": 372,
+            "x": -27291,
+            "z": -7222,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Westbound Tube"]
+                }
+            }
+        },
+        {
+            "name": "",
+            "type": "elev-ew",
+            "id": 373,
+            "x": -27267,
+            "z": -7222,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Westbound Tube"]
+                }
+            }
+        },
+        {
+            "name": "Philadelphia (30th Street)",
+            "id": 374,
+            "x": -27133,
+            "z": -7216,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Westbound Tube to Eastbound Tube"]
+                }
+            },
+            "areas": [
+                [[-27132, -7222], [-27134, -7210]],
+                [[-27080, -7215], [-27134, -7217]],
+                [[-27082, -7207], [-27080, -7217]]
+            ]
+        },
+        { "id": 375 }, { "id": 376 },
+        {
+            "name": "",
+            "type": "elev-ew",
+            "id": 377,
+            "x": -27315,
+            "z": -7210,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Eastbound Tube"]
+                }
+            }
+        },
+        {
+            "name": "",
+            "type": "elev-ew",
+            "id": 378,
+            "x": -27291,
+            "z": -7210,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Eastbound Tube"]
+                }
+            }
+        },
+        {
+            "name": "",
+            "type": "elev-ew",
+            "id": 379,
+            "x": -27267,
+            "z": -7210,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Eastbound Tube"]
+                }
+            }
+        },
+        { "id": 380 },
+        {
+            "name": "",
+            "type": "elev-we",
+            "id": 381,
+            "x": -26675,
+            "z": -7210,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Eastbound Tube"]
+                }
+            }
+        },
+        { "id": 382 }, { "id": 383 }, { "id": 384 },
+        {
+            "name": "Pittsburgh (Old Platform)",
+            "id": 385,
+            "x": -28600,
+            "z": -7333,
+            "lines": {
+                "America": {
+                    "Capitol Limited": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Fort Wayne",
+            "id": 386,
+            "x": -30202,
+            "z": -7433,
+            "lines": {
+                "America": {
+                    "Capitol Limited": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "South Bend",
+            "id": 387,
+            "x": -30448,
+            "z": -7739,
+            "lines": {
+                "America": {
+                    "Capitol Limited": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Chicago",
+            "id": 388,
+            "x": -31391,
+            "z": -7739,
+            "lines": {
+                "America": {
+                    "Capitol Limited": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Goonerville",
+            "id": 389,
+            "x": -26600,
+            "z": 690,
+            "lines": {
+                "Florida": {
+                    "Guama-Cockburn Harbour": ["", "Goonerville branch"]
+                }
+            }
+        },
+        {
+            "name": "BlackBeard’s Cove",
+            "id": 390,
+            "x": -26219,
+            "z": 799,
+            "lines": {
+                "Florida": {
+                    "Guama-Cockburn Harbour": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "HuzzBear",
+            "id": 391,
+            "x": -27277,
+            "z": 327,
+            "lines": {
+            }
+        },
+        {
+            "name": "Goonerville JCT",
+            "type": "jct",
+            "id": 392,
+            "x": -26653,
+            "z": 799,
+            "lines": {
+                "Florida": {
+                    "Guama-Cockburn Harbour": ["", "Main line to Goonerville branch"]
+                }
+            }
+        },
+        {
+            "name": "Qikqtaaluk",
+            "id": 393,
+            "x": -28996,
+            "z": -26666,
+            "lines": {
+                "TNIH": {
+                    "Qikqtaaluk": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Greenland SCoast",
+            "id": 394,
+            "x": -16000,
+            "z": -25720,
+            "lines": {
+                "TNIH": {
+                    "Qikqtaaluk": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Greenland Snow Fields",
+            "id": 395,
+            "x": -16000,
+            "z": -16973,
+            "lines": {
+                "TNIH": {
+                    "Qikqtaaluk": ["", "Main line"],
+                    "Atlantic": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "South Greenland Connect": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Transatlantic JCT",
+            "type": "jct",
+            "id": 396,
+            "x": -16000,
+            "z": -12508,
+            "lines": {
+                "TNIH": {
+                    "Atlantic": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "Transatlantic North": ["", "West segment"]
+                }
+            }
+        },
+        {
+            "name": "Cambridge",
+            "id": 397,
+            "x": 55,
+            "z": -12508,
+            "lines": {
+                "Intercontinental": {
+                    "Transatlantic North": ["", "East segment"]
+                }
+            }
+        },
+        {
+            "name": "Oceanic Plate Emergency Exit",
+            "id": 398,
+            "x": -6508,
+            "z": -12508,
+            "lines": {
+                "Intercontinental": {
+                    "Transatlantic North": ["", "West segment"]
+                }
+            }
+        },
+        {
+            "name": "Cambridge JCT",
+            "type": "jct",
+            "id": 399,
+            "x": -312,
+            "z": -12508,
+            "lines": {
+                "Intercontinental": {
+                    "Havantian": ["", "Main line"],
+                    "Transatlantic North": ["", "East segment"]
+                }
+            }
+        },
+        {
+            "name": "Tralee",
+            "id": 400,
+            "x": -3444,
+            "z": -12508,
+            "lines": {
+                "Intercontinental": {
+                    "Transatlantic North": ["", "East segment"]
+                }
+            }
+        },
+        {
+            "name": "Noto",
+            "id": 401,
+            "x": 51087.5,
+            "z": -13581.5,
+            "lines": {
+                "TNIH": {
+                    "Sakhalin": ["", "Noto branch"]
+                }
+            }
+        },
+        {
+            "name": "Asuka",
+            "id": 402,
+            "x": 51034.5,
+            "z": -13124.5,
+            "lines": {
+                "TNIH": {
+                    "Sakhalin": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Baikal-Minerva JCT",
+            "type": "jct",
+            "id": 403,
+            "x": 39488,
+            "z": -16936,
+            "lines": {
+                "Intercontinental": {
+                    "Baikal Free Way": ["", "Main line to Minerva branch"]
+                }
+            }
+        },
+        {
+            "name": "Angoya",
+            "id": 404,
+            "x": 39488,
+            "z": -14322,
+            "lines": {
+                "Intercontinental": {
+                    "Baikal Free Way": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Freiburg",
+            "id": 405,
+            "x": 39488,
+            "z": -14034,
+            "lines": {
+                "Intercontinental": {
+                    "Baikal Free Way": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Izayoi Trial Chamber",
+            "id": 406,
+            "x": 31667.5,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            },
+            "notes": "Interchange to Nether Siberia line at x=31667 y=10 z=-17739"
+        },
+        {
+            "name": "Apex",
+            "id": 407,
+            "x": 35377,
+            "z": -5089,
+            "lines": {
+                "Gobi Transport": {
+                    "Eastern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yellow River",
+            "id": 408,
+            "x": 35921,
+            "z": -5089,
+            "lines": {
+                "Gobi Transport": {
+                    "Eastern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Singapore",
+            "id": 409,
+            "x": 36140,
+            "z": -5089,
+            "lines": {
+                "Gobi Transport": {
+                    "Eastern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Krowntown Citadel",
+            "id": 410,
+            "x": 37410,
+            "z": -5836,
+            "lines": {
+                "Gobi Transport": {
+                    "Eastern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hanguguan",
+            "id": 411,
+            "x": 39590,
+            "z": -5050,
+            "lines": {
+                "China": {
+                    "Hanguguan-Jinan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "M-4 H-1 JCT",
+            "type": "jct",
+            "id": 412,
+            "x": 15673.5,
+            "z": -7243.5,
+            "lines": {
+                "Armenia": {
+                    "H-1": ["", ""],
+                    "M-1": ["", ""],
+                    "M-4": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Etchmiadzin",
+            "id": 413,
+            "x": 15684.5,
+            "z": -7165.5,
+            "lines": {
+                "Armenia": {
+                    "H-1": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "East H-1 JCT",
+            "id": 414,
+            "type": "jct",
+            "x": 15738.5,
+            "z": -7243.5,
+            "lines": {
+                "Armenia": {
+                    "H-1": ["", ""],
+                    "M-1": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Artashat",
+            "id": 415,
+            "x": 16007.5,
+            "z": -7111.5,
+            "lines": {
+                "Armenia": {
+                    "M-1": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Oslo Trial Chambers",
+            "id": 416,
+            "x": 3533,
+            "z": -16572,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Little line"]
+                }
+            }
+        },
+        {
+            "name": "Oslo Underground",
+            "id": 417,
+            "x": 3729,
+            "z": -16537,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Little line"]
+                }
+            }
+        },
+        {
+            "name": "LatviaWalkers",
+            "id": 418,
+            "x": 3662,
+            "z": -16361,
+            "notes": "Abandoned",
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Honefoss branch"]
+                }
+            }
+        },
+        {
+            "name": "Skien",
+            "id": 419,
+            "x": 3404,
+            "z": -16122,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Great line to Little line"]
+                }
+            },
+            "areas": [
+                [[3409, -16123], [3403, -16117]],
+                [[3403, -16119], [3394, -16118]],
+                [[3394, -16121], [3386, -16112]]
+            ]
+        },
+        {
+            "name": "Sandefjord South",
+            "id": 420,
+            "x": 3585,
+            "z": -16101,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Little line"]
+                }
+            }
+        },
+        {
+            "name": "Fløibanen (Bergen)",
+            "id": 421,
+            "x": 1968,
+            "z": -16839,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Great line"]
+                }
+            }
+        },
+        {
+            "name": "Fronningen",
+            "id": 422,
+            "x": 2523,
+            "z": -17156,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Fronningen branch"]
+                }
+            }
+        },
+        {
+            "name": "West Adger",
+            "id": 423,
+            "x": 2680,
+            "z": -15587,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "West Agder branch"]
+                }
+            }
+        },
+        {
+            "name": "Geilo Lower",
+            "id": 424,
+            "x": 2920,
+            "z": -16839,
+            "notes": "Abandoned",
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Great line"]
+                }
+            }
+        },
+        {
+            "name": "Finse",
+            "id": 425,
+            "x": 2683,
+            "z": -16908,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Main line to Finse station platforms to Valle branch"]
+                }
+            }
+        },
+        {
+            "name": "Geilo Upper",
+            "id": 426,
+            "x": 2933,
+            "z": -16855,
+            "notes": "Abandoned",
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Drangedal",
+            "id": 427,
+            "x": 3031,
+            "z": -16117,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Great line"]
+                }
+            }
+        },
+        {
+            "name": "Kristiansand",
+            "id": 428,
+            "x": 2900,
+            "z": -15636,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Great line"]
+                }
+            }
+        },
+        {
+            "name": "Central East down elevator",
+            "id": 429,
+            "type": "elev-ew",
+            "x": 3347,
+            "z": -16228,
+            "y1": 75,
+            "y2": -63,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Connector branch"],
+                    "Upper Central": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Central East up elevator",
+            "id": 430,
+            "type": "elev-ew",
+            "x": 3347,
+            "z": -16232,
+            "y1": -63,
+            "y2": 75,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Connector branch"],
+                    "Upper Central": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Central West down elevator",
+            "id": 431,
+            "type": "elev-we",
+            "x": 2216,
+            "z": -15738,
+            "y1": 75,
+            "y2": -63,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Great line"],
+                    "Upper Central": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Central West up elevator",
+            "id": 432,
+            "type": "elev-we",
+            "x": 2216,
+            "z": -15734,
+            "y1": -63,
+            "y2": 75,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Great line"],
+                    "Upper Central": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "West Adger JCT",
+            "id": 433,
+            "type": "jct",
+            "x": 2680,
+            "z": -15640,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Great line to West Agder branch"]
+                }
+            }
+        },
+        {
+            "name": "LatviaWakers JCT",
+            "id": 434,
+            "type": "jct",
+            "x": 3662,
+            "z": -16477,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Little line to Honefoss branch"]
+                }
+            }
+        },
+        {
+            "name": "Skien og Sandefjord",
+            "id": 435,
+            "x": 3375,
+            "z": -16233,
+            "areas": [
+                [[3361, -16225], [3399, -16241]]
+            ],
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Main line to Skien og Sandefjord station platforms"]
+                }
+            }
+        },
+        {
+            "name": "Drammen",
+            "id": 436,
+            "x": 3643,
+            "z": -16424,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Oslo branch"]
+                }
+            }
+        },
+        {
+            "name": "Skien JCT",
+            "type": "jct",
+            "id": 437,
+            "x": 3331,
+            "z": -16115,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Great line to Connector branch"],
+                    "Denmark": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sarpsborg",
+            "id": 438,
+            "x": 4028,
+            "z": -16171,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "South": ["", "Main line"],
+                    "Sweden": ["", "Gothenburg line"]
+                }
+            }
+        },
+        {
+            "name": "Brookieston JCT",
+            "id": 439,
+            "type": "jct",
+            "x": 3976.5,
+            "z": -16904,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Trondheim": ["", "Main line"],
+                    "Lower North": ["", "Main line to Brookieston branch"]
+                }
+            }
+        },
+        {
+            "name": "Brookieston",
+            "id": 440,
+            "x": 3873,
+            "z": -16904,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower North": ["", "Brookieston branch"]
+                }
+            }
+        },
+        {
+            "name": "Bergen",
+            "id": 441,
+            "x": 2000,
+            "z": -16775,
+            "areas": [
+                [[1976, -16787], [1982, -16757]],
+                [[1982, -16787], [2004, -16754]],
+                [[2004, -16786], [2005, -16754]],
+                [[2005, -16785], [2007, -16754]],
+                [[2007, -16784], [2008, -16754]],
+                [[2008, -16783], [2009, -16754]],
+                [[2009, -16782], [2010, -16754]],
+                [[2010, -16781], [2011, -16754]],
+                [[2011, -16780], [2012, -16754]],
+                [[2012, -16779], [2014, -16754]]
+            ],
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Bergen branch"]
+                }
+            }
+        },
+        {
+            "name": "Stavanger East",
+            "id": 442,
+            "x": 2216,
+            "z": -15997,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Trondheim",
+            "id": 443,
+            "x": 3747,
+            "z": -18451,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Trondheim": ["", "Main line to Trondheim station platforms"],
+                    "Middle North": ["", "Main line to Östersund branch"],
+                    "Upper Central": ["", "Trondheim branch"]
+                }
+            },
+            "areas": [
+                [[3733, -18464], [3760, -18433]],
+                [[3736, -18433], [3758, -18424]]
+            ]
+        },
+        {
+            "name": "Bermof",
+            "id": 444,
+            "x": 3478,
+            "z": -18503,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Trondheim": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hitra",
+            "id": 445,
+            "x": 3250,
+            "z": -18569,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Trondheim": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Straumen",
+            "id": 446,
+            "x": 5636,
+            "z": -20663,
+            "areas": [
+                [[5605, -20672], [5630, -20656]],
+                [[5620, -20669], [5647, -20647]]
+            ],
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper North": ["", "Main line to Straumen station platforms"]
+                }
+            }
+        },
+        {
+            "name": "Narvik",
+            "id": 447,
+            "x": 6273,
+            "z": -21286,
+            "areas": [
+                [[6240, -21296], [6273, -21274]],
+                [[6273, -21293], [6278, -21274]]
+            ],
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper North": ["", "Main line to Narvik station platforms"]
+                }
+            }
+        },
+        {
+            "name": "Oslo",
+            "id": 448,
+            "x": 3805,
+            "z": -16604,
+            "areas": [
+                [[3774, -16624], [3840, -16577]]
+            ],
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Trondheim": ["", "Main line to Oslo station platforms"],
+                    "Lower North": ["", "Main line"],
+                    "South": ["", "Main line to Oslo station platforms"],
+                    "Sweden": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bergen JCT",
+            "id": 449,
+            "type": "jct",
+            "x": 2212,
+            "z": -16775,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Main line to Bergen branch"]
+                }
+            }
+        },
+        {
+            "name": "Oslo Trondheim line up elevator",
+            "id": 450,
+            "type": "elev-ew",
+            "x": 3772,
+            "z": -16607,
+            "y1": 51,
+            "y2": 64,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Oslo branch"],
+                    "Lower Trondheim": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Oslo North line down elevator",
+            "id": 451,
+            "type": "elev-ew",
+            "x": 3772,
+            "z": -16603,
+            "y1": 64,
+            "y2": 51,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Oslo branch"],
+                    "Lower North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Oslo North line up elevator",
+            "id": 452,
+            "type": "elev-ew",
+            "x": 3772,
+            "z": -16598,
+            "y1": 51,
+            "y2": 64,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Oslo branch"],
+                    "Lower North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Oslo South line down elevator",
+            "id": 453,
+            "type": "elev-ew",
+            "x": 3772,
+            "z": -16594,
+            "y1": 64,
+            "y2": 51,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Oslo branch"],
+                    "South": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Trondheim line south elevator",
+            "id": 454,
+            "type": "elev-ew",
+            "x": 3973,
+            "z": -17240,
+            "y1": 64,
+            "y2": 71,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Trondheim": ["", "Main line"],
+                    "Upper Trondheim": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "North line south elevator",
+            "id": 455,
+            "type": "elev-ew",
+            "x": 3977,
+            "z": -17240,
+            "y1": 64,
+            "y2": 71,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower North": ["", "Main line"],
+                    "Middle North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "North line middle down elevator",
+            "id": 456,
+            "type": "elev-ew",
+            "x": 4021,
+            "z": -18861,
+            "y1": 71,
+            "y2": 66,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Middle North": ["", "Main line"],
+                    "Upper North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "North line middle up elevator",
+            "id": 457,
+            "type": "elev-ew",
+            "x": 4025,
+            "z": -18861,
+            "y1": 66,
+            "y2": 71,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Middle North": ["", "Main line"],
+                    "Upper North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "North line north up elevator",
+            "id": 458,
+            "type": "elev-ew",
+            "x": 4541,
+            "z": -19370,
+            "y1": 64,
+            "y2": 71,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "North line north down elevator",
+            "id": 459,
+            "type": "elev-ew",
+            "x": 4541,
+            "z": -19366,
+            "y1": 71,
+            "y2": 64,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bo",
+            "id": 460,
+            "x": 3281,
+            "z": -16425,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Oslo branch"]
+                }
+            }
+        },
+        {
+            "name": "Bo JCT",
+            "id": 461,
+            "type": "jct",
+            "x": 3444,
+            "z": -16424,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Main line to Oslo branch"]
+                }
+            }
+        },
+        {
+            "name": "Oslo JCT",
+            "id": 462,
+            "type": "jct",
+            "x": 3444,
+            "z": -16633,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Main line to Oslo branch"]
+                }
+            }
+        },
+        {
+            "name": "Oslo branch down elevator",
+            "id": 463,
+            "type": "elev-we",
+            "x": 3672,
+            "z": -16636,
+            "y1": 75,
+            "y2": 51,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Oslo branch"]
+                }
+            }
+        },
+        {
+            "name": "Oslo branch up elevator",
+            "id": 464,
+            "type": "elev-we",
+            "x": 3672,
+            "z": -16633,
+            "y1": 51,
+            "y2": 75,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Oslo branch"]
+                }
+            }
+        },
+        {
+            "name": "Strasbourg East",
+            "id": 465,
+            "x": 2765,
+            "z": -10968,
+            "lines": {
+                "French Intercity Highway": {
+                    "Strasbourg-Metz": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Strasbourg West",
+            "id": 466,
+            "x": 2691,
+            "z": -10970,
+            "lines": {
+                "French Intercity Highway": {
+                    "Strasbourg-Metz": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Metz East",
+            "id": 467,
+            "x": 2353,
+            "z": -11008,
+            "lines": {
+                "French Intercity Highway": {
+                    "Strasbourg-Metz": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Metz West",
+            "id": 468,
+            "x": 2159,
+            "z": -11008,
+            "lines": {
+                "French Intercity Highway": {
+                    "Metz-Paris": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Paris",
+            "id": 469,
+            "x": 933,
+            "z": -11007,
+            "lines": {
+                "French Intercity Highway": {
+                    "Metz-Paris": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Lmporter",
+            "id": 470,
+            "x": 31705,
+            "z": -1770,
+            "lines": {
+                "TNIH": {
+                    "Syphon": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nepal JCT",
+            "type": "jct",
+            "id": 471,
+            "x": 30111,
+            "z": -2640,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Main line to Dao Monastery branch"]
+                }
+            }
+        },
+        {
+            "name": "Dao Monastery",
+            "id": 472,
+            "x": 30138,
+            "z": -2770,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Dao Monastery branch"]
+                }
+            }
+        },
+        {
+            "name": "Marin Mineshaft",
+            "type": "semi1",
+            "id": 473,
+            "x": 29940,
+            "z": -2559,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Dhorpatan Mineshaft",
+            "type": "semi1",
+            "id": 474,
+            "x": 29772,
+            "z": -2559,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Salma Mineshaft",
+            "type": "semi1",
+            "id": 475,
+            "x": 29421,
+            "z": -2559,
+            "lines": {
+                "TNIH": {
+                    "Himalayas": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Lasev's Basement",
+            "type": "semi4",
+            "id": 476,
+            "x": 60024,
+            "z": 25629,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "World Border": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "NZ City South",
+            "id": 477,
+            "x": 60024,
+            "z": 25704,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "World Border": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Rakiura",
+            "id": 478,
+            "x": 60024,
+            "z": 26314,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "World Border": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "<2> Auckland View East",
+            "type": "jct",
+            "id": 479,
+            "x": 60024,
+            "z": 28080,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "World Border": ["", "Main line", "Auckland View ramp"]
+                }
+            }
+        },
+        {
+            "name": "Auckland View",
+            "id": 480,
+            "x": 59555,
+            "z": 27876,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "World Border": ["", "Auckland View ramp"]
+                }
+            }
+        },
+        {
+            "name": "New Zealand South World Border",
+            "id": 481,
+            "x": 60024,
+            "z": 32252,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "World Border": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ashtarak",
+            "id": 482,
+            "x": 15691.5,
+            "z": -7556.5,
+            "lines": {
+                "Armenia": {
+                    "M-1": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "South Ashtarak JCT",
+            "type": "jct",
+            "id": 483,
+            "x": 15649.5,
+            "z": -7426.5,
+            "lines": {
+                "Armenia": {
+                    "M-1": ["", ""],
+                    "M-3": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Yerevan JCT",
+            "type": "jct",
+            "id": 484,
+            "x": 15861.5,
+            "z": -7242.5,
+            "areas": [
+                [[15860, -7244], [15863, -7241]]
+            ],
+            "lines": {
+                "Armenia": {
+                    "M-1": ["", ""],
+                    "H-2": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Artashat JCT",
+            "type": "jct",
+            "id": 485,
+            "x": 16006.5,
+            "z": -7160.5,
+            "areas": [
+                [[16005, -7162], [16008, -7159]]
+            ],
+            "lines": {
+                "Armenia": {
+                    "M-1": ["", ""],
+                    "M-3": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Sevan Ring North JCT",
+            "type": "jct",
+            "id": 486,
+            "x": 16006.5,
+            "z": -7377.5,
+            "lines": {
+                "Armenia": {
+                    "M-3": ["", ""],
+                    "M-2": ["", "Sevan Ring"]
+                }
+            }
+        },
+        {
+            "name": "Sevan Ring South JCT",
+            "type": "jct",
+            "id": 487,
+            "x": 16006.5,
+            "z": -7324.5,
+            "lines": {
+                "Armenia": {
+                    "M-3": ["", ""],
+                    "M-2": ["", "Sevan Ring"]
+                }
+            }
+        },
+        {
+            "name": "Alaverdi",
+            "id": 488,
+            "x": 16006.5,
+            "z": -7435.5,
+            "lines": {
+                "Armenia": {
+                    "M-3": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Artashat North JCT",
+            "type": "jct",
+            "id": 489,
+            "x": 16006.5,
+            "z": -7242.5,
+            "lines": {
+                "Armenia": {
+                    "M-3": ["", ""],
+                    "H-2": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Sevan Ring East JCT",
+            "type": "jct",
+            "id": 490,
+            "x": 16082.5,
+            "z": -7351.5,
+            "lines": {
+                "Armenia": {
+                    "M-2": ["", " to Sevan Ring"]
+                }
+            }
+        },
+        {
+            "name": "Nakhijevan",
+            "id": 491,
+            "x": 16250.5,
+            "z": -6802.5,
+            "lines": {
+                "Armenia": {
+                    "M-1": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Syunik Ruins",
+            "id": 492,
+            "x": 16510.5,
+            "z": -6696.5,
+            "lines": {
+                "Armenia": {
+                    "M-1": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Alesund Mine (JCT)",
+            "id": 493,
+            "x": 2440,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Poice branch"]
+                }
+            }
+        },
+        {
+            "name": "Kristinestad",
+            "id": 494,
+            "x": 7646,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Finlandia JCT",
+            "type": "jct",
+            "id": 495,
+            "x": 8050,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Finlandia branch"]
+                }
+            }
+        },
+        {
+            "name": "Finlandia",
+            "id": 496,
+            "x": 8050,
+            "z": -16890,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Finlandia branch"]
+                }
+            }
+        },
+        {
+            "name": "Kuorevesi North (JCT)",
+            "id": 497,
+            "x": 8802,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Kuorevesi branch"]
+                }
+            }
+        },
+        {
+            "name": "Kuorevesi Gate",
+            "id": 498,
+            "x": 8802,
+            "z": -17661,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Kuorevesi branch"]
+                }
+            }
+        },
+        {
+            "name": "Kuorevesi",
+            "id": 499,
+            "x": 8783,
+            "z": -17647.5,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Kuorevesi branch"]
+                }
+            }
+        },
+        {
+            "name": "Portos Mine",
+            "type": "semi1",
+            "id": 500,
+            "x": 10349,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Portos JCT",
+            "type": "jct",
+            "id": 501,
+            "x": 10181,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Lappeenranta branch"]
+                }
+            }
+        },
+        {
+            "name": "Lappeenranta",
+            "id": 502,
+            "x": 10181,
+            "z": -17154,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Lappeenranta branch"]
+                }
+            }
+        },
+        {
+            "name": "Chitovskaya",
+            "id": 503,
+            "x": 14528,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Wolfenstein",
+            "id": 504,
+            "x": 21320,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Numidia Trial Chambers (JCT)",
+            "id": 505,
+            "x": 25840,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Poikovskii branch"]
+                }
+            }
+        },
+        {
+            "name": "A Numidia",
+            "id": 506,
+            "x": 25840,
+            "z": -17365,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Poikovskii branch"]
+                }
+            }
+        },
+        {
+            "name": "Poikovskii",
+            "id": 507,
+            "x": 25809,
+            "z": -17213,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Poikovskii branch"]
+                }
+            }
+        },
+        {
+            "name": "Hakurei Forest Emegency Exit",
+            "type": "semi1",
+            "id": 508,
+            "x": 37602,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Armas Y Libertad JCT",
+            "type": "jct",
+            "id": 509,
+            "x": 37666.5,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Armas Y Libertad branch"]
+                }
+            }
+        },
+        {
+            "name": "Armas Y Libertad",
+            "id": 510,
+            "x": 37666.5,
+            "z": -17594,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Armas Y Libertad branch"]
+                }
+            }
+        },
+        {
+            "name": "New Alteria JCT",
+            "type": "jct",
+            "id": 511,
+            "x": 38876,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to New Alteria branch"]
+                }
+            }
+        },
+        {
+            "name": "New Alteria",
+            "id": 512,
+            "x": 38876,
+            "z": -18094,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "New Alteria branch"]
+                }
+            }
+        },
+        {
+            "name": "Kustur Al",
+            "id": 513,
+            "x": 46518,
+            "z": -17876,
+            "lines": {
+                "Yakutia Metro": {
+                    "Industrial": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Angoya West JCT",
+            "type": "jct",
+            "id": 514,
+            "x": 39121.5,
+            "z": -14216.5,
+            "lines": {
+                "TNIH": {
+                    "Baikal": ["", "Main line"],
+                    "Lena": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Angoya JCT",
+            "type": "jct",
+            "id": 515,
+            "x": 39464.5,
+            "z": -14216.5,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line to Angoya branch"]
+                }
+            }
+        },
+        {
+            "name": "Baikal-Angoya",
+            "id": 516,
+            "x": 39464.5,
+            "z": -14317.5,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Angoya branch"]
+                }
+            }
+        },
+        {
+            "name": "BRC JCT",
+            "type": "jct",
+            "id": 517,
+            "x": 39121.5,
+            "z": -13529.5,
+            "lines": {
+                "TNIH": {
+                    "Baikal": ["", "Main line to BRC branch"]
+                }
+            }
+        },
+        {
+            "name": "BRC (Bei Hai)",
+            "id": 518,
+            "x": 38826.5,
+            "z": -13529.5,
+            "lines": {
+                "TNIH": {
+                    "Baikal": ["", "BRC branch"]
+                }
+            }
+        },
+        {
+            "name": "Fiche",
+            "id": 519,
+            "x": 13396,
+            "z": 4426.5,
+            "lines": {
+                "Ethiopia": {
+                    "Dessie-Trial-Adama": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Pringleville",
+            "id": 520,
+            "x": 13414,
+            "z": 4712,
+            "lines": {
+                "Ethiopia": {
+                    "Dessie-Trial-Adama": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Steel Ball Casino",
+            "id": 521,
+            "x": 13256,
+            "z": 4900,
+            "lines": {
+                "Ethiopia": {
+                    "Dessie-Trial-Adama": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Elysium",
+            "id": 522,
+            "x": 13256,
+            "z": 5000,
+            "lines": {
+                "Ethiopia": {
+                    "Dessie-Trial-Adama": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[13246, 4988], [13265, 5020]],
+                [[13263, 4993], [13270, 5007]]
+            ]
+        },
+        {
+            "name": "Asgori",
+            "id": 523,
+            "x": 13256,
+            "z": 5270,
+            "lines": {
+                "Ethiopia": {
+                    "Dessie-Trial-Adama": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[13247, 5263], [13265, 5281]]
+            ]
+        },
+        {
+            "name": "Sherbrooke JCT",
+            "type": "jct",
+            "id": 524,
+            "x": 13256,
+            "z": 5666,
+            "lines": {
+                "Ethiopia": {
+                    "Dessie-Trial-Adama": ["", "Main line to Adama branch"]
+                }
+            }
+        },
+        {
+            "name": "Sherbrooke",
+            "id": 525,
+            "x": 13344,
+            "z": 5666,
+            "lines": {
+                "Ethiopia": {
+                    "Dessie-Trial-Adama": ["", "Adama branch"]
+                }
+            }
+        },
+        {
+            "name": "Adama",
+            "id": 526,
+            "x": 13503,
+            "z": 6258,
+            "lines": {
+                "Ethiopia": {
+                    "Dessie-Trial-Adama": ["", "Adama branch"]
+                }
+            }
+        },
+        {
+            "name": "Trial",
+            "id": 527,
+            "x": 13270,
+            "z": 6135.5,
+            "lines": {
+                "Ethiopia": {
+                    "Dessie-Trial-Adama": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bandar Abbas JCT",
+            "type": "jct",
+            "id": 528,
+            "x": 20125,
+            "z": -1980,
+            "lines": {
+                "TNIH": {
+                    "Makran": ["", "Main line to Bandar Abbas branch"]
+                }
+            }
+        },
+        {
+            "name": "Bandar Abbas",
+            "id": 529,
+            "x": 20125,
+            "z": -2245,
+            "lines": {
+                "TNIH": {
+                    "Makran": ["", "Bandar Abbas branch"]
+                }
+            }
+        },
+        {
+            "name": "Parthia",
+            "id": 530,
+            "x": 18972,
+            "z": -2011,
+            "lines": {
+                "TNIH": {
+                    "Makran": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "ISC",
+            "id": 531,
+            "x": 26068,
+            "z": 672,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mumbai",
+            "id": 532,
+            "x": 26175,
+            "z": 1077,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Dapoli",
+            "id": 533,
+            "x": 26279,
+            "z": 1905,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "East India Co",
+            "id": 534,
+            "x": 26460,
+            "z": 2248,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Loulan North JCT",
+            "type": "jct",
+            "id": 535,
+            "x": 32314.5,
+            "z": -8814,
+            "lines": {
+                "Gobi Transport": {
+                    "Xinjiang": ["", "Main line to Loulan branch"]
+                }
+            }
+        },
+        {
+            "name": "Loulan",
+            "id": 536,
+            "x": 32314.5,
+            "z": -7308,
+            "lines": {
+                "Gobi Transport": {
+                    "Xinjiang": ["", "Loulan branch"]
+                }
+            }
+        },
+        {
+            "name": "Kanyakumari JCT",
+            "type": "jct",
+            "id": 537,
+            "x": 27838,
+            "z": 4605,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Main line to Kanyakumari branch"]
+                }
+            }
+        },
+        {
+            "name": "Kanyakumari",
+            "id": 538,
+            "x": 27838,
+            "z": 5054,
+            "lines": {
+                "TNIH": {
+                    "Malabar": ["", "Kanyakumari branch"]
+                }
+            }
+        },
+        {
+            "name": "Kustur North JCT",
+            "type": "jct",
+            "id": 539,
+            "x": 46368,
+            "z": -20364,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line to Lena-Bulunsky branch"]
+                }
+            }
+        },
+        {
+            "name": "Lena-Bulunsky",
+            "id": 540,
+            "x": 46368,
+            "z": -23215,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Lena-Bulunsky branch"]
+                }
+            }
+        },
+        {
+            "name": "Nantong",
+            "id": 541,
+            "x": 43221,
+            "z": -4056,
+            "lines": {
+                "Subway": {
+                    "Nantong-Suzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nantong Western Core Area",
+            "id": 542,
+            "x": 43221,
+            "z": -3976,
+            "lines": {
+                "Subway": {
+                    "Nantong-Suzhou": ["", "Main line"],
+                    "Nantong-Chongming Island": ["", "Main line"]
+                }
+            },
+            "areas": [
+              [[43219, -3980], [43226, -3969]],
+              [[43221, -3971], [43228, -3964]],
+              [[43228, -3983], [43232, -3967]]
+            ]
+        },
+        {
+            "name": "Suzhou Spawn",
+            "id": 543,
+            "x": 43221,
+            "z": -3661,
+            "lines": {
+                "Subway": {
+                    "Nantong-Suzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Suzhou Ruins Memorial Hall",
+            "id": 544,
+            "x": 43221,
+            "z": -3604,
+            "lines": {
+                "Subway": {
+                    "Nantong-Suzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "YWMG_1llusioN's Plot",
+            "id": 545,
+            "x": 43221,
+            "z": -3597,
+            "lines": {
+                "Subway": {
+                    "Nantong-Suzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Taihu East",
+            "id": 546,
+            "x": 43221,
+            "z": -3555,
+            "lines": {
+                "Subway": {
+                    "Nantong-Suzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Pickle City",
+            "id": 547,
+            "x": 19131,
+            "z": -1980,
+            "lines": {
+                "TNIH": {
+                    "Makran": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Aldan",
+            "id": 548,
+            "x": 46352,
+            "z": -17000,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Chumikan",
+            "id": 549,
+            "x": 48406,
+            "z": -13833,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Salatavia",
+            "id": 550,
+            "x": 57431.5,
+            "z": -13056.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Salatavia branch"]
+                }
+            }
+        },
+        {
+            "name": "AshBorn",
+            "id": 551,
+            "x": 13545,
+            "z": 4259,
+            "lines": {
+                "Ethiopia": {
+                    "Dessie-Trial-Adama": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tarcha JCT",
+            "type": "jct",
+            "id": 552,
+            "x": 13256,
+            "z": 5468,
+            "lines": {
+                "Ethiopia": {
+                    "Dessie-Trial-Adama": ["", "Main line"],
+                    "Tarcha-Gode": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Oromia (JCT)",
+            "id": 553,
+            "x": 14077,
+            "z": 5468,
+            "lines": {
+                "Ethiopia": {
+                    "Tarcha-Gode": ["", "Main line"],
+                    "Oromia-Pemba Island": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Gode",
+            "id": 554,
+            "x": 15160,
+            "z": 5417,
+            "lines": {
+                "Ethiopia": {
+                    "Tarcha-Gode": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Reji JCT",
+            "id": 555,
+            "x": 14090,
+            "z": 5865,
+            "lines": {
+                "Ethiopia": {
+                    "Oromia-Pemba Island": ["", "Main line to Reji branch"]
+                }
+            }
+        },
+        {
+            "name": "Reji",
+            "id": 556,
+            "x": 13968,
+            "z": 5865,
+            "lines": {
+                "Ethiopia": {
+                    "Oromia-Pemba Island": ["", "Reji branch"]
+                }
+            },
+            "areas": [
+                [[13953, 5857], [13965, 5872]],
+                [[13963, 5863], [13970, 5873]],
+                [[13961, 5863], [13972, 5876]],
+                [[13959, 5860], [13980, 5878]],
+                [[13967, 5855], [13980, 5878]]
+            ]
+        },
+        {
+            "name": "Pemba Island",
+            "id": 557,
+            "x": 14233,
+            "z": 9905,
+            "lines": {
+                "Ethiopia": {
+                    "Oromia-Pemba Island": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[14218, 9898], [14271, 9920]]
+            ]
+        },
+        {
+            "name": "Dessie",
+            "id": 558,
+            "x": 13861,
+            "z": 4176,
+            "lines": {
+                "Ethiopia": {
+                    "Dessie-Trial-Adama": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "TNIH – Norvegian Elevator",
+            "id": 559,
+            "type": "elev-we",
+            "y1": 10,
+            "y2": 71,
+            "x": 3975,
+            "z": -17735,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                },
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Trondheim": ["", "Main line"],
+                    "Middle North": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[3982, -17736], [3969, -17734]],
+                [[3982, -17734], [3980, -17731]],
+                [[3969, -17734], [3971, -17731]]
+            ]
+        },
+        {
+            "name": "Parthia JCT",
+            "type": "jct",
+            "id": 560,
+            "x": 18972,
+            "z": -1980,
+            "lines": {
+                "TNIH": {
+                    "Makran": ["", "Main line"],
+                    "Arabia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bahrain JCT",
+            "type": "jct",
+            "id": 561,
+            "x": 18340,
+            "z": -1580,
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Main line to Bahrain branch"]
+                }
+            }
+        },
+        {
+            "name": "Bahrain",
+            "id": 562,
+            "x": 18122,
+            "z": -1580,
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Bahrain branch"]
+                }
+            }
+        },
+        {
+            "name": "Qatar",
+            "id": 563,
+            "x": 18340,
+            "z": -1256,
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Doha",
+            "id": 564,
+            "x": 18340,
+            "z": -1070,
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Al-Qassim",
+            "id": 565,
+            "x": 16606,
+            "z": -634,
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Riyad",
+            "id": 566,
+            "x": 16308,
+            "z": -159,
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nantong Eastern Core Area",
+            "id": 567,
+            "x": 43303,
+            "z": -3966,
+            "lines": {
+                "Subway": {
+                    "Nantong-Chongming Island": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nantong Smeltery",
+            "id": 568,
+            "x": 43311,
+            "z": -3931,
+            "lines": {
+                "Subway": {
+                    "Nantong-Chongming Island": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nantong Iron Farm",
+            "id": 569,
+            "x": 43391,
+            "z": -3931,
+            "lines": {
+                "Subway": {
+                    "Nantong-Chongming Island": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Novy Krakow",
+            "id": 570,
+            "x": 51296.5,
+            "z": -16181.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (North)"]
+                }
+            }
+        },
+        {
+            "name": "Bestyakh",
+            "id": 571,
+            "x": 45021,
+            "z": -19177,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Bestyakh branch"]
+                }
+            }
+        },
+        {
+            "name": "Oulu (Finland International)",
+            "id": 572,
+            "x": 9144,
+            "z": -19509,
+            "areas": [
+                [[9135, -19511], [9158, -19488]],
+                [[9109, -19504], [9147, -19488]],
+                [[9147, -19494], [9152, -19477]],
+                [[9134, -19483], [9151, -19476]]
+            ],
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Main line"],
+                    "Line 2": ["", "Main line"]
+                },
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Finland": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Stonehedge",
+            "id": 573,
+            "x": 9348,
+            "z": -19396,
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kajaani Downwards Elevator",
+            "type": "elev-we",
+            "id": 574,
+            "x": 9348,
+            "z": -19072,
+            "y1": 69,
+            "y2": 53,
+            "areas": [
+                [[9346, -19116], [9350, -19028]]
+            ],
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kajaani 1nd Upwards Elevator",
+            "type": "elev-ew",
+            "id": 575,
+            "x": 9348,
+            "z": -17908,
+            "y1": 53,
+            "y2": 58,
+            "areas": [
+                [[9346, -17921], [9350, -17895]]
+            ],
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kajaani 2nd Upwards Elevator",
+            "type": "elev-ew",
+            "id": 576,
+            "x": 9348,
+            "z": -17816,
+            "y1": 58,
+            "y2": 69,
+            "areas": [
+                [[9346, -17844], [9350, -17788]]
+            ],
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "St Michael Upwards Elevator",
+            "type": "elev-ew",
+            "id": 577,
+            "x": 9442.5,
+            "z": -17784,
+            "y1": 69,
+            "y2": 71,
+            "areas": [
+                [[9434, -17786], [9451, -17782]]
+            ],
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "St Michael",
+            "id": 578,
+            "x": 9702,
+            "z": -17784,
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "St Michael Downwards Elevator",
+            "type": "elev-we",
+            "id": 579,
+            "x": 9913.5,
+            "z": -17741,
+            "y1": 69,
+            "y2": 71,
+            "areas": [
+                [[9868, -17743], [9959, -17739]]
+            ],
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kitee",
+            "id": 580,
+            "x": 10751,
+            "z": -17741,
+            "areas": [
+                [[10742, -17742], [10758, -17731]],
+                [[10732, -17740], [10743, -17733]],
+                [[10739, -17740], [10758, -17731]],
+                [[10722, -17739], [10731, -17730]],
+                [[10731, -17739], [10734, -17733]]
+            ],
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Main line"]
+                },
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Rovaniemi",
+            "id": 581,
+            "x": 9204,
+            "z": -20357,
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 2": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Akira",
+            "id": 582,
+            "x": 9604,
+            "z": -20229,
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 2": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Stockholm",
+            "id": 583,
+            "x": 6454.5,
+            "z": -16159.5,
+            "areas": [
+                [[6440, -16196], [6446, -16190]],
+                [[6443, -16193], [6446, -16159]],
+                [[6443, -16162], [6460, -16159]],
+                [[6448, -16169], [6461, -16154]]
+            ],
+            "lines": {
+                "Sweden": {
+                    "Red": ["", "Main line"]
+                },
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Sweden": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Norrkoping",
+            "id": 584,
+            "x": 5686.5,
+            "z": -15805.5,
+            "areas": [
+                [[5680, -15818], [5693, -15796]],
+                [[5682, -15799], [5689, -15792]]
+            ],
+            "lines": {
+                "Sweden": {
+                    "Red": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Vadstena",
+            "id": 585,
+            "x": 5342.5,
+            "z": -15673.5,
+            "lines": {
+                "Sweden": {
+                    "Red": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Jojoland",
+            "id": 586,
+            "x": 5342.5,
+            "z": -14896,
+            "lines": {
+                "Sweden": {
+                    "Red": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Jojoland Hotel",
+            "id": 587,
+            "x": 5342.5,
+            "z": -14758.5,
+            "lines": {
+                "Sweden": {
+                    "Red": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kallbby",
+            "id": 588,
+            "x": 5301.5,
+            "z": -14585.5,
+            "areas": [
+                [[5296, -14593], [5307, -14577]],
+                [[5296, -14598], [5312, -14583]]
+            ],
+            "lines": {
+                "Sweden": {
+                    "Red": ["", "Main line"],
+                    "Purple": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Malmo",
+            "id": 589,
+            "x": 4725.5,
+            "z": -14396.5,
+            "areas": [
+                [[4703, -14412], [4739, -14381]]
+            ],
+            "lines": {
+                "Sweden": {
+                    "Red": ["", "Main line"],
+                    "Green": ["", "Main line"],
+                    "Purple": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Svellerup",
+            "id": 590,
+            "x": 4812,
+            "z": -14224.5,
+            "areas": [
+                [[4807, -14250], [4817, -14208]]
+            ],
+            "lines": {
+                "Sweden": {
+                    "Red": ["", "Main line"],
+                    "Green": ["", "Main line"],
+                    "Purple": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Koarp (JCT)",
+            "id": 591,
+            "x": 4720.5,
+            "z": -14695,
+            "areas": [
+                [[4807, -14250], [4817, -14208]]
+            ],
+            "lines": {
+                "Sweden": {
+                    "Purple": ["", "Main line"],
+                    "Blue": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Gothenburg",
+            "id": 592,
+            "x": 4337.5,
+            "z": -15353.5,
+            "areas": [
+                [[4303, -15384], [4352, -15346]],
+                [[4305, -15402], [4348, -15384]],
+                [[4326, -15418], [4331, -15358]],
+                [[4326, -15418], [4338, -15406]]
+            ],
+            "lines": {
+                "Sweden": {
+                    "Purple": ["", "Main line"]
+                },
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Sweden": ["", "Gothenburg line"]
+                }
+            }
+        },
+        {
+            "name": "Swedini",
+            "id": 593,
+            "x": 4580,
+            "z": -14687.5,
+            "lines": {
+                "Sweden": {
+                    "Blue": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Feenvall",
+            "id": 594,
+            "x": 4885.5,
+            "z": -14933.5,
+            "lines": {
+                "Sweden": {
+                    "Green": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yusha",
+            "id": 595,
+            "x": 45806,
+            "z": -18531,
+            "lines": {
+                "Yakutia Metro": {
+                    "Yusha": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Magos",
+            "id": 596,
+            "x": 48565,
+            "z": -22557,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Al-Mahani Mineshaft",
+            "type": "semi3",
+            "id": 597,
+            "x": 14474,
+            "z": -159,
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Thuwal JCT",
+            "type": "jct",
+            "id": 598,
+            "x": 14139,
+            "z": -159,
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Main line to Thuwal branch"]
+                }
+            }
+        },
+        {
+            "name": "Thuwal",
+            "id": 599,
+            "x": 14139,
+            "z": -151,
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Thuwal branch"]
+                }
+            }
+        },
+        {
+            "name": "Yanbu",
+            "id": 600,
+            "x": 14069,
+            "z": -242,
+            "areas": [
+                [[14065, -245], [14073, -235]],
+                [[14051, -240], [14077, -234]]
+            ],
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Al-Hawiyah JCT",
+            "type": "jct",
+            "id": 601,
+            "x": 15470,
+            "z": -159,
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Main line to Al-Hawiyah branch"]
+                }
+            }
+        },
+        {
+            "name": "Al-Hawiyah",
+            "id": 602,
+            "x": 15470,
+            "z": 310,
+            "lines": {
+                "TNIH": {
+                    "Arabia": ["", "Al-Hawiyah branch"]
+                }
+            }
+        },
+        {
+            "name": "Zeya JCT",
+            "type": "jct",
+            "id": 603,
+            "x": 46352,
+            "z": -13899,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line to Berkakit branch"]
+                }
+            }
+        },
+        {
+            "name": "Berkakit",
+            "id": 604,
+            "x": 45947,
+            "z": -13844,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Berkakit branch"]
+                }
+            }
+        },
+        {
+            "name": "USG JCT",
+            "type": "jct",
+            "id": 605,
+            "x": 47358,
+            "z": -13899,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line to USG branch"]
+                }
+            }
+        },
+        {
+            "name": "USG",
+            "id": 606,
+            "x": 47358,
+            "z": -13558,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "USG branch"]
+                }
+            }
+        },
+        {
+            "name": "Spokane",
+            "id": 607,
+            "x": -42380,
+            "z": -10546,
+            "lines": {
+                "Canarail": {
+                    "Spokane": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Farallon",
+            "id": 608,
+            "x": -42990,
+            "z": -10703,
+            "lines": {
+                "Canarail": {
+                    "Farallon": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Farallon JCT",
+            "type": "jct",
+            "id": 609,
+            "x": -42990,
+            "z": -10863,
+            "lines": {
+                "Canarail": {
+                    "Cascadia Main": ["", "Main line"],
+                    "Farallon": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Coquitlam Junction",
+            "type": "jct",
+            "id": 610,
+            "x": -42990,
+            "z": -11108,
+            "lines": {
+                "Canarail": {
+                    "Farallon": ["", "Main line to Coquitlam branch"]
+                }
+            }
+        },
+        {
+            "name": "Coquitlam",
+            "id": 611,
+            "x": -43190,
+            "z": -11108,
+            "lines": {
+                "Canarail": {
+                    "Farallon": ["", "Coquitlam branch"]
+                }
+            }
+        },
+        {
+            "name": "Duck Town Junction",
+            "type": "jct",
+            "id": 612,
+            "x": -42099,
+            "z": -12347,
+            "lines": {
+                "Canarail": {
+                    "Farallon": ["", "Main line to Trans Canadian Ice Rail connector"]
+                }
+            }
+        },
+        {
+            "name": "Northern Canada Junction",
+            "type": "jct",
+            "id": 613,
+            "x": -42099,
+            "z": -12209,
+            "lines": {
+                "Canarail": {
+                    "Trans Canadian Ice Rail": ["", ""],
+                    "Farallon": ["", "Trans Canadian Ice Rail connector"]
+                }
+            }
+        },
+        {
+            "name": "Duck Town",
+            "id": 614,
+            "x": -42085,
+            "z": -12347,
+            "lines": {
+                "Canarail": {
+                    "Farallon": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Wyndham",
+            "id": 615,
+            "x": 46040,
+            "z": 13512.5,
+            "areas": [
+                [[46033, 13504], [46048, 13514]],
+                [[46035, 13496], [46040, 13505]],
+                [[46035, 13496], [46046, 13501]],
+                [[46043, 13493], [46053, 13502]],
+                [[46043, 13484], [46052, 13496]],
+                [[46031, 13478], [46049, 13489]],
+                [[46042, 13496], [46047, 13533]]
+            ],
+            "lines": {
+                "Oceania": {
+                    "Blue": ["BL03", "Main line"],
+                    "Yellow": ["Y06", "Main line"]
+                },
+                "Intercontinental": {
+                    "Twi Islands-Wyndham": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Ouagadougou",
+            "id": 616,
+            "x": 46568.5,
+            "z": 13000.5,
+            "lines": {
+                "Oceania": {
+                    "Blue": ["BL04", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "West Darwin",
+            "id": 617,
+            "x": 46824.5,
+            "z": 12776.5,
+            "lines": {
+                "Oceania": {
+                    "Blue": ["BL05", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Darwin",
+            "id": 618,
+            "x": 47240.5,
+            "z": 12616.5,
+            "areas": [
+                [[47219, 12619], [47237, 12634]],
+                [[47233, 12601], [47250, 12619]],
+                [[47233, 12594], [47247, 12608]],
+                [[47241, 12594], [47266, 12627]],
+                [[47246, 12600], [47256, 12635]]
+            ],
+            "lines": {
+                "Oceania": {
+                    "Blue": ["BL06", "Main line"],
+                    "Purple": ["PU08", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Botany",
+            "id": 619,
+            "x": 47608.5,
+            "z": 12376.5,
+            "lines": {
+                "Oceania": {
+                    "Blue": ["BL07", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Warruwi",
+            "id": 620,
+            "x": 47752.5,
+            "z": 12312.5,
+            "areas": [
+                [[47745, 12296], [47759, 12316]],
+                [[47769, 12289], [47754, 12303]],
+                [[47738, 12289], [47754, 12294]],
+                [[47734, 12270], [47743, 12294]],
+                [[47734, 12242], [47738, 12324]],
+                [[47734, 12312], [47752, 12316]],
+                [[47744, 12302], [47755, 12319]]
+            ],
+            "lines": {
+                "Oceania": {
+                    "Blue": ["BL08", "Main line"],
+                    "Yellow": ["Y01", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "One Haven",
+            "id": 621,
+            "x": 47928.5,
+            "z": 12328.5,
+            "lines": {
+                "Oceania": {
+                    "Blue": ["BL09", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kowanyama",
+            "id": 622,
+            "x": 50728.5,
+            "z": 13768.5,
+            "lines": {
+                "Oceania": {
+                    "Purple": ["PU04", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Pellow",
+            "id": 623,
+            "x": 48952.5,
+            "z": 13768.5,
+            "lines": {
+                "Oceania": {
+                    "Purple": ["PU05", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yamba",
+            "id": 624,
+            "x": 48858.5,
+            "z": 13032.5,
+            "lines": {
+                "Oceania": {
+                    "Purple": ["PU06", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Watertown",
+            "id": 625,
+            "x": 47768.5,
+            "z": 12808.5,
+            "areas": [
+                [[47760, 12796], [47777, 12812]],
+                [[47766, 12785], [47776, 12799]],
+                [[47760, 12785], [47772, 12790]],
+                [[47760, 12770], [47765, 12799]],
+                [[47746, 12794], [47765, 12799]],
+                [[47746, 12794], [47751, 12811]],
+                [[47743, 12802], [47748, 12811]],
+                [[47743, 12795], [47758, 12807]],
+                [[47738, 12783], [47754, 12801]],
+                [[47727, 12774], [47731, 12801]],
+                [[47727, 12799], [47755, 12805]],
+                [[47749, 12799], [47755, 12811]]
+            ],
+            "lines": {
+                "Oceania": {
+                    "Purple": ["PU07", "Main line"],
+                    "Yellow": ["Y02", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tower",
+            "id": 626,
+            "x": 47704.5,
+            "z": 13048.5,
+            "lines": {
+                "Oceania": {
+                    "Yellow": ["Y03", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Holy Australia",
+            "id": 627,
+            "x": 47304.5,
+            "z": 13208.5,
+            "lines": {
+                "Oceania": {
+                    "Yellow": ["Y04", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sunscorch Creek",
+            "id": 628,
+            "x": 47064.5,
+            "z": 13676.5,
+            "lines": {
+                "Oceania": {
+                    "Yellow": ["Y05", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Fort St Svetlana JCT",
+            "type": "jct",
+            "id": 629,
+            "x": 44062,
+            "z": -20649,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Lensk branch to Fort St Svetlana branch"]
+                }
+            }
+        },
+        {
+            "name": "Fort St Svetlana",
+            "id": 630,
+            "x": 44298.5,
+            "z": -20681,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Fort St Svetlana branch"]
+                }
+            }
+        },
+        {
+            "name": "<2> Blazerwood South Junction",
+            "type": "jct",
+            "id": 631,
+            "x": 62695,
+            "z": 22097,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "Auckland Circle": ["", "Main line"],
+                    "Blazerwood": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "<3> South Kaipara Head Junction",
+            "type": "jct",
+            "id": 632,
+            "x": 62320,
+            "z": 21729,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "Auckland Circle": ["", "Main line"],
+                    "South Pacific Link": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "<4> Hauraki Gulf Junction",
+            "type": "jct",
+            "id": 633,
+            "x": 62695,
+            "z": 21729,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "Auckland Circle": ["", "Main line", "Octogon ramp"],
+                    "Blazerwood": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "<6> Zealandia Junction",
+            "type": "jct",
+            "id": 634,
+            "x": 62800,
+            "z": 24605,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y7)": ["", "Main line"],
+                    "NZ Highway 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "<7> Horsely West",
+            "type": "jct",
+            "id": 635,
+            "x": 60521,
+            "z": 25437,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "NZ North-South Main (Y-62)": ["", "Main line"],
+                    "NZ Highway 1": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "<3> Matauri Bay",
+            "type": "jct",
+            "id": 636,
+            "x": 62320,
+            "z": 21100,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "South Pacific Link": ["", "Main line", "Yordle Land Ramp"]
+                }
+            }
+        },
+        {
+            "name": "Yordle Land",
+            "id": 637,
+            "x": 62118,
+            "z": 21100,
+            "lines": {
+                "NZ Ministry of Infrastructure": {
+                    "South Pacific Link": ["", "Yordle Land Ramp"]
+                }
+            }
+        },
+        {
+            "name": "TownyMcTownFace JCT",
+            "id": 638,
+            "x": 55500,
+            "z": -11500,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (South) to TownyMcTownFace branch"]
+                }
+            }
+        },
+        {
+            "name": "TownyMcTownFace",
+            "id": 639,
+            "x": 55252,
+            "z": -11500,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "TownyMcTownFace branch"]
+                }
+            }
+        },
+        {
+            "name": "Rashowakai Mineshaft",
+            "type": "semi1",
+            "id": 640,
+            "x": 55109,
+            "z": -10550,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (South)"]
+                }
+            }
+        },
+        {
+            "name": "Rashowa",
+            "id": 641,
+            "x": 54840,
+            "z": -10550,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (South)"]
+                }
+            }
+        },
+        {
+            "name": "Simushir",
+            "id": 642,
+            "x": 54354,
+            "z": -10123,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (South)"]
+                }
+            }
+        },
+        {
+            "name": "Vulkan Chernogo",
+            "id": 643,
+            "x": 54023,
+            "z": -10096,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (South)"]
+                }
+            }
+        },
+        {
+            "name": "Tolbuhin-Onigashima",
+            "id": 644,
+            "x": 53729,
+            "z": -9687,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (South)"]
+                }
+            }
+        },
+        {
+            "name": "Loulan Elevator",
+            "type": "elev-we",
+            "id": 645,
+            "x": 32314.5,
+            "z": -8808,
+            "y1": 50,
+            "y2": 10,
+            "lines": {
+                "Gobi Transport": {
+                    "Xinjiang": ["", "Loulan branch"]
+                }
+            }
+        },
+        {
+            "name": "Loulan JCT",
+            "type": "jct",
+            "id": 646,
+            "x": 32314.5,
+            "z": -7358,
+            "lines": {
+                "Gobi Transport": {
+                    "Xinjiang": ["", "Loulan branch to Loulan South branch"]
+                }
+            }
+        },
+        {
+            "name": "Buha Elevator",
+            "type": "elev-ew",
+            "id": 647,
+            "x": 32397,
+            "z": -5090,
+            "lines": {
+                "Gobi Transport": {
+                    "Xinjiang": ["", "Loulan South branch"],
+                    "North-South Main": ["", "Loulan South branch"]
+                }
+            }
+        },
+        {
+            "name": "Buha JCT",
+            "type": "jct",
+            "id": 648,
+            "x": 32593,
+            "z": -5090,
+            "lines": {
+                "Gobi Transport": {
+                    "North-South Main": ["", "Main line to Loulan South branch"]
+                }
+            }
+        },
+        {
+            "name": "Heiyan",
+            "id": 649,
+            "x": 36038,
+            "z": -5880,
+            "lines": {
+                "China": {
+                    "Heiyan-Junzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Singapore Underground JCT",
+            "type": "jct",
+            "id": 650,
+            "x": 36044,
+            "z": -5094,
+            "lines": {
+                "China": {
+                    "Heiyan-Junzhou": ["", "Main line to Gobi Transport connector"]
+                }
+            }
+        },
+        {
+            "name": "New Singapore Elevator",
+            "type": "elev-ew",
+            "id": 651,
+            "x": 36039,
+            "z": -5094,
+            "y1": 47,
+            "y2": 110,
+            "lines": {
+                "China": {
+                    "Heiyan-Junzhou": ["", "Gobi Transport connector"]
+                }
+            }
+        },
+        {
+            "name": "New Singapore Overground JCT",
+            "type": "jct",
+            "id": 652,
+            "x": 36039,
+            "z": -5090,
+            "lines": {
+                "China": {
+                    "Heiyan-Junzhou": ["", "Gobi Transport connector"]
+                },
+                "Gobi Transport": {
+                    "Eastern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Chengdu",
+            "id": 653,
+            "x": 37538,
+            "z": -3544,
+            "lines": {
+                "China": {
+                    "Heiyan-Junzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Deyang",
+            "id": 654,
+            "x": 37704,
+            "z": -3544,
+            "lines": {
+                "China": {
+                    "Heiyan-Junzhou": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Junzhou West JCT",
+            "type": "jct",
+            "id": 655,
+            "x": 38494,
+            "z": -3544,
+            "lines": {
+                "China": {
+                    "Heiyan-Junzhou": ["", "Main line"],
+                    "Baoji-Guiyang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Junzhou East JCT",
+            "type": "jct",
+            "id": 656,
+            "x": 38825,
+            "z": -3544,
+            "lines": {
+                "China": {
+                    "Heiyan-Junzhou": ["", "Main line"],
+                    "Junzhou-Beibuwan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Monumenta JCT",
+            "type": "jct",
+            "id": 657,
+            "x": 48565,
+            "z": -21310,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Main line"],
+                    "Azur": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Azur",
+            "id": 658,
+            "x": 49400,
+            "z": -21051,
+            "lines": {
+                "TNIH": {
+                    "Azur": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Higashi-Yasugi Mine",
+            "type": "semi1",
+            "id": 659,
+            "x": 49963,
+            "z": -21051,
+            "lines": {
+                "TNIH": {
+                    "Azur": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kaurora JCT",
+            "type": "jct",
+            "id": 660,
+            "x": 27518,
+            "z": 99.5,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line to Sita Bypass"]
+                }
+            }
+        },
+        {
+            "name": "Valmora JCT",
+            "type": "jct",
+            "id": 661,
+            "x": 28317,
+            "z": 99.5,
+            "lines": {
+                "TNIH": {
+                    "Deccan": ["", "Main line"],
+                    "Narmada": ["", "Sita Bypass"]
+                }
+            }
+        },
+        {
+            "name": "Arrah JCT",
+            "type": "jct",
+            "id": 662,
+            "x": 30134,
+            "z": -1436,
+            "lines": {
+                "TNIH": {
+                    "Ganga": ["", "Patliputra branch to Patliputra-Sita connector"]
+                }
+            }
+        },
+        {
+            "name": "Anuppur JCT",
+            "type": "jct",
+            "id": 663,
+            "x": 29501,
+            "z": -315.5,
+            "lines": {
+                "TNIH": {
+                    "Narmada": ["", "Main line"],
+                    "Ganga": ["", "Patliputra-Sita connector"]
+                }
+            }
+        },
+        {
+            "name": "Ayanka",
+            "id": 664,
+            "x": 59967,
+            "z": -18765,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Leshnybor branch"]
+                }
+            }
+        },
+        {
+            "name": "Chiang Mai",
+            "id": 665,
+            "x": 36050.5,
+            "z": 755.5,
+            "lines": {
+                "Intercontinental": {
+                    "Thailand": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yangon JCT",
+            "type": "jct",
+            "id": 666,
+            "x": 36050.5,
+            "z": 2078.5,
+            "lines": {
+                "Intercontinental": {
+                    "Thailand": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bangkok",
+            "id": 667,
+            "x": 36045.5,
+            "z": 3030.5,
+            "lines": {
+                "Intercontinental": {
+                    "Thailand": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Baoji",
+            "id": 668,
+            "x": 38353,
+            "z": -4903,
+            "areas": [
+                [[38347, -4912], [38371, -4881]]
+            ],
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"],
+                    "Baoji-Zhumadian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hanzhong JCT",
+            "type": "jct",
+            "id": 669,
+            "x": 38854,
+            "z": -4455,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"],
+                    "Baoji-Zhumadian": ["", "Xianyang Metro Branch"]
+                }
+            }
+        },
+        {
+            "name": "Hanzhong",
+            "id": 670,
+            "x": 38948,
+            "z": -4455,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hanzhong Elevator",
+            "type": "elev-we",
+            "id": 671,
+            "x": 39005,
+            "z": -4450,
+            "y1": 69,
+            "y2": 47,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Junzhou Northeast JCT",
+            "type": "jct",
+            "id": 672,
+            "x": 38825,
+            "z": -3822,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"],
+                    "Junzhou-Beibuwan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Gucheng",
+            "id": 673,
+            "x": 38494,
+            "z": -3417,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Blw JCT",
+            "type": "jct",
+            "id": 674,
+            "x": 38494,
+            "z": -3073,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line to Blw branch"]
+                }
+            }
+        },
+        {
+            "name": "Blw",
+            "id": 675,
+            "x": 38527,
+            "z": -3073,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Blw branch"]
+                }
+            }
+        },
+        {
+            "name": "Fxa Elevator",
+            "type": "elev-ew",
+            "id": 676,
+            "x": 38433,
+            "z": -3073,
+            "y1": 47,
+            "y2": 61,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Fxa JCT",
+            "type": "jct",
+            "id": 677,
+            "x": 38431,
+            "z": -2913,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line to Fxa branch"]
+                }
+            }
+        },
+        {
+            "name": "Fxa",
+            "id": 678,
+            "x": 38462,
+            "z": -2913,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Fxa branch"]
+                }
+            }
+        },
+        {
+            "name": "Chongqing JCT",
+            "type": "jct",
+            "id": 679,
+            "x": 38431,
+            "z": -2739,
+            "areas": [
+                [[38426, -2743], [38436, -2734]]
+            ],
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line to Chongqing branch"]
+                }
+            }
+        },
+        {
+            "name": "Chongqing",
+            "id": 680,
+            "x": 38230,
+            "z": -2739,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Chongqing branch"]
+                }
+            }
+        },
+        {
+            "name": "Zunyi JCT",
+            "type": "jct",
+            "id": 681,
+            "x": 38356,
+            "z": -2276,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line to Zunyi branch"]
+                }
+            }
+        },
+        {
+            "name": "Zunyi",
+            "id": 682,
+            "x": 38250,
+            "z": -2276,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Zunyi branch"]
+                }
+            }
+        },
+        {
+            "name": "Guiyang 1st Elevator",
+            "type": "elev-we",
+            "id": 683,
+            "x": 38355,
+            "z": -2017,
+            "y1": 61,
+            "y2": 76,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Guiyang 2nd Elevator",
+            "type": "elev-we",
+            "id": 684,
+            "x": 38355,
+            "z": -1916,
+            "y1": 76,
+            "y2": 84,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Guiyang JCT",
+            "type": "jct",
+            "id": 685,
+            "x": 38360,
+            "z": -1880,
+            "areas": [
+                [[38352, -1888], [38367, -1873]]
+            ],
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "2nd Guiyang East JCT",
+            "type": "jct",
+            "id": 686,
+            "x": 38825,
+            "z": -1783,
+            "lines": {
+                "China": {
+                    "Junzhou-Beibuwan": ["", "Main line to Guiyang East Elevator"]
+                }
+            }
+        },
+        {
+            "name": "Guiyang East Elevator",
+            "type": "elev-we",
+            "id": 687,
+            "x": 38845,
+            "z": -1801,
+            "y1": 47,
+            "y2": 69,
+            "lines": {
+                "China": {
+                    "Junzhou-Beibuwan": ["", "Guiyang East Elevator"]
+                }
+            }
+        },
+        {
+            "name": "1st Guiyang East JCT",
+            "type": "jct",
+            "id": 688,
+            "x": 38845,
+            "z": -1815,
+            "lines": {
+                "China": {
+                    "Guiyang-Guilin Lower": ["", "Main line"],
+                    "Junzhou-Beibuwan": ["", "Guiyang East Elevator"]
+                }
+            }
+        },
+        {
+            "name": "Nanning City",
+            "id": 689,
+            "x": 38825,
+            "z": -369,
+            "lines": {
+                "China": {
+                    "Junzhou-Beibuwan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Beibuwan",
+            "id": 690,
+            "x": 38721,
+            "z": 174,
+            "lines": {
+                "China": {
+                    "Junzhou-Beibuwan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Squishygrad",
+            "id": 691,
+            "x": 51032,
+            "z": -21051,
+            "lines": {
+                "TNIH": {
+                    "Azur": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Raufoss JCT",
+            "type": "jct",
+            "id": 692,
+            "x": 3444,
+            "z": -16857,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Main line to Northern Route"]
+                }
+            }
+        },
+        {
+            "name": "Kvam",
+            "id": 693,
+            "x": 3444,
+            "z": -17537,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Northern Route"]
+                }
+            }
+        },
+        {
+            "name": "Kvam JCT",
+            "type": "jct",
+            "id": 694,
+            "x": 3194,
+            "z": -17659,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Northern Route to Trondheim branch"]
+                }
+            }
+        },
+        {
+            "name": "Alesund South JCT",
+            "type": "jct",
+            "id": 695,
+            "x": 2433,
+            "z": -17659,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Northern Route to Vestnes Kommune branch"]
+                }
+            }
+        },
+        {
+            "name": "Folk",
+            "id": 696,
+            "x": 2216,
+            "z": -17481,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Northern Route"]
+                }
+            }
+        },
+        {
+            "name": "Ravnfjord",
+            "id": 697,
+            "x": 2216,
+            "z": -17336,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Northern Route"]
+                }
+            }
+        },
+        {
+            "name": "Baden",
+            "id": 698,
+            "x": 2216,
+            "z": -17242,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Northern Route"]
+                }
+            }
+        },
+        {
+            "name": "Baden JCT",
+            "type": "jct",
+            "id": 699,
+            "x": 2216,
+            "z": -16928,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Main line to Northern Route"]
+                }
+            }
+        },
+        {
+            "name": "Vestnes Kommune",
+            "id": 700,
+            "x": 2534,
+            "z": -17944,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Vestnes Kommune branch"]
+                }
+            }
+        },
+        {
+            "name": "Valle",
+            "id": 701,
+            "x": 3001,
+            "z": -17324,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Valle branch"]
+                }
+            }
+        },
+        {
+            "name": "Tom Sawyer (Berk)",
+            "id": 702,
+            "x": 3194,
+            "z": -17961,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Trondheim branch"]
+                }
+            }
+        },
+        {
+            "name": "Trondheim elevator",
+            "type": "elev-we",
+            "id": 703,
+            "x": 3728,
+            "z": -18265,
+            "y1": 75,
+            "y2": 71,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Trondheim branch"]
+                }
+            }
+        },
+        {
+            "name": "Trondheim North JCT",
+            "type": "jct",
+            "id": 704,
+            "x": 3751,
+            "z": -18490,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Middle North": ["", "Main line to Östersund branch"]
+                }
+            }
+        },
+        {
+            "name": "Östersund",
+            "id": 705,
+            "x": 5115,
+            "z": -18434,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Middle North": ["", "Östersund branch"]
+                }
+            }
+        },
+        {
+            "name": "Leestheim JCT",
+            "type": "jct",
+            "id": 706,
+            "x": 6567,
+            "z": -21290,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper North": ["", "Main line to Stuor Muorkke branch"]
+                }
+            }
+        },
+        {
+            "name": "Leestheim",
+            "id": 707,
+            "x": 6772,
+            "z": -21336,
+            "areas": [
+                [[6763, -21351], [6782, -21328]]
+            ],
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Stuor Muorkke",
+            "id": 708,
+            "x": 6567,
+            "z": -20878,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper North": ["", "Stuor Muorkke branch"]
+                }
+            }
+        },
+        {
+            "name": "Narvik JCT",
+            "type": "jct",
+            "id": 709,
+            "x": 6070,
+            "z": -21290,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper North": ["", "Main line"],
+                    "Svalbard": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Narvik Elevator",
+            "type": "elev-ew",
+            "id": 710,
+            "x": 6070,
+            "z": -21480,
+            "y1": 75,
+            "y2": 65,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Svalbard": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Newer Friendland",
+            "id": 711,
+            "x": 6070,
+            "z": -21834,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Svalbard": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Newer Friendland Elevator",
+            "type": "elev-ew",
+            "id": 712,
+            "x": 6070,
+            "z": -21917,
+            "y1": 65,
+            "y2": -62,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Svalbard": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Svalbard South Elevator",
+            "type": "elev-we",
+            "id": 713,
+            "x": 6070,
+            "z": -27158,
+            "y1": -62,
+            "y2": 70,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Svalbard": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Longyearbyen",
+            "id": 714,
+            "x": 5655,
+            "z": -28104,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Svalbard": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Asgard JCT",
+            "type": "jct",
+            "id": 715,
+            "x": 5863,
+            "z": -21290,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper North": ["", "Main line to Asgard branch"]
+                }
+            }
+        },
+        {
+            "name": "Asgard",
+            "id": 716,
+            "x": 5863,
+            "z": -21434,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper North": ["", "Asgard branch"]
+                }
+            }
+        },
+        {
+            "name": "Oslo Flyover West Elevator",
+            "type": "elev-ew",
+            "id": 717,
+            "x": 3860,
+            "z": -16617,
+            "y1": 65,
+            "y2": 73,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Sweden": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Oslo Flyover East Elevator",
+            "type": "elev-we",
+            "id": 718,
+            "x": 4007,
+            "z": -16618,
+            "y1": 73,
+            "y2": 65,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Sweden": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kongsberg",
+            "id": 719,
+            "x": 4280,
+            "z": -16618,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Sweden": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Skotterud",
+            "id": 720,
+            "x": 4408,
+            "z": -16568,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Sweden": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Karlstad Bridge West Elevator",
+            "type": "elev-ew",
+            "id": 721,
+            "x": 4812,
+            "z": -16311,
+            "y1": 65,
+            "y2": 69,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Sweden": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Karlstad Bridge East Elevator",
+            "type": "elev-we",
+            "id": 722,
+            "x": 4864,
+            "z": -16311,
+            "y1": 69,
+            "y2": 65,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Sweden": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Karlstad",
+            "id": 723,
+            "x": 4907,
+            "z": -16311,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Sweden": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kolbeck West Elevator",
+            "type": "elev-we",
+            "id": 724,
+            "x": 5867,
+            "z": -16311,
+            "y1": 65,
+            "y2": 9,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Sweden": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Stockholm International",
+            "id": 725,
+            "x": 6432,
+            "z": -16249,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Sweden": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Aland",
+            "id": 726,
+            "x": 4087,
+            "z": -16121,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Sweden": ["", "Gothenburg line"]
+                }
+            }
+        },
+        {
+            "name": "Fredikstad",
+            "id": 727,
+            "x": 3945,
+            "z": -16217,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "South": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Moss",
+            "id": 728,
+            "x": 3863,
+            "z": -16297,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "South": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ed",
+            "id": 729,
+            "x": 4254,
+            "z": -15966,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Sweden": ["", "Gothenburg line"]
+                }
+            }
+        },
+        {
+            "name": "Alesund Underground",
+            "id": 730,
+            "x": 2459,
+            "z": -17832,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Vestnes Kommune branch"]
+                }
+            }
+        },
+        {
+            "name": "Nordvail",
+            "id": 731,
+            "x": 4023,
+            "z": -18979,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Korsgard",
+            "id": 732,
+            "x": 4488,
+            "z": -19368,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Rana",
+            "id": 733,
+            "x": 5173,
+            "z": -20146,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Korsgard",
+            "id": 734,
+            "x": 5863,
+            "z": -21082,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper North": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Wandenreich",
+            "id": 735,
+            "x": 3001,
+            "z": -17324,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Valle branch"]
+                }
+            }
+        },
+        {
+            "name": "Makfrost East",
+            "id": 736,
+            "x": 2216,
+            "z": -16381,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Stavanger International",
+            "id": 737,
+            "x": 2216,
+            "z": -15758,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Great line"],
+                    "Norway-Netherlands": ["", "Main line"],
+                    "Norway-Germany": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mapplatform JCT",
+            "type": "jct",
+            "id": 738,
+            "x": 1895,
+            "z": -14649,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Norway-Netherlands": ["", "Main line to Mapplatform branch"]
+                }
+            }
+        },
+        {
+            "name": "Mapplatform",
+            "id": 739,
+            "x": 1217,
+            "z": -14652,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Norway-Netherlands": ["", "Mapplatform branch"]
+                }
+            }
+        },
+        {
+            "name": "Aubin",
+            "id": 740,
+            "x": 45905,
+            "z": 13346,
+            "lines": {
+                "Intercontinental": {
+                    "Twi Islands-Wyndham": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Downing River (Y=70)",
+            "id": 741,
+            "x": 45905,
+            "z": 13471,
+            "lines": {
+                "Intercontinental": {
+                    "Twi Islands-Wyndham": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Krnąbrność",
+            "id": 742,
+            "x": 45400.5,
+            "z": 13480.5,
+            "areas": [
+                [[45393, 13470], [45407, 13482]],
+                [[45398, 13458], [45406, 13470]],
+                [[45379, 13464], [45384, 13475]],
+                [[45379, 13470], [45405, 13475]]
+            ],
+            "lines": {
+                "Oceania": {
+                    "Yellow": ["Y06", "Main line"],
+                    "Red": ["R03", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Downing River (Y=63)",
+            "id": 743,
+            "x": 45902,
+            "z": 13473,
+            "lines": {
+                "Intercontinental": {
+                    "Downing River-Condingup": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Palmerston",
+            "id": 744,
+            "x": 45721,
+            "z": 13473,
+            "lines": {
+                "Intercontinental": {
+                    "Downing River-Condingup": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Heidelberg",
+            "id": 745,
+            "x": 45721,
+            "z": 14271,
+            "lines": {
+                "Intercontinental": {
+                    "Downing River-Condingup": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Sanctuary",
+            "id": 746,
+            "x": 45713,
+            "z": 16079,
+            "lines": {
+                "Intercontinental": {
+                    "Downing River-Condingup": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Kgari",
+            "id": 747,
+            "x": 45041,
+            "z": 17439,
+            "lines": {
+                "Intercontinental": {
+                    "Downing River-Condingup": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Laverton",
+            "id": 748,
+            "x": 44026,
+            "z": 18719,
+            "lines": {
+                "Intercontinental": {
+                    "Downing River-Condingup": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Condingup (South Coast)",
+            "id": 749,
+            "x": 44025,
+            "z": 20642,
+            "lines": {
+                "Intercontinental": {
+                    "Downing River-Condingup": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Sodankyla",
+            "id": 750,
+            "x": 9555,
+            "z": -20783,
+            "areas": [
+                [[9555, -20789], [9577, -20777]]
+            ],
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 2": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kamuy",
+            "id": 751,
+            "x": 53014,
+            "z": -9405,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (South)"]
+                }
+            }
+        },
+        {
+            "name": "Etorofu",
+            "id": 752,
+            "x": 52750,
+            "z": -9214,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (South)"]
+                }
+            }
+        },
+        {
+            "name": "Faroe Islands",
+            "id": 753,
+            "x": -2403,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Holi Sea",
+            "id": 754,
+            "x": 46520.5,
+            "z": 13292.5,
+            "lines": {
+                "Oceania": {
+                    "Blue": ["BL03a", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kookaburra",
+            "id": 755,
+            "x": 45416.5,
+            "z": 13160.5,
+            "areas": [
+                [[45393, 13470], [45407, 13482]],
+                [[45398, 13458], [45406, 13470]],
+                [[45379, 13464], [45384, 13475]],
+                [[45379, 13470], [45405, 13475]]
+            ],
+            "lines": {
+                "Oceania": {
+                    "Red": ["R02", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Wyndham Upper JCT",
+            "type": "jct",
+            "id": 756,
+            "x": 46028.5,
+            "z": 13480.5,
+            "lines": {
+                "Oceania": {
+                    "Yellow": ["", "Main line to Wyndham elevator"]
+                }
+            }
+        },
+        {
+            "name": "Wyndham Elevator",
+            "type": "elev-we",
+            "id": 757,
+            "x": 46026.5,
+            "z": 13497.5,
+            "y1": 50,
+            "y2": 29,
+            "lines": {
+                "Oceania": {
+                    "Yellow": ["", "Wyndham elevator"]
+                }
+            }
+        },
+        {
+            "name": "Wyndham Lower JCT",
+            "type": "jct",
+            "id": 758,
+            "x": 46028.5,
+            "z": 13512.5,
+            "lines": {
+                "Oceania": {
+                    "Blue": ["", "Main line"],
+                    "Yellow": ["", "Wyndham elevator"]
+                }
+            }
+        },
+        {
+            "name": "Yinghai JCT",
+            "id": 759,
+            "type": "jct",
+            "x": 42565.5,
+            "z": -4166.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yinghai": ["", "Main line"],
+                    "Yingguang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Haizhou JCT",
+            "id": 760,
+            "type": "jct",
+            "x": 42565.5,
+            "z": -4855.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yinghai": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Haizhou",
+            "id": 761,
+            "x": 42752.5,
+            "z": -4855.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yinghai": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tongling-Maanshan",
+            "id": 762,
+            "x": 42225.5,
+            "z": -3399.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yingguang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Anqingfu",
+            "id": 763,
+            "x": 41863.5,
+            "z": -3399.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yingguang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Xunyang JCT",
+            "id": 764,
+            "type": "jct",
+            "x": 41335.5,
+            "z": -2919.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yingguang": ["", "Main line to Wuchang branch"]
+                }
+            }
+        },
+        {
+            "name": "Ruijin",
+            "id": 765,
+            "x": 41335.5,
+            "z": -2481.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yingguang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nanchang",
+            "id": 766,
+            "x": 41335.5,
+            "z": -2298.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yingguang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Wuchang",
+            "id": 767,
+            "x": 41168.5,
+            "z": -2919.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yingguang": ["", "Wuchang branch"]
+                }
+            }
+        },
+        {
+            "name": "Yingtianfu",
+            "id": 768,
+            "x": 42596.5,
+            "z": -4166.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yingguang": ["", "Main line"],
+                    "Yingmeng": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yingmeng JCT",
+            "id": 769,
+            "type": "jct",
+            "x": 42895.5,
+            "z": -4059.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yingmeng": ["", "Main line"],
+                    "Yangtze River Delta East Loop": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Suzhou",
+            "id": 770,
+            "x": 43205.5,
+            "z": -3684.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yangtze River Delta East Loop": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Wuxi",
+            "id": 771,
+            "x": 42985.5,
+            "z": -3684.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yangtze River Delta East Loop": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Xihang JCT",
+            "id": 772,
+            "type": "jct",
+            "x": 42895.5,
+            "z": -3684.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yangtze River Delta East Loop": ["", "Main line"],
+                    "Xihang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nantong (YRD Loop)",
+            "id": 773,
+            "x": 43211.5,
+            "z": -4046.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Yangtze River Delta East Loop": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hangzhou",
+            "id": 774,
+            "x": 43126.5,
+            "z": -3103.5,
+            "lines": {
+                "Ming Underground Ice Rail System": {
+                    "Xihang": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Baoji JCT",
+            "type": "jct",
+            "id": 775,
+            "x": 38341,
+            "z": -5050,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian": ["", "Main line to Krown-Citadel Branch"]
+                }
+            }
+        },
+        {
+            "name": "Jingyang",
+            "id": 776,
+            "x": 38757,
+            "z": -5050,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Xianyang JCT",
+            "type": "jct",
+            "id": 777,
+            "x": 38853,
+            "z": -5050,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian": ["", "Main line to Xianyang Metro Branch"]
+                }
+            }
+        },
+        {
+            "name": "XiAn",
+            "id": 778,
+            "x": 38966,
+            "z": -5050,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Zhumadian JCT",
+            "type": "jct",
+            "id": 779,
+            "x": 39127,
+            "z": -5050,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian": ["", "Main line to Bilibili Branch to Changan Branch"]
+                }
+            }
+        },
+        {
+            "name": "Zhumadian City JCT",
+            "type": "jct",
+            "id": 780,
+            "x": 39205,
+            "z": -5050,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian": ["", "Main line to Zhumadian Branch"]
+                }
+            }
+        },
+        {
+            "name": "Hanguguan Elevator",
+            "type": "elev-we",
+            "id": 781,
+            "x": 39551,
+            "z": -5076,
+            "y1": 86,
+            "y2": 95,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Xianyang Elevator",
+            "type": "elev-we",
+            "id": 782,
+            "x": 38853,
+            "z": -4978,
+            "y1": 86,
+            "y2": 66,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian": ["", "Xianyang Metro Branch"]
+                }
+            }
+        },
+        {
+            "name": "Xianyang",
+            "id": 783,
+            "x": 38853,
+            "z": -4901,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian": ["", "Xianyang Metro Branch"]
+                }
+            }
+        },
+        {
+            "name": "Weiyang",
+            "id": 784,
+            "x": 38853,
+            "z": -4758,
+            "areas": [
+                [[38843, -4833], [38874, -4753]]
+            ],
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian": ["", "Xianyang Metro Branch"]
+                }
+            }
+        },
+        {
+            "name": "Bilibili",
+            "id": 785,
+            "x": 39127,
+            "z": -5213,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian": ["", "Bilibili Branch"]
+                }
+            }
+        },
+        {
+            "name": "Bilibili Elevator",
+            "type": "elev-we",
+            "id": 786,
+            "x": 39127,
+            "z": -5329,
+            "y1": 86,
+            "y2": 80,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian": ["", "Bilibili Branch"]
+                }
+            }
+        },
+        {
+            "name": "Changan",
+            "id": 787,
+            "x": 39127,
+            "z": -4945,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian": ["", "Changan Branch"]
+                }
+            }
+        },
+        {
+            "name": "Zhumadian",
+            "id": 788,
+            "x": 39205,
+            "z": -4955,
+            "areas": [
+                [[39199, -5029], [39235, -4953]]
+            ],
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian": ["", "Zhumadian Branch"]
+                }
+            }
+        },
+        {
+            "name": "Krowntown Citadel JCT",
+            "type": "jct",
+            "id": 789,
+            "x": 37410,
+            "z": -5089,
+            "lines": {
+                "Gobi Transport": {
+                    "Eastern": ["", "Main line"]
+                },
+                "China": {
+                    "Baoji-Zhumadian": ["", "Krown-Citadel Branch"]
+                }
+            }
+        },
+        {
+            "name": "Wild Elevator",
+            "type": "elev-we",
+            "id": 790,
+            "x": 37778,
+            "z": -5050,
+            "y1": 86,
+            "y2": 110,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian": ["", "Krown-Citadel Branch"]
+                }
+            }
+        },
+        {
+            "name": "Krowntown Citadel Elevator",
+            "type": "elev-we",
+            "id": 791,
+            "x": 37434,
+            "z": -5988,
+            "y1": 110,
+            "y2": 90,
+            "lines": {
+                "Gobi Transport": {
+                    "Eastern": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[37429, -5993], [37436, -5986]]
+            ]
+        },
+        {
+            "name": "Liangzhou",
+            "id": 792,
+            "x": 37608,
+            "z": -6082,
+            "lines": {
+                "Gobi Transport": {
+                    "Eastern": ["", "Main line to Liangzhou branch"]
+                }
+            },
+            "areas": [
+                [[37600, -6095], [37616, -6081]],
+                [[37611, -6108], [37616, -6081]]
+            ]
+        },
+        {
+            "name": "Liangzhou East",
+            "id": 793,
+            "x": 37726,
+            "z": -6082,
+            "lines": {
+                "Gobi Transport": {
+                    "Eastern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Shizuishan",
+            "id": 794,
+            "x": 38344,
+            "z": -6696,
+            "areas": [
+                [[38319, -6704], [38369, -6690]]
+            ],
+            "lines": {
+                "Gobi Transport": {
+                    "Eastern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Liangzhou Staircase",
+            "type": "elev-we",
+            "id": 795,
+            "x": 37613,
+            "z": -6104,
+            "y1": 90,
+            "y2": 99,
+            "lines": {
+                "Gobi Transport": {
+                    "Eastern": ["", "Liangzhou branch"]
+                }
+            }
+        },
+        {
+            "name": "Anshun",
+            "id": 796,
+            "x": 38193,
+            "z": -1645,
+            "lines": {
+                "China": {
+                    "Guiyang-Anshun": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Guilin West",
+            "id": 797,
+            "x": 39361,
+            "z": -1297,
+            "lines": {
+                "China": {
+                    "Guiyang-Guilin Lower": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hunan South",
+            "id": 798,
+            "x": 39335,
+            "z": -1864,
+            "lines": {
+                "China": {
+                    "Guiyang-Guilin Lower": ["", "Main line"],
+                    "Hunan-Changsha": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Guilin North",
+            "id": 799,
+            "x": 39535,
+            "z": -1430,
+            "lines": {
+                "China": {
+                    "Guilin-Huzhou Ice & Rail": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Huzhou Elevator",
+            "type": "elev-we",
+            "id": 800,
+            "x": 40740,
+            "z": -1430,
+            "y1": 105,
+            "y2": 87,
+            "lines": {
+                "China": {
+                    "Guilin-Huzhou Ice & Rail": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Shuixi",
+            "id": 801,
+            "x": 41319,
+            "z": -1430,
+            "lines": {
+                "China": {
+                    "Guilin-Huzhou Ice & Rail": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Rail Station",
+            "id": 802,
+            "x": 41766,
+            "z": -1430,
+            "lines": {
+                "China": {
+                    "Guilin-Huzhou Ice & Rail": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Lijiang",
+            "id": 803,
+            "x": 35831,
+            "z": -2017,
+            "lines": {
+                "China": {
+                    "Lijiang-Wumengfu": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Wumengfu",
+            "id": 804,
+            "x": 36907,
+            "z": -2017,
+            "lines": {
+                "China": {
+                    "Lijiang-Wumengfu": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Jinan West",
+            "id": 805,
+            "x": 41953,
+            "z": -6021,
+            "lines": {
+                "China": {
+                    "Hanguguan-Jinan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mao Statue",
+            "id": 806,
+            "x": 41202,
+            "z": -6021,
+            "lines": {
+                "China": {
+                    "Hanguguan-Jinan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mao Statue Elevator",
+            "type": "elev-we",
+            "id": 807,
+            "x": 41013,
+            "z": -6021,
+            "y1": 96,
+            "y2": 71,
+            "lines": {
+                "China": {
+                    "Hanguguan-Jinan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Jiyuan Elevator",
+            "type": "elev-we",
+            "id": 808,
+            "x": 40225,
+            "z": -6021,
+            "y1": 71,
+            "y2": 72,
+            "lines": {
+                "China": {
+                    "Hanguguan-Jinan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Xinhua Elevator",
+            "type": "elev-we",
+            "id": 809,
+            "x": 39746,
+            "z": -6021,
+            "y1": 72,
+            "y2": 73,
+            "lines": {
+                "China": {
+                    "Hanguguan-Jinan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Xinhua Bookstore",
+            "id": 810,
+            "x": 39656,
+            "z": -6021,
+            "lines": {
+                "China": {
+                    "Hanguguan-Jinan": ["", "Xinhua branch"]
+                }
+            }
+        },
+        {
+            "name": "Guiyang South",
+            "id": 811,
+            "x": 38280,
+            "z": -1802,
+            "lines": {
+                "China": {
+                    "Guiyang-Anshun": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Lenavoz",
+            "id": 812,
+            "x": 41480,
+            "z": -16495,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Twisted Halls",
+            "id": 813,
+            "x": 41381,
+            "z": -16188,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kurogane Mine",
+            "type": "semi4",
+            "id": 814,
+            "x": 41381,
+            "z": -15605,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Uchisato Mine",
+            "type": "semi4",
+            "id": 815,
+            "x": 41381,
+            "z": -14525,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nijisai JCT",
+            "type": "jct",
+            "id": 816,
+            "x": -16000,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Qikqtaaluk": ["", "Main line"],
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "SubZero Market",
+            "id": 817,
+            "x": 60058.5,
+            "z": -23840,
+            "lines": {
+                "Intercontinental": {
+                    "SubZero Market-Ayon": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Ayon (SubZero)",
+            "id": 818,
+            "x": 60174,
+            "z": -22370.5,
+            "lines": {
+                "Intercontinental": {
+                    "SubZero Market-Ayon": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Mapplatform JCT",
+            "type": "jct",
+            "id": 819,
+            "x": 1895,
+            "z": -15481,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Norway-Netherlands": ["", "Main line to The Golden Dunegon branch"]
+                }
+            }
+        },
+        {
+            "name": "The Golden Dunegon",
+            "id": 820,
+            "x": 1218,
+            "z": -15481,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Norway-Netherlands": ["", "The Golden Dunegon branch"]
+                }
+            }
+        },
+        {
+            "name": "Wadden Island",
+            "id": 821,
+            "x": 1895,
+            "z": -13188,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Norway-Netherlands": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Amsterdam",
+            "id": 822,
+            "x": 1895,
+            "z": -12920,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Norway-Netherlands": ["", "Main line"]
+                },
+                "SNCF": {
+                    "Netherlands-France": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "North Denmark",
+            "id": 823,
+            "x": 3521,
+            "z": -15238,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Denmark": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "North Denmark JCT",
+            "type": "jct",
+            "id": 824,
+            "x": 4183,
+            "z": -15238,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Denmark": ["", "Gothenburg branch"]
+                }
+            }
+        },
+        {
+            "name": "Anholt",
+            "id": 825,
+            "x": 4230,
+            "z": -14849,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Denmark": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Copenhagen",
+            "id": 826,
+            "x": 4230,
+            "z": -14364,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Denmark": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Gothenburg JCT",
+            "type": "jct",
+            "id": 827,
+            "x": 4281,
+            "z": -15433,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Sweden": ["", "Gothenburg line"],
+                    "Denmark": ["", "Gothenburg branch"]
+                }
+            }
+        },
+        {
+            "name": "Finse JCT",
+            "type": "jct",
+            "id": 828,
+            "x": 2523,
+            "z": -16839,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Great line to Fronningen branch"]
+                }
+            }
+        },
+        {
+            "name": "Finse (Great line)",
+            "id": 829,
+            "x": 2633,
+            "z": -16839,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Great line"]
+                }
+            }
+        },
+        {
+            "name": "Bergen South",
+            "id": 830,
+            "x": 1944,
+            "z": -16524,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Great line"]
+                }
+            }
+        },
+        {
+            "name": "Makfrost Central",
+            "id": 831,
+            "x": 1944,
+            "z": -16286,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Great line"]
+                }
+            }
+        },
+        {
+            "name": "Drangedal JCT",
+            "type": "jct",
+            "id": 832,
+            "x": 2896,
+            "z": -16114,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Great line"]
+                }
+            }
+        },
+        {
+            "name": "South Xinhua Bookstore",
+            "id": 833,
+            "x": 39590,
+            "z": -5884,
+            "lines": {
+                "China": {
+                    "Hanguguan-Jinan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Horizon",
+            "id": 834,
+            "x": 8100,
+            "z": -22153,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Finland": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Newer Friendland JCT",
+            "type": "jct",
+            "id": 835,
+            "x": 6070,
+            "z": -21784,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Svalbard": ["", "Main line"],
+                    "Finland": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bodo JCT",
+            "type": "jct",
+            "id": 836,
+            "x": 5173,
+            "z": -20551,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper North": ["", "Main line to Bodo branch"]
+                }
+            }
+        },
+        {
+            "name": "Bodo",
+            "id": 837,
+            "x": 5171,
+            "z": -20678,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper North": ["", "Bodo branch"]
+                }
+            }
+        },
+        {
+            "name": "Drottningstad JCT",
+            "type": "jct",
+            "id": 838,
+            "x": 5894,
+            "z": -16249,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Sweden": ["", "Main line to Drottningstad branch"]
+                }
+            }
+        },
+        {
+            "name": "Drottningstad",
+            "id": 839,
+            "x": 5626,
+            "z": -16249,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Sweden": ["", "Drottningstad branch"]
+                }
+            },
+            "areas": [
+                [[5619, -16253], [5635, -16240]],
+                [[5627, -16257], [5635, -16249]],
+                [[5623, -16242], [5630, -16217]],
+                [[5624, -16218], [5629, -16205]]
+            ]
+        },
+        {
+            "name": "Port Fairy",
+            "id": 840,
+            "x": 50950,
+            "z": 22392,
+            "lines": {
+                "PTA": {
+                    "Inner Victoria": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Geelong",
+            "id": 841,
+            "x": 51680,
+            "z": 22392,
+            "lines": {
+                "PTA": {
+                    "Inner Victoria": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Melbourne",
+            "id": 842,
+            "x": 52020,
+            "z": 22187,
+            "lines": {
+                "PTA": {
+                    "Inner Victoria": ["", "Main line"],
+                    "South Coast": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "South Coast (PTA)",
+            "id": 843,
+            "x": 53755,
+            "z": 21374,
+            "lines": {
+                "PTA": {
+                    "South Coast": ["", "Main line"],
+                    "Waratah": ["", "Main line"],
+                    "Central": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Belfast",
+            "id": 844,
+            "x": 51909,
+            "z": 21580,
+            "lines": {
+                "PTA": {
+                    "Inner Victoria": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "New Shibuya",
+            "id": 845,
+            "x": 53439,
+            "z": 18891,
+            "lines": {
+                "PTA": {
+                    "Regional NSW": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Parkes",
+            "id": 846,
+            "x": 53575,
+            "z": 19257,
+            "lines": {
+                "PTA": {
+                    "Regional NSW": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Katoomba",
+            "id": 847,
+            "x": 53880,
+            "z": 20551,
+            "lines": {
+                "PTA": {
+                    "Regional NSW": ["", "Main line"],
+                    "Waratah": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Canberra",
+            "id": 848,
+            "x": 53465,
+            "z": 21203,
+            "lines": {
+                "PTA": {
+                    "South Coast": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yass",
+            "id": 849,
+            "x": 53416,
+            "z": 21016,
+            "lines": {
+                "PTA": {
+                    "Waratah": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sydney",
+            "id": 850,
+            "x": 54134,
+            "z": 20551,
+            "lines": {
+                "PTA": {
+                    "Waratah": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Newcastle",
+            "id": 851,
+            "x": 54334,
+            "z": 20236,
+            "lines": {
+                "PTA": {
+                    "Waratah": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Wollongong",
+            "id": 852,
+            "x": 53996,
+            "z": 20903,
+            "lines": {
+                "PTA": {
+                    "Waratah": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mettsbane",
+            "id": 853,
+            "x": 54788,
+            "z": 17913,
+            "lines": {
+                "PTA": {
+                    "Sunshine Coast": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Brisbane",
+            "id": 854,
+            "x": 54788,
+            "z": 18055,
+            "lines": {
+                "PTA": {
+                    "Sunshine Coast": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sutherland",
+            "id": 855,
+            "x": 54134,
+            "z": 20690,
+            "lines": {
+                "PTA": {
+                    "Waratah": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "(North) Gold Coast",
+            "id": 856,
+            "x": 54985,
+            "z": 18380,
+            "lines": {
+                "PTA": {
+                    "Regional NSW End": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "(South) Gold Coast",
+            "id": 857,
+            "x": 55007,
+            "z": 18488,
+            "lines": {
+                "PTA": {
+                    "Regional NSW End": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Williamstown",
+            "id": 858,
+            "x": 51428,
+            "z": 22650,
+            "lines": {
+            "PTA": {
+                    "Fairy Metro": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Albury",
+            "id": 859,
+            "x": 52360,
+            "z": 21417,
+            "lines": {
+                "PTA": {
+                    "Wagga Metro": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Poice",
+            "id": 860,
+            "x": 2440,
+            "z": -20500,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Poice branch"]
+                }
+            }
+        },
+        {
+            "name": "Nolongersmooth",
+            "id": 861,
+            "x": 54008,
+            "z": -16088,
+            "lines": {
+                "TNIH": {
+                    "Magadan": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Alesund Underground",
+            "id": 862,
+            "x": 2425,
+            "z": -17799,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Great line"]
+                }
+            }
+        },
+        {
+            "name": "Lysebotn",
+            "id": 863,
+            "x": 2400,
+            "z": -16113,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Great line"]
+                }
+            }
+        },
+        {
+            "name": "Roman Empire",
+            "id": 864,
+            "x": 815,
+            "z": -11878,
+            "lines": {
+                "SNCF": {
+                    "Netherlands-France": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Montevrain",
+            "id": 865,
+            "x": 493,
+            "z": -11367,
+            "lines": {
+                "SNCF": {
+                    "Netherlands-France": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Normandie",
+            "id": 866,
+            "x": 316,
+            "z": -11367,
+            "lines": {
+                "SNCF": {
+                    "Netherlands-France": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Paris (SNCF)",
+            "id": 867,
+            "x": 616,
+            "z": -10856,
+            "lines": {
+                "SNCF": {
+                    "Netherlands-France": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Oulu West Elevator",
+            "type": "elev-we",
+            "id": 868,
+            "x": 9116,
+            "z": -19556,
+            "y1": 89,
+            "y2": 83,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Finland": ["", "Main line"],
+                    "Finland-Russia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Oulu East Elevator",
+            "type": "elev-ew",
+            "id": 869,
+            "x": 9162,
+            "z": -19562,
+            "y1": 83,
+            "y2": 89,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Finland-Russia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Vartsi Elevator",
+            "type": "elev-we",
+            "id": 870,
+            "x": 10600,
+            "z": -17371,
+            "y1": 89,
+            "y2": 10,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Finland-Russia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "St Petersburg International",
+            "id": 871,
+            "x": 10870,
+            "z": -16778,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Finland-Russia": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Roman Empire Elevator",
+            "type": "elev-we",
+            "id": 872,
+            "x": 815.5,
+            "z": -11371,
+            "y1": -62,
+            "y2": 64,
+            "lines": {
+                "SNCF": {
+                    "Netherlands-France": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Normandie Elevator",
+            "type": "elev-we",
+            "id": 873,
+            "x": 280,
+            "z": -11342,
+            "y1": 64,
+            "y2": 67,
+            "lines": {
+                "SNCF": {
+                    "Netherlands-France": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Honefoss",
+            "id": 874,
+            "x": 3651,
+            "z": -16334,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower Central": ["", "Honefoss branch"]
+                }
+            }
+        },
+        {
+            "name": "South Greenland Connect JCT",
+            "type": "jct",
+            "id": 875,
+            "x": -15596,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "South Greenland Connect": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "South Greenland Connect Central JCT",
+            "type": "jct",
+            "id": 876,
+            "x": -15596,
+            "z": -16972,
+            "lines": {
+                "Intercontinental": {
+                    "South Greenland Connect": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kunashiri-Hayvenhurst",
+            "id": 877,
+            "x": 52146,
+            "z": -8821,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (South)"]
+                }
+            }
+        },
+        {
+            "name": "Iceland JCT",
+            "type": "jct",
+            "id": 878,
+            "x": -7026,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Iceland branch"]
+                }
+            }
+        },
+        {
+            "name": "Iceland",
+            "id": 879,
+            "x": -7026,
+            "z": -19094,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Iceland branch"]
+                }
+            }
+        },
+        {
+            "name": "Hønefoss",
+            "id": 880,
+            "x": 3651,
+            "z": -16634,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Oslo branch"]
+                }
+            }
+        },
+        {
+            "name": "Glungustopia West",
+            "id": 881,
+            "x": 54158,
+            "z": -16081,
+            "lines": {
+                "TNIH": {
+                    "Magadan": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Glungustopia North JCT",
+            "id": 882,
+            "type": "jct",
+            "x": 54276.5,
+            "z": -16182.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Main line (North) to Glungustopia branch"]
+                }
+            }
+        },
+        {
+            "name": "Glungustopia JCT",
+            "id": 883,
+            "type": "jct",
+            "x": 54276.5,
+            "z": -16081,
+            "lines": {
+                "TNIH": {
+                    "Magadan": ["", ""],
+                    "Kamchatka Main": ["", "Glungustopia branch"]
+                }
+            }
+        },
+        {
+            "name": "Glungustopia Central",
+            "id": 884,
+            "x": 54276.5,
+            "z": -16065.5,
+            "lines": {
+                "TNIH": {
+                    "Kamchatka Main": ["", "Glungustopia branch"]
+                }
+            },
+            "notes": "Entrance at X=54266 Y=70 Z=-16064"
+        },
+        {
+            "name": "1st Hunan Elevator",
+            "type": "elev-we",
+            "id": 885,
+            "x": 39272,
+            "z": -1867,
+            "y1": 86,
+            "y2": 56,
+            "lines": {
+                "China": {
+                    "Guiyang-Guilin Lower": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Hunan Express Elevator",
+            "type": "elev-we",
+            "id": 886,
+            "x": 39272,
+            "z": -1860,
+            "y1": 86,
+            "y2": 53,
+            "lines": {
+                "China": {
+                    "Guiyang-Guilin Lower": ["", "Hunan Bypass"]
+                }
+            }
+        },
+        {
+            "name": "2nd Hunan Elevator",
+            "type": "elev-we",
+            "id": 887,
+            "x": 39335,
+            "z": -1812,
+            "y1": 56,
+            "y2": 53,
+            "lines": {
+                "China": {
+                    "Guiyang-Guilin Lower": ["", "Main line to Hunan Bypass"]
+                }
+            }
+        },
+        {
+            "name": "Changsha",
+            "id": 888,
+            "x": 40430,
+            "z": -2420,
+            "lines": {
+                "China": {
+                    "Hunan-Changsha": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Shoten",
+            "id": 889,
+            "x": 38306,
+            "z": -6442,
+            "lines": {
+                "Gobi Transport": {
+                    "Eastern": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "South Baoji JCT",
+            "type": "jct",
+            "id": 890,
+            "x": 38353,
+            "z": -4756,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line"],
+                    "Baoji-Zhumadian": ["", "South Baoji branch"]
+                }
+            }
+        },
+        {
+            "name": "SwizzerLand",
+            "id": 891,
+            "x": 40807,
+            "z": -14509,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Freiburg JCT",
+            "type": "jct",
+            "id": 892,
+            "x": 39686.5,
+            "z": -14216.5,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line to Freiburg branch"]
+                }
+            }
+        },
+        {
+            "name": "Freiburg Central",
+            "id": 893,
+            "x": 39686.5,
+            "z": -14063,
+            "lines": {
+                "TNIH": {
+                    "Lena":  ["", "Freiburg branch"]
+                }
+            }
+        },
+        {
+            "name": "Chicago: State / Lake SB",
+            "id": 894,
+            "x": -31663,
+            "z": -8132,
+            "lines": {
+                "America": {
+                    "City of New Orleans":  ["", "Southbound Tube to Northbound Tube"]
+                }
+            },
+            "areas": [
+                [[-31669, -8131], [-31657, -8133]]
+            ]
+        },
+        {
+            "name": "Chicago: State / Roosevelt",
+            "id": 895,
+            "x": -31663,
+            "z": -7948,
+            "lines": {
+                "America": {
+                    "City of New Orleans":  ["", "Southbound Tube to Northbound Tube"]
+                }
+            },
+            "areas": [
+                [[-31669, -7949], [-31657, -7947]]
+            ]
+        },
+        {
+            "name": "Chicago: Parkway Gardens",
+            "id": 896,
+            "x": -31698,
+            "z": -7948,
+            "lines": {
+            }
+        },
+        {
+            "name": "Old National Line — City of New Orleans JCT",
+            "id": 897,
+            "type": "jct",
+            "x": -31663,
+            "z": -7325,
+            "lines": {
+                "America": {
+                    "City of New Orleans":  ["", "Southbound Tube to Northbound Tube"]
+                }
+            },
+            "areas": [
+                [[-31669, -7324], [-31657, -7326]]
+            ]
+        },
+        {
+            "name": "Atlantic and New Orleans JCT",
+            "id": 898,
+            "type": "jct",
+            "x": -31663,
+            "z": -7216,
+            "lines": {
+                "America": {
+                    "City of New Orleans":  ["", "Southbound Tube to Northbound Tube"],
+                    "Atlantic": ["", "Eastbound Tube to Westbound Tube"]
+                }
+            },
+            "areas": [
+                [[-31669, -7222], [-31657, -7210]]
+            ]
+        },
+        {
+            "name": "Atlantic — Cincinnati JCT",
+            "id": 899,
+            "type": "jct",
+            "x": -30202,
+            "z": -7216,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Eastbound Tube to Westbound Tube"],
+                    "Capitol Limited": ["", "Cincinnati branch"]
+                }
+            },
+            "areas": [
+                [[-30201, -7222], [-30203, -7210]]
+            ]
+        },
+        {
+            "name": "Atlantic and Wolverine JCT",
+            "id": 900,
+            "type": "jct",
+            "x": -29720,
+            "z": -7216,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Eastbound Tube to Westbound Tube"],
+                    "Wolverine": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[-29721, -7222], [-29719, -7210]]
+            ]
+        },
+        {
+            "name": "Wheeling",
+            "id": 901,
+            "x": -28843,
+            "z": -7216,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Eastbound Tube to Westbound Tube"]
+                }
+            },
+            "areas": [
+                [[-28842, -7222], [-28844, -7210]]
+            ]
+        },
+        {
+            "name": "Atlantic and Gotham JCT",
+            "id": 902,
+            "type": "jct",
+            "x": -26472,
+            "z": -7216,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Eastbound Tube to Westbound Tube"],
+                    "Gotham": ["", ""]
+                }
+            },
+            "areas": [
+                [[-26471, -7222], [-26473, -7210]]
+            ]
+        },
+        {
+            "name": "Gotham City",
+            "id": 903,
+            "x": -26590,
+            "z": -7070,
+            "lines": {
+                "America": {
+                    "Gotham": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Fort Wayne South JCT",
+            "id": 904,
+            "type": "jct",
+            "x": -30202,
+            "z": -7333,
+            "lines": {
+                "America": {
+                    "Capitol Limited": ["", "Main line to Cincinnati branch"]
+                }
+            }
+        },
+        {
+            "name": "Baoji Express JCT",
+            "type": "jct",
+            "id": 905,
+            "x": 38353,
+            "z": -4455,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line to Baoji-Gucheng Bypass"]
+                }
+            }
+        },
+        {
+            "name": "Junzhou Northwest JCT",
+            "type": "jct",
+            "id": 906,
+            "x": 38494,
+            "z": -3822,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line to Baoji-Gucheng Bypass"]
+                }
+            }
+        },
+        {
+            "name": "Hanguguan JCT",
+            "type": "jct",
+            "id": 907,
+            "x": 39590,
+            "z": -5076,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian": ["", "Main line"],
+                    "Hanguguan-Jinan": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "East Xinhua Elevator",
+            "type": "elev-we",
+            "id": 908,
+            "x": 39678,
+            "z": -6021,
+            "y1": 76,
+            "y2": 73,
+            "lines": {
+                "China": {
+                    "Hanguguan-Jinan": ["", "Main line to Xinhua branch"]
+                }
+            }
+        },
+        {
+            "name": "Jiayuguan JCT",
+            "type": "jct",
+            "id": 909,
+            "x": 35355,
+            "z": -6954,
+            "lines": {
+                "Gobi Transport": {
+                    "North-South Main": ["", "Main line"],
+                    "Eastern": ["", "Liangzhou branch"]
+                }
+            }
+        },
+        {
+            "name": "Jiayuguan Elevator",
+            "type": "elev-we",
+            "id": 910,
+            "x": 35357,
+            "z": -6954,
+            "y1": 99,
+            "y2": 111,
+            "lines": {
+                "Gobi Transport": {
+                    "Eastern": ["", "Liangzhou branch"]
+                }
+            }
+        },
+        {
+            "name": "Townsville",
+            "id": 911,
+            "x": 46510,
+            "z": 12979.5,
+            "lines": {
+                "Intercontinental": {
+                    "Twi Islands-Wyndham": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Tiwi Islands Elevator",
+            "type": "elev-we",
+            "id": 912,
+            "x": 46877,
+            "z": 12255,
+            "y1": 9,
+            "y2": 70,
+            "lines": {
+                "Intercontinental": {
+                    "Twi Islands-Wyndham": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Yibin",
+            "id": 913,
+            "x": 37580,
+            "z": -2622,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Yibin branch"]
+                }
+            }
+        },
+        {
+            "name": "Yibin JCT",
+            "type": "jct",
+            "id": 914,
+            "x": 38431,
+            "z": -2608,
+            "lines": {
+                "China": {
+                    "Baoji-Guiyang": ["", "Main line to Yibin branch"]
+                }
+            }
+        },
+        {
+            "name": "Wolverine and Capitol Limited JCT",
+            "id": 915,
+            "type": "jct",
+            "x": -29720,
+            "z": -7333,
+            "lines": {
+                "America": {
+                    "Capitol Limited": ["", "Main line"],
+                    "Wolverine": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "East Glass City JCT",
+            "id": 916,
+            "type": "jct",
+            "x": -29720,
+            "z": -7739,
+            "lines": {
+                "America": {
+                    "Wolverine": ["", "Main line to Chicago branch"]
+                }
+            }
+        },
+        {
+            "name": "Detroit",
+            "id": 917,
+            "x": -29720,
+            "z": -8203,
+            "lines": {
+                "America": {
+                    "Wolverine": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Blue Water JCT",
+            "id": 918,
+            "type": "jct",
+            "x": -29720,
+            "z": -8461,
+            "lines": {
+                "America": {
+                    "Wolverine": ["", "Main line to Flint branch"]
+                }
+            }
+        },
+        {
+            "name": "Blue Water",
+            "id": 919,
+            "x": -29720,
+            "z": -8480,
+            "lines": {
+                "America": {
+                    "Wolverine": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Flint",
+            "id": 920,
+            "x": -29949,
+            "z": -8461,
+            "lines": {
+                "America": {
+                    "Wolverine": ["", "Flint branch"]
+                }
+            }
+        },
+        {
+            "name": "JCT",
+            "id": 921,
+            "type": "jct",
+            "x": -30202,
+            "z": -7739,
+            "lines": {
+                "America": {
+                    "Wolverine": ["", "Chicago branch"],
+                    "Capitol Limited": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Girard / 69th St.",
+            "id": 933,
+            "x": -27257,
+            "z": -7337,
+            "lines": {
+                "SEPTA": {
+                    "G": ["", ""],
+                    "D": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Girard / 30th St.",
+            "id": 934,
+            "x": -27129,
+            "z": -7337,
+            "lines": {
+                "SEPTA": {
+                    "G": ["", ""],
+                    "T": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Art Museum",
+            "id": 935,
+            "x": -27033,
+            "z": -7337,
+            "lines": {
+                "SEPTA": {
+                    "G": ["", ""],
+                    "B": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Girard / 5th St.",
+            "id": 936,
+            "x": -26952,
+            "z": -7337,
+            "lines": {
+                "SEPTA": {
+                    "G": ["", ""]
+                }
+            }
+        },
+		
+        {
+            "name": "Vine St.",
+            "id": 941,
+            "x": -27257,
+            "z": -7272,
+            "lines": {
+                "SEPTA": {
+                    "D": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Vine St.",
+            "id": 942,
+            "x": -27129,
+            "z": -7272,
+            "lines": {
+                "SEPTA": {
+                    "T": ["", ""]
+                }
+            }
+        },
+		
+        {
+            "name": "Market / 69th St.",
+            "id": 953,
+            "x": -27257,
+            "z": -7209,
+            "lines": {
+                "SEPTA": {
+                    "L": ["", ""],
+                    "D": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Market / 30th St.",
+            "id": 954,
+            "x": -27129,
+            "z": -7209,
+            "lines": {
+                "SEPTA": {
+                    "L": ["", ""],
+                    "T": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "City Hall",
+            "id": 955,
+            "x": -27033,
+            "z": -7209,
+            "lines": {
+                "SEPTA": {
+                    "L": ["", ""],
+                    "B": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "5th St / Independence Hall",
+            "id": 956,
+            "x": -26938,
+            "z": -7209,
+            "lines": {
+                "SEPTA": {
+                    "L": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Market East",
+            "id": 957,
+            "x": -26854,
+            "z": -7209,
+            "lines": {
+                "SEPTA": {
+                    "L": ["", ""]
+                }
+            }
+        },
+
+        {
+            "name": "Chestnut St.",
+            "id": 961,
+            "x": -27257,
+            "z": -7112,
+            "lines": {
+                "SEPTA": {
+                    "D": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Chestnut St.",
+            "id": 962,
+            "x": -27129,
+            "z": -7112,
+            "lines": {
+                "SEPTA": {
+                    "T": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Chestnut St.",
+            "id": 963,
+            "x": -27033,
+            "z": -7112,
+            "lines": {
+                "SEPTA": {
+                    "B": ["", ""]
+                }
+            }
+        },
+
+        {
+            "name": "Walnut St. / 69th",
+            "id": 971,
+            "x": -27257,
+            "z": -7049,
+            "lines": {
+                "SEPTA": {
+                    "D": ["", ""],
+                    "Pa": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Walnut St. / 30th",
+            "id": 972,
+            "x": -27129,
+            "z": -7049,
+            "lines": {
+                "SEPTA": {
+                    "T": ["", ""],
+                    "Pa": ["", ""]
+                }
+            }
+        },
+		
+        {
+            "name": "Locust St. / 69th",
+            "id": 980,
+            "x": -27257,
+            "z": -6985,
+            "lines": {
+                "SEPTA": {
+                    "D": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Locust St. / 30th",
+            "id": 981,
+            "x": -27129,
+            "z": -6985,
+            "lines": {
+                "SEPTA": {
+                    "D": ["", ""],
+                    "T": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Delaware Memorial Bridge",
+            "id": 989,
+            "x": -27129,
+            "z": -6929,
+            "lines": {
+                "SEPTA": {
+                    "D": ["", ""],
+                    "T": ["", ""]
+                }
+            }
+        }
+    ],
+    "lines": {
+        "TNIH": {
+            "Deccan": {
+                "prefix": "",
+                "code": "DC",
+                "color": "EB7400",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [28317, -316],
+                            [28317, 770],
+                            [28534, 770],
+                            [28534, 4011],
+                            [28704, 4011],
+                            [28704, 4831],
+                            [29018, 4831],
+                            [29018, 4863],
+                            [29068, 4863]
+                        ],
+                        "stations": [70, 56, 661, 55, 54, [43, "Timmuh Town branch"], 96, [38, "Dragonfall branch"], 2, 0, 1, 93, 94, 80, 264]
+                    },
+                    "Dragonfall branch": {
+                        "vertices": [
+                            [28534, 2089],
+                            [29300, 2089]
+                        ],
+                        "stations": [[38, "Main line"], 39]
+                    },
+                    "Timmuh Town branch": {
+                        "vertices": [
+                            [28534, 1209],
+                            [28807, 1209]
+                        ],
+                        "stations": [[43, "Main line"], 44, 45]
+                    }
+                }
+            },
+            "Hooman": {
+                "prefix": "",
+                "code": "HM",
+                "color": "169C9C",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [28317, -316],
+                            [28317, -5006],
+                            [24774.5, -5006]
+                        ],
+                        "stations": [70, 71, 72, 73, 189, 221, 220]
+                    }
+                }
+            },
+            "Siberia Main": {
+                "prefix": "",
+                "code": "SB",
+                "color": "0233A0",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-16000, -17732],
+                            [-2594, -17732],
+                            [-2594, -17794],
+                            [-2495, -17794],
+                            [-2495, -17732],
+                            [9662, -17732],
+                            [9662, -17778],
+                            [9761, -17778],
+                            [9761, -17732],
+                            [21326, -17732],
+                            [21326, -17777],
+                            [21376, -17777],
+                            [21376, -17732],
+                            [52340, -17732],
+                            [52340, -21475.5],
+                            [52960.5, -21474.5],
+                            [52960.5, -23834.5],
+                            [50681, -23834.5]
+                        ],
+                        "stations": [816, 875, [878, "Iceland branch"], 753, [493, "Poice branch"], 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 340],
+                        "concurrencies": {
+                            "TNIH.Siberia Main": [
+                                [41614, -17732],
+                                [41900, -17732]
+                            ]
+                        }
+                    },
+                    "Iceland branch": {
+                        "vertices": [
+                            [-7026, -17732],
+                            [-7026, -19094]
+                        ],
+                        "stations": [[878, "Main line"], 879]
+                    },
+                    "Poice branch": {
+                        "vertices": [
+                            [2440, -17732],
+                            [2440, -20500]
+                        ],
+                        "stations": [[493, "Main line"], 860]
+                    },
+                    "Finlandia branch": {
+                        "vertices": [
+                            [8050, -17732],
+                            [8050, -16890]
+                        ],
+                        "stations": [[495, "Main line"], 496]
+                    },
+                    "Kuorevesi branch": {
+                        "vertices": [
+                            [8802, -17732],
+                            [8802, -17647.5],
+                            [8783, -17647.5]
+                        ],
+                        "stations": [[497, "Main line"], 498, 499]
+                    },
+                    "Lappeenranta branch": {
+                        "vertices": [
+                            [10181, -17732],
+                            [10181, -17154]
+                        ],
+                        "stations": [[501, "Main line"], 502]
+                    },
+                    "Poikovskii branch": {
+                        "vertices": [
+                            [25840, -17732],
+                            [25840, -17213],
+                            [25809, -17213]
+                        ],
+                        "stations": [[505, "Main line"], 506, 507]
+                    },
+                    "Armas Y Libertad branch": {
+                        "vertices": [
+                            [37666.5, -17732],
+                            [37666.5, -17594]
+                        ],
+                        "stations": [[509, "Main line"], 510]
+                    },
+                    "New Alteria branch": {
+                        "vertices": [
+                            [38876, -17732],
+                            [38876, -18094],
+                            [38860, -18094]
+                        ],
+                        "stations": [[511, "Main line"], 512]
+                    },
+                    "Yakutia Industrial branch": {
+                        "vertices": [
+                            [46130, -17732],
+                            [46130, -17798]
+                        ],
+                        "stations": [[146, "Main line"], 147]
+                    },
+                    "New Farstead branch": {
+                        "vertices": [
+                            [48140, -17732],
+                            [48140, -19033]
+                        ],
+                        "stations": [[35, "Main line"], 266]
+                    },
+                    "Willsden branch": {
+                        "vertices": [
+                            [50270, -17732],
+                            [50270, -17976]
+                        ],
+                        "stations": [[20, "Main line"], 21]
+                    },
+                    "New Xenia branch": {
+                        "vertices": [
+                            [52339.5, -20091.5],
+                            [51660, -20091.5]
+                        ],
+                        "stations": [[152, "Main line"], 153]
+                    },
+                    "Kortemark branch": {
+                        "vertices": [
+                            [52339.5, -20540],
+                            [52863, -20540]
+                        ],
+                        "stations": [[173, "Main line"], 174, 175]
+                    },
+                    "Yakutsk branch": {
+                        "vertices": [
+                            [52960.5, -22675],
+                            [53065, -22675]
+                        ],
+                        "stations": [[63, "Main line"], 64]
+                    }
+                }
+            },
+            "Kamchatka Main": {
+                "prefix": "",
+                "code": "KC",
+                "color": "FFD800",
+                "y": 10,
+                "branches": {
+                    "Main line (North)": {
+                        "vertices": [
+                            [51178.5, -16181.5],
+                            [52263.5, -16181.5],
+                            [52271.5, -16182.5],
+                            [56419.5, -16182.5],
+                            [56419.5, -13056.5],
+                            [56099.5, -13056.5],
+                            [56099.5, -12691]
+                        ],
+                        "stations": [360, 570, [51, "Ochotsk branch"], 50, [176, "Taynaya branch"], 183, [882, "Glungustopia branch"], 324, [74, "Leshnybor branch"], 57, [144, "Kitahakonihon branch"], [58, "Salatavia branch"], [60, "Rekinikki branch"], 53]
+                    },
+                    "Main line (South)": {
+                        "vertices": [
+                            [56100, -12608],
+                            [56100, -11826],
+                            [55500, -11826],
+                            [55500, -10550],
+                            [54354, -10550],
+                            [54354, -10096],
+                            [53729, -10096],
+                            [53729, -9405],
+                            [52750, -9405],
+                            [52750, -9214],
+                            [52146, -9214],
+                            [52146, -8821]
+                        ],
+                        "stations": [362, [363, "Allburg branch"], 365, [638, "TownyMcTownFace branch"], 366, 640, 641, 642, 643, 644, 751, 752, 877]
+                    },
+                    "Ochotsk branch": {
+                        "vertices": [
+                            [51500, -16181.5],
+                            [51500, -16269.5]
+                        ],
+                        "stations": [[51, "Main line (North)"], 52]
+                    },
+                    "Taynaya branch": {
+                        "vertices": [
+                            [53410, -16182.5],
+                            [53410, -16407]
+                        ],
+                        "stations": [[176, "Main line (North)"], 177]
+                    },
+                    "Glungustopia branch": {
+                        "vertices": [
+                            [54276.5, -16182.5],
+                            [54276.5, -16048.5]
+                        ],
+                        "stations": [[882, "Main line (North)"], 883, 884]
+                    },
+                    "Salatavia branch": {
+                        "vertices": [
+                            [56419.5, -13056.5],
+                            [57431.5, -13056.5]
+                        ],
+                        "stations": [[58, "Main line (North)"], 59, 550]
+                    },
+                    "Rekinikki branch": {
+                        "vertices": [
+                            [56099.5, -12919.5],
+                            [56027, -12919.5]
+                        ],
+                        "stations": [[60, "Main line (North)"], 61]
+                    },
+					"Leshnybor branch": {
+						"vertices": [
+                            [56419.5, -15203.5],
+                            [58428.5, -15203.5],
+                            [58428.5, -18765],
+                            [59967, -18765]
+                        ],
+                        "stations": [[74, "Main line (North)"], 75, [142, "Koleso branch"], 76, 664]
+					},
+					"Koleso branch": {
+						"vertices": [
+                            [57297.5, -15203.5],
+                            [57297.5, -15106]
+                        ],
+                        "stations": [[142, "Leshnybor branch"], 143]
+					},
+					"Kitahakonihon branch": {
+						"vertices": [
+                            [56419.5, -13907.5],
+                            [58085.5, -13907.5]
+                        ],
+                        "stations": [[144, "Main line (North)"], 145]
+					},
+					"Allburg branch": {
+						"vertices": [
+                            [56100, -12076],
+                            [56190, -12076]
+                        ],
+                        "stations": [[363, "Main line (South)"], 364]
+					},
+                    "TownyMcTownFace branch": {
+                        "vertices": [
+                            [55500, -11500],
+                            [55252, -11500]
+                        ],
+                        "stations": [[638, "Main line (South)"], 639]
+                    }
+                }
+            },
+            "Sakha": {
+                "prefix": "",
+                "code": "SK",
+                "color": "089AFF",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [48406, -13830],
+                            [48406, -13899],
+                            [46352, -13899],
+                            [46352, -17672],
+                            [46360, -17672],
+                            [46360, -17801],
+                            [46368, -17801],
+                            [46368, -20364],
+                            [47540, -20364],
+                            [47540, -21310],
+                            [48565, -21310],
+                            [48565, -22641]
+                        ],
+                        "stations": [549, [605, "USG branch"], [603, "Berkakit branch"], 548, 36, 37, 148, [279, "Yarika branch"], [355, "Bestyakh branch"], [297, "Lensk branch"], [539, "Lena-Bulunsky branch"], 149, [353, "Lensk branch"], 298, 327, 657, 596]
+                    },
+                    "USG branch": {
+                        "vertices": [
+                            [47358, -13899],
+                            [47358, -13558]
+                        ],
+                        "stations": [[605, "Main line"], 606]
+                    },
+                    "Berkakit branch": {
+                        "vertices": [
+                            [46352, -13899],
+                            [45947, -13899],
+                            [45947, -13841]
+                        ],
+                        "stations": [[603, "Main line"], 604]
+                    },
+                    "Lena-Bulunsky branch": {
+                        "vertices": [
+                            [46368, -20364],
+                            [46368, -23215]
+                        ],
+                        "stations": [[539, "Main line"], 540]
+                    },
+                    "Lensk branch": {
+                        "vertices": [
+                            [44066, -21064],
+                            [44062, -21064],
+                            [44062, -20348],
+                            [44337, -20348],
+                            [44338, -20349],
+                            [46368, -20349],
+                            [46536, -20349],
+                            [46536, -20364]
+                        ],
+                        "stations": [[353, "Main line"], 354, [297, "Main line"], 298, [629, "Fort St Svetlana branch"], 327]
+                    },
+                    "Fort St Svetlana branch": {
+                        "vertices": [
+                            [44062, -20649],
+                            [44298.5, -20649],
+                            [44298.5, -20685]
+                        ],
+                        "stations": [[629, "Lensk branch"], 630]
+                    },
+                    "Bestyakh branch": {
+                        "vertices": [
+                            [46368, -19163],
+                            [45027, -19170],
+                            [45027, -19177],
+                            [45017, -19177]
+                        ],
+                        "stations": [[355, "Main line"], 356, 571]
+                    },
+                    "Yarika branch": {
+                        "vertices": [
+                            [46368, -18889],
+                            [45205, -18889]
+                        ],
+                        "stations": [[279, "Main line"], 280]
+                    }
+                }
+            },
+            "Sakhalin": {
+                "prefix": "",
+                "code": "SH",
+                "color": "9D00FF",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [51178.5, -17732],
+                            [51178.5, -13124.5],
+                            [50855.5, -13124.5],
+                            [50855.5, -13079]
+                        ],
+                        "stations": [3, 9, 10, 360, [361, "Noto branch"], 402, 206]
+                    },
+                    "Noto branch": {
+                        "vertices": [
+                            [51178.5, -13581.5],
+                            [51087.5, -13581.5]
+                        ],
+                        "stations": [[361, "Main line"], 401]
+                    }
+                }
+            },
+            "Narmada": {
+                "prefix": "",
+                "code": "NM",
+                "color": "561574",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [24106, -948],
+                            [24160, -948],
+                            [24160, 66],
+                            [26030, 66],
+                            [26030, 100],
+                            [27518, 100],
+                            [27518, -316],
+                            [31910.5, -316],
+                            [31910.5, -818.5],
+                            [31926, -818.5]
+                        ],
+                        "stations": [196, 159, [158, "Dwarka branch"], 128, [129, "Dwarfdom branch"], 117, 118, [261, "Delhi branch"], [660, "Sita Bypass"], 23, 24, 25, 663, 70, 119, 120, [121, "Kolkata branch"], 123, 124, 126]
+                    },
+                    "Dwarka branch": {
+                        "vertices": [
+                            [24835, -15],
+                            [24835, 66]
+                        ],
+                        "stations": [[158, "Main line"], 127]
+                    },
+                    "Dwarfdom branch": {
+                        "vertices": [
+                            [25420, 66],
+                            [25420, 457]
+                        ],
+                        "stations": [[129, "Main line"], 130]
+                    },
+                    "Delhi branch": {
+                        "vertices": [
+                            [27051, 100],
+                            [27051, -1084]
+                        ],
+                        "stations": [[261, "Main line"], [325, "Ajaymeru branch"], 262]
+                    },
+                    "Ajaymeru branch": {
+                        "vertices": [
+                            [27051, -1039],
+                            [26181, -1039],
+                            [26181, -1358]
+                        ],
+                        "stations": [[325, "Delhi branch"], 326]
+                    },
+                    "Sita Bypass": {
+                        "vertices": [
+                            [27518, 99.5],
+                            [28317, 99.5]
+                        ],
+                        "stations": [[660, "Main line"], 661]
+                    },
+                    "Kolkata branch": {
+                        "vertices": [
+                            [31698.5, -316],
+                            [31698.5, -254]
+                        ],
+                        "stations": [[121, "Main line"], 122]
+                    }
+                }
+            },
+            "Himalayas": {
+                "prefix": "",
+                "code": "ML",
+                "color": "8EC5F2",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [32668, -2999],
+                            [31996, -2999],
+                            [31996, -2590],
+                            [30993, -2590],
+                            [30993, -2596],
+                            [30990, -2596],
+                            [30990, -2636],
+                            [30318, -2636],
+                            [30318, -2640],
+                            [30111, -2640],
+                            [30111, -2559],
+                            [29200, -2559],
+                            [29200, -2434],
+                            [28317, -2434]
+                        ],
+                        "stations": [204, 203, 344, 191, 193, 194, 265, [471, "Dao Monastery branch"], 473, 474, 475, 263, 190, 189]
+                    },
+                    "Dao Monastery branch": {
+                        "vertices": [
+                            [30111, -2640],
+                            [30111, -2770],
+                            [30138, -2770]
+                        ],
+                        "stations": [[471, "Main line"], 472]
+                    }
+                }
+            },
+            "Ganga": {
+                "prefix": "",
+                "code": "GN",
+                "color": "A38686",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [30549, -2636],
+                            [30549, -2113],
+                            [30472, -2113],
+                            [30030, -2113],
+                            [30030, -2082]
+                        ],
+                        "stations": [194, 195, [198, "Patliputra branch"], 200]
+                    },
+                    "Patliputra branch": {
+                        "vertices": [
+                            [30134, -2113],
+                            [30134, -1436],
+                            [30383, -1436]
+                        ],
+                        "stations": [[198, "Main line"], [662, "Patliputra-Sita connector"], 199]
+                    },
+                    "Patliputra-Sita connector": {
+                        "vertices": [
+                            [30134, -1436],
+                            [29525, -1436],
+                            [29525, -1361],
+                            [29519, -1361],
+                            [29519, -1345],
+                            [29501, -1345],
+                            [29501, -315.5]
+                        ],
+                        "stations": [[662, "Patliputra branch"], 663]
+                    }
+                }
+            },
+            "Syphon": {
+                "prefix": "",
+                "code": "SP",
+                "color": "5aa02c",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [32458.5, -1314],
+                            [31705, -1314],
+                            [31705, -2031],
+                            [31501, -2031],
+                            [31501, -2672]
+                        ],
+                        "stations": [125, 470, 202, 184, 191, 192]
+                    }
+                }
+            },
+            "Makran": {
+                "prefix": "",
+                "code": "MR",
+                "color": "CDAA6D",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [18972, -2072],
+                            [18972, -1980],
+                            [20510, -1980],
+                            [20510, -1374],
+                            [22065, -1374],
+                            [22065, -1239],
+                            [22663, -1239],
+                            [22663, -827],
+                            [24163, -827],
+                            [24163, -824],
+                            [24400, -824],
+                            [24400, -1437]
+                        ],
+                        "stations": [530, 560, 547, 258, [528, "Bandar Abbas branch"], 259, 260, 243, 159, 197]
+                    },
+                    "Bandar Abbas branch": {
+                        "vertices": [
+                            [20125, -1980],
+                            [20125, -2258]
+                        ],
+                        "stations": [[528, "Main line"], 529]
+                    }
+                }
+            },
+            "Arabia": {
+                "prefix": "",
+                "code": "AR",
+                "color": "c04657",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [18972, -1980],
+                            [18340, -1980],
+                            [18340, -1070],
+                            [16606, -1070],
+                            [16606, -159],
+                            [14139, -159],
+                            [14139, -242],
+                            [14066, -242]
+                        ],
+                        "stations": [560, [561, "Bahrain branch"], 563, 564, 565, 566, [601, "Thuwal branch"], 597, [598, "Thuwal branch"], 600]
+                    },
+                    "Bahrain branch": {
+                        "vertices": [
+                            [18340, -1580],
+                            [17930, -1580]
+                        ],
+                        "stations": [[561, "Main line"], 562]
+                    },
+                    "Al-Hawiyah branch": {
+                        "vertices": [
+                            [15470, -159],
+                            [15470, 733]
+                        ],
+                        "stations": [[601, "Main line"], 602]
+                    },
+                    "Thuwal branch": {
+                        "vertices": [
+                            [14139, -159],
+                            [14139, -151]
+                        ],
+                        "stations": [[598, "Main line"], 599]
+                    }
+                }
+            },
+            "Channel (Friendship)": {
+                "prefix": "",
+                "code": "CH",
+                "color": "FCE992",
+                "y": 1,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-352, -11938],
+                            [-352, -11209]
+                        ],
+                        "stations": [65, [66, "Cherbourg branch"], 68]
+                    },
+                    "Cherbourg branch": {
+                        "vertices": [
+                            [-352, -11403],
+                            [-590, -11403]
+                        ],
+                        "stations": [[66, "Main line"], 67]
+                    }
+                }
+            },
+            "Malabar": {
+                "prefix": "",
+                "code": "ML",
+                "color": "6D2E32",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [26030, 100],
+                            [26030, 672],
+                            [26175, 672],
+                            [26175, 1905],
+                            [26460, 1905],
+                            [26460, 2930],
+                            [26716, 2930],
+                            [26716, 3460],
+                            [26889, 3460],
+                            [26889, 4037],
+                            [27190, 4037],
+                            [27190, 4122],
+                            [27315, 4122],
+                            [27315, 4398],
+                            [27451, 4398],
+                            [27451, 4605],
+                            [28704, 4605]
+                        ],
+                        "stations": [117, 531, 532, 533, 534, 323, 322, [321, "Mangalore branch"], 78, 79, [537, "Kanyakumari branch"], 94]
+                    },
+                    "Mangalore branch": {
+                        "vertices": [
+                            [27190, 4037],
+                            [27190, 3987]
+                        ],
+                        "stations": [[321, "Main line"], 81]
+                    },
+                    "Kanyakumari branch": {
+                        "vertices": [
+                            [27838, 4605],
+                            [27838, 5054]
+                        ],
+                        "stations": [[537, "Main line"], 538]
+                    }
+                }
+            },
+            "Maldives": {
+                "prefix": "",
+                "code": "ML",
+                "color": "E3C9AB",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [27315, 4398],
+                            [26400, 4398],
+                            [26402, 4394],
+                            [26407, 4394],
+                            [26408, 4006],
+                            [25843, 4006],
+                            [25843, 3759],
+                            [25748, 3759]
+                        ],
+                        "stations": [78, 77, [185, "Agatti branch"], 186]
+                    },
+                    "Agatti branch": {
+                        "vertices": [
+                            [25843, 4006],
+                            [25829, 4006]
+                        ],
+                        "stations": [[185, "Main line"], 95]
+                    }
+                }
+            },
+            "Bangla": {
+                "prefix": "",
+                "code": "BD",
+                "color": "FF0000",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [31910.5, -551.5],
+                            [32590.5, -551.5],
+                            [32590.5, -319.5],
+                            [32867.5, -319.5],
+                            [32867.5, -225],
+                            [33037, -225],
+                            [33037, -75],
+                            [33101, -75],
+                            [33101, 930],
+                            [34450.5, 930],
+                            [34450.5, 2078.5]
+                        ],
+                        "stations": [124, 136, 137, 138, 154, 155, 156, [187, "Naypyidaw branch"], 188]
+                    },
+                    "Naypyidaw branch": {
+                        "vertices": [
+                            [34450.5, 930],
+                            [34450.5, 680],
+                            [34460, 680]
+                        ],
+                        "stations": [[187, "Main line"], 160]
+                    }
+                }
+            },
+            "Magadan": {
+                "prefix": "",
+                "code": "MG",
+                "color": "810020",
+                "y": 10,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [52340, -17732],
+                            [54008, -17732],
+                            [54008, -16081],
+                            [54276.5, -16081]
+                        ],
+                        "stations": [178, 179, 180, 181, 182, 183, 861, 881, 883]
+                    }
+                }
+            },
+            "Tibet": {
+                "prefix": "",
+                "code": "TB",
+                "color": "00FF00",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [32458.5, -551.5],
+                            [32458, -1314],
+                            [32458, -3499],
+                            [32603, -3499],
+                            [32603, -3810],
+                            [32733, -3810],
+                            [32733, -4004],
+                            [32594, -4004],
+                            [32594, -4001]
+                        ],
+                        "stations": [136, [302, "Baniachong branch"], 125, [201, "Syphon branch"], 203, 205, 206, 212]
+                    },
+                    "Baniachong branch": {
+                        "vertices": [
+                            [32458.5, -1027],
+                            [32829, -1027]
+                        ],
+                        "stations": [[302, "Main line"], 303, 343]
+                    },
+                    "Syphon branch": {
+                        "vertices": [
+                            [32458, -1986],
+                            [31705, -1986]
+                        ],
+                        "stations": [[201, "Main line"], 202]
+                    }
+                }
+            },
+            "Heartnorth": {
+                "prefix": "",
+                "code": "HN",
+                "color": "FF94BD",
+                "y": 10,
+                "branches": {
+                    "Northern section": {
+                        "vertices": [
+                            [51646, -23834.5],
+                            [51646, -22777]
+                        ],
+                        "stations": [340, 341, 342]
+                    },
+                    "Southern section": {
+                        "vertices": [
+                            [52459, -21954],
+                            [53220, -21954]
+                        ],
+                        "stations": [215, [216, "Sanctum Logorum branch"], 46, 47]
+                    },
+                    "Sanctum Logorum branch": {
+                        "vertices": [
+                            [52771, -21954],
+                            [52771, -21883]
+                        ],
+                        "stations": [[216, "Main line"], 217]
+                    }
+                }
+            },
+            "Calmania": {
+                "prefix": "",
+                "code": "CM",
+                "color": "72EFDD",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [48676, -17732],
+                            [48676, -16670],
+                            [48319, -16670]
+                        ],
+                        "stations": [328, 329, 330]
+                    }
+                }
+            },
+            "Kolyma": {
+                "prefix": "",
+                "code": "KY",
+                "color": "CC7722",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [52960.5, -21474.5],
+                            [52960.5, -21460],
+                            [56272, -21460],
+                            [57117, -21460],
+                            [57117, -21890],
+                            [60261, -21890],
+                            [60261, -22246]
+                        ],
+                        "stations": [352, 351, 331, 332, 367, 368]
+                    }
+                }
+            },
+            "Azur": {
+                "prefix": "",
+                "code": "AZ",
+                "color": "BF77F6",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [48565, -21310],
+                            [49220, -21310],
+                            [49220, -21051],
+                            [52339.5, -21051]
+                        ],
+                        "stations": [657, 658, 659, 691, 8, 7]
+                    }
+                }
+            },
+            "Baikal": {
+                "prefix": "",
+                "code": "BK",
+                "color": "00a56a",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [39121.5, -17732],
+                            [39121.5, -12952]
+                        ],
+                        "stations": [150, 151, 514, [517, "BRC branch"]]
+                    },
+                    "BRC branch": {
+                        "vertices": [
+                            [39121.5, -13529.5],
+                            [38826, -13529.5]
+                        ],
+                        "stations": [[517, "Main line"], 518]
+                    }
+                }
+            },
+            "Lena": {
+                "prefix": "",
+                "code": "LN",
+                "color": "f492a9",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [41614, -17808],
+                            [41614, -17732],
+                            [41900, -17732],
+                            [41900, -16495],
+                            [41381, -16495],
+                            [41381, -14509],
+                            [40667, -14509],
+                            [40667, -14216.5],
+                            [39121.5, -14216.5]
+                        ],
+                        "stations": [214, 213, 90, 91, 92, 812, 813, 814, 815, 891, [892, "Freiburg branch"], [515, "Angoya branch"], 514],
+                        "concurrencies": {
+                            "TNIH.Siberia Main": [
+                                [41614, -17732],
+                                [41900, -17732]
+                            ]
+                        }
+                    },
+                    "Freiburg branch": {
+                        "vertices": [
+                            [39686.5, -14216.5],
+                            [39686.5, -14061]
+                        ],
+                        "stations": [[892, "Main line"], 893]
+                    },
+                    "Angoya branch": {
+                        "vertices": [
+                            [39464.5, -14216.5],
+                            [39464.5, -14317.5]
+                        ],
+                        "stations": [[515, "Main line"], 516]
+                    }
+                }
+            },
+            "Qikqtaaluk": {
+                "prefix": "",
+                "code": "QK",
+                "color": "CC7722",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-28996, -26666],
+                            [-24001, -26666],
+                            [-24001, -25720],
+                            [-16000, -25720],
+                            [-16000, -16973]
+                        ],
+                        "stations": [393, 394, 816, 395]
+                    }
+                }
+            },
+            "Atlantic": {
+                "prefix": "",
+                "code": "AL",
+                "color": "001dff",
+                "y": -62,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-16000, -16973],
+                            [-16000, -12508]
+                        ],
+                        "stations": [395, 396]
+                    }
+                }
+            }
+        },
+        "Florida": {
+            "Miami-Jacksonville": {
+                "prefix": "",
+                "code": "M-SP",
+                "color": "FF0000",
+                "y": 40,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-28742, -1765],
+                            [-29326, -1765],
+                            [-29326, -1954],
+                            [-29641, -1954],
+                            [-29641, -2238],
+                            [-29637, -2238],
+                            [-29637, -3047],
+                            [-29166, -3047]
+                        ],
+                        "stations": [11, [12, "Fort Myers branch"], 14, 304, 305, 306, 307, [308, "Tallahassee branch"], [310, "Gainesville branch"], 313]
+                    },
+                    "Fort Myers branch": {
+                        "vertices": [
+                            [-29326, -1765],
+                            [-29355, -1765]
+                        ],
+                        "stations": [[12, "Main line"], 13]
+                    },
+                    "Tallahassee branch": {
+                        "vertices": [
+                            [-29637, -3047],
+                            [-29637, -3360],
+                            [-30146, -3360],
+                            [-30146, -3438],
+                            [-30235.5, -3438],
+                            [-30235.5, -3446]
+                        ],
+                        "stations": [[308, "Main line"], 309]
+                    },
+                    "Gainesville branch": {
+                        "vertices": [
+                            [-29389, -3047],
+                            [-29389, -2928.5],
+                            [-29392, -2928.5],
+                            [-29392, -2917],
+                            [-29401, -2917],
+                            [-29401, -2799]
+                        ],
+                        "stations": [[310, "Main line"], 311, 312]
+                    }
+                }
+            },
+            "Guama-Cockburn Harbour": {
+                "prefix": "",
+                "code": "GB-CH",
+                "color": "89F336",
+                "y": 40,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-27569, 799],
+                            [-25681, 799],
+                            [-25681, 93]
+                        ],
+                        "stations": [29, [30, "Guantanamo Bay branch"], [392, "Main line"], 390, 26, 16, 17]
+                    },
+                    "Guantanamo Bay branch": {
+                        "vertices": [
+                            [-26917, 763],
+                            [-26917, 799]
+                        ],
+                        "stations": [[30, "Main line"], 15]
+                    },
+                    "Goonerville branch": {
+                        "vertices": [
+                            [-26653, 799],
+                            [-26653, 690],
+                            [-26600, 690]
+                        ],
+                        "stations": [[392, "Main line"], 389]
+                    }
+                }
+            },
+            "Pirate Bay-Tiburon": {
+                "prefix": "",
+                "code": "PB-T",
+                "color": "89F336",
+                "y": 40,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-25857, 799],
+                            [-25857, 1329],
+                            [-25999, 1329]
+                        ],
+                        "stations": [26, 27, 28]
+                    }
+                }
+            },
+            "Camaguey-Jamaica-Montego Bay": {
+                "prefix": "",
+                "code": "C-J-MB",
+                "color": "89F336",
+                "y": 40,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-27536, 373],
+                            [-27569, 373],
+                            [-27569, 1454]
+                        ],
+                        "stations": [31, 29, [32, "Jamaica branch"], 34]
+                    },
+                    "Jamaica branch": {
+                        "vertices": [
+                            [-27569, 1330],
+                            [-27903, 1330]
+                        ],
+                        "stations": [[32, "Main line"], 33]
+                    }
+                }
+            },
+            "CedarKey-Cape Canaveral": {
+                "prefix": "",
+                "code": "CK-CC",
+                "color": "9e5e28",
+                "y": 40,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-29748, -2800],
+                            [-29474, -2800],
+                            [-29473, -2799],
+                            [-29203, -2799]
+                        ],
+                        "stations": [314, 307, 315, 312, 316]
+                    }
+                }
+            }
+        },
+        "African Iceways": {
+            "Alexandria-Nile Regional": {
+                "prefix": "",
+                "code": "Alx-Nl",
+                "color": "C1B131",
+                "y": 77,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [10636, -3334],
+                            [11258, -3334],
+                            [11261, -3331],
+                            [11261, -3304],
+                            [11264, -3301],
+                            [11533, -3301]
+                        ],
+                        "stations": []
+                    }
+                }
+            }
+        },
+        "PTA": {
+            "Westralia": {
+                "prefix": "",
+                "code": "WSA",
+                "color": "B54800",
+                "y": 48,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [41529, 19936],
+                            [41529, 20381],
+                            [41469, 20440],
+                            [41469, 20636],
+                            [41941, 21108],
+                            [42421, 21108],
+                            [42989, 20539],
+                            [44303, 20539],
+                            [44315, 20526],
+                            [44333, 20526, "Elevator from Y=48 to Y=49"],
+                            [44360, 20526]
+                        ],
+                        "stations": [334, 333, 40, 41, 42]
+                    }
+                }
+            },
+            "Esperance Link": {
+                "prefix": "",
+                "code": "ESL",
+                "color": "FF6A00",
+                "y": 48,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [43276, 20521],
+                            [42989, 20521],
+                            [42850, 20381],
+                            [42784, 20381],
+                            [42645, 20241],
+                            [41800, 20241],
+                            [41531, 19972],
+                            [41531, 19936]
+                        ],
+                        "stations": [301, 300, 299]
+                    }
+                }
+            },
+            "Inner Victoria": {
+                "prefix": "",
+                "code": "VIC",
+                "color": "3F3FFF",
+                "y": 48,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [50950, 22392],
+                            [51700, 22392],
+                            [51717, 22375],
+                            [51717, 22232],
+                            [51942, 22232],
+                            [51942, 22197],
+                            [52020, 22197],
+                            [52020, 22178],
+                            [51910, 22178],
+                            [51910, 21580]
+                        ],
+                        "stations": [840, 841, 842, 844]
+                    }
+                }
+            },
+            "Sunshine Coast": {
+                "prefix": "",
+                "code": "QLD",
+                "color": "842243",
+                "y": 48,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [54788, 17890],
+                            [54788, 18350]
+                        ],
+                        "stations": [853, 854]
+                    }
+                }
+            },
+            "Regional NSW": {
+                "prefix": "",
+                "code": "NSW",
+                "color": "2BEA74",
+                "y": 48,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [53633, 18830],
+                            [53450, 18830],
+                            [53439, 18841],
+                            [53439, 18891],
+                            [53439, 19059],
+                            [53575, 19194],
+                            [53575, 19310],
+                            [53575, 20501],
+                            [53625, 20551],
+                            [53880, 20551]
+                        ],
+                        "stations": [845, 846, 847]
+                    }
+                }
+            },
+            "Waratah": {
+                "prefix": "",
+                "code": "SYD",
+                "color": "7FC9FF",
+                "y": 48,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [53880, 20551],
+                            [54334, 20551],
+                            [54334, 20099],
+                            [54332, 20099],
+                            [53880, 20551],
+                            [53880, 20551],
+                            [53417, 21014],
+                            [53417, 21017],
+                            [53764, 21363],
+                            [53764, 21370],
+                            [53773, 21370],
+                            [53996, 21140],
+                            [53996, 20890],
+                            [54134, 20751],
+                            [54134, 20551]
+                        ],
+                        "stations": [843, 852, 855, 850, 851, 847, 849, 843]
+                    }
+                }
+            },
+            "Central": {
+                "prefix": "",
+                "code": "CTL",
+                "color": "3F3FFF",
+                "y": 48,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [52494, 21336],
+                            [53719, 21336],
+                            [53851, 21363],
+                            [53851, 21386]
+                        ],
+                        "stations": [843]
+                    }
+                }
+            },
+            "South Coast": {
+                "prefix": "",
+                "code": "SOU",
+                "color": "BF2F2F",
+                "y": 48,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [52020, 22178],
+                            [52969, 22178],
+                            [53755, 21392],
+                            [53755, 21386],
+                            [53755, 21370],
+                            [53755, 21363],
+                            [53595, 21203],
+                            [53465, 21203]
+                        ],
+                        "stations": [848, 843, 842]
+                    }
+                }
+            },
+            "Regional NSW End": {
+                "prefix": "",
+                "code": "RNE",
+                "color": "2BEA74",
+                "y": 63,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [55007, 18527],
+                            [55007, 18414],
+                            [54997, 18389],
+                            [54985, 18389],
+                            [54985, 18368]
+                        ],
+                        "stations": [856, 857]
+                    }
+                }
+            },
+            "Fairy Metro": {
+                "prefix": "",
+                "code": "PFM",
+                "color": "FFFFFF",
+                "y": 71,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [51428, 22650],
+                            [51451, 22650],
+                            [51451, 22642],
+                            [51437, 22642],
+                            [51437, 22544]
+                        ],
+                        "stations": [858]
+                    }
+                }
+            },
+            "Wagga Metro": {
+                "prefix": "",
+                "code": "WWM",
+                "color": "3F3FFF",
+                "y": 71,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [52360, 21462],
+                            [52360, 21334],
+                            [51674, 21334]
+                        ],
+                        "stations": [859]
+                    }
+                }
+            }
+        },
+        "Kyushu": {
+            "Nagasaki-Jeju-Kuchinoerabusima": {
+                "prefix": "",
+                "code": "長済口",
+                "color": "de80a0",
+                "y": 70,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [46685, -4315],
+                            [46667, -4315],
+                            [46667, -4203],
+                            [46761, -4203],
+                            [46761, -4001],
+                            [46760, -3997],
+                            [46760, -3926],
+                            [46623, -3926],
+                            [46623, -3286],
+                            [46672, -3286]
+                        ],
+                        "stations": [97, [98, "Jeju branch"], 101, 102, 103, 104]
+                    },
+                    "Jeju branch": {
+                        "vertices": [
+                            [46667, -4203],
+                            [46667, -4098],
+                            [46637, -4098],
+                            [46637, -4094],
+                            [46367, -4094],
+                            [46367, -4333],
+                            [45479, -4333],
+                            [45479, -4310],
+                            [45389, -4310]
+                        ],
+                        "stations": [[98, "Main line"], 99, 100]
+                    }
+                }
+            },
+            "Nagasaki-Yamaguchi Y=70": {
+                "prefix": "",
+                "code": "長崎山口",
+                "color": "ad2d3e",
+                "y": 70,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [46685, -4307],
+                            [46670, -4307],
+                            [46670, -4262],
+                            [46761, -4262]
+                        ],
+                        "stations": [97, 105]
+                    }
+                }
+            },
+            "Nagasaki-Yamaguchi Y=88": {
+                "prefix": "",
+                "code": "長崎山口",
+                "color": "ad2d3e",
+                "y": 88,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [46761, -4262],
+                            [47198, -4262],
+                            [47198, -4676],
+                            [47135, -4676]
+                        ],
+                        "stations": [105, [106, "Saiki branch"], 108, 109]
+                    },
+                    "Saiki branch": {
+                        "vertices": [
+                            [47198, -4262],
+                            [47266, -4263]
+                        ],
+                        "stations": [[106, "Main line"], 107]
+                    }
+                }
+            }
+        },
+        "Armenia": {
+            "M-1": {
+                "prefix": "",
+                "code": "M-1",
+                "color": "009dff",
+                "y": 100,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [15626.5, -7554],
+                            [15626.5, -7469.5],
+                            [15649.5, -7469.5],
+                            [15649.5, -7296.5],
+                            [15662.5, -7296.5],
+                            [15662.5, -7256.5],
+                            [15674.5, -7256.5],
+                            [15674.5, -7246.5],
+                            [15677.5, -7246.5],
+                            [15677.5, -7243.5],
+                            [15862.5, -7243.5],
+                            [15862.5, -7161.5],
+                            [16007.5, -7161.5],
+                            [16007.5, -7059.5],
+                            [16135.5, -7059.5],
+                            [16135.5, -7016.5],
+                            [16236.5, -7016.5],
+                            [16236.5, -6802.5],
+                            [16392.5, -6802.5],
+                            [16392.5, -6728.5],
+                            [16415.5, -6728.5],
+                            [16415.5, -6696.5],
+                            [16512, -6696.5]
+                        ],
+                        "stations": [482, 483, 111, 412, 414, 484, 112, 485, 415, 114, 116, 491, 492]
+                    }
+                }
+            },
+            "M-2": {
+                "prefix": "",
+                "code": "M-3",
+                "color": "0ecc00",
+                "y": 100,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [16221.5, -7016.5],
+                            [16221.5, -7270.5],
+                            [16217.5, -7270.5],
+                            [16217.5, -7326.5],
+                            [16141.5, -7326.5],
+                            [16141.5, -7351.5],
+                            [16082.5, -7351.5]
+                        ],
+                        "stations": [490, 115, 114]
+                    },
+                    "Sevan Ring": {
+                        "vertices": [
+                            [16006.5, -7324.5],
+                            [16082.5, -7324.5],
+                            [16082.5, -7377.5],
+                            [16006.5, -7377.5]
+                        ],
+                        "stations": [486, 490, 487]
+                    }
+                }
+            },
+            "M-3": {
+                "prefix": "",
+                "code": "M-3",
+                "color": "ef161e",
+                "y": 100,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [16006.5, -7160.5],
+                            [16006.5, -7437.5],
+                            [15979.5, -7437.5],
+                            [15979.5, -7479.5],
+                            [15801.5, -7479.5],
+                            [15801.5, -7469.5],
+                            [15750.5, -7469.5],
+                            [15750.5, -7426.5],
+
+                            [15649.5, -7426.5]
+                        ],
+                        "stations": [483, 110, 488, 486, 487, 489, 485]
+                    }
+                }
+            },
+            "M-4": {
+                "prefix": "",
+                "code": "M-4",
+                "color": "800080",
+                "y": 100,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [15674.5, -7246.5],
+                            [15670.5, -7246.5],
+                            [15670.5, -7243.5],
+                            [15580.5, -7243.5],
+                            [15580.5, -7188.5],
+                            [15394.5, -7188.5]
+                        ],
+                        "stations": [412]
+                    }
+                }
+            },
+            "H-1": {
+                "prefix": "",
+                "code": "H-1",
+                "color": "ffde21",
+                "y": 100,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [15670.5, -7243.5],
+                            [15670.5, -7240.5],
+                            [15673.5, -7240.5],
+                            [15673.5, -7165.5],
+                            [15684.5, -7165.5],
+                            [15684.5, -7186.5],
+                            [15738.5, -7186.5],
+                            [15738.5, -7243.5]
+                        ],
+                        "stations": [412, 413, 414]
+                    }
+                }
+            },
+            "H-2": {
+                "prefix": "",
+                "code": "H-2",
+                "color": "ed9121",
+                "y": 100,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [16006.5, -7242.5],
+                            [15862.5, -7242.5]
+                        ],
+                        "stations": [484, 489]
+                    }
+                }
+            }
+        },
+        "Yakutia Metro": {
+            "Industrial": {
+                "prefix": "",
+                "code": "Idt",
+                "color": "A0A0A0",
+                "y": 10,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [46140, -17791],
+                            [46350, -17791],
+                            [46350, -17812],
+                            [46350, -17876],
+                            [46524, -17876]
+                        ],
+                        "stations": [147, 281, 37, 513]
+                    }
+                }
+            },
+            "Trial Chamber": {
+                "prefix": "",
+                "code": "Trc",
+                "color": "D27859",
+                "y": 6,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [46355, -17812],
+                            [46355, -17668]
+                        ],
+                        "stations": [37, 157]
+                    }
+                }
+            },
+            "Yusha": {
+                "prefix": "",
+                "code": "Ysh",
+                "color": "00FF00",
+                "y": 13,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [46129, -17804],
+                            [45806, -17804],
+                            [45806, -18531]
+                        ],
+                        "stations": [147, 595]
+                    }
+                }
+            }
+        },
+        "Canarail": {
+            "Trans-Canada Rail": {
+                "prefix": "[Rail] ",
+                "code": "TC",
+                "color": "FF0000",
+                "y": 80,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-41808.5, -12209.5],
+                            [-41652.5, -12209.5],
+                            [-41646.5, -12204.5],
+                            [-41637.5, -12186.5],
+                            [-41632.5, -12181.5],
+                            [-41479.5, -12104.5],
+                            [-41475.5, -12104.5],
+                            [-41414.5, -12073.5],
+                            [-40489.5, -12073.5],
+                            [-40231.5, -12073.5],
+                            [-40221.5, -12063.5],
+                            [-39750.5, -12063.5],
+                            [-39741.5, -12054.5],
+                            [-39543.5, -12054.5],
+                            [-39204.5, -11715.5],
+                            [-38615.5, -11715.5],
+                            [-38606.5, -11724.5],
+                            [-38514.5, -11724.5],
+                            [-38500.5, -11710.5],
+                            [-38280.5, -11710.5],
+
+                            [-38250.5, -11681.5],
+                            [-38122.5, -11681.5],
+                            [-37601.5, -11174.5],
+                            [-37601.5, -11131.5],
+                            [-37315.5, -10845.5],
+                            [-37194.5, -10845.5],
+                            [-37157.5, -10882.5],
+                            [-37114.5, -10882.5],
+                            [-37076.5, -10920.5],
+                            [-37076.5, -10942.5],
+                            [-36987.5, -11029.5],
+                            [-36561.5, -11029.5],
+                            [-36426.5, -11166.5],
+                            [-36125.5, -11166.5],
+                            [-36115.5, -11176.5],
+
+
+
+                            [-35855, -11177]
+                        ],
+                        "stations": [162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172]
+                    }
+                }
+            },
+            "Trans Canadian Ice Rail": {
+                "prefix": "",
+                "code": "TCIR",
+                "color": "950606",
+                "y": 1,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-41809, -12209],
+                            [-42380, -12209]
+                        ],
+                        "stations": [162, 613, 222]
+                    }
+                }
+            },
+            "Spokane": {
+                "prefix": "",
+                "code": "Spk",
+                "color": "0BDA51",
+                "y": 8,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-42380, -12209],
+                            [-42380, -10546]
+                        ],
+                        "stations": [222, 223, 607]
+                    }
+                }
+            },
+            "Cascadia Main": {
+                "prefix": "",
+                "code": "Csc",
+                "color": "088F8F",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-45674, -10863],
+                            [-40222, -10863]
+                        ],
+                        "stations": [224, [225, "Anakt branch"], [227, "Cape Flattery branch"], 229, 230, [231, "Whatcom branch"], 609, 223, [233, "Pend Oreille branch"]]
+                    },
+                    "Anakt branch": {
+                        "vertices": [
+                            [-44648, -10863],
+                            [-44648, -11256]
+                        ],
+                        "stations": [[225, "Main line"], 226]
+                    },
+                    "Cape Flattery branch": {
+                        "vertices": [
+                            [-44633, -10863],
+                            [-44633, -10791],
+                            [-44645, -10791]
+                        ],
+                        "stations": [[227, "Main line"], 228]
+                    },
+                    "Whatcom branch": {
+                        "vertices": [
+                            [-43899, -10863],
+                            [-43899, -11009]
+                        ],
+                        "stations": [[231, "Main line"], 232]
+                    },
+                    "Pend Oreille branch": {
+                        "vertices": [
+                            [-42168, -10863],
+                            [-42168, -11065]
+                        ],
+                        "stations": [[233, "Main line"], 234]
+                    }
+                }
+            },
+            "Vancouver": {
+                "prefix": "",
+                "code": "Vcr",
+                "color": "9D00FF",
+                "y": 9,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-44163, -10863],
+                            [-44163, -11516]
+                        ],
+                        "stations": [230, 235, 236]
+                    }
+                }
+            },
+            "Vancouver Island": {
+                "prefix": "",
+                "code": "Vcr",
+                "color": "66FF00",
+                "y": 72,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-44163, -11516],
+                            [-44245, -11516],
+                            [-44245, -11461],
+                            [-44550, -11461],
+                            [-44550, -11327]
+                        ],
+                        "stations": [236, 237, 238]
+                    }
+                }
+            },
+            "Farallon": {
+                "prefix": "",
+                "code": "Frl",
+                "color": "CB6CE6",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-42990, -10703],
+                            [-42990, -12347],
+                            [-42085, -12347]
+                        ],
+                        "stations": [608, 609, [610, "Coquitlam branch"], [612, "Trans Canadian Ice Rail connector"], 614]
+                    },
+                    "Coquitlam branch": {
+                        "vertices": [
+                            [-42990, -11108],
+                            [-43190, -11108]
+                        ],
+                        "stations": [[610, "Main line"], 611]
+                    },
+                    "Trans Canadian Ice Rail connector": {
+                        "vertices": [
+                            [-42099, -12347],
+                            [-42099, -12209]
+                        ],
+                        "stations": [[612, "Main line"], 613]
+                    }
+                }
+            }
+        },
+        "LR Railways": {
+            "LR King-nan Rail": {
+                "prefix": "[Rail] ",
+                "code": "GT",
+                "color": "FFFF00",
+                "y": 80,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [39207, 8025],
+                            [39329, 8025],
+                            [39482, 8060],
+                            [39500, 8224]
+                        ],
+                        "stations": [319, 320]
+                    }
+                }
+            }
+        },
+        "Oceania": {
+            "Blue": {
+                "prefix": "",
+                "code": "BL",
+                "color": "0000FF",
+                "y": 29,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [46025, 13512.5],
+                            [46520.5, 13512.5],
+                            [46520.5, 13000.5],
+                            [46824.5, 13000.5],
+                            [46824.5, 12744.5],
+                            [47224.5, 12744.5],
+                            [47224.5, 12616.5],
+                            [47608.5, 12616.5],
+                            [47608.5, 12312.5],
+                            [47928.5, 12312.5],
+                            [47928.5, 12336]
+                        ],
+                        "stations": [758, 615, 616, 754, 617, 618, 619, 620, 621]
+                    }
+                }
+            },
+            "Purple": {
+                "prefix": "",
+                "code": "PU",
+                "color": "AA00FF",
+                "y": 36,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [47216, 12632.5],
+                            [47466.5, 12632.5],
+                            [47642.5, 12808.5],
+                            [48716.5, 12808.5],
+                            [48806.5, 12860.5],
+                            [48858.5, 12954.5],
+                            [48858.5, 13768.5],
+                            [50736, 13768.5]
+                        ],
+                        "stations": [622, 623, 624, 625, 618]
+                    },
+                    "Darwin elevator": {
+                        "vertices": [
+                            [47248.5, 12632.5],
+                            [47248.5, 12602.5],
+                            [47253.5, 12602.5],
+                            [47253.5, 12632.5]
+                        ],
+                        "stations": []
+                    }
+                }
+            },
+            "Yellow": {
+                "prefix": "",
+                "code": "Y",
+                "color": "FFFF00",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [47752.5, 12301],
+                            [47752.5, 13048.5],
+                            [47304.5, 13048.5],
+                            [47304.5, 13676.5],
+                            [46184.5, 13676.5],
+                            [46184.5, 13510.5],
+                            [46154.5, 13480.5],
+                            [45392, 13480.5]
+                        ],
+                        "stations": [620, 625, 626, 627, 628, 615, [756, "Wyndham elevator"], 742]
+                    },
+                    "Watertown elevator": {
+                        "vertices": [
+                            [47751, 12808.5],
+                            [47754, 12808.5],
+                            [47754, 12801],
+                            [47732, 12801],
+                            [47732, 12779],
+                            [47752.5, 12779],
+                            [47752.5, 12776],
+                            [47729, 12776],
+                            [47729, 12804],
+                            [47751, 12804],
+                            [47751, 12808.5]
+                        ],
+                        "stations": []
+                    },
+                    "Wyndham elevator": {
+                        "vertices": [
+                            [46028.5, 13512.5],
+                            [46028.5, 13497.5],
+                            [46020.5, 13497.5],
+                            [46020.5, 13502.5],
+                            [46028.5, 13502.5],
+                            [46020.5, 13502.5],
+                            [46020.5, 13489.5],
+                            [46028.5, 13489.5],
+                            [46028.5, 13480.5]
+                        ],
+                        "stations": [[756, "Main line"], 757, 758]
+                    }
+                }
+            },
+            "Red": {
+                "prefix": "",
+                "code": "R",
+                "color": "FF0000",
+                "y": 44,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [45421, 13160.5],
+                            [45400.5, 13160.5],
+                            [45400.5, 13469]
+                        ],
+                        "stations": [742, 755]
+                    }
+                }
+            }
+        },
+        "Gobi Transport": {
+            "North-South Main": {
+                "prefix": "",
+                "code": "GT",
+                "color": "FFFF00",
+                "y": "110 (except Loulan South branch: 10)",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [35355, -9258],
+                            [35355, -6933],
+                            [34938, -6933],
+                            [34938, -5089],
+                            [32592, -5089],
+                            [32592, -4001],
+                            [32594, -4001]
+                        ],
+                        "stations": [48, [82, "Shinsyu branch"], 287, 292, 49, 909, 272, [648, "Loulan South branch"], 273, [274, "Mongolia branch"], [275, ""], 276, 212]
+                    },
+                    "Shinsyu branch": {
+                        "vertices": [
+                            [35355, -9213],
+                            [36174, -9213]
+                        ],
+                        "stations": [[82, "Main line"], 83, 84]
+                    },
+                    "Loulan South branch": {
+                        "vertices": [
+                            [32593, -5090],
+                            [32396, -5090]
+                        ],
+                        "stations": [647, [648, "Main line"]]
+                    },
+                    "Mongolia branch": {
+                        "vertices": [
+                            [33734, -5089],
+                            [33734, -5165]
+                        ],
+                        "stations": [[274, "Main line"], 277]
+                    },
+                    "Quemo branch": {
+                        "vertices": [
+                            [32592, -4591],
+                            [32683, -4591]
+                        ],
+                        "stations": [[275, "Main line"], 278]
+                    }
+                }
+            },
+            "NRI": {
+                "prefix": "",
+                "code": "",
+                "color": "87CEFA",
+                "y": 110,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [35355, -9162],
+                            [35349, -9167],
+                            [35349, -9231],
+                            [35326, -9231],
+                            [35326, -9441],
+                            [34784, -9441]
+                        ],
+                        "stations": [287, 288, 357, [289, "Buuntsagaan branch"], 290]
+                    },
+                    "Buuntsagaan branch": {
+                        "vertices": [
+                            [34863, -9733],
+                            [34863, -9441]
+                        ],
+                        "stations": [[289, "Main line"], 291]
+                    }
+                }
+            },
+            "Xinjiang": {
+                "prefix": "",
+                "code": "XIN",
+                "color": "EF161E",
+                "y": "50 (except lines near Loulan: 10)",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [35355, -8814],
+                            [28851, -8814]
+                        ],
+                        "stations": [292, 293, [535, "Loulan branch"], [294, "Anxi branch"], 295]
+                    },
+                    "Loulan branch": {
+                        "vertices": [
+                            [32314.5, -8814],
+                            [32314.5, -7308]
+                        ],
+                        "stations": [[535, "Main line"], 645, [646, "Loulan South branch"], 536]
+                    },
+                    "Loulan South branch": {
+                        "vertices": [
+                            [32314.5, -7358],
+                            [32397, -7358],
+                            [32397, -5090]
+                        ],
+                        "stations": [[646, "Loulan branch"], 647]
+                    },
+                    "Anxi branch": {
+                        "vertices": [
+                            [29444, -8814],
+                            [29444, -7892]
+                        ],
+                        "stations": [[294, "Main line"], 296]
+                    }
+                }
+            },
+            "Kashgar": {
+                "prefix": "",
+                "code": "KSG",
+                "color": "F9C2F8",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [27072.5, -6862],
+                            [27132, -6862],
+                            [27132, -7892],
+                            [29444, -7892]
+                        ],
+                        "stations": [337, 338, 339, 296]
+                    }
+                }
+            },
+            "Northern": {
+                "prefix": "",
+                "code": "北方",
+                "color": "87cefa",
+                "y": 110,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [35326, -9441],
+                            [35326, -13044]
+                        ],
+                        "stations": [359, 358, 357]
+                    }
+                }
+            },
+            "Eastern": {
+                "prefix": "",
+                "code": "東方",
+                "color": "79A4A2",
+                "y": "110, 90",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [34938, -5089],
+                            [37410, -5089],
+                            [37410, -5836],
+                            [37390, -5836],
+                            [37390, -5988],
+                            [37437, -5988],
+                            [37437, -6081],
+                            [37953, -6081],
+                            [37953, -6167],
+                            [38306, -6167],
+                            [38306, -6696],
+                            [38344, -6696]
+                        ],
+                        "stations": [273, 407, 408, 652, 409, 789, 410, 791, [792, "Liangzhou branch"], 793, 889, 794]
+                    },
+                    "Liangzhou branch": {
+                        "vertices": [
+                            [37608, -6082],
+                            [37608, -6094],
+                            [37613, -6094],
+                            [37613, -6860],
+                            [35614, -6860],
+                            [35614, -6944],
+                            [35493, -6944],
+                            [35489, -6947],
+                            [35436, -6947],
+                            [35434, -6948],
+                            [35428, -6954],
+                            [35355, -6954]
+                        ],
+                        "stations": [[792, "Main line"], 795, 910, 909]
+                    }
+                }
+            }
+        },
+        "America": {
+            "Atlantic": {
+                "prefix": "",
+                "code": "AT",
+                "color": "87cefa",
+                "y": 8,
+                "branches": {
+                    "Westbound Tube": {
+                        "vertices": [
+                            [-31680, -7222],
+                            [-25856, -7222]
+                        ],
+                        "stations": [[898, "Eastbound Tube"], [899, "Eastbound Tube"], [900, "Eastbound Tube"], 901, [902, "Eastbound Tube"], 369, [370, "Eastbound Tube"], 371, 372, 373, [374, "Eastbound Tube"]]
+                    },
+                    "Eastbound Tube": {
+                        "vertices": [
+                            [-31680, -7210],
+                            [-25856, -7210]
+                        ],
+                        "stations": [[898, "Westbound Tube"], [899, "Westbound Tube"], [900, "Westbound Tube"], 901, [902, "Westbound Tube"], 369, [370, "Westbound Tube"], 377, 378, 379, [374, "Westbound Tube"], 381]
+                    }
+                }
+            },
+            "Gotham": {
+                "prefix": "",
+                "code": "GT",
+                "color": "87cefa",
+                "y": 10,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-26590, -7070],
+                            [-26472, -7070],
+                            [-26472, -7222]
+                        ],
+                        "stations": [903, 902]
+                    }
+
+                }
+            },
+            "City of New Orleans": {
+                "prefix": "",
+                "code": "NO",
+                "color": "87cefa",
+                "y": 8,
+                "branches": {
+                    "Southbound Tube": {
+                        "vertices": [
+                            [-31669, -8132],
+                            [-31669, -7210]
+                        ],
+                        "stations": [894, 895, [897, "Northbound Tube"], [898, "Northbound Tube"]]
+                    },
+                    "Northbound Tube": {
+                        "vertices": [
+                            [-31657, -8132],
+                            [-31657, -7210]
+                        ],
+                        "stations": [894, 895, [897, "Southbound Tube"], [898, "Southbound Tube"]]
+                    }
+                }
+            },
+            "Capitol Limited": {
+                "prefix": "",
+                "code": "CL",
+                "color": "00537e",
+                "y": 8,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-27326, -7210],
+                            [-27326, -7333],
+                            [-30202, -7333],
+                            [-30202, -7739],
+                            [-31391, -7739]
+                        ],
+                        "stations": [388, 387, 386, [904, "Cincinnati branch"], 385, 370]
+                    },
+                    "Cincinnati branch": {
+                        "vertices": [
+                            [-30202, -7210],
+                            [-30202, -7333]
+                        ],
+                        "stations": [[904, "Main line"], 899]
+                    }
+                }
+            },
+            "Wolverine": {
+                "prefix": "",
+                "code": "WV",
+                "color": "00537e",
+                "y": 8,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-29720, -8480],
+                            [-29720 , -7210]
+                        ],
+                        "stations": [919, [918, "Flint branch"], 917, [916, "Chicago branch"], 915, 900]
+                    },
+                    "Chicago branch": {
+                        "vertices": [
+                            [-29720, -7739],
+                            [-30202, -7739]
+                        ],
+                        "stations": [921, [916, "Main line"]]
+                    },
+                    "Flint branch": {
+                        "vertices": [
+                            [-29720, -8461],
+                            [-29949, -8461]
+                        ],
+                        "stations": [920, [918, "Main line"]]
+                    }
+
+                }
+            }
+        },
+        "SEPTA": {
+            "L": {
+                "prefix": "",
+                "code": "",
+                "color": "0099d6",
+                "y": 60,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-26832, -7209],
+                            [-27266, -7209]
+                        ],
+                        "stations": [953, 954, 955, 956, 957]
+                    }
+                }
+            },
+            "B": {
+                "prefix": "",
+                "code": "",
+                "color": "f26929",
+                "y": 60,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-27033, -7337],
+                            [-27033, -7049]
+                        ],
+                        "stations": [935, 955, 963]
+                    }
+                }
+            },
+            "T": {
+                "prefix": "",
+                "code": "",
+                "color": "61A744",
+                "y": 60,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-27129, -7337],
+                            [-27129, -6914]
+                        ],
+                        "stations": [934, 942, 954, 962, 972, 981, 989]
+                    }
+                }
+            },
+            "G": {
+                "prefix": "",
+                "code": "",
+                "color": "FDD800",
+                "y": 60,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-27279, -7337],
+                            [-26924, -7337]
+                        ],
+                        "stations": [933, 934, 935, 936]
+                    }
+                }
+            },
+            "D": {
+                "prefix": "",
+                "code": "",
+                "color": "E5417A",
+                "y": 60,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-27257, -7337],
+                            [-27257, -6985],
+							[-27129, -6985]
+                        ],
+                        "stations": [933, 941, 953, 961, 971, 980, 981]
+                    }
+                }
+            },
+            "Pa": {
+                "prefix": "",
+                "code": "",
+                "color": "C5203F",
+                "y": 60,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-27295, -7049],
+                            [-27033, -7049]
+                        ],
+                        "stations": [971, 972]
+                    }
+                }
+            }
+        },
+        "Ethiopia": {
+            "Dessie-Trial-Adama": {
+                "prefix": "",
+                "code": "ATA",
+                "color": "fcdd09",
+                "y": 41,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [13877, 4176],
+                            [13781, 4176],
+                            [13781, 4259],
+                            [13396, 4259],
+                            [13396, 4533],
+                            [13414, 4533],
+                            [13414, 4721],
+                            [13256, 4721],
+                            [13256, 5763],
+                            [13270, 5763],
+                            [13270, 6143]
+                        ],
+                        "stations": [558, 551, 519, 520, 521, 522, 523, 552, [524, "Adama branch"], 527]
+                    },
+                    "Adama branch": {
+                        "vertices": [
+                            [13256, 5666],
+                            [13503, 5666],
+                            [13503, 6258]
+                        ],
+                        "stations": [[524, "Main line"], 525, 526]
+                    }
+                }
+            },
+            "Tarcha-Gode": {
+                "prefix": "",
+                "code": "TG",
+                "color": "F3791B",
+                "y": 41,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [13256, 5468],
+                            [14077, 5468],
+                            [14077, 5463],
+                            [15160, 5463],
+                            [15160, 5409]
+                        ],
+                        "stations": [552, 553, 554]
+                    }
+                }
+            },
+            "Oromia-Pemba Island": {
+                "prefix": "",
+                "code": "OPi",
+                "color": "DA121A",
+                "y": 41,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [14077, 5468],
+                            [14077, 5472],
+                            [14090, 5472],
+                            [14090, 8355],
+                            [14017, 8355],
+                            [14017, 9905],
+                            [14283, 9905]
+                        ],
+                        "stations": [553, [555, "Reji branch"], 557]
+                    },
+                    "Reji branch": {
+                        "vertices": [
+                            [14090, 5865],
+                            [13968, 5865]
+                        ],
+                        "stations": [[555, "Main line"], 556]
+                    }
+                }
+            }
+        },
+        "Subway": {
+            "Nantong-Suzhou": {
+                "prefix": "",
+                "code": "南通苏州",
+                "color": "DEA193",
+                "y": 54,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [43221, -4138],
+                            [43221, -3555]
+                        ],
+                        "stations": [541, 542, 543, 544, 545, 546]
+                    }
+                }
+            },
+            "Nantong-Chongming Island": {
+                "prefix": "",
+                "code": "南通崇明岛",
+                "color": "F5DEB3",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [43222, -3966],
+                            [43303, -3966],
+                            [43303, -3931],
+                            [43495, -3931],
+                            [43495, -3911]
+                        ],
+                        "stations": [542, 567, 568, 569]
+                    }
+                }
+            }
+        },
+        "Finland Public Ice Highway": {
+            "Line 1": {
+                "prefix": "",
+                "code": "L1",
+                "color": "00B8CD",
+                "y": "69, 53, 58, 71",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [9136, -19509],
+                            [9348, -19508],
+                            [9348, -17784],
+                            [9764, -17784],
+                            [9764, -17741],
+                            [10751, -17741]
+                        ],
+                        "stations": [572, 573, 574, 575, 576, 577, 578, 579, 580]
+                    }
+                }
+            },
+            "Line 2": {
+                "prefix": "",
+                "code": "L2",
+                "color": "14B250",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [9144, -19490],
+                            [9144, -20357],
+                            [9289, -20357],
+                            [9289, -20229],
+                            [9622, -20229],
+                            [9622, -20783],
+                            [9555, -20783]
+                        ],
+                        "stations": [572, 581, 582, 750]
+                    }
+                }
+            }
+        },
+        "China": {
+            "Guiyang-Anshun": {
+                "prefix": "",
+                "code": "贵阳安顺",
+                "color": "D2CE49",
+                "y": 72,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [38193, -1645],
+                            [38280, -1645],
+                            [38280, -1802]
+                        ],
+                        "stations": [811, 796]
+                    }
+                }
+            },
+            "Guilin-Huzhou Ice & Rail": {
+                "prefix": "",
+                "code": "湖州桂林",
+                "color": "954346",
+                "y": "105, 87",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [39535, -1430],
+                            [41766, -1430]
+                        ],
+                        "stations": [799, 800, 801, 802]
+                    }
+                }
+            },
+            "Lijiang-Wumengfu": {
+                "prefix": "",
+                "code": "丽江桂林",
+                "color": "9BB637",
+                "y": 126,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [35831, -2017],
+                            [36907, -2017]
+                        ],
+                        "stations": [803, 804]
+                    }
+                }
+            },
+            "Hanguguan-Jinan": {
+                "prefix": "",
+                "code": "函谷济南",
+                "color": "4F4F4F",
+                "y": "95, 96, 71, 72, 73",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [39590, -5050],
+                            [39590, -5884],
+                            [39598, -5884],
+                            [39678, -5884],
+                            [39678, -6021],
+                            [41953, -6021]
+                        ],
+                        "stations": [411, 907, 833, [908, "Xinhua branch"], 809, 808, 807, 806, 805]
+                    },
+                    "Xinhua branch": {
+                        "vertices": [
+                            [39678, -6021],
+                            [39656, -6021]
+                        ],
+                        "stations": [[908, "Main line"], 810]
+                    }
+                }
+            },
+            "Heiyan-Junzhou": {
+                "prefix": "",
+                "code": "海燕均州",
+                "color": "FFA500",
+                "y": 47,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [36023, -5880],
+                            [36044, -5880],
+                            [36044, -3544],
+                            [38825, -3544]
+                        ],
+                        "stations": [649, [650, "Gobi Transport connector"], 653, 654, 655, 656]
+                    },
+                    "Gobi Transport connector": {
+                        "vertices": [
+                            [36044, -5094],
+                            [36039, -5094],
+                            [36039, -5090]
+                        ],
+                        "stations": [[650, "Main line"], 651, 652]
+                    }
+                }
+            },
+            "Baoji-Zhumadian": {
+                "prefix": "",
+                "code": "黄河",
+                "color": "a0a0fe",
+                "y": "86, 110",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [38353, -4903],
+                            [38341, -4903],
+                            [38341, -5050],
+                            [39499, -5050],
+                            [39499, -5076],
+                            [39590, -5076]
+                        ],
+                        "stations": [[668, "South Baoji branch"], [775, "Krown-Citadel Branch"], 776, [777, "Xianyang Metro Branch"], 778, [779, "Bilibili Branch", "Changan Branch"], [780, "Zhumadian Branch"], 781, 907]
+                    },
+                    "South Baoji branch": {
+                        "vertices": [
+                            [38353, -4903],
+                            [38341, -4903],
+                            [38341, -4870],
+                            [38316, -4870],
+                            [38316, -4756],
+                            [38353, -4756]
+                        ],
+                        "stations": [[668, "Main line"], 890]
+                    },
+                    "Xianyang Metro Branch": {
+                        "vertices": [
+                            [38853, -5050],
+                            [38853, -4455],
+                            [38854, -4455]
+                        ],
+                        "stations": [[777, "Main line"], 782, 783, 784, 669]
+                    },
+                    "Bilibili Branch": {
+                        "vertices": [
+                            [39127, -5050],
+                            [39127, -5329]
+                        ],
+                        "stations": [[779, "Main line", "Changan Branch"], 785, 786]
+                    },
+                    "Changan Branch": {
+                        "vertices": [
+                            [39127, -5050],
+                            [39127, -4945]
+                        ],
+                        "stations": [[779, "Main line", "Bilibili Branch"], 787]
+                    },
+                    "Krown-Citadel Branch": {
+                        "vertices": [
+                            [38341, -5050],
+                            [37410, -5050],
+                            [37410, -5089]
+                        ],
+                        "stations": [[775, "Main line"], 790, 789]
+                    },
+                    "Zhumadian Branch": {
+                        "vertices": [
+                            [39205, -5050],
+                            [39205, -4955]
+                        ],
+                        "stations": [[780, "Main line"], 788]
+                    }
+                }
+            },
+            "Baoji-Guiyang": {
+                "prefix": "",
+                "code": "宝鸡贵阳",
+                "color": "259b24",
+                "y": "69, 47, 61, 76, 84",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [38353, -4903],
+                            [38353, -4455],
+                            [39005, -4455],
+                            [39005, -3822],
+                            [38494, -3822],
+                            [38494, -3073],
+                            [38431, -3073],
+                            [38431, -2741],
+                            [38428, -2741],
+                            [38431, -2741],
+                            [38434, -2741],
+                            [38434, -2736],
+                            [38431, -2736],
+                            [38428, -2736],
+                            [38431, -2736],
+                            [38431, -2282],
+                            [38363, -2282],
+                            [38357, -2276],
+                            [38356, -2276],
+                            [38356, -2239],
+                            [38355, -2238],
+                            [38355, -1875],
+                            [38365, -1875],
+                            [38365, -1885],
+                            [38355, -1885]
+                        ],
+                        "stations": [668, 890, [905, "Baoji-Gucheng Bypass"], 669, 670, 671, 672, [906, "Baoji-Gucheng Bypass"], 655, 673, [674, "Blw branch"], 676, [677, "Fxa branch"], [679, "Chongqing branch"], [914, "Yibin branch"], [681, "Zunyi branch"], 683, 684, 685]
+                    },
+                    "Baoji-Gucheng Bypass": {
+                        "vertices": [
+                            [38353, -4455],
+                            [38353, -3822],
+                            [38494, -3822]
+                        ],
+                        "stations": [[905, "Main line"], [906, "Main line"]]
+                    },
+                    "Blw branch": {
+                        "vertices": [
+                            [38494, -3073],
+                            [38527, -3073]
+                        ],
+                        "stations": [[674, "Main line"], 675]
+                    },
+                    "Fxa branch": {
+                        "vertices": [
+                            [38431, -2913],
+                            [38462, -2913]
+                        ],
+                        "stations": [[677, "Main line"], 678]
+                    },
+                    "Chongqing branch": {
+                        "vertices": [
+                            [38428, -2741],
+                            [38428, -2736],
+                            [38428, -2739],
+                            [38240, -2739]
+                        ],
+                        "stations": [[679, "Main line"], 680]
+                    },
+                    "Zunyi branch": {
+                        "vertices": [
+                            [38356, -2276],
+                            [38250, -2276]
+                        ],
+                        "stations": [[681, "Main line"], 682]
+                    },
+                    "Yibin branch": {
+                        "vertices": [
+                            [38431, -2608],
+                            [38136, -2608],
+                            [38136, -2659],
+                            [38044, -2659],
+                            [38044, -2622],
+                            [37580, -2622]
+                        ],
+                        "stations": [[914, "Main line"], 913]
+                    }
+                }
+            },
+            "Junzhou-Beibuwan": {
+                "prefix": "",
+                "code": "均州北部湾",
+                "color": "982484",
+                "y": 47,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [38825, -3822],
+                            [38825, 174],
+                            [38721, 174]
+                        ],
+                        "stations": [672, 656, [686, "Gobi Transport connector"], 689, 690]
+                    },
+                    "Guiyang East Elevator": {
+                        "vertices": [
+                            [38825, -1783],
+                            [38845, -1783],
+                            [38845, -1815]
+                        ],
+                        "stations": [[686, "Main line"], 687, 688]
+                    }
+                }
+            },
+            "Guiyang-Guilin Upper": {
+                "prefix": "",
+                "code": "贵阳桂林上",
+                "color": "0000ff",
+                "y": 84,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [38331, -1787, "NOTE: Check coords"],
+                            [38406, -1787],
+                            [38409, -1790],
+                            [38479, -1790]
+                        ],
+                        "stations": [268, 269]
+                    }
+                }
+            },
+            "Guiyang-Guilin Main": {
+                "prefix": "",
+                "code": "贵阳桂林中",
+                "color": "0000ff",
+                "y": 84,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [38479, -1790],
+                            [38607, -1790],
+                            [38607, -1815],
+                            [38648, -1815]
+                        ],
+                        "stations": [269, 270]
+                    }
+                }
+            },
+            "Guiyang-Guilin Lower": {
+                "prefix": "",
+                "code": "贵阳桂林下",
+                "color": "0000ff",
+                "y": 68,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [38648, -1815],
+                            [38845, -1815],
+                            [38845, -1863],
+                            [39272, -1863],
+                            [39272, -1891],
+                            [39335, -1891],
+                            [39335, -1812],
+                            [39361, -1812],
+                            [39361, -1297]
+                        ],
+                        "stations": [270, 688, [271, "Hunan Bypass"], 885, 798, [887, "Hunan Bypass"], 797]
+                    },
+                    "Hunan Bypass": {
+                        "vertices": [
+                            [39272, -1863],
+                            [39272, -1860],
+                            [39272, -1812],
+                            [39335, -1812]
+                        ],
+                        "stations": [[271, "Main line"], 886, [887, "Main line"]]
+                    }
+                }
+            },
+            "Hunan-Changsha": {
+                "prefix": "",
+                "code": "湖长",
+                "color": "B52324",
+                "y": 56,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [39335, -1864],
+                            [39366, -1864],
+                            [39366, -1864],
+                            [39366, -2398],
+                            [40142, -2398],
+                            [40142, -2420],
+                            [40430, -2420]
+                        ],
+                        "stations": [798, 888]
+                    }
+                }
+            }
+        },
+        "Sweden": {
+            "Red": {
+                "prefix": "",
+                "code": "R",
+                "color": "FF0000",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [6454.5, -16159.5],
+                            [6454.5, -15805.5],
+                            [5342.5, -15805.5],
+                            [5342.5, -14585.5],
+                            [4730.5, -14585.5],
+                            [4730.5, -14229.5],
+                            [4816, -14229.5]
+                        ],
+                        "stations": [583, 584, 585, 586, 587, 588, 589, 590]
+                    }
+                }
+            },
+            "Purple": {
+                "prefix": "",
+                "code": "P",
+                "color": "8932B8",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [5679, -14579.5],
+                            [5004.5, -14579.5],
+                            [5004.5, -14219.5],
+                            [4720.5, -14219.5],
+                            [4720.5, -15353.5],
+                            [4337.5, -15353.5]
+                        ],
+                        "stations": [588, 590, 589, 591, 592]
+                    }
+                }
+            },
+            "Blue": {
+                "prefix": "",
+                "code": "B",
+                "color": "0000FF",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [4720.5, -14695],
+                            [4702, -14695],
+                            [4702, -14687.5],
+                            [4578, -14687.5]
+                        ],
+                        "stations": [591, 593]
+                    }
+                }
+            },
+            "Green": {
+                "prefix": "",
+                "code": "G",
+                "color": "00FF00",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [4816, -14224.5],
+                            [4725.5, -14224.5],
+                            [4725.5, -14679.5],
+                            [4885.5, -14679.5],
+                            [4885.5, -15047]
+                        ],
+                        "stations": [590, 589, 594]
+                    }
+                }
+            }
+        },
+        "Ming Underground Ice Rail System": {
+            "Yinghai": {
+                "prefix": "",
+                "code": "扬海",
+                "color": "55ffff",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [42227.5, -4858.5],
+                            [42765.5, -4858.5],
+                            [42752.5, -4858.5],
+                            [42752.5, -4852.5],
+                            [42765.5, -4852.5],
+                            [42752.5, -4852.5],
+                            [42227.5, -4852.5],
+                            [42562.5, -4852.5],
+                            [42562.5, -4163.5],
+                            [42562.5, -4858.5],
+                            [42568.5, -4858.5],
+                            [42568.5, -4163.5]
+                        ],
+                        "stations": [759, 760, 761]
+                    }
+                }
+            },
+            "Yingguang": {
+                "prefix": "",
+                "code": "扬广",
+                "color": "ff5555",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [42596.5, -4163.5],
+                            [42313.5, -4163.5],
+                            [42313.5, -3396.5],
+                            [41338.5, -3396.5],
+                            [41338.5, -2128.5],
+                            [41332.5, -2128.5],
+                            [41332.5, -3402.5],
+                            [42307.5, -3402.5],
+                            [42307.5, -4169.5],
+                            [42596.5, -4169.5]
+                        ],
+                        "stations": [768, 759, 762, 763, [764, "Wuchang branch"], 765, 766]
+                    },
+                    "Wuchang branch": {
+                        "vertices": [
+                            [41169.5, -2922.5],
+                            [41338.5, -2922.5],
+                            [41338.5, -2916.5],
+                            [41169.5, -2916.5]
+                        ],
+                        "stations": [[764, "Main line"], 767]
+                    }
+                }
+            },
+            "Yingmeng": {
+                "prefix": "",
+                "code": "应孟",
+                "color": "ff55dd",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [42596.5, -4163.5],
+                            [42734.5, -4163.5],
+                            [42734.5, -4056.5],
+                            [42898.5, -4056.5],
+                            [42898.5, -4062.5],
+                            [42740.5, -4062.5],
+                            [42740.5, -4169.5],
+                            [42596.5, -4169.5]
+                        ],
+                        "stations": [768, 769]
+                    }
+                }
+            },
+            "Yangtze River Delta East Loop": {
+                "prefix": "",
+                "code": "长三角環狀",
+                "color": "ffff55",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [43216.5, -4039.5],
+                            [43216.5, -4062.5],
+                            [42898.5, -4062.5],
+                            [42898.5, -3681.5],
+                            [42892.5, -3681.5],
+                            [42892.5, -3687.5],
+                            [43205.5, -3687.5],
+                            [43205.5, -4056.5],
+                            [42892.5, -4056.5],
+                            [42892.5, -4062.5],
+                            [42898.5, -4062.5],
+                            [42898.5, -4056.5],
+                            [42892.5, -4056.5],
+                            [42892.5, -3681.5],
+                            [43209.5, -3681.5],
+                            [43209.5, -3697.5]
+                        ],
+                        "stations": [773, 769, 772, 771, 770]
+                    }
+                }
+            },
+            "Xihang": {
+                "prefix": "",
+                "code": "锡杭",
+                "color": "55ff55",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [43456, -3100.5],
+                            [43118.5, -3100.5],
+                            [43118.5, -3245.5],
+                            [42709.5, -3245.5],
+                            [42709.5, -3578.5],
+                            [42892.5, -3578.5],
+                            [42892.5, -3687.5],
+                            [42898.5, -3687.5],
+                            [42898.5, -3572.5],
+                            [42715.5, -3572.5],
+                            [42715.5, -3251.5],
+                            [43124.5, -3251.5],
+                            [43124.5, -3106.5],
+                            [43456, -3106.5]
+                        ],
+                        "stations": [772, 774]
+                    }
+                }
+            }
+        },
+        "SNCF": {
+            "Netherlands-France": {
+                "prefix": "",
+                "code": "NF",
+                "color": "360099",
+                "y": "-62, 64, 67",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [616, -10847],
+                            [600, -10847],
+                            [587, -10854],
+                            [616, -10854],
+                            [580, -10854],
+                            [574, -10858],
+                            [580, -10854],
+                            [278, -10854],
+                            [278, -11365],
+                            [282, -11360],
+                            [278, -11365],
+                            [278, -11369],
+                            [338, -11369],
+                            [329, -11378],
+                            [293, -11378],
+                            [284, -11369],
+                            [813, -11369],
+                            [813, -12987],
+                            [1885, -12987],
+                            [1885, -12939],
+                            [1881, -12939],
+                            [1881, -12983],
+                            [818, -12983],
+                            [818, -11365],
+                            [300, -11365],
+                            [309, -11356],
+                            [332, -11356],
+                            [341, -11365],
+                            [282, -11365],
+                            [282, -10858],
+                            [580, -10858],
+                            [574, -10854],
+                            [580, -10858],
+                            [616, -10858],
+                            [587, -10858],
+                            [600, -10865],
+                            [616, -10865]
+                        ],
+                        "stations": [822, 864, 872, 865, 866, 873, 867]
+                    }
+                }
+            }
+        },
+        "Intercontinental": {
+            "Afghan": {
+                "prefix": "",
+                "code": "AF",
+                "color": "A0A0A0",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [27072.5, -6948.5],
+                            [27072.5, -6172.5],
+                            [24774.5, -6172.5],
+                            [24774.5, -4785.5]
+                        ],
+                        "stations": [86, 337, [88, "Kabul branch"], [218, "Afyun Dara branch"], 220, 89]
+                    },
+                    "Yeken branch": {
+                        "vertices": [
+                            [27072.5, -6172.5],
+                            [27072.5, -6172.5],
+                            [27293.5, -6172.5]
+                        ],
+                        "stations": [[88, "Main line"], 87]
+                    },
+                    "Afyun Dara branch": {
+                        "vertices": [
+                            [25667.5, -6172.5],
+                            [25667.5, -5787.5]
+                        ],
+                        "stations": [[218, "Main line"], 219]
+                    }
+                }
+            },
+            "Havantian": {
+                "prefix": "",
+                "code": "HVT",
+                "color": "00008B",
+                "y": -61,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-474, -12917],
+                            [-312, -12917],
+                            [-312, -12272],
+                            [-343, -12272],
+                            [-343, -11957]
+                        ],
+                        "stations": [131, 140, 399, [132, "Oxford branch"], 133, 134]
+                    },
+                    "Oxford branch": {
+                        "vertices": [
+                            [-492, -12340],
+                            [-312, -12340]
+                        ],
+                        "stations": [135, [132, "Main line"]]
+                    }
+                }
+            },
+            "Anglo-Wales": {
+                "prefix": "",
+                "code": "AG-CY",
+                "color": "00008B",
+                "y": -61,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [396, -12430],
+                            [396, -12557],
+                            [-1408, -12557]
+                        ],
+                        "stations": [161, 141, 140, 139]
+                    }
+                }
+            },
+            "Sicilian North Africa": {
+                "prefix": "",
+                "code": "SNA",
+                "color": "00FF00",
+                "y": 9,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [7060, -3225],
+                            [6375, -3225],
+                            [6375, -4053],
+                            [5137, -4053],
+                            [5137, -4577],
+                            [4817, -4577],
+                            [4817, -4529],
+                            [3921, -4529]
+                        ],
+                        "stations": [207, 208, [210, "Tunis branch"], 209]
+                    },
+                    "Tunis branch": {
+                        "vertices": [
+                            [3969, -4529],
+                            [3969, -5091]
+                        ],
+                        "stations": [[210, "Main line"], 211]
+                    }
+                }
+            },
+            "Sicilian Pantellerian": {
+                "prefix": "",
+                "code": "SP",
+                "color": "90D5FF",
+                "y": 9,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [3969, -5091],
+                            [3969, -5790],
+                            [4264, -5790]
+                        ],
+                        "stations": [211, 267]
+                    }
+                }
+            },
+            "Garibaldi": {
+                "prefix": "",
+                "code": "Gbd",
+                "color": "111184",
+                "y": 64,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-18298, 19121],
+                            [-18278, 19121],
+                            [-18278, 19143.5],
+                            [-18950.5, 19143.5],
+                            [-18950.5, 19967]
+                        ],
+                        "stations": [239, 240]
+                    }
+                }
+            },
+            "Pishpek": {
+                "prefix": "",
+                "code": "Psp",
+                "color": "0000ff",
+                "y": 62,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [26807, -8323],
+                            [28038, -8323],
+                            [28038, -8194]
+                        ],
+                        "stations": [241, 242]
+                    }
+                }
+            },
+            "Kobe": {
+                "prefix": "",
+                "code": "神戸",
+                "color": "0071BE",
+                "y": 64,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [48461, -4960.5],
+                            [48558.5, -4960.5],
+                            [48558.5, -4977.5],
+                            [48606, -4977.5]
+                        ],
+                        "stations": [335, 336]
+                    }
+                }
+            },
+            "Average Trial Chambers Ice Highway": {
+                "prefix": "",
+                "code": "ATC",
+                "color": "707070",
+                "y": 21,
+                "branches": {
+                    "Central": {
+                        "vertices": [
+                            [32823.5, -1038.5],
+                            [33468, -1038.5]
+                        ],
+                        "stations": [343, [345, "North-South"]]
+                    },
+                    "North-South": {
+                        "vertices": [
+                            [33611, -2130.5],
+                            [33455.5, -2130.5],
+                            [33455.5, -2143],
+                            [33455.5, -982]
+                        ],
+                        "stations": [346, 347, [345, "Central"], 348]
+                    }
+                }
+            },
+            "Transatlantic North": {
+                "prefix": "",
+                "code": "TA-N",
+                "color": "00B997",
+                "y": -63,
+                "branches": {
+                    "East segment": {
+                        "vertices": [
+                            [55, -12508],
+                            [-3550, -12508]
+                        ],
+                        "stations": [397, 399, 400]
+                    },
+                    "West segment": {
+                        "vertices": [
+                            [-3649, -12508],
+                            [-22046, -12508],
+                            [-22046, -9504]
+                        ],
+                        "stations": [398, 396]
+                    }
+                }
+            },
+            "Baikal Free Way": {
+                "prefix": "",
+                "code": "BFW",
+                "color": "00FFDF",
+                "y": 117,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [39488, -17207],
+                            [39488, -10801]
+                        ],
+                        "stations": [[403, "Minerva branch"], 404, 405]
+                    },
+                    "Minerva branch": {
+                        "vertices": [
+                            [39488, -16936],
+                            [39296, -16936],
+                            [39296, -17051]
+                        ],
+                        "stations": [[403, "Main line"]]
+                    }
+                }
+            },
+            "Thailand": {
+                "prefix": "",
+                "code": "TH",
+                "color": "A51931",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [36050.5, 754],
+                            [36050.5, 3000.5],
+                            [36045.5, 3000.5],
+                            [36045.5, 3030.5]
+                        ],
+                        "stations": [665, [666, "Yangon branch"], 667]
+                    },
+                    "Yangon branch": {
+                        "vertices": [
+                            [36050.5, 2078.5],
+                            [34450.5, 2078.5]
+                        ],
+                        "stations": [[666, "Main line"], 188]
+                    }
+                }
+            },
+            "Twi Islands-Wyndham": {
+                "prefix": "",
+                "code": "A-W",
+                "color": "A0A0A0",
+                "y": 70,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [46877, 12255],
+                            [46877, 12290],
+                            [46510, 12290],
+                            [46510, 13344],
+                            [46508, 13346],
+                            [45905, 13346],
+                            [45905, 13471],
+                            [46040, 13471],
+                            [46040, 13529]
+                        ],
+                        "stations": [912, 911, 740, 741, 615]
+                    }
+                }
+            },
+            "Downing River-Condingup": {
+                "prefix": "",
+                "code": "DR-C",
+                "color": "00BFFF",
+                "y": 63,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [45902, 13473],
+                            [45721, 13473],
+                            [45721, 14271],
+                            [45713, 14271],
+                            [45713, 16079],
+                            [45697, 16079],
+                            [45697, 17439],
+                            [45041, 17439],
+                            [45041, 17473],
+                            [44026, 17473],
+                            [44026, 18719],
+                            [44027, 18719],
+                            [44027, 18722],
+                            [44025, 18722],
+                            [44025, 20642]
+                        ],
+                        "stations": [743, 744, 745, 746, 747, 748, 749]
+                    }
+                }
+            },
+            "SubZero Market-Ayon": {
+                "prefix": "",
+                "code": "SzM-A",
+                "color": "2084DB",
+                "y": 63,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [60058.5, -23840],
+                            [60058.5, -22370.5],
+                            [60174, -22370.5]
+                        ],
+                        "stations": [817, 818]
+                    }
+                }
+            },
+            "South Greenland Connect": {
+                "prefix": "",
+                "code": "SGC",
+                "color": "8888ff",
+                "y": 75,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-15596, -17732],
+                            [-15596, -16532],
+                            [-15596, -16972],
+                            [-16000, -16972]
+                        ],
+                        "stations": [875, 876, 395]
+                    }
+                }
+            }
+        },
+        "NZ Ministry of Infrastructure": {
+            "NZ North-South Main (Y7)": {
+                "prefix": "",
+                "code": "NZML",
+                "color": "9AC0CD",
+                "y": 7,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [62800, 22097],
+                            [62800, 24605],
+                            [62178, 24605]
+                        ],
+                        "stations": [250, 249, 251, 248, 247, [285, "New Plymouth branch"], [282, "Napier branch", "Wanganui ramp"] , 253, 634, 254]
+                    },
+                    "Napier branch": {
+                        "vertices": [
+                            [62800, 22961],
+                            [63370, 22961]
+                        ],
+                        "stations": [[282, "Main line"], 283]
+                    },
+                    "Wanganui ramp": {
+                        "vertices": [
+                            [62800, 23007],
+                            [62727, 23007]
+                        ],
+                        "stations": [[282, "Main line"], 252]
+                    },
+                    "New Plymouth branch": {
+                        "vertices": [
+                            [62800, 22785],
+                            [62442, 22785]
+                        ],
+                        "stations": [[285, "Main line"], 284]
+                    }
+                }
+            },
+            "NZ North-South Main (Y-62)": {
+                "prefix": "",
+                "code": "NZML",
+                "color": "9AC0CD",
+                "y": -62,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [62178, 24605],
+                            [61352, 24605],
+                            [60521, 25437],
+                            [60043, 25437]
+                        ],
+                        "stations": [254, 255, 635, 286]
+                    }
+                }
+            },
+            "Napier": {
+                "prefix": "",
+                "code": "NL",
+                "color": "FF681F",
+                "y": 7,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [62800, 22590],
+                            [63400, 22590]
+                        ],
+                        "stations": [248, 246, 245]
+                    }
+                }
+            },
+            "Trans-Tasman Link (Y7)": {
+                "prefix": "",
+                "code": "TTL",
+                "color": "E9F60F",
+                "y": 7,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [62800, 22590],
+                            [62758, 22590],
+                            [62758, 22650],
+                            [62450, 22650]
+                        ],
+                        "stations": [248, 256]
+                    }
+                }
+            },
+            "Trans-Tasman Link (Y-62)": {
+                "prefix": "",
+                "code": "TTL",
+                "color": "E9F60F",
+                "y": -62,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [62450, 22650],
+                            [54583, 22650],
+                            [53773, 21840],
+                            [53773, 21380]
+                        ],
+                        "stations": [256, 317, 318]
+                    }
+                }
+            },
+            "Bay of Plenty": {
+                "prefix": "",
+                "code": "BoP",
+                "color": "D935F9",
+                "y": 7,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [62800, 22216],
+                            [63302, 22216],
+                            [63302, 21520]
+                        ],
+                        "stations": [249, 244, 257]
+                    }
+                }
+            },
+            "World Border": {
+                "prefix": "",
+                "code": "WB",
+                "color": "080808",
+                "y": -62,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [60043, 25437],
+                            [60024, 25437],
+                            [60024, 32252]
+                        ],
+                        "stations": [286, 476, 477, 478, [479, "Auckland View ramp"], 481]
+                    },
+                    "Auckland View ramp": {
+                        "vertices": [
+                            [60024, 28080],
+                            [59530, 28080],
+                            [59530, 27876],
+                            [59555, 27876]
+                        ],
+                        "stations": [[479, "Main line"], 480]
+                    }
+                }
+            },
+            "Auckland Circle": {
+                "prefix": "",
+                "code": "ACL",
+                "color": "F163AA",
+                "y": 7,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [62887, 22097],
+                            [62887, 21729],
+                            [62320, 21729],
+                            [62320, 22097],
+                            [62887, 22097]
+                        ],
+                        "stations": [250, 631, 632, [633, "Octogon ramp"], 250]
+                    },
+                    "Octogon ramp": {
+                        "vertices": [
+                            [62695, 21729],
+                            [62695, 21525]
+                        ],
+                        "stations": [[633, "Main line"]]
+                    }
+                }
+            },
+            "Blazerwood": {
+                "prefix": "",
+                "code": "BZL",
+                "color": "E9F60F",
+                "y": 7,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [62695, 21729],
+                            [62695, 22097]
+                        ],
+                        "stations": [631, 633]
+                    }
+                }
+            },
+            "South Pacific Link": {
+                "prefix": "",
+                "code": "SPL",
+                "color": "F0CA00",
+                "y": 7,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [62320, 21729],
+                            [62320, 21093]
+                        ],
+                        "stations": [632, [636, "Yordle Land Ramp"]]
+                    },
+                    "Yordle Land Ramp": {
+                        "vertices": [
+                            [62320, 21100],
+                            [62118, 21100]
+                        ],
+                        "stations": [[636, "Main line"], 637]
+                    }
+                }
+            },
+            "NZ Highway 1": {
+                "prefix": "",
+                "code": "1",
+                "color": "CC0000",
+                "y": -62,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [62800, 24605],
+                            [62800, 25437],
+                            [60521, 25437]
+                        ],
+                        "stations": [634, 635]
+                    }
+                }
+            }
+        },
+        "Russian Confederation": {
+            "Velikiye Luki": {
+                "prefix": "",
+                "code": "VL",
+                "color": "FF0000",
+                "y": 20,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [11037.5, -14912],
+                            [11037.5, -14397.5],
+                            [13101.5, -14397.5]
+                        ],
+                        "stations": [350, 349]
+                    }
+                }
+            }
+        },
+        "Norwegian Ice Boat Highway System (Vy)": {
+            "Lower Central": {
+                "prefix": "",
+                "code": "L-CT",
+                "color": "cc008b",
+                "y": -63,
+                "branches": {
+                    "Little line": {
+                        "vertices": [
+                            [3533, -16572],
+                            [3729, -16572],
+                            [3729, -16537],
+                            [3709, -16537],
+                            [3709, -16477],
+                            [3404, -16477],
+                            [3404, -16122],
+                            [3585, -16122],
+                            [3585, -16101]
+                        ],
+                        "stations": [420, [419, "Great line"], [434, "Honefoss branch"], 417, 416]
+                    },
+                    "Honefoss branch": {
+                        "vertices": [
+                            [3662, -16477],
+                            [3662, -16334],
+                            [3651, -16334]
+                        ],
+                        "stations": [[434, "Little line"], 418, 874]
+                    },
+                    "Connector branch": {
+                        "vertices": [
+                            [3347, -16228],
+                            [3333, -16228],
+                            [3333, -16113],
+                            [2900, -16113],
+                            [2900, -15665],
+                            [2896, -15665],
+                            [2896, -16117],
+                            [3329, -16117],
+                            [3329, -16232],
+                            [3347, -16232]
+                        ],
+                        "stations": [[437, "Great line"], 429, 430]
+                    },
+                    "Great line": {
+                        "vertices": [
+                            [2216, -15734],
+                            [2479, -15734],
+                            [2479, -15636],
+                            [2863, -15636],
+                            [2863, -15640],
+                            [2483, -15640],
+                            [2483, -15738],
+                            [2216, -15738],
+                            [2483, -15738],
+                            [2483, -15640],
+                            [2863, -15640],
+                            [2863, -15636],
+                            [2900, -15636],
+                            [2900, -16113],
+                            [3387, -16113],
+                            [3387, -17799],
+                            [2425, -17799],
+                            [3387, -17799],
+                            [3387, -16839],
+                            [1968, -16839],
+                            [1968, -16763],
+                            [1944, -16763],
+                            [1944, -16114],
+                            [2896, -16114]
+                        ],
+                        "stations": [832, 863, 831, 830, 421, [828, "Fronningen branch"], 829, 424, 862, [419, "Little line"], [437, "Connector branch"], 427, 428, [433, "West Agder branch"], 737, 431, 432]
+                    },
+                    "West Agder branch": {
+                        "vertices": [
+                            [2680, -15640],
+                            [2680, -15587]
+                        ],
+                        "stations": [[433, "Great line"], 423]
+                    },
+                    "Fronningen branch": {
+                        "vertices": [
+                            [2523, -16839],
+                            [2523, -17156]
+                        ],
+                        "stations": [[828, "Great line"], 422]
+                    }
+                }
+            },
+            "Upper Central": {
+                "prefix": "",
+                "code": "U-CT",
+                "color": "007ecc",
+                "y": 75,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [2216, -15734],
+                            [2213, -15734],
+                            [2213, -15744],
+                            [2214, -15744],
+                            [2214, -16930],
+                            [2581, -16930],
+                            [2603, -16908],
+                            [2890, -16908],
+                            [2890, -16859],
+                            [3446, -16859],
+                            [3446, -16344],
+                            [3403, -16344],
+                            [3403, -16226],
+                            [3399, -16226],
+                            [3399, -16348],
+                            [3442, -16348],
+                            [3442, -16855],
+                            [2886, -16855],
+                            [2886, -16904],
+                            [2604, -16904],
+                            [2582, -16926],
+                            [2218, -16926],
+                            [2218, -15742],
+                            [2215, -15742],
+                            [2215, -15738],
+                            [2216, -15738]
+                        ],
+                        "stations": [[429, 430, 435, "Skien og Sandefjord station platforms"], [461, "Oslo branch"], [462, "Oslo branch"], [692, "Northern Route"], 426, [425, "Finse station platforms, Vestnes Kommune branch"], [699, "Northern Route"], [449, "Bergen branch"], 736, 442, 431, 432]
+                    },
+                    "Northern Route": {
+                        "vertices": [
+                            [2214, -16929],
+                            [2214, -17661],
+                            [3446, -17661],
+                            [3446, -16855],
+                            [3442, -16855],
+                            [3442, -17657],
+                            [2218, -17657],
+                            [2218, -16926],
+                            [2214, -16926]
+                        ],
+                        "stations": [[692, "Main line"], 693, 694, [695, "Vestnes Kommune branch"], 696, 697, 698, [699, "Main line"]]
+                    },
+                    "Finse station platforms": {
+                        "vertices": [
+                            [2653, -16904],
+                            [2657, -16908],
+                            [2660, -16908],
+                            [2660, -16910],
+                            [2683, -16910],
+                            [2683, -16904],
+                            [2683, -16910],
+                            [2713, -16910],
+                            [2713, -16908],
+                            [2716, -16908],
+                            [2720, -16904]
+                        ],
+                        "stations": [[425, "Main line, Vestnes Kommune branch"]]
+                    },
+                    "Skien og Sandefjord station platforms": {
+                        "vertices": [
+                            [3403, -16226],
+                            [3361, -16226],
+                            [3359, -16228],
+                            [3347, -16228],
+                            [3359, -16228],
+                            [3361, -16226],
+                            [3403, -16226],
+                            [3403, -16232],
+                            [3347, -16232],
+                            [3362, -16232],
+                            [3364, -16234],
+                            [3403, -16234],
+                            [3403, -16240],
+                            [3370, -16240],
+                            [3364, -16234],
+                            [3399, -16234]
+                        ],
+                        "stations": [[435, "Main line"]]
+                    },
+                    "Bergen branch": {
+                        "vertices": [
+                            [2014, -16757],
+                            [1977, -16757],
+                            [1997, -16757],
+                            [2004, -16764],
+                            [2014, -16764],
+                            [1977, -16764],
+                            [2004, -16764],
+                            [2006, -16766],
+                            [1977, -16766],
+                            [2006, -16766],
+                            [2011, -16771],
+                            [2041, -16771],
+                            [2011, -16771],
+                            [2013, -16773],
+                            [1977, -16773],
+                            [2218, -16773],
+                            [2214, -16773],
+                            [2214, -16777],
+                            [2023, -16777],
+                            [2027, -16773],
+                            [2023, -16773],
+                            [2027, -16777],
+                            [1998, -16777],
+                            [2002, -16773],
+                            [1998, -16773],
+                            [2002, -16777],
+                            [1977, -16777],
+                            [2013, -16777],
+                            [2006, -16784],
+                            [1977, -16784],
+                            [2006, -16784],
+                            [2004, -16786],
+                            [1977, -16786]
+                        ],
+                        "stations": [[449, "Main line"], 441]
+                    },
+                    "Oslo branch": {
+                        "vertices": [
+                            [3281, -16425],
+                            [3320, -16425],
+                            [3320, -16422],
+                            [3340, -16422],
+                            [3340, -16425],
+                            [3320, -16425],
+                            [3340, -16425],
+                            [3340, -16422],
+                            [3426, -16422],
+                            [3430, -16426],
+                            [3674, -16426],
+                            [3674, -16598],
+                            [3736, -16598],
+                            [3742, -16603],
+                            [3736, -16603],
+                            [3742, -16598],
+                            [3772, -16598],
+                            [3674, -16598],
+                            [3674, -16603],
+                            [3720, -16603],
+                            [3726, -16607],
+                            [3720, -16607],
+                            [3726, -16603],
+                            [3754, -16603],
+                            [3758, -16607],
+                            [3754, -16607],
+                            [3758, -16603],
+                            [3772, -16603],
+                            [3674, -16603],
+                            [3674, -16628],
+                            [3676, -16630],
+                            [3676, -16633],
+                            [3442, -16633],
+                            [3634, -16633],
+                            [3634, -16635],
+                            [3670, -16635],
+                            [3671, -16636],
+                            [3678, -16636],
+                            [3678, -16607],
+                            [3772, -16607],
+                            [3678, -16607],
+                            [3678, -16594],
+                            [3772, -16594],
+                            [3754, -16594],
+                            [3758, -16598],
+                            [3754, -16598],
+                            [3758, -16594],
+                            [3720, -16594],
+                            [3726, -16598],
+                            [3720, -16598],
+                            [3726, -16594],
+                            [3678, -16594],
+                            [3678, -16422],
+                            [3658, -16422],
+                            [3658, -16426],
+                            [3658, -16422],
+                            [3426, -16422]
+                        ],
+                        "stations": [460, [461, "Main line"], 436, 450, 451, 452, 453, 880, 463, 464, [462, "Main line"]]
+                    },
+                    "Trondheim branch": {
+                        "vertices": [
+                            [3743, -18466],
+                            [3734, -18466],
+                            [3734, -18437],
+                            [3743, -18437],
+                            [3742, -18437],
+                            [3742, -18391],
+                            [3738, -18395],
+                            [3742, -18391],
+                            [3742, -18377],
+                            [3744, -18375],
+                            [3742, -18373],
+                            [3742, -18361],
+                            [3738, -18365],
+                            [3742, -18361],
+                            [3742, -18435],
+                            [3742, -18263],
+                            [3196, -18263],
+                            [3196, -17657],
+                            [3192, -17657],
+                            [3192, -18267],
+                            [3738, -18267],
+                            [3738, -18361],
+                            [3742, -18365],
+                            [3738, -18361],
+                            [3738, -18391],
+                            [3742, -18395],
+                            [3738, -18391],
+                            [3738, -18437]
+                        ],
+                        "stations": [[694, "Northern Route"], 702, 703, 443]
+                    },
+                    "Valle branch": {
+                        "vertices": [
+                            [2664, -16910],
+                            [2664, -16912],
+                            [3001, -16912],
+                            [3001, -17324]
+                        ],
+                        "stations": [[425, "Main line, Finse station platforms"], 735, 701]
+                    },
+                    "Vestnes Kommune branch": {
+                        "vertices": [
+                            [2433, -17661],
+                            [2433, -17665],
+                            [2459, -17665],
+                            [2459, -17944],
+                            [2540, -17944]
+                        ],
+                        "stations": [[695, "Northern Route"], 730, 700]
+                    }
+                }
+            },
+            "Lower Trondheim": {
+                "prefix": "",
+                "code": "L-TH",
+                "color": "bb0000",
+                "y": 64,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [3772, -16607],
+                            [3849, -16607],
+                            [3852, -16604],
+                            [3973, -16604],
+                            [3973, -17240],
+                            [3973, -17146],
+                            [3969, -17142],
+                            [3969, -16607],
+                            [3872, -16607],
+                            [3872, -16604],
+                            [3872, -16607],
+                            [3849, -16607],
+                            [3854, -16607],
+                            [3854, -16609],
+                            [3804, -16609],
+                            [3802, -16607],
+                            [3804, -16609],
+                            [3802, -16609],
+                            [3804, -16607],
+                            [3802, -16609],
+                            [3779, -16609],
+                            [3777, -16607]
+                        ],
+                        "stations": [450, [448, "Oslo station platforms"], 439, 454]
+                    },
+                    "Oslo station platforms": {
+                        "vertices": [
+                            [3772, -16620],
+                            [3786, -16620],
+                            [3788, -16618],
+                            [3847, -16618],
+                            [3849, -16616],
+                            [3851, -16616],
+                            [3851, -16609],
+                            [3851, -16616],
+                            [3795, -16616],
+                            [3788, -16609],
+                            [3797, -16618],
+                            [3772, -16618]
+                        ],
+                        "stations": [[448, "Main line"]]
+                    }
+                }
+            },
+            "Upper Trondheim": {
+                "prefix": "",
+                "code": "U-TH",
+                "color": "cc0000",
+                "y": 71,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [3973, -17240],
+                            [3973, -18263],
+                            [3977, -18263],
+                            [3746, -18263],
+                            [3746, -18365],
+                            [3748, -18363],
+                            [3746, -18361],
+                            [3746, -18377],
+                            [3744, -18375],
+                            [3746, -18373],
+                            [3746, -18421],
+                            [3748, -18419],
+                            [3746, -18417],
+                            [3746, -18431],
+                            [3750, -18431],
+                            [3750, -18467],
+                            [3743, -18467],
+                            [3743, -18437],
+                            [3743, -18507],
+                            [3482, -18507],
+                            [3482, -18571],
+                            [3250, -18571],
+                            [3264, -18571],
+                            [3270, -18567],
+                            [3250, -18567],
+                            [3264, -18567],
+                            [3270, -18571],
+                            [3264, -18567],
+                            [3478, -18567],
+                            [3478, -18503],
+                            [3741, -18503],
+                            [3741, -18485],
+                            [3743, -18485],
+                            [3741, -18485],
+                            [3741, -18437],
+                            [3741, -18438]
+                        ],
+                        "stations": [454, 559, [443, "Trondheim station platforms"], 444, 445]
+                    },
+                    "Trondheim station platforms": {
+                        "vertices": [
+                            
+                        ],
+                        "stations": [[443, "Main line"]]
+                    }
+                }
+            },
+            "Lower North": {
+                "prefix": "",
+                "code": "L-N",
+                "color": "cc6300",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [3772, -16603],
+                            [3795, -16603],
+                            [3798, -16600],
+                            [3863, -16600],
+                            [3863, -16604],
+                            [3863, -16600],
+                            [3881, -16600],
+                            [3881, -16604],
+                            [3881, -16600],
+                            [3978, -16600],
+                            [3978, -17139],
+                            [3977, -17140],
+                            [3977, -17240],
+                            [3977, -17148],
+                            [3982, -17148],
+                            [3982, -16598],
+                            [3887, -16598],
+                            [3889, -16600],
+                            [3887, -16600],
+                            [3889, -16598],
+                            [3857, -16598],
+                            [3859, -16600],
+                            [3857, -16600],
+                            [3859, -16598],
+                            [3772, -16598]
+                        ],
+                        "stations": [451, 452, 448, [439, "Brookieston branch"], 455]
+                    },
+                    "Brookieston branch": {
+                        "vertices": [
+                            [3982, -16904],
+                            [3873, -16904]
+                        ],
+                        "stations": [[439, "Main line"], 440]
+                    }
+                }
+            },
+            "Middle North": {
+                "prefix": "",
+                "code": "M-N",
+                "color": "e66f00",
+                "y": 71,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [3977, -17240],
+                            [3977, -18267],
+                            [3750, -18267],
+                            [3750, -18365],
+                            [3748, -18363],
+                            [3750, -18361],
+                            [3750, -18421],
+                            [3748, -18419],
+                            [3750, -18417],
+                            [3750, -18427],
+                            [3752, -18427],
+                            [3752, -18466],
+                            [3750, -18466],
+                            [3750, -18467],
+                            [3743, -18467],
+                            [3750, -18467],
+                            [3750, -18472],
+                            [3743, -18472],
+                            [3750, -18472],
+                            [3750, -18748],
+                            [4021, -18748],
+                            [4021, -18865],
+                            [4025, -18865],
+                            [4025, -18744],
+                            [3752, -18744],
+                            [3752, -18485],
+                            [3750, -18485],
+                            [3752, -18485],
+                            [3752, -18466],
+                            [3750, -18466],
+                            [3752, -18466],
+                            [3752, -18427],
+                            [3750, -18427]
+                        ],
+                        "stations": [455, 559, [443, "Östersund branch"], [704, "Östersund branch"], 456, 457]
+                    },
+                    "Östersund branch": {
+                        "vertices": [
+                            [3801.5, -18492],
+                            [3797.5, -18488],
+                            [3759, -18488],
+                            [3759, -18442],
+                            [3759, -18488],
+                            [4373, -18488],
+                            [4373, -18492],
+                            [3750, -18492],
+                            [3750, -18488],
+                            [4373, -18488],
+                            [4373, -18490],
+                            [5115, -18490],
+                            [5115, -18434]
+                        ],
+                        "stations": [[443, "Main line"], [704, "Main line"], 705]
+                    }
+                }
+            },
+            "Upper North": {
+                "prefix": "",
+                "code": "U-N",
+                "color": "ff7b00",
+                "y": "66, 75",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [6770, -21339],
+                            [6770, -21292],
+                            [5861, -21292],
+                            [5861, -20887],
+                            [5812, -20887],
+                            [5812, -20795],
+                            [5748, -20795],
+                            [5748, -20667],
+                            [5603, -20667],
+                            [5603, -20553],
+                            [5171, -20553],
+                            [5171, -20093],
+                            [5175, -20098],
+                            [5175, -20093],
+                            [5171, -20098],
+                            [5171, -19690],
+                            [4836, -19690],
+                            [4836, -19370],
+                            [4545, -19370],
+                            [4545, -19366],
+                            [4545, -19370],
+                            [4405, -19370],
+                            [4405, -19002],
+                            [4021, -19002],
+                            [4021, -18861],
+                            [4021, -18865],
+                            [4025, -18865],
+                            [4025, -18861],
+                            [4025, -18998],
+                            [4409, -18998],
+                            [4409, -19366],
+                            [4840, -19366],
+                            [4840, -19686],
+                            [5175, -19686],
+                            [5175, -20549],
+                            [5607, -20549],
+                            [5607, -20663],
+                            [5752, -20663],
+                            [5752, -20791],
+                            [5816, -20791],
+                            [5816, -20883],
+                            [5865, -20883],
+                            [5865, -21288],
+                            [6774, -21288],
+                            [6774, -21339]
+                        ],
+                        "stations": [456, 457, 731, 732, 458, 459, 733, [836, "Bodo branch"], [446, "Straumen station platforms"], 734, [715, "Asgard branch"], 709, [447, "Narvik station platforms"], [706, "Stuor Muorkke branch"], 707]
+                    },
+                    "Narvik station platforms": {
+                        "vertices": [
+                            [6212, -21288],
+                            [6212, -21281],
+                            [6273, -21281],
+                            [6221, -21281],
+                            [6221, -21279],
+                            [6273, -21279],
+                            [6207, -21279],
+                            [6207, -21282],
+                            [6170, -21282],
+                            [6170, -21292],
+                            [6170, -21286],
+                            [6172, -21286],
+                            [6172, -21292],
+                            [6172, -21286],
+                            [6273, -21286]
+                        ],
+                        "stations": [[447, "Main line"]]
+                    },
+                    "Straumen station platforms": {
+                        "vertices": [
+                            [5621, -20663],
+                            [5621, -20652],
+                            [5651, -20652],
+                            [5651, -20663],
+                            [5651, -20656],
+                            [5621, -20656]
+                        ],
+                        "stations": [[446, "Main line"]]
+                    },
+                    "Asgard branch": {
+                        "vertices": [
+                            [5861, -21434],
+                            [5861, -21288],
+                            [5865, -21288],
+                            [5865, -21434]
+                        ],
+                        "stations": [[715, "Main line"], 716]
+                    },
+                    "Stuor Muorkke branch": {
+                        "vertices": [
+                            [6567, -21292],
+                            [6567, -20878]
+                        ],
+                        "stations": [[706, "Main line"], 708]
+                    },
+                    "Bodo branch": {
+                        "vertices": [
+                            [5171, -20678],
+                            [5171, -20553],
+                            [5171, -20562],
+                            [5175, -20562],
+                            [5175, -20549],
+                            [5171, -20549]
+                        ],
+                        "stations": [[836, "Main line"], 837]
+                    }
+                }
+            },
+            "Svalbard": {
+                "prefix": "",
+                "code": "Sv",
+                "color": "FF9533",
+                "y": "75, 65, -62, 70",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [5659, -28109],
+                            [5659, -28090],
+                            [6072, -28090],
+                            [6072, -21288],
+                            [6068, -21288],
+                            [6068, -28086],
+                            [5655, -28086],
+                            [5655, -28109],
+                            [5655, -28098],
+                            [5649, -28098],
+                            [5649, -28109]
+                        ],
+                        "stations": [709, 710, 835, 711, 712, 713, 714]
+                    }
+                }
+            },
+            "South": {
+                "prefix": "",
+                "code": "S",
+                "color": "11ff00",
+                "y": 64,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [4089, -16088],
+                            [4089, -16171],
+                            [3947, -16171],
+                            [3947, -16248],
+                            [3865, -16248],
+                            [3865, -16393],
+                            [3930, -16393],
+                            [3930, -16591],
+                            [3846, -16591],
+                            [3846, -16598],
+                            [3846, -16591],
+                            [3795, -16591],
+                            [3792, -16594],
+                            [3772, -16594],
+                            [3792, -16594],
+                            [3795, -16591],
+                            [3797, -16589],
+                            [3840, -16589],
+                            [3840, -16586],
+                            [3896, -16586],
+                            [3896, -16598],
+                            [3896, -16586],
+                            [3930, -16586],
+                            [3926, -16586],
+                            [3926, -16397],
+                            [3861, -16397],
+                            [3861, -16244],
+                            [3943, -16244],
+                            [3943, -16167],
+                            [4085, -16167],
+                            [4085, -16088]
+                        ],
+                        "stations": [453, [448, "Oslo station platforms"], 728, 727, 438]
+                    },
+                    "Oslo station platforms": {
+                        "vertices": [
+                            [3777, -16589],
+                            [3843, -16589],
+                            [3841, -16591],
+                            [3843, -16591],
+                            [3841, -16589],
+                            [3930, -16589],
+                            [3840, -16589],
+                            [3840, -16584],
+                            [3846, -16584],
+                            [3850, -16580],
+                            [3907, -16580],
+                            [3909, -16582],
+                            [3911, -16582],
+                            [3913, -16584],
+                            [3911, -16582],
+                            [3848, -16582],
+                            [3846, -16584],
+                            [3914, -16584],
+                            [3914, -16586],
+                            [3914, -16584],
+                            [3918, -16584],
+                            [3918, -16586]
+                        ],
+                        "stations": [[448, "Main line"]]
+                    }
+                }
+            },
+            "Sweden": {
+                "prefix": "",
+                "code": "Sw",
+                "color": "0A9900",
+                "y": "65, 73, 64, 69, 9",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [3797, -16618],
+                            [3864, -16618],
+                            [3864, -16620],
+                            [4410, -16620],
+                            [4410, -16313],
+                            [5876, -16313],
+                            [5876, -16315],
+                            [5898, -16315],
+                            [5898, -16251],
+                            [6454.5, -16251],
+                            [6454.5, -16159.5],
+                            [6454.5, -16247],
+                            [5894, -16247],
+                            [5894, -16311],
+                            [5880, -16311],
+                            [5880, -16309],
+                            [4406, -16309],
+                            [4406, -16616],
+                            [3795, -16616],
+                            [4014, -16616],
+                            [4014, -16598],
+                            [3982, -16598]
+                        ],
+                        "stations": [[448, "Oslo-Ed Bypass"], 717, 718, 719, 720, 721, 722, 723, 724, [838, "Drottningstad branch"], 725, 583]
+                    },
+                    "Gothenburg line": {
+                        "vertices": [
+                            [4156, -15962],
+                            [4156, -16044],
+                            [4123, -16044],
+                            [4123, -16092],
+                            [4085, -16092],
+                            [4085, -16167],
+                            [4028, -16167],
+                            [4028, -16171],
+                            [4089, -16171],
+                            [4089, -16088],
+                            [4119, -16088],
+                            [4119, -16040],
+                            [4152, -16040],
+                            [4152, -15962],
+                            [4439, -15962],
+                            [4439, -15433],
+                            [4281, -15433],
+                            [4281, -15381],
+                            [4322, -15381]
+                        ],
+                        "stations": [438, 726, [729, "Oslo-Ed Bypass"], 827, 592]
+                    },
+                    "Oslo-Ed Bypass": {
+                        "vertices": [
+                            [4292, -15962],
+                            [4292, -15971],
+                            [4213, -15971],
+                            [4213, -16587],
+                            [3939, -16587],
+                            [3938, -16589],
+                            [3930, -16589],
+                            [3930, -16591],
+                            [4217, -16591],
+                            [4217, -15975],
+                            [4281, -15975],
+                            [4281, -15971]
+                        ],
+                        "stations": [[448, "Main line"], [729, "Gothenburg line"]]
+                    },
+                    "Drottningstad branch": {
+                        "vertices": [
+                            [5619, -16251],
+                            [5898, -16251],
+                            [5894, -16251],
+                            [5894, -16247],
+                            [5619, -16247]
+                        ],
+                        "stations": [[838, "Main line"], 839]
+                    }
+                }
+            },
+            "Norway-Netherlands": {
+                "prefix": "",
+                "code": "NN",
+                "color": "994A00",
+                "y": "-62",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [1874, -12905],
+                            [1874, -12933],
+                            [1881, -12939],
+                            [1881, -12905],
+                            [1881, -12939],
+                            [1885, -12939],
+                            [1885, -12905],
+                            [1885, -12939],
+                            [1893, -12939],
+                            [1893, -12905],
+                            [1893, -12954],
+                            [1897, -12946],
+                            [1893, -12954],
+                            [1893, -15745],
+                            [2157, -15745],
+                            [2157, -15731],
+                            [2202, -15731],
+                            [2202, -15790],
+                            [2211, -15803],
+                            [2211, -15813],
+                            [2214, -15818],
+                            [2214, -15797],
+                            [2206, -15788],
+                            [2206, -15727],
+                            [1897, -15727],
+                            [1897, -12954],
+                            [1893, -12946],
+                            [1897, -12954],
+                            [1897, -12905],
+                            [1897, -12942],
+                            [1905, -12942],
+                            [1905, -12905],
+                            [1905, -12942],
+                            [1909, -12942],
+                            [1909, -12905],
+                            [1909, -12942],
+                            [1917, -12933],
+                            [1917, -12905]
+                        ],
+                        "stations": [737, [819, "The Golden Dunegon branch"], [738, "Mapplatform branch"], 821, 822]
+                    },
+                    "Mapplatform branch": {
+                        "vertices": [
+                            [1897, -14649],
+                            [1478, -14649],
+                            [1478, -14669],
+                            [1444, -14669],
+                            [1444, -14652],
+                            [1217, -14652]
+                        ],
+                        "stations": [[738, "Main line"], 739]
+                    },
+                    "The Golden Dunegon branch": {
+                        "vertices": [
+                            [1897, -15481],
+                            [1218, -15481]
+                        ],
+                        "stations": [[819, "Main line"], 820]
+                    }
+                }
+            },
+            "Norway-Germany": {
+                "prefix": "",
+                "code": "NG",
+                "color": "FFCE00",
+                "y": "76",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [2226, -15722],
+                            [2230, -15726],
+                            [2230, -15730],
+                            [2238, -15738],
+                            [2238, -16063],
+                            [2214, -16063],
+                            [2218, -16063],
+                            [2218, -15816],
+                            [2230, -15788],
+                            [2230, -14958],
+                            [2230, -15788],
+                            [2218, -15816],
+                            [2218, -15796],
+                            [2226, -15783],
+                            [2226, -14958]
+                        ],
+                        "stations": [737]
+                    }
+                }
+            },
+            "Denmark": {
+                "prefix": "",
+                "code": "DK",
+                "color": "D21034",
+                "y": "64",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [4231, -14354],
+                            [4231, -14386],
+                            [4233, -14386],
+                            [4229, -14386],
+                            [4232, -14386],
+                            [4232, -14354],
+                            [4232, -15240],
+                            [3427, -15240],
+                            [3427, -16021],
+                            [3392, -16021],
+                            [3392, -16023],
+                            [3333, -16023],
+                            [3333, -16133],
+                            [3329, -16133],
+                            [3329, -16019],
+                            [3373, -16019],
+                            [3373, -16017],
+                            [3423, -16017],
+                            [3423, -15236],
+                            [4228, -15236],
+                            [4228, -14478],
+                            [4229, -14478],
+                            [4229, -14354]
+                        ],
+                        "stations": [437, 823, [824, "Gothenburg branch"], 825, 826]
+                    },
+                    "Gothenburg branch": {
+                        "vertices": [
+                            [4181, -15236],
+                            [4181, -15435],
+                            [4277, -15435],
+                            [4277, -15433],
+                            [4281, -15433],
+                            [4277, -15433],
+                            [4277, -15431],
+                            [4185, -15431],
+                            [4185, -15431],
+                            [4185, -15236]
+                        ],
+                        "stations": [[824, "Main line"], 827]
+                    }
+                }
+            },
+            "Finland": {
+                "prefix": "",
+                "code": "FI",
+                "color": "F3F6FB",
+                "y": "89",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [9114, -19551],
+                            [9114, -19491],
+                            [9114, -19513],
+                            [9118, -19518],
+                            [9118, -19520],
+                            [9118, -19520],
+                            [9125, -19527],
+                            [9125, -19491],
+                            [9125, -22151],
+                            [6969, -22151],
+                            [6969, -21782],
+                            [6068, -21782],
+                            [6068, -21786],
+                            [6965, -21786],
+                            [6965, -22155],
+                            [9129, -22155],
+                            [9129, -19491],
+                            [9129, -19522],
+                            [9118, -19511],
+                            [9118, -19491],
+                            [9118, -19551]
+                        ],
+                        "stations": [572, 834, 835, 868]
+                    }
+                }
+            },
+            "Finland-Russia": {
+                "prefix": "",
+                "code": "FI-RU",
+                "color": "DECCFF",
+                "y": "89, 83, 10",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [10870, -16776],
+                            [10598, -16776],
+                            [10598, -19560],
+                            [9118, -19560],
+                            [9118, -19551],
+                            [9114, -19551],
+                            [9114, -19564],
+                            [10602, -19564],
+                            [10602, -16780],
+                            [10874, -16780]
+                        ],
+                        "stations": [868, 869, 870, 871]
+                    }
+                }
+            }
+        },
+        "French Intercity Highway": {
+            "Strasbourg-Metz": {
+                "prefix": "",
+                "code": "Str-Met",
+                "color": "ffffff",
+                "y": 50,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [2765, -10968],
+                            [2696, -10968],
+                            [2696, -10970],
+                            [2686, -10970],
+                            [2686, -10968],
+                            [2629, -10968],
+                            [2629, -11008],
+                            [2353, -11008],
+                            [2353, -11008]
+                        ],
+                        "stations": [465, 466, 467]
+                    }
+                }
+            },
+            "Metz-Paris": {
+                "prefix": "",
+                "code": "Met-Par",
+                "color": "ffffff",
+                "y": 50,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [2159, -11008],
+                            [978, -11008],
+                            [977, -11007],
+                            [933, -11007]
+                        ],
+                        "stations": [468, 469]
+                    }
+                }
+            }
+        }
+    }
+}`); // for local test
     // netherHighwayData = await fetchJSON('nostra/netherHighways.json'); // for local test
     if (!highwayData || !netherHighwayData) {
         console.log('debug: There was a problem with getting station and line data')
     }
     currentData = highwayData;
 
-    pathfinder = new Pathfinder(currentData);
+    // pathfinder = new Pathfinder(currentData);
 
     const params = new URLSearchParams(window.location.search);
     if (params.has('line')) {
@@ -309,6 +16413,7 @@ async function renderStations(dataset, mod) {
 
     stationsLayer.clearLayers();
     for (const station of dataset.stations) {
+        if (!Object.hasOwn(station, "name")) continue;
         let container = document.createElement('div');
         let stationName = document.createElement('a')
         stationName.innerHTML = station.name
@@ -522,6 +16627,7 @@ function listLine() {
 function listStation() {
     document.getElementById('station-list').replaceChildren()
     for (const station of currentData.stations) {
+        if (!Object.hasOwn(station, "name")) continue;
         if (station.name.toUpperCase().indexOf(stationFilters.contains) < 0) continue
         if (!stationFilters.type.includes(station.type == undefined ? 'station' : station.type.replace(/[0-9]/g, ''))) continue
 

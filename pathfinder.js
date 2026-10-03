@@ -5,6 +5,7 @@ class Pathfinder {
         let errorMessage = document.getElementById("data-error");
 
         for (let station of stations) {
+            if (!Object.hasOwn(station, "name")) station.name = "";
             let reachable = {};
             for (let company in station.lines) {
                 if (station.lines[company] == null) {
