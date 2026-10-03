@@ -3,7 +3,7 @@ class Pathfinder {
         this.graph = {};
         let stations = data.stations;
         let errorMessage = document.getElementById("data-error");
-
+        if (!Object.hasOwn(station, "name")) station.name = "";
         for (let station of stations) {
             let reachable = {};
             for (let company in station.lines) {
@@ -40,7 +40,7 @@ class Pathfinder {
                         if (n > 1) {
                             if (index == 0)
                                 reachable[stations[actualStations[1]].id] = [Math.abs(station.x - stations[actualStations[1]].x) + Math.abs(station.z - stations[actualStations[1]].z), `${company}: ${line}: ${branch}`];
-                            else if (index == n - 1) 
+                            else if (index == n - 1)
                                 reachable[stations[actualStations[n - 2]].id] = [Math.abs(station.x - stations[actualStations[n - 2]].x) + Math.abs(station.z - stations[actualStations[n - 2]].z), `${company}: ${line}: ${branch}`];
                             else {
                                 reachable[stations[actualStations[index + 1]].id] = [Math.abs(station.x - stations[actualStations[index + 1]].x) + Math.abs(station.z - stations[actualStations[index + 1]].z),`${company}: ${line}: ${branch}`];
