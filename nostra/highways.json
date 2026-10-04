@@ -481,7 +481,7 @@
             "x": 42207,
             "z": 21108,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Westralia": ["", "Main line"]
                 }
             }
@@ -492,7 +492,7 @@
             "x": 43276,
             "z": 20539,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Westralia": ["", "Main line"]
                 }
             }
@@ -503,7 +503,7 @@
             "x": 44360,
             "z": 20526,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Westralia": ["", "Main line"]
                 }
             }
@@ -3494,7 +3494,7 @@
             "x": 43276,
             "z": 20521,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Esperance Link": ["", "Main line"]
                 }
             }
@@ -3505,7 +3505,7 @@
             "x": 41993,
             "z": 20241,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Esperance Link": ["", "Main line"]
                 }
             }
@@ -3516,7 +3516,7 @@
             "x": 41531,
             "z": 19936,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Esperance Link": ["", "Main line"]
                 }
             }
@@ -3879,7 +3879,7 @@
             "x": 41469,
             "z": 20499,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Westralia": ["", "Main line"]
                 }
             }
@@ -3890,7 +3890,7 @@
             "x": 41529,
             "z": 19936,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Westralia": ["", "Main line"]
                 }
             }
@@ -6783,7 +6783,8 @@
             "lines": {
                 "Finland Public Ice Highway": {
                     "Line 1": ["", "Main line"],
-                    "Line 2": ["", "Main line"]
+                    "Line 2": ["", "Main line"],
+                    "Line 3": ["", "Main line"]
                 },
                 "Norwegian Ice Boat Highway System (Vy)": {
                     "Finland": ["", "Main line"]
@@ -6874,9 +6875,20 @@
             "id": 578,
             "x": 9702,
             "z": -17784,
+            "areas": [
+                [[9694, -17787], [9711, -17774]],
+                [[9704, -17779], [9720, -17775]],
+                [[9716, -17779], [9720, -17759]],
+                [[9713, -17767], [9720, -17759]],
+                [[9716, -17767], [9720, -17735]],
+                [[9708, -17737], [9721, -17730]]
+            ],
             "lines": {
                 "Finland Public Ice Highway": {
                     "Line 1": ["", "Main line"]
+                },
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
                 }
             }
         },
@@ -10106,7 +10118,7 @@
             "x": 50950,
             "z": 22392,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Inner Victoria": ["", "Main line"]
                 }
             }
@@ -10117,7 +10129,7 @@
             "x": 51680,
             "z": 22392,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Inner Victoria": ["", "Main line"]
                 }
             }
@@ -10128,7 +10140,7 @@
             "x": 52020,
             "z": 22187,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Inner Victoria": ["", "Main line"],
                     "South Coast": ["", "Main line"]
                 }
@@ -10140,7 +10152,7 @@
             "x": 53755,
             "z": 21374,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "South Coast": ["", "Main line"],
                     "Waratah": ["", "Main line"],
                     "Central": ["", "Main line"]
@@ -10153,7 +10165,7 @@
             "x": 51909,
             "z": 21580,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Inner Victoria": ["", "Main line"]
                 }
             }
@@ -10164,7 +10176,7 @@
             "x": 53439,
             "z": 18891,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Regional NSW": ["", "Main line"]
                 }
             }
@@ -10175,7 +10187,7 @@
             "x": 53575,
             "z": 19257,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Regional NSW": ["", "Main line"]
                 }
             }
@@ -10186,7 +10198,7 @@
             "x": 53880,
             "z": 20551,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Regional NSW": ["", "Main line"],
                     "Waratah": ["", "Main line"]
                 }
@@ -10198,7 +10210,7 @@
             "x": 53465,
             "z": 21203,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "South Coast": ["", "Main line"]
                 }
             }
@@ -10209,7 +10221,7 @@
             "x": 53416,
             "z": 21016,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Waratah": ["", "Main line"]
                 }
             }
@@ -10220,7 +10232,7 @@
             "x": 54134,
             "z": 20551,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Waratah": ["", "Main line"]
                 }
             }
@@ -10231,7 +10243,7 @@
             "x": 54334,
             "z": 20236,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Waratah": ["", "Main line"]
                 }
             }
@@ -10242,7 +10254,7 @@
             "x": 53996,
             "z": 20903,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Waratah": ["", "Main line"]
                 }
             }
@@ -10253,7 +10265,7 @@
             "x": 54788,
             "z": 17913,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Sunshine Coast": ["", "Main line"]
                 }
             }
@@ -10264,7 +10276,7 @@
             "x": 54788,
             "z": 18055,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Sunshine Coast": ["", "Main line"]
                 }
             }
@@ -10275,7 +10287,7 @@
             "x": 54134,
             "z": 20690,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Waratah": ["", "Main line"]
                 }
             }
@@ -10286,7 +10298,7 @@
             "x": 54985,
             "z": 18380,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Regional NSW End": ["", "Main line"]
                 }
             }
@@ -10297,7 +10309,7 @@
             "x": 55007,
             "z": 18488,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Regional NSW End": ["", "Main line"]
                 }
             }
@@ -10308,7 +10320,7 @@
             "x": 51428,
             "z": 22650,
             "lines": {
-            "PTA": {
+            "Ausrail": {
                     "Fairy Metro": ["", "Main line"]
                 }
             }
@@ -10319,7 +10331,7 @@
             "x": 52360,
             "z": 21417,
             "lines": {
-                "PTA": {
+                "Ausrail": {
                     "Wagga Metro": ["", "Main line"]
                 }
             }
@@ -11130,7 +11142,116 @@
                 }
             }
         },
-        { "id": 925 }, { "id": 926 }, { "id": 927 }, { "id": 928 }, { "id": 929 }, { "id": 930 }, { "id": 931 }, { "id": 932 },
+        {
+            "name": "Anttila JCT",
+            "type": "jct",
+            "id": 925,
+            "x": 10471,
+            "z": -17741,
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Main line to Anttila branch"]
+                }
+            }
+        },
+        {
+            "name": "Anttila",
+            "id": 926,
+            "x": 10471,
+            "z": -17840,
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Anttila branch"]
+                }
+            }
+        },
+        {
+            "name": "Roazhon JCT",
+            "type": "jct",
+            "id": 927,
+            "x": 8950,
+            "z": -18998,
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 3": ["", "Main line to Roazhon branch"]
+                }
+            }
+        },
+        {
+            "name": "Roazhon",
+            "id": 928,
+            "x": 8629,
+            "z": -18998,
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 3": ["", "Roazhon branch"]
+                }
+            }
+        },
+        {
+            "name": "Kuopio Elevator",
+            "type": "elev-we",
+            "id": 929,
+            "x": 8950,
+            "z": -17918,
+            "y1": 90,
+            "y2": 57,
+            "areas": [
+                [[8948, -17920], [8955, -17916]]
+            ],
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 3": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kuorevesi Roundabout JCT",
+            "type": "jct",
+            "id": 930,
+            "x": 8813,
+            "z": -17567,
+            "areas": [
+                [[8807, -17572], [8819, -17562]]
+            ],
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 3": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kuorevesi Central",
+            "id": 931,
+            "x": 8775,
+            "z": -17567,
+            "areas": [
+                [[8752, -17570], [8800, -17552]],
+                [[8798, -17563], [8812, -17558]]
+            ],
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 3": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Turku Elevator",
+            "type": "elev-ew",
+            "id": 932,
+            "x": 7933,
+            "z": -17129,
+            "y1": 57,
+            "y2": 58,
+            "areas": [
+                [[7931, -17136], [7935, -17123]]
+            ],
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 3": ["", "Main line"]
+                }
+            }
+        },
         {
             "name": "Girard / 69th St.",
             "id": 933,
@@ -11178,7 +11299,58 @@
                 }
             }
         },
-        { "id": 937 }, { "id": 938 }, { "id": 939 }, { "id": 940 },
+        {
+            "name": "Kuopio JCT",
+            "type": "jct",
+            "id": 937,
+            "x": 9976,
+            "z": -17741,
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Main line to Kuopio branch"]
+                }
+            }
+        },
+        {
+            "name": "Kuopio Elevator",
+            "type": "elev-we",
+            "id": 938,
+            "x": 9976,
+            "z": -17775,
+            "y1": 54,
+            "y2": 56,
+            "areas": [
+                [[9974, -17776], [9978, -17757]]
+            ],
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Kuopio branch"]
+                }
+            }
+        },
+        {
+            "name": "Kuopio South Emergency Exit",
+            "type": "semi4",
+            "id": 939,
+            "x": 9884,
+            "z": -17851,
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Kuopio branch"]
+                }
+            }
+        },
+        {
+            "name": "Kuopio",
+            "id": 940,
+            "x": 9884,
+            "z": -18149,
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 1": ["", "Kuopio branch"]
+                }
+            }
+        },
         {
             "name": "Vine St.",
             "id": 941,
@@ -11201,7 +11373,101 @@
                 }
             }
         },
-        { "id": 943 }, { "id": 944 }, { "id": 945 }, { "id": 946 }, { "id": 947 }, { "id": 948 }, { "id": 949 }, { "id": 950 }, { "id": 951 }, { "id": 952 },
+        {
+            "name": "Turku JCT",
+            "type": "jct",
+            "id": 943,
+            "x": 7933,
+            "z": -16950,
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 3": ["", "Main line to Turku branch"]
+                }
+            }
+        },
+        {
+            "name": "Turku",
+            "id": 944,
+            "x": 7822,
+            "z": -16853,
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 3": ["", "Turku branch"]
+                }
+            }
+        },
+        {
+            "name": "Finlandia (FPIH)",
+            "id": 945,
+            "x": 7933,
+            "z": -16916,
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 3": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ekenas",
+            "id": 946,
+            "x": 8501,
+            "z": -16686,
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 3": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Uusimaa (Metroasema)",
+            "id": 947,
+            "x": 8866,
+            "z": -16677,
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 3": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Helsinki",
+            "id": 948,
+            "x": 8879,
+            "z": -16722,
+            "areas": [
+                [[8877, -16736], [8885, -16717]],
+                [[8883, -16724], [8897, -16719]],
+                [[8893, -16736], [8897, -16719]]
+            ],
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 3": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Lahen Kingit",
+            "id": 949,
+            "x": 9197,
+            "z": -17023,
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 3": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Viipuri",
+            "id": 950,
+            "x": 10188.5,
+            "z": -16968,
+            "lines": {
+                "Finland Public Ice Highway": {
+                    "Line 3": ["", "Main line"]
+                }
+            }
+        },
+        { "id": 951 }, { "id": 952 },
         {
             "name": "Market / 69th St.",
             "id": 953,
@@ -11424,10 +11690,6 @@
                             [-2594, -17794],
                             [-2495, -17794],
                             [-2495, -17732],
-                            [9662, -17732],
-                            [9662, -17778],
-                            [9761, -17778],
-                            [9761, -17732],
                             [21326, -17732],
                             [21326, -17777],
                             [21376, -17777],
@@ -11438,7 +11700,7 @@
                             [52960.5, -23834.5],
                             [50681, -23834.5]
                         ],
-                        "stations": [816, 875, [878, "Iceland branch"], 753, [493, "Poice branch"], 384, 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [382, "Campfine branch"], [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 375, 340],
+                        "stations": [816, 875, [878, "Iceland branch"], 753, [493, "Poice branch"], 384, 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], 578, [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [382, "Campfine branch"], [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 375, 340],
                         "concurrencies": {
                             "TNIH.Siberia Main": [
                                 [41614, -17732],
@@ -12532,7 +12794,7 @@
                 }
             }
         },
-        "PTA": {
+        "Ausrail": {
             "Westralia": {
                 "prefix": "",
                 "code": "WSA",
@@ -13917,7 +14179,7 @@
                 "prefix": "",
                 "code": "L1",
                 "color": "00B8CD",
-                "y": "69, 53, 58, 71",
+                "y": "69, 53, 58, 71, 56 (Kuopio branch)",
                 "branches": {
                     "Main line": {
                         "vertices": [
@@ -13928,7 +14190,23 @@
                             [9764, -17741],
                             [10751, -17741]
                         ],
-                        "stations": [572, 573, 574, 575, 576, 577, 578, 579, 580]
+                        "stations": [572, 573, 574, 575, 576, 577, 578, 579, [937, "Kuopio branch"], [925, "Anttila branch"], 580]
+                    },
+                    "Kuopio branch": {
+                        "vertices": [
+                            [9976, -17741],
+                            [9976, -17781],
+                            [9884, -17781],
+                            [9884, -18149]
+                        ],
+                        "stations": [[937, "Main line"], 938, 939, 940]
+                    },
+                    "Anttila branch": {
+                        "vertices": [
+                            [10471, -17741],
+                            [10471, -17840]
+                        ],
+                        "stations": [[937, "Main line"], 938, 939, 940]
                     }
                 }
             },
@@ -13949,6 +14227,55 @@
                             [9555, -20783]
                         ],
                         "stations": [572, 581, 582, 750]
+                    }
+                }
+            },
+            "Line 3": {
+                "prefix": "",
+                "code": "L3",
+                "color": "B51C31",
+                "y": "90, 57, 58",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [9150, -19481],
+                            [8950, -19481],
+                            [8950, -17567],
+                            [8816, -17567],
+                            [8816, -17564.5],
+                            [8810, -17564.5],
+                            [8810, -17569.5],
+                            [8816, -17569.5],
+                            [8816, -17564.5],
+                            [8810, -17564.5],
+                            [8810, -17567],
+                            [7933, -17567],
+                            [7933, -16916],
+                            [8501, -16916],
+                            [8501, -16677],
+                            [8879, -16677],
+                            [8879, -16772],
+                            [9122, -16772],
+                            [9122, -17023],
+                            [10188.5, -17023],
+                            [10188.5, -16968]
+                        ],
+                        "stations": [572, [927, "Roazhon branch"], 929, 930, 931, 932, [943, "Turku branch"], 945, 946, 947, 948, 949, 950]
+                    },
+                    "Roazhon branch": {
+                        "vertices": [
+                            [8950, -18998],
+                            [8629, -18998]
+                        ],
+                        "stations": [[927, "Main line"], 928]
+                    },
+                    "Turku branch": {
+                        "vertices": [
+                            [7933, -16950],
+                            [7822, -16950],
+                            [7822, -16853]
+                        ],
+                        "stations": [[943, "Main line"], 944]
                     }
                 }
             }
