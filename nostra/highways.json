@@ -11467,7 +11467,28 @@
                 }
             }
         },
-        { "id": 951 }, { "id": 952 },
+        {
+            "name": "Dialtown",
+            "id": 951,
+            "x": -45254,
+            "z": -18776,
+            "lines": {
+                "Canarail": {
+                    "Dialtown-Lower Laberge": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Lower Laberge",
+            "id": 952,
+            "x": -44562,
+            "z": -18891,
+            "lines": {
+                "Canarail": {
+                    "Dialtown-Lower Laberge": ["", ""]
+                }
+            }
+        },
         {
             "name": "Market / 69th St.",
             "id": 953,
@@ -13516,6 +13537,22 @@
                             [-42099, -12209]
                         ],
                         "stations": [[612, "Main line"], 613]
+                    }
+                }
+            },
+            "Dialtown-Lower Laberge": {
+                "prefix": "",
+                "code": "D-LL",
+                "color": "FFCE00",
+                "y": 9,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-44562, -18891],
+                            [-45254, -18891],
+                            [-45254, -18776]
+                        ],
+                        "stations": [951, 952]
                     }
                 }
             }
