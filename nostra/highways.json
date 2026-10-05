@@ -5942,7 +5942,8 @@
             "z": -17732,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line to Lappeenranta branch"]
+                    "Siberia Main": ["", "Main line"],
+                    "Lappeenranta": ["", "Main line"]
                 }
             }
         },
@@ -5953,7 +5954,7 @@
             "z": -17154,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Lappeenranta branch"]
+                    "Lappeenranta": ["", "Main line"]
                 }
             }
         },
@@ -11547,7 +11548,47 @@
                 }
             }
         },
-        { "id": 958 }, { "id": 959 }, { "id": 960 },
+        {
+            "name": "Wolfenstein JCT",
+            "type": "jct",
+            "id": 958,
+            "x": 21282,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Simograd branch"]
+                }
+            }
+        },
+        {
+            "name": "Simograd",
+            "id": 959,
+            "x": 21282,
+            "z": -16402,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Simograd branch"]
+                }
+            }
+        },
+        {
+            "name": "Sosnovo JCT",
+            "type": "jct",
+            "id": 960,
+            "x": 10600.5,
+            "z": -16852,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Finland-Russia": ["", "Main line"]
+                },
+                "TNIH": {
+                    "Lappeenranta": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[10596, -16853], [10605, -16847]]
+            ]
+        },
         {
             "name": "Chestnut St.",
             "id": 961,
@@ -11581,7 +11622,92 @@
                 }
             }
         },
-        { "id": 964 }, { "id": 965 }, { "id": 966 }, { "id": 967 }, { "id": 968 }, { "id": 969 }, { "id": 970 },
+        {
+            "name": "Sosnovo Mine-Saint Petersburg",
+            "id": 964,
+            "x": 10648,
+            "z": -16852,
+            "lines": {
+                "TNIH": {
+                    "Lappeenranta": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Sortavala JCT",
+            "type": "jct",
+            "id": 965,
+            "x": 11045,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"],
+                    "Sortavala": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Valaam JCT",
+            "type": "jct",
+            "id": 966,
+            "x": 11045,
+            "z": -17277,
+            "lines": {
+                "TNIH": {
+                    "Sortavala": ["", "Main line to Derevnya branch"]
+                }
+            }
+        },
+        {
+            "name": "Sortavala Mine",
+            "id": 967,
+            "x": 10719,
+            "z": -17277,
+            "lines": {
+                "TNIH": {
+                    "Sortavala": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Veinan JCT",
+            "type": "jct",
+            "id": 968,
+            "x": 11624,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "Veinan-Kola": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Segezha West JCT",
+            "type": "jct",
+            "id": 969,
+            "x": 11624,
+            "z": -18698,
+            "lines": {
+                "Intercontinental": {
+                    "Veinan-Kola": ["", "Main line to Segezha branch"]
+                }
+            }
+        },
+        {
+            "name": "Segezha JCT",
+            "type": "jct",
+            "id": 970,
+            "x": 12325,
+            "z": -18698,
+            "lines": {
+                "Intercontinental": {
+                    "Veinan-Kola": ["", "Segezha branch to Gospic branch"]
+                }
+            }
+        },
         {
             "name": "Walnut St. / 69th",
             "id": 971,
@@ -11606,7 +11732,95 @@
                 }
             }
         },
-        { "id": 973 }, { "id": 974 }, { "id": 975 }, { "id": 976 }, { "id": 977 }, { "id": 978 }, { "id": 979 },
+        {
+            "name": "Gospic",
+            "id": 973,
+            "x": 12325,
+            "z": -18128,
+            "areas": [
+                [[12323, -18130], [12332, -18122]]
+            ],
+            "lines": {
+                "Intercontinental": {
+                    "Veinan-Kola": ["", "Gospic branch"]
+                }
+            }
+        },
+        {
+            "name": "Segezha",
+            "id": 974,
+            "x": 12331,
+            "z": -18698,
+            "areas": [
+                [[12327, -18700], [12335, -18683]]
+            ],
+            "lines": {
+                "Intercontinental": {
+                    "Veinan-Kola": ["", "Segezha branch"]
+                }
+            }
+        },
+        {
+            "name": "Umka JCT",
+            "type": "jct",
+            "id": 975,
+            "x": 11624,
+            "z": -20271,
+            "lines": {
+                "Intercontinental": {
+                    "Veinan-Kola": ["", "Main line to Umka branch"]
+                }
+            }
+        },
+        {
+            "name": "Umka",
+            "id": 976,
+            "x": 13089,
+            "z": -20160,
+            "lines": {
+                "Intercontinental": {
+                    "Veinan-Kola": ["", "Umka branch"]
+                }
+            }
+        },
+        {
+            "name": "Monchegrsk JCT",
+            "type": "jct",
+            "id": 977,
+            "x": 11624,
+            "z": -20611,
+            "lines": {
+                "Intercontinental": {
+                    "Veinan-Kola": ["", "Main line to Monchegrsk branch"]
+                }
+            }
+        },
+        {
+            "name": "Monchegrsk",
+            "id": 978,
+            "x": 11453,
+            "z": -20611,
+            "lines": {
+                "Intercontinental": {
+                    "Veinan-Kola": ["", "Monchegrsk branch"]
+                }
+            }
+        },
+        {
+            "name": "Havukruunu",
+            "type": "jct",
+            "id": 979,
+            "x": 11624,
+            "z": -21193,
+            "areas": [
+                [[11445, -20625], [11458, -20604]]
+            ],
+            "lines": {
+                "Intercontinental": {
+                    "Veinan-Kola": ["", "Main line"]
+                }
+            }
+        },
         {
             "name": "Locust St. / 69th",
             "id": 980,
@@ -11721,7 +11935,7 @@
                             [52960.5, -23834.5],
                             [50681, -23834.5]
                         ],
-                        "stations": [816, 875, [878, "Iceland branch"], 753, [493, "Poice branch"], 384, 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], 578, [501, "Lappeenranta branch"], 500, 580, 503, 504, [505, "Poikovskii branch"], 406, 508, [382, "Campfine branch"], [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 375, 340],
+                        "stations": [816, 875, [878, "Iceland branch"], 753, [493, "Poice branch"], 384, 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], 578, 501, 500, 580, 965, 968, 503, [958, "Simograd branch"], 504, [505, "Poikovskii branch"], 406, [382, "Campfine branch"], 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 375, 340],
                         "concurrencies": {
                             "TNIH.Siberia Main": [
                                 [41614, -17732],
@@ -11758,12 +11972,12 @@
                         ],
                         "stations": [[497, "Main line"], 498, 499]
                     },
-                    "Lappeenranta branch": {
+                    "Simograd branch": {
                         "vertices": [
-                            [10181, -17732],
-                            [10181, -17154]
+                            [21282, -17732],
+                            [21282, -16402]
                         ],
-                        "stations": [[501, "Main line"], 502]
+                        "stations": [[958, "Main line"], 959]
                     },
                     "Poikovskii branch": {
                         "vertices": [
@@ -12651,6 +12865,56 @@
                             [-16000, -12508]
                         ],
                         "stations": [395, 396]
+                    }
+                }
+            },
+            "Lappeenranta": {
+                "prefix": "",
+                "code": "LP",
+                "color": "B8FF4B",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [10393, -16866],
+                            [10390, -16869],
+                            [10279, -16869],
+                            [10273, -16866],
+                            [10265, -16862],
+                            [10181, -16862],
+                            [10181, -17732],
+                            [10181, -16862],
+                            [10265, -16862],
+                            [10273, -16866],
+                            [10393, -16866],
+                            [10407, -16852],
+                            [10648, -16852]
+                        ],
+                        "stations": [501, 502, 960, 964]
+                    }
+                }
+            },
+            "Sortavala": {
+                "prefix": "",
+                "code": "LP",
+                "color": "DCC218",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [11045, -17732],
+                            [11045, -17277],
+                            [10719, -17277],
+                            [10719, -16860]
+                        ],
+                        "stations": [965, [966, "Derevnya branch"], 967]
+                    },
+                    "Derevnya branch": {
+                        "vertices": [
+                            [11045, -17277],
+                            [11327, -17277]
+                        ],
+                        "stations": [[966, "Main line"]]
                     }
                 }
             }
@@ -15306,6 +15570,55 @@
                         "stations": [875, 876, 395]
                     }
                 }
+            },
+            "Veinan-Kola": {
+                "prefix": "",
+                "code": "KV",
+                "color": "FF00AA",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [11624, -17732],
+                            [11624, -21883]
+                        ],
+                        "stations": [968, [969, "Segezha branch"], [975, "Umka branch"], [977, "Monchegrsk branch"], 979]
+                    },
+                    "Segezha branch": {
+                        "vertices": [
+                            [11624, -18698],
+                            [12338, -18698],
+                            [12338, -18693],
+                            [12569, -18693],
+                            [12569, -18682],
+                            [12570, -18682]
+                        ],
+                        "stations": [[969, "Main line"], [970, "Gospic branch"], 974]
+                    },
+                    "Gospic branch": {
+                        "vertices": [
+                            [12325, -18698],
+                            [12325, -18128],
+                            [12330, -18128]
+                        ],
+                        "stations": [[970, "Segezha branch"], 973]
+                    },
+                    "Umka branch": {
+                        "vertices": [
+                            [11624, -20271],
+                            [13089, -20271],
+                            [13089, -20160]
+                        ],
+                        "stations": [[975, "Main line"], 976]
+                    },
+                    "Monchegrsk branch": {
+                        "vertices": [
+                            [11624, -20611],
+                            [11453, -20611]
+                        ],
+                        "stations": [[977, "Main line"], 978]
+                    }
+                }
             }
         },
         "NZ Ministry of Infrastructure": {
@@ -16594,7 +16907,7 @@
                             [10602, -16780],
                             [10874, -16780]
                         ],
-                        "stations": [868, 869, 870, 871]
+                        "stations": [868, 869, 870, 960, 871]
                     }
                 }
             }
