@@ -10780,10 +10780,16 @@
         {
             "name": "Chicago: Parkway Gardens",
             "id": 896,
-            "x": -31698,
-            "z": -7948,
+            "x": -31663,
+            "z": -7780,
             "lines": {
-            }
+                "America": {
+                    "City of New Orleans":  ["", "Southbound Tube to Northbound Tube"]
+                }
+            },
+            "areas": [
+                [[-31669, -7781], [-31657, -7779]]
+            ]
         },
         {
             "name": "Old National Line — City of New Orleans JCT",
@@ -11855,6 +11861,158 @@
                     "D": ["", ""],
                     "T": ["", ""]
                 }
+            }
+        },
+        {
+            "name": "Woke Bay",
+            "id": 990,
+            "x": -29463,
+            "z": -9617,
+            "lines": {
+                "America": {
+                    "Wolverine": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Turtle Beach JCT",
+            "id": 991,
+            "type": "jct",
+            "x": -25092,
+            "z": -7221,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Eastbound Tube to Westbound Tube"],
+                    "Cape Codder": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Acadian Line JCT",
+            "id": 992,
+            "type": "jct",
+            "x": -25092,
+            "z": -7576,
+            "lines": {
+                "America": {
+                    "Cape Codder": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Turtle Beach, America",
+            "id": 993,
+            "x": -25092,
+            "z": -7863,
+            "lines": {
+                "America": {
+                    "Cape Codder": ["", ""]
+                },
+				"Turtleundercover": {
+					"Purple Line": ["", ""]
+				}
+            }
+        },
+        {
+            "name": "Braga, Portugal",
+            "id": 994,
+            "x": -3171,
+            "z": -7863,
+            "lines": {
+				"Turtleundercover": {
+					"Purple Line": ["", ""]
+				}
+            }
+        },
+        {
+            "name": "Minneapolis, MN",
+            "id": 995,
+            "x": -33559,
+            "z": -9416,
+            "lines": {
+				"America": {
+					"Borealis": ["", "Minneapolis branch"]
+				}
+            }
+        },
+        {
+            "name": "Owls-Minneapolis JCT",
+            "id": 996,
+            "type": "jct",
+            "x": -33836,
+            "z": -9416,
+            "lines": {
+				"America": {
+					"Borealis": ["", "Main line to Minneapolis branch"]
+				}
+            }
+        },
+        {
+            "name": "Owls JCT",
+            "id": 997,
+            "type": "jct",
+            "x": -34803,
+            "z": -9416,
+            "lines": {
+				"America": {
+					"Borealis": ["", "Main line to Minneapolis branch"]
+				}
+            }
+        },
+        {
+            "name": "Straumheim, MN",
+            "id": 998,
+            "x": -33836,
+            "z": -9972,
+            "lines": {
+				"America": {
+					"Borealis": ["", "Main line"]
+				}
+            }
+        },
+        {
+            "name": "Owls, MN",
+            "id": 999,
+            "x": -34803,
+            "z": -9463,
+            "lines": {
+				"America": {
+					"Borealis": ["", "Main line"]
+				}
+            }
+        },
+        {
+            "name": "Owls-Columbia JCT",
+            "id": 1000,
+            "type": "jct",
+            "x": -33927,
+            "z": -7194,
+            "lines": {
+				"America": {
+					"Borealis": ["", "Main line to Columbia branch"]
+				}
+            }
+        },
+        {
+            "name": "Kansas City, MO",
+            "id": 1001,
+            "x": -33927,
+            "z": -6791,
+            "lines": {
+				"America": {
+					"Borealis": ["", "Main line"]
+				}
+            }
+        },
+        {
+            "name": "Columbia, MO",
+            "id": 1002,
+            "x": -33187,
+            "z": -6991,
+            "lines": {
+				"America": {
+					"Borealis": ["", "Columbia branch"]
+				}
             }
         }
     ],
@@ -14160,14 +14318,16 @@
                     "Westbound Tube": {
                         "vertices": [
                             [-31680, -7222],
-                            [-25856, -7222]
+                            [-24770, -7222]
                         ],
                         "stations": [[898, "Eastbound Tube"], [899, "Eastbound Tube"], [900, "Eastbound Tube"], 901, [902, "Eastbound Tube"], 369, [370, "Eastbound Tube"], 371, 372, 373, [374, "Eastbound Tube"]]
                     },
                     "Eastbound Tube": {
                         "vertices": [
                             [-31680, -7210],
-                            [-25856, -7210]
+                            [-25857, -7210],
+							[-25857, -7220],
+							[-24770, -7220]
                         ],
                         "stations": [[898, "Westbound Tube"], [899, "Westbound Tube"], [900, "Westbound Tube"], 901, [902, "Westbound Tube"], 369, [370, "Westbound Tube"], 377, 378, 379, [374, "Westbound Tube"], 381]
                     }
@@ -14201,14 +14361,14 @@
                             [-31669, -8132],
                             [-31669, -7210]
                         ],
-                        "stations": [894, 895, [897, "Northbound Tube"], [898, "Northbound Tube"]]
+                        "stations": [894, 895, 896, [897, "Northbound Tube"], [898, "Northbound Tube"]]
                     },
                     "Northbound Tube": {
                         "vertices": [
                             [-31657, -8132],
                             [-31657, -7210]
                         ],
-                        "stations": [894, 895, [897, "Southbound Tube"], [898, "Southbound Tube"]]
+                        "stations": [894, 895, 896, [897, "Southbound Tube"], [898, "Southbound Tube"]]
                     }
                 }
             },
@@ -14237,6 +14397,22 @@
                     }
                 }
             },
+            "Cape Codder": {
+                "prefix": "",
+                "code": "CC",
+                "color": "40537e",
+                "y": 10,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-25092, -7872],
+                            [-25092, -7220]
+                        ],
+                        "stations": [991, 992, 993]
+                    }
+
+                }
+            },
             "Wolverine": {
                 "prefix": "",
                 "code": "WV",
@@ -14245,10 +14421,11 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [-29720, -8480],
+							[-29453, -9617],
+                            [-29720, -9617],
                             [-29720 , -7210]
                         ],
-                        "stations": [919, [918, "Flint branch"], 917, [916, "Chicago branch"], 915, 900]
+                        "stations": [990, 919, [918, "Flint branch"], 917, [916, "Chicago branch"], 915, 900]
                     },
                     "Chicago branch": {
                         "vertices": [
@@ -14266,8 +14443,64 @@
                     }
 
                 }
+            },
+            "Borealis": {
+                "prefix": "",
+                "code": "BOR",
+                "color": "40537e",
+                "y": 8,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-33836, -9416],
+							[-33836, -9972],
+							[-34803, -9972],
+							[-34803, -8486],
+							[-34778, -8486],
+							[-34778, -7332],
+							[-34438, -7332],
+							[-34438, -7315],
+							[-33927, -7315],
+							[-33927, -6791]
+                        ],
+                        "stations": [[996, "Minneapolis branch"], 998, 999, [997, "Minneapolis branch"], [1000, "Columbia branch"], 1001]
+                    },
+					"Minneapolis branch": {
+                        "vertices": [
+                            [-34803, -9416],
+							[-33559, -9416]
+                        ],
+                        "stations": [[997, "Main line"], [996, "Main line"], 995]
+					},
+					"Columbia branch": {
+                        "vertices": [
+                            [-33927, -7195],
+							[-33187, -7195],
+							[-33187, -6991]
+                        ],
+                        "stations": [[1000, "Main line"], 1002]
+					}
+                }
             }
         },
+		"Turtleundercover": {
+			"Purple Line": {
+				"prefix": "",
+				"code": "",
+				"color": "6c3baa",
+				"y": 63,
+				"branches": {
+					"": {
+						"vertices": [
+							[-25092, -7863],
+							[-3171, -7863]
+						],
+						"stations": [993, 994]
+					}
+				}
+				
+			}
+		},
         "SEPTA": {
             "L": {
                 "prefix": "",
