@@ -11909,7 +11909,7 @@
                     "Cape Codder": ["", ""]
                 },
 				"Turtleundercover": {
-					"Purple Line": ["", ""]
+					"Purple": ["", ""]
 				}
             }
         },
@@ -11920,7 +11920,7 @@
             "z": -7863,
             "lines": {
 				"Turtleundercover": {
-					"Purple Line": ["", ""]
+					"Purple": ["", ""]
 				}
             }
         },
@@ -14484,7 +14484,7 @@
             }
         },
 		"Turtleundercover": {
-			"Purple Line": {
+			"Purple": {
 				"prefix": "",
 				"code": "",
 				"color": "6c3baa",
