@@ -11924,6 +11924,97 @@
 				}
             }
         },
+        {
+            "name": "Minneapolis, MN",
+            "id": 995,
+            "x": -33559,
+            "z": -9416,
+            "lines": {
+				"America": {
+					"Borealis": ["", "Minneapolis branch"]
+				}
+            }
+        },
+        {
+            "name": "Owls-Minneapolis JCT",
+            "id": 996,
+            "type": "jct",
+            "x": -33836,
+            "z": -9416,
+            "lines": {
+				"America": {
+					"Borealis": ["", "Main line to Minneapolis branch"]
+				}
+            }
+        },
+        {
+            "name": "Owls JCT",
+            "id": 997,
+            "type": "jct",
+            "x": -34803,
+            "z": -9416,
+            "lines": {
+				"America": {
+					"Borealis": ["", "Main line to Minneapolis branch"]
+				}
+            }
+        },
+        {
+            "name": "Straumheim, MN",
+            "id": 998,
+            "x": -33836,
+            "z": -9972,
+            "lines": {
+				"America": {
+					"Borealis": ["", "Main line"]
+				}
+            }
+        },
+        {
+            "name": "Owls, MN",
+            "id": 999,
+            "x": -34803,
+            "z": -9463,
+            "lines": {
+				"America": {
+					"Borealis": ["", "Main line"]
+				}
+            }
+        },
+        {
+            "name": "Owls-Columbia JCT",
+            "id": 1000,
+            "type": "jct",
+            "x": -33927,
+            "z": -7194,
+            "lines": {
+				"America": {
+					"Borealis": ["", "Main line to Columbia branch"]
+				}
+            }
+        },
+        {
+            "name": "Kansas City, MO",
+            "id": 1001,
+            "x": -33927,
+            "z": -6791,
+            "lines": {
+				"America": {
+					"Borealis": ["", "Main line"]
+				}
+            }
+        },
+        {
+            "name": "Columbia, MO",
+            "id": 1002,
+            "x": -33187,
+            "z": -6991,
+            "lines": {
+				"America": {
+					"Borealis": ["", "Columbia branch"]
+				}
+            }
+        }
     ],
     "lines": {
         "TNIH": {
@@ -14351,6 +14442,44 @@
                         "stations": [920, [918, "Main line"]]
                     }
 
+                }
+            },
+            "Borealis": {
+                "prefix": "",
+                "code": "BOR",
+                "color": "40537e",
+                "y": 8,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-33836, -9416],
+							[-33836, -9972],
+							[-34803, -9972],
+							[-34803, -8486],
+							[-34778, -8486],
+							[-34778, -7332],
+							[-34438, -7332],
+							[-34438, -7315],
+							[-33927, -7315],
+							[-33927, -6791]
+                        ],
+                        "stations": [[996, "Minneapolis branch"], 998, 999, [997, "Minneapolis branch"], [1000, "Columbia branch"], 1001]
+                    },
+					"Minneapolis branch": {
+                        "vertices": [
+                            [-34803, -9416],
+							[-33559, -9416]
+                        ],
+                        "stations": [[997, "Main line"], [996, "Main line"], 995]
+					},
+					"Columbia branch": {
+                        "vertices": [
+                            [-33927, -7195],
+							[-33187, -7195],
+							[-33187, -6991]
+                        ],
+                        "stations": [[1000, "Main line"], 1002]
+					}
                 }
             }
         },
