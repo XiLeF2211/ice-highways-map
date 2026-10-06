@@ -10780,10 +10780,16 @@
         {
             "name": "Chicago: Parkway Gardens",
             "id": 896,
-            "x": -31698,
-            "z": -7948,
+            "x": -31663,
+            "z": -7780,
             "lines": {
-            }
+                "America": {
+                    "City of New Orleans":  ["", "Southbound Tube to Northbound Tube"]
+                }
+            },
+            "areas": [
+                [[-31669, -7781], [-31657, -7779]]
+            ]
         },
         {
             "name": "Old National Line — City of New Orleans JCT",
@@ -11856,7 +11862,68 @@
                     "T": ["", ""]
                 }
             }
-        }
+        },
+        {
+            "name": "Woke Bay",
+            "id": 990,
+            "x": -29463,
+            "z": -9617,
+            "lines": {
+                "America": {
+                    "Wolverine": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Turtle Beach JCT",
+            "id": 991,
+            "type": "jct",
+            "x": -25092,
+            "z": -7221,
+            "lines": {
+                "America": {
+                    "Atlantic": ["", "Eastbound Tube to Westbound Tube"],
+                    "Cape Codder": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Acadian Line JCT",
+            "id": 992,
+            "type": "jct",
+            "x": -25092,
+            "z": -7576,
+            "lines": {
+                "America": {
+                    "Cape Codder": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Turtle Beach, America",
+            "id": 993,
+            "x": -25092,
+            "z": -7863,
+            "lines": {
+                "America": {
+                    "Cape Codder": ["", ""]
+                },
+				"Turtleundercover": {
+					"Purple Line": ["", ""]
+				}
+            }
+        },
+        {
+            "name": "Braga, Portugal",
+            "id": 994,
+            "x": -3171,
+            "z": -7863,
+            "lines": {
+				"Turtleundercover": {
+					"Purple Line": ["", ""]
+				}
+            }
+        },
     ],
     "lines": {
         "TNIH": {
@@ -14160,14 +14227,16 @@
                     "Westbound Tube": {
                         "vertices": [
                             [-31680, -7222],
-                            [-25856, -7222]
+                            [-24770, -7222]
                         ],
                         "stations": [[898, "Eastbound Tube"], [899, "Eastbound Tube"], [900, "Eastbound Tube"], 901, [902, "Eastbound Tube"], 369, [370, "Eastbound Tube"], 371, 372, 373, [374, "Eastbound Tube"]]
                     },
                     "Eastbound Tube": {
                         "vertices": [
                             [-31680, -7210],
-                            [-25856, -7210]
+                            [-25857, -7210],
+							[-25857, -7220],
+							[-24770, -7220]
                         ],
                         "stations": [[898, "Westbound Tube"], [899, "Westbound Tube"], [900, "Westbound Tube"], 901, [902, "Westbound Tube"], 369, [370, "Westbound Tube"], 377, 378, 379, [374, "Westbound Tube"], 381]
                     }
@@ -14201,14 +14270,14 @@
                             [-31669, -8132],
                             [-31669, -7210]
                         ],
-                        "stations": [894, 895, [897, "Northbound Tube"], [898, "Northbound Tube"]]
+                        "stations": [894, 895, 896, [897, "Northbound Tube"], [898, "Northbound Tube"]]
                     },
                     "Northbound Tube": {
                         "vertices": [
                             [-31657, -8132],
                             [-31657, -7210]
                         ],
-                        "stations": [894, 895, [897, "Southbound Tube"], [898, "Southbound Tube"]]
+                        "stations": [894, 895, 896, [897, "Southbound Tube"], [898, "Southbound Tube"]]
                     }
                 }
             },
@@ -14237,6 +14306,22 @@
                     }
                 }
             },
+            "Cape Codder": {
+                "prefix": "",
+                "code": "CC",
+                "color": "40537e",
+                "y": 10,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-25092, -7872],
+                            [-25092, -7220]
+                        ],
+                        "stations": [991, 992, 993]
+                    }
+
+                }
+            },
             "Wolverine": {
                 "prefix": "",
                 "code": "WV",
@@ -14245,10 +14330,11 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [-29720, -8480],
+							[-29453, -9617],
+                            [-29720, -9617],
                             [-29720 , -7210]
                         ],
-                        "stations": [919, [918, "Flint branch"], 917, [916, "Chicago branch"], 915, 900]
+                        "stations": [990, 919, [918, "Flint branch"], 917, [916, "Chicago branch"], 915, 900]
                     },
                     "Chicago branch": {
                         "vertices": [
@@ -14268,6 +14354,24 @@
                 }
             }
         },
+		"Turtleundercover": {
+			"Purple Line": {
+				"prefix": "",
+				"code": "",
+				"color": "6c3baa",
+				"y": 63,
+				"branches": {
+					"": {
+						"vertices": [
+							[-25092, -7863],
+							[-3171, -7863]
+						],
+						"stations": [993, 994]
+					}
+				}
+				
+			}
+		},
         "SEPTA": {
             "L": {
                 "prefix": "",
