@@ -12022,7 +12022,7 @@
             "z": -6822,
             "lines": {
 				"America": {
-					"City of New Orleans": ["", "Northbound Tube to Southbound Tube"],
+					"City of New Orleans": ["", "Northbound tube to Southbound tube"],
 					"Vandalia": ["", ""]
 				}
             }
@@ -14335,7 +14335,7 @@
             "Atlantic": {
                 "prefix": "",
                 "code": "ATL",
-                "color": "87cefa",
+                "color": "6699ff",
                 "y": 8,
                 "branches": {
                     "Westbound Tube": {
@@ -14359,7 +14359,7 @@
             "Gotham": {
                 "prefix": "",
                 "code": "GOT",
-                "color": "1f84ff",
+                "color": "9999ff",
                 "y": 10,
                 "branches": {
                     "": {
@@ -14376,7 +14376,7 @@
             "City of New Orleans": {
                 "prefix": "",
                 "code": "NOL",
-                "color": "87cefa",
+                "color": "6699ff",
                 "y": 8,
                 "branches": {
                     "Southbound Tube": {
@@ -14398,7 +14398,7 @@
             "Vandalia": {
                 "prefix": "",
                 "code": "VAN",
-                "color": "1f84ff",
+                "color": "9999ff",
                 "y": 8,
                 "branches": {
                     "": {
@@ -14414,7 +14414,7 @@
             "Capitol Limited": {
                 "prefix": "",
                 "code": "CAP",
-                "color": "00537e",
+                "color": "9999ff",
                 "y": 8,
                 "branches": {
                     "Main line": {
@@ -14439,7 +14439,7 @@
             "Cape Codder": {
                 "prefix": "",
                 "code": "COD",
-                "color": "40537e",
+                "color": "9999ff",
                 "y": 10,
                 "branches": {
                     "": {
@@ -14455,7 +14455,7 @@
             "Wolverine": {
                 "prefix": "",
                 "code": "WOL",
-                "color": "40537e",
+                "color": "9999ff",
                 "y": 8,
                 "branches": {
                     "Main line": {
@@ -14486,7 +14486,7 @@
             "Borealis": {
                 "prefix": "",
                 "code": "BOR",
-                "color": "40537e",
+                "color": "9999ff",
                 "y": 8,
                 "branches": {
                     "Main line": {
