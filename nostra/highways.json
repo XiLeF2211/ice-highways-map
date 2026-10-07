@@ -12017,23 +12017,24 @@
         {
             "name": "Vandalia JCT",
             "id": 1003,
+			"type": "jct",
             "x": -31663,
             "z": -6822,
             "lines": {
 				"America": {
-					"City of New Orleans": ["", "Main line to Vandalia branch"]
+					"City of New Orleans": ["", "Northbound tube to Southbound tube"],
+					"Vandalia": ["", ""]
 				}
             }
         },
         {
             "name": "Vandalia, IL",
             "id": 1004,
-			"type": "jct",
             "x": -31879,
             "z": -6822,
             "lines": {
 				"America": {
-					"City of New Orleans": ["", "Vandalia branch"]
+					"Vandalia": ["", ""]
 				}
             }
         }
@@ -14333,7 +14334,7 @@
         "America": {
             "Atlantic": {
                 "prefix": "",
-                "code": "AT",
+                "code": "ATL",
                 "color": "87cefa",
                 "y": 8,
                 "branches": {
@@ -14357,8 +14358,8 @@
             },
             "Gotham": {
                 "prefix": "",
-                "code": "GT",
-                "color": "87cefa",
+                "code": "GOT",
+                "color": "1f84ff",
                 "y": 10,
                 "branches": {
                     "": {
@@ -14374,7 +14375,7 @@
             },
             "City of New Orleans": {
                 "prefix": "",
-                "code": "NO",
+                "code": "NOL",
                 "color": "87cefa",
                 "y": 8,
                 "branches": {
@@ -14391,19 +14392,28 @@
                             [-31657, -6810]
                         ],
                         "stations": [894, 895, 896, [897, "Southbound Tube"], [898, "Southbound Tube"], [1003, "Southbound Tube"]]
-                    },
-                    "Vandalia branch": {
+                    }
+                }
+            },
+            "Vandalia": {
+                "prefix": "",
+                "code": "VAN",
+                "color": "1f84ff",
+                "y": 8,
+                "branches": {
+                    "": {
                         "vertices": [
                             [-31879, -6822],
                             [-31657, -6822]
                         ],
                         "stations": [1004, 1003]
                     }
+
                 }
             },
             "Capitol Limited": {
                 "prefix": "",
-                "code": "CL",
+                "code": "CAP",
                 "color": "00537e",
                 "y": 8,
                 "branches": {
@@ -14428,7 +14438,7 @@
             },
             "Cape Codder": {
                 "prefix": "",
-                "code": "CC",
+                "code": "COD",
                 "color": "40537e",
                 "y": 10,
                 "branches": {
@@ -14444,7 +14454,7 @@
             },
             "Wolverine": {
                 "prefix": "",
-                "code": "WV",
+                "code": "WOL",
                 "color": "40537e",
                 "y": 8,
                 "branches": {
@@ -14515,7 +14525,7 @@
 		"Turtleundercover": {
 			"Purple": {
 				"prefix": "",
-				"code": "",
+				"code": "TUR",
 				"color": "6c3baa",
 				"y": 63,
 				"branches": {
