@@ -12013,6 +12013,29 @@
 					"Borealis": ["", "Columbia branch"]
 				}
             }
+        },
+        {
+            "name": "Vandalia JCT",
+            "id": 1003,
+            "x": -31663,
+            "z": -6822,
+            "lines": {
+				"America": {
+					"City of New Orleans": ["", "Main line to Vandalia branch"]
+				}
+            }
+        },
+        {
+            "name": "Vandalia, IL",
+            "id": 1004,
+			"type": "jct",
+            "x": -31879,
+            "z": -6822,
+            "lines": {
+				"America": {
+					"City of New Orleans": ["", "Vandalia branch"]
+				}
+            }
         }
     ],
     "lines": {
@@ -14358,16 +14381,23 @@
                     "Southbound Tube": {
                         "vertices": [
                             [-31669, -8132],
-                            [-31669, -7210]
+                            [-31669, -6810]
                         ],
-                        "stations": [894, 895, 896, [897, "Northbound Tube"], [898, "Northbound Tube"]]
+                        "stations": [894, 895, 896, [897, "Northbound Tube"], [898, "Northbound Tube"], [1003, "Northbound Tube"]]
                     },
                     "Northbound Tube": {
                         "vertices": [
                             [-31657, -8132],
-                            [-31657, -7210]
+                            [-31657, -6810]
                         ],
-                        "stations": [894, 895, 896, [897, "Southbound Tube"], [898, "Southbound Tube"]]
+                        "stations": [894, 895, 896, [897, "Southbound Tube"], [898, "Southbound Tube"], [1003, "Southbound Tube"]]
+                    },
+                    "Vandalia branch": {
+                        "vertices": [
+                            [-31879, -6822],
+                            [-31657, -6822]
+                        ],
+                        "stations": [1004, 1003]
                     }
                 }
             },
