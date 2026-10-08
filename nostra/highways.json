@@ -7236,6 +7236,7 @@
         },
         {
             "name": "Berkakit",
+            "type": "jct",
             "id": 604,
             "x": 45947,
             "z": -13844,
@@ -7258,7 +7259,7 @@
             }
         },
         {
-            "name": "USG",
+            "name": "USG (Tengachaya)",
             "id": 606,
             "x": 47358,
             "z": -13558,
@@ -11850,7 +11851,51 @@
                 }
             }
         },
-        { "id": 982 }, { "id": 983 }, { "id": 984 }, { "id": 985 }, { "id": 986 }, { "id": 987 }, { "id": 988 },
+        {
+            "name": "Berkakit JCT",
+            "id": 982,
+            "x": 45985,
+            "z": -13899,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Berkakit branch to Ponikos branch"]
+                }
+            }
+        },
+        {
+            "name": "Ponikos",
+            "id": 983,
+            "x": 45455,
+            "z": -12738,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Ponikos branch"]
+                }
+            }
+        },
+        {
+            "name": "Fisherman",
+            "id": 984,
+            "x": 50597,
+            "z": -12613,
+            "lines": {
+                "TNIH": {
+                    "Sakhalin": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Karafuto-cho",
+            "id": 985,
+            "x": 50822,
+            "z": -12548,
+            "lines": {
+                "TNIH": {
+                    "Sakhalin": ["", "Main line"]
+                }
+            }
+        },
+        { "id": 986 }, { "id": 987 }, { "id": 988 },
         {
             "name": "Delaware Memorial Bridge",
             "id": 989,
@@ -12351,7 +12396,8 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [48406, -13830],
+                            [49898, -13531],
+                            [48406, -13531],
                             [48406, -13899],
                             [46352, -13899],
                             [46352, -17672],
@@ -12379,7 +12425,16 @@
                             [45947, -13899],
                             [45947, -13841]
                         ],
-                        "stations": [[603, "Main line"], 604]
+                        "stations": [[603, "Main line"], [982, "Ponikos branch"], 604]
+                    },
+                    "Ponikos branch": {
+                        "vertices": [
+                            [45985, -13899],
+                            [45985, -12855],
+                            [45455, -12855],
+                            [45455, -12738]
+                        ],
+                        "stations": [[982, "Berkakit branch"], 983]
                     },
                     "Lena-Bulunsky branch": {
                         "vertices": [
@@ -12438,9 +12493,13 @@
                             [51178.5, -17732],
                             [51178.5, -13124.5],
                             [50855.5, -13124.5],
-                            [50855.5, -13079]
+                            [50855.5, -13079],
+                            [50597, -13079],
+                            [50597, -12548],
+                            [51213, -12548],
+                            [51213, -12286]
                         ],
-                        "stations": [3, 9, 10, 360, [361, "Noto branch"], 402, 206]
+                        "stations": [3, 9, 10, 360, [361, "Noto branch"], 402, 206, 984, 985]
                     },
                     "Noto branch": {
                         "vertices": [
