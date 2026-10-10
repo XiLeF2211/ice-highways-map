@@ -12138,6 +12138,43 @@
                     "Sakha": ["", "Zerovka branch"]
                 }
             }
+        },
+        {
+            "name": "Yartville North JCT",
+            "id": 1007,
+			"type": "jct",
+            "x": -31663,
+            "z": -5928,
+            "lines": {
+				"America": {
+					"City of New Orleans": ["", "Northbound Tube to Southbound Tube"],
+					"Yartville Bypass": ["", ""]
+				}
+            }
+        },
+        {
+            "name": "Yartville",
+            "id": 1008,
+            "x": -31992,
+            "z": -5828,
+            "lines": {
+				"America": {
+					"Yartville Bypass": ["", ""]
+				}
+            }
+        },
+        {
+            "name": "Yartville South JCT",
+            "id": 1009,
+			"type": "jct",
+            "x": -31663,
+            "z": -5724,
+            "lines": {
+				"America": {
+					"City of New Orleans": ["", "Northbound Disc to Southbound Disc"],
+					"Yartville Bypass": ["", ""]
+				}
+            }
         }
     ],
     "lines": {
@@ -14499,16 +14536,30 @@
                     "Southbound Tube": {
                         "vertices": [
                             [-31669, -8132],
-                            [-31669, -6810]
+                            [-31669, -5873]
                         ],
-                        "stations": [894, 895, 896, [897, "Northbound Tube"], [898, "Northbound Tube"], [1003, "Northbound Tube"]]
+                        "stations": [894, 895, 896, [897, "Northbound Tube"], [898, "Northbound Tube"], [1003, "Northbound Tube"], [1007, "Northbound Tube"]]
                     },
                     "Northbound Tube": {
                         "vertices": [
                             [-31657, -8132],
-                            [-31657, -6810]
+                            [-31657, -5873]
                         ],
-                        "stations": [894, 895, 896, [897, "Southbound Tube"], [898, "Southbound Tube"], [1003, "Southbound Tube"]]
+                        "stations": [894, 895, 896, [897, "Southbound Tube"], [898, "Southbound Tube"], [1003, "Southbound Tube"], [1007, "Southbound Tube"]]
+                    },
+                    "Southbound Disc": {
+                        "vertices": [
+                            [-31669, -5808],
+                            [-31669, -5713]
+                        ],
+                        "stations": [[1009, "Northbound Disc"]]
+                    },
+                    "Northbound Disc": {
+                        "vertices": [
+                            [-31657, -5808],
+                            [-31657, -5713]
+                        ],
+                        "stations": [[1009, "Southbound Disc"]]
                     }
                 }
             },
@@ -14524,6 +14575,24 @@
                             [-31657, -6822]
                         ],
                         "stations": [1004, 1003]
+                    }
+
+                }
+            },
+            "Yartville Bypass": {
+                "prefix": "",
+                "code": "YRT",
+                "color": "9999ff",
+                "y": 8,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-31657, -5928],
+                            [-31992, -5928],
+							[-31992, -5724],
+							[-31657, -5724]
+                        ],
+                        "stations": [1007, 1008, 1009]
                     }
 
                 }
