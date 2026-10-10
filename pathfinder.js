@@ -3,14 +3,9 @@ class Pathfinder {
         this.graph = {};
         let stations = data.stations;
         let errorMessage = document.getElementById("data-error");
-        if (!Object.hasOwn(station, "name")) station.name = "";
         for (let station of stations) {
             let reachable = {};
             for (let company in station.lines) {
-                if (station.lines[company] == null) {
-                    errorMessage.innerText = `Error: station ${station.id} (${station.name}) has null lines for company ${company}`;
-                    continue;
-                }
                 for (let line in station.lines[company]) {
                     let branches = [station.lines[company][line][1]];
                     // console.log(station.id + " " + company + " " + line + " " + branches);
@@ -20,8 +15,10 @@ class Pathfinder {
                         // console.log(data.lines[company][line].branches[branch])
                         // console.log(data.lines[company][line].branches)
                         // console.log(branch)
-                        if (data.lines[company][line].branches[branch].stations == null) {
+                        if (!Object.hasOwn(data.lines[company][line].branches, branch)) {
                             errorMessage.innerText = `Error: line ${company}.${line}.${branch} has null stations (station ${station.id} (${station.name}))`;
+                            console.warn(`Error: line ${company}.${line}.${branch} has null stations (station ${station.id} (${station.name}))`);
+                            console.log("hi)");
                             continue;
                         }
                         let branchStations = data.lines[company][line].branches[branch].stations.flat();
@@ -33,6 +30,7 @@ class Pathfinder {
                         let index = actualStations.indexOf(station.id);
                         if (index == -1) {
                             errorMessage.innerText = `Error: station ${station.id} (${station.name}) not found in line ${company}.${line}.${branch} stations`;
+                            console.warn(`Error: station ${station.id} (${station.name}) not found in line ${company}.${line}.${branch} stations`);
                             continue;
                         }
                         let n = actualStations.length;

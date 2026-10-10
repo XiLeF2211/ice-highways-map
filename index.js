@@ -1,12 +1,10 @@
 const mapName = 'nostra';
 const projection = 64; // for Aurora 16.
 
-const proxyURL = 'https://feur.hainaut.xyz/proxy?url='
 const mapURL = 'https://map.earthmc.net/tiles'
 const repositoryPath = 'https://raw.githubusercontent.com/XiLeF2211/ice-highways-map/refs/heads/main/'
 const highwaysURL = repositoryPath + mapName + '/highways.json'
 const netherHighwaysURL = repositoryPath + mapName + '/netherHighways.json'
-const markersURL = repositoryPath + mapName + '/markers.json'
 
 let highwayData;
 let netherHighwayData;
@@ -102,7 +100,8 @@ init();
 async function init() {
     document.documentElement.style.setProperty("--map-brightness", localStorage.getItem("mapBrightness") == null ? "50%" : localStorage.getItem("mapBrightness") + "%");
 
-    highwayData = await fetchJSON(highwaysURL);
+    // highwayData = await fetchJSON(highwaysURL);
+    highwayData = JSON.parse(fab);
     netherHighwayData = await fetchJSON(netherHighwaysURL);
 
     // highwayData = await fetchJSON('nostra/highways.json'); // for pathfinder = new Pathfinder(currentData);
@@ -152,8 +151,7 @@ for (let element of document.querySelectorAll("#settings input")) {
 
 async function renderTowns() {
     const startTownRender = new Date();
-    //const data = await fetchJSON(proxyURL + mapURL + '/minecraft_overworld/markers.json')
-    const data = await fetchJSON(markersURL) // use this if above doesn't wprk
+    const data = await fetchJSON(mapURL + '/minecraft_overworld/markers.json');
     if (!data || data[0].markers.length == 0) {
         console.log('debug: There was a problem with getting towns data')
         return
@@ -385,6 +383,7 @@ function showLine(companyName, lineName, line) {
             window.history.pushState({path:newurl},'',newurl);
         }
     });
+    document.getElementById('line-notes').innerHTML = `${line.notes ? line.notes : ''}`
     if (line.code.length > 0) document.getElementById('line-code').textContent = `Code: ${line.code}`
     else document.getElementById('line-code').textContent = ''
     document.getElementById('line-y').textContent = `y-level (ice block level) at ${line.y}`
