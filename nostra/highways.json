@@ -6380,18 +6380,18 @@
             "z": -20364,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Main line to Lena-Bulunsky branch"]
+                    "Sakha": ["", "Main line to Zerovka branch"]
                 }
             }
         },
         {
-            "name": "Lena-Bulunsky",
+            "name": "Lena-Bulunsky (Coumonist)",
             "id": 540,
             "x": 46368,
-            "z": -23215,
+            "z": -23214,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Lena-Bulunsky branch"]
+                    "Sakha": ["", "Zerovka branch"]
                 }
             }
         },
@@ -12116,6 +12116,28 @@
 					"Vandalia": ["", ""]
 				}
             }
+        },
+        {
+            "name": "Zerovka Cave",
+            "id": 1005,
+            "x": 46234,
+            "z": -24076,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Zerovka branch"]
+                }
+            }
+        },
+        {
+            "name": "Zerovka Cave",
+            "id": 1006,
+            "x": 45642,
+            "z": -24076,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Zerovka branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -12445,7 +12467,7 @@
                             [48565, -21310],
                             [48565, -22641]
                         ],
-                        "stations": [988, 986, 549, [605, "USG branch"], [603, "Berkakit branch"], 548, 36, 37, 148, [279, "Yarika branch"], [355, "Bestyakh branch"], [297, "Lensk branch"], [539, "Lena-Bulunsky branch"], 149, [353, "Lensk branch"], 298, 327, 657, 596]
+                        "stations": [988, 986, 549, [605, "USG branch"], [603, "Berkakit branch"], 548, 36, 37, 148, [279, "Yarika branch"], [355, "Bestyakh branch"], [297, "Lensk branch"], [539, "Zerovka branch"], 149, [353, "Lensk branch"], 298, 327, 657, 596]
                     },
                     "USG branch": {
                         "vertices": [
@@ -12471,12 +12493,13 @@
                         ],
                         "stations": [[982, "Berkakit branch"], 983]
                     },
-                    "Lena-Bulunsky branch": {
+                    "Zerovka branch": {
                         "vertices": [
                             [46368, -20364],
-                            [46368, -23215]
+                            [46368, -24076],
+                            [45642, -24076]
                         ],
-                        "stations": [[539, "Main line"], 540]
+                        "stations": [[539, "Main line"], 540, 1005, 1006]
                     },
                     "Lensk branch": {
                         "vertices": [
