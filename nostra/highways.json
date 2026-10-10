@@ -2405,7 +2405,7 @@
             "name": "Kita-Karafuto",
             "id": 206,
             "x": 50855.5,
-            "z": -13079,
+            "z": -13079.5,
             "lines": {
                 "TNIH": {
                     "Sakhalin": ["", "Main line"]
@@ -7236,7 +7236,6 @@
         },
         {
             "name": "Berkakit",
-            "type": "jct",
             "id": 604,
             "x": 45947,
             "z": -13844,
@@ -11853,6 +11852,7 @@
         },
         {
             "name": "Berkakit JCT",
+            "type": "jct",
             "id": 982,
             "x": 45985,
             "z": -13899,
@@ -11917,7 +11917,19 @@
                 }
             }
         },
-        { "id": 988 },
+        {
+            "name": "Nikolayevsk JCT",
+            "type": "jct",
+            "id": 988,
+            "x": 50597,
+            "z": -13079.5,
+            "lines": {
+                "TNIH": {
+                    "Sakhalin": ["", "Main line"],
+                    "Sakha": ["", "Main line"]
+                }
+            }
+        },
         {
             "name": "Delaware Memorial Bridge",
             "id": 989,
@@ -12418,7 +12430,8 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [49898, -13531],
+                            [50597, -13079.5],
+                            [50597, -13531],
                             [48406, -13531],
                             [48406, -13899],
                             [46352, -13899],
@@ -12432,7 +12445,7 @@
                             [48565, -21310],
                             [48565, -22641]
                         ],
-                        "stations": [986, 549, [605, "USG branch"], [603, "Berkakit branch"], 548, 36, 37, 148, [279, "Yarika branch"], [355, "Bestyakh branch"], [297, "Lensk branch"], [539, "Lena-Bulunsky branch"], 149, [353, "Lensk branch"], 298, 327, 657, 596]
+                        "stations": [988, 986, 549, [605, "USG branch"], [603, "Berkakit branch"], 548, 36, 37, 148, [279, "Yarika branch"], [355, "Bestyakh branch"], [297, "Lensk branch"], [539, "Lena-Bulunsky branch"], 149, [353, "Lensk branch"], 298, 327, 657, 596]
                     },
                     "USG branch": {
                         "vertices": [
@@ -12515,13 +12528,13 @@
                             [51178.5, -17732],
                             [51178.5, -13124.5],
                             [50855.5, -13124.5],
-                            [50855.5, -13079],
-                            [50597, -13079],
+                            [50855.5, -13079.5],
+                            [50597, -13079.5],
                             [50597, -12548],
                             [51213, -12548],
                             [51213, -11093]
                         ],
-                        "stations": [3, 9, 10, 360, [361, "Noto branch"], 402, 206, 984, 985, 987]
+                        "stations": [3, 9, 10, 360, [361, "Noto branch"], 402, 206, 988, 984, 985, 987]
                     },
                     "Noto branch": {
                         "vertices": [
@@ -15574,6 +15587,24 @@
                             [616, -10865]
                         ],
                         "stations": [822, 864, 872, 865, 866, 873, 867]
+                    }
+                }
+            }
+        },
+        "KR": {
+            "Arabian": {
+                "prefix": "",
+                "code": "AR",
+                "color": "F9801D",
+                "y": 40,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [16287, -3558],
+                            [16287, 586],
+                            [14993, 586]
+                        ],
+                        "stations": []
                     }
                 }
             }
