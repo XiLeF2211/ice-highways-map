@@ -100,8 +100,7 @@ init();
 async function init() {
     document.documentElement.style.setProperty("--map-brightness", localStorage.getItem("mapBrightness") == null ? "50%" : localStorage.getItem("mapBrightness") + "%");
 
-    // highwayData = await fetchJSON(highwaysURL);
-    highwayData = JSON.parse(fab);
+    highwayData = await fetchJSON(highwaysURL);
     netherHighwayData = await fetchJSON(netherHighwaysURL);
 
     // highwayData = await fetchJSON('nostra/highways.json'); // for pathfinder = new Pathfinder(currentData);
