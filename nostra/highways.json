@@ -4306,7 +4306,7 @@
             "x": -28600,
             "z": -7216,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Atlantic": ["", "Westbound Tube to Eastbound Tube"]
                 }
             },
@@ -4321,7 +4321,7 @@
             "x": -27326,
             "z": -7216,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Atlantic": ["", "Westbound Tube to Eastbound Tube"],
                     "Capitol Limited": ["", "Main line"]
                 }
@@ -4337,7 +4337,7 @@
             "x": -27315,
             "z": -7222,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Atlantic": ["", "Westbound Tube"]
                 }
             }
@@ -4349,7 +4349,7 @@
             "x": -27291,
             "z": -7222,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Atlantic": ["", "Westbound Tube"]
                 }
             }
@@ -4361,7 +4361,7 @@
             "x": -27267,
             "z": -7222,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Atlantic": ["", "Westbound Tube"]
                 }
             }
@@ -4372,7 +4372,7 @@
             "x": -27133,
             "z": -7216,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Atlantic": ["", "Westbound Tube to Eastbound Tube"]
                 }
             },
@@ -4413,7 +4413,7 @@
             "x": -27315,
             "z": -7210,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Atlantic": ["", "Eastbound Tube"]
                 }
             }
@@ -4425,7 +4425,7 @@
             "x": -27291,
             "z": -7210,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Atlantic": ["", "Eastbound Tube"]
                 }
             }
@@ -4437,7 +4437,7 @@
             "x": -27267,
             "z": -7210,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Atlantic": ["", "Eastbound Tube"]
                 }
             }
@@ -4461,7 +4461,7 @@
             "x": -26675,
             "z": -7210,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Atlantic": ["", "Eastbound Tube"]
                 }
             }
@@ -4506,7 +4506,7 @@
             "x": -28600,
             "z": -7333,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Capitol Limited": ["", "Main line"]
                 }
             }
@@ -4517,7 +4517,7 @@
             "x": -30202,
             "z": -7433,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Capitol Limited": ["", "Main line"]
                 }
             }
@@ -4528,7 +4528,7 @@
             "x": -30448,
             "z": -7739,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Capitol Limited": ["", "Main line"]
                 }
             }
@@ -4539,7 +4539,7 @@
             "x": -31391,
             "z": -7739,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Capitol Limited": ["", "Main line"]
                 }
             }
@@ -10755,7 +10755,7 @@
             "x": -31663,
             "z": -8132,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "City of New Orleans":  ["", "Southbound Tube to Northbound Tube"]
                 }
             },
@@ -10769,7 +10769,7 @@
             "x": -31663,
             "z": -7948,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "City of New Orleans":  ["", "Southbound Tube to Northbound Tube"]
                 }
             },
@@ -10783,7 +10783,7 @@
             "x": -31663,
             "z": -7780,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "City of New Orleans":  ["", "Southbound Tube to Northbound Tube"]
                 }
             },
@@ -10798,7 +10798,7 @@
             "x": -31663,
             "z": -7325,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "City of New Orleans":  ["", "Southbound Tube to Northbound Tube"]
                 }
             },
@@ -10813,7 +10813,7 @@
             "x": -31663,
             "z": -7216,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "City of New Orleans":  ["", "Southbound Tube to Northbound Tube"],
                     "Atlantic": ["", "Eastbound Tube to Westbound Tube"]
                 }
@@ -10829,7 +10829,7 @@
             "x": -30202,
             "z": -7216,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Atlantic": ["", "Eastbound Tube to Westbound Tube"],
                     "Capitol Limited": ["", "Cincinnati branch"]
                 }
@@ -10845,7 +10845,7 @@
             "x": -29720,
             "z": -7216,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Atlantic": ["", "Eastbound Tube to Westbound Tube"],
                     "Wolverine": ["", "Main line"]
                 }
@@ -10860,7 +10860,7 @@
             "x": -28843,
             "z": -7216,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Atlantic": ["", "Eastbound Tube to Westbound Tube"]
                 }
             },
@@ -10875,7 +10875,7 @@
             "x": -26472,
             "z": -7216,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Atlantic": ["", "Eastbound Tube to Westbound Tube"],
                     "Gotham": ["", ""]
                 }
@@ -10890,7 +10890,7 @@
             "x": -26590,
             "z": -7070,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Gotham": ["", ""]
                 }
             }
@@ -10902,7 +10902,7 @@
             "x": -30202,
             "z": -7333,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Capitol Limited": ["", "Main line to Cincinnati branch"]
                 }
             }
@@ -11040,7 +11040,7 @@
             "x": -29720,
             "z": -7333,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Capitol Limited": ["", "Main line"],
                     "Wolverine": ["", "Main line"]
                 }
@@ -11053,7 +11053,7 @@
             "x": -29720,
             "z": -7739,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Wolverine": ["", "Main line to Chicago branch"]
                 }
             }
@@ -11064,7 +11064,7 @@
             "x": -29720,
             "z": -8203,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Wolverine": ["", "Main line"]
                 }
             }
@@ -11076,7 +11076,7 @@
             "x": -29720,
             "z": -8461,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Wolverine": ["", "Main line to Flint branch"]
                 }
             }
@@ -11087,7 +11087,7 @@
             "x": -29720,
             "z": -8480,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Wolverine": ["", "Main line"]
                 }
             }
@@ -11098,7 +11098,7 @@
             "x": -29949,
             "z": -8461,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Wolverine": ["", "Flint branch"]
                 }
             }
@@ -11110,7 +11110,7 @@
             "x": -30202,
             "z": -7739,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Wolverine": ["", "Chicago branch"],
                     "Capitol Limited": ["", "Main line"]
                 }
@@ -11947,7 +11947,7 @@
             "x": -29463,
             "z": -9617,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Wolverine": ["", "Main line"]
                 }
             }
@@ -11959,7 +11959,7 @@
             "x": -25092,
             "z": -7221,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Atlantic": ["", "Eastbound Tube to Westbound Tube"],
                     "Cape Codder": ["", ""]
                 }
@@ -11972,7 +11972,7 @@
             "x": -25092,
             "z": -7576,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Cape Codder": ["", ""]
                 }
             }
@@ -11983,7 +11983,7 @@
             "x": -25092,
             "z": -7863,
             "lines": {
-                "America": {
+                "Amtrak": {
                     "Cape Codder": ["", ""]
                 },
 				"Turtleundercover": {
@@ -12008,7 +12008,7 @@
             "x": -33559,
             "z": -9416,
             "lines": {
-				"America": {
+				"Amtrak": {
 					"Borealis": ["", "Minneapolis branch"]
 				}
             }
@@ -12020,7 +12020,7 @@
             "x": -33836,
             "z": -9416,
             "lines": {
-				"America": {
+				"Amtrak": {
 					"Borealis": ["", "Main line to Minneapolis branch"]
 				}
             }
@@ -12032,7 +12032,7 @@
             "x": -34803,
             "z": -9416,
             "lines": {
-				"America": {
+				"Amtrak": {
 					"Borealis": ["", "Main line to Minneapolis branch"]
 				}
             }
@@ -12043,7 +12043,7 @@
             "x": -33836,
             "z": -9972,
             "lines": {
-				"America": {
+				"Amtrak": {
 					"Borealis": ["", "Main line"]
 				}
             }
@@ -12054,7 +12054,7 @@
             "x": -34803,
             "z": -9463,
             "lines": {
-				"America": {
+				"Amtrak": {
 					"Borealis": ["", "Main line"]
 				}
             }
@@ -12066,7 +12066,7 @@
             "x": -33927,
             "z": -7194,
             "lines": {
-				"America": {
+				"Amtrak": {
 					"Borealis": ["", "Main line to Columbia branch"]
 				}
             }
@@ -12077,7 +12077,7 @@
             "x": -33927,
             "z": -6791,
             "lines": {
-				"America": {
+				"Amtrak": {
 					"Borealis": ["", "Main line"]
 				}
             }
@@ -12088,7 +12088,7 @@
             "x": -33187,
             "z": -6991,
             "lines": {
-				"America": {
+				"Amtrak": {
 					"Borealis": ["", "Columbia branch"]
 				}
             }
@@ -12100,7 +12100,7 @@
             "x": -31663,
             "z": -6822,
             "lines": {
-				"America": {
+				"Amtrak": {
 					"City of New Orleans": ["", "Northbound Tube to Southbound Tube"],
 					"Vandalia": ["", ""]
 				}
@@ -12112,7 +12112,7 @@
             "x": -31879,
             "z": -6822,
             "lines": {
-				"America": {
+				"Amtrak": {
 					"Vandalia": ["", ""]
 				}
             }
@@ -12146,7 +12146,7 @@
             "x": -31663,
             "z": -5928,
             "lines": {
-				"America": {
+				"Amtrak": {
 					"City of New Orleans": ["", "Northbound Tube to Southbound Tube"],
 					"Yartville Bypass": ["", ""]
 				}
@@ -12158,7 +12158,7 @@
             "x": -31992,
             "z": -5828,
             "lines": {
-				"America": {
+				"Amtrak": {
 					"Yartville Bypass": ["", ""]
 				}
             }
@@ -12170,12 +12170,176 @@
             "x": -31663,
             "z": -5724,
             "lines": {
-				"America": {
+				"Amtrak": {
 					"City of New Orleans": ["", "Northbound Disc to Southbound Disc"],
 					"Yartville Bypass": ["", ""]
 				}
             }
+        },
+        {
+            "name": "Damascus",
+            "id": 1010,
+            "x": 12912,
+            "z": -4353,
+            "areas": [
+                [[12926, -4367], [12897, -4338]]
+            ],
+            "lines": {
+				"Palestine": {
+					"Purple": ["", "Main line"],
+					"Orange": ["", ""]
+				}
+            }
+        },
+        {
+            "name": "Jezzine JCT",
+            "id": 1011,
+			"type": "jct",
+            "x": 13000,
+            "z": -4393,
+            "lines": {
+				"Palestine": {
+					"Purple": ["", "Main line to Jezzine branch"]
+				}
+            }
+        },
+        {
+            "name": "Jezzine",
+            "id": 1012,
+            "x": 13000,
+            "z": -4592,
+            "lines": {
+				"Palestine": {
+					"Purple": ["", "Jezzine branch"]
+				}
+            }
+        },
+        {
+            "name": "Sham",
+            "id": 1013,
+            "x": 13297,
+            "z": -4393,
+            "lines": {
+				"Palestine": {
+					"Purple": ["", "Main line"]
+				}
+            }
+        },
+        {
+            "name": "Aram JCT",
+            "id": 1014,
+			"type": "jct",
+            "x": 13575,
+            "z": -4393,
+            "lines": {
+				"Palestine": {
+					"Purple": ["", "Main line to Aram branch"]
+				}
+            }
+        },
+        {
+            "name": "Aram",
+            "id": 1015,
+            "x": 13575,
+            "z": -4562,
+            "lines": {
+				"Palestine": {
+					"Purple": ["", "Aram branch"]
+				}
+            }
+        },
+        {
+            "name": "EMC Mafia",
+            "id": 1016,
+            "x": 13840,
+            "z": -4393,
+            "lines": {
+				"Palestine": {
+					"Purple": ["", "Main line"]
+				}
+            }
+        },
+        {
+            "name": "Euphrates JCT",
+            "id": 1017,
+			"type": "jct",
+            "x": 14050,
+            "z": -5193,
+            "lines": {
+				"Palestine": {
+					"Purple": ["", "Main line to Euphrates branch"]
+				}
+            }
+        },
+        {
+            "name": "Euphrates",
+            "id": 1018,
+            "x": 14315,
+            "z": -5193,
+            "lines": {
+				"Palestine": {
+					"Purple": ["", "Euphrates branch"]
+				}
+            }
+        },
+        {
+            "name": "PAL-Purple Down Elevator",
+            "id": 1019,
+            "type": "elev-ew",
+            "x": 14050,
+            "z": -5400,
+            "lines": {
+				"Palestine": {
+					"Purple": ["", "Main line"]
+				}
+            }
+        },
+        {
+            "name": "Ar Raqqah",
+            "id": 1020,
+            "x": 14050,
+            "z": -5465,
+            "lines": {
+				"Palestine": {
+					"Purple": ["", "Main line"]
+				}
+            }
+        },
+        {
+            "name": "PAL-Orange Down Elevator",
+            "id": 1021,
+            "type": "elev-ew",
+            "x": 12912,
+            "z": -4332,
+            "lines": {
+				"Palestine": {
+					"Orange": ["", ""]
+				}
+            }
+        },
+        {
+            "name": "Quneitra",
+            "id": 1022,
+            "x": 12919,
+            "z": -4222,
+            "lines": {
+				"Palestine": {
+					"Orange": ["", ""]
+				}
+            }
+        },
+        {
+            "name": "Jerusalem",
+            "id": 1023,
+            "x": 12727,
+            "z": -3927,
+            "lines": {
+				"Palestine": {
+					"Orange": ["", ""]
+				}
+            }
         }
+		
     ],
     "lines": {
         "TNIH": {
@@ -14485,7 +14649,7 @@
                 }
             }
         },
-        "America": {
+        "Amtrak": {
             "Atlantic": {
                 "prefix": "",
                 "code": "ATL",
@@ -14550,14 +14714,14 @@
                     "Southbound Disc": {
                         "vertices": [
                             [-31669, -5808],
-                            [-31669, -5713]
+                            [-31669, -5255]
                         ],
                         "stations": [[1009, "Northbound Disc"]]
                     },
                     "Northbound Disc": {
                         "vertices": [
                             [-31657, -5808],
-                            [-31657, -5713]
+                            [-31657, -5255]
                         ],
                         "stations": [[1009, "Southbound Disc"]]
                     }
@@ -14595,6 +14759,45 @@
                         "stations": [1007, 1008, 1009]
                     }
 
+                }
+            },
+            "Volunteer": {
+                "prefix": "",
+                "code": "TN",
+                "color": "9999ff",
+                "y": 8,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-29271, -5505],
+                            [-30000, -5505],
+							[-30000, -5597],
+							[-30271, -5597],
+							[-30271, -5558],
+							[-30807, -5558],
+							[-30807, -5255],
+							[-32516, -5255],
+							[-32516, -5482],
+							[-32761, -5482]
+                        ],
+                        "stations": []
+                    },
+                    "Ozark bypass": {
+                        "vertices": [
+                            [-32516, -5482],
+							[-31663, -5482]
+                        ],
+                        "stations": []
+                    },
+                    "Rocky Top branch": {
+                        "vertices": [
+                            [-29542, -5505],
+							[-29542, -5601],
+							[-29559, -5601],
+							[-29559, -5681]
+                        ],
+                        "stations": []
+                    }
                 }
             },
             "Capitol Limited": {
@@ -17428,6 +17631,87 @@
                     }
                 }
             }
-        }
+        },
+		"Palestine": {
+            "Damascus Loop": {
+                "prefix": "",
+                "code": "PAL-LOOP",
+                "color": "808080",
+                "y": 65,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [12900, -4341],
+                            [12923, -4341],
+                            [12923, -4364],
+                            [12900, -4364],
+							[12900, -4341]
+                        ],
+                        "stations": []
+                    }
+                }
+            },
+            "Purple": {
+                "prefix": "",
+                "code": "PAL-PR",
+                "color": "702963",
+                "y": 65,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [12923, -4353],
+							[12997, -4353],
+							[12997, -4393],
+							[13964, -4393],
+							[13964, -4404],
+							[13987, -4404],
+							[13987, -4393],
+							[14050, -4393],
+							[14050, -5465]
+                        ],
+                        "stations": [1010, [1011, "Jezzine branch"], 1013, [1014, "Aram branch"], 1016, [1017, "Aram branch"], 1019, 1020]
+                    },
+					"Jezzine branch": {
+                        "vertices": [
+                            [13000, -4393],
+							[13000, -4592]
+                        ],
+                        "stations": [[1011, "Main line"], 1012]
+					},
+					"Aram branch": {
+                        "vertices": [
+                            [13575, -4393],
+							[13575, -4562]
+                        ],
+                        "stations": [[1014, "Main line"], 1015]
+					},
+					"Euphrates branch": {
+                        "vertices": [
+                            [14050, -5193],
+							[14315, -5193]
+                        ],
+                        "stations": [[1017, "Main line"], 1018]
+					}
+                }
+            },
+            "Orange": {
+                "prefix": "",
+                "code": "PAL-OR",
+                "color": "CC5500",
+                "y": 54,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [12912, -4341],
+							[12912, -4280],
+							[12919, -4280],
+							[12919, -3927],
+							[12727, -3927]
+                        ],
+                        "stations": [1010, 1021, 1022, 1023]
+                    }
+                }
+            }
+		}
     }
 }
