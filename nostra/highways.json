@@ -6,7 +6,7 @@
             "x": 28534,
             "z": 3863,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Deccan": ["", "Main line"]
                 }
             }
@@ -17,7 +17,7 @@
             "x": 28605,
             "z": 4011,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Deccan": ["", "Main line"]
                 }
             }
@@ -29,7 +29,7 @@
             "x": 28534,
             "z": 3569,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Deccan": ["", "Main line"]
                 }
             }
@@ -274,7 +274,7 @@
             "x": 27518,
             "z": -168,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Main line"]
                 }
             }
@@ -286,7 +286,7 @@
             "x": 27599,
             "z": -316,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Main line"]
                 }
             }
@@ -297,7 +297,7 @@
             "x": 27911,
             "z": -316,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Main line"]
                 }
             }
@@ -458,7 +458,7 @@
             "x": 28534,
             "z": 2089,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Deccan": ["", "Main line to Dragonfall branch"]
                 }
             }
@@ -470,7 +470,7 @@
             "x": 29160,
             "z": 2089,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Deccan": ["", "Dragonfall branch"]
                 }
             }
@@ -514,7 +514,7 @@
             "x": 28534,
             "z": 1209,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Deccan": ["", "Main line to Timmuh Town branch"]
                 }
             }
@@ -525,7 +525,7 @@
             "x": 28614,
             "z": 1209,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Deccan": ["", "Timmuh Town branch"]
                 }
             }
@@ -536,7 +536,7 @@
             "x": 28807,
             "z": 1209,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Deccan": ["", "Timmuh Town branch"]
                 }
             }
@@ -639,7 +639,7 @@
             "x": 28393,
             "z": 770,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Deccan": ["", "Main line"]
                 }
             }
@@ -650,7 +650,7 @@
             "x": 28317,
             "z": 201,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Deccan": ["", "Main line"]
                 }
             }
@@ -662,7 +662,7 @@
             "x": 28317,
             "z": -41,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Deccan": ["", "Main line"]
                 }
             }
@@ -821,7 +821,7 @@
             "x": 28317,
             "z": -316,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Main line"],
                     "Deccan": ["", "Main line"],
                     "Hooman": ["", "Main line"]
@@ -835,7 +835,7 @@
             "x": 28317,
             "z": -643,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Hooman": ["", "Main line"]
                 }
             }
@@ -847,7 +847,7 @@
             "x": 28317,
             "z": -1546,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Hooman": ["", "Main line"]
                 }
             }
@@ -858,7 +858,7 @@
             "x": 28317,
             "z": -1865,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Hooman": ["", "Main line"]
                 }
             }
@@ -903,7 +903,7 @@
             "x": 26400,
             "z": 4398,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Maldives": ["", "Main line"]
                 }
             }
@@ -915,7 +915,7 @@
             "x": 27315,
             "z": 4398,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Malabar": ["", "Main line"],
                     "Maldives": ["", "Main line"]
                 }
@@ -927,7 +927,7 @@
             "x": 27451,
             "z": 4605,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Malabar": ["", "Main line"]
                 }
             }
@@ -938,7 +938,7 @@
             "x": 28704,
             "z": 4831,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Deccan": ["", "Main line"]
                 }
             }
@@ -949,7 +949,7 @@
             "x": 27190,
             "z": 3987,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Malabar": ["", "Mangalore branch"]
                 }
             }
@@ -1087,7 +1087,7 @@
             "x": 28704,
             "z": 4533,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Deccan": ["", "Main line"]
                 }
             }
@@ -1099,7 +1099,7 @@
             "x": 28704,
             "z": 4605,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Deccan": ["", "Main line"],
                     "Malabar": ["", "Main line"]
                 }
@@ -1111,7 +1111,7 @@
             "x": 25829,
             "z": 4006,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Maldives": ["", "Agatti branch"]
                 }
             }
@@ -1122,7 +1122,7 @@
             "x": 28534,
             "z": 1659,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Deccan": ["", "Main line"]
                 }
             }
@@ -1368,7 +1368,7 @@
             "x": 26030,
             "z": 100,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Main line"],
                     "Malabar": ["", "Main line"]
                 }
@@ -1380,7 +1380,7 @@
             "x": 26279,
             "z": 100,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Main line"]
                 }
             }
@@ -1392,7 +1392,7 @@
             "x": 30274,
             "z": -316,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Main line"]
                 }
             }
@@ -1403,7 +1403,7 @@
             "x": 31133,
             "z": -316,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Main line"]
                 }
             }
@@ -1415,7 +1415,7 @@
             "x": 31698.5,
             "z": -316,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Main line to Kolkata branch"]
                 }
             }
@@ -1426,7 +1426,7 @@
             "x": 31698.5,
             "z": -254,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Kolkata branch"]
                 }
             }
@@ -1437,7 +1437,7 @@
             "x": 31910.5,
             "z": -383.5,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Main line"]
                 }
             }
@@ -1449,7 +1449,7 @@
             "x": 31910.5,
             "z": -551.5,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Main line"],
                     "Bangla": ["", "Main line"]
                 }
@@ -1461,7 +1461,7 @@
             "x": 32458.5,
             "z": -1314,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Syphon": ["", "Main line"],
                     "Tibet": ["", "Main line"]
                 }
@@ -1473,7 +1473,7 @@
             "x": 31926,
             "z": -818.5,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Main line"]
                 }
             }
@@ -1484,7 +1484,7 @@
             "x": 24835,
             "z": -15,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Dwarka branch"]
                 }
             }
@@ -1495,7 +1495,7 @@
             "x": 24980,
             "z": 66,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Main line"]
                 }
             }
@@ -1507,7 +1507,7 @@
             "x": 25420,
             "z": 66,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Main line to Dwarfdom branch"]
                 }
             }
@@ -1518,7 +1518,7 @@
             "x": 25420,
             "z": 457,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Dwarfdom branch"]
                 }
             }
@@ -1586,7 +1586,7 @@
             "x": 32458.5,
             "z": -551.5,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Tibet": ["", "Main line"],
                     "Bangla": ["", "Main line"]
                 }
@@ -1598,7 +1598,7 @@
             "x": 32590.5,
             "z": -319.5,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Bangla": ["", "Main line"]
                 }
             }
@@ -1609,7 +1609,7 @@
             "x": 32867.5,
             "z": -228.5,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Bangla": ["", "Main line"]
                 }
             }
@@ -1803,7 +1803,7 @@
             "x": 33037,
             "z": -146,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Bangla": ["", "Main line"]
                 }
             }
@@ -1814,7 +1814,7 @@
             "x": 33101,
             "z": 427,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Bangla": ["", "Main line"]
                 }
             }
@@ -1825,7 +1825,7 @@
             "x": 33531,
             "z": 930,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Bangla": ["", "Main line"]
                 }
             }
@@ -1848,7 +1848,7 @@
             "x": 24835,
             "z": 66,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Main line to Dwarka branch"]
                 }
             }
@@ -1859,7 +1859,7 @@
             "x": 24160,
             "z": -827,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Main line"],
                     "Makran": ["", "Main line"]
                 }
@@ -1871,7 +1871,7 @@
             "x": 34450.5,
             "z": 680,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Bangla": ["", "Naypyidaw branch"]
                 }
             }
@@ -2073,7 +2073,7 @@
             "type": "jct",
             "id": 178,
             "x": 52340,
-            "z": -17732,
+            "z": -17731.5,
             "lines": {
                 "TNIH": {
                     "Siberia Main": ["", "Main line"],
@@ -2086,7 +2086,7 @@
             "type": "semi1",
             "id": 179,
             "x": 52963,
-            "z": -17732,
+            "z": -17731.5,
             "lines": {
                 "TNIH": {
                     "Magadan": ["", ""]
@@ -2146,7 +2146,7 @@
             "x": 31705,
             "z": -2030,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Syphon": ["", "Main line"]
                 }
             }
@@ -2158,7 +2158,7 @@
             "x": 25843,
             "z": 4006,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Maldives": ["", "Agatti branch"]
                 }
             }
@@ -2169,7 +2169,7 @@
             "x": 25748,
             "z": 3759,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Maldives": ["", "Main line"]
                 }
             }
@@ -2181,7 +2181,7 @@
             "x": 34450.5,
             "z": 930,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Bangla": ["", "Main line to Naypyidaw branch"]
                 }
             }
@@ -2192,7 +2192,7 @@
             "x": 34450.5,
             "z": 2078.5,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Bangla": ["", "Main line"]
                 },
                 "Intercontinental": {
@@ -2207,7 +2207,7 @@
             "x": 28316,
             "z": -2434,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Hooman": ["", "Main line"],
                     "Himalayas": ["", "Main line"]
                 }
@@ -2219,7 +2219,7 @@
             "x": 28505,
             "z": -2434,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Himalayas": ["", "Main line"]
                 }
             }
@@ -2231,7 +2231,7 @@
             "x": 31501,
             "z": -2590,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Himalayas": ["", "Main line"],
                     "Syphon": ["", "Main line"]
                 }
@@ -2243,7 +2243,7 @@
             "x": 31501,
             "z": -2672,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Syphon": ["", "Main line"]
                 }
             }
@@ -2254,7 +2254,7 @@
             "x": 30993,
             "z": -2596,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Himalayas": ["", "Main line"]
                 }
             }
@@ -2265,7 +2265,7 @@
             "x": 30549,
             "z": -2636,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Himalayas": ["", "Main line"],
                     "Ganga": ["", "Main line"]
                 }
@@ -2277,7 +2277,7 @@
             "x": 30549,
             "z": -2113,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Ganga": ["", "Main line"]
                 }
             }
@@ -2288,7 +2288,7 @@
             "x": 24106,
             "z": -948,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Main line"]
                 }
             },
@@ -2302,7 +2302,7 @@
             "x": 24400,
             "z": -1437,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Makran": ["", "Main line"]
                 }
             }
@@ -2314,7 +2314,7 @@
             "x": 30134,
             "z": -2113,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Ganga": ["", "Main line to Patliputra branch"]
                 }
             }
@@ -2325,7 +2325,7 @@
             "x": 30383,
             "z": -1436,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Ganga": ["", "Patliputra branch"]
                 }
             }
@@ -2336,7 +2336,7 @@
             "x": 30030,
             "z": -2082,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Ganga": ["", "Main line"]
                 }
             }
@@ -2348,7 +2348,7 @@
             "x": 32458,
             "z": -1986,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Tibet": ["", "Main line to Syphon branch"]
                 }
             }
@@ -2360,7 +2360,7 @@
             "x": 31705,
             "z": -1986,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Tibet": ["", "Syphon branch"],
                     "Syphon": ["", "Main line"]
                 }
@@ -2373,7 +2373,7 @@
             "x": 32458,
             "z": -2999,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Tibet": ["", "Main line"],
                     "Himalayas": ["", "Main line"]
                 }
@@ -2385,7 +2385,7 @@
             "x": 32668,
             "z": -2999,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Himalayas": ["", "Main line"]
                 }
             }
@@ -2396,7 +2396,7 @@
             "x": 32603,
             "z": -3499,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Tibet": ["", "Main line"]
                 }
             }
@@ -2478,7 +2478,7 @@
             "y1": 10,
             "y2": 110,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Tibet": ["", "Main line"]
                 },
                 "Gobi Transport": {
@@ -2577,7 +2577,7 @@
                 "Intercontinental": {
                     "Afghan": ["", "Main line"]
                 },
-                "TNIH": {
+                "SATC": {
                     "Hooman": ["", "Main line"]
                 }
             }
@@ -2588,7 +2588,7 @@
             "x": 26131,
             "z": -5006,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Hooman": ["", "Main line"]
                 }
             }
@@ -2840,7 +2840,7 @@
             "x": 22071,
             "z": -1239,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Makran": ["", "Main line"]
                 }
             }
@@ -3017,7 +3017,7 @@
             "x": 19832,
             "z": -1980,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Makran": ["", "Main line"]
                 }
             }
@@ -3028,7 +3028,7 @@
             "x": 20510,
             "z": -1634,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Makran": ["", "Main line"]
                 }
             }
@@ -3039,7 +3039,7 @@
             "x": 21154,
             "z": -1374,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Makran": ["", "Main line"]
                 }
             }
@@ -3051,7 +3051,7 @@
             "x": 27051,
             "z": 100,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Main line to Delhi branch"]
                 }
             }
@@ -3062,7 +3062,7 @@
             "x": 27051,
             "z": -1084,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Delhi branch"]
                 }
             }
@@ -3073,7 +3073,7 @@
             "x": 29200,
             "z": -2555,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Himalayas": ["", "Main line"]
                 }
             }
@@ -3084,7 +3084,7 @@
             "x": 29068,
             "z": 4863,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Deccan": ["", "Main line"]
                 }
             }
@@ -3095,7 +3095,7 @@
             "x": 30270,
             "z": -2640,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Himalayas": ["", "Main line"]
                 }
             }
@@ -3528,7 +3528,7 @@
             "x": 32458.5,
             "z": -1027,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Tibet": ["", "Main line to Baniachong branch"]
                 }
             }
@@ -3539,7 +3539,7 @@
             "x": 32809,
             "z": -1027,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Tibet": ["", "Baniachong branch"]
                 }
             }
@@ -3744,7 +3744,7 @@
             "x": 27190,
             "z": 4037,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Malabar": ["", "Main line to Mangalore branch"]
                 }
             }
@@ -3755,7 +3755,7 @@
             "x": 26889,
             "z": 3460,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Malabar": ["", "Main line"]
                 }
             }
@@ -3766,7 +3766,7 @@
             "x": 26716,
             "z": 2930,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Malabar": ["", "Main line"]
                 }
             }
@@ -3789,7 +3789,7 @@
             "x": 27051,
             "z": -1039,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Delhi branch to Ajaymeru branch"]
                 }
             }
@@ -3800,7 +3800,7 @@
             "x": 26181,
             "z": -1358,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Ajaymeru branch"]
                 }
             }
@@ -3999,7 +3999,7 @@
             "x": 32829,
             "z": -1027,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Tibet": ["", "Baniachong branch"]
                 },
                 "Intercontinental": {
@@ -4017,7 +4017,7 @@
             "x": 31996,
             "z": -2842,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Himalayas": ["", "Main line"]
                 }
             }
@@ -5572,7 +5572,7 @@
             "x": 31705,
             "z": -1770,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Syphon": ["", "Main line"]
                 }
             }
@@ -5584,7 +5584,7 @@
             "x": 30111,
             "z": -2640,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Himalayas": ["", "Main line to Dao Monastery branch"]
                 }
             }
@@ -5595,7 +5595,7 @@
             "x": 30138,
             "z": -2770,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Himalayas": ["", "Dao Monastery branch"]
                 }
             }
@@ -5607,7 +5607,7 @@
             "x": 29940,
             "z": -2559,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Himalayas": ["", "Main line"]
                 }
             }
@@ -5619,7 +5619,7 @@
             "x": 29772,
             "z": -2559,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Himalayas": ["", "Main line"]
                 }
             }
@@ -5631,7 +5631,7 @@
             "x": 29421,
             "z": -2559,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Himalayas": ["", "Main line"]
                 }
             }
@@ -6255,7 +6255,7 @@
             "x": 20125,
             "z": -1980,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Makran": ["", "Main line to Bandar Abbas branch"]
                 }
             }
@@ -6266,7 +6266,7 @@
             "x": 20125,
             "z": -2245,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Makran": ["", "Bandar Abbas branch"]
                 }
             }
@@ -6277,7 +6277,7 @@
             "x": 18972,
             "z": -2011,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Makran": ["", "Main line"]
                 }
             }
@@ -6288,7 +6288,7 @@
             "x": 26068,
             "z": 672,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Malabar": ["", "Main line"]
                 }
             }
@@ -6299,7 +6299,7 @@
             "x": 26175,
             "z": 1077,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Malabar": ["", "Main line"]
                 }
             }
@@ -6310,7 +6310,7 @@
             "x": 26279,
             "z": 1905,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Malabar": ["", "Main line"]
                 }
             }
@@ -6321,7 +6321,7 @@
             "x": 26460,
             "z": 2248,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Malabar": ["", "Main line"]
                 }
             }
@@ -6356,7 +6356,7 @@
             "x": 27838,
             "z": 4605,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Malabar": ["", "Main line to Kanyakumari branch"]
                 }
             }
@@ -6367,7 +6367,7 @@
             "x": 27838,
             "z": 5054,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Malabar": ["", "Kanyakumari branch"]
                 }
             }
@@ -6473,7 +6473,7 @@
             "x": 19131,
             "z": -1980,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Makran": ["", "Main line"]
                 }
             }
@@ -6642,7 +6642,7 @@
             "x": 18972,
             "z": -1980,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Makran": ["", "Main line"],
                     "Arabia": ["", "Main line"]
                 }
@@ -6655,7 +6655,7 @@
             "x": 18340,
             "z": -1580,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Arabia": ["", "Main line to Bahrain branch"]
                 }
             }
@@ -6666,7 +6666,7 @@
             "x": 18122,
             "z": -1580,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Arabia": ["", "Bahrain branch"]
                 }
             }
@@ -6677,7 +6677,7 @@
             "x": 18340,
             "z": -1256,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Arabia": ["", "Main line"]
                 }
             }
@@ -6688,7 +6688,7 @@
             "x": 18340,
             "z": -1070,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Arabia": ["", "Main line"]
                 }
             }
@@ -6699,7 +6699,7 @@
             "x": 16606,
             "z": -634,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Arabia": ["", "Main line"]
                 }
             }
@@ -6710,7 +6710,7 @@
             "x": 16308,
             "z": -159,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Arabia": ["", "Main line"]
                 }
             }
@@ -7156,7 +7156,7 @@
             "x": 14474,
             "z": -159,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Arabia": ["", "Main line"]
                 }
             }
@@ -7168,7 +7168,7 @@
             "x": 14139,
             "z": -159,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Arabia": ["", "Main line to Thuwal branch"]
                 }
             }
@@ -7179,7 +7179,7 @@
             "x": 14139,
             "z": -151,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Arabia": ["", "Thuwal branch"]
                 }
             }
@@ -7194,7 +7194,7 @@
                 [[14051, -240], [14077, -234]]
             ],
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Arabia": ["", "Main line"]
                 }
             }
@@ -7206,7 +7206,7 @@
             "x": 15470,
             "z": -159,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Arabia": ["", "Main line to Al-Hawiyah branch"]
                 }
             }
@@ -7217,7 +7217,7 @@
             "x": 15470,
             "z": 310,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Arabia": ["", "Al-Hawiyah branch"]
                 }
             }
@@ -7945,7 +7945,7 @@
             "x": 27518,
             "z": 99.5,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Main line to Sita Bypass"]
                 }
             }
@@ -7957,7 +7957,7 @@
             "x": 28317,
             "z": 99.5,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Deccan": ["", "Main line"],
                     "Narmada": ["", "Sita Bypass"]
                 }
@@ -7970,7 +7970,7 @@
             "x": 30134,
             "z": -1436,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Ganga": ["", "Patliputra branch to Patliputra-Sita connector"]
                 }
             }
@@ -7982,7 +7982,7 @@
             "x": 29501,
             "z": -315.5,
             "lines": {
-                "TNIH": {
+                "SATC": {
                     "Narmada": ["", "Main line"],
                     "Ganga": ["", "Patliputra-Sita connector"]
                 }
@@ -12360,63 +12360,37 @@
                     "Sakhalin": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Arroyo JCT",
+            "type": "jct",
+            "id": 1026,
+            "x": 54008,
+            "z": -17731.5,
+            "lines": {
+                "TNIH": {
+                    "Magadan": ["", "Main line"],
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Penzhinskaya guba JCT",
+            "type": "jct",
+            "id": 1027,
+            "x": 58428.5,
+            "z": -17731.5,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"],
+                    "Kamchatka Main": ["", "Leshnybor branch"]
+                }
+            }
         }
 		
     ],
     "lines": {
         "TNIH": {
-            "Deccan": {
-                "prefix": "",
-                "code": "DC",
-                "color": "EB7400",
-                "y": 10,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [28317, -316],
-                            [28317, 770],
-                            [28534, 770],
-                            [28534, 4011],
-                            [28704, 4011],
-                            [28704, 4831],
-                            [29018, 4831],
-                            [29018, 4863],
-                            [29068, 4863]
-                        ],
-                        "stations": [70, 56, 661, 55, 54, [43, "Timmuh Town branch"], 96, [38, "Dragonfall branch"], 2, 0, 1, 93, 94, 80, 264]
-                    },
-                    "Dragonfall branch": {
-                        "vertices": [
-                            [28534, 2089],
-                            [29300, 2089]
-                        ],
-                        "stations": [[38, "Main line"], 39]
-                    },
-                    "Timmuh Town branch": {
-                        "vertices": [
-                            [28534, 1209],
-                            [28807, 1209]
-                        ],
-                        "stations": [[43, "Main line"], 44, 45]
-                    }
-                }
-            },
-            "Hooman": {
-                "prefix": "",
-                "code": "HM",
-                "color": "169C9C",
-                "y": 10,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [28317, -316],
-                            [28317, -5006],
-                            [24774.5, -5006]
-                        ],
-                        "stations": [70, 71, 72, 73, 189, 221, 220]
-                    }
-                }
-            },
             "Siberia Main": {
                 "prefix": "",
                 "code": "SB",
@@ -12434,15 +12408,21 @@
                             [21326, -17777],
                             [21376, -17777],
                             [21376, -17732],
-                            [52340, -17732],
+                            [51178.5, -17732],
+                            [51178.5, -17731.5],
+                            [52340, -17731.5],
                             [52340, -21475.5],
                             [52960.5, -21474.5],
                             [52960.5, -23834.5],
                             [50681, -23834.5]
                         ],
-                        "stations": [816, 875, [878, "Iceland branch"], 753, [493, "Poice branch"], 384, 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"], 578, 501, 500, 580, 965, 968, 503, [958, "Simograd branch"], 504, [505, "Poikovskii branch"], 406, [382, "Campfine branch"], 508, [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36, [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 375, 340],
+                        "stations": [816, 875, [878, "Iceland branch"], 753, [493, "Poice branch"], 384, 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"],
+                                     578, 501, 500, 580, 965, 968, 503, [958, "Simograd branch"], 504, [505, "Poikovskii branch"], 406, [382, "Campfine branch"], 508,
+                                     [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36,
+                                    [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"],
+                                    7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 375, 340],
                         "concurrencies": {
-                            "TNIH.Siberia Main": [
+                            "TNIH.Lena": [
                                 [41614, -17732],
                                 [41900, -17732]
                             ]
@@ -12555,6 +12535,13 @@
                             [53065, -22675]
                         ],
                         "stations": [[63, "Main line"], 64]
+                    },
+                    "Eastern-Vostochnaya (Temporal) branch": {
+                        "vertices": [
+                            [54008, -17731.5],
+                            [58508, -17732.5]
+                        ],
+                        "stations": [1026, 1027]
                     }
                 }
             },
@@ -12635,7 +12622,7 @@
                             [58428.5, -18765],
                             [59967, -18765]
                         ],
-                        "stations": [[74, "Main line (North)"], 75, [142, "Koleso branch"], 76, 664]
+                        "stations": [[74, "Main line (North)"], 75, [142, "Koleso branch"], 76, 1027, 664]
 					},
 					"Koleso branch": {
 						"vertices": [
@@ -12791,237 +12778,6 @@
                     }
                 }
             },
-            "Narmada": {
-                "prefix": "",
-                "code": "NM",
-                "color": "561574",
-                "y": 10,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [24106, -948],
-                            [24160, -948],
-                            [24160, 66],
-                            [26030, 66],
-                            [26030, 100],
-                            [27518, 100],
-                            [27518, -316],
-                            [31910.5, -316],
-                            [31910.5, -818.5],
-                            [31926, -818.5]
-                        ],
-                        "stations": [196, 159, [158, "Dwarka branch"], 128, [129, "Dwarfdom branch"], 117, 118, [261, "Delhi branch"], [660, "Sita Bypass"], 23, 24, 25, 663, 70, 119, 120, [121, "Kolkata branch"], 123, 124, 126]
-                    },
-                    "Dwarka branch": {
-                        "vertices": [
-                            [24835, -15],
-                            [24835, 66]
-                        ],
-                        "stations": [[158, "Main line"], 127]
-                    },
-                    "Dwarfdom branch": {
-                        "vertices": [
-                            [25420, 66],
-                            [25420, 457]
-                        ],
-                        "stations": [[129, "Main line"], 130]
-                    },
-                    "Delhi branch": {
-                        "vertices": [
-                            [27051, 100],
-                            [27051, -1084]
-                        ],
-                        "stations": [[261, "Main line"], [325, "Ajaymeru branch"], 262]
-                    },
-                    "Ajaymeru branch": {
-                        "vertices": [
-                            [27051, -1039],
-                            [26181, -1039],
-                            [26181, -1358]
-                        ],
-                        "stations": [[325, "Delhi branch"], 326]
-                    },
-                    "Sita Bypass": {
-                        "vertices": [
-                            [27518, 99.5],
-                            [28317, 99.5]
-                        ],
-                        "stations": [[660, "Main line"], 661]
-                    },
-                    "Kolkata branch": {
-                        "vertices": [
-                            [31698.5, -316],
-                            [31698.5, -254]
-                        ],
-                        "stations": [[121, "Main line"], 122]
-                    }
-                }
-            },
-            "Himalayas": {
-                "prefix": "",
-                "code": "ML",
-                "color": "8EC5F2",
-                "y": 10,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [32668, -2999],
-                            [31996, -2999],
-                            [31996, -2590],
-                            [30993, -2590],
-                            [30993, -2596],
-                            [30990, -2596],
-                            [30990, -2636],
-                            [30318, -2636],
-                            [30318, -2640],
-                            [30111, -2640],
-                            [30111, -2559],
-                            [29200, -2559],
-                            [29200, -2434],
-                            [28317, -2434]
-                        ],
-                        "stations": [204, 203, 344, 191, 193, 194, 265, [471, "Dao Monastery branch"], 473, 474, 475, 263, 190, 189]
-                    },
-                    "Dao Monastery branch": {
-                        "vertices": [
-                            [30111, -2640],
-                            [30111, -2770],
-                            [30138, -2770]
-                        ],
-                        "stations": [[471, "Main line"], 472]
-                    }
-                }
-            },
-            "Ganga": {
-                "prefix": "",
-                "code": "GN",
-                "color": "A38686",
-                "y": 10,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [30549, -2636],
-                            [30549, -2113],
-                            [30472, -2113],
-                            [30030, -2113],
-                            [30030, -2082]
-                        ],
-                        "stations": [194, 195, [198, "Patliputra branch"], 200]
-                    },
-                    "Patliputra branch": {
-                        "vertices": [
-                            [30134, -2113],
-                            [30134, -1436],
-                            [30383, -1436]
-                        ],
-                        "stations": [[198, "Main line"], [662, "Patliputra-Sita connector"], 199]
-                    },
-                    "Patliputra-Sita connector": {
-                        "vertices": [
-                            [30134, -1436],
-                            [29525, -1436],
-                            [29525, -1361],
-                            [29519, -1361],
-                            [29519, -1345],
-                            [29501, -1345],
-                            [29501, -315.5]
-                        ],
-                        "stations": [[662, "Patliputra branch"], 663]
-                    }
-                }
-            },
-            "Syphon": {
-                "prefix": "",
-                "code": "SP",
-                "color": "5aa02c",
-                "y": 10,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [32458.5, -1314],
-                            [31705, -1314],
-                            [31705, -2031],
-                            [31501, -2031],
-                            [31501, -2672]
-                        ],
-                        "stations": [125, 470, 202, 184, 191, 192]
-                    }
-                }
-            },
-            "Makran": {
-                "prefix": "",
-                "code": "MR",
-                "color": "CDAA6D",
-                "y": 10,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [18972, -2072],
-                            [18972, -1980],
-                            [20510, -1980],
-                            [20510, -1374],
-                            [22065, -1374],
-                            [22065, -1239],
-                            [22663, -1239],
-                            [22663, -827],
-                            [24163, -827],
-                            [24163, -824],
-                            [24400, -824],
-                            [24400, -1437]
-                        ],
-                        "stations": [530, 560, 547, 258, [528, "Bandar Abbas branch"], 259, 260, 243, 159, 197]
-                    },
-                    "Bandar Abbas branch": {
-                        "vertices": [
-                            [20125, -1980],
-                            [20125, -2258]
-                        ],
-                        "stations": [[528, "Main line"], 529]
-                    }
-                }
-            },
-            "Arabia": {
-                "prefix": "",
-                "code": "AR",
-                "color": "c04657",
-                "y": 10,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [18972, -1980],
-                            [18340, -1980],
-                            [18340, -1070],
-                            [16606, -1070],
-                            [16606, -159],
-                            [14139, -159],
-                            [14139, -242],
-                            [14066, -242]
-                        ],
-                        "stations": [560, [561, "Bahrain branch"], 563, 564, 565, 566, [601, "Thuwal branch"], 597, [598, "Thuwal branch"], 600]
-                    },
-                    "Bahrain branch": {
-                        "vertices": [
-                            [18340, -1580],
-                            [17930, -1580]
-                        ],
-                        "stations": [[561, "Main line"], 562]
-                    },
-                    "Al-Hawiyah branch": {
-                        "vertices": [
-                            [15470, -159],
-                            [15470, 733]
-                        ],
-                        "stations": [[601, "Main line"], 602]
-                    },
-                    "Thuwal branch": {
-                        "vertices": [
-                            [14139, -159],
-                            [14139, -151]
-                        ],
-                        "stations": [[598, "Main line"], 599]
-                    }
-                }
-            },
             "Channel (Friendship)": {
                 "prefix": "",
                 "code": "CH",
@@ -13044,110 +12800,6 @@
                     }
                 }
             },
-            "Malabar": {
-                "prefix": "",
-                "code": "ML",
-                "color": "6D2E32",
-                "y": 10,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [26030, 100],
-                            [26030, 672],
-                            [26175, 672],
-                            [26175, 1905],
-                            [26460, 1905],
-                            [26460, 2930],
-                            [26716, 2930],
-                            [26716, 3460],
-                            [26889, 3460],
-                            [26889, 4037],
-                            [27190, 4037],
-                            [27190, 4122],
-                            [27315, 4122],
-                            [27315, 4398],
-                            [27451, 4398],
-                            [27451, 4605],
-                            [28704, 4605]
-                        ],
-                        "stations": [117, 531, 532, 533, 534, 323, 322, [321, "Mangalore branch"], 78, 79, [537, "Kanyakumari branch"], 94]
-                    },
-                    "Mangalore branch": {
-                        "vertices": [
-                            [27190, 4037],
-                            [27190, 3987]
-                        ],
-                        "stations": [[321, "Main line"], 81]
-                    },
-                    "Kanyakumari branch": {
-                        "vertices": [
-                            [27838, 4605],
-                            [27838, 5054]
-                        ],
-                        "stations": [[537, "Main line"], 538]
-                    }
-                }
-            },
-            "Maldives": {
-                "prefix": "",
-                "code": "ML",
-                "color": "E3C9AB",
-                "y": 10,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [27315, 4398],
-                            [26400, 4398],
-                            [26402, 4394],
-                            [26407, 4394],
-                            [26408, 4006],
-                            [25843, 4006],
-                            [25843, 3759],
-                            [25748, 3759]
-                        ],
-                        "stations": [78, 77, [185, "Agatti branch"], 186]
-                    },
-                    "Agatti branch": {
-                        "vertices": [
-                            [25843, 4006],
-                            [25829, 4006]
-                        ],
-                        "stations": [[185, "Main line"], 95]
-                    }
-                }
-            },
-            "Bangla": {
-                "prefix": "",
-                "code": "BD",
-                "color": "FF0000",
-                "y": 10,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [31910.5, -551.5],
-                            [32590.5, -551.5],
-                            [32590.5, -319.5],
-                            [32867.5, -319.5],
-                            [32867.5, -225],
-                            [33037, -225],
-                            [33037, -75],
-                            [33101, -75],
-                            [33101, 930],
-                            [34450.5, 930],
-                            [34450.5, 2078.5]
-                        ],
-                        "stations": [124, 136, 137, 138, 154, 155, 156, [187, "Naypyidaw branch"], 188]
-                    },
-                    "Naypyidaw branch": {
-                        "vertices": [
-                            [34450.5, 930],
-                            [34450.5, 680],
-                            [34460, 680]
-                        ],
-                        "stations": [[187, "Main line"], 160]
-                    }
-                }
-            },
             "Magadan": {
                 "prefix": "",
                 "code": "MG",
@@ -13156,48 +12808,12 @@
                 "branches": {
                     "": {
                         "vertices": [
-                            [52340, -17732],
-                            [54008, -17732],
+                            [52340, -17731.5],
+                            [54008, -17731.5],
                             [54008, -16081],
                             [54276.5, -16081]
                         ],
-                        "stations": [178, 179, 180, 181, 182, 183, 861, 881, 883]
-                    }
-                }
-            },
-            "Tibet": {
-                "prefix": "",
-                "code": "TB",
-                "color": "00FF00",
-                "y": 10,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [32458.5, -551.5],
-                            [32458, -1314],
-                            [32458, -3499],
-                            [32603, -3499],
-                            [32603, -3810],
-                            [32733, -3810],
-                            [32733, -4004],
-                            [32594, -4004],
-                            [32594, -4001]
-                        ],
-                        "stations": [136, [302, "Baniachong branch"], 125, [201, "Syphon branch"], 203, 205, 206, 212]
-                    },
-                    "Baniachong branch": {
-                        "vertices": [
-                            [32458.5, -1027],
-                            [32829, -1027]
-                        ],
-                        "stations": [[302, "Main line"], 303, 343]
-                    },
-                    "Syphon branch": {
-                        "vertices": [
-                            [32458, -1986],
-                            [31705, -1986]
-                        ],
-                        "stations": [[201, "Main line"], 202]
+                        "stations": [178, 179, 1026, 180, 181, 182, 183, 861, 881, 883]
                     }
                 }
             },
@@ -13436,6 +13052,431 @@
                             [11327, -17277]
                         ],
                         "stations": [[966, "Main line"]]
+                    }
+                }
+            }
+        },
+        "SATC": {
+			"Deccan": {
+                "prefix": "",
+                "code": "DC",
+                "color": "EB7400",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [28317, -316],
+                            [28317, 770],
+                            [28534, 770],
+                            [28534, 4011],
+                            [28704, 4011],
+                            [28704, 4831],
+                            [29018, 4831],
+                            [29018, 4863],
+                            [29068, 4863]
+                        ],
+                        "stations": [70, 56, 661, 55, 54, [43, "Timmuh Town branch"], 96, [38, "Dragonfall branch"], 2, 0, 1, 93, 94, 80, 264]
+                    },
+                    "Dragonfall branch": {
+                        "vertices": [
+                            [28534, 2089],
+                            [29300, 2089]
+                        ],
+                        "stations": [[38, "Main line"], 39]
+                    },
+                    "Timmuh Town branch": {
+                        "vertices": [
+                            [28534, 1209],
+                            [28807, 1209]
+                        ],
+                        "stations": [[43, "Main line"], 44, 45]
+                    }
+                }
+            },
+			"Narmada": {
+                "prefix": "",
+                "code": "NM",
+                "color": "561574",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [24106, -948],
+                            [24160, -948],
+                            [24160, 66],
+                            [26030, 66],
+                            [26030, 100],
+                            [27518, 100],
+                            [27518, -316],
+                            [31910.5, -316],
+                            [31910.5, -818.5],
+                            [31926, -818.5]
+                        ],
+                        "stations": [196, 159, [158, "Dwarka branch"], 128, [129, "Dwarfdom branch"], 117, 118, [261, "Delhi branch"], [660, "Sita Bypass"], 23, 24, 25, 663, 70, 119, 120, [121, "Kolkata branch"], 123, 124, 126]
+                    },
+                    "Dwarka branch": {
+                        "vertices": [
+                            [24835, -15],
+                            [24835, 66]
+                        ],
+                        "stations": [[158, "Main line"], 127]
+                    },
+                    "Dwarfdom branch": {
+                        "vertices": [
+                            [25420, 66],
+                            [25420, 457]
+                        ],
+                        "stations": [[129, "Main line"], 130]
+                    },
+                    "Delhi branch": {
+                        "vertices": [
+                            [27051, 100],
+                            [27051, -1084]
+                        ],
+                        "stations": [[261, "Main line"], [325, "Ajaymeru branch"], 262]
+                    },
+                    "Ajaymeru branch": {
+                        "vertices": [
+                            [27051, -1039],
+                            [26181, -1039],
+                            [26181, -1358]
+                        ],
+                        "stations": [[325, "Delhi branch"], 326]
+                    },
+                    "Sita Bypass": {
+                        "vertices": [
+                            [27518, 99.5],
+                            [28317, 99.5]
+                        ],
+                        "stations": [[660, "Main line"], 661]
+                    },
+                    "Kolkata branch": {
+                        "vertices": [
+                            [31698.5, -316],
+                            [31698.5, -254]
+                        ],
+                        "stations": [[121, "Main line"], 122]
+                    }
+                }
+            },
+			"Hooman": {
+                "prefix": "",
+                "code": "HM",
+                "color": "169C9C",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [28317, -316],
+                            [28317, -5006],
+                            [24774.5, -5006]
+                        ],
+                        "stations": [70, 71, 72, 73, 189, 221, 220]
+                    }
+                }
+            },
+			"Himalayas": {
+                "prefix": "",
+                "code": "ML",
+                "color": "8EC5F2",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [32668, -2999],
+                            [31996, -2999],
+                            [31996, -2590],
+                            [30993, -2590],
+                            [30993, -2596],
+                            [30990, -2596],
+                            [30990, -2636],
+                            [30318, -2636],
+                            [30318, -2640],
+                            [30111, -2640],
+                            [30111, -2559],
+                            [29200, -2559],
+                            [29200, -2434],
+                            [28317, -2434]
+                        ],
+                        "stations": [204, 203, 344, 191, 193, 194, 265, [471, "Dao Monastery branch"], 473, 474, 475, 263, 190, 189]
+                    },
+                    "Dao Monastery branch": {
+                        "vertices": [
+                            [30111, -2640],
+                            [30111, -2770],
+                            [30138, -2770]
+                        ],
+                        "stations": [[471, "Main line"], 472]
+                    }
+                }
+            },
+			"Ganga": {
+                "prefix": "",
+                "code": "GN",
+                "color": "A38686",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [30549, -2636],
+                            [30549, -2113],
+                            [30472, -2113],
+                            [30030, -2113],
+                            [30030, -2082]
+                        ],
+                        "stations": [194, 195, [198, "Patliputra branch"], 200]
+                    },
+                    "Patliputra branch": {
+                        "vertices": [
+                            [30134, -2113],
+                            [30134, -1436],
+                            [30383, -1436]
+                        ],
+                        "stations": [[198, "Main line"], [662, "Patliputra-Sita connector"], 199]
+                    },
+                    "Patliputra-Sita connector": {
+                        "vertices": [
+                            [30134, -1436],
+                            [29525, -1436],
+                            [29525, -1361],
+                            [29519, -1361],
+                            [29519, -1345],
+                            [29501, -1345],
+                            [29501, -315.5]
+                        ],
+                        "stations": [[662, "Patliputra branch"], 663]
+                    }
+                }
+            },
+			"Tibet": {
+                "prefix": "",
+                "code": "TB",
+                "color": "00FF00",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [32458.5, -551.5],
+                            [32458, -1314],
+                            [32458, -3499],
+                            [32603, -3499],
+                            [32603, -3810],
+                            [32733, -3810],
+                            [32733, -4004],
+                            [32594, -4004],
+                            [32594, -4001]
+                        ],
+                        "stations": [136, [302, "Baniachong branch"], 125, [201, "Syphon branch"], 203, 205, 206, 212]
+                    },
+                    "Baniachong branch": {
+                        "vertices": [
+                            [32458.5, -1027],
+                            [32829, -1027]
+                        ],
+                        "stations": [[302, "Main line"], 303, 343]
+                    },
+                    "Syphon branch": {
+                        "vertices": [
+                            [32458, -1986],
+                            [31705, -1986]
+                        ],
+                        "stations": [[201, "Main line"], 202]
+                    }
+                }
+            },
+			"Syphon": {
+                "prefix": "",
+                "code": "SP",
+                "color": "5aa02c",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [32458.5, -1314],
+                            [31705, -1314],
+                            [31705, -2031],
+                            [31501, -2031],
+                            [31501, -2672]
+                        ],
+                        "stations": [125, 470, 202, 184, 191, 192]
+                    }
+                }
+            },
+			"Bangla": {
+                "prefix": "",
+                "code": "BD",
+                "color": "FF0000",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [31910.5, -551.5],
+                            [32590.5, -551.5],
+                            [32590.5, -319.5],
+                            [32867.5, -319.5],
+                            [32867.5, -225],
+                            [33037, -225],
+                            [33037, -75],
+                            [33101, -75],
+                            [33101, 930],
+                            [34450.5, 930],
+                            [34450.5, 2078.5]
+                        ],
+                        "stations": [124, 136, 137, 138, 154, 155, 156, [187, "Naypyidaw branch"], 188]
+                    },
+                    "Naypyidaw branch": {
+                        "vertices": [
+                            [34450.5, 930],
+                            [34450.5, 680],
+                            [34460, 680]
+                        ],
+                        "stations": [[187, "Main line"], 160]
+                    }
+                }
+            },
+			"Malabar": {
+                "prefix": "",
+                "code": "ML",
+                "color": "6D2E32",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [26030, 100],
+                            [26030, 672],
+                            [26175, 672],
+                            [26175, 1905],
+                            [26460, 1905],
+                            [26460, 2930],
+                            [26716, 2930],
+                            [26716, 3460],
+                            [26889, 3460],
+                            [26889, 4037],
+                            [27190, 4037],
+                            [27190, 4122],
+                            [27315, 4122],
+                            [27315, 4398],
+                            [27451, 4398],
+                            [27451, 4605],
+                            [28704, 4605]
+                        ],
+                        "stations": [117, 531, 532, 533, 534, 323, 322, [321, "Mangalore branch"], 78, 79, [537, "Kanyakumari branch"], 94]
+                    },
+                    "Mangalore branch": {
+                        "vertices": [
+                            [27190, 4037],
+                            [27190, 3987]
+                        ],
+                        "stations": [[321, "Main line"], 81]
+                    },
+                    "Kanyakumari branch": {
+                        "vertices": [
+                            [27838, 4605],
+                            [27838, 5054]
+                        ],
+                        "stations": [[537, "Main line"], 538]
+                    }
+                }
+            },
+			"Maldives": {
+                "prefix": "",
+                "code": "ML",
+                "color": "E3C9AB",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [27315, 4398],
+                            [26400, 4398],
+                            [26402, 4394],
+                            [26407, 4394],
+                            [26408, 4006],
+                            [25843, 4006],
+                            [25843, 3759],
+                            [25748, 3759]
+                        ],
+                        "stations": [78, 77, [185, "Agatti branch"], 186]
+                    },
+                    "Agatti branch": {
+                        "vertices": [
+                            [25843, 4006],
+                            [25829, 4006]
+                        ],
+                        "stations": [[185, "Main line"], 95]
+                    }
+                }
+            },
+			"Makran": {
+                "prefix": "",
+                "code": "MR",
+                "color": "CDAA6D",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [18972, -2072],
+                            [18972, -1980],
+                            [20510, -1980],
+                            [20510, -1374],
+                            [22065, -1374],
+                            [22065, -1239],
+                            [22663, -1239],
+                            [22663, -827],
+                            [24163, -827],
+                            [24163, -824],
+                            [24400, -824],
+                            [24400, -1437]
+                        ],
+                        "stations": [530, 560, 547, 258, [528, "Bandar Abbas branch"], 259, 260, 243, 159, 197]
+                    },
+                    "Bandar Abbas branch": {
+                        "vertices": [
+                            [20125, -1980],
+                            [20125, -2258]
+                        ],
+                        "stations": [[528, "Main line"], 529]
+                    }
+                }
+            },
+			"Arabia": {
+                "prefix": "",
+                "code": "AR",
+                "color": "c04657",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [18972, -1980],
+                            [18340, -1980],
+                            [18340, -1070],
+                            [16606, -1070],
+                            [16606, -159],
+                            [14139, -159],
+                            [14139, -242],
+                            [14066, -242]
+                        ],
+                        "stations": [560, [561, "Bahrain branch"], 563, 564, 565, 566, [601, "Thuwal branch"], 597, [598, "Thuwal branch"], 600]
+                    },
+                    "Bahrain branch": {
+                        "vertices": [
+                            [18340, -1580],
+                            [17930, -1580]
+                        ],
+                        "stations": [[561, "Main line"], 562]
+                    },
+                    "Al-Hawiyah branch": {
+                        "vertices": [
+                            [15470, -159],
+                            [15470, 733]
+                        ],
+                        "stations": [[601, "Main line"], 602]
+                    },
+                    "Thuwal branch": {
+                        "vertices": [
+                            [14139, -159],
+                            [14139, -151]
+                        ],
+                        "stations": [[598, "Main line"], 599]
                     }
                 }
             }
@@ -17734,6 +17775,55 @@
                     }
                 }
             }
-		}
+		},
+        "Turkish Railways": {
+            "Bahcesaray": {
+                "prefix": "",
+                "code": "",
+                "color": "ffff00",
+                "y": 50,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [12089, -9140],
+                            [12089, -7950]
+                        ],
+                        "stations": []
+                    },
+                    "Iberian branch": {
+                        "vertices": [
+                            [13450, -8808.5],
+                            [12089, -8808.5]
+                        ],
+                        "stations": []
+                    }
+                }
+            }
+        },
+        "Circassia State Railway": {
+            "": {
+                "prefix": "",
+                "code": "",
+                "color": "ff00ff",
+                "y": 50,
+                "branches": {
+                    "West branch": {
+                        "vertices": [
+                            [13450, -9170.5],
+                            [13450, -8808.5]
+                        ],
+                        "stations": []
+                    },
+                    "East branch": {
+                        "vertices": [
+                            [13450, -9113.5, "JCT"],
+                            [13450, -9113.5]
+                        ],
+                        "stations": []
+                    }
+                }
+            }
+        },
+        "TCIU": {}
     }
 }
