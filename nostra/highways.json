@@ -42,7 +42,7 @@
             "lines": {
                 "TNIH": {
                     "Siberia Main": ["", "Main line"],
-                    "Sakhalin": ["", "Main line"]
+                    "Karafuto": ["", "Main line"]
                 }
             }
         },
@@ -113,7 +113,7 @@
             "z": -17121,
             "lines": {
                 "TNIH": {
-                    "Sakhalin": ["", "Main line"]
+                    "Karafuto": ["", "Main line"]
                 }
             }
         },
@@ -124,7 +124,7 @@
             "z": -16196,
             "lines": {
                 "TNIH": {
-                    "Sakhalin": ["", "Main line"]
+                    "Karafuto": ["", "Main line"]
                 }
             }
         },
@@ -2408,7 +2408,7 @@
             "z": -13079.5,
             "lines": {
                 "TNIH": {
-                    "Sakhalin": ["", "Main line"]
+                    "Karafuto": ["", "Main line"]
                 }
             }
         },
@@ -3716,13 +3716,18 @@
             }
         },
         {
-            "name": "LR Khuntien (Railway station)",
+            "name": "Khuntien (Railway station)",
             "id": 319,
             "x": 39207,
             "z": 8025,
+            "notes": "Chinese: 坤甸站",
+            "areas": [
+                [[39135, 8007], [39227, 8030]]
+            ],
             "lines": {
-                "LR Railways": {
-                    "LR King-nan Rail": ["", "Main line"]
+                "Lanfang Railway": {
+                    "King-nan (Rail)": ["", "Main line"],
+                    "Sintang (Rail)": ["", "Main line"]
                 }
             }
         },
@@ -3731,9 +3736,15 @@
             "id": 320,
             "x": 39500,
             "z": 8224,
+            "notes": "Chinese: 柴又站",
+            "areas": [
+                [[39489, 8192], [39511, 8240]],
+                [[39490, 8192], [39510, 8243]],
+                [[39491, 8192], [39509, 8247]]
+            ],
             "lines": {
-                "LR Railways": {
-                    "LR King-nan Rail": ["", "Main line"]
+                "Lanfang Railway": {
+                    "King-nan (Rail)": ["", "Main line"]
                 }
             }
         },
@@ -4205,7 +4216,7 @@
             "z": -16182.5,
             "lines": {
                 "TNIH": {
-                    "Sakhalin": ["", "Main line"],
+                    "Karafuto": ["", "Main line"],
                     "Kamchatka Main": ["", "Main line (North)"]
                 }
             }
@@ -4218,7 +4229,7 @@
             "z": -13581.5,
             "lines": {
                 "TNIH": {
-                    "Sakhalin": ["", "Main line to Noto branch"]
+                    "Karafuto": ["", "Main line to Noto branch"]
                 }
             }
         },
@@ -4691,7 +4702,7 @@
             "z": -13581.5,
             "lines": {
                 "TNIH": {
-                    "Sakhalin": ["", "Noto branch"]
+                    "Karafuto": ["", "Noto branch"]
                 }
             }
         },
@@ -4702,7 +4713,7 @@
             "z": -13124.5,
             "lines": {
                 "TNIH": {
-                    "Sakhalin": ["", "Main line"]
+                    "Karafuto": ["", "Main line"]
                 }
             }
         },
@@ -11880,7 +11891,7 @@
             "z": -12613,
             "lines": {
                 "TNIH": {
-                    "Sakhalin": ["", "Main line"]
+                    "Karafuto": ["", "Main line"]
                 }
             }
         },
@@ -11891,7 +11902,7 @@
             "z": -12548,
             "lines": {
                 "TNIH": {
-                    "Sakhalin": ["", "Main line"]
+                    "Karafuto": ["", "Main line"]
                 }
             }
         },
@@ -11913,7 +11924,7 @@
             "z": -11990,
             "lines": {
                 "TNIH": {
-                    "Sakhalin": ["", "Main line"]
+                    "Karafuto": ["", "Main line"]
                 }
             }
         },
@@ -11925,7 +11936,7 @@
             "z": -13079.5,
             "lines": {
                 "TNIH": {
-                    "Sakhalin": ["", "Main line"],
+                    "Karafuto": ["", "Main line"],
                     "Sakha": ["", "Main line"]
                 }
             }
@@ -12129,7 +12140,7 @@
             }
         },
         {
-            "name": "Zerovka Cave",
+            "name": "Zerovka",
             "id": 1006,
             "x": 45642,
             "z": -24076,
@@ -12346,7 +12357,7 @@
             "z": -11495,
             "lines": {
                 "TNIH": {
-                    "Sakhalin": ["", "Main line"]
+                    "Karafuto": ["", "Main line"]
                 }
             }
         },
@@ -12357,7 +12368,7 @@
             "z": -11094,
             "lines": {
                 "TNIH": {
-                    "Sakhalin": ["", "Main line"]
+                    "Karafuto": ["", "Main line"]
                 }
             }
         },
@@ -12375,7 +12386,7 @@
             }
         },
         {
-            "name": "Penzhinskaya guba JCT",
+            "name": "Penzhinskaya Guba JCT",
             "type": "jct",
             "id": 1027,
             "x": 58428.5,
@@ -12386,8 +12397,30 @@
                     "Kamchatka Main": ["", "Leshnybor branch"]
                 }
             }
+        },
+        {
+            "name": "Mamiya JCT",
+            "type": "jct",
+            "id": 1028,
+            "x": 51213,
+            "z": -12124,
+            "lines": {
+                "TNIH": {
+                    "Karafuto": ["", "Main line to Sakhalin branch"]
+                }
+            }
+        },
+        {
+            "name": "Sakhalin",
+            "id": 1029,
+            "x": 51355,
+            "z": -12124,
+            "lines": {
+                "TNIH": {
+                    "Karafuto": ["", "Sakhalin branch"]
+                }
+            }
         }
-		
     ],
     "lines": {
         "TNIH": {
@@ -12750,9 +12783,9 @@
                     }
                 }
             },
-            "Sakhalin": {
+            "Karafuto": {
                 "prefix": "",
-                "code": "SH",
+                "code": "KF",
                 "color": "9D00FF",
                 "y": 10,
                 "branches": {
@@ -12775,6 +12808,13 @@
                             [51087.5, -13581.5]
                         ],
                         "stations": [[361, "Main line"], 401]
+                    },
+                    "Sakhalin branch": {
+                        "vertices": [
+                            [51213, -12124],
+                            [51355, -12124]
+                        ],
+                        "stations": [[1028, "Main line"], 1029]
                     }
                 }
             },
@@ -14383,21 +14423,73 @@
                 }
             }
         },
-        "LR Railways": {
-            "LR King-nan Rail": {
+        "Lanfang Railway": {
+            "King-nan (Rail)": {
                 "prefix": "[Rail] ",
-                "code": "GT",
+                "code": "京南",
                 "color": "FFFF00",
-                "y": 80,
+                "y": 74,
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [39207, 8025],
-                            [39329, 8025],
-                            [39482, 8060],
-                            [39500, 8224]
+                            [39498.5, 8243],
+                            [39498.5, 8118.5],
+                            [39484.5, 8064.5],
+                            [39478.5, 8058.5],
+                            [39455.5, 8052.5],
+                            [39331.5, 8029.5],
+                            [39249.5, 8029.5],
+                            [39245, 8029.5],
+                            [39219, 8031.5],
+                            [39196.5, 8031.5],
+                            [39172, 8026.5],
+                            [39196.5, 8031.5],
+                            [39219, 8031.5],
+                            [39245, 8029.5],
+                            [39249.5, 8029.5],
+                            [39259.5, 8026.5],
+                            [39334.5, 8026.5],
+                            [39446.5, 8047.5],
+                            [39481.5, 8055.5],
+                            [39487.5, 8061.5],
+                            [39501.5, 8115.5],
+                            [39501.5, 8243]
                         ],
                         "stations": [319, 320]
+                    }
+                }
+            },
+            "Sintang (Rail)": {
+                "prefix": "[Rail] ",
+                "code": "新當",
+                "color": "FFFF00",
+                "y": 74,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [39105.5, 7705],
+                            [39105.5, 7921.5],
+                            [39118.5, 7955.5],
+                            [39122.5, 7984.5],
+                            [39133.5, 8005.5],
+                            [39146.5, 8011.5],
+                            [39146.5, 8011.5],
+                            [39225.5, 8020.5],
+                            [39251.5, 8020.5],
+                            [39349.5, 8020.5],
+                            [39251.5, 8020.5],
+                            [39225.5, 8009.5],
+                            [39174.5, 8001.5],
+                            [39141.5, 8001.5],
+                            [39135.5, 7998.5],
+                            [39122.5, 7976.5],
+                            [39126.5, 7982.5],
+                            [39122.5, 7976.5],
+                            [39121.5, 7951.5],
+                            [39108.5, 7918.5],
+                            [39108.5, 7705]
+                        ],
+                        "stations": [319]
                     }
                 }
             }
