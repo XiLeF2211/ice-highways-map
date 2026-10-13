@@ -5979,7 +5979,8 @@
                 "TNIH": {
                     "Siberia Main": ["", "Main line"]
                 }
-            }
+            },
+            "notes": "Interchange to TNIH Nether ice line at X="
         },
         {
             "name": "Wolfenstein",
@@ -12421,6 +12422,40 @@
                     "Karafuto": ["", "Sakhalin branch"]
                 }
             }
+        },
+        {
+            "name": "SoreSnusMore",
+            "id": 1030,
+            "x": 2204,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ørsta Ruins",
+            "id": 1031,
+            "x": 2242.5,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Paradox JCT",
+            "type": "jct",
+            "id": 1032,
+            "x": 5325,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -12433,7 +12468,7 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [-16000, -17732],
+                            [-18703, -17732],
                             [-2594, -17732],
                             [-2594, -17794],
                             [-2495, -17794],
@@ -12450,7 +12485,7 @@
                             [52960.5, -23834.5],
                             [50681, -23834.5]
                         ],
-                        "stations": [816, 875, [878, "Iceland branch"], 753, [493, "Poice branch"], 384, 559, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"],
+                        "stations": [816, 875, [878, "Iceland branch"], 753, 1030, 1031, [493, "Poice branch"], 384, 559, 1032, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"],
                                      578, 501, 500, 580, 965, 968, 503, [958, "Simograd branch"], 504, [505, "Poikovskii branch"], 406, [382, "Campfine branch"], 508,
                                      [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36,
                                     [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"],

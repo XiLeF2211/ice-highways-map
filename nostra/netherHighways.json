@@ -376,9 +376,8 @@
             }
         },
         {
-            "name": "Edoras – Siberia JCT",
+            "name": "Chitovskaya (JCT)",
             "id": 32,
-            "type": "jct",
             "x": 1811.5,
             "z": -2216.5,
             "lines": {
@@ -386,7 +385,8 @@
                     "Nether Siberia": ["", "Main line"],
                     "Edoras": ["", "Main line"]
                 }
-            }
+            },
+            "notes": "Overwolrd portal at X=14529, Y=10, Z=-17739"
         },
         {
             "name": "Edoras",
@@ -1768,6 +1768,45 @@
                     "B": ["", ""]
                 }
             }
+        },
+        {
+            "name": "Wolfenstein",
+            "id": 151,
+            "x": 2673.5,
+            "z": -2216.5,
+            "lines": {
+                "TNIH": {
+                    "Nether Siberia": ["", "Main line"]
+                }
+            },
+            "notes": "Overwolrd portal at X=21343, Y=112, Z=-17660"
+        },
+        {
+            "name": "Ithaca JCT",
+            "id": 152,
+            "type": "jct",
+            "x": 3762.5,
+            "z": -2216.5,
+            "lines": {
+                "TNIH": {
+                    "Nether Siberia": ["", "Main line"]
+                },
+                "Intercontinental": {
+                    "Ithaca": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ithaca",
+            "id": 153,
+            "x": 3778.5,
+            "z": -1383.5,
+            "lines": {
+                "Intercontinental": {
+                    "Ithaca": ["", "Main line"]
+                }
+            },
+            "notes": "Overworld entrance to the portal at x=30301, y=99, z=-11113"
         }
 
     ],
@@ -1806,7 +1845,7 @@
                             [6455.5, -2216.5],
                             [1811.5, -2216.5]
                         ],
-                        "stations": [32, 35, 48, 23, 13, 0]
+                        "stations": [32, 151, 35, 152, 48, 23, 13, 0]
                     }
                 }
             },
@@ -2004,6 +2043,24 @@
                             [4200, -2418]
                         ],
                         "stations": [[41, "Main line"], 40, 39, 38, 37, 42]
+                    }
+                }
+            },
+            "Ithaca": {
+                "prefix": "",
+                "code": "IC",
+                "color": "FAFBFA",
+                "y": 125,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [3762.5, -2216.5, "JCT with TNIH"],
+                            [3762.5, -1639.5],
+                            [3737.5, -1639.5],
+                            [3737.5, -1383.5],
+                            [3778.5, -1383.5]
+                        ],
+                        "stations": [152, 153]
                     }
                 }
             }
