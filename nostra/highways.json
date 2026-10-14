@@ -12456,6 +12456,40 @@
                     "Siberia Main": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Constantinopolis",
+            "id": 1033,
+            "x": 10426.5,
+            "z": -7591.5,
+            "lines": {
+                "Sicily": {
+                    "Sicily Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nicaea JCT",
+            "type": "jct",
+            "id": 1034,
+            "x": 10426.5,
+            "z": -7447.5,
+            "lines": {
+                "Sicily": {
+                    "Sicily Main": ["", "Main line to Nicaea branch"]
+                }
+            }
+        },
+        {
+            "name": "Aegis",
+            "id": 1035,
+            "x": 9482.5,
+            "z": -7254.5,
+            "lines": {
+                "Sicily": {
+                    "Sicily Main": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -12607,7 +12641,7 @@
                     },
                     "Eastern-Vostochnaya (Temporal) branch": {
                         "vertices": [
-                            [54008, -17731.5],
+                            [54008, -17732.5],
                             [58508, -17732.5]
                         ],
                         "stations": [1026, 1027]
@@ -17957,6 +17991,35 @@
                             [13450, -9113.5]
                         ],
                         "stations": []
+                    }
+                }
+            }
+        },
+        "Sicily": {
+            "Sicily Main": {
+                "prefix": "",
+                "code": "",
+                "color": "ff0000",
+                "y": 8,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [10426.5, -7591, "Constantinopolis"],
+                            [10426.5, -7447.5],
+                            [9817.5, -7447.5],
+                            [9817.5, -7368.5],
+                            [9621.5, -7368.5],
+                            [9621.5, -7254.5],
+                            [9482.5, -7254.5, "Aegis"]
+                        ],
+                        "stations": [1033, [1034, "Nicaea branch"], 1035]
+                    },
+                    "Nicaea branch ": {
+                        "vertices": [
+                            [10426.5, -7447.5],
+                            [10426.5, -7373.5]
+                        ],
+                        "stations": [[1034, "Main line"]]
                     }
                 }
             }
