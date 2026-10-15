@@ -1376,7 +1376,7 @@
             }
         },
         {
-            "name": "Adila",
+            "name": "Tecde",
             "id": 118,
             "x": 26279,
             "z": 100,
@@ -3728,7 +3728,7 @@
             "lines": {
                 "Lanfang Railway": {
                     "King-nan (Rail)": ["", "Main line"],
-                    "Sintang (Rail)": ["", "Main line"]
+                    "Hsi-Hai (Rail)": ["", "Main line"]
                 }
             }
         },
@@ -6289,6 +6289,7 @@
             "id": 530,
             "x": 18972,
             "z": -2011,
+            "notes": "Blocked Water Elevator. Can not get in/out from overground.",
             "lines": {
                 "SATC": {
                     "Makran": ["", "Main line"]
@@ -7977,7 +7978,7 @@
             }
         },
         {
-            "name": "Arrah JCT",
+            "name": "Ghazipur JCT",
             "type": "jct",
             "id": 662,
             "x": 30134,
@@ -12382,7 +12383,7 @@
             "z": -17731.5,
             "lines": {
                 "TNIH": {
-                    "Magadan": ["", "Main line"],
+                    "Magadan": ["", ""],
                     "Siberia Main": ["", "Main line"]
                 }
             }
@@ -12488,6 +12489,119 @@
             "lines": {
                 "Sicily": {
                     "Sicily Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ghazipur",
+            "id": 1036,
+            "x": 29869.5,
+            "z": -1436,
+            "lines": {
+                "SATC": {
+                    "Ganga": ["", "Patliputra-Sita connector"]
+                }
+            }
+        },
+        {
+            "name": "Caspian Sea Entrance",
+            "id": 1037,
+            "x": 19156.5,
+            "z": -5800,
+            "lines": {
+                "Intercontinental": {
+                    "Caspian-Gulf Coast": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "CheeseKurds JCT",
+            "type": "jct",
+            "id": 1038,
+            "x": 18696.5,
+            "z": -5580.5,
+            "lines": {
+                "Intercontinental": {
+                    "Caspian-Gulf Coast": ["", "Main line to CheeseKurds branch"]
+                }
+            }
+        },
+        {
+            "name": "CheeseKurds JCT",
+            "id": 1039,
+            "x": 18689,
+            "z": -5580.5,
+            "lines": {
+                "Intercontinental": {
+                    "Caspian-Gulf Coast": ["", "CheeseKurds branch"]
+                }
+            }
+        },
+        {
+            "name": "Tahran",
+            "id": 1040,
+            "x": 18824.5,
+            "z": -4934.5,
+            "lines": {
+                "Intercontinental": {
+                    "Caspian-Gulf Coast": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Yazd JCT",
+            "type": "jct",
+            "id": 1041,
+            "x": 19113.5,
+            "z": -3992.5,
+            "lines": {
+                "Intercontinental": {
+                    "Caspian-Gulf Coast": ["", "Main line to Yazd branch"]
+                }
+            }
+        },
+        {
+            "name": "Yazd JCT",
+            "id": 1042,
+            "x": 19494,
+            "z": -3992.5,
+            "lines": {
+                "Intercontinental": {
+                    "Caspian-Gulf Coast": ["", "Yazd branch"]
+                }
+            }
+        },
+        {
+            "name": "Parthia East JCT",
+            "type": "jct",
+            "id": 1043,
+            "x": 19097.5,
+            "z": -1989.5,
+            "lines": {
+                "Intercontinental": {
+                    "Caspian-Gulf Coast": ["", "Main line to Parthia branch"]
+                }
+            }
+        },
+        {
+            "name": "Parthia (Upper)",
+            "id": 1044,
+            "x": 18966.5,
+            "z": -2005,
+            "lines": {
+                "Intercontinental": {
+                    "Caspian-Gulf Coast": ["", "Parthia branch"]
+                }
+            }
+        },
+        {
+            "name": "Caspian Sea Entrance",
+            "id": 1045,
+            "x": 19097.5,
+            "z": -1924,
+            "lines": {
+                "Intercontinental": {
+                    "Caspian-Gulf Coast": ["", "Main line"]
                 }
             }
         }
@@ -13363,7 +13477,7 @@
                             [29501, -1345],
                             [29501, -315.5]
                         ],
-                        "stations": [[662, "Patliputra branch"], 663]
+                        "stations": [[662, "Patliputra branch"], 1036, 663]
                     }
                 }
             },
@@ -14538,9 +14652,9 @@
                     }
                 }
             },
-            "Sintang (Rail)": {
+            "Hsi-Hai (Rail)": {
                 "prefix": "[Rail] ",
-                "code": "新當",
+                "code": "西海",
                 "color": "FFFF00",
                 "y": 74,
                 "branches": {
@@ -16532,6 +16646,55 @@
                         "stations": [[977, "Main line"], 978]
                     }
                 }
+            },
+            "Caspian-Gulf Coast": {
+                "prefix": "",
+                "code": "C-GC",
+                "color": "FFE600",
+                "y": 65,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [19156.5, -5800],
+                            [19156.5, -5580.5],
+                            [18696.5, -5580.5],
+                            [18696.5, -4934.5],
+                            [19113.5, -4934.5],
+                            [19113.5, -2003.5],
+                            [19097.5, -2003.5],
+                            [19097.5, -1924]
+                        ],
+                        "stations": [1037, [1038, "CheeseKurds branch"], 1040, [1041, "Yazd branch"], [1043, "Parthia branch"], 1045]
+                    },
+                    "CheeseKurds branch": {
+                        "vertices": [
+                            [18696.5, -5580.5],
+                            [18689, -5580.5]
+                        ],
+                        "stations": [[1038, "Main line"], 1039]
+                    },
+                    "Yazd branch": {
+                        "vertices": [
+                            [19113.5, -3992.5],
+                            [19494, -3992.5]
+                        ],
+                        "stations": [[1041, "Main line"], 1042]
+                    },
+                    "Parthia branch": {
+                        "vertices": [
+                            [19097.5, -1989.5],
+                            [19075.5, -1989.5],
+                            [19075.5, -1994.5],
+                            [18986.5, -1994.5],
+                            [18986.5, -2007.5],
+                            [18971.5, -2007.5],
+                            [18971.5, -2003.5],
+                            [18966.5, -2003.5],
+                            [18966.5, -2005]
+                        ],
+                        "stations": [[1043, "Main line"], 1044]
+                    }
+                }
             }
         },
         "NZ Ministry of Infrastructure": {
@@ -18014,7 +18177,7 @@
                         ],
                         "stations": [1033, [1034, "Nicaea branch"], 1035]
                     },
-                    "Nicaea branch ": {
+                    "Nicaea branch": {
                         "vertices": [
                             [10426.5, -7447.5],
                             [10426.5, -7373.5]
