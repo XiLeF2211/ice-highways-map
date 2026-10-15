@@ -4936,7 +4936,7 @@
             "name": "Fløibanen (Bergen)",
             "id": 421,
             "x": 1968,
-            "z": -16839,
+            "z": -16767,
             "lines": {
                 "Norwegian Ice Boat Highway System (Vy)": {
                     "Lower Central": ["", "Great line"]
@@ -5148,19 +5148,21 @@
             "name": "Sarpsborg",
             "id": 438,
             "x": 4028,
-            "z": -16171,
+            "z": -16169,
             "lines": {
                 "Norwegian Ice Boat Highway System (Vy)": {
-                    "South": ["", "Main line"],
-                    "Sweden": ["", "Gothenburg line"]
+                    "South": ["", "Main line"]
                 }
-            }
+            },
+            "areas": [
+                [[4027, -16171], [4029, -16167]]
+            ]
         },
         {
             "name": "Brookieston JCT",
             "id": 439,
             "type": "jct",
-            "x": 3976.5,
+            "x": 3976,
             "z": -16904,
             "lines": {
                 "Norwegian Ice Boat Highway System (Vy)": {
@@ -8762,15 +8764,20 @@
             }
         },
         {
-            "name": "Aland",
+            "name": "Aland JCT",
             "id": 726,
-            "x": 4087,
-            "z": -16121,
+            "type": "jct",
+            "x": 4215,
+            "z": -16169,
             "lines": {
                 "Norwegian Ice Boat Highway System (Vy)": {
-                    "Sweden": ["", "Gothenburg line"]
+                    "South": ["", "Main line"],
+					"Sweden": ["", "Oslo-Ed Bypass"]
                 }
-            }
+            },
+            "areas": [
+                [[4213, -16167], [4217, -16171]]
+            ]
         },
         {
             "name": "Fredikstad",
@@ -8781,7 +8788,10 @@
                 "Norwegian Ice Boat Highway System (Vy)": {
                     "South": ["", "Main line"]
                 }
-            }
+            },
+            "areas": [
+                [[3943, -16218],[3947, -16216]]
+            ]
         },
         {
             "name": "Moss",
@@ -8864,7 +8874,7 @@
             "name": "Wandenreich",
             "id": 735,
             "x": 3001,
-            "z": -17324,
+            "z": -17101,
             "lines": {
                 "Norwegian Ice Boat Highway System (Vy)": {
                     "Upper Central": ["", "Valle branch"]
@@ -12425,7 +12435,7 @@
             }
         },
         {
-            "name": "SoreSnusMore",
+            "name": "SøreSnusMøre (TNIH Entrance)",
             "id": 1030,
             "x": 2204,
             "z": -17732,
@@ -12604,6 +12614,49 @@
                     "Caspian-Gulf Coast": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Hamar",
+            "id": 1046,
+            "x": 3975,
+            "z": -17130,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Lower North": ["", "Main line"],
+					"Lower Trondheim": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[3969, -17131], [3982, -17129]]
+            ]
+        },
+        {
+            "name": "SøreSnusMøre",
+            "id": 1047,
+            "x": 2250,
+            "z": -17659,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Northern Route"]
+                }
+            },
+            "areas": [
+                [[2249, -17657], [2251, -17661]]
+            ]
+        },
+        {
+            "name": "Memel PLC",
+            "id": 1048,
+            "x": 7732,
+            "z": -14296,
+            "lines": {
+                "Norwegian Ice Boat Highway System (Vy)": {
+                    "Upper Central": ["", "Northern Route"]
+                }
+            },
+            "areas": [
+                [[2249, -17657], [2251, -17661]]
+            ]
         }
     ],
     "lines": {
@@ -12755,8 +12808,8 @@
                     },
                     "Eastern-Vostochnaya (Temporal) branch": {
                         "vertices": [
-                            [54008, -17732.5],
-                            [58508, -17732.5]
+                            [54008, -17731.5],
+                            [58508, -17731.5]
                         ],
                         "stations": [1026, 1027]
                     }
@@ -17077,7 +17130,7 @@
                             [2218, -16926],
                             [2214, -16926]
                         ],
-                        "stations": [[692, "Main line"], 693, 694, [695, "Vestnes Kommune branch"], 696, 697, 698, [699, "Main line"]]
+                        "stations": [[692, "Main line"], 693, 694, [695, "Vestnes Kommune branch"], 1047, 696, 697, 698, [699, "Main line"]]
                     },
                     "Finse station platforms": {
                         "vertices": [
@@ -17301,7 +17354,7 @@
                             [3779, -16609],
                             [3777, -16607]
                         ],
-                        "stations": [450, [448, "Oslo station platforms"], 439, 454]
+                        "stations": [450, [448, "Oslo station platforms"], 439, 1046, 454]
                     },
                     "Oslo station platforms": {
                         "vertices": [
@@ -17381,6 +17434,7 @@
                 "prefix": "",
                 "code": "L-N",
                 "color": "cc6300",
+                "y": "64",
                 "branches": {
                     "Main line": {
                         "vertices": [
@@ -17410,7 +17464,7 @@
                             [3859, -16598],
                             [3772, -16598]
                         ],
-                        "stations": [451, 452, 448, [439, "Brookieston branch"], 455]
+                        "stations": [451, 452, 448, [439, "Brookieston branch"], 1046, 455]
                     },
                     "Brookieston branch": {
                         "vertices": [
@@ -17633,8 +17687,7 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [4089, -16088],
-                            [4089, -16171],
+                            [4217, -16171],
                             [3947, -16171],
                             [3947, -16248],
                             [3865, -16248],
@@ -17662,10 +17715,10 @@
                             [3861, -16244],
                             [3943, -16244],
                             [3943, -16167],
-                            [4085, -16167],
-                            [4085, -16088]
+                            [4217, -16167]
+
                         ],
-                        "stations": [453, [448, "Oslo station platforms"], 728, 727, 438]
+                        "stations": [453, [448, "Oslo station platforms"], 728, 727, 438, 726]
                     },
                     "Oslo station platforms": {
                         "vertices": [
@@ -17731,19 +17784,6 @@
                     },
                     "Gothenburg line": {
                         "vertices": [
-                            [4156, -15962],
-                            [4156, -16044],
-                            [4123, -16044],
-                            [4123, -16092],
-                            [4085, -16092],
-                            [4085, -16167],
-                            [4028, -16167],
-                            [4028, -16171],
-                            [4089, -16171],
-                            [4089, -16088],
-                            [4119, -16088],
-                            [4119, -16040],
-                            [4152, -16040],
                             [4152, -15962],
                             [4439, -15962],
                             [4439, -15433],
@@ -17751,7 +17791,7 @@
                             [4281, -15381],
                             [4322, -15381]
                         ],
-                        "stations": [438, 726, [729, "Oslo-Ed Bypass"], 827, 592]
+                        "stations": [[729, "Oslo-Ed Bypass"], 827, 592]
                     },
                     "Oslo-Ed Bypass": {
                         "vertices": [
@@ -17768,7 +17808,7 @@
                             [4281, -15975],
                             [4281, -15971]
                         ],
-                        "stations": [[448, "Main line"], [729, "Gothenburg line"]]
+                        "stations": [[448, "Main line"], 726, [729, "Gothenburg line"]]
                     },
                     "Drottningstad branch": {
                         "vertices": [
@@ -17984,6 +18024,29 @@
                             [10874, -16780]
                         ],
                         "stations": [868, 869, 870, 960, 871]
+                    }
+                }
+            },
+            "Underground": {
+                "prefix": "",
+                "code": "UN",
+                "color": "FF0000",
+                "y": "-62",
+                "branches": {
+                    "North branch": {
+                        "vertices": [
+                            [2425, -17799],
+                            [1969, -17799],
+                            [1969, -16839]
+                        ],
+                        "stations": []
+                    },
+                    "South branch": {
+                        "vertices": [
+                            [1994, -16113],
+                            [1994, -15966]
+                        ],
+                        "stations": []
                     }
                 }
             }
