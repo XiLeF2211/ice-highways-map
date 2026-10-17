@@ -4939,7 +4939,7 @@
             "z": -16767,
             "lines": {
                 "Vy ( Norway Ice Boat System )": {
-                    "Lower Central": ["", "Great line"]
+                    "Lower Central": ["", "West Norway line"]
                 }
             }
         },
@@ -4950,7 +4950,7 @@
             "z": -17156,
             "lines": {
                 "Vy ( Norway Ice Boat System )": {
-                    "Lower Central": ["", "Fronningen branch"]
+                    "Lower Circle": ["", "Fronningen branch"]
                 }
             }
         },
@@ -4961,7 +4961,7 @@
             "z": -15587,
             "lines": {
                 "Vy ( Norway Ice Boat System )": {
-                    "Lower Central": ["", "West Agder branch"]
+                    "Lower South Norway": ["", "West Agder branch"]
                 }
             }
         },
@@ -4973,7 +4973,7 @@
             "notes": "Abandoned",
             "lines": {
                 "Vy ( Norway Ice Boat System )": {
-                    "Lower Central": ["", "Great line"]
+                    "Lower Circle": ["", "Main line"]
                 }
             }
         },
@@ -5007,7 +5007,7 @@
             "z": -16117,
             "lines": {
                 "Vy ( Norway Ice Boat System )": {
-                    "Lower Central": ["", "Great line to South line"]
+                    "Lower South Norway": ["", "1st line to 2nd line"]
                 }
             }
         },
@@ -5018,7 +5018,7 @@
             "z": -15636,
             "lines": {
                 "Vy ( Norway Ice Boat System )": {
-                    "Lower Central": ["", "South line"]
+                    "Lower South Norway": ["", "1st line to 2nd line"]
                 }
             }
         },
@@ -5032,7 +5032,7 @@
             "y2": -63,
             "lines": {
                 "Vy ( Norway Ice Boat System )": {
-                    "Lower Central": ["", "South line"],
+                    "Lower South Norway": ["", "2nd line"],
                     "Upper Central": ["", "Main line"]
                 }
             }
@@ -5047,7 +5047,7 @@
             "y2": 75,
             "lines": {
                 "Vy ( Norway Ice Boat System )": {
-                    "Lower Central": ["", "South line"],
+                    "Lower South Norway": ["", "1st line"],
                     "Upper Central": ["", "Main line"]
                 }
             }
@@ -5062,7 +5062,7 @@
             "y2": -63,
             "lines": {
                 "Vy ( Norway Ice Boat System )": {
-                    "Lower Central": ["", "South line"],
+                    "Lower South Norway": ["", "1st line"],
                     "Upper Central": ["", "Main line"]
                 }
             }
@@ -5077,20 +5077,20 @@
             "y2": 75,
             "lines": {
                 "Vy ( Norway Ice Boat System )": {
-                    "Lower Central": ["", "South line"],
+                    "Lower South Norway": ["", "2nd line"],
                     "Upper Central": ["", "Main line"]
                 }
             }
         },
         {
-            "name": "West Adger JCT",
+            "name": "West Agder JCT",
             "id": 433,
             "type": "jct",
             "x": 2680,
             "z": -15638,
             "lines": {
                 "Vy ( Norway Ice Boat System )": {
-                    "Lower Central": ["", "South line to West Agder branch"]
+                    "Lower South Norway": ["", "West Agder branch to 1st line and 2nd line"]
                 }
             },
             "areas": [
@@ -5142,7 +5142,7 @@
             "z": -16115,
             "lines": {
                 "Vy ( Norway Ice Boat System )": {
-                    "Lower Central": ["", "Great line to Connector branch"],
+                    "Lower South Norway": ["", "1st line to 2nd line"],
                     "Denmark": ["", "Main line"]
                 }
             }
@@ -5309,13 +5309,16 @@
             "name": "Bergen JCT",
             "id": 449,
             "type": "jct",
-            "x": 2212,
+            "x": 2216,
             "z": -16775,
             "lines": {
                 "Vy ( Norway Ice Boat System )": {
                     "Upper Central": ["", "Main line to Bergen branch"]
                 }
-            }
+            },
+            "areas": [
+                [[2214, -16777], [2218, -16773]]
+            ]
         },
         {
             "name": "Oslo Trondheim line up elevator",
@@ -10004,7 +10007,7 @@
             "z": -16839,
             "lines": {
                 "Vy ( Norway Ice Boat System )": {
-                    "Lower Central": ["", "Great line to Fronningen branch"]
+                    "Lower Circle": ["", "Main line to Fronningen branch"]
                 }
             }
         },
@@ -10026,7 +10029,7 @@
             "z": -16524,
             "lines": {
                 "Vy ( Norway Ice Boat System )": {
-                    "Lower Central": ["", "Great line"]
+                    "Lower Central": ["", "West Norway line"]
                 }
             }
         },
@@ -10037,7 +10040,7 @@
             "z": -16286,
             "lines": {
                 "Vy ( Norway Ice Boat System )": {
-                    "Lower Central": ["", "Great line"]
+                    "Lower Central": ["", "West Norway line"]
                 }
             }
         },
@@ -10049,7 +10052,8 @@
             "z": -16115,
             "lines": {
                 "Vy ( Norway Ice Boat System )": {
-                    "Lower Central": ["", "Great line to South line"]
+                    "Lower Central": ["", "Lysebotn connector branch"],
+                    "Lower South Norway": ["", "1st line to 2nd line"]
                 }
             },
             "areas": [
@@ -10396,7 +10400,7 @@
             "z": -17799,
             "lines": {
                 "Vy ( Norway Ice Boat System )": {
-                    "Lower Central": ["", "Great line"]
+                    "Lower Circle": ["", "Main line"]
                 }
             }
         },
@@ -10407,7 +10411,7 @@
             "z": -16113,
             "lines": {
                 "Vy ( Norway Ice Boat System )": {
-                    "Lower Central": ["", "Great line"]
+                    "Lower Central": ["", "Lysebotn connector branch"]
                 }
             }
         },
@@ -12671,7 +12675,7 @@
             "z": -17389,
             "lines": {
                 "Vy ( Norway Ice Boat System )": {
-                    "Lower Central": ["", "Great Line"]
+                    "Lower Circle": ["", "Main Line"]
                 }
             }
         },
@@ -12682,7 +12686,7 @@
             "z": -16981,
             "lines": {
                 "Vy ( Norway Ice Boat System )": {
-                    "Lower Central": ["", "Great Line"]
+                    "Lower Circle": ["", "Main Line"]
                 }
             }
         },
@@ -12872,7 +12876,7 @@
                             [54008, -17731.5],
                             [58508, -17731.5]
                         ],
-                        "stations": [1026, 1027]
+                        "stations": [1026, 1053, 1027]
                     }
                 }
             },
@@ -17100,72 +17104,31 @@
                         ],
                         "stations": [[434, "Little line"], 418, 874]
                     },
-                    "Connector branch": {
+                    "Lysebotn connector branch": {
                         "vertices": [
-
+                            [1944, -16113],
+                            [2896, -16113]
                         ],
-                        "stations": [[437, "Great line"], 429, 430]
+                        "stations": [863, 832]
                     },
                     "Great line": {
                         "vertices": [
                             [3387, -16113],
-                            [3387, -16839],
-                            [1968, -16839]
+                            [3387, -16839]
                         ],
-                        "stations": [832, 863, 831, 830, 421, [828, "Fronningen branch"], 829, 424, 862, [419, "Little line"], [437, "Connector branch"], 427, 428, [433, "West Agder branch"], 737, 431, 432]
+                        "stations": [[419, "Little line"]]
                     },
-                    "South line": {
+                    "West Norway line": {
                         "vertices": [
-                            [2216, -15734],
-                            [2479, -15734],
-                            [2479, -15636],
-                            [2863, -15636],
-							[2863, -15640],
-                            [2483, -15640],
-                            [2483, -15738],
-                            [2216, -15738],
-                            [2483, -15738],
-                            [2483, -15640],
-                            [2863, -15640],
-                            [2863, -15636],
-                            [2900, -15636],
-                            [2900, -16113],
-                            [2896, -16113],
-                            [3333, -16113],
-                            [3333, -16228],
-                            [3347, -16228, "Skien og Elevator"],
-
-
-                            [3347, -16232, "Skien og Elevator"],
-                            [3329, -16232],
-                            [3329, -16117],
-                            [2896, -16117],
-							[2896, -15665]
+                            [1968, -16839],
+                            [1968, -16763],
+                            [1944, -16763],
+                            [1944, -16113, "JCT With connector branch"],
+							[1944, -16109],
+							[1897, -16109],
+							[1897, -15727]
                         ],
-                        "stations": []
-                    },
-                    "West Norway branch": {
-                        "vertices": [
-                            [1944, -16113, "West line"],
-							[1944, -16109, "West line"],
-							[1897, -16109, "West line"],
-							[1897, -15727, "West line"]
-                        ],
-                        "stations": []
-                    },
-                    "West Agder branch": {
-                        "vertices": [
-                            [2680, -15640],
-                            [2680, -15587]
-                        ],
-                        "stations": [[433, "Great line"], 423]
-                    },
-                    "Fronningen branch": {
-                        "vertices": [
-                            [2523, -16839],
-                            [2523, -17156]
-                        ],
-                        "stations": [[828, "Great line"], 422]
+                        "stations": [421, 830, 831]
                     },
                     "Stavanger branch": {
                         "vertices": [
@@ -18123,25 +18086,76 @@
                     }
                 }
             },
-            "Maybe Circle": {
+            "Lower Circle": {
                 "prefix": "",
-                "code": "GR",
-                "color": "cc008b",
+                "code": "L-CI",
+                "color": "ff0000",
                 "y": "-62",
                 "branches": {
-                    "": {
+                    "Main line": {
                         "vertices": [
-                            [3387, -16839, "JCT"],
+                            [3387, -16839, "JCT with Great line"],
                             [3387, -17799],
                             [2425, -17799],
                             [1968, -17799],
-                            [1968, -16839, "Finse branch JCT"],
-                            [1968, -16763],
-                            [1944, -16763],
-                            [1944, -16113],
-                            [2896, -16113]
+                            [1968, -16839, "JCT with West Norway line"],
+                            [3387, -16839, "JCT with Great line"]
                         ],
-                        "stations": []
+                        "stations": [1050, 1049, 862, 424, [828, "Fronningen branch"], 1050]
+                    },
+                    "Fronningen branch": {
+                        "vertices": [
+                            [2523, -16839],
+                            [2523, -17156]
+                        ],
+                        "stations": [[828, "Main line"], 422]
+                    }
+                }
+            },
+            "Lower South Norway": {
+                "prefix": "",
+                "code": "L-CI",
+                "color": "0000ff",
+                "y": "-62",
+                "branches": {
+                    "1st line": {
+                        "vertices": [
+                            [2216, -15738],
+                            [2483, -15738],
+                            [2483, -15640],
+                            [2863, -15640],
+                            [2863, -15636, "West Kristiansand switch"],
+                            [2900, -15636],
+                            [2900, -15665, "North Kristiansand switch"],
+							[2896, -15665],
+                            [2896, -16117],
+                            [3329, -16117],
+                            [3329, -16232],
+                            [3347, -16232, "Skien og Elevator"]
+                        ],
+                        "stations": [431, [433, "2nd line and West Agder branch"], 428, 832, 427, 437, 430]
+                    },
+                    "2nd line": {
+                        "vertices": [
+                            [2216, -15734],
+                            [2479, -15734],
+                            [2479, -15636],
+                            [2863, -15636, "West Kristiansand switch"],
+                            [2900, -15636],
+                            [2900, -16113],
+                            [2896, -16113],
+                            [3333, -16113],
+                            [3333, -16228],
+                            [3347, -16228, "Skien og Elevator"]
+                        ],
+                        "stations": [432, [433, "1st line and West Agder branch"], 428, 832, 427, 437, 429]
+                    },
+                    "West Agder branch": {
+                        "vertices": [
+                            [2680, -15640],
+                            [2680, -15587]
+                        ],
+                        "stations": [[433, "1st line and 2nd line"], 423]
                     }
                 }
             }
