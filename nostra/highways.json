@@ -2495,8 +2495,7 @@
             "z": -17732,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line"],
-                    "Lena": ["", "Main line"]
+                    "Siberia Main": ["", "Main line to Tapagonia branch"]
                 }
             }
         },
@@ -2507,7 +2506,7 @@
             "z": -17808,
             "lines": {
                 "TNIH": {
-                    "Lena": ["", "Main line"]
+                    "Siberia Main": ["", "Main line to Tapagonia branch"]
                 }
             }
         },
@@ -4156,10 +4155,11 @@
             "type": "jct",
             "id": 355,
             "x": 46368,
-            "z": -19163,
+            "z": -19169,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Main line to Bestyakh branch"]
+                    "Sakha": ["", "Main line"],
+                    "Lena": ["", "Main line"]
                 }
             }
         },
@@ -4167,10 +4167,10 @@
             "name": "Selo",
             "id": 356,
             "x": 46260,
-            "z": -19163,
+            "z": -19169,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Bestyakh branch"]
+                    "Lena": ["", "Main line"]
                 }
             }
         },
@@ -6788,7 +6788,7 @@
             "z": -19177,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Bestyakh branch"]
+                    "Lena": ["", "Bestyakh branch"]
                 }
             }
         },
@@ -12722,6 +12722,78 @@
                     "Siberia Main": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Bestyakh JCT",
+            "type": "jct",
+            "id": 1054,
+            "x": 45156,
+            "z": -19169,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line to Bestyakh branch"]
+                }
+            }
+        },
+        {
+            "name": "Yarika Mineshaft",
+            "type": "semi3",
+            "id": 1055,
+            "x": 45064,
+            "z": -18894,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "SLIHB-Titicaca JCT",
+            "type": "jct",
+            "id": 1056,
+            "x": 42519,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line to Titicaca branch"]
+                }
+            }
+        },
+        {
+            "name": "Titicaca East JCT",
+            "type": "jct",
+            "id": 1057,
+            "x": 42519,
+            "z": -18555,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Titicaca branch"],
+                    "Lena": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Titicaca JCT",
+            "type": "jct",
+            "id": 1058,
+            "x": 42449,
+            "z": -18555,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line to Titicaca branch"]
+                }
+            }
+        },
+        {
+            "name": "Titicaca",
+            "id": 1059,
+            "x": 42443,
+            "z": -18555,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Titicaca branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -12753,15 +12825,9 @@
                         ],
                         "stations": [816, 875, [878, "Iceland branch"], 753, 1030, 1031, [493, "Poice branch"], 384, 559, 1032, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"],
                                      578, 501, 500, 580, 965, 968, 503, [958, "Simograd branch"], 504, [505, "Poikovskii branch"], 406, [382, "Campfine branch"], 508,
-                                     [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, 213, 90, 85, [146, "Yakutia Industrial branch"], 36,
+                                     [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, [213, "Tapagonia branch"], 90, [1056, "Titicaca branch"], 85, [146, "Yakutia Industrial branch"], 36,
                                     [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"],
-                                    7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 375, 340],
-                        "concurrencies": {
-                            "TNIH.Lena": [
-                                [41614, -17732],
-                                [41900, -17732]
-                            ]
-                        }
+                                    7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 375, 340]
                     },
                     "Iceland branch": {
                         "vertices": [
@@ -12828,6 +12894,20 @@
                             [38860, -18094]
                         ],
                         "stations": [[511, "Main line"], 512]
+                    },
+                    "Tapagonia branch": {
+                        "vertices": [
+                            [41614, -17732],
+                            [41614, -17808]
+                        ],
+                        "stations": [[213, "Main line"], 214]
+                    },
+                    "Titicaca branch": {
+                        "vertices": [
+                            [42519, -17732],
+                            [42519, -18555]
+                        ],
+                        "stations": [[1056, "Main line"], 1057]
                     },
                     "Yakutia Industrial branch": {
                         "vertices": [
@@ -13021,7 +13101,7 @@
                             [48565, -21310],
                             [48565, -22641]
                         ],
-                        "stations": [988, 986, 549, [605, "USG branch"], [603, "Berkakit branch"], 548, 36, 37, 148, [279, "Yarika branch"], [355, "Bestyakh branch"], [297, "Lensk branch"], [539, "Zerovka branch"], 149, [353, "Lensk branch"], 298, 327, 657, 596]
+                        "stations": [988, 986, 549, [605, "USG branch"], [603, "Berkakit branch"], 548, 36, 37, 148, [279, "Yarika branch"], 355, [297, "Lensk branch"], [539, "Zerovka branch"], 149, [353, "Lensk branch"], 298, 327, 657, 596]
                     },
                     "USG branch": {
                         "vertices": [
@@ -13075,15 +13155,6 @@
                             [44298.5, -20685]
                         ],
                         "stations": [[629, "Lensk branch"], 630]
-                    },
-                    "Bestyakh branch": {
-                        "vertices": [
-                            [46368, -19163],
-                            [45027, -19170],
-                            [45027, -19177],
-                            [45017, -19177]
-                        ],
-                        "stations": [[355, "Main line"], 356, 571]
                     },
                     "Yarika branch": {
                         "vertices": [
@@ -13289,9 +13360,16 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [41614, -17808],
-                            [41614, -17732],
-                            [41900, -17732],
+                            [46368, -19169],
+                            [45156, -19169],
+                            [45156, -18894],
+                            [43614, -18894],
+                            [43614, -18555],
+                            [42449, -18555],
+                            [42449, -18525],
+                            [42287, -18525],
+                            [42287, -18555],
+                            [41900, -18555],
                             [41900, -16495],
                             [41381, -16495],
                             [41381, -14509],
@@ -13299,13 +13377,23 @@
                             [40667, -14216.5],
                             [39121.5, -14216.5]
                         ],
-                        "stations": [214, 213, 90, 91, 92, 812, 813, 814, 815, 891, [892, "Freiburg branch"], [515, "Angoya branch"], 514],
-                        "concurrencies": {
-                            "TNIH.Siberia Main": [
-                                [41614, -17732],
-                                [41900, -17732]
-                            ]
-                        }
+                        "stations": [[355, "Main line"], 356, [1054, "Bestyakh branch"], 1055, 1057, [1058, "Bestyakh branch"], 90, 91, 92, 812, 813, 814, 815, 891, [892, "Freiburg branch"], [515, "Angoya branch"], 514]
+                    },
+                    "Bestyakh branch": {
+                        "vertices": [
+                            [45156, -19169],
+                            [45027, -19169],
+                            [45027, -19177],
+                            [45017, -19177]
+                        ],
+                        "stations": [[1054, "Main line"], 571]
+                    },
+                    "Titicaca branch": {
+                        "vertices": [
+                            [42449, -18555],
+                            [42441, -18555]
+                        ],
+                        "stations": [[1058, "Main line"], 1059]
                     },
                     "Freiburg branch": {
                         "vertices": [
