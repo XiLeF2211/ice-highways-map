@@ -10018,7 +10018,7 @@
             "z": -16839,
             "lines": {
                 "Vy ( Norway Ice Boat System )": {
-                    "Lower Central": ["", "Great line"]
+                    "Lower Circle": ["", "Main line"]
                 }
             }
         },
@@ -12794,6 +12794,175 @@
                     "Lena": ["", "Titicaca branch"]
                 }
             }
+        },
+        {
+            "name": "Bergen JCT",
+            "id": 1060,
+            "type": "jct",
+            "x": 1968,
+            "z": -16839,
+            "lines": {
+                "Vy ( Norway Ice Boat System )": {
+                    "Lower Central": ["", "West Norway line"],
+                    "Lower Circle": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Raufoss-Bedrock JCT",
+            "id": 1061,
+            "type": "jct",
+            "x": 3387,
+            "z": -16839,
+            "lines": {
+                "Vy ( Norway Ice Boat System )": {
+                    "Lower Central": ["", "Great line"],
+                    "Lower Circle": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "West Stavanger JCT",
+            "id": 1062,
+            "type": "jct",
+            "x": 1944,
+            "z": -16111,
+            "lines": {
+                "Vy ( Norway Ice Boat System )": {
+                    "Lower Central": ["", "West Norway line to Lysebotn connector branch"]
+                }
+            },
+            "areas": [
+                [[1943, -16109], [1945, -16113]]
+            ]
+        },
+        {
+            "name": "Stavanger JCT",
+            "id": 1063,
+            "type": "jct",
+            "x": 1994,
+            "z": -16113,
+            "lines": {
+                "Vy ( Norway Ice Boat System )": {
+                    "Lower Central": ["", "Lysebotn connector branch to Stavanger branch"]
+                }
+            }
+        },
+        {
+            "name": "South West Shallow JCT",
+            "id": 1064,
+            "type": "jct",
+            "x": 1895,
+            "z": -15736,
+            "lines": {
+                "Vy ( Norway Ice Boat System )": {
+                    "Lower Central": ["", "West Norway line to Lysebotn connector branch"],
+                    "Norway-Netherlands": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[1893, -15727], [1897, -15745]]
+            ]
+        },
+        {
+            "name": "Anapa JCT",
+            "id": 1065,
+            "type": "jct",
+            "x": 13450,
+            "z": -9113.5,
+            "lines": {
+                "CSSS": {
+                    "Black Sea": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Maykop-Cicassia",
+            "id": 1066,
+            "x": 14439,
+            "z": -9094,
+            "lines": {
+                "CSSS": {
+                    "Black Sea": ["", "Maykop branch"]
+                }
+            }
+        },
+        {
+            "name": "Poti — Khabez JCT",
+            "type": "jct",
+            "id": 1067,
+            "x": 14883.5,
+            "z": -9113.5,
+            "lines": {
+                "CSSS": {
+                    "Poti": ["", "Main line to North connector branch"]
+                }
+            }
+        },
+        {
+            "name": "East Mestia JCT",
+            "type": "jct",
+            "id": 1068,
+            "x": 14883.5,
+            "z": -8873.5,
+            "lines": {
+                "CSSS": {
+                    "Poti": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Poti",
+            "id": 1069,
+            "x": 14883.5,
+            "z": -8335.5,
+            "lines": {
+                "CSSS": {
+                    "Poti": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "North Abzakh JCT",
+            "type": "jct",
+            "id": 1070,
+            "x": 14051.5,
+            "z": -9113.5,
+            "lines": {
+                "CSSS": {
+                    "Black Sea": ["", "Main line to Abzakh branch"]
+                }
+            }
+        },
+        {
+            "name": "Maykop-Circassia JCT",
+            "type": "jct",
+            "id": 1071,
+            "x": 14439.5,
+            "z": -9113.5,
+            "lines": {
+                "CSSS": {
+                    "Black Sea": ["", "Main line to Maykop branch"]
+                }
+            }
+        },
+        {
+            "name": "Maykop-Circassia Elevator",
+            "type": "elev-we",
+            "id": 1072,
+            "y1": -41,
+            "y2": 31,
+            "x": 14486,
+            "z": -9113.5,
+            "lines": {
+                "CSSS": {
+                    "Black Sea": ["", "Main line"],
+                    "Poti": ["", "North connector branch"]
+                }
+            },
+            "areas": [
+                [[14450, -9115], [14522, -9112]]
+            ]
         }
     ],
     "lines": {
@@ -17194,17 +17363,19 @@
                     },
                     "Lysebotn connector branch": {
                         "vertices": [
-                            [1944, -16113],
+                            [1893, -15745, "Concurrences with West Norway line"],
+                            [1893, -16113, "Concurrences with West Norway line"],
+                            [1944, -16113, "Concurrences with West Norway line"],
                             [2896, -16113]
                         ],
-                        "stations": [863, 832]
+                        "stations": [[1064, "West Norway line"], [1062, "West Norway line"], [1063, "Stavanger branch"], 863, 832]
                     },
                     "Great line": {
                         "vertices": [
                             [3387, -16113],
                             [3387, -16839]
                         ],
-                        "stations": [[419, "Little line"]]
+                        "stations": [1061, [419, "Little line"]]
                     },
                     "West Norway line": {
                         "vertices": [
@@ -17216,14 +17387,14 @@
 							[1897, -16109],
 							[1897, -15727]
                         ],
-                        "stations": [421, 830, 831]
+                        "stations": [1060, 421, 830, 831, [1062, "Lysebotn connector branch"], [1064, "Lysebotn connector branch"]]
                     },
                     "Stavanger branch": {
                         "vertices": [
                             [1994, -16113],
                             [1994, -15966]
                         ],
-                        "stations": [1051]
+                        "stations": [[1063, "Lysebotn connector branch"], 1051]
                     }
                 }
             },
@@ -18016,7 +18187,7 @@
                             [1917, -12933],
                             [1917, -12905]
                         ],
-                        "stations": [737, [819, "The Golden Dunegon branch"], [738, "Mapplatform branch"], 821, 822]
+                        "stations": [737, 1064, [819, "The Golden Dunegon branch"], [738, "Mapplatform branch"], 821, 822]
                     },
                     "Mapplatform branch": {
                         "vertices": [
@@ -18177,7 +18348,7 @@
             "Lower Circle": {
                 "prefix": "",
                 "code": "L-CI",
-                "color": "ff0000",
+                "color": "cc008b",
                 "y": "-62",
                 "branches": {
                     "Main line": {
@@ -18189,7 +18360,7 @@
                             [1968, -16839, "JCT with West Norway line"],
                             [3387, -16839, "JCT with Great line"]
                         ],
-                        "stations": [1050, 1049, 862, 424, [828, "Fronningen branch"], 1050]
+                        "stations": [1050, 1049, 862, 1061, 424, 829, [828, "Fronningen branch"], 1060, 1050]
                     },
                     "Fronningen branch": {
                         "vertices": [
@@ -18202,8 +18373,8 @@
             },
             "Lower South Norway": {
                 "prefix": "",
-                "code": "L-CI",
-                "color": "0000ff",
+                "code": "L-SN",
+                "color": "cc008b",
                 "y": "-62",
                 "branches": {
                     "1st line": {
@@ -18383,37 +18554,68 @@
                             [12089, -7950]
                         ],
                         "stations": []
-                    },
-                    "Iberian branch": {
-                        "vertices": [
-                            [13450, -8808.5],
-                            [12089, -8808.5]
-                        ],
-                        "stations": []
                     }
                 }
             }
         },
-        "Circassia State Railway": {
-            "": {
+        "CSSS": {
+            "Black Sea": {
                 "prefix": "",
                 "code": "",
                 "color": "ff00ff",
-                "y": 50,
+                "y": -41,
                 "branches": {
-                    "West branch": {
+                    "Main line": {
                         "vertices": [
-                            [13450, -9170.5],
-                            [13450, -8808.5]
+                            [14486, -9113.5],
+                            [13450, -9113.5, "JCT"],
+                            [13450, -8808.5],
+                            [12089, -8808.5]
                         ],
-                        "stations": []
+                        "stations": [[1065, "Anapa branch"], [1070, "Abzakh branch"], [1071, "Maykop branch"], 1072]
                     },
-                    "East branch": {
+                    "Anapa branch": {
                         "vertices": [
                             [13450, -9113.5, "JCT"],
-                            [13450, -9113.5]
+                            [13450, -9170.5]
                         ],
-                        "stations": []
+                        "stations": [[1065, "Main line"]]
+                    },
+					"Abzakh branch": {
+                        "vertices": [
+                            [14051.5, -9113.5],
+                            [14051.5, -9012.5]
+                        ],
+						"stations": [[1070, "Main line"]]
+                    },
+                    "Maykop branch": {
+                        "vertices": [
+                            [14439.5, -9113.5],
+                            [14439.5, -9094]
+                        ],
+                        "stations": [[1071, "Main line"], 1066]
+                    }
+                }
+            },
+            "Poti": {
+                "prefix": "",
+                "code": "",
+                "color": "00ff0a",
+                "y": 31,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [14883.5, -9113.5],
+                            [14883.5, -8335.5]
+                        ],
+                        "stations": [[1067, "North connector branch"], 1068, 1069]
+                    },
+                    "North connector branch": {
+                        "vertices": [
+							[14893, -9113.5],
+                            [14486, -9113.5]
+                        ],
+                        "stations": [1072, [1067, "Main line"]]
                     }
                 }
             }
