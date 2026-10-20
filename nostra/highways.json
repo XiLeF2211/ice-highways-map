@@ -4877,7 +4877,7 @@
             "x": 3533,
             "z": -16572,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Central": ["", "Little line"]
                 }
             }
@@ -4888,7 +4888,7 @@
             "x": 3729,
             "z": -16537,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Central": ["", "Little line"]
                 }
             }
@@ -4900,7 +4900,7 @@
             "z": -16361,
             "notes": "Abandoned",
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Central": ["", "Honefoss branch"]
                 }
             }
@@ -4911,7 +4911,7 @@
             "x": 3404,
             "z": -16122,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Central": ["", "Great line to Little line"]
                 }
             },
@@ -4927,7 +4927,7 @@
             "x": 3585,
             "z": -16101,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Central": ["", "Little line"]
                 }
             }
@@ -4938,7 +4938,7 @@
             "x": 1968,
             "z": -16767,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Central": ["", "West Norway line"]
                 }
             }
@@ -4949,7 +4949,7 @@
             "x": 2523,
             "z": -17156,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Circle": ["", "Fronningen branch"]
                 }
             }
@@ -4960,7 +4960,7 @@
             "x": 2680,
             "z": -15587,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower South Norway": ["", "West Agder branch"]
                 }
             }
@@ -4972,7 +4972,7 @@
             "z": -16839,
             "notes": "Abandoned",
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Circle": ["", "Main line"]
                 }
             }
@@ -4983,7 +4983,7 @@
             "x": 2683,
             "z": -16908,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Main line to Finse station platforms to Valle branch"]
                 }
             }
@@ -4995,7 +4995,7 @@
             "z": -16855,
             "notes": "Abandoned",
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Main line"]
                 }
             }
@@ -5006,7 +5006,7 @@
             "x": 3031,
             "z": -16117,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower South Norway": ["", "1st line to 2nd line"]
                 }
             }
@@ -5017,7 +5017,7 @@
             "x": 2900,
             "z": -15636,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower South Norway": ["", "1st line to 2nd line"]
                 }
             }
@@ -5031,7 +5031,7 @@
             "y1": 75,
             "y2": -63,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower South Norway": ["", "2nd line"],
                     "Upper Central": ["", "Main line"]
                 }
@@ -5046,7 +5046,7 @@
             "y1": -63,
             "y2": 75,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower South Norway": ["", "1st line"],
                     "Upper Central": ["", "Main line"]
                 }
@@ -5061,7 +5061,7 @@
             "y1": 75,
             "y2": -63,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower South Norway": ["", "1st line"],
                     "Upper Central": ["", "Main line"]
                 }
@@ -5076,7 +5076,7 @@
             "y1": -63,
             "y2": 75,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower South Norway": ["", "2nd line"],
                     "Upper Central": ["", "Main line"]
                 }
@@ -5089,7 +5089,7 @@
             "x": 2680,
             "z": -15638,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower South Norway": ["", "West Agder branch to 1st line and 2nd line"]
                 }
             },
@@ -5104,7 +5104,7 @@
             "x": 3662,
             "z": -16477,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Central": ["", "Little line to Honefoss branch"]
                 }
             }
@@ -5118,7 +5118,7 @@
                 [[3361, -16225], [3399, -16241]]
             ],
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Main line to Skien og Sandefjord station platforms"]
                 }
             }
@@ -5129,7 +5129,7 @@
             "x": 3643,
             "z": -16424,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Oslo branch"]
                 }
             }
@@ -5141,7 +5141,7 @@
             "x": 3331,
             "z": -16115,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower South Norway": ["", "1st line to 2nd line"],
                     "Denmark": ["", "Main line"]
                 }
@@ -5153,7 +5153,7 @@
             "x": 4028,
             "z": -16169,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "South": ["", "Main line"]
                 }
             },
@@ -5168,7 +5168,7 @@
             "x": 3976,
             "z": -16904,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Trondheim": ["", "Main line"],
                     "Lower North": ["", "Main line to Brookieston branch"]
                 }
@@ -5180,7 +5180,7 @@
             "x": 3873,
             "z": -16904,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower North": ["", "Brookieston branch"]
                 }
             }
@@ -5203,7 +5203,7 @@
                 [[2012, -16779], [2014, -16754]]
             ],
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Bergen branch"]
                 }
             }
@@ -5214,7 +5214,7 @@
             "x": 2216,
             "z": -15997,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Main line"]
                 }
             }
@@ -5225,7 +5225,7 @@
             "x": 3747,
             "z": -18451,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Trondheim": ["", "Main line to Trondheim station platforms"],
                     "Middle North": ["", "Main line to Östersund branch"],
                     "Upper Central": ["", "Trondheim branch"]
@@ -5242,7 +5242,7 @@
             "x": 3478,
             "z": -18503,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Trondheim": ["", "Main line"]
                 }
             }
@@ -5253,7 +5253,7 @@
             "x": 3250,
             "z": -18569,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Trondheim": ["", "Main line"]
                 }
             }
@@ -5268,7 +5268,7 @@
                 [[5620, -20669], [5647, -20647]]
             ],
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper North": ["", "Main line to Straumen station platforms"]
                 }
             }
@@ -5283,7 +5283,7 @@
                 [[6273, -21293], [6278, -21274]]
             ],
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper North": ["", "Main line to Narvik station platforms"]
                 }
             }
@@ -5297,7 +5297,7 @@
                 [[3774, -16624], [3840, -16577]]
             ],
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Trondheim": ["", "Main line to Oslo station platforms"],
                     "Lower North": ["", "Main line"],
                     "South": ["", "Main line to Oslo station platforms"],
@@ -5312,7 +5312,7 @@
             "x": 2216,
             "z": -16775,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Main line to Bergen branch"]
                 }
             },
@@ -5329,7 +5329,7 @@
             "y1": 51,
             "y2": 64,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Oslo branch"],
                     "Lower Trondheim": ["", "Main line"]
                 }
@@ -5344,7 +5344,7 @@
             "y1": 64,
             "y2": 51,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Oslo branch"],
                     "Lower North": ["", "Main line"]
                 }
@@ -5359,7 +5359,7 @@
             "y1": 51,
             "y2": 64,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Oslo branch"],
                     "Lower North": ["", "Main line"]
                 }
@@ -5374,7 +5374,7 @@
             "y1": 64,
             "y2": 51,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Oslo branch"],
                     "South": ["", "Main line"]
                 }
@@ -5389,7 +5389,7 @@
             "y1": 64,
             "y2": 71,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Trondheim": ["", "Main line"],
                     "Upper Trondheim": ["", "Main line"]
                 }
@@ -5404,7 +5404,7 @@
             "y1": 64,
             "y2": 71,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower North": ["", "Main line"],
                     "Middle North": ["", "Main line"]
                 }
@@ -5419,7 +5419,7 @@
             "y1": 71,
             "y2": 66,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Middle North": ["", "Main line"],
                     "Upper North": ["", "Main line"]
                 }
@@ -5434,7 +5434,7 @@
             "y1": 66,
             "y2": 71,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Middle North": ["", "Main line"],
                     "Upper North": ["", "Main line"]
                 }
@@ -5449,7 +5449,7 @@
             "y1": 64,
             "y2": 71,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper North": ["", "Main line"]
                 }
             }
@@ -5463,7 +5463,7 @@
             "y1": 71,
             "y2": 64,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper North": ["", "Main line"]
                 }
             }
@@ -5474,7 +5474,7 @@
             "x": 3281,
             "z": -16425,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Oslo branch"]
                 }
             }
@@ -5486,7 +5486,7 @@
             "x": 3444,
             "z": -16424,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Main line to Oslo branch"]
                 }
             }
@@ -5498,7 +5498,7 @@
             "x": 3444,
             "z": -16633,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Main line to Oslo branch"]
                 }
             }
@@ -5512,7 +5512,7 @@
             "y1": 75,
             "y2": 51,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Oslo branch"]
                 }
             }
@@ -5526,7 +5526,7 @@
             "y1": 51,
             "y2": 75,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Oslo branch"]
                 }
             }
@@ -6646,7 +6646,7 @@
                 "TNIH": {
                     "Siberia Main": ["", "Main line"]
                 },
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Trondheim": ["", "Main line"],
                     "Middle North": ["", "Main line"]
                 }
@@ -6809,7 +6809,7 @@
                     "Line 2": ["", "Main line"],
                     "Line 3": ["", "Main line"]
                 },
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Finland": ["", "Main line"]
                 }
             }
@@ -6990,7 +6990,7 @@
                 "Sweden": {
                     "Red": ["", "Main line"]
                 },
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Sweden": ["", "Main line"]
                 }
             }
@@ -7122,7 +7122,7 @@
                 "Sweden": {
                     "Purple": ["", "Main line"]
                 },
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Sweden": ["", "Gothenburg line"]
                 }
             }
@@ -8363,7 +8363,7 @@
             "x": 3444,
             "z": -16857,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Main line to Northern Route"]
                 }
             }
@@ -8374,7 +8374,7 @@
             "x": 3444,
             "z": -17537,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Northern Route"]
                 }
             }
@@ -8386,7 +8386,7 @@
             "x": 3194,
             "z": -17659,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Northern Route to Trondheim branch"]
                 }
             }
@@ -8398,7 +8398,7 @@
             "x": 2433,
             "z": -17659,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Northern Route to Vestnes Kommune branch"]
                 }
             }
@@ -8409,7 +8409,7 @@
             "x": 2216,
             "z": -17481,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Northern Route"]
                 }
             }
@@ -8420,7 +8420,7 @@
             "x": 2216,
             "z": -17336,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Northern Route"]
                 }
             }
@@ -8431,7 +8431,7 @@
             "x": 2216,
             "z": -17242,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Northern Route"]
                 }
             }
@@ -8443,7 +8443,7 @@
             "x": 2216,
             "z": -16928,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Main line to Northern Route"]
                 }
             }
@@ -8454,7 +8454,7 @@
             "x": 2534,
             "z": -17944,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Vestnes Kommune branch"]
                 }
             }
@@ -8465,7 +8465,7 @@
             "x": 3001,
             "z": -17324,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Valle branch"]
                 }
             }
@@ -8476,7 +8476,7 @@
             "x": 3194,
             "z": -17961,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Trondheim branch"]
                 }
             }
@@ -8490,7 +8490,7 @@
             "y1": 75,
             "y2": 71,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Trondheim branch"]
                 }
             }
@@ -8502,7 +8502,7 @@
             "x": 3751,
             "z": -18490,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Middle North": ["", "Main line to Östersund branch"]
                 }
             }
@@ -8513,7 +8513,7 @@
             "x": 5115,
             "z": -18434,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Middle North": ["", "Östersund branch"]
                 }
             }
@@ -8525,7 +8525,7 @@
             "x": 6567,
             "z": -21290,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper North": ["", "Main line to Stuor Muorkke branch"]
                 }
             }
@@ -8539,7 +8539,7 @@
                 [[6763, -21351], [6782, -21328]]
             ],
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper North": ["", "Main line"]
                 }
             }
@@ -8550,7 +8550,7 @@
             "x": 6567,
             "z": -20878,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper North": ["", "Stuor Muorkke branch"]
                 }
             }
@@ -8562,7 +8562,7 @@
             "x": 6070,
             "z": -21290,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper North": ["", "Main line"],
                     "Svalbard": ["", "Main line"]
                 }
@@ -8577,7 +8577,7 @@
             "y1": 75,
             "y2": 65,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Svalbard": ["", "Main line"]
                 }
             }
@@ -8588,7 +8588,7 @@
             "x": 6070,
             "z": -21834,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Svalbard": ["", "Main line"]
                 }
             }
@@ -8602,7 +8602,7 @@
             "y1": 65,
             "y2": -62,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Svalbard": ["", "Main line"]
                 }
             }
@@ -8616,7 +8616,7 @@
             "y1": -62,
             "y2": 70,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Svalbard": ["", "Main line"]
                 }
             }
@@ -8627,7 +8627,7 @@
             "x": 5655,
             "z": -28104,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Svalbard": ["", "Main line"]
                 }
             }
@@ -8639,7 +8639,7 @@
             "x": 5863,
             "z": -21290,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper North": ["", "Main line to Asgard branch"]
                 }
             }
@@ -8650,7 +8650,7 @@
             "x": 5863,
             "z": -21434,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper North": ["", "Asgard branch"]
                 }
             }
@@ -8664,7 +8664,7 @@
             "y1": 65,
             "y2": 73,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Sweden": ["", "Main line"]
                 }
             }
@@ -8678,7 +8678,7 @@
             "y1": 73,
             "y2": 65,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Sweden": ["", "Main line"]
                 }
             }
@@ -8689,7 +8689,7 @@
             "x": 4280,
             "z": -16618,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Sweden": ["", "Main line"]
                 }
             }
@@ -8700,7 +8700,7 @@
             "x": 4408,
             "z": -16568,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Sweden": ["", "Main line"]
                 }
             }
@@ -8714,7 +8714,7 @@
             "y1": 65,
             "y2": 69,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Sweden": ["", "Main line"]
                 }
             }
@@ -8728,7 +8728,7 @@
             "y1": 69,
             "y2": 65,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Sweden": ["", "Main line"]
                 }
             }
@@ -8739,7 +8739,7 @@
             "x": 4907,
             "z": -16311,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Sweden": ["", "Main line"]
                 }
             }
@@ -8753,7 +8753,7 @@
             "y1": 65,
             "y2": 9,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Sweden": ["", "Main line"]
                 }
             }
@@ -8764,7 +8764,7 @@
             "x": 6432,
             "z": -16249,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Sweden": ["", "Main line"]
                 }
             }
@@ -8776,7 +8776,7 @@
             "x": 4215,
             "z": -16169,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "South": ["", "Main line"],
 					"Sweden": ["", "Oslo-Ed Bypass"]
                 }
@@ -8791,7 +8791,7 @@
             "x": 3945,
             "z": -16217,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "South": ["", "Main line"]
                 }
             },
@@ -8805,7 +8805,7 @@
             "x": 3863,
             "z": -16297,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "South": ["", "Main line"]
                 }
             }
@@ -8816,7 +8816,7 @@
             "x": 4254,
             "z": -15966,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Sweden": ["", "Gothenburg line"]
                 }
             }
@@ -8827,7 +8827,7 @@
             "x": 2459,
             "z": -17832,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Vestnes Kommune branch"]
                 }
             }
@@ -8838,7 +8838,7 @@
             "x": 4023,
             "z": -18979,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper North": ["", "Main line"]
                 }
             }
@@ -8849,7 +8849,7 @@
             "x": 4488,
             "z": -19368,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper North": ["", "Main line"]
                 }
             }
@@ -8860,7 +8860,7 @@
             "x": 5173,
             "z": -20146,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper North": ["", "Main line"]
                 }
             }
@@ -8871,7 +8871,7 @@
             "x": 5863,
             "z": -21082,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper North": ["", "Main line"]
                 }
             }
@@ -8882,7 +8882,7 @@
             "x": 3001,
             "z": -17101,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Valle branch"]
                 }
             }
@@ -8893,7 +8893,7 @@
             "x": 2216,
             "z": -16381,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Main line"]
                 }
             }
@@ -8904,7 +8904,7 @@
             "x": 2216,
             "z": -15758,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Central": ["", "Great line"],
                     "Norway-Netherlands": ["", "Main line"],
                     "Norway-Germany": ["", "Main line"]
@@ -8918,7 +8918,7 @@
             "x": 1895,
             "z": -14649,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Norway-Netherlands": ["", "Main line to Mapplatform branch"]
                 }
             }
@@ -8929,7 +8929,7 @@
             "x": 1217,
             "z": -14652,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Norway-Netherlands": ["", "Mapplatform branch"]
                 }
             }
@@ -9900,7 +9900,7 @@
             "x": 1895,
             "z": -15481,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Norway-Netherlands": ["", "Main line to The Golden Dunegon branch"]
                 }
             }
@@ -9911,7 +9911,7 @@
             "x": 1218,
             "z": -15481,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Norway-Netherlands": ["", "The Golden Dunegon branch"]
                 }
             }
@@ -9922,7 +9922,7 @@
             "x": 1895,
             "z": -13188,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Norway-Netherlands": ["", "Main line"]
                 }
             }
@@ -9933,7 +9933,7 @@
             "x": 1895,
             "z": -12920,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Norway-Netherlands": ["", "Main line"]
                 },
                 "SNCF": {
@@ -9947,7 +9947,7 @@
             "x": 3521,
             "z": -15238,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Denmark": ["", "Main line"]
                 }
             }
@@ -9959,7 +9959,7 @@
             "x": 4183,
             "z": -15238,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Denmark": ["", "Gothenburg branch"]
                 }
             }
@@ -9970,7 +9970,7 @@
             "x": 4230,
             "z": -14849,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Denmark": ["", "Main line"]
                 }
             }
@@ -9981,7 +9981,7 @@
             "x": 4230,
             "z": -14364,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Denmark": ["", "Main line"]
                 }
             }
@@ -9993,7 +9993,7 @@
             "x": 4281,
             "z": -15433,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Sweden": ["", "Gothenburg line"],
                     "Denmark": ["", "Gothenburg branch"]
                 }
@@ -10006,7 +10006,7 @@
             "x": 2523,
             "z": -16839,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Circle": ["", "Main line to Fronningen branch"]
                 }
             }
@@ -10017,7 +10017,7 @@
             "x": 2633,
             "z": -16839,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Circle": ["", "Main line"]
                 }
             }
@@ -10028,7 +10028,7 @@
             "x": 1944,
             "z": -16524,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Central": ["", "West Norway line"]
                 }
             }
@@ -10039,7 +10039,7 @@
             "x": 1944,
             "z": -16286,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Central": ["", "West Norway line"]
                 }
             }
@@ -10051,7 +10051,7 @@
             "x": 2898,
             "z": -16115,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Central": ["", "Lysebotn connector branch"],
                     "Lower South Norway": ["", "1st line to 2nd line"]
                 }
@@ -10077,7 +10077,7 @@
             "x": 8100,
             "z": -22153,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Finland": ["", "Main line"]
                 }
             }
@@ -10089,7 +10089,7 @@
             "x": 6070,
             "z": -21784,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Svalbard": ["", "Main line"],
                     "Finland": ["", "Main line"]
                 }
@@ -10102,7 +10102,7 @@
             "x": 5173,
             "z": -20551,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper North": ["", "Main line to Bodo branch"]
                 }
             }
@@ -10113,7 +10113,7 @@
             "x": 5171,
             "z": -20678,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper North": ["", "Bodo branch"]
                 }
             }
@@ -10125,7 +10125,7 @@
             "x": 5894,
             "z": -16249,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Sweden": ["", "Main line to Drottningstad branch"]
                 }
             }
@@ -10136,7 +10136,7 @@
             "x": 5626,
             "z": -16249,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Sweden": ["", "Drottningstad branch"]
                 }
             },
@@ -10399,7 +10399,7 @@
             "x": 2425,
             "z": -17799,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Circle": ["", "Main line"]
                 }
             }
@@ -10410,7 +10410,7 @@
             "x": 2400,
             "z": -16113,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Central": ["", "Lysebotn connector branch"]
                 }
             }
@@ -10468,7 +10468,7 @@
             "y1": 89,
             "y2": 83,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Finland": ["", "Main line"],
                     "Finland-Russia": ["", "Main line"]
                 }
@@ -10483,7 +10483,7 @@
             "y1": 83,
             "y2": 89,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Finland-Russia": ["", "Main line"]
                 }
             }
@@ -10497,7 +10497,7 @@
             "y1": 89,
             "y2": 10,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Finland-Russia": ["", "Main line"]
                 }
             }
@@ -10508,7 +10508,7 @@
             "x": 10870,
             "z": -16778,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Finland-Russia": ["", "Main line"]
                 }
             }
@@ -10547,7 +10547,7 @@
             "x": 3651,
             "z": -16334,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Central": ["", "Honefoss branch"]
                 }
             }
@@ -10619,7 +10619,7 @@
             "x": 3651,
             "z": -16634,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Oslo branch"]
                 }
             }
@@ -11618,7 +11618,7 @@
             "x": 10600.5,
             "z": -16852,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Finland-Russia": ["", "Main line"]
                 },
                 "TNIH": {
@@ -12631,7 +12631,7 @@
             "x": 3975,
             "z": -17130,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower North": ["", "Main line"],
 					"Lower Trondheim": ["", "Main line"]
                 }
@@ -12646,7 +12646,7 @@
             "x": 2250,
             "z": -17659,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Northern Route"]
                 }
             },
@@ -12660,7 +12660,7 @@
             "x": 7732,
             "z": -14296,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Upper Central": ["", "Northern Route"]
                 }
             },
@@ -12674,7 +12674,7 @@
             "x": 1969,
             "z": -17389,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Circle": ["", "Main Line"]
                 }
             }
@@ -12685,7 +12685,7 @@
             "x": 1969,
             "z": -16981,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Circle": ["", "Main Line"]
                 }
             }
@@ -12696,7 +12696,7 @@
             "x": 1994,
             "z": -15996,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Central": ["", "Stavanger branch"]
                 }
             }
@@ -12802,7 +12802,7 @@
             "x": 1968,
             "z": -16839,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Central": ["", "West Norway line"],
                     "Lower Circle": ["", "Main line"]
                 }
@@ -12815,7 +12815,7 @@
             "x": 3387,
             "z": -16839,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Central": ["", "Great line"],
                     "Lower Circle": ["", "Main line"]
                 }
@@ -12828,7 +12828,7 @@
             "x": 1944,
             "z": -16111,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Central": ["", "West Norway line to Lysebotn connector branch"]
                 }
             },
@@ -12843,7 +12843,7 @@
             "x": 1994,
             "z": -16113,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Central": ["", "Lysebotn connector branch to Stavanger branch"]
                 }
             }
@@ -12855,7 +12855,7 @@
             "x": 1895,
             "z": -15736,
             "lines": {
-                "Vy ( Norway Ice Boat System )": {
+                "Vy (Norway Ice Boat System)": {
                     "Lower Central": ["", "West Norway line to Lysebotn connector branch"],
                     "Norway-Netherlands": ["", "Main line"]
                 }
@@ -12963,6 +12963,31 @@
             "areas": [
                 [[14450, -9115], [14522, -9112]]
             ]
+        },
+        {
+            "name": "Yarika JCT",
+            "type": "jct",
+            "id": 1073,
+            "x": 45285,
+            "z": -18889,
+            "lines": {
+                "TNIH": {
+                    "Sakha": ["", "Yarika branch to Yarika-Bestyakh connector"]
+                }
+            }
+        },
+        {
+            "name": "Yarika North JCT",
+            "type": "jct",
+            "id": 1074,
+            "x": 45285,
+            "z": -19169,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line"],
+                    "Sakha": ["", "Yarika-Bestyakh connector"]
+                }
+            }
         }
     ],
     "lines": {
@@ -13330,7 +13355,14 @@
                             [46368, -18889],
                             [45205, -18889]
                         ],
-                        "stations": [[279, "Main line"], 280]
+                        "stations": [[279, "Main line"], [1073, "Yarika-Bestyakh connector"], 280]
+                    },
+                    "Yarika-Bestyakh connector": {
+                        "vertices": [
+                            [45285, -18889],
+                            [45285, -19169]
+                        ],
+                        "stations": [[1073, "Yarika branch"], 1074]
                     }
                 }
             },
@@ -13546,7 +13578,7 @@
                             [40667, -14216.5],
                             [39121.5, -14216.5]
                         ],
-                        "stations": [[355, "Main line"], 356, [1054, "Bestyakh branch"], 1055, 1057, [1058, "Bestyakh branch"], 90, 91, 92, 812, 813, 814, 815, 891, [892, "Freiburg branch"], [515, "Angoya branch"], 514]
+                        "stations": [[355, "Main line"], 356, 1074, [1054, "Bestyakh branch"], 1055, 1057, [1058, "Bestyakh branch"], 90, 91, 92, 812, 813, 814, 815, 891, [892, "Freiburg branch"], [515, "Angoya branch"], 514]
                     },
                     "Bestyakh branch": {
                         "vertices": [
@@ -17332,7 +17364,7 @@
                 }
             }
         },
-        "Vy ( Norway Ice Boat System )": {
+        "Vy (Norway Ice Boat System)": {
             "Lower Central": {
                 "prefix": "",
                 "code": "L-CT",
