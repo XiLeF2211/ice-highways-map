@@ -12988,6 +12988,28 @@
                     "Sakha": ["", "Yarika-Bestyakh connector"]
                 }
             }
+        },
+        {
+            "name": "Datca",
+            "id": 1075,
+            "x": 44406,
+            "z": -18894,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Zharkan",
+            "id": 1076,
+            "x": 43613,
+            "z": -18715,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -13000,7 +13022,7 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [-18703, -17732],
+                            [-23460, -17732],
                             [-2594, -17732],
                             [-2594, -17794],
                             [-2495, -17794],
@@ -13578,7 +13600,7 @@
                             [40667, -14216.5],
                             [39121.5, -14216.5]
                         ],
-                        "stations": [[355, "Main line"], 356, 1074, [1054, "Bestyakh branch"], 1055, 1057, [1058, "Bestyakh branch"], 90, 91, 92, 812, 813, 814, 815, 891, [892, "Freiburg branch"], [515, "Angoya branch"], 514]
+                        "stations": [[355, "Main line"], 356, 1074, [1054, "Bestyakh branch"], 1055, 1075, 1076, 1057, [1058, "Bestyakh branch"], 90, 91, 92, 812, 813, 814, 815, 891, [892, "Freiburg branch"], [515, "Angoya branch"], 514]
                     },
                     "Bestyakh branch": {
                         "vertices": [
