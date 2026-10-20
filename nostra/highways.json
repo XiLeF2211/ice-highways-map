@@ -54,7 +54,7 @@
             "z": -18248,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line"]
+                    "Azur": ["", "Main line"]
                 }
             }
         },
@@ -66,7 +66,7 @@
             "z": -18894,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line"]
+                    "Azur": ["", "Main line"]
                 }
             }
         },
@@ -78,7 +78,7 @@
             "z": -19868,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line"]
+                    "Azur": ["", "Main line"]
                 }
             }
         },
@@ -89,7 +89,7 @@
             "z": -21051,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line"],
+                    "Kolyma": ["", "Cosmopol connector branch"],
                     "Azur": ["", "Main line"]
                 }
             }
@@ -218,7 +218,7 @@
             "z": -21474.5,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line"]
+                    "Kolyma": ["", "Cosmopol connector branch"]
                 }
             },
             "notes": "Entrance at X=52481, Y=63, Z=-21486"
@@ -230,7 +230,7 @@
             "z": -21893.5,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line"]
+                    "Kolyma": ["", "Main line"]
                 }
             }
         },
@@ -550,7 +550,7 @@
             "z": -21954,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line"],
+                    "Kolyma": ["", "Main line"],
                     "Heartnorth": ["", "Southern section"]
                 }
             }
@@ -732,7 +732,7 @@
             "z": -22476,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line"]
+                    "Kolyma": ["", "Main line"]
                 }
             }
         },
@@ -744,7 +744,7 @@
             "z": -22675,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line to Yakutsk branch"]
+                    "Kolyma": ["", "Main line to Yakutsk branch"]
                 }
             }
         },
@@ -755,7 +755,7 @@
             "z": -22675,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Yakutsk branch"]
+                    "Kolyma": ["", "Yakutsk branch"]
                 }
             }
         },
@@ -811,7 +811,7 @@
             "z": -23834.5,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line"]
+                    "Kolyma": ["", "Main line"]
                 }
             }
         },
@@ -1783,7 +1783,7 @@
             "z": -20091.5,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line to New Xenia branch"]
+                    "Azur": ["", "Main line to New Xenia branch"]
                 }
             }
         },
@@ -1794,7 +1794,7 @@
             "z": -20091.5,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "New Xenia branch"]
+                    "Azur": ["", "New Xenia branch"]
                 }
             }
         },
@@ -2019,7 +2019,7 @@
             "z": -20540,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line to Kortemark branch"]
+                    "Azur": ["", "Main line to Kortemark branch"]
                 }
             }
         },
@@ -2031,7 +2031,7 @@
             "z": -20540,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Kortemark branch"]
+                    "Azur": ["", "Kortemark branch"]
                 }
             }
         },
@@ -2042,7 +2042,7 @@
             "z": -20540,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Kortemark branch"]
+                    "Azur": ["", "Kortemark branch"]
                 }
             }
         },
@@ -2078,7 +2078,7 @@
             "lines": {
                 "TNIH": {
                     "Siberia Main": ["", "Main line"],
-                    "Magadan": ["", ""]
+                    "Azur": ["", "Main line"]
                 }
             }
         },
@@ -2090,7 +2090,7 @@
             "z": -17731.5,
             "lines": {
                 "TNIH": {
-                    "Magadan": ["", ""]
+                    "Siberia Main": ["", "Main line"]
                 }
             }
         },
@@ -3976,7 +3976,7 @@
             "z": -23834.5,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line"],
+                    "Kolyma": ["", "Main line"],
                     "Heartnorth": ["", "Northern section"]
                 }
             }
@@ -4122,8 +4122,7 @@
             "z": -21474.5,
             "lines": {
                 "TNIH": {
-                    "Kolyma": ["", "Main line"],
-                    "Siberia Main": ["", "Main line"]
+                    "Kolyma": ["", "Main line to Cosmopol connector branch"]
                 }
             }
         },
@@ -4402,7 +4401,7 @@
             "z": -23834.5,
             "lines": {
                 "TNIH": {
-                    "Siberia Main": ["", "Main line"],
+                    "Kolyma": ["", "Main line"],
                     "Heartnorth": ["", "Future City branch"]
                 }
             }
@@ -5090,7 +5089,7 @@
             "z": -15638,
             "lines": {
                 "Vy (Norway Ice Boat System)": {
-                    "Lower South Norway": ["", "West Agder branch to 1st line and 2nd line"]
+                    "Lower South Norway": ["", "West Agder branch to 1st line"]
                 }
             },
             "areas": [
@@ -8905,7 +8904,6 @@
             "z": -15758,
             "lines": {
                 "Vy (Norway Ice Boat System)": {
-                    "Lower Central": ["", "Great line"],
                     "Norway-Netherlands": ["", "Main line"],
                     "Norway-Germany": ["", "Main line"]
                 }
@@ -12660,9 +12658,7 @@
             "x": 7732,
             "z": -14296,
             "lines": {
-                "Vy (Norway Ice Boat System)": {
-                    "Upper Central": ["", "Northern Route"]
-                }
+
             },
             "areas": [
                 [[2249, -17657], [2251, -17661]]
@@ -12675,7 +12671,7 @@
             "z": -17389,
             "lines": {
                 "Vy (Norway Ice Boat System)": {
-                    "Lower Circle": ["", "Main Line"]
+                    "Lower Circle": ["", "Main line"]
                 }
             }
         },
@@ -12686,7 +12682,7 @@
             "z": -16981,
             "lines": {
                 "Vy (Norway Ice Boat System)": {
-                    "Lower Circle": ["", "Main Line"]
+                    "Lower Circle": ["", "Main line"]
                 }
             }
         },
@@ -13034,16 +13030,12 @@
                             [51178.5, -17732],
                             [51178.5, -17731.5],
                             [52339.5, -17731.5],
-                            [52339.5, -21475.5],
-                            [52960.5, -21474.5],
-                            [52960.5, -23834.5],
-                            [50681, -23834.5]
+                            [59982, -17731.5]
                         ],
                         "stations": [816, 875, [878, "Iceland branch"], 753, 1030, 1031, [493, "Poice branch"], 384, 559, 1032, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"],
                                      578, 501, 500, 580, 965, 968, 503, [958, "Simograd branch"], 504, [505, "Poikovskii branch"], 406, [382, "Campfine branch"], 508,
                                      [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, [213, "Tapagonia branch"], 90, [1056, "Titicaca branch"], 85, [146, "Yakutia Industrial branch"], 36,
-                                    [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"],
-                                    7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 375, 340]
+                                    [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 179, 1026, 1053, 1027]
                     },
                     "Iceland branch": {
                         "vertices": [
@@ -13145,34 +13137,6 @@
                             [50270, -17976]
                         ],
                         "stations": [[20, "Main line"], 21]
-                    },
-                    "New Xenia branch": {
-                        "vertices": [
-                            [52339.5, -20091.5],
-                            [51660, -20091.5]
-                        ],
-                        "stations": [[152, "Main line"], 153]
-                    },
-                    "Kortemark branch": {
-                        "vertices": [
-                            [52339.5, -20540],
-                            [52863, -20540]
-                        ],
-                        "stations": [[173, "Main line"], 174, 175]
-                    },
-                    "Yakutsk branch": {
-                        "vertices": [
-                            [52960.5, -22675],
-                            [53065, -22675]
-                        ],
-                        "stations": [[63, "Main line"], 64]
-                    },
-                    "Eastern-Vostochnaya (Temporal) branch": {
-                        "vertices": [
-                            [54008, -17731.5],
-                            [58508, -17731.5]
-                        ],
-                        "stations": [1026, 1053, 1027]
                     }
                 }
             },
@@ -13453,7 +13417,6 @@
                 "branches": {
                     "": {
                         "vertices": [
-                            [52339.5, -17731.5],
                             [54008, -17731.5],
                             [54008, -16081],
                             [54276.5, -16081]
@@ -13524,6 +13487,8 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
+                            [50681, -23834.5],
+                            [52960.5, -23834.5],
                             [52960.5, -21474.5],
                             [52960.5, -21460],
                             [56272, -21460],
@@ -13532,7 +13497,22 @@
                             [60261, -21890],
                             [60261, -22246]
                         ],
-                        "stations": [352, 351, 331, 332, 367, 368]
+                        "stations": [340, 375, 69, [63, "Yakutsk branch"], 62, 46, 19, [352, "Cosmopol connector branch"], 351, 331, 332, 367, 368]
+                    },
+                     "Yakutsk branch": {
+                        "vertices": [
+                            [52960.5, -22675],
+                            [53065, -22675]
+                        ],
+                        "stations": [[63, "Main line"], 64]
+                    },
+                    "Cosmopol connector branch": {
+                        "vertices": [
+                            [52339.5, -21051.5],
+                            [52339.5, -21475.5],
+                            [52960.5, -21474.5]
+                        ],
+                        "stations": [[352, "Main line"], 18, 7]
                     }
                 }
             },
@@ -13547,9 +13527,24 @@
                             [48565, -21310],
                             [49220, -21310],
                             [49220, -21051],
-                            [52339.5, -21051]
+                            [52339.5, -21051.5],
+                            [52339.5, -17731.5]
                         ],
-                        "stations": [657, 658, 659, 691, 8, 7]
+                        "stations": [657, 658, 659, 691, 8, 7, [173, "Kortemark branch"], [152, "New Xenia branch"], 6, 5, 4, 178]
+                    },
+                    "New Xenia branch": {
+                        "vertices": [
+                            [52339.5, -20091.5],
+                            [51660, -20091.5]
+                        ],
+                        "stations": [[152, "Main line"], 153]
+                    },
+                    "Kortemark branch": {
+                        "vertices": [
+                            [52339.5, -20540],
+                            [52863, -20540]
+                        ],
+                        "stations": [[173, "Main line"], 174, 175]
                     }
                 }
             },
@@ -13588,10 +13583,10 @@
                             [45156, -18894],
                             [43614, -18894],
                             [43614, -18555],
-                            [42449, -18555],
-                            [42449, -18525],
-                            [42287, -18525],
-                            [42287, -18555],
+                            [42449, -18555, "TITICACA Bypass"],
+                            [42449, -18525, "TITICACA Bypass"],
+                            [42287, -18525, "TITICACA Bypass"],
+                            [42287, -18555, "TITICACA Bypass"],
                             [41900, -18555],
                             [41900, -16495],
                             [41381, -16495],
@@ -16675,7 +16670,7 @@
 							[278, -8692],
                             [278, -10854]
                         ],
-                        "stations": []
+                        "stations": [1052]
                     }
                 }
             }
@@ -18414,7 +18409,7 @@
                             [1968, -16839, "JCT with West Norway line"],
                             [3387, -16839, "JCT with Great line"]
                         ],
-                        "stations": [1050, 1049, 862, 1061, 424, 829, [828, "Fronningen branch"], 1060, 1050]
+                        "stations": [1050, 1049, 862, 1061, 424, 829, [828, "Fronningen branch"], 1060]
                     },
                     "Fronningen branch": {
                         "vertices": [
