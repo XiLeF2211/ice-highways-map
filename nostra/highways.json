@@ -13010,6 +13010,135 @@
                     "Lena": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Broad St. / Chestnut St.",
+            "id": 1077,
+			"type": "jct",
+            "x": -27033,
+            "z": -7049,
+            "lines": {
+                "SEPTA": {
+                    "Pa": ["", ""],
+					"B": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Ozark, AR",
+            "id": 1078,
+            "x": -32761,
+            "z": -5482,
+            "lines": {
+                "Amtrak": {
+                    "Volunteer": ["", "Ozark branch"]
+                }
+            }
+        },
+        {
+            "name": "Ozark JCT",
+            "id": 1079,
+			"type": "jct",
+            "x": -32516,
+            "z": -5482,
+            "lines": {
+                "Amtrak": {
+                    "Volunteer": ["", "Main line to Ozark branch"]
+                }
+            }
+        },
+        {
+            "name": "Wessyngton JCT",
+            "id": 1080,
+			"type": "jct",
+            "x": -31663,
+            "z": -5482,
+            "lines": {
+                "Amtrak": {
+                    "Volunteer": ["", "Ozark branch"],
+					"City of New Orleans": ["", "Northbound and Southbound tubes"]
+                }
+            }
+        },
+        {
+            "name": "Volunteer JCT",
+            "id": 1081,
+			"type": "jct",
+            "x": -31663,
+            "z": -5255,
+            "lines": {
+                "Amtrak": {
+                    "Volunteer": ["", "Main line"],
+					"City of New Orleans": ["", "Northbound and Southbound tubes"]
+                }
+            }
+        },
+        {
+            "name": "Tennessee City, TN",
+            "id": 1082,
+            "x": -31563,
+            "z": -5255,
+            "lines": {
+                "Amtrak": {
+                    "Volunteer": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Franklin, TN",
+            "id": 1083,
+            "x": -31013,
+            "z": -5255,
+            "lines": {
+                "Amtrak": {
+                    "Volunteer": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nashville, TN",
+            "id": 1084,
+            "x": -30807,
+            "z": -5558,
+            "lines": {
+                "Amtrak": {
+                    "Volunteer": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Rocky Top JCT",
+            "id": 1085,
+			"type": "jct",
+            "x": -29542,
+            "z": -5505,
+            "lines": {
+                "Amtrak": {
+                    "Volunteer": ["", "Main line to Knoxville branch"]
+                }
+            }
+        },
+        {
+            "name": "Knoxville, TN",
+            "id": 1086,
+            "x": -29559,
+            "z": -5681,
+            "lines": {
+                "Amtrak": {
+                    "Volunteer": ["", "Knoxville branch"]
+                }
+            }
+        },
+        {
+            "name": "Asheville, NC",
+            "id": 1087,
+            "x": -29271,
+            "z": -5505,
+            "lines": {
+                "Amtrak": {
+                    "Volunteer": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -15493,14 +15622,14 @@
                             [-31669, -5808],
                             [-31669, -5255]
                         ],
-                        "stations": [[1009, "Northbound Disc"]]
+                        "stations": [[1009, "Northbound Disc"], [1080, "Northbound Disc"], [1081, "Northbound Disc"]]
                     },
                     "Northbound Disc": {
                         "vertices": [
                             [-31657, -5808],
                             [-31657, -5255]
                         ],
-                        "stations": [[1009, "Southbound Disc"]]
+                        "stations": [[1009, "Southbound Disc"], [1080, "Southbound Disc"], [1081, "Southbound Disc"]]
                     }
                 }
             },
@@ -15557,23 +15686,23 @@
 							[-32516, -5482],
 							[-32761, -5482]
                         ],
-                        "stations": []
+                        "stations": [[1079, "Ozark branch"], 1081, 1082, 1083, 1084, [1085, "Knoxville branch"], 1087]
                     },
-                    "Ozark bypass": {
+                    "Ozark branch": {
                         "vertices": [
                             [-32516, -5482],
 							[-31663, -5482]
                         ],
-                        "stations": []
+                        "stations": [1078, [1084, "Main line"], 1085]
                     },
-                    "Rocky Top branch": {
+                    "Knoxville branch": {
                         "vertices": [
                             [-29542, -5505],
 							[-29542, -5601],
 							[-29559, -5601],
 							[-29559, -5681]
                         ],
-                        "stations": []
+                        "stations": [[1085, "Main line"], 1086]
                     }
                 }
             },
@@ -15733,7 +15862,7 @@
                             [-27033, -7337],
                             [-27033, -7049]
                         ],
-                        "stations": [935, 955, 963]
+                        "stations": [935, 955, 963, 1077]
                     }
                 }
             },
@@ -15794,7 +15923,7 @@
                             [-27295, -7049],
                             [-27033, -7049]
                         ],
-                        "stations": [971, 972]
+                        "stations": [971, 972, 1077]
                     }
                 }
             }
