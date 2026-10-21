@@ -13135,6 +13135,71 @@
                     "Volunteer": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Babylon",
+            "id": 1088,
+            "x": 15990,
+            "z": -3951.5,
+            "lines": {
+                "Kengir Rail": {
+                    "Cyan (Euphrates)": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[15989, -3956], [15997, -3939]]
+            ]
+        },
+        {
+            "name": "Kish",
+            "id": 1089,
+            "x": 16433,
+            "z": -3799,
+            "lines": {
+                "Kengir Rail": {
+                    "Cyan (Euphrates)": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Agrabah Central",
+            "id": 1090,
+            "x": 16811,
+            "z": -3559,
+            "lines": {
+                "Kengir Rail": {
+                    "Cyan (Euphrates)": ["", "Main line"],
+                    "Orange (Arabian)": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[16790, -3575], [16831, -3542]]
+            ]
+        },
+        {
+            "name": "Mecca East",
+            "id": 1091,
+            "x": 14356,
+            "z": 586,
+            "lines": {
+                "Kengir Rail": {
+                    "Orange (Arabian)": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mecca",
+            "id": 1092,
+            "x": 14278,
+            "z": 586,
+            "lines": {
+                "Kengir Rail": {
+                    "Orange (Arabian)": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[14266, 577], [14287, 588]]
+            ]
         }
     ],
     "lines": {
@@ -16804,19 +16869,37 @@
                 }
             }
         },
-	
-        "KR": {
-            "Arabian": {
+        "Kengir Rail": {
+            "Orange (Arabian)": {
                 "prefix": "",
-                "code": "AR",
+                "code": "O-A",
                 "color": "F9801D",
                 "y": 40,
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [16827, -3558],
-                            [16827, 586],
-                            [14993, 586]
+                            [16828, -3580],
+                            [16828, 586],
+                            [14278, 586]
+                        ],
+                        "stations": []
+                    }
+                }
+            },
+            "Cyan (Euphrates)": {
+                "prefix": "",
+                "code": "O-A",
+                "color": "3AB3DA",
+                "y": 40,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [15990, -3951.5],
+                            [16433, -3951.5],
+                            [16433, -3585],
+                            [16753, -3585],
+                            [16753, -3571],
+                            [16831, -3571]
                         ],
                         "stations": []
                     }
