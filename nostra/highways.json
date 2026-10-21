@@ -43,8 +43,16 @@
                 "TNIH": {
                     "Siberia Main": ["", "Main line"],
                     "Karafuto": ["", "Main line"]
+                },
+                "Railways": {
+                    "Kitakaze Railways (Rail)": ["", ""]
                 }
-            }
+            },
+            "areas": [
+                [[51170, -17742], [51182, -17730]],
+                [[51141, -17750], [51182, -17729]]
+            ],
+            "notes": "Japanese: 北駅"
         },
         {
             "name": "Suzuman Mine",
@@ -13225,6 +13233,22 @@
                     "Red (Rail/Metro)": ["R02", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Kitakaze Mapart Drawing Board Eastern Gate",
+            "id": 1095,
+            "x": 51153.5,
+            "z": -17834.5,
+            "lines": {
+                "Railways": {
+                    "Kitakaze Railways (Rail)": ["", ""]
+                }
+            },
+            "areas": [
+                [[51152, -17839], [51161, -17830]],
+                [[51154, -17839], [51159, -17825]]
+            ],
+            "notes": "Japanese: 北風マップアート製図台東口駅"
         }
     ],
     "lines": {
@@ -16955,8 +16979,8 @@
             "Red (Rail/Metro)": {
                 "prefix": "[Rail] ",
                 "code": "R-M",
-                "color": "B02E26",
-                "y": 58,
+                "color": "D76056",
+                "y": "10",
                 "branches": {
                     "Main line": {
                         "vertices": [
@@ -18986,6 +19010,26 @@
                 }
             }
         },
-        "TCIU": {}
+        "TCIU": {},
+	    "Railways": {
+            "Kitakaze Railways (Rail)": {
+                "prefix": "[Rail] ",
+                "code": "北風",
+                "color": "D76056",
+                "y": "Various",
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [51168, -17746.5],
+                            [51138.5, -17746.5],
+                            [51138.5, -17752.5],
+                            [51153.5, -17752.5],
+                            [51153.5, -17837]
+                        ],
+                        "stations": [3, 1095]
+                    }
+                }
+            }
+        }
     }
 }
