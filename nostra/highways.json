@@ -13027,7 +13027,7 @@
             "z": -5482,
             "lines": {
                 "Amtrak": {
-                    "Volunteer": ["", "Ozark branch"]
+                    "Volunteer": ["", "Main line"]
                 }
             }
         },
@@ -15746,14 +15746,14 @@
 							[-32516, -5482],
 							[-32761, -5482]
                         ],
-                        "stations": [[1079, "Ozark branch"], 1081, 1082, 1083, 1084, [1085, "Knoxville branch"], 1087]
+                        "stations": [1078, [1079, "Ozark branch"], 1081, 1082, 1083, 1084, [1085, "Knoxville branch"], 1087]
                     },
                     "Ozark branch": {
                         "vertices": [
                             [-32516, -5482],
 							[-31663, -5482]
                         ],
-                        "stations": [1078, [1084, "Main line"], 1085]
+                        "stations": [[1079, "Main line"], 1080]
                     },
                     "Knoxville branch": {
                         "vertices": [
@@ -16882,7 +16882,7 @@
                             [16828, 586],
                             [14278, 586]
                         ],
-                        "stations": []
+                        "stations": [1088, 1089, 1090]
                     }
                 }
             },
@@ -16901,7 +16901,7 @@
                             [16753, -3571],
                             [16831, -3571]
                         ],
-                        "stations": []
+                        "stations": [1090, 1091, 1092]
                     }
                 }
             }
