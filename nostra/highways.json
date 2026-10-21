@@ -13249,6 +13249,17 @@
                 [[51154, -17839], [51159, -17825]]
             ],
             "notes": "Japanese: 北風マップアート製図台東口駅"
+        },
+        {
+            "name": "Nouvelle France (New France)",
+            "id": 1096,
+            "x": -28910,
+            "z": -9617,
+            "lines": {
+                "Amtrak": {
+                    "Wolverine": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -15886,11 +15897,11 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-							[-29453, -9617],
+							[-28910, -9617],
                             [-29720, -9617],
                             [-29720 , -7210]
                         ],
-                        "stations": [990, 919, [918, "Flint branch"], 917, [916, "Chicago branch"], 915, 900]
+                        "stations": [1096, 990, 919, [918, "Flint branch"], 917, [916, "Chicago branch"], 915, 900]
                     },
                     "Chicago branch": {
                         "vertices": [
