@@ -4130,7 +4130,8 @@
             "z": -21474.5,
             "lines": {
                 "TNIH": {
-                    "Far East Main": ["", "Main line"]
+                    "Far East Main": ["", "Main line"],
+                    "Kolyma": ["", "Main line"]
                 }
             }
         },
