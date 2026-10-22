@@ -62,7 +62,7 @@
             "z": -18248,
             "lines": {
                 "TNIH": {
-                    "Azur": ["", "Main line"]
+                    "Far East Main": ["", "Main line"]
                 }
             }
         },
@@ -74,7 +74,7 @@
             "z": -18894,
             "lines": {
                 "TNIH": {
-                    "Azur": ["", "Main line"]
+                    "Far East Main": ["", "Main line"]
                 }
             }
         },
@@ -86,7 +86,7 @@
             "z": -19868,
             "lines": {
                 "TNIH": {
-                    "Azur": ["", "Main line"]
+                    "Far East Main": ["", "Main line"]
                 }
             }
         },
@@ -97,7 +97,7 @@
             "z": -21051,
             "lines": {
                 "TNIH": {
-                    "Kolyma": ["", "Cosmopol connector branch"],
+                    "Far East Main": ["", "Main line"],
                     "Azur": ["", "Main line"]
                 }
             }
@@ -226,7 +226,7 @@
             "z": -21474.5,
             "lines": {
                 "TNIH": {
-                    "Kolyma": ["", "Cosmopol connector branch"]
+                    "Far East Main": ["", "Main line"]
                 }
             },
             "notes": "Entrance at X=52481, Y=63, Z=-21486"
@@ -238,7 +238,7 @@
             "z": -21893.5,
             "lines": {
                 "TNIH": {
-                    "Kolyma": ["", "Main line"]
+                    "Far East Main": ["", "Main line"]
                 }
             }
         },
@@ -436,7 +436,7 @@
             "lines": {
                 "TNIH": {
                     "Siberia Main": ["", "Main line"],
-                    "Sakha": ["", "Main line"]
+                    "Sakha Main": ["", "Main line"]
                 }
             }
         },
@@ -447,7 +447,7 @@
             "z": -17822,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Main line"]
+                    "Sakha Main": ["", "Main line"]
                 },
                 "Yakutia Metro": {
                     "Industrial": ["", ""],
@@ -558,7 +558,7 @@
             "z": -21954,
             "lines": {
                 "TNIH": {
-                    "Kolyma": ["", "Main line"],
+                    "Far East Main": ["", "Main line"],
                     "Heartnorth": ["", "Southern section"]
                 }
             }
@@ -740,7 +740,7 @@
             "z": -22476,
             "lines": {
                 "TNIH": {
-                    "Kolyma": ["", "Main line"]
+                    "Far East Main": ["", "Main line"]
                 }
             }
         },
@@ -752,7 +752,7 @@
             "z": -22675,
             "lines": {
                 "TNIH": {
-                    "Kolyma": ["", "Main line to Yakutsk branch"]
+                    "Far East Main": ["", "Main line to Yakutsk branch"]
                 }
             }
         },
@@ -763,7 +763,7 @@
             "z": -22675,
             "lines": {
                 "TNIH": {
-                    "Kolyma": ["", "Yakutsk branch"]
+                    "Far East Main": ["", "Yakutsk branch"]
                 }
             }
         },
@@ -819,7 +819,7 @@
             "z": -23834.5,
             "lines": {
                 "TNIH": {
-                    "Kolyma": ["", "Main line"]
+                    "Far East Main": ["", "Main line"]
                 }
             }
         },
@@ -1744,7 +1744,7 @@
             "z": -18532,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Main line"]
+                    "Sakha Main": ["", "Main line"]
                 }
             }
         },
@@ -1755,7 +1755,7 @@
             "z": -20364,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Main line"]
+                    "Sakha Main": ["", "Main line"]
                 }
             }
         },
@@ -1791,7 +1791,7 @@
             "z": -20091.5,
             "lines": {
                 "TNIH": {
-                    "Azur": ["", "Main line to New Xenia branch"]
+                    "Far East Main": ["", "Main line to New Xenia branch"]
                 }
             }
         },
@@ -1802,7 +1802,7 @@
             "z": -20091.5,
             "lines": {
                 "TNIH": {
-                    "Azur": ["", "New Xenia branch"]
+                    "Far East Main": ["", "New Xenia branch"]
                 }
             }
         },
@@ -2027,7 +2027,7 @@
             "z": -20540,
             "lines": {
                 "TNIH": {
-                    "Azur": ["", "Main line to Kortemark branch"]
+                    "Far East Main": ["", "Main line to Kortemark branch"]
                 }
             }
         },
@@ -2039,7 +2039,7 @@
             "z": -20540,
             "lines": {
                 "TNIH": {
-                    "Azur": ["", "Kortemark branch"]
+                    "Far East Main": ["", "Kortemark branch"]
                 }
             }
         },
@@ -2050,7 +2050,7 @@
             "z": -20540,
             "lines": {
                 "TNIH": {
-                    "Azur": ["", "Kortemark branch"]
+                    "Far East Main": ["", "Kortemark branch"]
                 }
             }
         },
@@ -2086,7 +2086,7 @@
             "lines": {
                 "TNIH": {
                     "Siberia Main": ["", "Main line"],
-                    "Azur": ["", "Main line"]
+                    "Far East Main": ["", "Main line"]
                 }
             }
         },
@@ -3270,7 +3270,7 @@
             "z": -18889,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Main line to Yarika branch"]
+                    "Sakha Main": ["", "Main line to Yarika branch"]
                 }
             }
         },
@@ -3281,7 +3281,7 @@
             "z": -18889,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Yarika branch"]
+                    "Sakha Main": ["", "Yarika branch"]
                 }
             }
         },
@@ -3481,7 +3481,7 @@
             "z": -20349,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Main line to Lensk branch"]
+                    "Sakha Main": ["", "Main line to Lensk branch"]
                 }
             }
         },
@@ -3492,7 +3492,7 @@
             "z": -20872,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Main line"]
+                    "Sakha Main": ["", "Main line"]
                 }
             }
         },
@@ -3831,7 +3831,7 @@
             "z": -21310,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Main line"]
+                    "Sakha Main": ["", "Main line"]
                 }
             }
         },
@@ -3984,7 +3984,7 @@
             "z": -23834.5,
             "lines": {
                 "TNIH": {
-                    "Kolyma": ["", "Main line"],
+                    "Far East Main": ["", "Main line"],
                     "Heartnorth": ["", "Northern section"]
                 }
             }
@@ -4130,7 +4130,7 @@
             "z": -21474.5,
             "lines": {
                 "TNIH": {
-                    "Kolyma": ["", "Main line to Cosmopol connector branch"]
+                    "Far East Main": ["", "Main line"]
                 }
             }
         },
@@ -4142,7 +4142,7 @@
             "z": -20364,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Main line to Lensk branch"]
+                    "Sakha Main": ["", "Main line to Lensk branch"]
                 }
             }
         },
@@ -4153,7 +4153,7 @@
             "z": -21064,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Lensk branch"]
+                    "Sakha Main": ["", "Lensk branch"]
                 }
             }
         },
@@ -4165,7 +4165,7 @@
             "z": -19169,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Main line"],
+                    "Sakha Main": ["", "Main line"],
                     "Lena": ["", "Main line"]
                 }
             }
@@ -4409,7 +4409,7 @@
             "z": -23834.5,
             "lines": {
                 "TNIH": {
-                    "Kolyma": ["", "Main line"],
+                    "Far East Main": ["", "Main line"],
                     "Heartnorth": ["", "Future City branch"]
                 }
             }
@@ -6410,7 +6410,7 @@
             "z": -20364,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Main line to Zerovka branch"]
+                    "Sakha Main": ["", "Main line to Zerovka branch"]
                 }
             }
         },
@@ -6421,7 +6421,7 @@
             "z": -23214,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Zerovka branch"]
+                    "Sakha Main": ["", "Zerovka branch"]
                 }
             }
         },
@@ -6515,7 +6515,7 @@
             "z": -17000,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Main line"]
+                    "Sakha Main": ["", "Main line"]
                 }
             }
         },
@@ -6526,7 +6526,7 @@
             "z": -13833,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Main line"]
+                    "Sakha Main": ["", "Main line"]
                 }
             }
         },
@@ -7175,7 +7175,7 @@
             "z": -22557,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Main line"]
+                    "Sakha Main": ["", "Main line"]
                 }
             }
         },
@@ -7260,7 +7260,7 @@
             "z": -13899,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Main line to Berkakit branch"]
+                    "Sakha Main": ["", "Main line to Berkakit branch"]
                 }
             }
         },
@@ -7271,7 +7271,7 @@
             "z": -13844,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Berkakit branch"]
+                    "Sakha Main": ["", "Berkakit branch"]
                 }
             }
         },
@@ -7283,7 +7283,7 @@
             "z": -13899,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Main line to USG branch"]
+                    "Sakha Main": ["", "Main line to USG branch"]
                 }
             }
         },
@@ -7294,7 +7294,7 @@
             "z": -13558,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "USG branch"]
+                    "Sakha Main": ["", "USG branch"]
                 }
             }
         },
@@ -7600,7 +7600,7 @@
             "z": -20649,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Lensk branch to Fort St Svetlana branch"]
+                    "Sakha Main": ["", "Lensk branch to Fort St Svetlana branch"]
                 }
             }
         },
@@ -7611,7 +7611,7 @@
             "z": -20681,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Fort St Svetlana branch"]
+                    "Sakha Main": ["", "Fort St Svetlana branch"]
                 }
             }
         },
@@ -7940,7 +7940,7 @@
             "z": -21310,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Main line"],
+                    "Sakha Main": ["", "Main line"],
                     "Azur": ["", "Main line"]
                 }
             }
@@ -11856,7 +11856,6 @@
         },
         {
             "name": "Havukruunu",
-            "type": "jct",
             "id": 979,
             "x": 11624,
             "z": -21193,
@@ -11900,7 +11899,7 @@
             "z": -13899,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Berkakit branch to Ponikos branch"]
+                    "Sakha Main": ["", "Berkakit branch to Ponikos branch"]
                 }
             }
         },
@@ -11911,7 +11910,7 @@
             "z": -12738,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Ponikos branch"]
+                    "Sakha Main": ["", "Ponikos branch"]
                 }
             }
         },
@@ -11944,7 +11943,7 @@
             "z": -13531,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Main line"]
+                    "Sakha Main": ["", "Main line"]
                 }
             }
         },
@@ -11968,7 +11967,7 @@
             "lines": {
                 "TNIH": {
                     "Karafuto": ["", "Main line"],
-                    "Sakha": ["", "Main line"]
+                    "Sakha Main": ["", "Main line"]
                 }
             }
         },
@@ -12166,7 +12165,7 @@
             "z": -24076,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Zerovka branch"]
+                    "Sakha Main": ["", "Zerovka branch"]
                 }
             }
         },
@@ -12177,7 +12176,7 @@
             "z": -24076,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Zerovka branch"]
+                    "Sakha Main": ["", "Zerovka branch"]
                 }
             }
         },
@@ -12978,7 +12977,7 @@
             "z": -18889,
             "lines": {
                 "TNIH": {
-                    "Sakha": ["", "Yarika branch to Yarika-Bestyakh connector"]
+                    "Sakha Main": ["", "Yarika branch to Yarika-Bestyakh connector"]
                 }
             }
         },
@@ -12991,7 +12990,7 @@
             "lines": {
                 "TNIH": {
                     "Lena": ["", "Main line"],
-                    "Sakha": ["", "Yarika-Bestyakh connector"]
+                    "Sakha Main": ["", "Yarika-Bestyakh connector"]
                 }
             }
         },
@@ -13394,6 +13393,45 @@
                     }
                 }
             },
+            "Far East Main": {
+                "prefix": "",
+                "code": "FE",
+                "color": "3A4F6A",
+                "y": 10,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [52339.5, -17731.5],
+                            [52339.5, -21474.5],
+                            [52960.5, -21474.5],
+                            [52960.5, -23834.5],
+                            [50681, -23834.5]
+                        ],
+                        "stations": [178, 4, 5, 6, [152, "New Xenia branch"], [173, "Kortemark branch"], 7, 18, 352, 19, 46, 62, [63, "Yakutsk branch"], 69, 375, 340]
+                    },
+                    "New Xenia branch": {
+                        "vertices": [
+                            [52339.5, -20091.5],
+                            [51660, -20091.5]
+                        ],
+                        "stations": [[152, "Main line"], 153]
+                    },
+                    "Kortemark branch": {
+                        "vertices": [
+                            [52339.5, -20540],
+                            [52863, -20540]
+                        ],
+                        "stations": [[173, "Main line"], 174, 175]
+                    },
+                     "Yakutsk branch": {
+                        "vertices": [
+                            [52960.5, -22675],
+                            [53065, -22675]
+                        ],
+                        "stations": [[63, "Main line"], 64]
+                    }
+                }
+            },
             "Kamchatka Main": {
                 "prefix": "",
                 "code": "KC",
@@ -13512,7 +13550,7 @@
                     }
                 }
             },
-            "Sakha": {
+            "Sakha Main": {
                 "prefix": "",
                 "code": "SK",
                 "color": "089AFF",
@@ -13741,8 +13779,6 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [50681, -23834.5],
-                            [52960.5, -23834.5],
                             [52960.5, -21474.5],
                             [52960.5, -21460],
                             [56272, -21460],
@@ -13751,22 +13787,7 @@
                             [60261, -21890],
                             [60261, -22246]
                         ],
-                        "stations": [340, 375, 69, [63, "Yakutsk branch"], 62, 46, 19, [352, "Cosmopol connector branch"], 351, 331, 332, 367, 368]
-                    },
-                     "Yakutsk branch": {
-                        "vertices": [
-                            [52960.5, -22675],
-                            [53065, -22675]
-                        ],
-                        "stations": [[63, "Main line"], 64]
-                    },
-                    "Cosmopol connector branch": {
-                        "vertices": [
-                            [52339.5, -21051.5],
-                            [52339.5, -21475.5],
-                            [52960.5, -21474.5]
-                        ],
-                        "stations": [[352, "Main line"], 18, 7]
+                        "stations": [352, 351, 331, 332, 367, 368]
                     }
                 }
             },
@@ -13781,24 +13802,9 @@
                             [48565, -21310],
                             [49220, -21310],
                             [49220, -21051],
-                            [52339.5, -21051.5],
-                            [52339.5, -17731.5]
+                            [52339.5, -21051]
                         ],
-                        "stations": [657, 658, 659, 691, 8, 7, [173, "Kortemark branch"], [152, "New Xenia branch"], 6, 5, 4, 178]
-                    },
-                    "New Xenia branch": {
-                        "vertices": [
-                            [52339.5, -20091.5],
-                            [51660, -20091.5]
-                        ],
-                        "stations": [[152, "Main line"], 153]
-                    },
-                    "Kortemark branch": {
-                        "vertices": [
-                            [52339.5, -20540],
-                            [52863, -20540]
-                        ],
-                        "stations": [[173, "Main line"], 174, 175]
+                        "stations": [657, 658, 659, 691, 8, 7]
                     }
                 }
             },
