@@ -13062,7 +13062,7 @@
             "lines": {
                 "Amtrak": {
                     "Volunteer": ["", "Ozark branch"],
-					"City of New Orleans": ["", "Northbound and Southbound tubes"]
+					"City of New Orleans": ["", "Northbound Disc and Southbound Disc"]
                 }
             }
         },
@@ -13075,7 +13075,7 @@
             "lines": {
                 "Amtrak": {
                     "Volunteer": ["", "Main line"],
-					"City of New Orleans": ["", "Northbound and Southbound disc"]
+					"City of New Orleans": ["", "Northbound Disc and Southbound Disc"]
                 }
             }
         },
@@ -13260,6 +13260,29 @@
                     "Wolverine": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Itai",
+            "id": 1097,
+            "x": 60000,
+            "z": -17731.5,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Cadere Mine",
+            "type": "semi3",
+            "id": 1098,
+            "x": 60685.5,
+            "z": -17731.5,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -13284,12 +13307,12 @@
                             [51178.5, -17732],
                             [51178.5, -17731.5],
                             [52339.5, -17731.5],
-                            [59982, -17731.5]
+                            [61406, -17731.5]
                         ],
                         "stations": [816, 875, [878, "Iceland branch"], 753, 1030, 1031, [493, "Poice branch"], 384, 559, 1032, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"],
                                      578, 501, 500, 580, 965, 968, 503, [958, "Simograd branch"], 504, [505, "Poikovskii branch"], 406, [382, "Campfine branch"], 508,
                                      [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, [213, "Tapagonia branch"], 90, [1056, "Titicaca branch"], 85, [146, "Yakutia Industrial branch"], 36,
-                                    [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 179, 1026, 1053, 1027]
+                                    [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 179, 1026, 1053, 1027, 1097, 1098]
                     },
                     "Iceland branch": {
                         "vertices": [
@@ -15817,10 +15840,10 @@
                     },
                     "Ozark branch": {
                         "vertices": [
-                            [-32516, -5482],
+                            [-32761, -5482],
 							[-31663, -5482]
                         ],
-                        "stations": [1078, [1084, "Main line"], 1085]
+                        "stations": [1078, [1079, "Main line"], 1080]
                     },
                     "Knoxville branch": {
                         "vertices": [
@@ -18636,8 +18659,8 @@
                             [3392, -16021],
                             [3392, -16023],
                             [3333, -16023],
-                            [3333, -16117],
-                            [3329, -16117],
+                            [3333, -16117, "U-turn at Skien"],
+                            [3329, -16117, "U-turn at Skien"],
                             [3329, -16019],
                             [3373, -16019],
                             [3373, -16017],
