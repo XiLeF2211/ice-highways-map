@@ -375,7 +375,8 @@ function showLine(companyName, lineName, line) {
     goToTab('line')
     goToDetails('line')
 
-    document.getElementById('line-name').textContent = (companyName != '' ? companyName + ': ' : '') + lineName + ' line'
+    document.getElementById('line-company').textContent = (companyName != '' ? companyName + ': ' : '');
+    document.getElementById('line-name').textContent = lineName + ' line'
     document.getElementById('line-name').addEventListener('click', () => {
         if (history.pushState) {
             let newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?line=' + lineName + '&company=' + companyName;
@@ -383,8 +384,12 @@ function showLine(companyName, lineName, line) {
         }
     });
     document.getElementById('line-notes').innerHTML = `${line.notes ? line.notes : ''}`
-    if (line.code.length > 0) document.getElementById('line-code').textContent = `Code: ${line.code}`
-    else document.getElementById('line-code').textContent = ''
+    if (line.code.length > 0) {
+        document.getElementById('line-code').innerHTML = `Code: <span id="line-badge" class="badge"></span>`;
+        document.getElementById('line-badge').textContent = line.code;
+        document.getElementById('line-badge').style.backgroundColor = '#' + line.color;
+    }
+    else document.getElementById('line-code').innerHTML = ''
     document.getElementById('line-y').textContent = `y-level (ice block level) at ${line.y}`
     document.getElementById('line-stations').innerHTML = ''
     for (const branch of Object.keys(line.branches)) {

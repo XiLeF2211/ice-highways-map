@@ -168,6 +168,10 @@ dl> :nth-of-type(2n) {
     padding: 0 3rem;
 }
 
+.info {
+    margin: 0;
+}
+
 .back {
     position: absolute;
     top: 10px;
@@ -177,8 +181,14 @@ dl> :nth-of-type(2n) {
     padding: 0;
 }
 
+#line-company {
+    margin: 0;
+}
+
 #line-name {
+    margin-top: 0;
     position: relative;
+    font-size: 20px;
 }
 
 #line-name:hover {
@@ -221,11 +231,13 @@ dl> :nth-of-type(2n) {
     padding: 20px;
     background-color: var(--secondary-color);
     color: var(--text-color);
+    overflow: scroll;
 }
 
 #station-name {
     position: relative;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 #station-name:hover {

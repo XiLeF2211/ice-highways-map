@@ -79,10 +79,10 @@
                 <div id="station-details" class="details">
                     <p class="back" onclick="goBackHistory()">[<]</p>
                     <h1 id="station-name"></h1>
-                    <p id="station-notes"></p>
-                    <p id="station-location"></p>
-                    <p id="elevator-ys"></p>
-                    <div id="station-codes"></div>
+                    <p id="station-notes" class="info"></p>
+                    <p id="station-location" class="info"></p>
+                    <p id="elevator-ys" class="info"></p>
+                    <div id="station-codes" class="info"></div>
                 </div>
             </div>
             <div id="line" class="section" style="display:none;padding: 3em 0em 0em 0em">
@@ -96,11 +96,12 @@
                 </div>
                 <div id="line-details" class="details">
                     <p class="back" onclick="goBackHistory()">[<]</p>
+                    <em><p id="line-company"></p></em>
                     <h1 id="line-name"></h1>
-                    <p id="line-notes"></p>
-                    <p id="line-code"></p>
-                    <p id="line-y"></p>
-                    <hr>
+                    <p id="line-notes" class="info"></p>
+                    <p id="line-code" class="info"></p>
+                    <p id="line-y" class="info"></p>
+                    <hr style="margin-top:16px">
                     <div id="line-stations"></div>
                 </div>
             </div>
