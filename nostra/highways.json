@@ -13283,6 +13283,40 @@
                     "Siberia Main": ["", "Main line"]
                 }
             }
+        },
+        {
+            "name": "Ozoi coast",
+            "id": 1099,
+            "x": 62887.5,
+            "z": -17731.5,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Shingeki Mine",
+            "type": "semi3",
+            "id": 1100,
+            "x": 63424.5,
+            "z": -17731.5,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "East Border",
+            "id": 1101,
+            "x": 64511.5,
+            "z": -17731.5,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -13312,7 +13346,7 @@
                         "stations": [816, 875, [878, "Iceland branch"], 753, 1030, 1031, [493, "Poice branch"], 384, 559, 1032, 494, [495, "Finlandia branch"], [497, "Kuorevesi branch"],
                                      578, 501, 500, 580, 965, 968, 503, [958, "Simograd branch"], 504, [505, "Poikovskii branch"], 406, [382, "Campfine branch"], 508,
                                      [509, "Armas Y Libertad branch"], [511, "New Alteria branch"], 150, [213, "Tapagonia branch"], 90, [1056, "Titicaca branch"], 85, [146, "Yakutia Industrial branch"], 36,
-                                    [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 179, 1026, 1053, 1027, 1097, 1098]
+                                    [35, "New Farstead branch"], 328, 22, [20, "Willsden branch"], 3, 178, 179, 1026, 1053, 1027, 1097, 1098, 1099, 1100, 1101]
                     },
                     "Iceland branch": {
                         "vertices": [
