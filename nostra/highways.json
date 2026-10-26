@@ -13466,6 +13466,29 @@
                     "Junzhou-Beibuwan": ["", "Guigang branch"]
                 }
             }
+        },
+        {
+            "name": "Sebyan JCT",
+            "type": "jct",
+            "id": 1115,
+            "x": 46368,
+            "z": -19695,
+            "lines": {
+                "TNIH": {
+                    "Sakha Main": ["", "Main line to Sebyan branch"]
+                }
+            }
+        },
+        {
+            "name": "Sebyan",
+            "id": 1116,
+            "x": 46299.5,
+            "z": -19677,
+            "lines": {
+                "TNIH": {
+                    "Sakha Main": ["", "Sebyan branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -13788,7 +13811,7 @@
                             [48565, -21310],
                             [48565, -22641]
                         ],
-                        "stations": [988, 986, 549, [605, "USG branch"], [603, "Berkakit branch"], 548, 36, 37, 148, [279, "Yarika branch"], 355, [297, "Lensk branch"], [539, "Zerovka branch"], 149, [353, "Lensk branch"], 298, 327, 657, 596]
+                        "stations": [988, 986, 549, [605, "USG branch"], [603, "Berkakit branch"], 548, 36, 37, 148, [279, "Yarika branch"], 355, [1115, "Yarika branch"], [297, "Lensk branch"], [539, "Zerovka branch"], 149, [353, "Lensk branch"], 298, 327, 657, 596]
                     },
                     "USG branch": {
                         "vertices": [
@@ -13856,6 +13879,14 @@
                             [45285, -19169]
                         ],
                         "stations": [[1073, "Yarika branch"], 1074]
+                    },
+                    "Sebyan branch": {
+                        "vertices": [
+                            [46368, -19695],
+                            [46299.5, -19695],
+                            [46299.5, -19677]
+                        ],
+                        "stations": [[1115, "Main line"], 1116]
                     }
                 }
             },
