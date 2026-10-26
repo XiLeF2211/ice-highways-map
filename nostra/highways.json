@@ -8088,7 +8088,7 @@
             "lines": {
                 "China": {
                     "Baoji-Guiyang": ["", "Main line"],
-                    "Baoji-Zhumadian": ["", "Xianyang Metro Branch"]
+                    "Baoji-Zhumadian": ["", "Xianyang Metro branch"]
                 }
             }
         },
@@ -9366,7 +9366,7 @@
             "z": -5050,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian": ["", "Main line to Krown-Citadel Branch"]
+                    "Baoji-Zhumadian": ["", "Main line to Krown-Citadel branch"]
                 }
             }
         },
@@ -9389,7 +9389,7 @@
             "z": -5050,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian": ["", "Main line to Xianyang Metro Branch"]
+                    "Baoji-Zhumadian": ["", "Main line to Xianyang Metro branch"]
                 }
             }
         },
@@ -9412,7 +9412,7 @@
             "z": -5050,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian": ["", "Main line to Bilibili Branch to Changan Branch"]
+                    "Baoji-Zhumadian": ["", "Main line to Bilibili branch to Changan branch"]
                 }
             }
         },
@@ -9424,7 +9424,7 @@
             "z": -5050,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian": ["", "Main line to Zhumadian Branch"]
+                    "Baoji-Zhumadian": ["", "Main line to Zhumadian branch"]
                 }
             }
         },
@@ -9452,7 +9452,7 @@
             "y2": 66,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian": ["", "Xianyang Metro Branch"]
+                    "Baoji-Zhumadian": ["", "Xianyang Metro branch"]
                 }
             }
         },
@@ -9463,7 +9463,7 @@
             "z": -4901,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian": ["", "Xianyang Metro Branch"]
+                    "Baoji-Zhumadian": ["", "Xianyang Metro branch"]
                 }
             }
         },
@@ -9477,7 +9477,7 @@
             ],
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian": ["", "Xianyang Metro Branch"]
+                    "Baoji-Zhumadian": ["", "Xianyang Metro branch"]
                 }
             }
         },
@@ -9488,7 +9488,7 @@
             "z": -5213,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian": ["", "Bilibili Branch"]
+                    "Baoji-Zhumadian": ["", "Bilibili branch"]
                 }
             }
         },
@@ -9502,7 +9502,7 @@
             "y2": 80,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian": ["", "Bilibili Branch"]
+                    "Baoji-Zhumadian": ["", "Bilibili branch"]
                 }
             }
         },
@@ -9513,7 +9513,7 @@
             "z": -4945,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian": ["", "Changan Branch"]
+                    "Baoji-Zhumadian": ["", "Changan branch"]
                 }
             }
         },
@@ -9527,7 +9527,7 @@
             ],
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian": ["", "Zhumadian Branch"]
+                    "Baoji-Zhumadian": ["", "Zhumadian branch"]
                 }
             }
         },
@@ -9542,7 +9542,7 @@
                     "Eastern": ["", "Main line"]
                 },
                 "China": {
-                    "Baoji-Zhumadian": ["", "Krown-Citadel Branch"]
+                    "Baoji-Zhumadian": ["", "Krown-Citadel branch"]
                 }
             }
         },
@@ -9556,7 +9556,7 @@
             "y2": 110,
             "lines": {
                 "China": {
-                    "Baoji-Zhumadian": ["", "Krown-Citadel Branch"]
+                    "Baoji-Zhumadian": ["", "Krown-Citadel branch"]
                 }
             }
         },
@@ -13181,7 +13181,7 @@
                     "Cyan (Euphrates)": ["", "Main line"],
                     "Orange (Arabian)": ["", "Main line"],
                     "Red (Rail/Metro)": ["R03", "Main line"],
-                    "Pink (Rail/Metro)": ["P03", "Main line"]
+                    "Pink (Rail/Metro)": ["Pi03", "Main line"]
                 }
             },
             "areas": [
@@ -13395,7 +13395,7 @@
             "z": -3621.5,
             "lines": {
                 "Kengir Rail": {
-                    "Pink (Rail/Metro)": ["P02", "Main line"]
+                    "Pink (Rail/Metro)": ["Pi03", "Main line"]
                 }
             }
         },
@@ -13406,18 +13406,64 @@
             "z": -3582.5,
             "lines": {
                 "Kengir Rail": {
-                    "Pink (Rail/Metro)": ["P02", "Main line"]
+                    "Pink (Rail/Metro)": ["Pi04", "Main line"]
                 }
             }
         },
         {
-            "name": "Nippur Sururbs (Ufuk)",
+            "name": "Ufuk",
             "id": 1110,
             "x": 16556.5,
             "z": -3594,
             "lines": {
                 "Kengir Rail": {
-                    "Pink (Rail/Metro)": ["P02", "Main line"]
+                    "Pink (Rail/Metro)": ["Pi05", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Tianshui JCT",
+            "type": "jct",
+            "id": 1111,
+            "x": 37923,
+            "z": -5050,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian": ["", "Krown-Citadel branch to Tianshui branch"]
+                }
+            }
+        },
+        {
+            "name": "Tianshui",
+            "id": 1112,
+            "x": 37923,
+            "z": -4964,
+            "lines": {
+                "China": {
+                    "Baoji-Zhumadian": ["", "Tianshui branch"]
+                }
+            }
+        },
+        {
+            "name": "Nanning JCT",
+            "type": "jct",
+            "id": 1113,
+            "x": 38825,
+            "z": -438,
+            "lines": {
+                "China": {
+                    "Junzhou-Beibuwan": ["", "Main line to Guigang branch"]
+                }
+            }
+        },
+        {
+            "name": "Guigang",
+            "id": 1114,
+            "x": 39291,
+            "z": -438,
+            "lines": {
+                "China": {
+                    "Junzhou-Beibuwan": ["", "Guigang branch"]
                 }
             }
         }
@@ -16578,7 +16624,7 @@
                             [39499, -5076],
                             [39590, -5076]
                         ],
-                        "stations": [[668, "South Baoji branch"], [775, "Krown-Citadel Branch"], 776, [777, "Xianyang Metro Branch"], 778, [779, "Bilibili Branch", "Changan Branch"], [780, "Zhumadian Branch"], 781, 907]
+                        "stations": [[668, "South Baoji branch"], [775, "Krown-Citadel branch"], 776, [777, "Xianyang Metro branch"], 778, [779, "Bilibili branch", "Changan branch"], [780, "Zhumadian branch"], 781, 907]
                     },
                     "South Baoji branch": {
                         "vertices": [
@@ -16591,7 +16637,7 @@
                         ],
                         "stations": [[668, "Main line"], 890]
                     },
-                    "Xianyang Metro Branch": {
+                    "Xianyang Metro branch": {
                         "vertices": [
                             [38853, -5050],
                             [38853, -4455],
@@ -16599,29 +16645,36 @@
                         ],
                         "stations": [[777, "Main line"], 782, 783, 784, 669]
                     },
-                    "Bilibili Branch": {
+                    "Bilibili branch": {
                         "vertices": [
                             [39127, -5050],
                             [39127, -5329]
                         ],
-                        "stations": [[779, "Main line", "Changan Branch"], 785, 786]
+                        "stations": [[779, "Main line", "Changan branch"], 785, 786]
                     },
-                    "Changan Branch": {
+                    "Changan branch": {
                         "vertices": [
                             [39127, -5050],
                             [39127, -4945]
                         ],
-                        "stations": [[779, "Main line", "Bilibili Branch"], 787]
+                        "stations": [[779, "Main line", "Bilibili branch"], 787]
                     },
-                    "Krown-Citadel Branch": {
+                    "Krown-Citadel branch": {
                         "vertices": [
                             [38341, -5050],
                             [37410, -5050],
                             [37410, -5089]
                         ],
-                        "stations": [[775, "Main line"], 790, 789]
+                        "stations": [[775, "Main line"], [775, "Tianshui branch"], 790, 789]
                     },
-                    "Zhumadian Branch": {
+                    "Tianshui branch": {
+                        "vertices": [
+                            [37923, -5050],
+                            [37923, -4964]
+                        ],
+                        "stations": [[1111, "Krown-Citadel branch"], 1112]
+                    },
+                    "Zhumadian branch": {
                         "vertices": [
                             [39205, -5050],
                             [39205, -4955]
@@ -16729,7 +16782,7 @@
                             [38825, 174],
                             [38721, 174]
                         ],
-                        "stations": [672, 656, [686, "Gobi Transport connector"], 689, 690]
+                        "stations": [672, 656, [686, "Gobi Transport connector"], [1113, "Guigang branch"], 689, 690]
                     },
                     "Guiyang East Elevator": {
                         "vertices": [
@@ -16738,6 +16791,13 @@
                             [38845, -1815]
                         ],
                         "stations": [[686, "Main line"], 687, 688]
+                    },
+                    "Guigang branch": {
+                        "vertices": [
+                            [38825, -438],
+                            [39291, -438]
+                        ],
+                        "stations": [[1113, "Main line"], 1114]
                     }
                 }
             },
