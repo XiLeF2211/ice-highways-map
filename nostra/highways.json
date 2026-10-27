@@ -5190,7 +5190,8 @@
             "z": -16904,
             "lines": {
                 "Vy (Norway Ice Boat System)": {
-                    "Lower North": ["", "Brookieston branch"]
+                    "Lower North": ["", "Brookieston branch"],
+                    "Upper Central": ["", "Northern Route"]
                 }
             }
         },
@@ -13489,6 +13490,81 @@
                     "Sakha Main": ["", "Sebyan branch"]
                 }
             }
+        },
+        {
+            "name": "Raufoss Elevator",
+            "type": "elev-we",
+            "id": 1117,
+            "x": 3449,
+            "z": -16857,
+            "y1": 65,
+            "y2": 75,
+            "lines": {
+                "Vy (Norway Ice Boat System)": {
+                    "Upper Central": ["", "Northern Route"]
+                }
+            },
+            "areas": [
+                [[3448, -16854], [3450, -16860]]
+            ]
+        },
+        {
+            "name": "Mjosa",
+            "id": 1118,
+            "x": 3713,
+            "z": -16904,
+            "lines": {
+                "Vy (Norway Ice Boat System)": {
+                    "Upper Central": ["", "Northern Route"]
+                }
+            }
+        },
+        {
+            "name": "Kongsberg JCT",
+            "type": "jct",
+            "id": 1119,
+            "x": 4344,
+            "z": -16618,
+            "lines": {
+                "Vy (Norway Ice Boat System)": {
+                    "Sweden": ["", "Main line to Oslo-Gothenburg"]
+                }
+            }
+        },
+        {
+            "name": "Årjäng JCT",
+            "type": "jct",
+            "id": 1120,
+            "x": 4344,
+            "z": -16311,
+            "lines": {
+                "Vy (Norway Ice Boat System)": {
+                    "Sweden": ["", "Oslo-Gothenburg"]
+                }
+            }
+        },
+        {
+            "name": "Årjäng East JCT",
+            "type": "jct",
+            "id": 1121,
+            "x": 4408,
+            "z": -16311,
+            "lines": {
+                "Vy (Norway Ice Boat System)": {
+                    "Sweden": ["", "Main line to Oslo-Gothenburg"]
+                }
+            }
+        },
+        {
+            "name": "Gothenburg (Y=65)",
+            "id": 1122,
+            "x": 4344,
+            "z": -15382,
+            "lines": {
+                "Vy (Norway Ice Boat System)": {
+                    "Sweden": ["", "Oslo-Gothenburg"]
+                }
+            }
         }
     ],
     "lines": {
@@ -13959,7 +14035,7 @@
                             [54008, -16081],
                             [54276.5, -16081]
                         ],
-                        "stations": [178, 179, 1026, 180, 181, 182, 183, 861, 881, 883]
+                        "stations": [1026, 180, 181, 182, 183, 861, 881, 883]
                     }
                 }
             },
@@ -18137,13 +18213,20 @@
                             [2214, -17661],
                             [3446, -17661],
                             [3446, -16855],
+                            [3454, -16855],
+                            [3454, -16904],
+                            [3873, -16904],
+                            [3454, -16904],
+                            [3454, -16859],
+                            [3446, -16859],
+                            [3446, -16855],
                             [3442, -16855],
                             [3442, -17657],
                             [2218, -17657],
                             [2218, -16926],
                             [2214, -16926]
                         ],
-                        "stations": [[692, "Main line"], 693, 694, [695, "Vestnes Kommune branch"], 1047, 696, 697, 698, [699, "Main line"]]
+                        "stations": [440, 1118, 1117, [692, "Main line"], 693, 694, [695, "Vestnes Kommune branch"], 1047, 696, 697, 698, [699, "Main line"]]
                     },
                     "Finse station platforms": {
                         "vertices": [
@@ -18447,7 +18530,7 @@
                 "prefix": "",
                 "code": "L-N",
                 "color": "cc6300",
-                "y": "64",
+                "y": "65",
                 "branches": {
                     "Main line": {
                         "vertices": [
@@ -18794,7 +18877,7 @@
                             [3982, -16598]
 
                         ],
-                        "stations": [[448, "Oslo-Ed Bypass"], 717, 718, 719, 720, 721, 722, 723, 724, [838, "Drottningstad branch"], 725, 583]
+                        "stations": [[448, "Oslo-Ed Bypass"], 717, 718, 719, [1119, "Oslo-Gothenburg"], 720, [1121, "Oslo-Gothenburg"], 721, 722, 723, 724, [838, "Drottningstad branch"], 725, 583]
                     },
                     "Gothenburg line": {
                         "vertices": [
@@ -18833,6 +18916,19 @@
                             [5619, -16247]
                         ],
                         "stations": [[838, "Main line"], 839]
+                    },
+                    "Oslo-Gothenburg": {
+                        "vertices": [
+                            [4346, -16620],
+                            [4346, -15382],
+                            [4342, -15382],
+                            [4342, -16620],
+                            [4342, -16313],
+                            [4410, -16313],
+                            [4410, -16309],
+                            [4342, -16309]
+                        ],
+                        "stations": [[1119, "Main line"], 1120, [1121, "Main line"], 1120, 1122]
                     }
                 }
             },
@@ -19111,6 +19207,29 @@
                             [2680, -15587]
                         ],
                         "stations": [[433, "1st line and 2nd line"], 423]
+                    }
+                }
+            },
+            "Underground": {
+                "prefix": "",
+                "code": "UG",
+                "color": "efefef",
+                "y": -62,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [1994, -16113],
+                            [1994, -15966]
+                        ],
+                        "stations": []
+                    },
+                    "Main line2": {
+                        "vertices": [
+                            [2425, -17799],
+                            [1969, -17799],
+                            [1969, -16839]
+                        ],
+                        "stations": []
                     }
                 }
             }
