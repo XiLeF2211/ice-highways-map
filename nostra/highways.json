@@ -13568,6 +13568,62 @@
                     "Sweden": ["", "Oslo-Gothenburg"]
                 }
             }
+        },
+        {
+            "name": "Taymyr North Coast",
+            "id": 1123,
+            "x": 34661,
+            "z": -26446,
+            "lines": {
+                "Intercontinental": {
+                    "Tunguska-Arctic": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "UpTheWahs",
+            "id": 1124,
+            "x": 34661,
+            "z": -22570,
+            "lines": {
+                "Intercontinental": {
+                    "Tunguska-Arctic": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Nizhnyaya JCT",
+            "type": "jct",
+            "id": 1125,
+            "x": 34661,
+            "z": -21700,
+            "lines": {
+                "Intercontinental": {
+                    "Tunguska-Arctic": ["", "Main line to Arveria branch"]
+                }
+            }
+        },
+        {
+            "name": "Arveria",
+            "id": 1126,
+            "x": 34277,
+            "z": -21700,
+            "lines": {
+                "Intercontinental": {
+                    "Tunguska-Arctic": ["", "Arveria branch"]
+                }
+            }
+        },
+        {
+            "name": "Nizhnyaya Tunguska",
+            "id": 1127,
+            "x": 34661,
+            "z": -21608,
+            "lines": {
+                "Intercontinental": {
+                    "Tunguska-Arctic": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -17861,6 +17917,28 @@
                             [18966.5, -2005]
                         ],
                         "stations": [[1043, "Main line"], 1044]
+                    }
+                }
+            },
+            "Tunguska-Arctic": {
+                "prefix": "",
+                "code": "T-A",
+                "color": "A0A0A0",
+                "y": 64,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [34661, -26446],
+                            [34661, -21608]
+                        ],
+                        "stations": [1123, 1124, [1125, "Arveria branch"], 1127]
+                    },
+                    "Arveria branch": {
+                        "vertices": [
+                            [34661, -21700],
+                            [34277, -21700]
+                        ],
+                        "stations": [[1125, "Main line"], 1126]
                     }
                 }
             }
