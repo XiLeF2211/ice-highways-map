@@ -4387,20 +4387,8 @@
             }
         },
         {
-            "name": "Philadelphia (30th Street)",
-            "id": 374,
-            "x": -27133,
-            "z": -7216,
-            "lines": {
-                "Amtrak": {
-                    "Atlantic": ["", "Westbound Tube to Eastbound Tube"]
-                }
-            },
-            "areas": [
-                [[-27132, -7222], [-27134, -7210]],
-                [[-27080, -7215], [-27134, -7217]],
-                [[-27082, -7207], [-27080, -7217]]
-            ]
+            "name": "Defunct Philadelphia (30th Street)",
+            "id": 374
         },
         {
             "name": "Baylon JCT",
@@ -11554,7 +11542,7 @@
             }
         },
         {
-            "name": "Market / 30th St.",
+            "name": "Philadelphia - 30th Street Station",
             "id": 954,
             "x": -27129,
             "z": -7209,
@@ -11562,6 +11550,9 @@
                 "SEPTA": {
                     "L": ["", ""],
                     "T": ["", ""]
+                },
+                "Amtrak": {
+                    "Atlantic": ["", "Westbound Tube to Eastbound Tube"]
                 }
             }
         },
@@ -12070,7 +12061,7 @@
             }
         },
         {
-            "name": "Owls JCT",
+            "name": "Owls South JCT",
             "id": 997,
             "type": "jct",
             "x": -34803,
@@ -12088,7 +12079,7 @@
             "z": -9972,
             "lines": {
 				"Amtrak": {
-					"Borealis": ["", "Main line"]
+					"Borealis": ["", "Main line to NEO branch"]
 				}
             }
         },
@@ -13622,6 +13613,101 @@
             "lines": {
                 "Intercontinental": {
                     "Tunguska-Arctic": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Columbia North JCT",
+            "id": 1128,
+			"type": "jct",
+            "x": -33188,
+            "z": -7216,
+            "lines": {
+                "Amtrak": {
+                    "Atlantic": ["", "Eastbound to Westbound tube"],
+					"Columbia": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Columbia South JCT",
+            "id": 1129,
+			"type": "jct",
+            "x": -33188,
+            "z": -7195,
+            "lines": {
+                "Amtrak": {
+                    "Borealis": ["", "Columbia branch"],
+					"Columbia": ["", ""]
+                }
+            }
+        },
+        {
+            "name": "Sioux Center JCT",
+            "id": 1130,
+			"type": "jct",
+            "x": -34803,
+            "z": -8525,
+            "lines": {
+                "Amtrak": {
+                    "Borealis": ["", "Main line to Sioux Center branch"]
+                }
+            }
+        },
+        {
+            "name": "Sioux Center, SD",
+            "id": 1131,
+            "x": -34676,
+            "z": -8525,
+            "lines": {
+                "Amtrak": {
+                    "Borealis": ["", "Sioux Center branch"]
+                }
+            }
+        },
+        {
+            "name": "Arorium JCT",
+            "id": 1132,
+			"type": "jct",
+            "x": -34803,
+            "z": -8891,
+            "lines": {
+                "Amtrak": {
+                    "Borealis": ["", "Main line to Arorium branch"]
+                }
+            }
+        },
+        {
+            "name": "Owls North JCT",
+            "id": 1133,
+			"type": "jct",
+            "x": -34803,
+            "z": -9972,
+            "lines": {
+                "Amtrak": {
+                    "Borealis": ["", "Main line to Canadian branch"]
+                }
+            }
+        },
+        {
+            "name": "Chillville, Canada",
+            "id": 1134,
+            "x": -35295,
+            "z": -11476,
+            "lines": {
+                "Amtrak": {
+                    "Borealis": ["", "Canadian branch"]
+                }
+            }
+        },
+        {
+            "name": "North East Owls, MN",
+            "id": 1135,
+            "x": -33535,
+            "z": -10742,
+            "lines": {
+                "Amtrak": {
+                    "Borealis": ["", "Straumheim branch"]
                 }
             }
         }
@@ -16071,19 +16157,29 @@
                 "branches": {
                     "Westbound Tube": {
                         "vertices": [
-                            [-31680, -7222],
+							[-33200, -7222],
+							[-32904, -7222],
+							[-32904, -7152],
+							[-32904, -7144],
+							[-32586, -7144],
+                            [-32586, -7222],
                             [-24770, -7222]
                         ],
-                        "stations": [[898, "Eastbound Tube"], [899, "Eastbound Tube"], [900, "Eastbound Tube"], 901, [902, "Eastbound Tube"], 369, [370, "Eastbound Tube"], 371, 372, 373, [374, "Eastbound Tube"], [902, "Eastbound Tube"], [991, "Eastbound Tube"]]
+                        "stations": [[1128, "Eastbound Tube"], [898, "Eastbound Tube"], [899, "Eastbound Tube"], [900, "Eastbound Tube"], 901, [902, "Eastbound Tube"], 369, [370, "Eastbound Tube"], 371, 372, 373, [954, "Eastbound Tube"], [902, "Eastbound Tube"], [991, "Eastbound Tube"]]
                     },
                     "Eastbound Tube": {
                         "vertices": [
-                            [-31680, -7210],
+							[-33200, -7210],
+							[-32906, -7210],
+							[-32906, -7152],
+							[-32906, -7142],
+							[-32584, -7142],
+                            [-32584, -7210],
                             [-25857, -7210],
 							[-25857, -7220],
 							[-24770, -7220]
                         ],
-                        "stations": [[898, "Westbound Tube"], [899, "Westbound Tube"], [900, "Westbound Tube"], 901, [902, "Westbound Tube"], 369, [370, "Westbound Tube"], 377, 378, 379, [374, "Westbound Tube"], 381, [902, "Westbound Tube"], [991, "Westbound Tube"]]
+                        "stations": [[1128, "Westbound Tube"], [898, "Westbound Tube"], [899, "Westbound Tube"], [900, "Westbound Tube"], 901, [902, "Westbound Tube"], 369, [370, "Westbound Tube"], 377, 378, 379, [954, "Westbound Tube"], 381, [902, "Westbound Tube"], [991, "Westbound Tube"]]
                     }
                 }
             },
@@ -16326,7 +16422,7 @@
 							[-33927, -7315],
 							[-33927, -6791]
                         ],
-                        "stations": [[996, "Minneapolis branch"], 998, 999, [997, "Minneapolis branch"], [1000, "Columbia branch"], 1001]
+                        "stations": [[996, "Minneapolis branch"], 998, [1133, "Canadian branch"], 999, [997, "Minneapolis branch"], [1132, "Arorium branch"], [1130, "Sioux Center branch"], [1000, "Columbia branch"], 1001]
                     },
 					"Minneapolis branch": {
                         "vertices": [
@@ -16338,11 +16434,65 @@
 					"Columbia branch": {
                         "vertices": [
                             [-33927, -7195],
-							[-33187, -7195],
-							[-33187, -6991]
+							[-33188, -7195]
                         ],
-                        "stations": [[1000, "Main line"], 1002]
+                        "stations": [[1000, "Main line"], 1129]
+					},
+					"Sioux branch": {
+                        "vertices": [
+                            [-34676, -8525],
+							[-34803, -8525]
+                        ],
+                        "stations": [[1130, "Main line"], 1131]
+					},
+					"Arorium branch": {
+                        "vertices": [
+                            [-36095, -8855],
+							[-35722, -8855],
+							[-35722, -8891],
+                            [-35221, -8891],
+							[-35221, -8930],
+							[-35221, -8891],
+							[-34803, -8891]
+                        ],
+                        "stations": [[1132, "Main line"]]
+					},
+					"Canadian branch": {
+                        "vertices": [
+                            [-35295, -11476],
+							[-34803, -11476],
+							[-34803, -9972]
+                        ],
+                        "stations": [1134, [1133, "Main line"]]
+					},
+					"Straumheim branch": {
+                        "vertices": [
+                            [-33836, -9972],
+							[-33836, -10383],
+							[-33820, -10383],
+							[-33820, -10407],
+							[-33774, -10407],
+							[-33774, -10510],
+							[-33535, -10510],
+							[-33535, -10742]
+                        ],
+                        "stations": [[998, "Main line"], 1135]
 					}
+                }
+            },
+            "Columbia": {
+                "prefix": "",
+                "code": "COL",
+                "color": "9999ff",
+                "y": 8,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-33188, -7222],
+                            [-33188, -6977]
+                        ],
+                        "stations": [1128, 1129, 1002]
+                    }
                 }
             }
         },
