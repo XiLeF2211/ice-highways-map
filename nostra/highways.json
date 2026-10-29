@@ -12078,7 +12078,7 @@
             "z": -9972,
             "lines": {
 				"Amtrak": {
-					"Borealis": ["", "Main line to NEO branch"]
+					"Borealis": ["", "Main line to North East Owls branch"]
 				}
             }
         },
@@ -12123,7 +12123,7 @@
             "z": -6991,
             "lines": {
 				"Amtrak": {
-					"Borealis": ["", "Columbia branch"]
+					"Columbia": ["", ""]
 				}
             }
         },
@@ -13706,7 +13706,7 @@
             "z": -10742,
             "lines": {
                 "Amtrak": {
-                    "Borealis": ["", "Straumheim branch"]
+                    "Borealis": ["", "North East Owls branch"]
                 }
             }
         }
@@ -16437,7 +16437,7 @@
                         ],
                         "stations": [[1000, "Main line"], 1129]
 					},
-					"Sioux branch": {
+					"Sioux Center branch": {
                         "vertices": [
                             [-34676, -8525],
 							[-34803, -8525]
@@ -16464,7 +16464,7 @@
                         ],
                         "stations": [1134, [1133, "Main line"]]
 					},
-					"Straumheim branch": {
+					"North East Owls branch": {
                         "vertices": [
                             [-33836, -9972],
 							[-33836, -10383],
