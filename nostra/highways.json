@@ -13709,6 +13709,39 @@
                     "Borealis": ["", "North East Owls branch"]
                 }
             }
+        },
+        {
+            "name": "Stoner Town",
+            "id": 1136,
+            "x": 43273,
+            "z": -18555,
+            "lines": {
+                "TNIH": {
+                    "Lena": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Kyznogorsk",
+            "id": 1137,
+            "x": 48565,
+            "z": -22264,
+            "lines": {
+                "TNIH": {
+                    "Sakha Main": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Port Yana",
+            "id": 1138,
+            "x": 48910,
+            "z": -23454,
+            "lines": {
+                "TNIH": {
+                    "Sakha Main": ["", "Main line"]
+                }
+            }
         }
     ],
     "lines": {
@@ -14029,9 +14062,10 @@
                             [47540, -20364],
                             [47540, -21310],
                             [48565, -21310],
-                            [48565, -22641]
+                            [48565, -23454],
+                            [48910, -23454]
                         ],
-                        "stations": [988, 986, 549, [605, "USG branch"], [603, "Berkakit branch"], 548, 36, 37, 148, [279, "Yarika branch"], 355, [1115, "Yarika branch"], [297, "Lensk branch"], [539, "Zerovka branch"], 149, [353, "Lensk branch"], 298, 327, 657, 596]
+                        "stations": [988, 986, 549, [605, "USG branch"], [603, "Berkakit branch"], 548, 36, 37, 148, [279, "Yarika branch"], 355, [1115, "Yarika branch"], [297, "Lensk branch"], [539, "Zerovka branch"], 149, [353, "Lensk branch"], 298, 327, 657, 1137, 596, 1138]
                     },
                     "USG branch": {
                         "vertices": [
@@ -14321,7 +14355,7 @@
                             [40667, -14216.5],
                             [39121.5, -14216.5]
                         ],
-                        "stations": [[355, "Main line"], 356, 1074, [1054, "Bestyakh branch"], 1055, 1075, 1076, 1057, [1058, "Bestyakh branch"], 90, 91, 92, 812, 813, 814, 815, 891, [892, "Freiburg branch"], [515, "Angoya branch"], 514]
+                        "stations": [[355, "Main line"], 356, 1074, [1054, "Bestyakh branch"], 1055, 1075, 1076, 1136, 1057, [1058, "Bestyakh branch"], 90, 91, 92, 812, 813, 814, 815, 891, [892, "Freiburg branch"], [515, "Angoya branch"], 514]
                     },
                     "Bestyakh branch": {
                         "vertices": [
