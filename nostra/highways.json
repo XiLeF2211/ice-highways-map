@@ -13623,7 +13623,7 @@
             "z": -7216,
             "lines": {
                 "Amtrak": {
-                    "Atlantic": ["", "Eastbound to Westbound tube"],
+                    "Atlantic": ["", "Eastbound Tube to Westbound Tube"],
 					"Columbia": ["", ""]
                 }
             }

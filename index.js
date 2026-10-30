@@ -601,14 +601,18 @@ function openFilter(filterName) {
 
 function findPath(start, end) {
     const path = pathfinder.pathfind(start, end);
+    let ul = document.createElement('ul');
     let prevLine = "";
     for (let station of path[0]) {
         let li = document.createElement('li');
-        if (station[1] == prevLine) li.innerText = currentData.stations[station[0]].name;
+        li.classList.add('station-item');
+        li.setAttribute('style', `--line-color: #${currentData.lines[station[1]][station[2]].color}`);
+        if (station[1] + station[2] + station[3] == prevLine) li.innerText = currentData.stations[station[0]].name;
         else li.innerText = "switch to " + station[1] + " " +  currentData.stations[station[0]].name;
-        prevLine = station[1];
-        document.getElementById('path-list').appendChild(li);
+        prevLine = station[1] + station[2] + station[3];
+        ul.appendChild(li);
     }
+    document.getElementById('path-list').appendChild(ul);
     renderPath(path[0].map(e => e[0]));
 }
 

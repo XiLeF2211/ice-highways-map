@@ -40,7 +40,7 @@
         </div>
         <div id="bar"></div>
         <div id="content">
-            <div id="main" class="section">
+            <div id="main" class="section details">
                 <h1>EarthMC Ice Highway Map</h1>
                 <p>
                     A WIP map of all ice highways on EarthMC.<br>
@@ -55,14 +55,11 @@
                 <p id="data-error"></p>
                 <p>
                 Use the pathfinder to find the shortest path between two stations (Might be inaccurate).</p>
-                <br>
                 <label for="start">Start station ID:</label>
-                <input id="start-station" name="start" type="number"></inpu>
-                <br><br>
+                <input id="start-station" name="start" type="number" style="margin:0 3rem;"></input><br>
                 <label for="end">End station ID:</label>
-                <input id="end-station" name="end" type="number"></input>
-                <br><br>
-                <button onclick="findPath(document.getElementById('start-station').value, document.getElementById('end-station').value)">Find path</button>
+                <input id="end-station" name="end" type="number" style="margin:0 3rem;"></input><br>
+                <button onclick="findPath(document.getElementById('start-station').value, document.getElementById('end-station').value)" style="margin:0 3rem;">Find path</button>
                 <div id="path-list">
                     
                 </div>
@@ -105,7 +102,7 @@
                     <div id="line-stations"></div>
                 </div>
             </div>
-            <div id="settings" class="section" style="display:none">
+            <div id="settings" class="section details" style="display:none">
                 <p>Reload the page for any setting changes to go into effect. I promise I will make this page look better ;-;.</p>
                 <input
                     type="range"
@@ -118,7 +115,7 @@
                 <button onclick="window.location.reload();">Reload page (to apply settings)</button>
                 <button onclick="localStorage.clear(); window.location.reload();">Reset settings</button>
             </div>
-            <div id="developers" class="section" style="display:none">
+            <div id="developers" class="section details" style="display:none">
                 <p>If you would like to contribute data, the repository is <a href="https://github.com/XiLeF2211/ice-highways-map">XiLeF2211/ice-highways-map</a></p><hr>
                 <div id="custom-jsons-container">
                     <p>Add JSON data files with highway data and preview it. This is <em><strong>purely visual</strong></em>, and the information (coordinates, connections, etc.) for these stations and lines from these files will not be visible in the sidebar.</p>
@@ -127,7 +124,7 @@
                     <div id="custom-json-list"></div>
                 </div>
             </div>
-            <div id="credits" class="section" style="display:none">
+            <div id="credits" class="section details" style="display:none">
                 <h1>Credits</h1>
                 <p>                    
                     Thank you to the following people for their data contributions to the project:<br><hr><br>

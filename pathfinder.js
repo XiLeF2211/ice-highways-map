@@ -16,7 +16,7 @@ class Pathfinder {
                         // console.log(data.lines[company][line].branches)
                         // console.log(branch)
                         if (!Object.hasOwn(data.lines[company][line].branches, branch)) {
-                            errorMessage.innerText = `Error: line ${company}.${line}.${branch} has null stations (station ${station.id} (${station.name}))`;
+                            errorMessage.innerHTML += `Error: line ${company}.${line}.${branch} has null stations (station ${station.id} (${station.name}))<br>`;
                             console.warn(`Error: line ${company}.${line}.${branch} has null stations (station ${station.id} (${station.name}))`);
                             console.log("hi)");
                             continue;
@@ -27,22 +27,39 @@ class Pathfinder {
                             if (typeof element !== "string") actualStations.push(element);
                         });
                         // console.log(actualStations);
+                        let n = actualStations.length;
+                        let circular = false;
                         let index = actualStations.indexOf(station.id);
+                        if (index == 0 && actualStations[n - 1] == station.id) circular = true;
+                        let count = 0;
+                        for (let branchStation of branchStations) if (branchStation == station.id) count++;
+                        if (count > 1 + (circular ? 1 : 0)) {
+                            errorMessage.innerHTML += `Error: station ${station.id} (${station.name}) is duplicated in non-loop line ${company}.${line}.${branch} stations<br>`;
+                            console.warn(`Error: station ${station.id} (${station.name}) is duplicated in non-loop line ${company}.${line}.${branch} stations`);
+                            continue;
+                        }
                         if (index == -1) {
-                            errorMessage.innerText = `Error: station ${station.id} (${station.name}) not found in line ${company}.${line}.${branch} stations`;
+                            errorMessage.innerText += `Error: station ${station.id} (${station.name}) not found in line ${company}.${line}.${branch} stations`;
                             console.warn(`Error: station ${station.id} (${station.name}) not found in line ${company}.${line}.${branch} stations`);
                             continue;
                         }
-                        let n = actualStations.length;
                         // console.log(station.id + " " + company + " " + line + " " + branch + " " + index);
                         if (n > 1) {
                             if (index == 0)
-                                reachable[stations[actualStations[1]].id] = [Math.abs(station.x - stations[actualStations[1]].x) + Math.abs(station.z - stations[actualStations[1]].z), `${company}: ${line}: ${branch}`];
+                                if (circular) {
+                                    reachable[stations[actualStations[1]].id] = [Math.abs(station.x - stations[actualStations[1]].x) + Math.abs(station.z - stations[actualStations[1]].z), company, line, branch];
+                                    reachable[stations[actualStations[n - 1]].id] = [Math.abs(station.x - stations[actualStations[n - 1]].x) + Math.abs(station.z - stations[actualStations[n - 1]].z), company, line, branch];
+                                } else
+                                    reachable[stations[actualStations[1]].id] = [Math.abs(station.x - stations[actualStations[1]].x) + Math.abs(station.z - stations[actualStations[1]].z), company, line, branch];
                             else if (index == n - 1)
-                                reachable[stations[actualStations[n - 2]].id] = [Math.abs(station.x - stations[actualStations[n - 2]].x) + Math.abs(station.z - stations[actualStations[n - 2]].z), `${company}: ${line}: ${branch}`];
+                                if (circular) {
+                                    reachable[stations[actualStations[0]].id] = [Math.abs(station.x - stations[actualStations[0]].x) + Math.abs(station.z - stations[actualStations[0]].z), company, line, branch];
+                                    reachable[stations[actualStations[n - 2]].id] = [Math.abs(station.x - stations[actualStations[n - 2]].x) + Math.abs(station.z - stations[actualStations[n - 2]].z), company, line, branch];
+                                } else
+                                    reachable[stations[actualStations[n - 2]].id] = [Math.abs(station.x - stations[actualStations[n - 2]].x) + Math.abs(station.z - stations[actualStations[n - 2]].z), company, line, branch];
                             else {
-                                reachable[stations[actualStations[index + 1]].id] = [Math.abs(station.x - stations[actualStations[index + 1]].x) + Math.abs(station.z - stations[actualStations[index + 1]].z),`${company}: ${line}: ${branch}`];
-                                reachable[stations[actualStations[index - 1]].id] = [Math.abs(station.x - stations[actualStations[index - 1]].x) + Math.abs(station.z - stations[actualStations[index - 1]].z), `${company}: ${line}: ${branch}`];
+                                reachable[stations[actualStations[index + 1]].id] = [Math.abs(station.x - stations[actualStations[index + 1]].x) + Math.abs(station.z - stations[actualStations[index + 1]].z),company, line, branch];
+                                reachable[stations[actualStations[index - 1]].id] = [Math.abs(station.x - stations[actualStations[index - 1]].x) + Math.abs(station.z - stations[actualStations[index - 1]].z), company, line, branch];
                             }
                         }
                     }
@@ -72,7 +89,7 @@ class Pathfinder {
                 if (!Object.keys(distances).includes(child) || distance < distances[child]) {
                     distances[child] = distance;
                     visited.push(child);
-                    previous[child] = [Number(current), this.graph[current][child][1]];
+                    previous[child] = [Number(current), this.graph[current][child][1], this.graph[current][child][2], this.graph[current][child][3]];
                 }
             }
         }
@@ -80,7 +97,7 @@ class Pathfinder {
         const path = [];
 
         console.log(previous);
-        for (let at = [end, previous[end][1]]; at != null; at = previous[at[0]]) {
+        for (let at = [Number(end), previous[end][1], previous[end][2], previous[end][3]]; at != null; at = previous[at[0]]) {
             path.push(at);
         }
 
