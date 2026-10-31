@@ -13754,7 +13754,122 @@
                     "L": ["", ""]
                 }
             }
-        }
+        },
+		{
+			"name": "St. John, Acadia",
+			"id": 1140,
+			"x": -23718,
+			"z": -9449,
+			"lines": {
+				"Acadia": {
+					"Acadia Line": ["", "Main line"]
+				}
+			}
+		},
+		{
+			"name": "Mont Tremblant Green Line",
+			"id": 1141,
+			"x": -26441,
+			"z": -9449,
+			"lines": {
+				"Acadia": {
+					"Acadia Line": ["", "Main line"]
+				}
+			}
+		},
+		{
+			"name": "Montreal, Acadia",
+			"id": 1142,
+			"x": -26615,
+			"z": -9449,
+			"lines": {
+				"Acadia": {
+					"Acadia Line": ["", "Main line"]
+				}
+			}
+		},
+		{
+			"name": "Nova Scotia JCT",
+			"id": 1143,
+			"type": "jct",
+			"x": -22722,
+			"z": -9449,
+			"lines": {
+				"Acadia": {
+					"Acadia Line": ["", "Main line to Prince Edward branch"]
+				}
+			}
+		},
+		{
+			"name": "Charlottetown, Acadia",
+			"id": 1144,
+			"x": -22722,
+			"z": -9871,
+			"lines": {
+				"Acadia": {
+					"Acadia Line": ["", "Prince Edward branch"]
+				}
+			}
+		},
+		{
+			"name": "St Lawrence JCT",
+			"id": 1145,
+			"type": "jct",
+			"x": -22722,
+			"z": -10121,
+			"lines": {
+				"Acadia": {
+					"Acadia Line": ["", "Prince Edward branch to St Lawrence branch"]
+				}
+			}
+		},
+		{
+			"name": "Grand Falls JCT",
+			"id": 1146,
+			"type": "jct",
+			"x": -24552,
+			"z": -10121,
+			"lines": {
+				"Acadia": {
+					"Acadia Line": ["", "St Lawrence branch to Maine branch"]
+				}
+			}
+		},
+		{
+			"name": "Maine JCT",
+			"id": 1147,
+			"type": "jct",
+			"x": -24552,
+			"z": -9449,
+			"lines": {
+				"Acadia": {
+					"Acadia Line": ["", "Main line to Maine branch"]
+				}
+			}
+		},
+		{
+			"name": "Augusta JCT",
+			"id": 1148,
+			"type": "jct",
+			"x": -24952,
+			"z": -9449,
+			"lines": {
+				"Acadia": {
+					"Acadia Line": ["", "Main line to Newport branch"]
+				}
+			}
+		},
+		{
+			"name": "Augusta, Acadia",
+			"id": 1149,
+			"x": -24952,
+			"z": -8915,
+			"lines": {
+				"Acadia": {
+					"Acadia Line": ["", "Newport branch"]
+				}
+			}
+		}
     ],
     "lines": {
         "TNIH": {
@@ -19785,6 +19900,53 @@
             }
         },
         "TCIU": {},
+		"Acadia": {
+			"Acadia Line": {
+				"prefix": "",
+                "code": "ACA",
+                "color": "cf142b",
+                "y": 9,
+                "branches": {
+					"Main line": {
+						"vertices": [
+							[-26615, -9449],
+							[-22097, -9449]
+						],
+						"stations": [1140, 1141, 1142, [1148, "Newport branch"], [1143, "Prince Edward branch"], [1147, "Maine branch"]]
+					},
+					"Prince Edward branch": {
+						"vertices": [
+							[-22722, -9449],
+							[-22722, -10121]
+						],
+						"stations": [[1143, "Main line"], 1144, [1145, "St Lawrence branch"]]
+					},
+					"St Lawrence branch": {
+						"vertices": [
+							[-21738, -10121],
+							[-24552, -10121]
+						],
+						"stations": [[1145, "Prince Edward branch"], [1146, "Maine branch"]]
+					},
+					"Maine branch": {
+						"vertices": [
+							[-24552, -11824],
+							[-24552, -9449]
+						],
+						"stations": [[1146, "St Lawrence branch"], [1147, "Main line"]]
+					},
+					"Newport branch": {
+						"vertices": [
+							[-24952, -9449],
+							[-24952, -7577],
+							[-25448, -7577],
+							[-25448, -7776]
+						],
+						"stations": [[1148, "Main line"], 1149, [992, "Cape Codder"]]
+					}
+				}
+			}
+		},
 	    "Railways": {
             "Kitakaze Railways (Rail)": {
                 "prefix": "[Rail] ",
