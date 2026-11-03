@@ -13869,6 +13869,42 @@
 					"Acadia Line": ["", "Newport branch"]
 				}
 			}
+		},
+        {
+			"name": "Sisirak",
+			"id": 1150,
+			"x": 21377,
+			"z": -7739,
+			"lines": {
+				"Intercontinental": {
+					"Uzbekistan": ["", "Sisirak branch"]
+				}
+			}
+		},
+        {
+			"name": "West Tashkent Elevator",
+			"id": 1151,
+            "type": "elev-we",
+            "y1": 73,
+            "y2": 72,
+			"x": 24111,
+			"z": -7739,
+			"lines": {
+				"Intercontinental": {
+					"Uzbekistan": ["", "Sisirak branch"]
+				}
+			}
+		},
+        {
+			"name": "Tashkent",
+			"id": 1152,
+			"x": 24702,
+			"z": -7739,
+			"lines": {
+				"Intercontinental": {
+					"Uzbekistan": ["", "Sisirak branch"]
+				}
+			}
 		}
     ],
     "lines": {
@@ -13881,7 +13917,7 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [-23460, -17732],
+                            [-33472, -17732],
                             [-2594, -17732],
                             [-2594, -17794],
                             [-2495, -17794],
@@ -18253,6 +18289,21 @@
                         "stations": [[1125, "Main line"], 1126]
                     }
                 }
+            },
+            "Uzbekistan": {
+                "prefix": "",
+                "code": "UZ",
+                "color": "FFFF2A",
+                "y": "72, 73",
+                "branches": {
+                    "Sisirak line": {
+                        "vertices": [
+                            [21377, -7739],
+                            [24702, -7739]
+                        ],
+                        "stations": [1150, 1151, 1152]
+                    }
+                }
             }
         },
         "NZ Ministry of Infrastructure": {
@@ -19642,29 +19693,6 @@
                             [2680, -15587]
                         ],
                         "stations": [[433, "1st line and 2nd line"], 423]
-                    }
-                }
-            },
-            "Underground": {
-                "prefix": "",
-                "code": "UG",
-                "color": "efefef",
-                "y": -62,
-                "branches": {
-                    "Main line": {
-                        "vertices": [
-                            [1994, -16113],
-                            [1994, -15966]
-                        ],
-                        "stations": []
-                    },
-                    "Main line2": {
-                        "vertices": [
-                            [2425, -17799],
-                            [1969, -17799],
-                            [1969, -16839]
-                        ],
-                        "stations": []
                     }
                 }
             }
