@@ -12009,6 +12009,9 @@
             "lines": {
                 "Amtrak": {
                     "Cape Codder": ["", ""]
+                },
+                "Acadia": {
+                    "Acadia Line": ["", "Newport branch"]
                 }
             }
         },
@@ -13631,7 +13634,17 @@
             }
         },
         {
-            "id": 1129
+            "name": "Columbia South JCT",
+            "id": 1129,
+			"type": "jct",
+            "x": -33188,
+            "z": -7195,
+            "lines": {
+                "Amtrak": {
+                    "Borealis": ["", "Columbia branch"],
+					"Columbia": ["", ""]
+                }
+            }
         },
         {
             "name": "Sioux Center JCT",
@@ -19963,7 +19976,7 @@
 							[-25448, -7577],
 							[-25448, -7776]
 						],
-						"stations": [[1148, "Main line"], 1149, [992, "Cape Codder"]]
+						"stations": [[1148, "Main line"], 1149, 992]
 					}
 				}
 			}
