@@ -4514,7 +4514,7 @@
             "z": -7333,
             "lines": {
                 "Amtrak": {
-                    "Old Capitol Limited": ["", ""],
+                    "Old Amtrak": ["", "Old Capitol Limited"],
 					"Pennsylvanian": ["", ""]
                 }
             }
@@ -10935,7 +10935,7 @@
             "lines": {
                 "Amtrak": {
 					"Cardinal": ["", ""],
-                    "Old Capitol Limited": ["", ""]
+                    "Old Amtrak": ["", "Old Capitol Limited"]
                 }
             }
         },
@@ -11073,7 +11073,7 @@
             "z": -7333,
             "lines": {
                 "Amtrak": {
-                    "Old Capitol Limited": ["", ""],
+                    "Old Amtrak": ["", "Old Capitol Limited"],
                     "Wolverine": ["", "Main line"]
                 }
             }
@@ -12095,14 +12095,15 @@
             }
         },
         {
-            "name": "Owls-Columbia JCT",
+            "name": "Kansas City JCT",
             "id": 1000,
             "type": "jct",
             "x": -33927,
-            "z": -7194,
+            "z": -7212.5,
             "lines": {
 				"Amtrak": {
-					"Borealis": ["", "Main line to Columbia branch"]
+					"Borealis": ["", "Main line"],
+					"Atlantic": ["", "Eastbound to Westbound tubes"]
 				}
             }
         },
@@ -12120,8 +12121,8 @@
         {
             "name": "Columbia, MO",
             "id": 1002,
-            "x": -33187,
-            "z": -6991,
+            "x": -33188,
+            "z": -6995,
             "lines": {
 				"Amtrak": {
 					"Columbia": ["", ""]
@@ -13617,7 +13618,7 @@
             }
         },
         {
-            "name": "Columbia North JCT",
+            "name": "Columbia JCT",
             "id": 1128,
 			"type": "jct",
             "x": -33188,
@@ -13630,17 +13631,7 @@
             }
         },
         {
-            "name": "Columbia South JCT",
-            "id": 1129,
-			"type": "jct",
-            "x": -33188,
-            "z": -7195,
-            "lines": {
-                "Amtrak": {
-                    "Borealis": ["", "Columbia branch"],
-					"Columbia": ["", ""]
-                }
-            }
+            "id": 1129
         },
         {
             "name": "Sioux Center JCT",
@@ -16355,6 +16346,9 @@
                 "branches": {
                     "Westbound Tube": {
                         "vertices": [
+							[-33927, -7215],
+							[-33822, -7215],
+							[-33822, -7222],
 							[-33200, -7222],
 							[-32904, -7222],
 							[-32904, -7152],
@@ -16363,11 +16357,11 @@
                             [-32586, -7222],
                             [-24770, -7222]
                         ],
-                        "stations": [[1128, "Eastbound Tube"], [898, "Eastbound Tube"], [899, "Eastbound Tube"], [900, "Eastbound Tube"], 901, [902, "Eastbound Tube"], 369, [370, "Eastbound Tube"], 371, 372, 373, [954, "Eastbound Tube"], [902, "Eastbound Tube"], [991, "Eastbound Tube"]]
+                        "stations": [[1000, "Eastbound Tube"], [1128, "Eastbound Tube"], [898, "Eastbound Tube"], [899, "Eastbound Tube"], [900, "Eastbound Tube"], 901, [902, "Eastbound Tube"], 369, [370, "Eastbound Tube"], 371, 372, 373, [954, "Eastbound Tube"], [902, "Eastbound Tube"], [991, "Eastbound Tube"]]
                     },
                     "Eastbound Tube": {
                         "vertices": [
-							[-33200, -7210],
+							[-33927, -7210],
 							[-32906, -7210],
 							[-32906, -7152],
 							[-32906, -7142],
@@ -16377,7 +16371,7 @@
 							[-25857, -7220],
 							[-24770, -7220]
                         ],
-                        "stations": [[1128, "Westbound Tube"], [898, "Westbound Tube"], [899, "Westbound Tube"], [900, "Westbound Tube"], 901, [902, "Westbound Tube"], 369, [370, "Westbound Tube"], 377, 378, 379, [954, "Westbound Tube"], 381, [902, "Westbound Tube"], [991, "Westbound Tube"]]
+                        "stations": [[1000, "Westbound Tube"], [1128, "Westbound Tube"], [898, "Westbound Tube"], [899, "Westbound Tube"], [900, "Westbound Tube"], 901, [902, "Westbound Tube"], 369, [370, "Westbound Tube"], 377, 378, 379, [954, "Westbound Tube"], 381, [902, "Westbound Tube"], [991, "Westbound Tube"]]
                     }
                 }
             },
@@ -16507,19 +16501,25 @@
                     }
                 }
             },
-            "Old Capitol Limited": {
+            "Old Amtrak": {
                 "prefix": "",
-                "code": "CAP",
+                "code": "DEFUNCT",
                 "color": "818589",
                 "y": 8,
                 "branches": {
-                    "": {
+                    "Old Capitol Limited": {
                         "vertices": [
                             [-27326, -7333],
                             [-30202, -7333],
                             [-30202, -7739]
                         ],
                         "stations": [904, 915, 385]
+                    },
+                    "Old Borealis": {
+                        "vertices": [
+                            [-33927, -7195],
+							[-33188, -7195]
+                        ]
                     }
                 }
             },
@@ -16620,7 +16620,7 @@
 							[-33927, -7315],
 							[-33927, -6791]
                         ],
-                        "stations": [[996, "Minneapolis branch"], 998, [1133, "Canadian branch"], 999, [997, "Minneapolis branch"], [1132, "Arorium branch"], [1130, "Sioux Center branch"], [1000, "Columbia branch"], 1001]
+                        "stations": [[996, "Minneapolis branch"], 998, [1133, "Canadian branch"], 999, [997, "Minneapolis branch"], [1132, "Arorium branch"], [1130, "Sioux Center branch"], 1000, 1001]
                     },
 					"Minneapolis branch": {
                         "vertices": [
@@ -16628,13 +16628,6 @@
 							[-33559, -9416]
                         ],
                         "stations": [[997, "Main line"], [996, "Main line"], 995]
-					},
-					"Columbia branch": {
-                        "vertices": [
-                            [-33927, -7195],
-							[-33188, -7195]
-                        ],
-                        "stations": [[1000, "Main line"], 1129]
 					},
 					"Sioux Center branch": {
                         "vertices": [
@@ -16687,9 +16680,9 @@
                     "": {
                         "vertices": [
                             [-33188, -7222],
-                            [-33188, -6977]
+                            [-33188, -6995]
                         ],
-                        "stations": [1128, 1129, 1002]
+                        "stations": [1128, 1002]
                     }
                 }
             }
@@ -19932,7 +19925,7 @@
 			"Acadia Line": {
 				"prefix": "",
                 "code": "ACA",
-                "color": "cf142b",
+                "color": "FFCCFF",
                 "y": 9,
                 "branches": {
 					"Main line": {
