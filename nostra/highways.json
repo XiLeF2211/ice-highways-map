@@ -139,11 +139,12 @@
         {
             "name": "Miami",
             "id": 11,
-            "x": -28742,
+            "x": -28740,
             "z": -1765,
             "lines": {
                 "Florida": {
-                    "Miami-Jacksonville": ["", "Main line"]
+                    "Miami-Jacksonville": ["", "Main line"],
+                    "Miami-Montego Bay": ["", "Main line"]
                 }
             }
         },
@@ -316,7 +317,7 @@
             "type": "jct",
             "id": 26,
             "x": -25857,
-            "z": 799,
+            "z": 791,
             "lines": {
                 "Florida": {
                     "Guama-Cockburn Harbour": ["", "Main line"],
@@ -325,7 +326,7 @@
             }
         },
         {
-            "name": "Port-au-Prince",
+            "name": "Hispaniola",
             "id": 27,
             "x": -25857,
             "z": 1258,
@@ -351,11 +352,11 @@
             "type": "jct",
             "id": 29,
             "x": -27569,
-            "z": 799,
+            "z": 791,
             "lines": {
                 "Florida": {
                     "Guama-Cockburn Harbour": ["", "Main line"],
-                    "Camaguey-Jamaica-Montego Bay": ["", "Main line"]
+                    "Miami-Montego Bay": ["", "Main line"]
                 }
             }
         },
@@ -364,7 +365,7 @@
             "type": "jct",
             "id": 30,
             "x": -26917,
-            "z": 799,
+            "z": 791,
             "lines": {
                 "Florida": {
                     "Guama-Cockburn Harbour": ["", "Main line to Guantanamo Bay branch"]
@@ -374,13 +375,14 @@
         {
             "name": "Camaguey",
             "id": 31,
-            "x": -27536,
+            "x": -27569,
             "z": 373,
             "lines": {
                 "Florida": {
-                    "Camaguey-Jamaica-Montego Bay": ["", "Main line"]
+                    "Miami-Montego Bay": ["", "Main line"]
                 }
-            }
+            },
+            "notes": "Entrance at X=-27536 Y=71 Z=373"
         },
         {
             "name": "Jamaica JCT",
@@ -390,7 +392,7 @@
             "z": 1330,
             "lines": {
                 "Florida": {
-                    "Camaguey-Jamaica-Montego Bay": ["", "Main line to Jamaica branch"]
+                    "Miami-Montego Bay": ["", "Main line to Jamaica branch"]
                 }
             }
         },
@@ -401,7 +403,7 @@
             "z": 1330,
             "lines": {
                 "Florida": {
-                    "Camaguey-Jamaica-Montego Bay": ["", "Jamaica branch"]
+                    "Miami-Montego Bay": ["", "Jamaica branch"]
                 }
             }
         },
@@ -412,9 +414,10 @@
             "z": 1454,
             "lines": {
                 "Florida": {
-                    "Camaguey-Jamaica-Montego Bay": ["", "Main line"]
+                    "Miami-Montego Bay": ["", "Main line"]
                 }
-            }
+            },
+            "notes": "Entrance at X=-27583 Y=63 Z=1447"
         },
         {
             "name": "Kuroshiki (JCT)",
@@ -3453,13 +3456,20 @@
         {
             "name": "Saray-East",
             "id": 295,
-            "x": 28851,
+            "x": 28846,
             "z": -8814,
             "lines": {
                 "Gobi Transport": {
                     "Xinjiang": ["", "Main line"]
+                },
+                "Uzbekistan Ice lines": {
+                    "Bishkek-Liao": ["", "Main line"]
                 }
-            }
+            },
+            "areas": [
+                [[28818, -8823], [28847, -8820]],
+                [[28842, -8812], [28847, -8820]]
+            ]
         },
         {
             "name": "Anxi North",
@@ -4567,7 +4577,7 @@
             "name": "BlackBeard’s Cove",
             "id": 390,
             "x": -26219,
-            "z": 799,
+            "z": 791,
             "lines": {
                 "Florida": {
                     "Guama-Cockburn Harbour": ["", "Main line"]
@@ -4575,11 +4585,14 @@
             }
         },
         {
-            "name": "HuzzBear",
+            "name": "HuzzBears",
             "id": 391,
             "x": -27277,
-            "z": 327,
+            "z": 328,
             "lines": {
+                "Florida": {
+                    "Miami-Montego Bay": ["", "Huzzbears branch"]
+                }
             }
         },
         {
@@ -4587,7 +4600,7 @@
             "type": "jct",
             "id": 392,
             "x": -26653,
-            "z": 799,
+            "z": 791,
             "lines": {
                 "Florida": {
                     "Guama-Cockburn Harbour": ["", "Main line to Goonerville branch"]
@@ -9655,7 +9668,7 @@
         },
         {
             "name": "Guilin North",
-            "id": 799,
+            "id": 791,
             "x": 39535,
             "z": -1430,
             "lines": {
@@ -13634,15 +13647,13 @@
             }
         },
         {
-            "name": "Columbia South JCT",
+            "name": "Moynaq",
             "id": 1129,
-			"type": "jct",
-            "x": -33188,
-            "z": -7195,
+            "x": 21283.5,
+            "z": -8491,
             "lines": {
-                "Amtrak": {
-                    "Borealis": ["", "Columbia branch"],
-					"Columbia": ["", ""]
+                "Uzbekistan Ice lines": {
+                    "Tashkent-Sisirak": ["", "Sisirak-Moynaq branch"]
                 }
             }
         },
@@ -13878,10 +13889,10 @@
 			"name": "Sisirak",
 			"id": 1150,
 			"x": 21377,
-			"z": -7739,
+			"z": -7738.5,
 			"lines": {
-				"Intercontinental": {
-					"Uzbekistan": ["", "Sisirak branch"]
+				"Uzbekistan Ice lines": {
+					"Tashkent-Sisirak": ["", "Main line"]
 				}
 			}
 		},
@@ -13891,11 +13902,11 @@
             "type": "elev-we",
             "y1": 73,
             "y2": 72,
-			"x": 24111,
-			"z": -7739,
+			"x": 24108.5,
+			"z": -7738.5,
 			"lines": {
-				"Intercontinental": {
-					"Uzbekistan": ["", "Sisirak branch"]
+				"Uzbekistan Ice lines": {
+					"Tashkent-Sisirak": ["", "Main line"]
 				}
 			}
 		},
@@ -13903,13 +13914,213 @@
 			"name": "Tashkent",
 			"id": 1152,
 			"x": 24702,
-			"z": -7739,
+			"z": -7738.5,
 			"lines": {
-				"Intercontinental": {
-					"Uzbekistan": ["", "Sisirak branch"]
+				"Uzbekistan Ice lines": {
+					"Tashkent-Sisirak": ["", "Main line"]
 				}
 			}
-		}
+		},
+        {
+			"name": "Tashkent JCT",
+			"id": 1153,
+            "type": "jct",
+			"x": 24111.5,
+			"z": -7738.5,
+			"lines": {
+				"Uzbekistan Ice lines": {
+					"Tashkent-Sisirak": ["", "Main line to Samarkand branch"]
+				}
+			}
+		},
+        {
+			"name": "Samarkand",
+			"id": 1154,
+			"x": 24111.5,
+			"z": -7049.5,
+			"lines": {
+				"Uzbekistan Ice lines": {
+					"Tashkent-Sisirak": ["", "Samarkand branch"]
+				}
+			}
+		},
+        {
+			"name": "Bishkek",
+			"id": 1155,
+			"x": 26360,
+			"z": -8390.5,
+			"lines": {
+				"Uzbekistan Ice lines": {
+					"Tashkent-Bishkek": ["", "Main line"]
+				}
+			}
+		},
+        {
+			"name": "Bishkek 1st elevator",
+			"id": 1156,
+            "type": "elev-we",
+            "y1": 66,
+            "y2": 67,
+			"x": 25376,
+			"z": -8390.5,
+			"lines": {
+				"Uzbekistan Ice lines": {
+					"Tashkent-Bishkek": ["", "Main line"]
+				}
+			}
+		},
+        {
+			"name": "Bishkek JCT",
+			"id": 1157,
+            "type": "jct",
+			"x": 24922.5,
+			"z": -8390.5,
+			"lines": {
+				"Uzbekistan Ice lines": {
+					"Tashkent-Bishkek": ["", "Main line to Walled city branch"]
+				}
+			}
+		},
+        {
+			"name": "Tashkent North elevator",
+			"id": 1158,
+            "type": "elev-we",
+            "y1": 66,
+            "y2": 71,
+			"x": 24922.5,
+			"z": -8359.5,
+			"lines": {
+				"Uzbekistan Ice lines": {
+					"Tashkent-Bishkek": ["", "Main line"]
+				}
+			}
+		},
+        {
+			"name": "East Tashkent",
+			"id": 1159,
+			"x": 24922.5,
+			"z": -7714,
+			"lines": {
+				"Uzbekistan Ice lines": {
+					"Tashkent-Bishkek": ["", "Main line"]
+				}
+			}
+		},
+        {
+			"name": "Walled City",
+			"id": 1160,
+			"x": 23968.5,
+			"z": -8805.5,
+			"lines": {
+				"Uzbekistan Ice lines": {
+					"Tashkent-Bishkek": ["", "Walled city branch"]
+				}
+			}
+		},
+        {
+			"name": "Bishkek (Liao platform)",
+			"id": 1161,
+			"x": 26413.5,
+			"z": -8430,
+			"lines": {
+				"Uzbekistan Ice lines": {
+					"Bishkek-Liao": ["", "Main line"]
+				}
+			}
+		},
+        {
+            "name": "Sisirak (Moynaq platform)",
+            "id": 1162,
+            "x": 21283.5,
+            "z": -7751,
+            "lines": {
+                "Uzbekistan Ice lines": {
+                    "Tashkent-Sisirak": ["", "Sisirak-Moynaq branch"]
+                }
+            }
+        },
+        {
+            "name": "FIX COORDS",
+            "id": 1163,
+            "type": "jct",
+            "x": -28090,
+            "z": -1765,
+            "lines": {
+                "Florida": {
+                    "Miami-Montego Bay": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "JCT",
+            "id": 1164,
+            "type": "jct",
+            "x": -27569,
+            "z": -1315,
+            "lines": {
+                "Florida": {
+                    "Miami-Montego Bay": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bahamas JCT",
+            "id": 1165,
+            "type": "jct",
+            "x": -27569,
+            "z": -994,
+            "lines": {
+                "Florida": {
+                    "Miami-Montego Bay": ["", "Main line to Bahamas branch"]
+                }
+            }
+        },
+        {
+            "name": "Pagoda Island JCT",
+            "id": 1166,
+            "type": "jct",
+            "x": -27569,
+            "z": -760,
+            "lines": {
+                "Florida": {
+                    "Miami-Montego Bay": ["", "Main line to Pagoda Island branch"]
+                }
+            }
+        },
+        {
+            "name": "Huzzbears JCT",
+            "id": 1167,
+            "type": "jct",
+            "x": -27569,
+            "z": 328,
+            "lines": {
+                "Florida": {
+                    "Miami-Montego Bay": ["", "Main line to Huzzbears branch"]
+                }
+            }
+        },
+        {
+            "name": "Pagoda Island",
+            "id": 1168,
+            "x": -26723,
+            "z": -760,
+            "lines": {
+                "Florida": {
+                    "Miami-Montego Bay": ["", "Pagoda Island branch"]
+                }
+            }
+        },
+        {
+            "name": "Bahamas",
+            "id": 1169,
+            "x": -27938,
+            "z": -954,
+            "lines": {
+                "Florida": {
+                    "Miami-Montego Bay": ["", "Bahamas branch"]
+                }
+            }
+        }
     ],
     "lines": {
         "TNIH": {
@@ -15074,7 +15285,7 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [-28742, -1765],
+                            [-28740, -1765, "Miami"],
                             [-29326, -1765],
                             [-29326, -1954],
                             [-29641, -1954],
@@ -15083,7 +15294,7 @@
                             [-29637, -3047],
                             [-29166, -3047]
                         ],
-                        "stations": [11, [12, "Fort Myers branch"], 14, 304, 305, 306, 307, [308, "Tallahassee branch"], [310, "Gainesville branch"], 313]
+                        "stations": [313, [310, "Gainesville branch"], [308, "Tallahassee branch"], 307, 306, 305, 304, 14, [12, "Fort Myers branch"], 11]
                     },
                     "Fort Myers branch": {
                         "vertices": [
@@ -15124,8 +15335,8 @@
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [-27569, 799],
-                            [-25681, 799],
+                            [-27569, 791],
+                            [-25681, 791],
                             [-25681, 93]
                         ],
                         "stations": [29, [30, "Guantanamo Bay branch"], [392, "Main line"], 390, 26, 16, 17]
@@ -15133,13 +15344,13 @@
                     "Guantanamo Bay branch": {
                         "vertices": [
                             [-26917, 763],
-                            [-26917, 799]
+                            [-26917, 791]
                         ],
                         "stations": [[30, "Main line"], 15]
                     },
                     "Goonerville branch": {
                         "vertices": [
-                            [-26653, 799],
+                            [-26653, 791],
                             [-26653, 690],
                             [-26600, 690]
                         ],
@@ -15155,7 +15366,7 @@
                 "branches": {
                     "": {
                         "vertices": [
-                            [-25857, 799],
+                            [-25857, 791],
                             [-25857, 1329],
                             [-25999, 1329]
                         ],
@@ -15163,19 +15374,23 @@
                     }
                 }
             },
-            "Camaguey-Jamaica-Montego Bay": {
+            "Miami-Montego Bay": {
                 "prefix": "",
-                "code": "C-J-MB",
+                "code": "M-MB",
                 "color": "89F336",
                 "y": 40,
                 "branches": {
                     "Main line": {
                         "vertices": [
-                            [-27536, 373],
-                            [-27569, 373],
-                            [-27569, 1454]
+                            [-27569, 1454],
+                            [-27569, -1765],
+                            [-27886, -1765],
+                            [-27886, -1678],
+                            [-28321, -1678],
+                            [-28321, -1765],
+							[-28740, -1765, "Miami"]
                         ],
-                        "stations": [31, 29, [32, "Jamaica branch"], 34]
+                        "stations": [11, 1163, 1164, [1165, "Bahamas branch"], [1166, "Pagoda Island branch"], [1167, "Huzzbears branch"], 31, 29, [32, "Jamaica branch"], 34]
                     },
                     "Jamaica branch": {
                         "vertices": [
@@ -15183,6 +15398,28 @@
                             [-27903, 1330]
                         ],
                         "stations": [[32, "Main line"], 33]
+                    },
+                    "Huzzbears branch": {
+                        "vertices": [
+                            [-27569, 328],
+                            [-27277, 328]
+                        ],
+                        "stations": [[1167, "Main line"], 391]
+                    },
+                    "Pagoda Island branch": {
+                        "vertices": [
+                            [-27569, -760],
+                            [-26723, -760, "Pagoda Island station"]
+                        ],
+                        "stations": [[1166, "Main line"], 1168]
+                    },
+                    "Bahamas branch": {
+                        "vertices": [
+                            [-27569, -994],
+                            [-27938, -994],
+                            [-27938, -954, "Bahamas station (entrance at X=-27938 Y=63 Z=-930)"]
+                        ],
+                        "stations": [[1165, "Main line"], 1169]
                     }
                 }
             },
@@ -16247,7 +16484,7 @@
                     "Main line": {
                         "vertices": [
                             [35355, -8814],
-                            [28851, -8814]
+                            [28846, -8814]
                         ],
                         "stations": [292, 293, [535, "Loulan branch"], [294, "Anxi branch"], 295]
                     },
@@ -18295,19 +18532,79 @@
                         "stations": [[1125, "Main line"], 1126]
                     }
                 }
-            },
-            "Uzbekistan": {
+            }
+        },
+        "Uzbekistan Ice lines": {
+            "Tashkent-Sisirak": {
                 "prefix": "",
-                "code": "UZ",
+                "code": "CT",
                 "color": "FFFF2A",
-                "y": "72, 73",
+                "y": "70, 71, 72, 73",
                 "branches": {
-                    "Sisirak line": {
+                    "Main line": {
                         "vertices": [
-                            [21377, -7739],
-                            [24702, -7739]
+                            [21377, -7738.5],
+                            [24702, -7738.5]
                         ],
-                        "stations": [1150, 1151, 1152]
+                        "stations": [1150, 1151, [1153, "Samarkand branch"], 1152]
+                    },
+                    "Samarkand branch": {
+                        "vertices": [
+                            [24111.5, -7738.5],
+                            [24111.5, -7049.5]
+                        ],
+                        "stations": [[1153, "Main line"], 1154]
+                    },
+                    "Sisirak-Moynaq branch": {
+                        "vertices": [
+                            [21283.5, -8491],
+                            [21283.5, -7751]
+                        ],
+                        "stations": [1129, 1162]
+                    }
+                }
+            },
+            "Tashkent-Bishkek": {
+                "prefix": "",
+                "code": "TA-BS",
+                "color": "00FF2A",
+                "y": "66, 67, 71",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [26360, -8390.5],
+                            [24922.5, -8390.5],
+                            [24922.5, -7714]
+                        ],
+                        "stations": [1155, 1156, [1157, "Walled city branch"], 1158, 1159]
+                    },
+                    "Walled city branch": {
+                        "vertices": [
+                            [24922.5, -8390.5],
+                            [24922.5, -8805.5],
+                            [23968.5, -8805.5]
+                        ],
+                        "stations": [1160, [1157, "Main line"]]
+                    }
+                }
+            },
+            "Bishkek-Liao": {
+                "prefix": "",
+                "code": "BS-LI",
+                "color": "FFFF2A",
+                "y": "81",
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [26413.5, -8430],
+                            [26413.5, -8805.5],
+                            [27630.5, -8805.5],
+                            [27630.5, -8811.5],
+                            [28672.5, -8811.5],
+                            [28672.5, -8821.5],
+                            [28819, -8821.5]
+                        ],
+                        "stations": [1161, 295]
                     }
                 }
             }
