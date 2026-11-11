@@ -12114,23 +12114,24 @@
             "name": "Kansas City JCT",
             "id": 1000,
             "type": "jct",
-            "x": -33927,
+            "x": -33926,
             "z": -7212.5,
             "lines": {
 				"Amtrak": {
 					"Borealis": ["", "Main line"],
-					"Atlantic": ["", "Eastbound to Westbound tubes"]
+					"Atlantic": ["", "Eastbound to Westbound tubes"],
+					"Kansas City": ["", ""]
 				}
             }
         },
         {
             "name": "Kansas City, MO",
             "id": 1001,
-            "x": -33927,
-            "z": -6791,
+            "x": -33926,
+            "z": -6732,
             "lines": {
 				"Amtrak": {
-					"Borealis": ["", "Main line"]
+					"Kansas City": ["", ""]
 				}
             }
         },
@@ -12223,7 +12224,7 @@
             "z": -5724,
             "lines": {
 				"Amtrak": {
-					"City of New Orleans": ["", "Northbound Disc to Southbound Disc"],
+					"City of New Orleans": ["", "Northbound Tube to Southbound Tube"],
 					"Yartville Bypass": ["", ""]
 				}
             }
@@ -13074,7 +13075,7 @@
             "lines": {
                 "Amtrak": {
                     "Volunteer": ["", "Ozark branch"],
-					"City of New Orleans": ["", "Northbound Disc and Southbound Disc"]
+					"City of New Orleans": ["", "Northbound Tube and Southbound Tube"]
                 }
             }
         },
@@ -13087,7 +13088,7 @@
             "lines": {
                 "Amtrak": {
                     "Volunteer": ["", "Main line"],
-					"City of New Orleans": ["", "Northbound Disc and Southbound Disc"]
+					"City of New Orleans": ["", "Northbound Tube and Southbound Tube"]
                 }
             }
         },
@@ -16651,30 +16652,16 @@
                     "Southbound Tube": {
                         "vertices": [
                             [-31669, -8132],
-                            [-31669, -5873]
+                            [-31669, -5255]
                         ],
-                        "stations": [894, 895, 896, [897, "Northbound Tube"], [898, "Northbound Tube"], [1003, "Northbound Tube"], [1007, "Northbound Tube"]]
+                        "stations": [894, 895, 896, [897, "Northbound Tube"], [898, "Northbound Tube"], [1003, "Northbound Tube"], [1007, "Northbound Tube"], [1009, "Northbound Tube"], [1080, "Northbound Tube"], [1081, "Northbound Tube"]]
                     },
                     "Northbound Tube": {
                         "vertices": [
                             [-31657, -8132],
-                            [-31657, -5873]
-                        ],
-                        "stations": [894, 895, 896, [897, "Southbound Tube"], [898, "Southbound Tube"], [1003, "Southbound Tube"], [1007, "Southbound Tube"]]
-                    },
-                    "Southbound Disc": {
-                        "vertices": [
-                            [-31669, -5808],
-                            [-31669, -5255]
-                        ],
-                        "stations": [[1009, "Northbound Disc"], [1080, "Northbound Disc"], [1081, "Northbound Disc"]]
-                    },
-                    "Northbound Disc": {
-                        "vertices": [
-                            [-31657, -5808],
                             [-31657, -5255]
                         ],
-                        "stations": [[1009, "Southbound Disc"], [1080, "Southbound Disc"], [1081, "Southbound Disc"]]
+                        "stations": [894, 895, 896, [897, "Southbound Tube"], [898, "Southbound Tube"], [1003, "Southbound Tube"], [1007, "Southbound Tube"], [1009, "Southbound Tube"], [1080, "Southbound Tube"], [1081, "Southbound Tube"]]
                     }
                 }
             },
@@ -16867,10 +16854,10 @@
 							[-34778, -7332],
 							[-34438, -7332],
 							[-34438, -7315],
-							[-33927, -7315],
-							[-33927, -6791]
+							[-33926, -7315],
+							[-33926, -7210]
                         ],
-                        "stations": [[996, "Minneapolis branch"], 998, [1133, "Canadian branch"], 999, [997, "Minneapolis branch"], [1132, "Arorium branch"], [1130, "Sioux Center branch"], 1000, 1001]
+                        "stations": [[996, "Minneapolis branch"], 998, [1133, "Canadian branch"], 999, [997, "Minneapolis branch"], [1132, "Arorium branch"], [1130, "Sioux Center branch"], 1000]
                     },
 					"Minneapolis branch": {
                         "vertices": [
@@ -16933,6 +16920,22 @@
                             [-33188, -6995]
                         ],
                         "stations": [1128, 1002]
+                    }
+                }
+            },
+            "Kansas City": {
+                "prefix": "",
+                "code": "KCK",
+                "color": "9999ff",
+                "y": 8,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-33926, -7222],
+                            [-33926, -6715],
+							[-33825, -6715]
+                        ],
+                        "stations": [1000, 1001]
                     }
                 }
             }
