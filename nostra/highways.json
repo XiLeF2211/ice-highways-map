@@ -9668,7 +9668,7 @@
         },
         {
             "name": "Guilin North",
-            "id": 791,
+            "id": 799,
             "x": 39535,
             "z": -1430,
             "lines": {
@@ -14121,6 +14121,19 @@
                     "Miami-Montego Bay": ["", "Bahamas branch"]
                 }
             }
+        },
+        {
+            "name": "Kunashiri JCT",
+            "type": "jct",
+            "id": 1170,
+            "x": 52146,
+            "z": -9214,
+            "lines": {
+                "TNIH": {
+                    "Karafuto": ["", "Main line"],
+                    "Kamchatka Main": ["", "Main line (South)"]
+                }
+            }
         }
     ],
     "lines": {
@@ -14335,7 +14348,7 @@
                             [52146, -9214],
                             [52146, -8821]
                         ],
-                        "stations": [362, [363, "Allburg branch"], 365, [638, "TownyMcTownFace branch"], 366, 640, 641, 642, 643, 644, 751, 752, 877]
+                        "stations": [362, [363, "Allburg branch"], 365, [638, "TownyMcTownFace branch"], 366, 640, 641, 642, 643, 644, 751, 752, 1170, 877]
                     },
                     "Ochotsk branch": {
                         "vertices": [
@@ -14538,9 +14551,11 @@
                             [50597, -13079.5],
                             [50597, -12548],
                             [51213, -12548],
-                            [51213, -11094]
+                            [51213, -11094],
+                            [52146, -11094],
+                            [52146, -9214]
                         ],
-                        "stations": [3, 9, 10, 360, [361, "Noto branch"], 402, 206, 988, 984, 985, [1028, "Sakhalin branch"], 987, 1024, 1025]
+                        "stations": [3, 9, 10, 360, [361, "Noto branch"], 402, 206, 988, 984, 985, [1028, "Sakhalin branch"], 987, 1024, 1025, 1170]
                     },
                     "Noto branch": {
                         "vertices": [
