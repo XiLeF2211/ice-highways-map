@@ -14150,6 +14150,125 @@
                     "Siberia Main": ["", "West branch"]
                 }
             }
+        },
+        {
+            "name": "Piana Piemontese",
+            "id": 1172,
+            "x": 2890,
+            "z": -9127,
+            "lines": {
+                "PPI": {
+                    "A4": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Piana Piemontese JCT",
+            "id": 1173,
+            "type": "jct",
+            "x": 2890,
+            "z": -9179,
+            "lines": {
+                "PPI": {
+                    "A4": ["", "Main line"],
+                    "SS28": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Turin",
+            "id": 1174,
+            "x": 2890,
+            "z": -9307,
+            "lines": {
+                "PPI": {
+                    "A4": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Swisspebbles",
+            "id": 1175,
+            "x": 2890,
+            "z": -9511,
+            "lines": {
+                "PPI": {
+                    "A4": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bellinzona",
+            "id": 1176,
+            "x": 2999,
+            "z": -9585,
+            "lines": {
+                "PPI": {
+                    "A4": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Bellinzona JCT",
+            "id": 1177,
+            "type": "jct",
+            "x": 3085,
+            "z": -9540.5,
+            "lines": {
+                "PPI": {
+                    "A4": ["", "Main line"],
+                    "A8": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Ticino",
+            "id": 1178,
+            "x": 3200,
+            "z": -9566.5,
+            "lines": {
+                "PPI": {
+                    "A4": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Benevia",
+            "id": 1179,
+            "x": 2806,
+            "z": -9117,
+            "lines": {
+                "PPI": {
+                    "SS28": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Padania / Milan",
+            "id": 1180,
+            "x": 3064.5,
+            "z": -9435.5,
+            "lines": {
+                "PPI": {
+                    "A8": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Versailles JCT",
+            "type": "jct",
+            "id": 1181,
+            "x": 280,
+            "z": -10856,
+            "lines": {
+                "SNCF": {
+                    "Netherlands-France by Vy": ["", "Main line"],
+                    "France-Spain by Vy": ["", "Main line"]
+                }
+            },
+            "areas": [
+                [[278, -10858], [282, -10854]]
+            ]
         }
     ],
     "lines": {
@@ -17962,7 +18081,7 @@
                             [600, -10865],
                             [616, -10865]
                         ],
-                        "stations": [822, 864, 872, 865, 866, 873, 867]
+                        "stations": [822, 864, 872, 865, 866, 873, 867, 1181]
                     }
                 }
             },
@@ -17979,7 +18098,7 @@
 							[278, -8692],
                             [278, -10854]
                         ],
-                        "stations": [1052]
+                        "stations": [1181, 1052]
                     }
                 }
             }
@@ -20319,6 +20438,65 @@
 				}
 			}
 		},
+        "PPI": {
+            "A4": {
+                "prefix": "",
+                "code": "A4",
+                "color": "FF0000",
+                "y": 67,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [2890, -9127, "Piana Piemontese"],
+                            [2890, -9585],
+                            [3013, -9585],
+                            [3013, -9540.5],
+                            [3156.5, -9540.5],
+                            [3156.5, -9543.5],
+                            [3182.5, -9543.5],
+                            [3182.5, -9566.5],
+                            [3200, -9566.5, "Ticino"]
+                        ],
+                        "stations": [1172, 1173, 1174, 1175, 1176, 1177, 1178]
+                    }
+                }
+            },
+            "SS28": {
+                "prefix": "",
+                "code": "SS28",
+                "color": "0000FF",
+                "y": 67,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [2890, -9179, "JCT"],
+                            [2806, -9179],
+                            [2806, -9117, "Benevia"]
+                        ],
+                        "stations": [1173, 1179]
+                    }
+                }
+            },
+            "A8": {
+                "prefix": "",
+                "code": "A8",
+                "color": "00FF00",
+                "y": 67,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [3085, -9540.5],
+                            [3085, -9486],
+                            [3092, -9486],
+                            [3092, -9442.5],
+                            [3064.5, -9442.5],
+                            [3064.5, -9435, "Padania / Milan"]
+                        ],
+                        "stations": [1177, 1180]
+                    }
+                }
+            }
+        },
 	    "Railways": {
             "Kitakaze Railways (Rail)": {
                 "prefix": "[Rail] ",
