@@ -9668,7 +9668,7 @@
         },
         {
             "name": "Guilin North",
-            "id": 791,
+            "id": 799,
             "x": 39535,
             "z": -1430,
             "lines": {
@@ -10843,8 +10843,7 @@
             "z": -7325,
             "lines": {
                 "Amtrak": {
-                    "City of New Orleans":  ["", "Southbound Tube to Northbound Tube"],
-					"Old Capitol Limited": ["", ""]
+                    "City of New Orleans":  ["", "Southbound Tube to Northbound Tube"]
                 }
             },
             "areas": [
@@ -12202,7 +12201,7 @@
             "lines": {
 				"Amtrak": {
 					"City of New Orleans": ["", "Northbound Tube to Southbound Tube"],
-					"Yartville": ["", ""]
+					"Yartville Bypass": ["", ""]
 				}
             }
         },
@@ -12213,7 +12212,7 @@
             "z": -5828,
             "lines": {
 				"Amtrak": {
-					"Yartville": ["", ""]
+					"Yartville Bypass": ["", ""]
 				}
             }
         },
@@ -12226,7 +12225,7 @@
             "lines": {
 				"Amtrak": {
 					"City of New Orleans": ["", "Northbound Tube to Southbound Tube"],
-					"Yartville": ["", ""]
+					"Yartville Bypass": ["", ""]
 				}
             }
         },
@@ -14124,13 +14123,15 @@
             }
         },
         {
-            "name": "Paducah, KY",
+            "name": "Kunashiri JCT",
+            "type": "jct",
             "id": 1170,
-            "x": -31753,
-            "z": -5928,
+            "x": 52146,
+            "z": -9214,
             "lines": {
-                "Amtrak": {
-                    "Yartville": ["", ""]
+                "TNIH": {
+                    "Karafuto": ["", "Main line"],
+                    "Kamchatka Main": ["", "Main line (South)"]
                 }
             }
         }
@@ -14347,7 +14348,7 @@
                             [52146, -9214],
                             [52146, -8821]
                         ],
-                        "stations": [362, [363, "Allburg branch"], 365, [638, "TownyMcTownFace branch"], 366, 640, 641, 642, 643, 644, 751, 752, 877]
+                        "stations": [362, [363, "Allburg branch"], 365, [638, "TownyMcTownFace branch"], 366, 640, 641, 642, 643, 644, 751, 752, 1170, 877]
                     },
                     "Ochotsk branch": {
                         "vertices": [
@@ -14550,9 +14551,11 @@
                             [50597, -13079.5],
                             [50597, -12548],
                             [51213, -12548],
-                            [51213, -11094]
+                            [51213, -11094],
+                            [52146, -11094],
+                            [52146, -9214]
                         ],
-                        "stations": [3, 9, 10, 360, [361, "Noto branch"], 402, 206, 988, 984, 985, [1028, "Sakhalin branch"], 987, 1024, 1025]
+                        "stations": [3, 9, 10, 360, [361, "Noto branch"], 402, 206, 988, 984, 985, [1028, "Sakhalin branch"], 987, 1024, 1025, 1170]
                     },
                     "Noto branch": {
                         "vertices": [
@@ -16693,7 +16696,7 @@
 
                 }
             },
-            "Yartville": {
+            "Yartville Bypass": {
                 "prefix": "",
                 "code": "YRT",
                 "color": "9999ff",
@@ -16706,7 +16709,7 @@
 							[-31992, -5724],
 							[-31657, -5724]
                         ],
-                        "stations": [1007, 1170, 1008, 1009]
+                        "stations": [1007, 1008, 1009]
                     }
 
                 }
@@ -16759,36 +16762,15 @@
                     "Old Capitol Limited": {
                         "vertices": [
                             [-27326, -7333],
-							[-31428, -7333],
-                            [-31428, -7325],
-							[-31428, -7325],
-							[-31453, -7325],
-							[-31453, -7210],
-							[-31453, -7325],
-							[-31453, -7325],
-							[-32227, -7325],
-							[-32227, -7315],
-							[-33066, -7315]
-							
+                            [-30202, -7333],
+                            [-30202, -7739]
                         ],
-                        "stations": [897, 904, 915, 385]
+                        "stations": [904, 915, 385]
                     },
                     "Old Borealis": {
                         "vertices": [
                             [-33927, -7195],
 							[-33188, -7195]
-                        ]
-                    },
-                    "Old City of New Orleans": {
-                        "vertices": [
-                            [-31602, -5255],
-							[-31602, -5482],
-							[-31657, -5482],
-							[-31602, -5482],
-							[-31602, -5726],
-							[-31429, -5726],
-							[-31429, -5942],
-							[-31657, -5942]
                         ]
                     }
                 }
@@ -16801,8 +16783,7 @@
                 "branches": {
                     "": {
                         "vertices": [
-							[-30224, -6813],
-                            [-30202, -6813],
+                            [-30202, -7210],
                             [-30202, -7739],
                             [-31391, -7739]
                         ],
