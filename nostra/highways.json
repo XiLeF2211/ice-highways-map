@@ -62,7 +62,7 @@
             "z": -18248,
             "lines": {
                 "TNIH": {
-                    "Far East Main": ["", "Main line"]
+                    "Far East": ["", "Main line"]
                 }
             }
         },
@@ -74,7 +74,7 @@
             "z": -18894,
             "lines": {
                 "TNIH": {
-                    "Far East Main": ["", "Main line"]
+                    "Far East": ["", "Main line"]
                 }
             }
         },
@@ -86,7 +86,7 @@
             "z": -19868,
             "lines": {
                 "TNIH": {
-                    "Far East Main": ["", "Main line"]
+                    "Far East": ["", "Main line"]
                 }
             }
         },
@@ -97,10 +97,15 @@
             "z": -21051,
             "lines": {
                 "TNIH": {
-                    "Far East Main": ["", "Main line"],
+                    "Far East": ["", "Main line"],
                     "Azur": ["", "Main line"]
                 }
-            }
+            },
+            "areas": [
+                [[52329, -21072], [52350, -21025]],
+                [[52321, -21047], [52350, -21056]]
+            ],
+            "notes": "Entrance at X=52350 Y=63 Z=-21029"
         },
         {
             "name": "Duchy of Rivers",
@@ -227,7 +232,7 @@
             "z": -21474.5,
             "lines": {
                 "TNIH": {
-                    "Far East Main": ["", "Main line"]
+                    "Far East": ["", "Main line"]
                 }
             },
             "notes": "Entrance at X=52481, Y=63, Z=-21486"
@@ -239,7 +244,7 @@
             "z": -21893.5,
             "lines": {
                 "TNIH": {
-                    "Far East Main": ["", "Main line"]
+                    "Far East": ["", "Main line"]
                 }
             }
         },
@@ -561,7 +566,7 @@
             "z": -21954,
             "lines": {
                 "TNIH": {
-                    "Far East Main": ["", "Main line"],
+                    "Far East": ["", "Main line"],
                     "Heartnorth": ["", "Southern section"]
                 }
             }
@@ -743,7 +748,7 @@
             "z": -22476,
             "lines": {
                 "TNIH": {
-                    "Far East Main": ["", "Main line"]
+                    "Far East": ["", "Main line"]
                 }
             }
         },
@@ -755,7 +760,7 @@
             "z": -22675,
             "lines": {
                 "TNIH": {
-                    "Far East Main": ["", "Main line to Yakutsk branch"]
+                    "Far East": ["", "Main line to Yakutsk branch"]
                 }
             }
         },
@@ -766,7 +771,7 @@
             "z": -22675,
             "lines": {
                 "TNIH": {
-                    "Far East Main": ["", "Yakutsk branch"]
+                    "Far East": ["", "Yakutsk branch"]
                 }
             }
         },
@@ -822,7 +827,7 @@
             "z": -23834.5,
             "lines": {
                 "TNIH": {
-                    "Far East Main": ["", "Main line"]
+                    "Far East": ["", "Main line"]
                 }
             }
         },
@@ -1794,7 +1799,7 @@
             "z": -20091.5,
             "lines": {
                 "TNIH": {
-                    "Far East Main": ["", "Main line to New Xenia branch"]
+                    "Far East": ["", "Main line to New Xenia branch"]
                 }
             }
         },
@@ -1805,7 +1810,7 @@
             "z": -20091.5,
             "lines": {
                 "TNIH": {
-                    "Far East Main": ["", "New Xenia branch"]
+                    "Far East": ["", "New Xenia branch"]
                 }
             }
         },
@@ -2030,7 +2035,7 @@
             "z": -20540,
             "lines": {
                 "TNIH": {
-                    "Far East Main": ["", "Main line to Kortemark branch"]
+                    "Far East": ["", "Main line to Kortemark branch"]
                 }
             }
         },
@@ -2042,7 +2047,7 @@
             "z": -20540,
             "lines": {
                 "TNIH": {
-                    "Far East Main": ["", "Kortemark branch"]
+                    "Far East": ["", "Kortemark branch"]
                 }
             }
         },
@@ -2053,7 +2058,7 @@
             "z": -20540,
             "lines": {
                 "TNIH": {
-                    "Far East Main": ["", "Kortemark branch"]
+                    "Far East": ["", "Kortemark branch"]
                 }
             }
         },
@@ -2089,7 +2094,7 @@
             "lines": {
                 "TNIH": {
                     "Siberia Main": ["", "Main line"],
-                    "Far East Main": ["", "Main line"]
+                    "Far East": ["", "Main line"]
                 }
             }
         },
@@ -3994,7 +3999,7 @@
             "z": -23834.5,
             "lines": {
                 "TNIH": {
-                    "Far East Main": ["", "Main line"],
+                    "Far East": ["", "Main line"],
                     "Heartnorth": ["", "Northern section"]
                 }
             }
@@ -4140,7 +4145,7 @@
             "z": -21474.5,
             "lines": {
                 "TNIH": {
-                    "Far East Main": ["", "Main line"],
+                    "Far East": ["", "Main line"],
                     "Kolyma": ["", "Main line"]
                 }
             }
@@ -4407,7 +4412,7 @@
             "z": -23834.5,
             "lines": {
                 "TNIH": {
-                    "Far East Main": ["", "Main line"],
+                    "Far East": ["", "Main line"],
                     "Heartnorth": ["", "Future City branch"]
                 }
             }
@@ -14134,6 +14139,17 @@
                     "Kamchatka Main": ["", "Main line (South)"]
                 }
             }
+        },
+        {
+            "name": "West border",
+            "id": 1171,
+            "x": -64512,
+            "z": -17732,
+            "lines": {
+                "TNIH": {
+                    "Siberia Main": ["", "West branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -14273,10 +14289,17 @@
                             [50270, -17976]
                         ],
                         "stations": [[20, "Main line"], 21]
+                    },
+                    "West branch": {
+                        "vertices": [
+                            [-64512, -17731.5],
+                            [-63770, -17731.5]
+                        ],
+                        "stations": [1171]
                     }
                 }
             },
-            "Far East Main": {
+            "Far East": {
                 "prefix": "",
                 "code": "FE",
                 "color": "3A4F6A",
