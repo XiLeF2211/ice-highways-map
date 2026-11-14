@@ -194,7 +194,7 @@
         {
             "name": "Guantanamo Bay",
             "id": 15,
-            "x": -26917,
+            "x": -26918,
             "z": 763,
             "lines": {
                 "Florida": {
@@ -205,14 +205,14 @@
         {
             "name": "Pirate Bay",
             "id": 16,
-            "x": -25680,
+            "x": -25681,
             "z": 791,
             "lines": {
                 "Florida": {
                     "Guama-Cockburn Harbour": ["", "Main line"]
                 }
             },
-            "notes": "Entrance at x=-25680, y=63, z=799"
+            "notes": "Entrance at x=-25681, y=63, z=799"
         },
         {
             "name": "Cockburn Harbour",
@@ -321,34 +321,35 @@
             "name": "Pirate Bay JCT",
             "type": "jct",
             "id": 26,
-            "x": -25857,
+            "x": -25831,
             "z": 791,
             "lines": {
                 "Florida": {
                     "Guama-Cockburn Harbour": ["", "Main line"],
-                    "Pirate Bay-Tiburon": ["", ""]
+                    "Pirate Bay-Aman": ["", "Main line"]
                 }
             }
         },
         {
             "name": "Hispaniola",
             "id": 27,
-            "x": -25857,
+            "x": -25831,
             "z": 1258,
             "lines": {
                 "Florida": {
-                    "Pirate Bay-Tiburon": ["", ""]
+                    "Pirate Bay-Aman": ["", "Main line"]
                 }
-            }
+            },
+            "notes": "Entrance at X=-25856 Y=64 Z=1258"
         },
         {
-            "name": "Tiburon",
+            "name": "Aman",
             "id": 28,
             "x": -25999,
-            "z": 1329,
+            "z": 1330,
             "lines": {
                 "Florida": {
-                    "Pirate Bay-Tiburon": ["", ""]
+                    "Pirate Bay-Aman": ["", "Main line"]
                 }
             }
         },
@@ -369,7 +370,7 @@
             "name": "Guantanamo Bay JCT",
             "type": "jct",
             "id": 30,
-            "x": -26917,
+            "x": -26918,
             "z": 791,
             "lines": {
                 "Florida": {
@@ -4587,7 +4588,8 @@
                 "Florida": {
                     "Guama-Cockburn Harbour": ["", "Main line"]
                 }
-            }
+            },
+            "notes": "Entrance at X=-26221 Y=69 Z=795"
         },
         {
             "name": "HuzzBears",
@@ -14046,26 +14048,26 @@
             }
         },
         {
-            "name": "FIX COORDS",
+            "name": "East Grand Bahama JCT",
             "id": 1163,
             "type": "jct",
-            "x": -28090,
+            "x": -27790,
             "z": -1765,
             "lines": {
                 "Florida": {
-                    "Miami-Montego Bay": ["", "Main line"]
+                    "Miami-Montego Bay": ["", "Main line to East Grand Bahama branch"]
                 }
             }
         },
         {
-            "name": "JCT",
+            "name": "(-27569, -1315) JCT",
             "id": 1164,
             "type": "jct",
             "x": -27569,
             "z": -1315,
             "lines": {
                 "Florida": {
-                    "Miami-Montego Bay": ["", "Main line"]
+                    "Miami-Montego Bay": ["", "Main line to North Normans Cay branch"]
                 }
             }
         },
@@ -14269,6 +14271,52 @@
             "areas": [
                 [[278, -10858], [282, -10854]]
             ]
+        },
+        {
+            "name": "Hispaniola JCT",
+            "type": "jct",
+            "id": 1182,
+            "x": -25831,
+            "z": 1121,
+            "lines": {
+                "Florida": {
+                    "Pirate Bay-Aman": ["", "Main line to Saint Marc branch"]
+                }
+            }
+        },
+        {
+            "name": "Hispaniola JCT",
+            "id": 1183,
+            "x": -25954,
+            "z": 1105,
+            "lines": {
+                "Florida": {
+                    "Pirate Bay-Aman": ["", "Saint Marc branch"]
+                }
+            }
+        },
+        {
+            "name": "North Normans Cay",
+            "id": 1184,
+            "type": "jct",
+            "x": -27494,
+            "z": -1315,
+            "lines": {
+                "Florida": {
+                    "Miami-Montego Bay": ["", "Main line to North Normans Cay branch"]
+                }
+            }
+        },
+        {
+            "name": "East Grand Bahama",
+            "id": 1185,
+            "x": -27790,
+            "z": -1861,
+            "lines": {
+                "Florida": {
+                    "Miami-Montego Bay": ["", "East Grand Bahama branch"]
+                }
+            }
         }
     ],
     "lines": {
@@ -15501,8 +15549,8 @@
                     },
                     "Guantanamo Bay branch": {
                         "vertices": [
-                            [-26917, 763],
-                            [-26917, 791]
+                            [-26918, 763],
+                            [-26918, 791]
                         ],
                         "stations": [[30, "Main line"], 15]
                     },
@@ -15516,20 +15564,28 @@
                     }
                 }
             },
-            "Pirate Bay-Tiburon": {
+            "Pirate Bay-Aman": {
                 "prefix": "",
                 "code": "PB-T",
                 "color": "89F336",
                 "y": 40,
                 "branches": {
-                    "": {
+                    "Main line": {
                         "vertices": [
-                            [-25857, 791],
-                            [-25857, 1329],
-                            [-25999, 1329]
+                            [-25831, 791],
+                            [-25831, 1330],
+                            [-25999, 1330]
                         ],
-                        "stations": [26, 27, 28]
-                    }
+                        "stations": [26, [1182, "Saint Marc branch"], 27, 28]
+                    },
+					"Saint Marc branch": {
+						"vertices": [
+                            [-25831, 1121],
+                            [-25954, 1121],
+                            [-25954, 1105, "Saint-Marc"]
+                        ],
+                        "stations": [[1182, "Main line"], 1183]
+					}
                 }
             },
             "Miami-Montego Bay": {
@@ -15548,7 +15604,7 @@
                             [-28321, -1765],
 							[-28740, -1765, "Miami"]
                         ],
-                        "stations": [11, 1163, 1164, [1165, "Bahamas branch"], [1166, "Pagoda Island branch"], [1167, "Huzzbears branch"], 31, 29, [32, "Jamaica branch"], 34]
+                        "stations": [11, [1163, "East Grand Bahama branch"], [1164, "North Normans Cay branch"], [1165, "Bahamas branch"], [1166, "Pagoda Island branch"], [1167, "Huzzbears branch"], 31, 29, [32, "Jamaica branch"], 34]
                     },
                     "Jamaica branch": {
                         "vertices": [
@@ -15578,6 +15634,20 @@
                             [-27938, -954, "Bahamas station (entrance at X=-27938 Y=63 Z=-930)"]
                         ],
                         "stations": [[1165, "Main line"], 1169]
+                    },
+                    "North Normans Cay branch": {
+                        "vertices": [
+                            [-27569, -1315],
+                            [-27494, -1315]
+                        ],
+                        "stations": [[1164, "Main line"], 1184]
+                    },
+                    "East Grand Bahama branch": {
+                        "vertices": [
+                            [-27790, -1765],
+                            [-27790, -1861]
+                        ],
+                        "stations": [[1163, "Main line"], 1185]
                     }
                 }
             },
