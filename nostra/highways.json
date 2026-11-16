@@ -14453,166 +14453,15 @@
       }
     },
     {
-      "name": "Amsterdam",
-      "x": 1895.0,
-      "z": -12920.0,
-      "id": 837,
-      "lines": {
-        "SNCF": {
-          "Netherlands-France by Vy": [
-            "",
-            "Main line"
-          ]
-        },
-        "Vy (Norway Ice Boat System)": {
-          "Norway-Netherlands": [
-            "",
-            "Main line"
-          ]
-        }
-      }
-    },
-    {
-      "name": "Roman Empire",
-      "x": 815.0,
-      "z": -11878.0,
-      "id": 838,
-      "lines": {
-        "SNCF": {
-          "Netherlands-France by Vy": [
-            "",
-            "Main line"
-          ]
-        }
-      }
-    },
-    {
-      "name": "Roman Empire Elevator",
-      "type": "elev-we",
-      "x": 815.5,
-      "z": -11371.0,
-      "y1": -62.0,
-      "y2": 64.0,
-      "id": 839,
-      "lines": {
-        "SNCF": {
-          "Netherlands-France by Vy": [
-            "",
-            "Main line"
-          ]
-        }
-      }
-    },
-    {
-      "name": "Montevrain",
-      "x": 493.0,
-      "z": -11367.0,
-      "id": 840,
-      "lines": {
-        "SNCF": {
-          "Netherlands-France by Vy": [
-            "",
-            "Main line"
-          ]
-        }
-      }
-    },
-    {
-      "name": "Normandie",
-      "x": 316.0,
-      "z": -11367.0,
-      "id": 841,
-      "lines": {
-        "SNCF": {
-          "Netherlands-France by Vy": [
-            "",
-            "Main line"
-          ]
-        }
-      }
-    },
-    {
-      "name": "Normandie Elevator",
-      "type": "elev-we",
-      "x": 280.0,
-      "z": -11342.0,
-      "y1": 64.0,
-      "y2": 64.0,
-      "id": 842,
-      "lines": {
-        "SNCF": {
-          "Netherlands-France by Vy": [
-            "",
-            "Main line"
-          ]
-        }
-      }
-    },
-    {
-      "name": "Paris (SNCF)",
-      "x": 616.0,
-      "z": -10856.0,
-      "id": 843,
-      "lines": {
-        "SNCF": {
-          "Netherlands-France by Vy": [
-            "",
-            "Main line"
-          ]
-        }
-      }
-    },
-    {
-      "areas": [
-        [
-          [
-            278,
-            -10858
-          ],
-          [
-            282,
-            -10854
-          ]
-        ]
-      ],
-      "name": "Versailles JCT",
-      "type": "jct",
-      "x": 280.0,
-      "z": -10856.0,
-      "id": 844,
-      "lines": {
-        "SNCF": {
-          "Netherlands-France by Vy": [
-            "",
-            "Main line"
-          ]
-        }
-      }
-    },
-    {
       "name": "Bordeaux East HST",
       "x": 280,
       "z": -9229,
-      "id": 845,
+      "id": 837,
       "lines": {
         "SNCF": {
           "France-Spain by Vy": [
             "",
             "Main line"
-          ]
-        }
-      }
-    },
-    {
-      "name": "Xanadu",
-      "x": -2167.5,
-      "z": -6279.5,
-      "id": 846,
-      "lines": {
-        "SNCF": {
-          "Renfe": [
-            "",
-            "By Vy"
           ]
         }
       }
@@ -14653,7 +14502,7 @@
           ]
         ]
       ],
-      "id": 847,
+      "id": 838,
       "lines": {
         "Kengir Rail": {
           "Orange (Arabian)": [
@@ -14679,7 +14528,7 @@
       "name": "Mecca East",
       "x": 14356,
       "z": 586,
-      "id": 848,
+      "id": 839,
       "lines": {
         "Kengir Rail": {
           "Orange (Arabian)": [
@@ -14705,7 +14554,7 @@
           ]
         ]
       ],
-      "id": 849,
+      "id": 840,
       "lines": {
         "Kengir Rail": {
           "Orange (Arabian)": [
@@ -14731,7 +14580,7 @@
           ]
         ]
       ],
-      "id": 850,
+      "id": 841,
       "lines": {
         "Kengir Rail": {
           "Cyan (Euphrates)": [
@@ -14745,7 +14594,7 @@
       "name": "Kish",
       "x": 16433,
       "z": -3799,
-      "id": 851,
+      "id": 842,
       "lines": {
         "Kengir Rail": {
           "Cyan (Euphrates)": [
@@ -14759,7 +14608,7 @@
       "name": "Ur",
       "x": 16912,
       "z": -3416.5,
-      "id": 852,
+      "id": 843,
       "lines": {
         "Kengir Rail": {
           "Red (Rail/Metro)": [
@@ -14773,7 +14622,7 @@
       "name": "Agrabah Old",
       "x": 16921,
       "z": -3564.5,
-      "id": 853,
+      "id": 844,
       "lines": {
         "Kengir Rail": {
           "Red (Rail/Metro)": [
@@ -14787,7 +14636,7 @@
       "name": "Agrabah Plaza",
       "x": 16663.5,
       "z": -3496,
-      "id": 854,
+      "id": 845,
       "lines": {
         "Kengir Rail": {
           "Red (Rail/Metro)": [
@@ -14801,7 +14650,7 @@
       "name": "Aaru West",
       "x": 16667.5,
       "z": -3386,
-      "id": 855,
+      "id": 846,
       "lines": {
         "Kengir Rail": {
           "Red (Rail/Metro)": [
@@ -14815,7 +14664,7 @@
       "name": "Aaru Oost",
       "x": 16861.5,
       "z": -3377.5,
-      "id": 856,
+      "id": 847,
       "lines": {
         "Kengir Rail": {
           "Red (Rail/Metro)": [
@@ -14829,7 +14678,7 @@
       "name": "Agrabah Heights",
       "x": 16923.5,
       "z": -3621.5,
-      "id": 857,
+      "id": 848,
       "lines": {
         "Kengir Rail": {
           "Pink (Rail/Metro)": [
@@ -14843,7 +14692,7 @@
       "name": "Agrabah Promenade",
       "x": 16648.5,
       "z": -3582.5,
-      "id": 858,
+      "id": 849,
       "lines": {
         "Kengir Rail": {
           "Pink (Rail/Metro)": [
@@ -14857,7 +14706,7 @@
       "name": "Ufuk",
       "x": 16556.5,
       "z": -3594,
-      "id": 859,
+      "id": 850,
       "lines": {
         "Kengir Rail": {
           "Pink (Rail/Metro)": [
@@ -14871,7 +14720,7 @@
       "name": "Kashgar",
       "x": 27072.5,
       "z": -6948.5,
-      "id": 860,
+      "id": 851,
       "lines": {
         "Intercontinental": {
           "Afghan": [
@@ -14886,7 +14735,7 @@
       "type": "jct",
       "x": 27072.5,
       "z": -6172.5,
-      "id": 861,
+      "id": 852,
       "lines": {
         "Intercontinental": {
           "Afghan": [
@@ -14901,7 +14750,7 @@
       "type": "jct",
       "x": 25667.5,
       "z": -6172.5,
-      "id": 862,
+      "id": 853,
       "lines": {
         "Intercontinental": {
           "Afghan": [
@@ -14915,7 +14764,7 @@
       "name": "Kabul",
       "x": 24774.5,
       "z": -4785.5,
-      "id": 863,
+      "id": 854,
       "lines": {
         "Intercontinental": {
           "Afghan": [
@@ -14929,7 +14778,7 @@
       "name": "Yeken",
       "x": 27293.5,
       "z": -6172.5,
-      "id": 864,
+      "id": 855,
       "lines": {
         "Intercontinental": {
           "Afghan": [
@@ -14943,7 +14792,7 @@
       "name": "Afyun Dara",
       "x": 25667.5,
       "z": -5787.5,
-      "id": 865,
+      "id": 856,
       "lines": {
         "Intercontinental": {
           "Afghan": [
@@ -14957,7 +14806,7 @@
       "name": "Sheffield",
       "x": -474,
       "z": -12917,
-      "id": 866,
+      "id": 857,
       "lines": {
         "Intercontinental": {
           "Havantian": [
@@ -14972,7 +14821,7 @@
       "type": "jct",
       "x": -312,
       "z": -12557,
-      "id": 867,
+      "id": 858,
       "lines": {
         "Intercontinental": {
           "Havantian": [
@@ -14991,7 +14840,7 @@
       "type": "jct",
       "x": -312,
       "z": -12508,
-      "id": 868,
+      "id": 859,
       "lines": {
         "Intercontinental": {
           "Havantian": [
@@ -15010,7 +14859,7 @@
       "type": "jct",
       "x": -312,
       "z": -12340,
-      "id": 869,
+      "id": 860,
       "lines": {
         "Intercontinental": {
           "Havantian": [
@@ -15024,7 +14873,7 @@
       "name": "Henley Interchange",
       "x": -312,
       "z": -12272,
-      "id": 870,
+      "id": 861,
       "lines": {
         "Intercontinental": {
           "Havantian": [
@@ -15038,7 +14887,7 @@
       "name": "Havant Town",
       "x": -343,
       "z": -11957,
-      "id": 871,
+      "id": 862,
       "lines": {
         "Intercontinental": {
           "Havantian": [
@@ -15052,7 +14901,7 @@
       "name": "Oxford",
       "x": -492,
       "z": -12340,
-      "id": 872,
+      "id": 863,
       "lines": {
         "Intercontinental": {
           "Havantian": [
@@ -15066,7 +14915,7 @@
       "name": "Mid Wales",
       "x": -1408,
       "z": -12557,
-      "id": 873,
+      "id": 864,
       "lines": {
         "Intercontinental": {
           "Anglo-Wales": [
@@ -15080,7 +14929,7 @@
       "name": "Milton Keynes",
       "x": -378,
       "z": -12557,
-      "id": 874,
+      "id": 865,
       "lines": {
         "Intercontinental": {
           "Anglo-Wales": [
@@ -15094,7 +14943,7 @@
       "name": "Clacton-On-Sea",
       "x": 396,
       "z": -12430,
-      "id": 875,
+      "id": 866,
       "lines": {
         "Intercontinental": {
           "Anglo-Wales": [
@@ -15108,7 +14957,7 @@
       "name": "Ptolemais",
       "x": 7060,
       "z": -3225,
-      "id": 876,
+      "id": 867,
       "lines": {
         "Intercontinental": {
           "Sicilian North Africa": [
@@ -15122,7 +14971,7 @@
       "name": "Cyrene",
       "x": 6375,
       "z": -3380,
-      "id": 877,
+      "id": 868,
       "lines": {
         "Intercontinental": {
           "Sicilian North Africa": [
@@ -15137,7 +14986,7 @@
       "type": "jct",
       "x": 3969,
       "z": -4529,
-      "id": 878,
+      "id": 869,
       "lines": {
         "Intercontinental": {
           "Sicilian North Africa": [
@@ -15151,7 +15000,7 @@
       "name": "Djerba",
       "x": 3921,
       "z": -4529,
-      "id": 879,
+      "id": 870,
       "lines": {
         "Intercontinental": {
           "Sicilian North Africa": [
@@ -15165,7 +15014,7 @@
       "name": "Tunis",
       "x": 3969,
       "z": -5091,
-      "id": 880,
+      "id": 871,
       "lines": {
         "Intercontinental": {
           "Sicilian North Africa": [
@@ -15183,7 +15032,7 @@
       "name": "Eremo Perfetto",
       "x": 4264,
       "z": -5790,
-      "id": 881,
+      "id": 872,
       "lines": {
         "Intercontinental": {
           "Sicilian Pantellerian": [
@@ -15197,7 +15046,7 @@
       "name": "Porto Dos Casais",
       "x": -18298.5,
       "z": 19120.5,
-      "id": 882,
+      "id": 873,
       "lines": {
         "Intercontinental": {
           "Garibaldi": [
@@ -15211,7 +15060,7 @@
       "name": "Champa",
       "x": -18951.5,
       "z": 19967,
-      "id": 883,
+      "id": 874,
       "lines": {
         "Intercontinental": {
           "Garibaldi": [
@@ -15225,7 +15074,7 @@
       "name": "Pishpek",
       "x": 26807,
       "z": -8323,
-      "id": 884,
+      "id": 875,
       "lines": {
         "Intercontinental": {
           "Pishpek": [
@@ -15239,7 +15088,7 @@
       "name": "Karakol",
       "x": 28038,
       "z": -8194,
-      "id": 885,
+      "id": 876,
       "lines": {
         "Intercontinental": {
           "Pishpek": [
@@ -15253,7 +15102,7 @@
       "name": "Sannomiya (Railway station)",
       "x": 48461,
       "z": -4960.5,
-      "id": 886,
+      "id": 877,
       "lines": {
         "Intercontinental": {
           "Kobe": [
@@ -15267,7 +15116,7 @@
       "name": "Edo (Railway station)",
       "x": 48606,
       "z": -4977.5,
-      "id": 887,
+      "id": 878,
       "lines": {
         "Intercontinental": {
           "Kobe": [
@@ -15282,7 +15131,7 @@
       "type": "jct",
       "x": 33455.5,
       "z": -1038.5,
-      "id": 888,
+      "id": 879,
       "lines": {
         "Intercontinental": {
           "Average Trial Chambers Ice Highway": [
@@ -15296,7 +15145,7 @@
       "name": "Baniachong Northern Trial Chamber",
       "x": 33603.5,
       "z": -2130.5,
-      "id": 889,
+      "id": 880,
       "lines": {
         "Intercontinental": {
           "Average Trial Chambers Ice Highway": [
@@ -15310,7 +15159,7 @@
       "name": "Baniachong 2nd Trial Chamber",
       "x": 33455.5,
       "z": -1298.5,
-      "id": 890,
+      "id": 881,
       "lines": {
         "Intercontinental": {
           "Average Trial Chambers Ice Highway": [
@@ -15324,7 +15173,7 @@
       "name": "Baniachong Eastern Trial Chamber",
       "x": 33455.5,
       "z": -984.5,
-      "id": 891,
+      "id": 882,
       "lines": {
         "Intercontinental": {
           "Average Trial Chambers Ice Highway": [
@@ -15338,7 +15187,7 @@
       "name": "Cambridge",
       "x": 55,
       "z": -12508,
-      "id": 892,
+      "id": 883,
       "lines": {
         "Intercontinental": {
           "Transatlantic North": [
@@ -15352,7 +15201,7 @@
       "name": "Tralee",
       "x": -3444,
       "z": -12508,
-      "id": 893,
+      "id": 884,
       "lines": {
         "Intercontinental": {
           "Transatlantic North": [
@@ -15366,7 +15215,7 @@
       "name": "Oceanic Plate Emergency Exit",
       "x": -6508,
       "z": -12508,
-      "id": 894,
+      "id": 885,
       "lines": {
         "Intercontinental": {
           "Transatlantic North": [
@@ -15381,7 +15230,7 @@
       "type": "jct",
       "x": 39488,
       "z": -16936,
-      "id": 895,
+      "id": 886,
       "lines": {
         "Intercontinental": {
           "Baikal Free Way": [
@@ -15395,7 +15244,7 @@
       "name": "Angoya",
       "x": 39488,
       "z": -14322,
-      "id": 896,
+      "id": 887,
       "lines": {
         "Intercontinental": {
           "Baikal Free Way": [
@@ -15409,7 +15258,7 @@
       "name": "Freiburg",
       "x": 39488,
       "z": -14034,
-      "id": 897,
+      "id": 888,
       "lines": {
         "Intercontinental": {
           "Baikal Free Way": [
@@ -15423,7 +15272,7 @@
       "name": "Chiang Mai",
       "x": 36050.5,
       "z": 755.5,
-      "id": 898,
+      "id": 889,
       "lines": {
         "Intercontinental": {
           "Thailand": [
@@ -15438,7 +15287,7 @@
       "type": "jct",
       "x": 36050.5,
       "z": 2078.5,
-      "id": 899,
+      "id": 890,
       "lines": {
         "Intercontinental": {
           "Thailand": [
@@ -15452,7 +15301,7 @@
       "name": "Bangkok",
       "x": 36045.5,
       "z": 3030.5,
-      "id": 900,
+      "id": 891,
       "lines": {
         "Intercontinental": {
           "Thailand": [
@@ -15469,7 +15318,7 @@
       "z": 12255,
       "y1": 9,
       "y2": 70,
-      "id": 901,
+      "id": 892,
       "lines": {
         "Intercontinental": {
           "Twi Islands-Wyndham": [
@@ -15483,7 +15332,7 @@
       "name": "Townsville",
       "x": 46510,
       "z": 12979.5,
-      "id": 902,
+      "id": 893,
       "lines": {
         "Intercontinental": {
           "Twi Islands-Wyndham": [
@@ -15497,7 +15346,7 @@
       "name": "Aubin",
       "x": 45905,
       "z": 13346,
-      "id": 903,
+      "id": 894,
       "lines": {
         "Intercontinental": {
           "Twi Islands-Wyndham": [
@@ -15511,7 +15360,7 @@
       "name": "Downing River (Y\u003d70)",
       "x": 45905,
       "z": 13471,
-      "id": 904,
+      "id": 895,
       "lines": {
         "Intercontinental": {
           "Twi Islands-Wyndham": [
@@ -15525,7 +15374,7 @@
       "name": "Downing River (Y\u003d63)",
       "x": 45902,
       "z": 13473,
-      "id": 905,
+      "id": 896,
       "lines": {
         "Intercontinental": {
           "Downing River-Condingup": [
@@ -15539,7 +15388,7 @@
       "name": "Palmerston",
       "x": 45721,
       "z": 13473,
-      "id": 906,
+      "id": 897,
       "lines": {
         "Intercontinental": {
           "Downing River-Condingup": [
@@ -15553,7 +15402,7 @@
       "name": "Heidelberg",
       "x": 45721,
       "z": 14271,
-      "id": 907,
+      "id": 898,
       "lines": {
         "Intercontinental": {
           "Downing River-Condingup": [
@@ -15567,7 +15416,7 @@
       "name": "Sanctuary",
       "x": 45713,
       "z": 16079,
-      "id": 908,
+      "id": 899,
       "lines": {
         "Intercontinental": {
           "Downing River-Condingup": [
@@ -15581,7 +15430,7 @@
       "name": "Kgari",
       "x": 45041,
       "z": 17439,
-      "id": 909,
+      "id": 900,
       "lines": {
         "Intercontinental": {
           "Downing River-Condingup": [
@@ -15595,7 +15444,7 @@
       "name": "Laverton",
       "x": 44026,
       "z": 18719,
-      "id": 910,
+      "id": 901,
       "lines": {
         "Intercontinental": {
           "Downing River-Condingup": [
@@ -15609,7 +15458,7 @@
       "name": "Condingup (South Coast)",
       "x": 44025,
       "z": 20642,
-      "id": 911,
+      "id": 902,
       "lines": {
         "Intercontinental": {
           "Downing River-Condingup": [
@@ -15623,7 +15472,7 @@
       "name": "SubZero Market",
       "x": 60058.5,
       "z": -23840,
-      "id": 912,
+      "id": 903,
       "lines": {
         "Intercontinental": {
           "SubZero Market-Ayon": [
@@ -15637,7 +15486,7 @@
       "name": "Ayon (SubZero)",
       "x": 60174,
       "z": -22370.5,
-      "id": 913,
+      "id": 904,
       "lines": {
         "Intercontinental": {
           "SubZero Market-Ayon": [
@@ -15652,7 +15501,7 @@
       "type": "jct",
       "x": -15596,
       "z": -16972,
-      "id": 914,
+      "id": 905,
       "lines": {
         "Intercontinental": {
           "South Greenland Connect": [
@@ -15667,7 +15516,7 @@
       "type": "jct",
       "x": 11624,
       "z": -18698,
-      "id": 915,
+      "id": 906,
       "lines": {
         "Intercontinental": {
           "Veinan-Kola": [
@@ -15682,7 +15531,7 @@
       "type": "jct",
       "x": 11624,
       "z": -20271,
-      "id": 916,
+      "id": 907,
       "lines": {
         "Intercontinental": {
           "Veinan-Kola": [
@@ -15697,7 +15546,7 @@
       "type": "jct",
       "x": 11624,
       "z": -20611,
-      "id": 917,
+      "id": 908,
       "lines": {
         "Intercontinental": {
           "Veinan-Kola": [
@@ -15723,7 +15572,7 @@
           ]
         ]
       ],
-      "id": 918,
+      "id": 909,
       "lines": {
         "Intercontinental": {
           "Veinan-Kola": [
@@ -15738,7 +15587,7 @@
       "type": "jct",
       "x": 12325,
       "z": -18698,
-      "id": 919,
+      "id": 910,
       "lines": {
         "Intercontinental": {
           "Veinan-Kola": [
@@ -15764,7 +15613,7 @@
           ]
         ]
       ],
-      "id": 920,
+      "id": 911,
       "lines": {
         "Intercontinental": {
           "Veinan-Kola": [
@@ -15790,7 +15639,7 @@
           ]
         ]
       ],
-      "id": 921,
+      "id": 912,
       "lines": {
         "Intercontinental": {
           "Veinan-Kola": [
@@ -15804,7 +15653,7 @@
       "name": "Umka",
       "x": 13089,
       "z": -20160,
-      "id": 922,
+      "id": 913,
       "lines": {
         "Intercontinental": {
           "Veinan-Kola": [
@@ -15818,7 +15667,7 @@
       "name": "Monchegrsk",
       "x": 11453,
       "z": -20611,
-      "id": 923,
+      "id": 914,
       "lines": {
         "Intercontinental": {
           "Veinan-Kola": [
@@ -15832,7 +15681,7 @@
       "name": "Caspian Sea Entrance",
       "x": 19156.5,
       "z": -5800,
-      "id": 924,
+      "id": 915,
       "lines": {
         "Intercontinental": {
           "Caspian-Gulf Coast": [
@@ -15847,7 +15696,7 @@
       "type": "jct",
       "x": 18696.5,
       "z": -5580.5,
-      "id": 925,
+      "id": 916,
       "lines": {
         "Intercontinental": {
           "Caspian-Gulf Coast": [
@@ -15861,7 +15710,7 @@
       "name": "Tahran",
       "x": 18824.5,
       "z": -4934.5,
-      "id": 926,
+      "id": 917,
       "lines": {
         "Intercontinental": {
           "Caspian-Gulf Coast": [
@@ -15876,7 +15725,7 @@
       "type": "jct",
       "x": 19113.5,
       "z": -3992.5,
-      "id": 927,
+      "id": 918,
       "lines": {
         "Intercontinental": {
           "Caspian-Gulf Coast": [
@@ -15891,7 +15740,7 @@
       "type": "jct",
       "x": 19097.5,
       "z": -1989.5,
-      "id": 928,
+      "id": 919,
       "lines": {
         "Intercontinental": {
           "Caspian-Gulf Coast": [
@@ -15905,7 +15754,7 @@
       "name": "Caspian Sea Entrance",
       "x": 19097.5,
       "z": -1924,
-      "id": 929,
+      "id": 920,
       "lines": {
         "Intercontinental": {
           "Caspian-Gulf Coast": [
@@ -15919,7 +15768,7 @@
       "name": "CheeseKurds JCT",
       "x": 18689,
       "z": -5580.5,
-      "id": 930,
+      "id": 921,
       "lines": {
         "Intercontinental": {
           "Caspian-Gulf Coast": [
@@ -15933,7 +15782,7 @@
       "name": "Yazd JCT",
       "x": 19494,
       "z": -3992.5,
-      "id": 931,
+      "id": 922,
       "lines": {
         "Intercontinental": {
           "Caspian-Gulf Coast": [
@@ -15947,7 +15796,7 @@
       "name": "Parthia (Upper)",
       "x": 18966.5,
       "z": -2005,
-      "id": 932,
+      "id": 923,
       "lines": {
         "Intercontinental": {
           "Caspian-Gulf Coast": [
@@ -15961,7 +15810,7 @@
       "name": "Taymyr North Coast",
       "x": 34661,
       "z": -26446,
-      "id": 933,
+      "id": 924,
       "lines": {
         "Intercontinental": {
           "Tunguska-Arctic": [
@@ -15975,7 +15824,7 @@
       "name": "UpTheWahs",
       "x": 34661,
       "z": -22570,
-      "id": 934,
+      "id": 925,
       "lines": {
         "Intercontinental": {
           "Tunguska-Arctic": [
@@ -15990,7 +15839,7 @@
       "type": "jct",
       "x": 34661,
       "z": -21700,
-      "id": 935,
+      "id": 926,
       "lines": {
         "Intercontinental": {
           "Tunguska-Arctic": [
@@ -16004,7 +15853,7 @@
       "name": "Nizhnyaya Tunguska",
       "x": 34661,
       "z": -21608,
-      "id": 936,
+      "id": 927,
       "lines": {
         "Intercontinental": {
           "Tunguska-Arctic": [
@@ -16018,7 +15867,7 @@
       "name": "Arveria",
       "x": 34277,
       "z": -21700,
-      "id": 937,
+      "id": 928,
       "lines": {
         "Intercontinental": {
           "Tunguska-Arctic": [
@@ -16032,7 +15881,7 @@
       "name": "Sisirak",
       "x": 21377,
       "z": -7738.5,
-      "id": 938,
+      "id": 929,
       "lines": {
         "Uzbekistan Ice lines": {
           "Tashkent-Sisirak": [
@@ -16049,7 +15898,7 @@
       "y2": 72,
       "x": 24108.5,
       "z": -7738.5,
-      "id": 939,
+      "id": 930,
       "lines": {
         "Uzbekistan Ice lines": {
           "Tashkent-Sisirak": [
@@ -16064,7 +15913,7 @@
       "type": "jct",
       "x": 24111.5,
       "z": -7738.5,
-      "id": 940,
+      "id": 931,
       "lines": {
         "Uzbekistan Ice lines": {
           "Tashkent-Sisirak": [
@@ -16078,7 +15927,7 @@
       "name": "Tashkent",
       "x": 24702,
       "z": -7738.5,
-      "id": 941,
+      "id": 932,
       "lines": {
         "Uzbekistan Ice lines": {
           "Tashkent-Sisirak": [
@@ -16092,7 +15941,7 @@
       "name": "Samarkand",
       "x": 24111.5,
       "z": -7049.5,
-      "id": 942,
+      "id": 933,
       "lines": {
         "Uzbekistan Ice lines": {
           "Tashkent-Sisirak": [
@@ -16106,7 +15955,7 @@
       "name": "Moynaq",
       "x": 21283.5,
       "z": -8491,
-      "id": 943,
+      "id": 934,
       "lines": {
         "Uzbekistan Ice lines": {
           "Tashkent-Sisirak": [
@@ -16120,7 +15969,7 @@
       "name": "Sisirak (Moynaq platform)",
       "x": 21283.5,
       "z": -7751,
-      "id": 944,
+      "id": 935,
       "lines": {
         "Uzbekistan Ice lines": {
           "Tashkent-Sisirak": [
@@ -16134,7 +15983,7 @@
       "name": "Bishkek",
       "x": 26360,
       "z": -8390.5,
-      "id": 945,
+      "id": 936,
       "lines": {
         "Uzbekistan Ice lines": {
           "Tashkent-Bishkek": [
@@ -16151,7 +16000,7 @@
       "y2": 67,
       "x": 25376,
       "z": -8390.5,
-      "id": 946,
+      "id": 937,
       "lines": {
         "Uzbekistan Ice lines": {
           "Tashkent-Bishkek": [
@@ -16166,7 +16015,7 @@
       "type": "jct",
       "x": 24922.5,
       "z": -8390.5,
-      "id": 947,
+      "id": 938,
       "lines": {
         "Uzbekistan Ice lines": {
           "Tashkent-Bishkek": [
@@ -16183,7 +16032,7 @@
       "y2": 71,
       "x": 24922.5,
       "z": -8359.5,
-      "id": 948,
+      "id": 939,
       "lines": {
         "Uzbekistan Ice lines": {
           "Tashkent-Bishkek": [
@@ -16197,7 +16046,7 @@
       "name": "East Tashkent",
       "x": 24922.5,
       "z": -7714,
-      "id": 949,
+      "id": 940,
       "lines": {
         "Uzbekistan Ice lines": {
           "Tashkent-Bishkek": [
@@ -16211,7 +16060,7 @@
       "name": "Walled City",
       "x": 23968.5,
       "z": -8805.5,
-      "id": 950,
+      "id": 941,
       "lines": {
         "Uzbekistan Ice lines": {
           "Tashkent-Bishkek": [
@@ -16225,7 +16074,7 @@
       "name": "Bishkek (Liao platform)",
       "x": 26413.5,
       "z": -8430,
-      "id": 951,
+      "id": 942,
       "lines": {
         "Uzbekistan Ice lines": {
           "Bishkek-Liao": [
@@ -16240,7 +16089,7 @@
       "type": "jct",
       "x": 62800,
       "z": 22097,
-      "id": 952,
+      "id": 943,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "NZ North-South Main (Y7)": [
@@ -16259,7 +16108,7 @@
       "type": "jct",
       "x": 62800,
       "z": 22216,
-      "id": 953,
+      "id": 944,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "NZ North-South Main (Y7)": [
@@ -16277,7 +16126,7 @@
       "name": "Burhaniye–Bastion_Stove",
       "x": 62800,
       "z": 22409,
-      "id": 954,
+      "id": 945,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "NZ North-South Main (Y7)": [
@@ -16292,7 +16141,7 @@
       "type": "jct",
       "x": 62800,
       "z": 22590,
-      "id": 955,
+      "id": 946,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "NZ North-South Main (Y7)": [
@@ -16314,7 +16163,7 @@
       "name": "Whitewater West",
       "x": 62800,
       "z": 22669,
-      "id": 956,
+      "id": 947,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "NZ North-South Main (Y7)": [
@@ -16329,7 +16178,7 @@
       "type": "jct",
       "x": 62800,
       "z": 22785,
-      "id": 957,
+      "id": 948,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "NZ North-South Main (Y7)": [
@@ -16345,7 +16194,7 @@
       "type": "jct",
       "x": 62800,
       "z": 22985,
-      "id": 958,
+      "id": 949,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "NZ North-South Main (Y7)": [
@@ -16361,7 +16210,7 @@
       "name": "Wellington",
       "x": 62800,
       "z": 23722,
-      "id": 959,
+      "id": 950,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "NZ North-South Main (Y7)": [
@@ -16376,7 +16225,7 @@
       "type": "jct",
       "x": 62800,
       "z": 24605,
-      "id": 960,
+      "id": 951,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "NZ North-South Main (Y7)": [
@@ -16397,7 +16246,7 @@
       "y2": 7,
       "x": 62178,
       "z": 24605,
-      "id": 961,
+      "id": 952,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "NZ North-South Main (Y7)": [
@@ -16415,7 +16264,7 @@
       "name": "Napier South",
       "x": 63370,
       "z": 22961,
-      "id": 962,
+      "id": 953,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "NZ North-South Main (Y7)": [
@@ -16429,7 +16278,7 @@
       "name": "Wanganui",
       "x": 62727,
       "z": 23007,
-      "id": 963,
+      "id": 954,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "NZ North-South Main (Y7)": [
@@ -16443,7 +16292,7 @@
       "name": "New Plymouth",
       "x": 62442,
       "z": 22785,
-      "id": 964,
+      "id": 955,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "NZ North-South Main (Y7)": [
@@ -16457,7 +16306,7 @@
       "name": "Christchurch",
       "x": 61877,
       "z": 24605,
-      "id": 965,
+      "id": 956,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "NZ North-South Main (Y-62)": [
@@ -16472,7 +16321,7 @@
       "type": "jct",
       "x": 60521,
       "z": 25437,
-      "id": 966,
+      "id": 957,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "NZ North-South Main (Y-62)": [
@@ -16490,7 +16339,7 @@
       "name": "NZ City North",
       "x": 60043,
       "z": 25437,
-      "id": 967,
+      "id": 958,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "NZ North-South Main (Y-62)": [
@@ -16508,7 +16357,7 @@
       "name": "Whitewater",
       "x": 63033,
       "z": 22590,
-      "id": 968,
+      "id": 959,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "Napier": [
@@ -16522,7 +16371,7 @@
       "name": "Napier",
       "x": 63400,
       "z": 22590,
-      "id": 969,
+      "id": 960,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "Napier": [
@@ -16536,7 +16385,7 @@
       "name": "New Plymouth International",
       "x": 62450,
       "z": 22650,
-      "id": 970,
+      "id": 961,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "Trans-Tasman Link (Y7)": [
@@ -16554,7 +16403,7 @@
       "name": "Boundary Checkpoint [km 8,151]",
       "x": 54710,
       "z": 22650,
-      "id": 971,
+      "id": 962,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "Trans-Tasman Link (Y-62)": [
@@ -16568,7 +16417,7 @@
       "name": "South Coast (NZ MoI)",
       "x": 53773,
       "z": 21380,
-      "id": 972,
+      "id": 963,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "Trans-Tasman Link (Y-62)": [
@@ -16582,7 +16431,7 @@
       "name": "Bay of Plenty",
       "x": 63141,
       "z": 22216,
-      "id": 973,
+      "id": 964,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "Bay of Plenty": [
@@ -16596,7 +16445,7 @@
       "name": "The Rig",
       "x": 63302,
       "z": 21520,
-      "id": 974,
+      "id": 965,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "Bay of Plenty": [
@@ -16611,7 +16460,7 @@
       "type": "semi4",
       "x": 60024,
       "z": 25629,
-      "id": 975,
+      "id": 966,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "World Border": [
@@ -16625,7 +16474,7 @@
       "name": "NZ City South",
       "x": 60024,
       "z": 25704,
-      "id": 976,
+      "id": 967,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "World Border": [
@@ -16639,7 +16488,7 @@
       "name": "Rakiura",
       "x": 60024,
       "z": 26314,
-      "id": 977,
+      "id": 968,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "World Border": [
@@ -16654,7 +16503,7 @@
       "type": "jct",
       "x": 60024,
       "z": 28080,
-      "id": 978,
+      "id": 969,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "World Border": [
@@ -16669,7 +16518,7 @@
       "name": "New Zealand South World Border",
       "x": 60024,
       "z": 32252,
-      "id": 979,
+      "id": 970,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "World Border": [
@@ -16683,7 +16532,7 @@
       "name": "Auckland View",
       "x": 59555,
       "z": 27876,
-      "id": 980,
+      "id": 971,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "World Border": [
@@ -16698,7 +16547,7 @@
       "type": "jct",
       "x": 62695,
       "z": 22097,
-      "id": 981,
+      "id": 972,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "Auckland Circle": [
@@ -16717,7 +16566,7 @@
       "type": "jct",
       "x": 62320,
       "z": 21729,
-      "id": 982,
+      "id": 973,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "Auckland Circle": [
@@ -16736,7 +16585,7 @@
       "type": "jct",
       "x": 62695,
       "z": 21729,
-      "id": 983,
+      "id": 974,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "Auckland Circle": [
@@ -16756,7 +16605,7 @@
       "type": "jct",
       "x": 62320,
       "z": 21100,
-      "id": 984,
+      "id": 975,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "South Pacific Link": [
@@ -16771,7 +16620,7 @@
       "name": "Yordle Land",
       "x": 62118,
       "z": 21100,
-      "id": 985,
+      "id": 976,
       "lines": {
         "NZ Ministry of Infrastructure": {
           "South Pacific Link": [
@@ -16786,7 +16635,7 @@
       "x": 13101.5,
       "z": -14397.5,
       "notes": "",
-      "id": 986,
+      "id": 977,
       "lines": {
         "Russian Confederation": {
           "Velikiye Luki": [
@@ -16801,7 +16650,7 @@
       "x": 11037.5,
       "z": -14911.5,
       "notes": "Entrance at x11040 y63 z-14908",
-      "id": 987,
+      "id": 978,
       "lines": {
         "Russian Confederation": {
           "Velikiye Luki": [
@@ -16815,7 +16664,7 @@
       "name": "Sandefjord South",
       "x": 3585,
       "z": -16101,
-      "id": 988,
+      "id": 979,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Central": [
@@ -16861,7 +16710,7 @@
           ]
         ]
       ],
-      "id": 989,
+      "id": 980,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Central": [
@@ -16876,7 +16725,7 @@
       "type": "jct",
       "x": 3662,
       "z": -16477,
-      "id": 990,
+      "id": 981,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Central": [
@@ -16890,7 +16739,7 @@
       "name": "Oslo Underground",
       "x": 3729,
       "z": -16537,
-      "id": 991,
+      "id": 982,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Central": [
@@ -16904,7 +16753,7 @@
       "name": "Oslo Trial Chambers",
       "x": 3533,
       "z": -16572,
-      "id": 992,
+      "id": 983,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Central": [
@@ -16919,7 +16768,7 @@
       "x": 3662,
       "z": -16361,
       "notes": "Abandoned",
-      "id": 993,
+      "id": 984,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Central": [
@@ -16933,7 +16782,7 @@
       "name": "Honefoss",
       "x": 3651,
       "z": -16334,
-      "id": 994,
+      "id": 985,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Central": [
@@ -16960,7 +16809,7 @@
           ]
         ]
       ],
-      "id": 995,
+      "id": 986,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Central": [
@@ -16991,7 +16840,7 @@
           ]
         ]
       ],
-      "id": 996,
+      "id": 987,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Central": [
@@ -17006,7 +16855,7 @@
       "type": "jct",
       "x": 1994,
       "z": -16113,
-      "id": 997,
+      "id": 988,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Central": [
@@ -17020,7 +16869,7 @@
       "name": "Lysebotn",
       "x": 2400,
       "z": -16113,
-      "id": 998,
+      "id": 989,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Central": [
@@ -17047,7 +16896,7 @@
           ]
         ]
       ],
-      "id": 999,
+      "id": 990,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Central": [
@@ -17066,7 +16915,7 @@
       "type": "jct",
       "x": 3387,
       "z": -16839,
-      "id": 1000,
+      "id": 991,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Central": [
@@ -17085,7 +16934,7 @@
       "type": "jct",
       "x": 1968,
       "z": -16839,
-      "id": 1001,
+      "id": 992,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Central": [
@@ -17103,7 +16952,7 @@
       "name": "Fløibanen (Bergen)",
       "x": 1968,
       "z": -16767,
-      "id": 1002,
+      "id": 993,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Central": [
@@ -17117,7 +16966,7 @@
       "name": "Bergen South",
       "x": 1944,
       "z": -16524,
-      "id": 1003,
+      "id": 994,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Central": [
@@ -17131,7 +16980,7 @@
       "name": "Makfrost Central",
       "x": 1944,
       "z": -16286,
-      "id": 1004,
+      "id": 995,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Central": [
@@ -17145,7 +16994,7 @@
       "name": "Stavanger Underground",
       "x": 1994,
       "z": -15996,
-      "id": 1005,
+      "id": 996,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Central": [
@@ -17162,7 +17011,7 @@
       "z": -16607,
       "y1": 51,
       "y2": 64,
-      "id": 1006,
+      "id": 997,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Trondheim": [
@@ -17188,7 +17037,7 @@
           ]
         ]
       ],
-      "id": 1007,
+      "id": 998,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Trondheim": [
@@ -17215,7 +17064,7 @@
       "type": "jct",
       "x": 3976,
       "z": -16904,
-      "id": 1008,
+      "id": 999,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Trondheim": [
@@ -17245,7 +17094,7 @@
           ]
         ]
       ],
-      "id": 1009,
+      "id": 1000,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Trondheim": [
@@ -17266,7 +17115,7 @@
       "z": -17240,
       "y1": 64,
       "y2": 71,
-      "id": 1010,
+      "id": 1001,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Trondheim": [
@@ -17306,7 +17155,7 @@
           ]
         ]
       ],
-      "id": 1011,
+      "id": 1002,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Trondheim": [
@@ -17328,7 +17177,7 @@
       "name": "Bermof",
       "x": 3478,
       "z": -18503,
-      "id": 1012,
+      "id": 1003,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Trondheim": [
@@ -17342,7 +17191,7 @@
       "name": "Hitra",
       "x": 3250,
       "z": -18569,
-      "id": 1013,
+      "id": 1004,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Trondheim": [
@@ -17359,7 +17208,7 @@
       "z": -16603,
       "y1": 64,
       "y2": 51,
-      "id": 1014,
+      "id": 1005,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower North": [
@@ -17376,7 +17225,7 @@
       "z": -16598,
       "y1": 51,
       "y2": 64,
-      "id": 1015,
+      "id": 1006,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower North": [
@@ -17393,7 +17242,7 @@
       "z": -17240,
       "y1": 64,
       "y2": 71,
-      "id": 1016,
+      "id": 1007,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower North": [
@@ -17411,7 +17260,7 @@
       "name": "Brookieston",
       "x": 3873,
       "z": -16904,
-      "id": 1017,
+      "id": 1008,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower North": [
@@ -17430,7 +17279,7 @@
       "type": "jct",
       "x": 3751,
       "z": -18490,
-      "id": 1018,
+      "id": 1009,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Middle North": [
@@ -17447,7 +17296,7 @@
       "z": -18861,
       "y1": 71,
       "y2": 66,
-      "id": 1019,
+      "id": 1010,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Middle North": [
@@ -17468,7 +17317,7 @@
       "z": -18861,
       "y1": 66,
       "y2": 71,
-      "id": 1020,
+      "id": 1011,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Middle North": [
@@ -17486,7 +17335,7 @@
       "name": "Östersund",
       "x": 5115,
       "z": -18434,
-      "id": 1021,
+      "id": 1012,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Middle North": [
@@ -17500,7 +17349,7 @@
       "name": "Nordvail",
       "x": 4023,
       "z": -18979,
-      "id": 1022,
+      "id": 1013,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper North": [
@@ -17514,7 +17363,7 @@
       "name": "Korsgard",
       "x": 4488,
       "z": -19368,
-      "id": 1023,
+      "id": 1014,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper North": [
@@ -17531,7 +17380,7 @@
       "z": -19370,
       "y1": 64,
       "y2": 71,
-      "id": 1024,
+      "id": 1015,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper North": [
@@ -17548,7 +17397,7 @@
       "z": -19366,
       "y1": 71,
       "y2": 64,
-      "id": 1025,
+      "id": 1016,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper North": [
@@ -17562,7 +17411,7 @@
       "name": "Rana",
       "x": 5173,
       "z": -20146,
-      "id": 1026,
+      "id": 1017,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper North": [
@@ -17577,7 +17426,7 @@
       "type": "jct",
       "x": 5173,
       "z": -20551,
-      "id": 1027,
+      "id": 1018,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper North": [
@@ -17613,7 +17462,7 @@
           ]
         ]
       ],
-      "id": 1028,
+      "id": 1019,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper North": [
@@ -17627,7 +17476,7 @@
       "name": "Korsgard",
       "x": 5863,
       "z": -21082,
-      "id": 1029,
+      "id": 1020,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper North": [
@@ -17642,7 +17491,7 @@
       "type": "jct",
       "x": 5863,
       "z": -21290,
-      "id": 1030,
+      "id": 1021,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper North": [
@@ -17657,7 +17506,7 @@
       "type": "jct",
       "x": 6070,
       "z": -21290,
-      "id": 1031,
+      "id": 1022,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper North": [
@@ -17697,7 +17546,7 @@
           ]
         ]
       ],
-      "id": 1032,
+      "id": 1023,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper North": [
@@ -17712,7 +17561,7 @@
       "type": "jct",
       "x": 6567,
       "z": -21290,
-      "id": 1033,
+      "id": 1024,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper North": [
@@ -17738,7 +17587,7 @@
           ]
         ]
       ],
-      "id": 1034,
+      "id": 1025,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper North": [
@@ -17752,7 +17601,7 @@
       "name": "Asgard",
       "x": 5863,
       "z": -21434,
-      "id": 1035,
+      "id": 1026,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper North": [
@@ -17766,7 +17615,7 @@
       "name": "Stuor Muorkke",
       "x": 6567,
       "z": -20878,
-      "id": 1036,
+      "id": 1027,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper North": [
@@ -17780,7 +17629,7 @@
       "name": "Bodo",
       "x": 5171,
       "z": -20678,
-      "id": 1037,
+      "id": 1028,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper North": [
@@ -17797,7 +17646,7 @@
       "z": -21480,
       "y1": 75,
       "y2": 65,
-      "id": 1038,
+      "id": 1029,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Svalbard": [
@@ -17812,7 +17661,7 @@
       "type": "jct",
       "x": 6070,
       "z": -21784,
-      "id": 1039,
+      "id": 1030,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Svalbard": [
@@ -17830,7 +17679,7 @@
       "name": "Newer Friendland",
       "x": 6070,
       "z": -21834,
-      "id": 1040,
+      "id": 1031,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Svalbard": [
@@ -17847,7 +17696,7 @@
       "z": -21917,
       "y1": 65,
       "y2": -62,
-      "id": 1041,
+      "id": 1032,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Svalbard": [
@@ -17864,7 +17713,7 @@
       "z": -27158,
       "y1": -62,
       "y2": 70,
-      "id": 1042,
+      "id": 1033,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Svalbard": [
@@ -17878,7 +17727,7 @@
       "name": "Longyearbyen",
       "x": 5655,
       "z": -28104,
-      "id": 1043,
+      "id": 1034,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Svalbard": [
@@ -17895,7 +17744,7 @@
       "z": -16594,
       "y1": 64,
       "y2": 51,
-      "id": 1044,
+      "id": 1035,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "South": [
@@ -17909,7 +17758,7 @@
       "name": "Moss",
       "x": 3863,
       "z": -16297,
-      "id": 1045,
+      "id": 1036,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "South": [
@@ -17935,7 +17784,7 @@
           ]
         ]
       ],
-      "id": 1046,
+      "id": 1037,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "South": [
@@ -17961,7 +17810,7 @@
           ]
         ]
       ],
-      "id": 1047,
+      "id": 1038,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "South": [
@@ -17988,7 +17837,7 @@
           ]
         ]
       ],
-      "id": 1048,
+      "id": 1039,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "South": [
@@ -18003,100 +17852,10 @@
       }
     },
     {
-      "name": "Stavanger International",
-      "x": 2216,
-      "z": -15758,
-      "id": 1049,
-      "lines": {
-        "Vy (Norway Ice Boat System)": {
-          "Norway-Netherlands": [
-            "",
-            "Main line"
-          ],
-          "Norway-Germany": [
-            "",
-            "Main line"
-          ]
-        }
-      }
-    },
-    {
-      "name": "Mapplatform JCT",
-      "type": "jct",
-      "x": 1895,
-      "z": -15481,
-      "id": 1050,
-      "lines": {
-        "Vy (Norway Ice Boat System)": {
-          "Norway-Netherlands": [
-            "",
-            "Main line to The Golden Dunegon branch"
-          ]
-        }
-      }
-    },
-    {
-      "name": "Mapplatform JCT",
-      "type": "jct",
-      "x": 1895,
-      "z": -14649,
-      "id": 1051,
-      "lines": {
-        "Vy (Norway Ice Boat System)": {
-          "Norway-Netherlands": [
-            "",
-            "Main line to Mapplatform branch"
-          ]
-        }
-      }
-    },
-    {
-      "name": "Wadden Island",
-      "x": 1895,
-      "z": -13188,
-      "id": 1052,
-      "lines": {
-        "Vy (Norway Ice Boat System)": {
-          "Norway-Netherlands": [
-            "",
-            "Main line"
-          ]
-        }
-      }
-    },
-    {
-      "name": "Mapplatform",
-      "x": 1217,
-      "z": -14652,
-      "id": 1053,
-      "lines": {
-        "Vy (Norway Ice Boat System)": {
-          "Norway-Netherlands": [
-            "",
-            "Mapplatform branch"
-          ]
-        }
-      }
-    },
-    {
-      "name": "The Golden Dunegon",
-      "x": 1218,
-      "z": -15481,
-      "id": 1054,
-      "lines": {
-        "Vy (Norway Ice Boat System)": {
-          "Norway-Netherlands": [
-            "",
-            "The Golden Dunegon branch"
-          ]
-        }
-      }
-    },
-    {
       "name": "New Horizon",
       "x": 8100,
       "z": -22153,
-      "id": 1055,
+      "id": 1040,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Finland": [
@@ -18113,7 +17872,7 @@
       "z": -19556,
       "y1": 89,
       "y2": 83,
-      "id": 1056,
+      "id": 1041,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Finland": [
@@ -18134,7 +17893,7 @@
       "z": -19562,
       "y1": 83,
       "y2": 89,
-      "id": 1057,
+      "id": 1042,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Finland-Russia": [
@@ -18151,7 +17910,7 @@
       "z": -17371,
       "y1": 89,
       "y2": 10,
-      "id": 1058,
+      "id": 1043,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Finland-Russia": [
@@ -18165,7 +17924,7 @@
       "name": "St Petersburg International",
       "x": 10870,
       "z": -16778,
-      "id": 1059,
+      "id": 1044,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Finland-Russia": [
@@ -18179,7 +17938,7 @@
       "name": "Lagunen Storcenter",
       "x": 1969,
       "z": -16981,
-      "id": 1060,
+      "id": 1045,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Circle": [
@@ -18193,7 +17952,7 @@
       "name": "Fitta Underground",
       "x": 1969,
       "z": -17389,
-      "id": 1061,
+      "id": 1046,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Circle": [
@@ -18207,7 +17966,7 @@
       "name": "Alesund Underground",
       "x": 2425,
       "z": -17799,
-      "id": 1062,
+      "id": 1047,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Circle": [
@@ -18222,7 +17981,7 @@
       "x": 2920,
       "z": -16839,
       "notes": "Abandoned",
-      "id": 1063,
+      "id": 1048,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Circle": [
@@ -18236,7 +17995,7 @@
       "name": "Finse (Great line)",
       "x": 2633,
       "z": -16839,
-      "id": 1064,
+      "id": 1049,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Circle": [
@@ -18251,7 +18010,7 @@
       "type": "jct",
       "x": 2523,
       "z": -16839,
-      "id": 1065,
+      "id": 1050,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Circle": [
@@ -18265,7 +18024,7 @@
       "name": "Fronningen",
       "x": 2523,
       "z": -17156,
-      "id": 1066,
+      "id": 1051,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower Circle": [
@@ -18282,7 +18041,7 @@
       "z": -15738,
       "y1": 75,
       "y2": -63,
-      "id": 1067,
+      "id": 1052,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower South Norway": [
@@ -18309,7 +18068,7 @@
           ]
         ]
       ],
-      "id": 1068,
+      "id": 1053,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower South Norway": [
@@ -18323,7 +18082,7 @@
       "name": "Kristiansand",
       "x": 2900,
       "z": -15636,
-      "id": 1069,
+      "id": 1054,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower South Norway": [
@@ -18337,7 +18096,7 @@
       "name": "Drangedal",
       "x": 3031,
       "z": -16117,
-      "id": 1070,
+      "id": 1055,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower South Norway": [
@@ -18352,7 +18111,7 @@
       "type": "jct",
       "x": 3331,
       "z": -16115,
-      "id": 1071,
+      "id": 1056,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower South Norway": [
@@ -18373,7 +18132,7 @@
       "z": -16232,
       "y1": -63,
       "y2": 75,
-      "id": 1072,
+      "id": 1057,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower South Norway": [
@@ -18390,7 +18149,7 @@
       "z": -15734,
       "y1": -63,
       "y2": 75,
-      "id": 1073,
+      "id": 1058,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower South Norway": [
@@ -18407,7 +18166,7 @@
       "z": -16228,
       "y1": 75,
       "y2": -63,
-      "id": 1074,
+      "id": 1059,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower South Norway": [
@@ -18421,7 +18180,7 @@
       "name": "West Adger",
       "x": 2680,
       "z": -15587,
-      "id": 1075,
+      "id": 1060,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Lower South Norway": [
@@ -18438,7 +18197,7 @@
       "z": -16617.0,
       "y1": 65.0,
       "y2": 64.0,
-      "id": 1076,
+      "id": 1061,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Sweden": [
@@ -18455,7 +18214,7 @@
       "z": -16618.0,
       "y1": 73.0,
       "y2": 64.0,
-      "id": 1077,
+      "id": 1062,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Sweden": [
@@ -18469,7 +18228,7 @@
       "name": "Kongsberg",
       "x": 4280.0,
       "z": -16618.0,
-      "id": 1078,
+      "id": 1063,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Sweden": [
@@ -18483,7 +18242,7 @@
       "name": "Skotterud",
       "x": 4344.5,
       "z": -16567.5,
-      "id": 1079,
+      "id": 1064,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Sweden": [
@@ -18500,7 +18259,7 @@
       "z": -16311.0,
       "y1": 65.0,
       "y2": 64.0,
-      "id": 1080,
+      "id": 1065,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Sweden": [
@@ -18517,7 +18276,7 @@
       "z": -16311.0,
       "y1": 69.0,
       "y2": 64.0,
-      "id": 1081,
+      "id": 1066,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Sweden": [
@@ -18531,7 +18290,7 @@
       "name": "Karlstad",
       "x": 4907.0,
       "z": -16311.0,
-      "id": 1082,
+      "id": 1067,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Sweden": [
@@ -18548,7 +18307,7 @@
       "z": -16311.0,
       "y1": 65.0,
       "y2": 64.0,
-      "id": 1083,
+      "id": 1068,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Sweden": [
@@ -18563,7 +18322,7 @@
       "type": "jct",
       "x": 5894.0,
       "z": -16249.0,
-      "id": 1084,
+      "id": 1069,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Sweden": [
@@ -18577,7 +18336,7 @@
       "name": "Stockholm International",
       "x": 6432.0,
       "z": -16249.0,
-      "id": 1085,
+      "id": 1070,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Sweden": [
@@ -18591,7 +18350,7 @@
       "name": "Ed",
       "x": 4254.0,
       "z": -15966.0,
-      "id": 1086,
+      "id": 1071,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Sweden": [
@@ -18606,7 +18365,7 @@
       "type": "jct",
       "x": 4281.0,
       "z": -15433.0,
-      "id": 1087,
+      "id": 1072,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Sweden": [
@@ -18666,7 +18425,7 @@
       "name": "Drottningstad",
       "x": 5626.0,
       "z": -16249.0,
-      "id": 1088,
+      "id": 1073,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Sweden": [
@@ -18681,7 +18440,7 @@
       "type": "jct",
       "x": 4344.0,
       "z": -16311.0,
-      "id": 1089,
+      "id": 1074,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Sweden": [
@@ -18695,7 +18454,7 @@
       "name": "Gothenburg (Y\u003d65)",
       "x": 4344.0,
       "z": -15382.0,
-      "id": 1090,
+      "id": 1075,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Sweden": [
@@ -18709,7 +18468,7 @@
       "name": "Copenhagen",
       "x": 4230.0,
       "z": -14364.0,
-      "id": 1091,
+      "id": 1076,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Denmark-PLC": [
@@ -18739,7 +18498,7 @@
       "name": "Memel (PLC)",
       "x": 7732.0,
       "z": -14296.0,
-      "id": 1092,
+      "id": 1077,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Denmark-PLC": [
@@ -18753,7 +18512,7 @@
       "name": "Bornholm",
       "x": 5287.5,
       "z": -14152.5,
-      "id": 1093,
+      "id": 1078,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Denmark-PLC": [
@@ -18770,7 +18529,7 @@
       "z": -16228.0,
       "y1": 75.0,
       "y2": 90.0,
-      "id": 1094,
+      "id": 1079,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -18785,7 +18544,7 @@
       "type": "jct",
       "x": 3444.0,
       "z": -16424.0,
-      "id": 1095,
+      "id": 1080,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -18800,7 +18559,7 @@
       "type": "jct",
       "x": 3444.0,
       "z": -16633.0,
-      "id": 1096,
+      "id": 1081,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -18815,7 +18574,7 @@
       "type": "jct",
       "x": 3444.0,
       "z": -16857.0,
-      "id": 1097,
+      "id": 1082,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -18830,7 +18589,7 @@
       "name": "Geilo Upper",
       "x": 2933.0,
       "z": -16855.0,
-      "id": 1098,
+      "id": 1083,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -18844,7 +18603,7 @@
       "name": "Finse",
       "x": 2683.0,
       "z": -16908.0,
-      "id": 1099,
+      "id": 1084,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -18859,7 +18618,7 @@
       "type": "jct",
       "x": 2216.0,
       "z": -16928.0,
-      "id": 1100,
+      "id": 1085,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -18886,7 +18645,7 @@
       "type": "jct",
       "x": 2216.0,
       "z": -16775.0,
-      "id": 1101,
+      "id": 1086,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -18900,7 +18659,7 @@
       "name": "Makfrost East",
       "x": 2216.0,
       "z": -16381.0,
-      "id": 1102,
+      "id": 1087,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -18914,7 +18673,7 @@
       "name": "Stavanger East",
       "x": 2216.0,
       "z": -15997.0,
-      "id": 1103,
+      "id": 1088,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -18931,7 +18690,7 @@
       "z": -15738.0,
       "y1": 75.0,
       "y2": 90.0,
-      "id": 1104,
+      "id": 1089,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -18948,7 +18707,7 @@
       "z": -15734.0,
       "y1": -63.0,
       "y2": 90.0,
-      "id": 1105,
+      "id": 1090,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -18962,7 +18721,7 @@
       "name": "Mjosa",
       "x": 3713.0,
       "z": -16904.0,
-      "id": 1106,
+      "id": 1091,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -18991,7 +18750,7 @@
       "z": -16857.0,
       "y1": 65.0,
       "y2": 90.0,
-      "id": 1107,
+      "id": 1092,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19005,7 +18764,7 @@
       "name": "Kvam",
       "x": 3444.0,
       "z": -17537.0,
-      "id": 1108,
+      "id": 1093,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19020,7 +18779,7 @@
       "type": "jct",
       "x": 3194.0,
       "z": -17659.0,
-      "id": 1109,
+      "id": 1094,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19035,7 +18794,7 @@
       "type": "jct",
       "x": 2433.0,
       "z": -17659.0,
-      "id": 1110,
+      "id": 1095,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19061,7 +18820,7 @@
       "name": "SøreSnusMøre",
       "x": 2250.0,
       "z": -17659.0,
-      "id": 1111,
+      "id": 1096,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19075,7 +18834,7 @@
       "name": "Folk",
       "x": 2216.0,
       "z": -17481.0,
-      "id": 1112,
+      "id": 1097,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19089,7 +18848,7 @@
       "name": "Fitta",
       "x": 2216.0,
       "z": -17336.0,
-      "id": 1113,
+      "id": 1098,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19103,7 +18862,7 @@
       "name": "Baden",
       "x": 2216.0,
       "z": -17242.0,
-      "id": 1114,
+      "id": 1099,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19129,7 +18888,7 @@
       "name": "Skien og Sandefjord",
       "x": 3375.0,
       "z": -16233.0,
-      "id": 1115,
+      "id": 1100,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19245,7 +19004,7 @@
       "name": "Bergen",
       "x": 2000.0,
       "z": -16775.0,
-      "id": 1116,
+      "id": 1101,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19259,7 +19018,7 @@
       "name": "Bo",
       "x": 3281.0,
       "z": -16425.0,
-      "id": 1117,
+      "id": 1102,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19273,7 +19032,7 @@
       "name": "Drammen",
       "x": 3643.0,
       "z": -16424.0,
-      "id": 1118,
+      "id": 1103,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19290,7 +19049,7 @@
       "z": -16607.0,
       "y1": 51.0,
       "y2": 90.0,
-      "id": 1119,
+      "id": 1104,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19307,7 +19066,7 @@
       "z": -16603.0,
       "y1": 64.0,
       "y2": 90.0,
-      "id": 1120,
+      "id": 1105,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19324,7 +19083,7 @@
       "z": -16598.0,
       "y1": 51.0,
       "y2": 90.0,
-      "id": 1121,
+      "id": 1106,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19341,7 +19100,7 @@
       "z": -16594.0,
       "y1": 64.0,
       "y2": 90.0,
-      "id": 1122,
+      "id": 1107,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19355,7 +19114,7 @@
       "name": "Hønefoss",
       "x": 3651.0,
       "z": -16634.0,
-      "id": 1123,
+      "id": 1108,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19372,7 +19131,7 @@
       "z": -16636.0,
       "y1": 75.0,
       "y2": 90.0,
-      "id": 1124,
+      "id": 1109,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19389,7 +19148,7 @@
       "z": -16633.0,
       "y1": 51.0,
       "y2": 90.0,
-      "id": 1125,
+      "id": 1110,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19403,7 +19162,7 @@
       "name": "Tom Sawyer (Berk)",
       "x": 3194.0,
       "z": -17961.0,
-      "id": 1126,
+      "id": 1111,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19420,7 +19179,7 @@
       "z": -18265.0,
       "y1": 75.0,
       "y2": 90.0,
-      "id": 1127,
+      "id": 1112,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19434,7 +19193,7 @@
       "name": "Wandenreich",
       "x": 3001.0,
       "z": -17101.0,
-      "id": 1128,
+      "id": 1113,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19448,7 +19207,7 @@
       "name": "Valle",
       "x": 3001.0,
       "z": -17324.0,
-      "id": 1129,
+      "id": 1114,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19462,7 +19221,7 @@
       "name": "Alesund Upper",
       "x": 2459.0,
       "z": -17832.0,
-      "id": 1130,
+      "id": 1115,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19476,7 +19235,7 @@
       "name": "Vestnes Kommune",
       "x": 2534.0,
       "z": -17944.0,
-      "id": 1131,
+      "id": 1116,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Upper Central": [
@@ -19487,10 +19246,28 @@
       }
     },
     {
+      "name": "Stavanger International",
+      "x": 2216.0,
+      "z": -15758.0,
+      "id": 1117,
+      "lines": {
+        "Vy (Norway Ice Boat System)": {
+          "Norway-Germany": [
+            "",
+            "Main line"
+          ],
+          "Norway-Netherlands": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
       "name": "North Denmark",
       "x": 3521.0,
       "z": -15238.0,
-      "id": 1132,
+      "id": 1118,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Denmark": [
@@ -19505,7 +19282,7 @@
       "type": "jct",
       "x": 4183.0,
       "z": -15238.0,
-      "id": 1133,
+      "id": 1119,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Denmark": [
@@ -19519,7 +19296,7 @@
       "name": "Anholt",
       "x": 4230.0,
       "z": -14849.0,
-      "id": 1134,
+      "id": 1120,
       "lines": {
         "Vy (Norway Ice Boat System)": {
           "Denmark": [
@@ -19530,10 +19307,102 @@
       }
     },
     {
+      "name": "Mapplatform JCT",
+      "type": "jct",
+      "x": 1895.0,
+      "z": -15481.0,
+      "id": 1121,
+      "lines": {
+        "Vy (Norway Ice Boat System)": {
+          "Norway-Netherlands": [
+            "",
+            "Main line to The Golden Dunegon branch"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Mapplatform JCT",
+      "type": "jct",
+      "x": 1895.0,
+      "z": -14649.0,
+      "id": 1122,
+      "lines": {
+        "Vy (Norway Ice Boat System)": {
+          "Norway-Netherlands": [
+            "",
+            "Main line to Mapplatform branch"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Wadden Island",
+      "x": 1895.0,
+      "z": -13188.0,
+      "id": 1123,
+      "lines": {
+        "Vy (Norway Ice Boat System)": {
+          "Norway-Netherlands": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Amsterdam",
+      "x": 1895.0,
+      "z": -12920.0,
+      "id": 1124,
+      "lines": {
+        "Vy (Norway Ice Boat System)": {
+          "Norway-Netherlands": [
+            "",
+            "Main line"
+          ]
+        },
+        "NL": {
+          "Netherlands-France by Vy": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Mapplatform",
+      "x": 1217.0,
+      "z": -14652.0,
+      "id": 1125,
+      "lines": {
+        "Vy (Norway Ice Boat System)": {
+          "Norway-Netherlands": [
+            "",
+            "Mapplatform branch"
+          ]
+        }
+      }
+    },
+    {
+      "name": "The Golden Dunegon",
+      "x": 1218.0,
+      "z": -15481.0,
+      "id": 1126,
+      "lines": {
+        "Vy (Norway Ice Boat System)": {
+          "Norway-Netherlands": [
+            "",
+            "The Golden Dunegon branch"
+          ]
+        }
+      }
+    },
+    {
       "name": "Strasbourg East",
       "x": 2765,
       "z": -10968,
-      "id": 1135,
+      "id": 1127,
       "lines": {
         "French Intercity Highway": {
           "Strasbourg-Metz": [
@@ -19547,7 +19416,7 @@
       "name": "Strasbourg West",
       "x": 2691,
       "z": -10970,
-      "id": 1136,
+      "id": 1128,
       "lines": {
         "French Intercity Highway": {
           "Strasbourg-Metz": [
@@ -19561,7 +19430,7 @@
       "name": "Metz East",
       "x": 2353,
       "z": -11008,
-      "id": 1137,
+      "id": 1129,
       "lines": {
         "French Intercity Highway": {
           "Strasbourg-Metz": [
@@ -19575,7 +19444,7 @@
       "name": "Metz West",
       "x": 2159,
       "z": -11008,
-      "id": 1138,
+      "id": 1130,
       "lines": {
         "French Intercity Highway": {
           "Metz-Paris": [
@@ -19589,7 +19458,7 @@
       "name": "Paris",
       "x": 933,
       "z": -11007,
-      "id": 1139,
+      "id": 1131,
       "lines": {
         "French Intercity Highway": {
           "Metz-Paris": [
@@ -19615,7 +19484,7 @@
           ]
         ]
       ],
-      "id": 1140,
+      "id": 1132,
       "lines": {
         "Palestine": {
           "Purple": [
@@ -19634,7 +19503,7 @@
       "type": "jct",
       "x": 13000,
       "z": -4393,
-      "id": 1141,
+      "id": 1133,
       "lines": {
         "Palestine": {
           "Purple": [
@@ -19648,7 +19517,7 @@
       "name": "Sham",
       "x": 13297,
       "z": -4393,
-      "id": 1142,
+      "id": 1134,
       "lines": {
         "Palestine": {
           "Purple": [
@@ -19663,7 +19532,7 @@
       "type": "jct",
       "x": 13575,
       "z": -4393,
-      "id": 1143,
+      "id": 1135,
       "lines": {
         "Palestine": {
           "Purple": [
@@ -19677,7 +19546,7 @@
       "name": "EMC Mafia",
       "x": 13840,
       "z": -4393,
-      "id": 1144,
+      "id": 1136,
       "lines": {
         "Palestine": {
           "Purple": [
@@ -19692,7 +19561,7 @@
       "type": "jct",
       "x": 14050,
       "z": -5193,
-      "id": 1145,
+      "id": 1137,
       "lines": {
         "Palestine": {
           "Purple": [
@@ -19707,7 +19576,7 @@
       "type": "elev-ew",
       "x": 14050,
       "z": -5400,
-      "id": 1146,
+      "id": 1138,
       "lines": {
         "Palestine": {
           "Purple": [
@@ -19721,7 +19590,7 @@
       "name": "Ar Raqqah",
       "x": 14050,
       "z": -5465,
-      "id": 1147,
+      "id": 1139,
       "lines": {
         "Palestine": {
           "Purple": [
@@ -19735,7 +19604,7 @@
       "name": "Jezzine",
       "x": 13000,
       "z": -4592,
-      "id": 1148,
+      "id": 1140,
       "lines": {
         "Palestine": {
           "Purple": [
@@ -19749,7 +19618,7 @@
       "name": "Aram",
       "x": 13575,
       "z": -4562,
-      "id": 1149,
+      "id": 1141,
       "lines": {
         "Palestine": {
           "Purple": [
@@ -19763,7 +19632,7 @@
       "name": "Euphrates",
       "x": 14315,
       "z": -5193,
-      "id": 1150,
+      "id": 1142,
       "lines": {
         "Palestine": {
           "Purple": [
@@ -19778,7 +19647,7 @@
       "type": "elev-ew",
       "x": 12912,
       "z": -4332,
-      "id": 1151,
+      "id": 1143,
       "lines": {
         "Palestine": {
           "Orange": [
@@ -19792,7 +19661,7 @@
       "name": "Quneitra",
       "x": 12919,
       "z": -4222,
-      "id": 1152,
+      "id": 1144,
       "lines": {
         "Palestine": {
           "Orange": [
@@ -19806,7 +19675,7 @@
       "name": "Jerusalem",
       "x": 12727,
       "z": -3927,
-      "id": 1153,
+      "id": 1145,
       "lines": {
         "Palestine": {
           "Orange": [
@@ -19821,7 +19690,7 @@
       "type": "jct",
       "x": 13450,
       "z": -9113.5,
-      "id": 1154,
+      "id": 1146,
       "lines": {
         "CSSS": {
           "Black Sea": [
@@ -19836,7 +19705,7 @@
       "type": "jct",
       "x": 14051.5,
       "z": -9113.5,
-      "id": 1155,
+      "id": 1147,
       "lines": {
         "CSSS": {
           "Black Sea": [
@@ -19851,7 +19720,7 @@
       "type": "jct",
       "x": 14439.5,
       "z": -9113.5,
-      "id": 1156,
+      "id": 1148,
       "lines": {
         "CSSS": {
           "Black Sea": [
@@ -19880,7 +19749,7 @@
           ]
         ]
       ],
-      "id": 1157,
+      "id": 1149,
       "lines": {
         "CSSS": {
           "Black Sea": [
@@ -19898,7 +19767,7 @@
       "name": "Maykop-Cicassia",
       "x": 14439,
       "z": -9094,
-      "id": 1158,
+      "id": 1150,
       "lines": {
         "CSSS": {
           "Black Sea": [
@@ -19913,7 +19782,7 @@
       "type": "jct",
       "x": 14883.5,
       "z": -9113.5,
-      "id": 1159,
+      "id": 1151,
       "lines": {
         "CSSS": {
           "Poti": [
@@ -19928,7 +19797,7 @@
       "type": "jct",
       "x": 14883.5,
       "z": -8873.5,
-      "id": 1160,
+      "id": 1152,
       "lines": {
         "CSSS": {
           "Poti": [
@@ -19942,7 +19811,7 @@
       "name": "Poti",
       "x": 14883.5,
       "z": -8335.5,
-      "id": 1161,
+      "id": 1153,
       "lines": {
         "CSSS": {
           "Poti": [
@@ -19956,7 +19825,7 @@
       "name": "Constantinopolis",
       "x": 10426.5,
       "z": -7591.5,
-      "id": 1162,
+      "id": 1154,
       "lines": {
         "Sicily": {
           "Sicily Main": [
@@ -19971,7 +19840,7 @@
       "type": "jct",
       "x": 10426.5,
       "z": -7447.5,
-      "id": 1163,
+      "id": 1155,
       "lines": {
         "Sicily": {
           "Sicily Main": [
@@ -19985,7 +19854,7 @@
       "name": "Aegis",
       "x": 9482.5,
       "z": -7254.5,
-      "id": 1164,
+      "id": 1156,
       "lines": {
         "Sicily": {
           "Sicily Main": [
@@ -19999,7 +19868,7 @@
       "name": "St. John, Acadia",
       "x": -23718,
       "z": -9449,
-      "id": 1165,
+      "id": 1157,
       "lines": {
         "Acadia": {
           "Acadia Line": [
@@ -20013,7 +19882,7 @@
       "name": "Mont Tremblant Green Line",
       "x": -26441,
       "z": -9449,
-      "id": 1166,
+      "id": 1158,
       "lines": {
         "Acadia": {
           "Acadia Line": [
@@ -20027,7 +19896,7 @@
       "name": "Montreal, Acadia",
       "x": -26615,
       "z": -9449,
-      "id": 1167,
+      "id": 1159,
       "lines": {
         "Acadia": {
           "Acadia Line": [
@@ -20042,7 +19911,7 @@
       "type": "jct",
       "x": -24952,
       "z": -9449,
-      "id": 1168,
+      "id": 1160,
       "lines": {
         "Acadia": {
           "Acadia Line": [
@@ -20057,7 +19926,7 @@
       "type": "jct",
       "x": -22722,
       "z": -9449,
-      "id": 1169,
+      "id": 1161,
       "lines": {
         "Acadia": {
           "Acadia Line": [
@@ -20072,7 +19941,7 @@
       "type": "jct",
       "x": -24552,
       "z": -9449,
-      "id": 1170,
+      "id": 1162,
       "lines": {
         "Acadia": {
           "Acadia Line": [
@@ -20086,7 +19955,7 @@
       "name": "Charlottetown, Acadia",
       "x": -22722,
       "z": -9871,
-      "id": 1171,
+      "id": 1163,
       "lines": {
         "Acadia": {
           "Acadia Line": [
@@ -20101,7 +19970,7 @@
       "type": "jct",
       "x": -22722,
       "z": -10121,
-      "id": 1172,
+      "id": 1164,
       "lines": {
         "Acadia": {
           "Acadia Line": [
@@ -20116,7 +19985,7 @@
       "type": "jct",
       "x": -24552,
       "z": -10121,
-      "id": 1173,
+      "id": 1165,
       "lines": {
         "Acadia": {
           "Acadia Line": [
@@ -20130,7 +19999,7 @@
       "name": "Augusta, Acadia",
       "x": -24952,
       "z": -8915,
-      "id": 1174,
+      "id": 1166,
       "lines": {
         "Acadia": {
           "Acadia Line": [
@@ -20167,7 +20036,7 @@
         ]
       ],
       "notes": "Japanese: 北風マップアート製図台東口駅",
-      "id": 1175,
+      "id": 1167,
       "lines": {
         "Railways": {
           "Kitakaze Railways (Rail)": [
@@ -20178,14 +20047,229 @@
       }
     },
     {
+      "name": "Roman Empire",
+      "x": 815.0,
+      "z": -11878.0,
+      "id": 1168,
+      "lines": {
+        "NL": {
+          "Netherlands-France by Vy": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Roman Empire Elevator",
+      "type": "elev-we",
+      "x": 815.5,
+      "z": -11371.0,
+      "y1": -62.0,
+      "y2": 64.0,
+      "id": 1169,
+      "lines": {
+        "NL": {
+          "Netherlands-France by Vy": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Montevrain",
+      "x": 493.0,
+      "z": -11367.0,
+      "id": 1170,
+      "lines": {
+        "NL": {
+          "Netherlands-France by Vy": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Normandie",
+      "x": 316.0,
+      "z": -11367.0,
+      "id": 1171,
+      "lines": {
+        "NL": {
+          "Netherlands-France by Vy": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Normandie Elevator",
+      "type": "elev-we",
+      "x": 280.0,
+      "z": -11342.0,
+      "y1": 64.0,
+      "y2": 64.0,
+      "id": 1172,
+      "lines": {
+        "NL": {
+          "Netherlands-France by Vy": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Paris (SNCF)",
+      "x": 616.0,
+      "z": -10856.0,
+      "id": 1173,
+      "lines": {
+        "NL": {
+          "Netherlands-France by Vy": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "areas": [
+        [
+          [
+            278,
+            -10858
+          ],
+          [
+            282,
+            -10854
+          ]
+        ]
+      ],
+      "name": "Versailles JCT",
+      "type": "jct",
+      "x": 280.0,
+      "z": -10856.0,
+      "id": 1174,
+      "lines": {
+        "NL": {
+          "Netherlands-France by Vy": [
+            "",
+            "Main line"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Valdeluna",
+      "x": -1655.5,
+      "z": -8473.5,
+      "id": 1175,
+      "lines": {
+        "Renfe": {
+          "Renfe by Vy": [
+            "",
+            "Main"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Jaen",
+      "x": -1301.5,
+      "z": -6478.5,
+      "id": 1176,
+      "lines": {
+        "Renfe": {
+          "Renfe by Vy": [
+            "",
+            "Main"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Xanadu",
+      "x": -2167.5,
+      "z": -6280.5,
+      "id": 1177,
+      "lines": {
+        "Renfe": {
+          "Renfe by Vy": [
+            "",
+            "Main"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Valencia",
+      "x": -344.5,
+      "z": -6923.5,
+      "id": 1178,
+      "lines": {
+        "Renfe": {
+          "Renfe by Vy": [
+            "",
+            "Main"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Benidorm",
+      "x": -170.5,
+      "z": -6682.5,
+      "id": 1179,
+      "lines": {
+        "Renfe": {
+          "Renfe by Vy": [
+            "",
+            "Main"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Cadiz",
+      "x": -2212.5,
+      "z": -5752.5,
+      "id": 1180,
+      "lines": {
+        "Renfe": {
+          "Renfe by Vy": [
+            "",
+            "Main"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Alcaudete",
+      "x": -1454.5,
+      "z": -6064.5,
+      "id": 1181,
+      "lines": {
+        "Renfe": {
+          "Renfe by Vy": [
+            "",
+            "Main"
+          ]
+        }
+      }
+    },
+    {
       "name": "Armenia",
       "x": 16068,
       "z": -7016.5,
       "lines": {},
-      "id": 1176
+      "id": 1182
     },
     {
-      "id": 1177
+      "id": 1183
     }
   ],
   "lines": {
@@ -30208,207 +30292,10 @@
       }
     },
     "SNCF": {
-      "Netherlands-France by Vy": {
-        "prefix": "",
-        "code": "NF",
-        "color": "360099",
-        "y": 64.0,
-        "branches": {
-          "Main line": {
-            "vertices": [
-              [
-                616.0,
-                -10847.0
-              ],
-              [
-                600.0,
-                -10847.0
-              ],
-              [
-                587.0,
-                -10854.0
-              ],
-              [
-                616.0,
-                -10854.0
-              ],
-              [
-                580.0,
-                -10854.0
-              ],
-              [
-                278.0,
-                -10854.0
-              ],
-              [
-                278.0,
-                -11365.0
-              ],
-              [
-                278.0,
-                -11369.0
-              ],
-              [
-                338.0,
-                -11369.0
-              ],
-              [
-                329.0,
-                -11378.0
-              ],
-              [
-                293.0,
-                -11378.0
-              ],
-              [
-                284.0,
-                -11369.0
-              ],
-              [
-                813.0,
-                -11369.0
-              ],
-              [
-                813.0,
-                -12987.0
-              ],
-              [
-                1885.0,
-                -12987.0
-              ],
-              [
-                1885.0,
-                -12939.0
-              ],
-              [
-                1881.0,
-                -12939.0
-              ],
-              [
-                1881.0,
-                -12983.0
-              ],
-              [
-                818.0,
-                -12983.0
-              ],
-              [
-                818.0,
-                -11365.0
-              ],
-              [
-                300.0,
-                -11365.0
-              ],
-              [
-                309.0,
-                -11356.0
-              ],
-              [
-                332.0,
-                -11356.0
-              ],
-              [
-                341.0,
-                -11365.0
-              ],
-              [
-                282.0,
-                -11365.0
-              ],
-              [
-                282.0,
-                -10858.0
-              ],
-              [
-                580.0,
-                -10858.0
-              ],
-              [
-                616.0,
-                -10858.0
-              ],
-              [
-                587.0,
-                -10858.0
-              ],
-              [
-                600.0,
-                -10865.0
-              ],
-              [
-                616.0,
-                -10865.0
-              ]
-            ],
-            "stations": [
-              837,
-              838,
-              839,
-              840,
-              841,
-              842,
-              843,
-              844
-            ]
-          },
-          "Main line Line 2": {
-            "vertices": [
-              [
-                580.0,
-                -10854.0
-              ],
-              [
-                574.0,
-                -10858.0
-              ],
-              [
-                580.0,
-                -10854.0
-              ]
-            ],
-            "stations": []
-          },
-          "Main line Line 3": {
-            "vertices": [
-              [
-                278.0,
-                -11365.0
-              ],
-              [
-                282.0,
-                -11360.0
-              ],
-              [
-                278.0,
-                -11365.0
-              ]
-            ],
-            "stations": []
-          },
-          "Main line Line 4": {
-            "vertices": [
-              [
-                580.0,
-                -10858.0
-              ],
-              [
-                574.0,
-                -10854.0
-              ],
-              [
-                580.0,
-                -10858.0
-              ]
-            ],
-            "stations": []
-          }
-        }
-      },
       "France-Spain by Vy": {
         "prefix": "",
         "code": "FS",
-        "color": "FFA500",
+        "color": "ffa500",
         "y": 90.0,
         "branches": {
           "Main line": {
@@ -30427,11 +30314,15 @@
               ]
             ],
             "stations": [
-              845
+              837
             ]
           },
           "Main line Line 2": {
             "vertices": [
+              [
+                -510.5,
+                -8474.5
+              ],
               [
                 278.5,
                 -8474.5
@@ -30439,327 +30330,6 @@
               [
                 278.0,
                 -10854.0
-              ]
-            ],
-            "stations": []
-          },
-          "Main line Line 3": {
-            "vertices": [
-              [
-                -510.5,
-                -8474.5
-              ],
-              [
-                278.5,
-                -8474.5
-              ]
-            ],
-            "stations": []
-          }
-        }
-      },
-      "Renfe": {
-        "prefix": "",
-        "code": "FS",
-        "color": "ae7100",
-        "y": 90.0,
-        "branches": {
-          "By Vy": {
-            "vertices": [
-              [
-                -2618.5,
-                -6520.5
-              ],
-              [
-                -2500.5,
-                -6520.5
-              ],
-              [
-                -2500.5,
-                -6474.5
-              ],
-              [
-                -2169.5,
-                -6474.5
-              ],
-              [
-                -2165.5,
-                -6474.5
-              ],
-              [
-                -1722.5,
-                -6474.5
-              ],
-              [
-                -1722.5,
-                -8474.5
-              ],
-              [
-                -510.5,
-                -8474.5
-              ]
-            ],
-            "stations": [
-              846
-            ]
-          },
-          "By Vy Line 2": {
-            "vertices": [
-              [
-                -723.5,
-                -6474.5
-              ],
-              [
-                -1412.5,
-                -6474.5
-              ],
-              [
-                -1416.5,
-                -6474.5
-              ],
-              [
-                -1718.5,
-                -6474.5
-              ],
-              [
-                -1718.5,
-                -8470.5
-              ],
-              [
-                -514.5,
-                -8469.5
-              ]
-            ],
-            "stations": []
-          },
-          "By Vy Line 3": {
-            "vertices": [
-              [
-                -2620.5,
-                -6516.5
-              ],
-              [
-                -2504.5,
-                -6516.5
-              ],
-              [
-                -2504.5,
-                -6470.5
-              ],
-              [
-                -2169.5,
-                -6470.5
-              ],
-              [
-                -2165.5,
-                -6470.5
-              ],
-              [
-                -1722.5,
-                -6470.5
-              ]
-            ],
-            "stations": []
-          },
-          "By Vy Line 4": {
-            "vertices": [
-              [
-                -2169.5,
-                -6474.5
-              ],
-              [
-                -2169.5,
-                -6470.5
-              ],
-              [
-                -2169.5,
-                -6269.5
-              ]
-            ],
-            "stations": []
-          },
-          "By Vy Line 5": {
-            "vertices": [
-              [
-                -1468.5,
-                -5902.5
-              ],
-              [
-                -1468.5,
-                -6045.5
-              ],
-              [
-                -1459.5,
-                -6045.5
-              ],
-              [
-                -1459.5,
-                -6082.5
-              ],
-              [
-                -1416.5,
-                -6082.5
-              ],
-              [
-                -1416.5,
-                -6470.5
-              ],
-              [
-                -1416.5,
-                -6474.5
-              ],
-              [
-                -1416.5,
-                -6487.5
-              ],
-              [
-                -1225.5,
-                -6487.5
-              ],
-              [
-                -1225.5,
-                -6855.5
-              ]
-            ],
-            "stations": []
-          },
-          "By Vy Line 6": {
-            "vertices": [
-              [
-                -1718.5,
-                -6470.5
-              ],
-              [
-                -1416.5,
-                -6470.5
-              ],
-              [
-                -1412.5,
-                -6470.5
-              ],
-              [
-                -727.5,
-                -6469.5
-              ]
-            ],
-            "stations": []
-          },
-          "By Vy Line 7": {
-            "vertices": [
-              [
-                -1221.5,
-                -6855.5
-              ],
-              [
-                -1221.5,
-                -6483.5
-              ],
-              [
-                -1412.5,
-                -6483.5
-              ],
-              [
-                -1412.5,
-                -6474.5
-              ],
-              [
-                -1412.5,
-                -6470.5
-              ],
-              [
-                -1412.5,
-                -6080.5
-              ],
-              [
-                -1457.5,
-                -6080.5
-              ],
-              [
-                -1457.5,
-                -6043.5
-              ],
-              [
-                -1466.5,
-                -6043.5
-              ],
-              [
-                -1466.5,
-                -5902.5
-              ]
-            ],
-            "stations": []
-          },
-          "By Vy Line 8": {
-            "vertices": [
-              [
-                -2165.5,
-                -6269.5
-              ],
-              [
-                -2165.5,
-                -6470.5
-              ],
-              [
-                -2165.5,
-                -6474.5
-              ]
-            ],
-            "stations": []
-          },
-          "By Vy Line 9": {
-            "vertices": [
-              [
-                -1438.5,
-                -6009.5
-              ],
-              [
-                -1438.5,
-                -6025.5
-              ],
-              [
-                -1440.5,
-                -6025.5
-              ],
-              [
-                -1440.5,
-                -6041.5
-              ],
-              [
-                -1451.5,
-                -6041.5
-              ],
-              [
-                -1451.5,
-                -6080.5
-              ]
-            ],
-            "stations": []
-          },
-          "By Vy Line 10": {
-            "vertices": [
-              [
-                -1436.5,
-                -6009.5
-              ],
-              [
-                -1436.5,
-                -6027.5
-              ],
-              [
-                -1438.5,
-                -6027.5
-              ],
-              [
-                -1438.5,
-                -6043.5
-              ],
-              [
-                -1449.5,
-                -6043.5
-              ],
-              [
-                -1449.5,
-                -6080.5
               ]
             ],
             "stations": []
@@ -30790,9 +30360,9 @@
               ]
             ],
             "stations": [
-              847,
-              848,
-              849
+              838,
+              839,
+              840
             ]
           }
         }
@@ -30831,9 +30401,9 @@
               ]
             ],
             "stations": [
-              850,
-              851,
-              847
+              841,
+              842,
+              838
             ]
           }
         }
@@ -30996,13 +30566,13 @@
               ]
             ],
             "stations": [
-              852,
-              853,
+              843,
+              844,
+              838,
+              845,
+              846,
               847,
-              854,
-              855,
-              856,
-              852
+              843
             ]
           }
         }
@@ -31113,10 +30683,10 @@
               ]
             ],
             "stations": [
-              857,
-              847,
-              858,
-              859
+              848,
+              838,
+              849,
+              850
             ]
           }
         }
@@ -31149,18 +30719,18 @@
               ]
             ],
             "stations": [
-              860,
+              851,
               562,
               [
-                861,
+                852,
                 "Kabul branch"
               ],
               [
-                862,
+                853,
                 "Afyun Dara branch"
               ],
               287,
-              863
+              854
             ]
           },
           "Yeken branch": {
@@ -31180,10 +30750,10 @@
             ],
             "stations": [
               [
-                861,
+                852,
                 "Main line"
               ],
-              864
+              855
             ]
           },
           "Afyun Dara branch": {
@@ -31199,10 +30769,10 @@
             ],
             "stations": [
               [
-                862,
+                853,
                 "Main line"
               ],
-              865
+              856
             ]
           }
         }
@@ -31237,15 +30807,15 @@
               ]
             ],
             "stations": [
-              866,
-              867,
-              868,
+              857,
+              858,
+              859,
               [
-                869,
+                860,
                 "Oxford branch"
               ],
-              870,
-              871
+              861,
+              862
             ]
           },
           "Oxford branch": {
@@ -31260,9 +30830,9 @@
               ]
             ],
             "stations": [
-              872,
+              863,
               [
-                869,
+                860,
                 "Main line"
               ]
             ]
@@ -31291,10 +30861,10 @@
               ]
             ],
             "stations": [
-              873,
-              874,
-              867,
-              875
+              864,
+              865,
+              858,
+              866
             ]
           }
         }
@@ -31341,13 +30911,13 @@
               ]
             ],
             "stations": [
-              876,
-              877,
+              867,
+              868,
               [
-                878,
+                869,
                 "Tunis branch"
               ],
-              879
+              870
             ]
           },
           "Tunis branch": {
@@ -31363,10 +30933,10 @@
             ],
             "stations": [
               [
-                878,
+                869,
                 "Main line"
               ],
-              880
+              871
             ]
           }
         }
@@ -31393,8 +30963,8 @@
               ]
             ],
             "stations": [
-              880,
-              881
+              871,
+              872
             ]
           }
         }
@@ -31429,8 +30999,8 @@
               ]
             ],
             "stations": [
-              882,
-              883
+              873,
+              874
             ]
           }
         }
@@ -31457,8 +31027,8 @@
               ]
             ],
             "stations": [
-              884,
-              885
+              875,
+              876
             ]
           }
         }
@@ -31489,8 +31059,8 @@
               ]
             ],
             "stations": [
-              886,
-              887
+              877,
+              878
             ]
           }
         }
@@ -31515,7 +31085,7 @@
             "stations": [
               315,
               [
-                888,
+                879,
                 "North-South"
               ]
             ]
@@ -31540,13 +31110,13 @@
               ]
             ],
             "stations": [
-              889,
-              890,
+              880,
+              881,
               [
-                888,
+                879,
                 "Central"
               ],
-              891
+              882
             ]
           }
         }
@@ -31569,9 +31139,9 @@
               ]
             ],
             "stations": [
-              892,
-              868,
-              893
+              883,
+              859,
+              884
             ]
           },
           "West segment": {
@@ -31590,7 +31160,7 @@
               ]
             ],
             "stations": [
-              894,
+              885,
               233
             ]
           }
@@ -31615,11 +31185,11 @@
             ],
             "stations": [
               [
-                895,
+                886,
                 "Minerva branch"
               ],
-              896,
-              897
+              887,
+              888
             ]
           },
           "Minerva branch": {
@@ -31639,7 +31209,7 @@
             ],
             "stations": [
               [
-                895,
+                886,
                 "Main line"
               ]
             ]
@@ -31672,12 +31242,12 @@
               ]
             ],
             "stations": [
-              898,
+              889,
               [
-                899,
+                890,
                 "Yangon branch"
               ],
-              900
+              891
             ]
           },
           "Yangon branch": {
@@ -31693,7 +31263,7 @@
             ],
             "stations": [
               [
-                899,
+                890,
                 "Main line"
               ],
               326
@@ -31747,10 +31317,10 @@
               ]
             ],
             "stations": [
-              901,
-              902,
-              903,
-              904,
+              892,
+              893,
+              894,
+              895,
               513
             ]
           }
@@ -31826,13 +31396,13 @@
               ]
             ],
             "stations": [
-              905,
-              906,
-              907,
-              908,
-              909,
-              910,
-              911
+              896,
+              897,
+              898,
+              899,
+              900,
+              901,
+              902
             ]
           }
         }
@@ -31859,8 +31429,8 @@
               ]
             ],
             "stations": [
-              912,
-              913
+              903,
+              904
             ]
           }
         }
@@ -31892,7 +31462,7 @@
             ],
             "stations": [
               1,
-              914,
+              905,
               232
             ]
           }
@@ -31918,18 +31488,18 @@
             "stations": [
               18,
               [
-                915,
+                906,
                 "Segezha branch"
               ],
               [
-                916,
+                907,
                 "Umka branch"
               ],
               [
-                917,
+                908,
                 "Monchegrsk branch"
               ],
-              918
+              909
             ]
           },
           "Segezha branch": {
@@ -31961,14 +31531,14 @@
             ],
             "stations": [
               [
-                915,
+                906,
                 "Main line"
               ],
               [
-                919,
+                910,
                 "Gospic branch"
               ],
-              920
+              911
             ]
           },
           "Gospic branch": {
@@ -31988,10 +31558,10 @@
             ],
             "stations": [
               [
-                919,
+                910,
                 "Segezha branch"
               ],
-              921
+              912
             ]
           },
           "Umka branch": {
@@ -32011,10 +31581,10 @@
             ],
             "stations": [
               [
-                916,
+                907,
                 "Main line"
               ],
-              922
+              913
             ]
           },
           "Monchegrsk branch": {
@@ -32030,10 +31600,10 @@
             ],
             "stations": [
               [
-                917,
+                908,
                 "Main line"
               ],
-              923
+              914
             ]
           }
         }
@@ -32080,21 +31650,21 @@
               ]
             ],
             "stations": [
-              924,
+              915,
               [
-                925,
+                916,
                 "CheeseKurds branch"
               ],
-              926,
+              917,
               [
-                927,
+                918,
                 "Yazd branch"
               ],
               [
-                928,
+                919,
                 "Parthia branch"
               ],
-              929
+              920
             ]
           },
           "CheeseKurds branch": {
@@ -32110,10 +31680,10 @@
             ],
             "stations": [
               [
-                925,
+                916,
                 "Main line"
               ],
-              930
+              921
             ]
           },
           "Yazd branch": {
@@ -32129,10 +31699,10 @@
             ],
             "stations": [
               [
-                927,
+                918,
                 "Main line"
               ],
-              931
+              922
             ]
           },
           "Parthia branch": {
@@ -32176,10 +31746,10 @@
             ],
             "stations": [
               [
-                928,
+                919,
                 "Main line"
               ],
-              932
+              923
             ]
           }
         }
@@ -32202,13 +31772,13 @@
               ]
             ],
             "stations": [
-              933,
-              934,
+              924,
+              925,
               [
-                935,
+                926,
                 "Arveria branch"
               ],
-              936
+              927
             ]
           },
           "Arveria branch": {
@@ -32224,10 +31794,10 @@
             ],
             "stations": [
               [
-                935,
+                926,
                 "Main line"
               ],
-              937
+              928
             ]
           }
         }
@@ -32252,13 +31822,13 @@
               ]
             ],
             "stations": [
-              938,
-              939,
+              929,
+              930,
               [
-                940,
+                931,
                 "Samarkand branch"
               ],
-              941
+              932
             ]
           },
           "Samarkand branch": {
@@ -32274,10 +31844,10 @@
             ],
             "stations": [
               [
-                940,
+                931,
                 "Main line"
               ],
-              942
+              933
             ]
           },
           "Sisirak-Moynaq branch": {
@@ -32292,8 +31862,8 @@
               ]
             ],
             "stations": [
-              943,
-              944
+              934,
+              935
             ]
           }
         }
@@ -32320,14 +31890,14 @@
               ]
             ],
             "stations": [
-              945,
-              946,
+              936,
+              937,
               [
-                947,
+                938,
                 "Walled city branch"
               ],
-              948,
-              949
+              939,
+              940
             ]
           },
           "Walled city branch": {
@@ -32346,9 +31916,9 @@
               ]
             ],
             "stations": [
-              950,
+              941,
               [
-                947,
+                938,
                 "Main line"
               ]
             ]
@@ -32393,7 +31963,7 @@
               ]
             ],
             "stations": [
-              951,
+              942,
               557
             ]
           }
@@ -32423,23 +31993,23 @@
               ]
             ],
             "stations": [
-              952,
-              953,
-              954,
-              955,
-              956,
+              943,
+              944,
+              945,
+              946,
+              947,
               [
-                957,
+                948,
                 "New Plymouth branch"
               ],
               [
-                958,
+                949,
                 "Napier branch",
                 "Wanganui ramp"
               ],
-              959,
-              960,
-              961
+              950,
+              951,
+              952
             ]
           },
           "Napier branch": {
@@ -32455,10 +32025,10 @@
             ],
             "stations": [
               [
-                958,
+                949,
                 "Main line"
               ],
-              962
+              953
             ]
           },
           "Wanganui ramp": {
@@ -32474,10 +32044,10 @@
             ],
             "stations": [
               [
-                958,
+                949,
                 "Main line"
               ],
-              963
+              954
             ]
           },
           "New Plymouth branch": {
@@ -32493,10 +32063,10 @@
             ],
             "stations": [
               [
-                957,
+                948,
                 "Main line"
               ],
-              964
+              955
             ]
           }
         }
@@ -32527,10 +32097,10 @@
               ]
             ],
             "stations": [
-              961,
-              965,
-              966,
-              967
+              952,
+              956,
+              957,
+              958
             ]
           }
         }
@@ -32553,9 +32123,9 @@
               ]
             ],
             "stations": [
-              955,
-              968,
-              969
+              946,
+              959,
+              960
             ]
           }
         }
@@ -32586,8 +32156,8 @@
               ]
             ],
             "stations": [
-              955,
-              970
+              946,
+              961
             ]
           }
         }
@@ -32618,9 +32188,9 @@
               ]
             ],
             "stations": [
-              970,
-              971,
-              972
+              961,
+              962,
+              963
             ]
           }
         }
@@ -32647,9 +32217,9 @@
               ]
             ],
             "stations": [
-              953,
-              973,
-              974
+              944,
+              964,
+              965
             ]
           }
         }
@@ -32676,15 +32246,15 @@
               ]
             ],
             "stations": [
+              958,
+              966,
               967,
-              975,
-              976,
-              977,
+              968,
               [
-                978,
+                969,
                 "Auckland View ramp"
               ],
-              979
+              970
             ]
           },
           "Auckland View ramp": {
@@ -32708,10 +32278,10 @@
             ],
             "stations": [
               [
-                978,
+                969,
                 "Main line"
               ],
-              980
+              971
             ]
           }
         }
@@ -32746,14 +32316,14 @@
               ]
             ],
             "stations": [
-              952,
-              981,
-              982,
+              943,
+              972,
+              973,
               [
-                983,
+                974,
                 "Octogon ramp"
               ],
-              952
+              943
             ]
           },
           "Octogon ramp": {
@@ -32769,7 +32339,7 @@
             ],
             "stations": [
               [
-                983,
+                974,
                 "Main line"
               ]
             ]
@@ -32794,8 +32364,8 @@
               ]
             ],
             "stations": [
-              981,
-              983
+              972,
+              974
             ]
           }
         }
@@ -32818,9 +32388,9 @@
               ]
             ],
             "stations": [
-              982,
+              973,
               [
-                984,
+                975,
                 "Yordle Land Ramp"
               ]
             ]
@@ -32838,10 +32408,10 @@
             ],
             "stations": [
               [
-                984,
+                975,
                 "Main line"
               ],
-              985
+              976
             ]
           }
         }
@@ -32868,8 +32438,8 @@
               ]
             ],
             "stations": [
-              960,
-              966
+              951,
+              957
             ]
           }
         }
@@ -32898,8 +32468,8 @@
               ]
             ],
             "stations": [
-              986,
-              987
+              977,
+              978
             ]
           }
         }
@@ -32952,17 +32522,17 @@
               ]
             ],
             "stations": [
-              988,
+              979,
               [
-                989,
+                980,
                 "Great line"
               ],
               [
-                990,
+                981,
                 "Honefoss branch"
               ],
-              991,
-              992
+              982,
+              983
             ]
           },
           "Honefoss branch": {
@@ -32982,11 +32552,11 @@
             ],
             "stations": [
               [
-                990,
+                981,
                 "Little line"
               ],
-              993,
-              994
+              984,
+              985
             ]
           },
           "Lysebotn connector branch": {
@@ -33013,19 +32583,19 @@
             ],
             "stations": [
               [
-                995,
+                986,
                 "West Norway line"
               ],
               [
-                996,
+                987,
                 "West Norway line"
               ],
               [
-                997,
+                988,
                 "Stavanger branch"
               ],
-              998,
-              999
+              989,
+              990
             ]
           },
           "Great line": {
@@ -33040,9 +32610,9 @@
               ]
             ],
             "stations": [
-              1000,
+              991,
               [
-                989,
+                980,
                 "Little line"
               ]
             ]
@@ -33080,16 +32650,16 @@
               ]
             ],
             "stations": [
-              1001,
-              1002,
-              1003,
-              1004,
+              992,
+              993,
+              994,
+              995,
               [
-                996,
+                987,
                 "Lysebotn connector branch"
               ],
               [
-                995,
+                986,
                 "Lysebotn connector branch"
               ]
             ]
@@ -33107,10 +32677,10 @@
             ],
             "stations": [
               [
-                997,
+                988,
                 "Lysebotn connector branch"
               ],
-              1005
+              996
             ]
           }
         }
@@ -33213,14 +32783,14 @@
               ]
             ],
             "stations": [
-              1006,
+              997,
               [
-                1007,
+                998,
                 "Oslo station platforms"
               ],
-              1008,
-              1009,
-              1010
+              999,
+              1000,
+              1001
             ]
           },
           "Oslo station platforms": {
@@ -33276,7 +32846,7 @@
             ],
             "stations": [
               [
-                1007,
+                998,
                 "Main line"
               ]
             ]
@@ -33437,21 +33007,21 @@
               ]
             ],
             "stations": [
-              1010,
+              1001,
               8,
               [
-                1011,
+                1002,
                 "Trondheim station platforms"
               ],
-              1012,
-              1013
+              1003,
+              1004
             ]
           },
           "Trondheim station platforms": {
             "vertices": [],
             "stations": [
               [
-                1011,
+                1002,
                 "Main line"
               ]
             ]
@@ -33568,15 +33138,15 @@
               ]
             ],
             "stations": [
-              1014,
-              1015,
-              1007,
+              1005,
+              1006,
+              998,
               [
-                1008,
+                999,
                 "Brookieston branch"
               ],
-              1009,
-              1016
+              1000,
+              1007
             ]
           },
           "Brookieston branch": {
@@ -33592,10 +33162,10 @@
             ],
             "stations": [
               [
-                1008,
+                999,
                 "Main line"
               ],
-              1017
+              1008
             ]
           }
         }
@@ -33742,18 +33312,18 @@
               ]
             ],
             "stations": [
-              1016,
+              1007,
               8,
               [
-                1011,
+                1002,
                 "Östersund branch"
               ],
               [
-                1018,
+                1009,
                 "Östersund branch"
               ],
-              1019,
-              1020
+              1010,
+              1011
             ]
           },
           "Östersund branch": {
@@ -33813,14 +33383,14 @@
             ],
             "stations": [
               [
-                1011,
+                1002,
                 "Main line"
               ],
               [
-                1018,
+                1009,
                 "Main line"
               ],
-              1021
+              1012
             ]
           }
         }
@@ -34015,36 +33585,36 @@
               ]
             ],
             "stations": [
-              1019,
-              1020,
-              1022,
-              1023,
-              1024,
-              1025,
-              1026,
+              1010,
+              1011,
+              1013,
+              1014,
+              1015,
+              1016,
+              1017,
               [
-                1027,
+                1018,
                 "Bodo branch"
               ],
               [
-                1028,
+                1019,
                 "Straumen station platforms"
               ],
-              1029,
+              1020,
               [
-                1030,
+                1021,
                 "Asgard branch"
               ],
-              1031,
+              1022,
               [
-                1032,
+                1023,
                 "Narvik station platforms"
               ],
               [
-                1033,
+                1024,
                 "Stuor Muorkke branch"
               ],
-              1034
+              1025
             ]
           },
           "Narvik station platforms": {
@@ -34112,7 +33682,7 @@
             ],
             "stations": [
               [
-                1032,
+                1023,
                 "Main line"
               ]
             ]
@@ -34146,7 +33716,7 @@
             ],
             "stations": [
               [
-                1028,
+                1019,
                 "Main line"
               ]
             ]
@@ -34172,10 +33742,10 @@
             ],
             "stations": [
               [
-                1030,
+                1021,
                 "Main line"
               ],
-              1035
+              1026
             ]
           },
           "Stuor Muorkke branch": {
@@ -34191,10 +33761,10 @@
             ],
             "stations": [
               [
-                1033,
+                1024,
                 "Main line"
               ],
-              1036
+              1027
             ]
           },
           "Bodo branch": {
@@ -34226,10 +33796,10 @@
             ],
             "stations": [
               [
-                1027,
+                1018,
                 "Main line"
               ],
-              1037
+              1028
             ]
           }
         }
@@ -34288,13 +33858,13 @@
               ]
             ],
             "stations": [
+              1022,
+              1029,
+              1030,
               1031,
-              1038,
-              1039,
-              1040,
-              1041,
-              1042,
-              1043
+              1032,
+              1033,
+              1034
             ]
           }
         }
@@ -34425,15 +33995,15 @@
               ]
             ],
             "stations": [
-              1044,
+              1035,
               [
-                1007,
+                998,
                 "Oslo station platforms"
               ],
-              1045,
-              1046,
-              1047,
-              1048
+              1036,
+              1037,
+              1038,
+              1039
             ]
           },
           "Oslo station platforms": {
@@ -34529,241 +34099,9 @@
             ],
             "stations": [
               [
-                1007,
+                998,
                 "Main line"
               ]
-            ]
-          }
-        }
-      },
-      "Norway-Netherlands": {
-        "prefix": "",
-        "code": "NN",
-        "color": "994A00",
-        "y": "-62",
-        "branches": {
-          "Main line": {
-            "vertices": [
-              [
-                1874,
-                -12905
-              ],
-              [
-                1874,
-                -12933
-              ],
-              [
-                1881,
-                -12939
-              ],
-              [
-                1881,
-                -12905
-              ],
-              [
-                1881,
-                -12939
-              ],
-              [
-                1885,
-                -12939
-              ],
-              [
-                1885,
-                -12905
-              ],
-              [
-                1885,
-                -12939
-              ],
-              [
-                1893,
-                -12939
-              ],
-              [
-                1893,
-                -12905
-              ],
-              [
-                1893,
-                -12954
-              ],
-              [
-                1897,
-                -12946
-              ],
-              [
-                1893,
-                -12954
-              ],
-              [
-                1893,
-                -15745
-              ],
-              [
-                2157,
-                -15745
-              ],
-              [
-                2157,
-                -15731
-              ],
-              [
-                2202,
-                -15731
-              ],
-              [
-                2202,
-                -15790
-              ],
-              [
-                2211,
-                -15803
-              ],
-              [
-                2211,
-                -15813
-              ],
-              [
-                2214,
-                -15818
-              ],
-              [
-                2214,
-                -15797
-              ],
-              [
-                2206,
-                -15788
-              ],
-              [
-                2206,
-                -15727
-              ],
-              [
-                1897,
-                -15727
-              ],
-              [
-                1897,
-                -12954
-              ],
-              [
-                1893,
-                -12946
-              ],
-              [
-                1897,
-                -12954
-              ],
-              [
-                1897,
-                -12905
-              ],
-              [
-                1897,
-                -12942
-              ],
-              [
-                1905,
-                -12942
-              ],
-              [
-                1905,
-                -12905
-              ],
-              [
-                1905,
-                -12942
-              ],
-              [
-                1909,
-                -12942
-              ],
-              [
-                1909,
-                -12905
-              ],
-              [
-                1909,
-                -12942
-              ],
-              [
-                1917,
-                -12933
-              ],
-              [
-                1917,
-                -12905
-              ]
-            ],
-            "stations": [
-              1049,
-              995,
-              [
-                1050,
-                "The Golden Dunegon branch"
-              ],
-              [
-                1051,
-                "Mapplatform branch"
-              ],
-              1052,
-              837
-            ]
-          },
-          "Mapplatform branch": {
-            "vertices": [
-              [
-                1897,
-                -14649
-              ],
-              [
-                1478,
-                -14649
-              ],
-              [
-                1478,
-                -14669
-              ],
-              [
-                1444,
-                -14669
-              ],
-              [
-                1444,
-                -14652
-              ],
-              [
-                1217,
-                -14652
-              ]
-            ],
-            "stations": [
-              [
-                1051,
-                "Main line"
-              ],
-              1053
-            ]
-          },
-          "The Golden Dunegon branch": {
-            "vertices": [
-              [
-                1897,
-                -15481
-              ],
-              [
-                1218,
-                -15481
-              ]
-            ],
-            "stations": [
-              [
-                1050,
-                "Main line"
-              ],
-              1054
             ]
           }
         }
@@ -34863,9 +34201,9 @@
             ],
             "stations": [
               694,
-              1055,
-              1039,
-              1056
+              1040,
+              1030,
+              1041
             ]
           }
         }
@@ -34920,11 +34258,11 @@
               ]
             ],
             "stations": [
-              1056,
-              1057,
-              1058,
+              1041,
+              1042,
+              1043,
               235,
-              1059
+              1044
             ]
           }
         }
@@ -34966,17 +34304,17 @@
               ]
             ],
             "stations": [
-              1060,
-              1061,
-              1062,
-              1000,
-              1063,
-              1064,
+              1045,
+              1046,
+              1047,
+              991,
+              1048,
+              1049,
               [
-                1065,
+                1050,
                 "Fronningen branch"
               ],
-              1001
+              992
             ]
           },
           "Fronningen branch": {
@@ -34992,10 +34330,10 @@
             ],
             "stations": [
               [
-                1065,
+                1050,
                 "Main line"
               ],
-              1066
+              1051
             ]
           }
         }
@@ -35061,16 +34399,16 @@
               ]
             ],
             "stations": [
-              1067,
+              1052,
               [
-                1068,
+                1053,
                 "2nd line and West Agder branch"
               ],
-              1069,
-              999,
-              1070,
-              1071,
-              1072
+              1054,
+              990,
+              1055,
+              1056,
+              1057
             ]
           },
           "2nd line": {
@@ -35119,16 +34457,16 @@
               ]
             ],
             "stations": [
-              1073,
+              1058,
               [
-                1068,
+                1053,
                 "1st line and West Agder branch"
               ],
-              1069,
-              999,
-              1070,
-              1071,
-              1074
+              1054,
+              990,
+              1055,
+              1056,
+              1059
             ]
           },
           "West Agder branch": {
@@ -35144,10 +34482,10 @@
             ],
             "stations": [
               [
-                1068,
+                1053,
                 "1st line and 2nd line"
               ],
-              1075
+              1060
             ]
           }
         }
@@ -35155,7 +34493,7 @@
       "Sweden": {
         "prefix": "",
         "code": "Sw",
-        "color": "0A9900",
+        "color": "0a9900",
         "y": 64.0,
         "branches": {
           "Main line": {
@@ -35179,22 +34517,22 @@
             ],
             "stations": [
               [
-                1007,
+                998,
                 "Oslo-Ed Bypass"
               ],
-              1076,
-              1077,
-              1078,
-              1079,
-              1080,
-              1081,
-              1082,
-              1083,
+              1061,
+              1062,
+              1063,
+              1064,
+              1065,
+              1066,
+              1067,
+              1068,
               [
-                1084,
+                1069,
                 "Drottningstad branch"
               ],
-              1085,
+              1070,
               806
             ]
           },
@@ -35309,10 +34647,10 @@
             ],
             "stations": [
               [
-                1086,
+                1071,
                 "Oslo-Ed Bypass"
               ],
-              1087,
+              1072,
               815
             ]
           },
@@ -35369,12 +34707,12 @@
             ],
             "stations": [
               [
-                1007,
+                998,
                 "Main line"
               ],
-              1048,
+              1039,
               [
-                1086,
+                1071,
                 "Gothenburg line"
               ]
             ]
@@ -35404,10 +34742,10 @@
             ],
             "stations": [
               [
-                1084,
+                1069,
                 "Main line"
               ],
-              1088
+              1073
             ]
           },
           "Oslo-Gothenburg": {
@@ -35438,9 +34776,9 @@
               ]
             ],
             "stations": [
-              1089,
-              1089,
-              1090
+              1074,
+              1074,
+              1075
             ]
           },
           "Oslo-Gothenburg Line 2": {
@@ -35461,7 +34799,7 @@
       "Denmark-PLC": {
         "prefix": "",
         "code": "DK-PL",
-        "color": "EB001A",
+        "color": "eb001a",
         "y": -62.0,
         "branches": {
           "Main line": {
@@ -35548,9 +34886,9 @@
               ]
             ],
             "stations": [
-              1091,
-              1092,
-              1093
+              1076,
+              1077,
+              1078
             ]
           },
           "Main line Line 2": {
@@ -35732,36 +35070,36 @@
               ]
             ],
             "stations": [
-              1094,
+              1079,
               [
-                1095,
+                1080,
                 "Oslo branch"
               ],
               [
-                1096,
+                1081,
                 "Oslo branch"
               ],
               [
-                1097,
+                1082,
                 "Northern Route"
               ],
-              1098,
+              1083,
               [
-                1099,
+                1084,
                 "Finse station platforms"
               ],
               [
-                1100,
+                1085,
                 "Northern Route"
               ],
               [
-                1101,
+                1086,
                 "Bergen branch"
               ],
-              1102,
-              1103,
-              1104,
-              1105
+              1087,
+              1088,
+              1089,
+              1090
             ]
           },
           "Northern Route": {
@@ -35832,28 +35170,28 @@
               ]
             ],
             "stations": [
-              1017,
-              1106,
-              1107,
+              1008,
+              1091,
+              1092,
               [
-                1097,
+                1082,
                 "Main line"
               ],
-              1108,
+              1093,
               [
-                1109,
+                1094,
                 "Trondheim branch"
               ],
               [
-                1110,
+                1095,
                 "Vestnes Kommune branch"
               ],
-              1111,
-              1112,
-              1113,
-              1114,
+              1096,
+              1097,
+              1098,
+              1099,
               [
-                1100,
+                1085,
                 "Main line"
               ]
             ]
@@ -35899,7 +35237,7 @@
             ],
             "stations": [
               [
-                1099,
+                1084,
                 "Main line"
               ]
             ]
@@ -35989,7 +35327,7 @@
               ]
             ],
             "stations": [
-              1115
+              1100
             ]
           },
           "Bergen branch": {
@@ -36093,10 +35431,10 @@
             ],
             "stations": [
               [
-                1101,
+                1086,
                 "Main line"
               ],
-              1116
+              1101
             ]
           },
           "Bergen branch Line 2": {
@@ -36283,21 +35621,21 @@
               ]
             ],
             "stations": [
-              1117,
+              1102,
               [
-                1095,
+                1080,
                 "Main line"
               ],
-              1118,
-              1119,
-              1120,
-              1121,
-              1122,
-              1123,
-              1124,
-              1125,
+              1103,
+              1104,
+              1105,
+              1106,
+              1107,
+              1108,
+              1109,
+              1110,
               [
-                1096,
+                1081,
                 "Main line"
               ]
             ]
@@ -36560,12 +35898,12 @@
             ],
             "stations": [
               [
-                1109,
+                1094,
                 "Northern Route"
               ],
-              1126,
-              1127,
-              1011
+              1111,
+              1112,
+              1002
             ]
           },
           "Trondheim branch Line 2": {
@@ -36640,11 +35978,11 @@
             ],
             "stations": [
               [
-                1099,
+                1084,
                 "Main line"
               ],
-              1128,
-              1129
+              1113,
+              1114
             ]
           },
           "Vestnes Kommune branch": {
@@ -36672,11 +36010,11 @@
             ],
             "stations": [
               [
-                1110,
+                1095,
                 "Northern Route"
               ],
-              1130,
-              1131
+              1115,
+              1116
             ]
           }
         }
@@ -36719,7 +36057,7 @@
               ]
             ],
             "stations": [
-              1049
+              1117
             ]
           },
           "Main line Line 2": {
@@ -36773,7 +36111,7 @@
       "Denmark": {
         "prefix": "",
         "code": "DK",
-        "color": "D21034",
+        "color": "d21034",
         "y": 64.0,
         "branches": {
           "Main line": {
@@ -36872,14 +36210,14 @@
               ]
             ],
             "stations": [
-              1071,
-              1132,
+              1056,
+              1118,
               [
-                1133,
+                1119,
                 "Gothenburg branch"
               ],
-              1134,
-              1091
+              1120,
+              1076
             ]
           },
           "Main line Line 2": {
@@ -36941,10 +36279,10 @@
             ],
             "stations": [
               [
-                1133,
+                1119,
                 "Main line"
               ],
-              1087
+              1072
             ]
           },
           "Gothenburg branch Line 2": {
@@ -36976,6 +36314,292 @@
               ]
             ],
             "stations": []
+          }
+        }
+      },
+      "Norway-Netherlands": {
+        "prefix": "",
+        "code": "NN",
+        "color": "994a00",
+        "y": -62.0,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [
+                1874.0,
+                -12905.0
+              ],
+              [
+                1874.0,
+                -12933.0
+              ],
+              [
+                1881.0,
+                -12939.0
+              ],
+              [
+                1885.0,
+                -12939.0
+              ],
+              [
+                1893.0,
+                -12939.0
+              ],
+              [
+                1893.0,
+                -12905.0
+              ],
+              [
+                1893.0,
+                -12954.0
+              ],
+              [
+                1893.0,
+                -15745.0
+              ],
+              [
+                2157.0,
+                -15745.0
+              ],
+              [
+                2157.0,
+                -15731.0
+              ],
+              [
+                2202.0,
+                -15731.0
+              ],
+              [
+                2202.0,
+                -15790.0
+              ],
+              [
+                2211.0,
+                -15803.0
+              ],
+              [
+                2211.0,
+                -15813.0
+              ],
+              [
+                2214.0,
+                -15818.0
+              ],
+              [
+                2214.0,
+                -15797.0
+              ],
+              [
+                2206.0,
+                -15788.0
+              ],
+              [
+                2206.0,
+                -15727.0
+              ],
+              [
+                1897.0,
+                -15727.0
+              ],
+              [
+                1897.0,
+                -12954.0
+              ],
+              [
+                1897.0,
+                -12905.0
+              ],
+              [
+                1897.0,
+                -12942.0
+              ],
+              [
+                1905.0,
+                -12942.0
+              ],
+              [
+                1909.0,
+                -12942.0
+              ],
+              [
+                1917.0,
+                -12933.0
+              ],
+              [
+                1917.0,
+                -12905.0
+              ]
+            ],
+            "stations": [
+              1117,
+              986,
+              [
+                1121,
+                "The Golden Dunegon branch"
+              ],
+              [
+                1122,
+                "Mapplatform branch"
+              ],
+              1123,
+              1124
+            ]
+          },
+          "Main line Line 2": {
+            "vertices": [
+              [
+                1881.0,
+                -12939.0
+              ],
+              [
+                1881.0,
+                -12905.0
+              ],
+              [
+                1881.0,
+                -12939.0
+              ]
+            ],
+            "stations": []
+          },
+          "Main line Line 3": {
+            "vertices": [
+              [
+                1885.0,
+                -12939.0
+              ],
+              [
+                1885.0,
+                -12905.0
+              ],
+              [
+                1885.0,
+                -12939.0
+              ]
+            ],
+            "stations": []
+          },
+          "Main line Line 4": {
+            "vertices": [
+              [
+                1893.0,
+                -12954.0
+              ],
+              [
+                1897.0,
+                -12946.0
+              ],
+              [
+                1893.0,
+                -12954.0
+              ]
+            ],
+            "stations": []
+          },
+          "Main line Line 5": {
+            "vertices": [
+              [
+                1897.0,
+                -12954.0
+              ],
+              [
+                1893.0,
+                -12946.0
+              ],
+              [
+                1897.0,
+                -12954.0
+              ]
+            ],
+            "stations": []
+          },
+          "Main line Line 6": {
+            "vertices": [
+              [
+                1905.0,
+                -12942.0
+              ],
+              [
+                1905.0,
+                -12905.0
+              ],
+              [
+                1905.0,
+                -12942.0
+              ]
+            ],
+            "stations": []
+          },
+          "Main line Line 7": {
+            "vertices": [
+              [
+                1909.0,
+                -12942.0
+              ],
+              [
+                1909.0,
+                -12905.0
+              ],
+              [
+                1909.0,
+                -12942.0
+              ]
+            ],
+            "stations": []
+          },
+          "Mapplatform branch": {
+            "vertices": [
+              [
+                1897.0,
+                -14649.0
+              ],
+              [
+                1478.0,
+                -14649.0
+              ],
+              [
+                1478.0,
+                -14669.0
+              ],
+              [
+                1444.0,
+                -14669.0
+              ],
+              [
+                1444.0,
+                -14652.0
+              ],
+              [
+                1217.0,
+                -14652.0
+              ]
+            ],
+            "stations": [
+              [
+                1122,
+                "Main line"
+              ],
+              1125
+            ]
+          },
+          "The Golden Dunegon branch": {
+            "vertices": [
+              [
+                1897.0,
+                -15481.0
+              ],
+              [
+                1218.0,
+                -15481.0
+              ]
+            ],
+            "stations": [
+              [
+                1121,
+                "Main line"
+              ],
+              1126
+            ]
           }
         }
       }
@@ -37027,9 +36651,9 @@
               ]
             ],
             "stations": [
-              1135,
-              1136,
-              1137
+              1127,
+              1128,
+              1129
             ]
           }
         }
@@ -37060,8 +36684,8 @@
               ]
             ],
             "stations": [
-              1138,
-              1139
+              1130,
+              1131
             ]
           }
         }
@@ -37147,23 +36771,23 @@
               ]
             ],
             "stations": [
-              1140,
+              1132,
               [
-                1141,
+                1133,
                 "Jezzine branch"
               ],
-              1142,
+              1134,
               [
-                1143,
+                1135,
                 "Aram branch"
               ],
-              1144,
+              1136,
               [
-                1145,
+                1137,
                 "Aram branch"
               ],
-              1146,
-              1147
+              1138,
+              1139
             ]
           },
           "Jezzine branch": {
@@ -37179,10 +36803,10 @@
             ],
             "stations": [
               [
-                1141,
+                1133,
                 "Main line"
               ],
-              1148
+              1140
             ]
           },
           "Aram branch": {
@@ -37198,10 +36822,10 @@
             ],
             "stations": [
               [
-                1143,
+                1135,
                 "Main line"
               ],
-              1149
+              1141
             ]
           },
           "Euphrates branch": {
@@ -37217,10 +36841,10 @@
             ],
             "stations": [
               [
-                1145,
+                1137,
                 "Main line"
               ],
-              1150
+              1142
             ]
           }
         }
@@ -37255,10 +36879,10 @@
               ]
             ],
             "stations": [
-              1140,
-              1151,
-              1152,
-              1153
+              1132,
+              1143,
+              1144,
+              1145
             ]
           }
         }
@@ -37316,18 +36940,18 @@
             ],
             "stations": [
               [
-                1154,
+                1146,
                 "Anapa branch"
               ],
               [
-                1155,
+                1147,
                 "Abzakh branch"
               ],
               [
-                1156,
+                1148,
                 "Maykop branch"
               ],
-              1157
+              1149
             ]
           },
           "Anapa branch": {
@@ -37344,7 +36968,7 @@
             ],
             "stations": [
               [
-                1154,
+                1146,
                 "Main line"
               ]
             ]
@@ -37362,7 +36986,7 @@
             ],
             "stations": [
               [
-                1155,
+                1147,
                 "Main line"
               ]
             ]
@@ -37380,10 +37004,10 @@
             ],
             "stations": [
               [
-                1156,
+                1148,
                 "Main line"
               ],
-              1158
+              1150
             ]
           }
         }
@@ -37407,11 +37031,11 @@
             ],
             "stations": [
               [
-                1159,
+                1151,
                 "North connector branch"
               ],
-              1160,
-              1161
+              1152,
+              1153
             ]
           },
           "North connector branch": {
@@ -37426,9 +37050,9 @@
               ]
             ],
             "stations": [
-              1157,
+              1149,
               [
-                1159,
+                1151,
                 "Main line"
               ]
             ]
@@ -37477,12 +37101,12 @@
               ]
             ],
             "stations": [
-              1162,
+              1154,
               [
-                1163,
+                1155,
                 "Nicaea branch"
               ],
-              1164
+              1156
             ]
           },
           "Nicaea branch": {
@@ -37498,7 +37122,7 @@
             ],
             "stations": [
               [
-                1163,
+                1155,
                 "Main line"
               ]
             ]
@@ -37526,19 +37150,19 @@
               ]
             ],
             "stations": [
-              1165,
-              1166,
-              1167,
+              1157,
+              1158,
+              1159,
               [
-                1168,
+                1160,
                 "Newport branch"
               ],
               [
-                1169,
+                1161,
                 "Prince Edward branch"
               ],
               [
-                1170,
+                1162,
                 "Maine branch"
               ]
             ]
@@ -37556,12 +37180,12 @@
             ],
             "stations": [
               [
-                1169,
+                1161,
                 "Main line"
               ],
-              1171,
+              1163,
               [
-                1172,
+                1164,
                 "St Lawrence branch"
               ]
             ]
@@ -37579,11 +37203,11 @@
             ],
             "stations": [
               [
-                1172,
+                1164,
                 "Prince Edward branch"
               ],
               [
-                1173,
+                1165,
                 "Maine branch"
               ]
             ]
@@ -37601,11 +37225,11 @@
             ],
             "stations": [
               [
-                1173,
+                1165,
                 "St Lawrence branch"
               ],
               [
-                1170,
+                1162,
                 "Main line"
               ]
             ]
@@ -37631,10 +37255,10 @@
             ],
             "stations": [
               [
-                1168,
+                1160,
                 "Main line"
               ],
-              1174,
+              1166,
               625
             ]
           }
@@ -37673,8 +37297,696 @@
             ],
             "stations": [
               40,
-              1175
+              1167
             ]
+          }
+        }
+      }
+    },
+    "NL": {
+      "Netherlands-France by Vy": {
+        "prefix": "",
+        "code": "NF",
+        "color": "360099",
+        "y": 64.0,
+        "branches": {
+          "Main line": {
+            "vertices": [
+              [
+                616.0,
+                -10847.0
+              ],
+              [
+                600.0,
+                -10847.0
+              ],
+              [
+                587.0,
+                -10854.0
+              ],
+              [
+                616.0,
+                -10854.0
+              ],
+              [
+                580.0,
+                -10854.0
+              ],
+              [
+                278.0,
+                -10854.0
+              ],
+              [
+                278.0,
+                -11365.0
+              ],
+              [
+                278.0,
+                -11369.0
+              ],
+              [
+                338.0,
+                -11369.0
+              ],
+              [
+                329.0,
+                -11378.0
+              ],
+              [
+                293.0,
+                -11378.0
+              ],
+              [
+                284.0,
+                -11369.0
+              ],
+              [
+                813.0,
+                -11369.0
+              ],
+              [
+                813.0,
+                -12987.0
+              ],
+              [
+                1885.0,
+                -12987.0
+              ],
+              [
+                1885.0,
+                -12939.0
+              ],
+              [
+                1881.0,
+                -12939.0
+              ],
+              [
+                1881.0,
+                -12983.0
+              ],
+              [
+                818.0,
+                -12983.0
+              ],
+              [
+                818.0,
+                -11365.0
+              ],
+              [
+                300.0,
+                -11365.0
+              ],
+              [
+                309.0,
+                -11356.0
+              ],
+              [
+                332.0,
+                -11356.0
+              ],
+              [
+                341.0,
+                -11365.0
+              ],
+              [
+                282.0,
+                -11365.0
+              ],
+              [
+                282.0,
+                -10858.0
+              ],
+              [
+                580.0,
+                -10858.0
+              ],
+              [
+                616.0,
+                -10858.0
+              ],
+              [
+                587.0,
+                -10858.0
+              ],
+              [
+                600.0,
+                -10865.0
+              ],
+              [
+                616.0,
+                -10865.0
+              ]
+            ],
+            "stations": [
+              1124,
+              1168,
+              1169,
+              1170,
+              1171,
+              1172,
+              1173,
+              1174
+            ]
+          },
+          "Main line Line 2": {
+            "vertices": [
+              [
+                580.0,
+                -10854.0
+              ],
+              [
+                574.0,
+                -10858.0
+              ],
+              [
+                580.0,
+                -10854.0
+              ]
+            ],
+            "stations": []
+          },
+          "Main line Line 3": {
+            "vertices": [
+              [
+                278.0,
+                -11365.0
+              ],
+              [
+                282.0,
+                -11360.0
+              ],
+              [
+                278.0,
+                -11365.0
+              ]
+            ],
+            "stations": []
+          },
+          "Main line Line 4": {
+            "vertices": [
+              [
+                580.0,
+                -10858.0
+              ],
+              [
+                574.0,
+                -10854.0
+              ],
+              [
+                580.0,
+                -10858.0
+              ]
+            ],
+            "stations": []
+          }
+        }
+      }
+    },
+    "Renfe": {
+      "Renfe by Vy": {
+        "prefix": "",
+        "code": "NF",
+        "color": "995c00",
+        "y": 76.0,
+        "branches": {
+          "Main": {
+            "vertices": [
+              [
+                -514.5,
+                -8469.5
+              ],
+              [
+                -1718.5,
+                -8470.5
+              ]
+            ],
+            "stations": [
+              1175,
+              1176,
+              1177,
+              1178,
+              1179,
+              1180,
+              1181
+            ]
+          },
+          "Main Line 2": {
+            "vertices": [
+              [
+                -2618.5,
+                -6520.5
+              ],
+              [
+                -2500.5,
+                -6520.5
+              ]
+            ],
+            "stations": []
+          },
+          "Main Line 3": {
+            "vertices": [
+              [
+                -2620.5,
+                -6516.5
+              ],
+              [
+                -2504.5,
+                -6516.5
+              ]
+            ],
+            "stations": []
+          },
+          "Main Line 4": {
+            "vertices": [
+              [
+                -342.5,
+                -7050.5
+              ],
+              [
+                -342.5,
+                -6765.5
+              ],
+              [
+                -342.5,
+                -6761.5
+              ],
+              [
+                -342.5,
+                -6357.5
+              ],
+              [
+                -745.5,
+                -6357.5
+              ],
+              [
+                -745.5,
+                -6470.5
+              ],
+              [
+                -1412.5,
+                -6470.5
+              ],
+              [
+                -1416.5,
+                -6470.5
+              ],
+              [
+                -1718.5,
+                -6470.5
+              ],
+              [
+                -1722.5,
+                -6470.5
+              ],
+              [
+                -2165.5,
+                -6470.5
+              ],
+              [
+                -2169.5,
+                -6470.5
+              ],
+              [
+                -2504.5,
+                -6470.5
+              ],
+              [
+                -2504.5,
+                -6516.5
+              ]
+            ],
+            "stations": []
+          },
+          "Main Line 5": {
+            "vertices": [
+              [
+                -346.5,
+                -7050.5
+              ],
+              [
+                -346.5,
+                -6765.5
+              ],
+              [
+                -346.5,
+                -6761.5
+              ],
+              [
+                -346.5,
+                -6361.5
+              ],
+              [
+                -741.5,
+                -6361.5
+              ],
+              [
+                -741.5,
+                -6474.5
+              ],
+              [
+                -1412.5,
+                -6474.5
+              ],
+              [
+                -1416.5,
+                -6474.5
+              ],
+              [
+                -1718.5,
+                -6474.5
+              ],
+              [
+                -1722.5,
+                -6474.5
+              ],
+              [
+                -2165.5,
+                -6474.5
+              ],
+              [
+                -2169.5,
+                -6474.5
+              ],
+              [
+                -2500.5,
+                -6474.5
+              ],
+              [
+                -2500.5,
+                -6520.5
+              ]
+            ],
+            "stations": []
+          },
+          "Main Line 6": {
+            "vertices": [
+              [
+                -2220.5,
+                -5754.5
+              ],
+              [
+                -1941.5,
+                -5754.5
+              ],
+              [
+                -1941.5,
+                -5849.5
+              ],
+              [
+                -1722.5,
+                -5849.5
+              ],
+              [
+                -1722.5,
+                -6470.5
+              ],
+              [
+                -1722.5,
+                -6474.5
+              ],
+              [
+                -1722.5,
+                -8475.5
+              ],
+              [
+                -510.5,
+                -8474.5
+              ]
+            ],
+            "stations": []
+          },
+          "Main Line 7": {
+            "vertices": [
+              [
+                -2169.5,
+                -6268.5
+              ],
+              [
+                -2169.5,
+                -6470.5
+              ],
+              [
+                -2169.5,
+                -6474.5
+              ]
+            ],
+            "stations": []
+          },
+          "Main Line 8": {
+            "vertices": [
+              [
+                -2165.5,
+                -6268.5
+              ],
+              [
+                -2165.5,
+                -6470.5
+              ],
+              [
+                -2165.5,
+                -6474.5
+              ]
+            ],
+            "stations": []
+          },
+          "Main Line 9": {
+            "vertices": [
+              [
+                -1718.5,
+                -8470.5
+              ],
+              [
+                -1718.5,
+                -6474.5
+              ],
+              [
+                -1718.5,
+                -6470.5
+              ],
+              [
+                -1718.5,
+                -5845.5
+              ],
+              [
+                -1937.5,
+                -5845.5
+              ],
+              [
+                -1937.5,
+                -5750.5
+              ],
+              [
+                -2220.5,
+                -5750.5
+              ]
+            ],
+            "stations": []
+          },
+          "Main Line 10": {
+            "vertices": [
+              [
+                -1468.5,
+                -5902.5
+              ],
+              [
+                -1468.5,
+                -6045.5
+              ],
+              [
+                -1459.5,
+                -6045.5
+              ],
+              [
+                -1459.5,
+                -6082.5
+              ],
+              [
+                -1416.5,
+                -6082.5
+              ],
+              [
+                -1416.5,
+                -6470.5
+              ],
+              [
+                -1416.5,
+                -6474.5
+              ],
+              [
+                -1416.5,
+                -6487.5
+              ],
+              [
+                -1225.5,
+                -6487.5
+              ],
+              [
+                -1225.5,
+                -6769.5
+              ]
+            ],
+            "stations": []
+          },
+          "Main Line 11": {
+            "vertices": [
+              [
+                -1466.5,
+                -5902.5
+              ],
+              [
+                -1466.5,
+                -6043.5
+              ],
+              [
+                -1457.5,
+                -6043.5
+              ],
+              [
+                -1457.5,
+                -6080.5
+              ],
+              [
+                -1412.5,
+                -6080.5
+              ],
+              [
+                -1412.5,
+                -6470.5
+              ],
+              [
+                -1412.5,
+                -6474.5
+              ],
+              [
+                -1412.5,
+                -6483.5
+              ],
+              [
+                -1221.5,
+                -6483.5
+              ],
+              [
+                -1221.5,
+                -6769.5
+              ]
+            ],
+            "stations": []
+          },
+          "Main Line 12": {
+            "vertices": [
+              [
+                -1438.5,
+                -6009.5
+              ],
+              [
+                -1438.5,
+                -6025.5
+              ],
+              [
+                -1440.5,
+                -6025.5
+              ],
+              [
+                -1440.5,
+                -6041.5
+              ],
+              [
+                -1451.5,
+                -6041.5
+              ],
+              [
+                -1451.5,
+                -6080.5
+              ]
+            ],
+            "stations": []
+          },
+          "Main Line 13": {
+            "vertices": [
+              [
+                -1436.5,
+                -6009.5
+              ],
+              [
+                -1436.5,
+                -6027.5
+              ],
+              [
+                -1438.5,
+                -6027.5
+              ],
+              [
+                -1438.5,
+                -6043.5
+              ],
+              [
+                -1449.5,
+                -6043.5
+              ],
+              [
+                -1449.5,
+                -6080.5
+              ]
+            ],
+            "stations": []
+          },
+          "Main Line 14": {
+            "vertices": [
+              [
+                -167.5,
+                -6672.5
+              ],
+              [
+                -167.5,
+                -6701.5
+              ],
+              [
+                -208.5,
+                -6701.5
+              ],
+              [
+                -208.5,
+                -6765.5
+              ],
+              [
+                -342.5,
+                -6765.5
+              ],
+              [
+                -346.5,
+                -6765.5
+              ]
+            ],
+            "stations": []
+          },
+          "Main Line 15": {
+            "vertices": [
+              [
+                -172.5,
+                -6672.5
+              ],
+              [
+                -172.5,
+                -6697.5
+              ],
+              [
+                -212.5,
+                -6697.5
+              ],
+              [
+                -212.5,
+                -6761.5
+              ],
+              [
+                -342.5,
+                -6761.5
+              ],
+              [
+                -346.5,
+                -6761.5
+              ]
+            ],
+            "stations": []
           }
         }
       }
