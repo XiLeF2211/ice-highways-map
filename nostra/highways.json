@@ -4542,7 +4542,7 @@
             "z": -7433,
             "lines": {
                 "Amtrak": {
-                    "Cardinal": ["", ""]
+                    "Cardinal": ["", "Main line"]
                 }
             }
         },
@@ -4553,7 +4553,7 @@
             "z": -7739,
             "lines": {
                 "Amtrak": {
-                    "Cardinal": ["", ""]
+                    "Cardinal": ["", "Main line"]
                 }
             }
         },
@@ -4564,7 +4564,7 @@
             "z": -7739,
             "lines": {
                 "Amtrak": {
-                    "Cardinal": ["", ""]
+                    "Cardinal": ["", "Main line"]
                 }
             }
         },
@@ -10850,7 +10850,8 @@
             "z": -7325,
             "lines": {
                 "Amtrak": {
-                    "City of New Orleans":  ["", "Southbound Tube to Northbound Tube"]
+                    "City of New Orleans":  ["", "Southbound Tube to Northbound Tube"],
+                    "Old Amtrak": ["", "Old Capitol Limited"]
                 }
             },
             "areas": [
@@ -10882,7 +10883,7 @@
             "lines": {
                 "Amtrak": {
                     "Atlantic": ["", "Eastbound Tube to Westbound Tube"],
-                    "Cardinal": ["", ""]
+                    "Cardinal": ["", "Main line"]
                 }
             },
             "areas": [
@@ -10954,7 +10955,7 @@
             "z": -7333,
             "lines": {
                 "Amtrak": {
-					"Cardinal": ["", ""],
+					"Cardinal": ["", "Main line"],
                     "Old Amtrak": ["", "Old Capitol Limited"]
                 }
             }
@@ -11106,7 +11107,8 @@
             "z": -7739,
             "lines": {
                 "Amtrak": {
-                    "Wolverine": ["", "Main line to Chicago branch"]
+                    "Wolverine": ["", "Main line"],
+					"Cardinal": ["", "Cleveland branch"]
                 }
             }
         },
@@ -11163,8 +11165,7 @@
             "z": -7739,
             "lines": {
                 "Amtrak": {
-                    "Wolverine": ["", "Chicago branch"],
-                    "Cardinal": ["", ""]
+                    "Cardinal": ["", "Main line to Cleveland branch"]
                 }
             }
         },
@@ -12208,7 +12209,7 @@
             "lines": {
 				"Amtrak": {
 					"City of New Orleans": ["", "Northbound Tube to Southbound Tube"],
-					"Yartville Bypass": ["", ""]
+					"Yartville": ["", ""]
 				}
             }
         },
@@ -12219,7 +12220,7 @@
             "z": -5828,
             "lines": {
 				"Amtrak": {
-					"Yartville Bypass": ["", ""]
+					"Yartville": ["", ""]
 				}
             }
         },
@@ -12232,7 +12233,7 @@
             "lines": {
 				"Amtrak": {
 					"City of New Orleans": ["", "Northbound Tube to Southbound Tube"],
-					"Yartville Bypass": ["", ""]
+					"Yartville": ["", ""]
 				}
             }
         },
@@ -16908,7 +16909,7 @@
 
                 }
             },
-            "Yartville Bypass": {
+            "Yartville": {
                 "prefix": "",
                 "code": "YRT",
                 "color": "9999ff",
@@ -16950,7 +16951,7 @@
                     "Ozark branch": {
                         "vertices": [
                             [-32761, -5482],
-							[-31663, -5482]
+							[-31657, -5482]
                         ],
                         "stations": [1078, [1079, "Main line"], 1080]
                     },
@@ -16974,15 +16975,44 @@
                     "Old Capitol Limited": {
                         "vertices": [
                             [-27326, -7333],
-                            [-30202, -7333],
-                            [-30202, -7739]
+							[-31428, -7333],
+                            [-31428, -7325],
+							[-31428, -7325],
+							[-31453, -7325],
+							[-31453, -7210],
+							[-31453, -7325],
+							[-31453, -7325],
+							[-32227, -7325],
+							[-32227, -7315],
+							[-33066, -7315]
+							
                         ],
-                        "stations": [904, 915, 385]
+                        "stations": [897, 904, 915, 385]
                     },
                     "Old Borealis": {
                         "vertices": [
                             [-33927, -7195],
 							[-33188, -7195]
+                        ]
+                    },
+                    "Old City of New Orleans": {
+                        "vertices": [
+                            [-31602, -5255],
+							[-31602, -5482],
+							[-31657, -5482],
+							[-31602, -5482],
+							[-31602, -5726],
+							[-31429, -5726],
+							[-31429, -5942],
+							[-31657, -5942]
+                        ]
+                    },
+                    "Old Atlantic Bypass": {
+                        "vertices": [
+                            [-28085, -7210],
+                            [-28085, -7253],
+                            [-28013, -7253],
+							[-28013, -7210]
                         ]
                     }
                 }
@@ -16993,14 +17023,22 @@
                 "color": "9999ff",
                 "y": 8,
                 "branches": {
-                    "": {
+                    "Main line": {
                         "vertices": [
-                            [-30202, -7210],
+							[-30224, -6813],
+                            [-30202, -6813],
                             [-30202, -7739],
                             [-31391, -7739]
                         ],
-                        "stations": [388, 387, 921, 386, 904, 899]
-                    }
+                        "stations": [388, 387, [921, "Cleveland branch"], 386, 904, 899]
+                    },
+					"Cleveland branch": {
+                        "vertices": [
+                            [-30202, -7739],
+                            [-29249, -7739]
+                        ],
+                        "stations": [[921, "Main line"], 916]
+					}
                 }
             },
             "Pennsylvanian": {
@@ -17046,14 +17084,7 @@
                             [-29720, -9617],
                             [-29720 , -7210]
                         ],
-                        "stations": [1096, 990, 919, [918, "Flint branch"], 917, [916, "Chicago branch"], 915, 900]
-                    },
-                    "Chicago branch": {
-                        "vertices": [
-                            [-29720, -7739],
-                            [-30202, -7739]
-                        ],
-                        "stations": [921, [916, "Main line"]]
+                        "stations": [1096, 990, 919, [918, "Flint branch"], 917, 916, 915, 900]
                     },
                     "Flint branch": {
                         "vertices": [
@@ -17062,7 +17093,6 @@
                         ],
                         "stations": [920, [918, "Main line"]]
                     }
-
                 }
             },
             "Borealis": {
