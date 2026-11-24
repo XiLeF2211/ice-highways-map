@@ -9805,7 +9805,7 @@
                     ],
                     "City of New Orleans": [
                         "",
-                        "Southbound Tube to Northbound Tube"
+                        "Northbound Tube to Southbound Tube"
                     ]
                 }
             }
@@ -10152,24 +10152,12 @@
             "name": "Chicago: State / Lake SB",
             "x": -31663,
             "z": -8132,
-            "areas": [
-                [
-                    [
-                        -31669,
-                        -8131
-                    ],
-                    [
-                        -31657,
-                        -8133
-                    ]
-                ]
-            ],
             "id": 599,
             "lines": {
                 "Amtrak": {
                     "City of New Orleans": [
                         "",
-                        "Southbound Tube to Northbound Tube"
+                        "Northbound Tube to Southbound Tube"
                     ]
                 }
             }
@@ -10178,50 +10166,26 @@
             "name": "Chicago: State / Roosevelt",
             "x": -31663,
             "z": -7948,
-            "areas": [
-                [
-                    [
-                        -31669,
-                        -7949
-                    ],
-                    [
-                        -31657,
-                        -7947
-                    ]
-                ]
-            ],
             "id": 600,
             "lines": {
                 "Amtrak": {
                     "City of New Orleans": [
                         "",
-                        "Southbound Tube to Northbound Tube"
+                        "Northbound Tube to Southbound Tube"
                     ]
                 }
             }
         },
         {
-            "name": "Chicago: Parkway Gardens",
+            "name": "Chicago: Dearborn Park",
             "x": -31663,
-            "z": -7780,
-            "areas": [
-                [
-                    [
-                        -31669,
-                        -7781
-                    ],
-                    [
-                        -31657,
-                        -7779
-                    ]
-                ]
-            ],
+            "z": -7702,
             "id": 601,
             "lines": {
                 "Amtrak": {
                     "City of New Orleans": [
                         "",
-                        "Southbound Tube to Northbound Tube"
+                        "Northbound Tube to Southbound Tube"
                     ]
                 }
             }
@@ -10248,7 +10212,7 @@
                 "Amtrak": {
                     "City of New Orleans": [
                         "",
-                        "Southbound Tube to Northbound Tube"
+                        "Northbound Tube to Southbound Tube"
                     ],
                     "Old Amtrak": ["", "Old Capitol Limited"]
                 }
@@ -10302,7 +10266,7 @@
                 "Amtrak": {
                     "City of New Orleans": [
                         "",
-                        "Northbound Disc to Southbound Disc"
+                        "Northbound Tube to Southbound Tube"
                     ],
                     "Yartville": [
                         "",
@@ -10321,7 +10285,7 @@
                 "Amtrak": {
                     "City of New Orleans": [
                         "",
-                        "Northbound Disc and Southbound Disc"
+                        "Northbound Tube and Southbound Tube"
                     ],
                     "Volunteer": [
                         "",
@@ -10340,7 +10304,7 @@
                 "Amtrak": {
                     "City of New Orleans": [
                         "",
-                        "Northbound Disc and Southbound Disc"
+                        "Northbound Tube to Southbound Tube"
                     ],
                     "Volunteer": [
                         "",
@@ -10652,7 +10616,7 @@
             "id": 627,
             "lines": {
                 "Amtrak": {
-                    "Wolverine": [
+                    "Woke": [
                         "",
                         "Main line"
                     ]
@@ -10660,13 +10624,13 @@
             }
         },
         {
-            "name": "Woke Bay",
+            "name": "Ninjago, Woke Bay",
             "x": -29463,
             "z": -9617,
             "id": 628,
             "lines": {
                 "Amtrak": {
-                    "Wolverine": [
+                    "Woke": [
                         "",
                         "Main line"
                     ]
@@ -20617,6 +20581,105 @@
                     "Cardinal": ["", "Cleveland branch"]
                 }
             }
+        },
+        {
+            "name": "Chicago, IL",
+            "id": 1209,
+            "x": -31663,
+            "z": -7747,
+            "lines": {
+                "Amtrak": {
+                    "Cardinal": ["", "Main line"],
+					"City of New Orleans": ["", "Northbound Tube to Southbound Tube"]
+                }
+            },
+            "areas": [
+                [ [-31656, -7700], [-31670, -8142] ],
+				[ [-31622, -7733], [-31656, -7745] ]
+            ]
+        },
+        {
+            "name": "Woke JCT",
+            "type": "jct",
+            "id": 1210,
+            "x": -29720,
+            "z": -9617,
+            "lines": {
+                "Amtrak": {
+                    "Wolverine": ["", "Main line"],
+					"Woke": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mackinaw City, MI",
+            "id": 1211,
+            "x": -30387,
+            "z": -9617,
+            "lines": {
+                "Amtrak": {
+					"Woke": ["", "Main line"]
+                }
+            }
+        },
+        {
+            "name": "Mackinaw JCT",
+            "type": "jct",
+            "id": 1212,
+            "x": -30484,
+            "z": -9617,
+            "lines": {
+                "Amtrak": {
+					"Woke": ["", "Main line to White Fish branch"]
+                }
+            }
+        },
+        {
+            "name": "White Fish Point, America",
+            "id": 1213,
+            "x": -30484,
+            "z": -10073,
+            "lines": {
+                "Amtrak": {
+					"Woke": ["", "White Fish branch"]
+                }
+            }
+        },
+        {
+            "name": "Montargent JCT",
+            "type": "jct",
+            "id": 1214,
+            "x": -30841,
+            "z": -9617,
+            "lines": {
+                "Amtrak": {
+					"Woke": ["", "Main line to Montargent branch"]
+                }
+            }
+        },
+        {
+            "name": "Nullville JCT",
+            "type": "jct",
+            "id": 1215,
+            "x": -31663,
+            "z": -6408,
+            "lines": {
+                "Amtrak": {
+					"Nullville": ["", ""],
+					"City of New Orleans": ["", "Nohrtbound to Southbound Tube"]
+                }
+            }
+        },
+        {
+            "name": "Nullville, IN, Chicagoland",
+            "id": 1216,
+            "x": -31346,
+            "z": -6408,
+            "lines": {
+                "Amtrak": {
+					"Nullville": ["", ""]
+                }
+            }
         }
     ],
     "lines": {
@@ -27557,13 +27620,14 @@
                             ],
                             [
                                 -31669,
-                                -5873
+                                -5255
                             ]
                         ],
                         "stations": [
-                            599,
+							599,
                             600,
-                            601,
+							1209,
+							601,
                             [
                                 602,
                                 "Northbound Tube"
@@ -27577,7 +27641,23 @@
                                 "Northbound Tube"
                             ],
                             [
+                                1215,
+                                "Northbound Tube"
+                            ],
+                            [
                                 604,
+                                "Northbound Tube"
+                            ],
+                            [
+                                605,
+                                "Northbound Tube"
+                            ],
+                            [
+                                606,
+                                "Northbound Tube"
+                            ],
+                            [
+                                607,
                                 "Northbound Tube"
                             ]
                         ]
@@ -27590,13 +27670,14 @@
                             ],
                             [
                                 -31657,
-                                -5873
+                                -5255
                             ]
                         ],
                         "stations": [
-                            599,
+							599,
                             600,
-                            601,
+							1209,
+							601,
                             [
                                 602,
                                 "Southbound Tube"
@@ -27610,60 +27691,24 @@
                                 "Southbound Tube"
                             ],
                             [
+                                1215,
+                                "Southbound Tube"
+                            ],
+                            [
                                 604,
                                 "Southbound Tube"
-                            ]
-                        ]
-                    },
-                    "Southbound Disc": {
-                        "vertices": [
-                            [
-                                -31669,
-                                -5808
                             ],
                             [
-                                -31669,
-                                -5255
-                            ]
-                        ],
-                        "stations": [
-                            [
                                 605,
-                                "Northbound Disc"
+                                "Southbound Tube"
                             ],
                             [
                                 606,
-                                "Northbound Disc"
+                                "Southbound Tube"
                             ],
                             [
                                 607,
-                                "Northbound Disc"
-                            ]
-                        ]
-                    },
-                    "Northbound Disc": {
-                        "vertices": [
-                            [
-                                -31657,
-                                -5808
-                            ],
-                            [
-                                -31657,
-                                -5255
-                            ]
-                        ],
-                        "stations": [
-                            [
-                                605,
-                                "Southbound Disc"
-                            ],
-                            [
-                                606,
-                                "Southbound Disc"
-                            ],
-                            [
-                                607,
-                                "Southbound Disc"
+                                "Southbound Tube"
                             ]
                         ]
                     }
@@ -27912,9 +27957,10 @@
                             [-30224, -6813],
                             [-30202, -6813],
                             [-30202, -7739],
-                            [-31391, -7739]
+                            [-31641, -7739]
                         ],
                         "stations": [
+							1209,
                             621,
                             622,
                             [623, "Cleveland branch"],
@@ -27990,10 +28036,6 @@
                     "Main line": {
                         "vertices": [
                             [
-                                -28910,
-                                -9617
-                            ],
-                            [
                                 -29720,
                                 -9617
                             ],
@@ -28003,8 +28045,7 @@
                             ]
                         ],
                         "stations": [
-                            627,
-                            628,
+                            1209,
                             629,
                             [
                                 630,
@@ -28282,6 +28323,49 @@
                             581,
                             646
                         ]
+                    }
+                }
+            },
+            "Woke": {
+                "prefix": "",
+                "code": "WOKE",
+                "color": "9999ff",
+                "y": 8,
+                "branches": {
+                    "Main line": {
+                        "vertices": [
+                            [-28910, -9617],
+							[-30841, -9617]
+                        ],
+                        "stations": [627, 628, 1210, 1211, [1212, "White Fish branch"], [1214, "Montargent branch"]]
+                    },
+					"White Fish branch": {
+                        "vertices": [
+                            [-30484, -9617],
+							[-30484, -10073]
+                        ],
+                        "stations": [[1212, "Main line"], 1213]
+					},
+					"Montargent branch": {
+                        "vertices": [
+                            [-30841, -9617]
+                        ],
+                        "stations": [[1214, "Main line"]]
+					}
+                }
+            },
+            "Nullville": {
+                "prefix": "",
+                "code": "NUL",
+                "color": "9999ff",
+                "y": 8,
+                "branches": {
+                    "": {
+                        "vertices": [
+                            [-31669, -6408],
+							[-31346, -6408]
+                        ],
+                        "stations": [1215, 1216]
                     }
                 }
             }
